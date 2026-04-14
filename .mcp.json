@@ -18,6 +18,21 @@
     "github": {
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-github"]
+    },
+    "image-generation": {
+      "command": "npx",
+      "args": ["-y", "mcp-image"],
+      "env": {
+        "GOOGLE_API_KEY": "${GOOGLE_API_KEY}"
+      }
+    },
+    "mermaid": {
+      "command": "npx",
+      "args": ["-y", "mcp-mermaid"]
+    },
+    "diagram-generator": {
+      "command": "npx",
+      "args": ["-y", "mcp-diagram-generator"]
     }
   }
 }

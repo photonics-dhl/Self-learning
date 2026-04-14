@@ -57,8 +57,9 @@
 │       ▼                                                           │
 │  ┌─────────────┐    ┌─────────────┐    ┌─────────────────────────┐ │
 │  │   Zotero    │◄──►│   Obsidian  │◄──►│   MCP Servers          │ │
-│  │  文献库      │    │   知识中枢   │    │   Tavily/学术搜索      │ │
-│  └─────────────┘    └─────────────┘    └─────────────────────────┘ │
+│  │  文献库      │    │   知识中枢   │    │   Tavily/Semantic      │ │
+│  └─────────────┘    └─────────────┘    │   Image/Mermaid        │ │
+│                                          └─────────────────────────┘ │
 │                                                                     │
 └─────────────────────────────────────────────────────────────────────┘
 ```
@@ -109,10 +110,11 @@ Self_Learning/
 ```bash
 # Zotero (已配置)
 ZOTERO_API_KEY=gKXxzW93bZAWlbs0DCN0KVbj
-ZOTERO_user_ID=20242032
+ZOTERO_USER_ID=20242032
 
 # API Keys
 TAVILY_API_KEY=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
+GOOGLE_API_KEY=AIzaSy...  # 用于 AI 图像生成 (mcp-image)
 ```
 
 ---
@@ -177,6 +179,26 @@ python .claude/hooks/zotero_ref.py search "keywords"  # 搜索文献
 
 ## 使用规范
 
+### 📝 笔记内容质量标准（图文并茂）
+
+**创建任何笔记时必须包含以下元素：**
+
+| 元素 | 要求 | 示例 |
+|------|------|------|
+| **一句话物理图像** | 一句话说不清=没理解 | "像高速示波器捕捉闪电一样测量THz波形" |
+| **Mermaid 图** | 至少 1 个知识树/流程图 | `graph TB ...` |
+| **核心公式** | LaTeX 格式，关键参数注明 | $E_{THz} \propto dJ/dt$ |
+| **对比表格** | 整理对比多种方案/方法 | 辐射源对比表 |
+| **示意图** | 调用 image-generation MCP | 物理过程可视化 |
+| **文献引用** | 至少 2 篇代表性论文 | [[cite:@Tonouchi2007]] |
+| **具体数值** | 参数/指标要量化 | "ZnSe: r₄₁=4.9 pm/V" |
+
+**禁止生成的笔记类型：**
+- ❌ 纯文字叙述，无结构
+- ❌ 无公式、无图表
+- ❌ 泛泛而谈，无具体数值
+- ❌ 碎片化知识点（应整合到已有笔记）
+
 ### 笔记结构
 
 ```
@@ -212,10 +234,34 @@ topic.md (概念笔记)
 
 ```json
 {
-  "tavily-search": "网络搜索 (已连接)",
-  "semantic-scholar": "学术搜索 (已连接)",
-  "github": "GitHub (已连接)"
+  "tavily-search": "网络搜索",
+  "semantic-scholar": "学术搜索",
+  "paper-search": "论文搜索",
+  "github": "GitHub",
+  "image-generation": "AI 图像生成 (Gemini)",
+  "mermaid": "Mermaid 图表生成",
+  "diagram-generator": "DrawIO/Mermaid/Excalidraw"
 }
+```
+
+### MCP 使用优先级
+
+| MCP | 用途 | 何时使用 |
+|-----|------|----------|
+| `image-generation` | 生成物理概念示意图 | 解释新概念时 |
+| `mermaid` | 生成 Mermaid 图 | 需要流程图/知识树时 |
+| `tavily-search` | 搜索最新文献/新闻 | 调研前沿方向时 |
+| `semantic-scholar` | 学术论文搜索 | 找论文时 |
+
+### 图像生成提示词技巧
+
+生成物理示意图时使用：
+```
+"生成一个清晰的 [物理过程] 示意图，包含:
+- 主要元素标注
+- 能量/信号流向箭头
+- 关键参数标注
+- 简洁的配色方案"
 ```
 
 ---
