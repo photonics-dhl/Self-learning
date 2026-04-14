@@ -1,0 +1,25 @@
+# Environment (contains API keys)
+.env
+
+# Obsidian Vault (large binary/data)
+Obsidian-Vault/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Windows specific
+*.vbs
+*.lnk
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+
+# Downloaded plugins
+Obsidian-Vault/6️⃣ 工具/plugins/

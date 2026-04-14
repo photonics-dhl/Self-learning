@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Read(./Obsidian-Vault/**)",
+      "Write(./Obsidian-Vault/**)",
+      "Bash(python ./Obsidian-Vault/6️⃣ 工具/scripts/*.py *)",
+      "Bash(python .claude/**/*.py *)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(format *)"
+    ]
+  },
+  "hooks": {
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python .claude/hooks/session-end-hook.py",
+            "timeout": 60,
+            "once": false
+          }
+        ]
+      }
+    ]
+  },
+  "completion": {
+    "showStoppacks": true
+  }
+}
