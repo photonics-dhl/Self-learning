@@ -1,0 +1,43 @@
+{
+  "Adam_p4_i0": {
+    "figure_id": "Adam_p4_i0",
+    "description": "A schematic diagram of a bent waveguide or channel (yellow) connecting an input source on the left to an output on the right, with a localized probe or interaction region (blue) positioned at the center, likely representing near-field measurement or coupling within the structure.",
+    "key_findings": [
+      "Illustrates signal propagation through a confined, curved waveguide structure",
+      "Highlights a central interaction or measurement point where near-field effects are probed"
+    ],
+    "related_concepts": [
+      "near-field optics",
+      "waveguide propagation",
+      "localized field interaction",
+      "scattering and coupling"
+    ],
+    "suggested_knowledge_points": [
+      "Understanding near-field measurement techniques",
+      "Wave propagation in confined geometries",
+      "Role of probes in detecting localized electromagnetic fields"
+    ],
+    "figure_type": "diagram"
+  },
+  "Safian_p14_i0": {
+    "figure_id": "Safian_p14_i0",
+    "description": "Schematic of a continuous-wave (CW) terahertz photomixing system where two optical sources at frequencies ω1 and ω2 are combined and directed onto photomixers, generating a THz signal at the difference frequency (ω1−ω2), which is transmitted and received by antenna-coupled devices.",
+    "key_findings": [
+      "THz radiation is generated via photomixing of two optical frequencies, producing a signal at the difference frequency ω1−ω2.",
+      "Both transmitter and receiver use photomixers and antennas to emit and detect coherent CW THz radiation."
+    ],
+    "related_concepts": [
+      "photomixing",
+      "terahertz generation",
+      "difference frequency generation",
+      "optical heterodyning",
+      "antenna-coupled photoconductors"
+    ],
+    "suggested_knowledge_points": [
+      "Principle of generating THz waves using two laser frequencies",
+      "Role of photoconductive antennas in THz emission and detection",
+      "Coherent detection of CW THz signals using optical mixing"
+    ],
+    "figure_type": "setup"
+  }
+}

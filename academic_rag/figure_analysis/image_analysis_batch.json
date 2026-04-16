@@ -1,0 +1,83 @@
+{
+  "Bitzer_p4_i0": {
+    "figure_id": "Bitzer_p4_i0",
+    "description": "The figure presents a terahertz (THz) near-field imaging experiment: (a) a schematic of the near-field setup using a probe or particle to localize THz fields, (b) a photograph of a leaf sample with a highlighted region of interest, and (c,d) corresponding THz images showing amplitude and phase contrast of the leaf structure at ~1.36 THz.",
+    "key_findings": [
+      "THz near-field imaging can resolve fine structural details of biological samples such as leaf veins beyond the diffraction limit.",
+      "Both amplitude and phase images provide complementary contrast, revealing internal features not visible in the optical photograph."
+    ],
+    "related_concepts": [
+      "terahertz near-field microscopy",
+      "subwavelength imaging",
+      "amplitude and phase contrast",
+      "near-field optics"
+    ],
+    "suggested_knowledge_points": [
+      "Principles of near-field imaging and how it overcomes diffraction limits",
+      "Differences between amplitude and phase information in imaging",
+      "Interaction of THz radiation with biological materials"
+    ],
+    "figure_type": "setup"
+  },
+  "Bitzer_p5_i0": {
+    "figure_id": "Bitzer_p5_i0",
+    "description": "This multi-panel figure presents a terahertz (THz) near-field imaging and resonator study. Panels (a) and (b) show schematic setups for exciting orthogonal electric field components (Ex and Ey) in a subwavelength wire structure using THz radiation. Panel (c) shows an optical/near-field image of a ~30 µm wide, 900 µm long wire. Panel (d) plots relative transmission versus frequency, revealing multiple resonant modes labeled by mode number n. Panel (e) visualizes simulated or measured electric field (Exy) and magnetic field (Hz) distributions for different resonant modes (n=1, 3, 5) at corresponding frequencies, showing standing-wave patterns along the wire.",
+    "key_findings": [
+      "The wire structure supports multiple resonant modes (n=1, 3, 5) observable in THz transmission spectra.",
+      "Field distributions reveal standing-wave patterns with increasing spatial complexity for higher-order modes."
+    ],
+    "related_concepts": [
+      "terahertz spectroscopy",
+      "plasmonic resonances",
+      "near-field imaging",
+      "standing wave modes"
+    ],
+    "suggested_knowledge_points": [
+      "Resonant modes in subwavelength conductive structures",
+      "Relationship between frequency and mode number in waveguides",
+      "Near-field THz imaging techniques",
+      "Electric and magnetic field spatial distributions in resonators"
+    ],
+    "figure_type": "diagram"
+  },
+  "Chen_p2_i0": {
+    "figure_id": "Chen_p2_i0",
+    "description": "The figure presents a compressive sensing-based optical switching system using a VO2 thin film. Panel (a) shows the device structure with a ~100 nm VO2 layer on a substrate. Panel (b) illustrates the switching mechanism between 'on' and 'off' states with a ~0.6 eV contrast. Panel (c) plots the normalized energy change (ΔE/E_pumpoff) versus delay time for different pump fluences, showing ultrafast response and saturation behavior. Panel (d) shows signal-to-noise ratio (SNR) as a function of pulse fluctuation (γ_s) for Hadamard and random sensing matrices at different resolutions.",
+    "key_findings": [
+      "VO2 exhibits ultrafast switching with increasing pump fluence leading to higher signal response and saturation.",
+      "Hadamard sensing provides significantly higher SNR than random sensing, especially at lower fluctuation levels."
+    ],
+    "related_concepts": [
+      "compressive sensing",
+      "VO2 phase transition",
+      "pump-probe spectroscopy",
+      "signal-to-noise ratio"
+    ],
+    "suggested_knowledge_points": [
+      "ultrafast optical switching dynamics",
+      "impact of pump fluence on material response",
+      "comparison of sensing matrices in compressive sensing",
+      "role of noise in reconstruction quality"
+    ],
+    "figure_type": "graph"
+  },
+  "Heindl_p2_i1": {
+    "figure_id": "Heindl_p2_i1",
+    "description": "A set of four blurred circular intensity spots arranged in a 2×2 grid, resembling Gaussian beam profiles or spatial emission patterns, with one spot marked by a cross indicating a reference point or measurement location.",
+    "key_findings": [
+      "The emission or field distribution appears spatially symmetric and Gaussian-like across multiple positions",
+      "One specific spot is highlighted, suggesting a point of interest or calibration reference in the measurement"
+    ],
+    "related_concepts": [
+      "Gaussian beam profiles",
+      "THz field distribution",
+      "quantum dot emission mapping"
+    ],
+    "suggested_knowledge_points": [
+      "Understanding spatial intensity distributions in THz imaging",
+      "Gaussian beam characteristics and symmetry",
+      "Use of reference markers in experimental field mapping"
+    ],
+    "figure_type": "diagram"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "figure_id": "test_bitzer",
+  "description": "A schematic diagram illustrating the signal processing workflow in THz time-domain spectroscopy (THz-TDS), where a time-domain electric field signal E(x0, y0, t) is transformed via a Fast Fourier Transform (FFT) into its frequency-domain representation E(f) = A(f)exp[iφ(f)], separating amplitude and phase, and then a selected frequency component is inverse transformed (FFT⁻¹) back into a time-domain oscillation with specific amplitude A(x0, y0, f0) and phase φ(x0, y0, f0).",
+  "key_findings": [
+    "THz-TDS captures both amplitude and phase information of the electric field by transforming time-domain data into the frequency domain.",
+    "Individual frequency components can be isolated and reconstructed back into time-domain signals with defined amplitude and phase."
+  ],
+  "related_concepts": [
+    "Fourier transform",
+    "time-frequency analysis",
+    "phase retrieval",
+    "spectroscopy",
+    "signal processing"
+  ],
+  "suggested_knowledge_points": [
+    "Relationship between time-domain and frequency-domain representations of signals",
+    "Role of FFT in spectroscopy data analysis",
+    "Physical meaning of amplitude and phase in electromagnetic waves",
+    "Reconstruction of signals using inverse Fourier transform"
+  ],
+  "figure_type": "diagram"
+}

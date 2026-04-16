@@ -1,0 +1,20 @@
+{
+  "figure_id": "Bitzer2010_TDS",
+  "description": "A conceptual diagram of THz time-domain spectroscopy (THz-TDS) data processing showing a measured electric field signal E(x0, y0, t) in the time domain, its transformation into the frequency domain via FFT as E(f) = A(f) exp[iφ(f)] with amplitude and phase components, and reconstruction of a single-frequency time-domain oscillation using inverse FFT.",
+  "key_findings": [
+    "The FFT decomposes a time-domain THz signal into frequency-dependent amplitude and phase components.",
+    "A single frequency component can be isolated and reconstructed back into a sinusoidal time-domain signal using inverse FFT."
+  ],
+  "related_concepts": [
+    "Fourier transform",
+    "THz time-domain spectroscopy",
+    "frequency-domain analysis",
+    "signal reconstruction"
+  ],
+  "suggested_knowledge_points": [
+    "Relationship between time-domain and frequency-domain representations of signals",
+    "Interpretation of amplitude and phase spectra",
+    "Use of FFT and inverse FFT in spectroscopy"
+  ],
+  "figure_type": "diagram"
+}

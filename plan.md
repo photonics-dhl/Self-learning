@@ -166,10 +166,10 @@ python Obsidian-Vault/6️⃣ 工具/scripts/optics_viz.py diffraction --num_sli
 
 | 场景 | 模型 | 原因 |
 |------|------|------|
-| 快速概念解释 | gpt-5-thinking | 快速、便宜 |
-| 深度公式推导 | claude-sonnet-4-6 | 强推理 |
-| 代码生成 | claude-sonnet-4-6 | 编程能力强 |
-| 文献综述 | claude-sonnet-4-6 + Tavily | 搜索 + 总结 |
+| 快速概念解释 | gpt-5-thinking | 快速、便宜 | zchat_API_KEY调用
+| 深度公式推导 | minimax-2-7,claude-sonnet-4-6 | 强推理 | DUCKCODINGAPI_KEY调用
+| 代码生成 | minimax-2-7,claude-sonnet-4-6 | 编程能力强 |
+| 文献综述 | minimax-2-7,claude-sonnet-4-6 + Tavily | 搜索 + 总结 |
 
 ---
 

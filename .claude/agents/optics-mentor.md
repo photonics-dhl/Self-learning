@@ -12,7 +12,7 @@ description: |
 
   使用方式：当需要深度光学概念解释时，派生此代理。
 
-model: claude-sonnet-4-6
+model: inherit
 
 tools:
   - Read

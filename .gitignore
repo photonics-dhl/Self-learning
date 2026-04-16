@@ -23,3 +23,14 @@ desktop.ini
 
 # Downloaded plugins
 Obsidian-Vault/6️⃣ 工具/plugins/
+
+# Large PDF files
+tmp_pdfs/*.pdf
+
+# ChromaDB (large binary data)
+academic_rag/chroma_db/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo

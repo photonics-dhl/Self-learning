@@ -76,13 +76,21 @@ Self_Learning/
 ├── .claude/                     # Claude Code 配置
 │   ├── settings.json            # 项目设置 (含 hooks)
 │   ├── agents/                  # 子代理定义
-│   │   ├── optics-mentor.md
-│   │   └── literature-researcher.md
+│   │   ├── optics-mentor.md      # 光学导师代理
+│   │   ├── literature-researcher.md  # 文献研究代理
+│   │   ├── note-generator.md     # 笔记生成代理 (多agent框架)
+│   │   └── note-reviewer.md      # 笔记审查代理 (多agent框架)
 │   ├── skills/                  # 技能定义
-│   │   ├── optics-learning/
-│   │   └── literature-sync/
+│   │   ├── knowledge-planning/  # 知识规划（强制前置流程）
+│   │   ├── knowledge-structure/ # 知识脉络（单篇笔记写作方法）
+│   │   ├── beautiful-notes/     # 精美笔记排版（生成+审查）
+│   │   ├── optics-learning/     # 光学知识树构建
+│   │   ├── academic-research/   # 🚀 智能学术研究 (一键文献调研)
+│   │   ├── literature-sync/     # Zotero-Obsidian 同步
+│   │   └── ...
 │   ├── hooks/                   # 自动化钩子
 │   │   ├── session-end-hook.py   # 会话结束自动存笔记
+│   │   ├── session-start-hook.py # 会话开始初始化
 │   │   ├── sync_viz.py          # 可视化自动同步
 │   │   └── zotero_ref.py        # Zotero 文献引用
 │   └── discussion_log.json       # 当前会话日志
@@ -199,18 +207,98 @@ python .claude/hooks/zotero_ref.py search "keywords"  # 搜索文献
 - ❌ 泛泛而谈，无具体数值
 - ❌ 碎片化知识点（应整合到已有笔记）
 
+### 强制流程：知识规划前置
+
+**在创建任何笔记之前，必须先完成知识规划**（详见 `.claude/skills/knowledge-planning/` 技能）：
+
+```
+扫描同级目录 → 分析关系 → 输出规划卡 → 开始写作
+```
+
+**关系判定**：
+| 关系 | 代码 | 处理方式 |
+|------|------|----------|
+| 完全重复 | `DUPLICATE` | 追加到已有笔记，不创建新的 |
+| 被包含 | `SUBSUMED` | 作为子话题深度展开，引用父话题 |
+| 包含 | `CONTAINS` | 作为父话题统览全局，引用子话题 |
+| 交叉 | `OVERLAPS` | 明确划分边界，避免重复内容 |
+| 独立 | `INDEPENDENT` | 新建笔记 |
+
+**父子话题差异化原则**：
+- **父话题**开头：`"这个领域研究什么"` → 知识树全景图 → 子话题一句话概括
+- **子话题**开头：`"具体问题（如：为什么需要这个技术？）"` → 深入技术细节
+- **禁止**：父话题和子话题使用相同的开头（如都用"为什么需要X？"）
+
+**规划卡模板**：
+```markdown
+## [笔记名] 规划卡
+- 核心定位: [一句话说明在知识树中的位置]
+- 父子关系: 父话题: [XXX] / 子话题: [XXX]
+- 防重复: 与已有笔记的关系是 [XXX]
+- 独特价值: 这篇笔记必须回答 [核心问题1, 2, 3]
+```
+
+### 笔记排版标准（Obsidian Callout 语法）
+
+使用精美的 Callout 语法增强可读性：
+
+```markdown
+> [!abstract]+ 一句话物理图像
+> 像高速示波器捕捉闪电一样测量THz波形
+
+> [!tip]+ 核心要点
+> - 关键点1
+> - 关键点2
+
+> [!example]+ 典型参数
+> | 参数 | 数值 |
+> |------|------|
+> | 载流子寿命 | <1 ps |
+```
+
+**排版美化**: 启用 `Obsidian-Vault/.obsidian/snippets/elegant-notes.css` 可获得精美视觉效果。
+
 ### 笔记结构
 
 ```
 topic.md (概念笔记)
 ├── frontmatter: type, status, prerequisites, related, children
-├── 一句话物理图像
+├── 一句话物理图像 (callout)
 ├── 核心公式 (LaTeX)
 ├── 详细解释
 ├── Mermaid 知识树图
 ├── 引用文献 [[cite:@Author2024]]
 └── 相关链接 [[other_topic]]
 ```
+
+### 📁 文件命名规范（导航栏排序）
+
+**核心规则**：文件名以推荐阅读顺序编号前缀开头
+
+```
+格式：NN_标题.md 或 📁 NN 分类名/
+
+示例：
+├── 📁 01 电磁地基/
+│   ├── 01_电磁场理论基础.md    # 01 = 第1篇
+│   └── 02_麦克斯韦方程组.md    # 02 = 第2篇
+├── 📁 02 波动光学/
+│   ├── 03_波动光学.md
+│   └── 04_光学原理.md
+```
+
+**编号规则**：
+| 层级 | 格式 | 示例 |
+|------|------|------|
+| 一级分类 | 📁 + 序号 + 名称 | 📁 01 电磁地基 |
+| 二级笔记 | NN_标题.md | 01_电磁场理论基础.md |
+
+**序号分配原则**：
+- 每个领域的笔记按**推荐阅读顺序**连续编号
+- 跨领域的大编号（如太赫兹从01开始）是**各自领域内**的顺序
+- 新增笔记时，插到相邻编号之间（如在03和04之间插入 → 03_新笔记.md，原04改为04_原内容.md）
+
+**Obsidian 内部链接**：使用 `[[标题]]` 而非 `[[NN_标题]]`，因为 frontmatter 的 `title` 字段已包含无编号标题
 
 ### 知识去重规则
 
@@ -234,10 +322,11 @@ topic.md (概念笔记)
 
 ```json
 {
-  "tavily-search": "网络搜索",
-  "semantic-scholar": "学术搜索",
-  "paper-search": "论文搜索",
-  "github": "GitHub",
+  "tavily-search": "网络搜索 (最新文献/新闻)",
+  "semantic-scholar": "学术搜索 (论文发现/引用分析)",
+  "zotero": "Zotero 文献库 (个人论文管理)",
+  "paper-search": "预印本搜索 (arXiv/PubMed/BioRxiv)",
+  "github": "GitHub (代码管理)",
   "image-generation": "AI 图像生成 (Gemini)",
   "mermaid": "Mermaid 图表生成",
   "diagram-generator": "DrawIO/Mermaid/Excalidraw"
@@ -248,10 +337,12 @@ topic.md (概念笔记)
 
 | MCP | 用途 | 何时使用 |
 |-----|------|----------|
+| `zotero` | 搜索个人文献库 | 查找已收藏的论文 |
+| `semantic-scholar` | 学术论文搜索 | 发现高引用论文 |
+| `paper-search` | 预印本搜索 | 找最新 arXiv/PubMed 论文 |
+| `tavily-search` | 网络深度搜索 | 调研最新进展 |
 | `image-generation` | 生成物理概念示意图 | 解释新概念时 |
 | `mermaid` | 生成 Mermaid 图 | 需要流程图/知识树时 |
-| `tavily-search` | 搜索最新文献/新闻 | 调研前沿方向时 |
-| `semantic-scholar` | 学术论文搜索 | 找论文时 |
 
 ### 图像生成提示词技巧
 

@@ -1,0 +1,9 @@
+Path exists: True
+Analyzing figure...
+
+=== Analysis Result ===
+Description: A schematic diagram of an experimental setup for generating terahertz (THz) pulses using the tilted pulse-front technique. A femtosecond Ti:sapphire laser beam is split and directed through optical components including an echelon structure, grating, lenses, half-wave plates, and off-axis parabolic mirrors to create a segmented and tilted pulse front. The beam is then focused into a nonlinear crystal (cLN) for THz generation, and the emitted THz radiation is measured using a balanced detection system with delay line control.
+Key Findings: ['Tilted pulse-front generation is achieved using an echelon and grating combination to optimize phase matching in the nonlinear crystal', 'The setup enables efficient THz pulse generation and detection using controlled optical delay and balanced detection']
+Related Concepts: ['tilted pulse-front technique', 'terahertz generation', 'nonlinear optics', 'phase matching', 'electro-optic sampling']
+Suggested Knowledge Points: ['How tilted pulse fronts improve phase matching in THz generation', 'Role of echelon structures in pulse-front shaping', 'Basics of femtosecond laser systems and pulse manipulation', 'Principles of THz detection using balanced photodiodes']
+Figure Type: setup
