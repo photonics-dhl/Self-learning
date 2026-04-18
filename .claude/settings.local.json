@@ -227,7 +227,16 @@
       "mcp__zotero__zotero_get_recent",
       "Bash(python -c \"import sqlite3; conn = sqlite3.connect\\(r'C:\\\\Users\\\\Mac\\\\Zotero\\\\zotero.sqlite'\\); c = conn.cursor\\(\\); c.execute\\('SELECT title, itemType FROM items LIMIT 5'\\); print\\([r for r in c.fetchall\\(\\)]\\)\")",
       "Bash(python -c \"import sqlite3; conn = sqlite3.connect\\(r'C:\\\\Users\\\\Mac\\\\Zotero\\\\zotero.sqlite'\\); c = conn.cursor\\(\\); c.execute\\('PRAGMA table_info\\(items\\)'\\); print\\([r for r in c.fetchall\\(\\)]\\)\")",
-      "Bash(python -c \"import sqlite3; conn = sqlite3.connect\\(r'C:\\\\Users\\\\Mac\\\\Zotero\\\\zotero.sqlite'\\); c = conn.cursor\\(\\); c.execute\\('PRAGMA table_info\\(itemData\\)'\\); print\\([r for r in c.fetchall\\(\\)]\\)\")"
+      "Bash(python -c \"import sqlite3; conn = sqlite3.connect\\(r'C:\\\\Users\\\\Mac\\\\Zotero\\\\zotero.sqlite'\\); c = conn.cursor\\(\\); c.execute\\('PRAGMA table_info\\(itemData\\)'\\); print\\([r for r in c.fetchall\\(\\)]\\)\")",
+      "Bash(git remote:*)",
+      "Bash(git push:*)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo:*)",
+      "Bash(git rm:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "mcp__memory__read_graph",
+      "Bash(git check-ignore *)"
     ],
     "additionalDirectories": [
       "Z:\\321\\DHL\\Self_Learning\\.claude",
