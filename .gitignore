@@ -34,3 +34,4 @@ academic_rag/chroma_db/
 __pycache__/
 *.pyc
 *.pyo
+.claude/discussion_log.json
