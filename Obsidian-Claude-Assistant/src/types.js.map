@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["types.ts"],
+  "sourcesContent": ["export interface ClaudeRequest {\n  action: 'explain' | 'visualize' | 'cite' | 'tree' | 'write_summary';\n  context: {\n    current_note: string;\n    note_content: string;\n    selected_text: string;\n    conversation_history: Array<{role: 'user' | 'assistant'; content: string}>;\n  };\n  options: {\n    depth: 'brief' | 'detailed';\n    include_formula: boolean;\n    include_visualization: boolean;\n  };\n}\n\nexport interface ClaudeResponse {\n  response: string;\n  visualization?: {\n    type: 'mermaid' | 'image';\n    content: string;\n  };\n  write_actions: Array<{\n    type: 'append' | 'insert_after_heading' | 'replace';\n    target: string;\n    content: string;\n    heading?: string;\n  }>;\n}\n\nexport interface ConversationEntry {\n  role: 'user' | 'assistant';\n  content: string;\n  timestamp: number;\n}"],
+  "mappings": ";;;;;;;;;;;;;;;AAAA;AAAA;",
+  "names": []
+}

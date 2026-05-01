@@ -1,0 +1,16 @@
+{
+  "name": "obsidian-claude-assistant",
+  "version": "0.1.0",
+  "description": "在 Obsidian 中集成 Claude Code",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "esbuild": "^0.28.0",
+    "obsidian": "^0.15.0",
+    "typescript": "^4.9.5"
+  }
+}

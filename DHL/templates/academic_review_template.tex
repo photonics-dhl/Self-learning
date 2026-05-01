@@ -1,0 +1,69 @@
+% ============================================
+% 学术综述论文 LaTeX 模板
+% 基于 IEEE 标准期刊格式
+% ============================================
+
+\documentclass[12pt]{article}
+
+% 页面设置
+\usepackage{geometry}
+\geometry{margin=1in}
+
+% 常用包
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{siunitx}
+\sisetup{separate-uncertainty=true}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{cite}
+
+% 标题设置
+\title{${title}}
+
+\author{${authors}}
+\affiliation{
+    College of Optical Science and Engineering, Zhejiang University\\
+    Hangzhou 310027, China
+}
+
+\date{\today}
+
+% 图表设置
+\usepackage{caption}
+\captionsetup{font=small}
+\captionsetup[figure]{name=Fig.,position=bottom}
+\captionsetup[table]{name=Table,position=top}
+
+% 交叉引用
+\usepackage[colorlinks,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+
+\begin{document}
+
+% 标题页
+\maketitle
+
+% ============================================
+% 摘要
+% ============================================
+\begin{abstract}
+${abstract}
+\end{abstract}
+
+\bigskip
+
+% ============================================
+% 正文内容 (Markdown 转换为 LaTeX)
+% ============================================
+${content}
+
+% ============================================
+% 参考文献
+% ============================================
+\bibliographystyle{IEEEtran}
+\bibliography{${bibfile}}
+
+\end{document}

@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-claude-assistant",
+  "name": "Claude Assistant",
+  "version": "0.1.0",
+  "minAppVersion": "0.15.0",
+  "main": "main.js",
+  "description": "在 Obsidian 中集成 Claude Code，直接提问并自动写入笔记",
+  "author": "DHL",
+  "repo": ""
+}
