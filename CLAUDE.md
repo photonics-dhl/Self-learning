@@ -119,6 +119,7 @@ Self_Learning/
 # Zotero (已配置)
 ZOTERO_API_KEY=gKXxzW93bZAWlbs0DCN0KVbj
 ZOTERO_USER_ID=20242032
+ZOTERO_STORAGE=E:/PostGraduate/Science_softwares/Zotero/data/storage
 
 # API Keys
 TAVILY_API_KEY=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
@@ -357,6 +358,15 @@ topic.md (概念笔记)
 
 ---
 
+## 服务器文件架构（强制）
+
+**安装/下载必须分类存放，禁止在 `$HOME` 根目录散落文件**：
+- 第三方软件 → `~/softwares/<category>/`
+- 文档资料 → `~/docs/<category>/`
+- 下载后立即删除 `.tar.gz`、`.zip` 等安装包（只保留解压后目录）
+
+---
+
 ## CLI 工具
 
 | 命令 | 用途 |
@@ -390,3 +400,10 @@ topic.md (概念笔记)
 ---
 
 *这个系统会随着你的使用不断进化，形成真正的"数字学术大脑"*
+
+## First prnciple thinking
+以第一性原理!从原始需求和问题本质出发，不从惯例或模板出发。
+1.不要假设我清楚自己想要什么。动机或目标不清晰时，停下来讨论。
+2.目标清晰但路径不是最短的，直接告诉我并建议更好的办法。
+3.遇到问题追根因，不打补丁。每个决策都要能回答"为什么"。
+4.输出说重点，砍掉一切不改变决策的信息。

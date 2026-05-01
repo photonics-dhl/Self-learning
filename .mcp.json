@@ -28,11 +28,8 @@
       "args": ["-y", "@modelcontextprotocol/server-puppeteer"]
     },
     "tavily-search": {
-      "command": "npx",
-      "args": ["-y", "tavily-mcp"],
-      "env": {
-        "TAVILY_API_KEY": "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"
-      }
+      "command": "node",
+      "args": ["C:/Users/Mac/.claude/tavily-rotate/dist/index.js"]
     },
     "semantic-scholar": {
       "command": "npx",
@@ -74,6 +71,21 @@
     },
     "markitdown": {
       "command": "markitdown-mcp"
+    },
+    "MiniMax-Vision": {
+      "command": "uvx",
+      "args": ["minimax-coding-plan-mcp", "-y"],
+      "env": {
+        "MINIMAX_API_KEY": "${MINIMAX_API_KEY}",
+        "MINIMAX_API_HOST": "https://api.minimaxi.com"
+      }
+    },
+    "MiniMax-Image": {
+      "command": "node",
+      "args": ["C:/Users/Mac/.claude/mcp/minimax-image/dist/index.js"],
+      "env": {
+        "MINIMAX_API_KEY": "${MINIMAX_API_KEY}"
+      }
     }
   }
 }

@@ -1,239 +1,164 @@
 ---
 name: academic-research
 description: |
-  智能学术研究技能 - 一站式完成文献调研、笔记生成、论文撰写辅助。
+  智能学术研究技能 v2.0 - 数据驱动的可验证文献综述生成
 
   触发条件：
-  - 用户需要文献调研
-  - 用户需要理解某篇论文
-  - 用户需要生成研究报告
-  - 用户说"帮我研究"、"调研"、"文献综述"
+  - 用户需要文献调研并生成可验证的学术综述
+  - 用户需要"帮我写一篇关于X的综述"
+  - 用户需要基于真实文献的LaTeX论文
 
-  自动触发：当用户表达学术研究需求时。
+  核心工作流：
+  1. OpenAlex 论文发现（按相关性排序）
+  2. 多字段关键词分组（PCA/OR/等离子体/超表面等）
+  3. LaTeX + BibTeX 导出
+  4. 引用图谱生成
 
-  该技能会自动协调以下MCP服务器：
-  - semantic-scholar: 学术论文搜索
-  - tavily-search: 网络深度搜索
-  - zotero: 个人文献库
-  - paper-search: 预印本搜索
-  - image-generation: 图表生成
-  - mermaid: 知识图谱绘制
+  数据保证：所有论文信息（作者/年份/期刊/引用数/DOI）均来自真实API响应，
+  摘要从 inverted_index 重建，数值可溯源。
 ---
 
-# 智能学术研究技能
+# 智能学术研究技能 v2.0
 
-## 核心能力
+## 核心原则：**数据驱动，每句话有文献支撑**
 
-### 1. 文献智能调研
+### 质量保证
+- 每篇论文的作者、年份、期刊、引用数来自 OpenAlex API 原始数据
+- 摘要从 `abstract_inverted_index` 字段重建，非训练知识
+- 分组基于 title + abstract + concepts 多字段关键词匹配
+- LaTeX 输出可编译，BibTeX 可直接导入 Zotero
 
-**自动化工作流：**
+---
+
+## 自动化工作流
+
 ```
-用户输入研究主题
-    ↓
-并行搜索 (semantic-scholar + tavily + zotero)
-    ↓
-智能筛选高引用/最新论文
-    ↓
-生成结构化文献报告
-    ↓
-创建带引用的Obsidian笔记
-    ↓
-绘制引用关系图谱
-```
+用户: "帮我写一篇关于太赫兹产生的综述"
 
-**调研报告模板：**
-```markdown
-# 📚 {{主题}} 文献调研报告
+助手执行:
+1. 调用 review_pipeline.py discover "terahertz generation" --n 30
+   → 按 relevance_score 排序，返回 30 篇真实论文元数据
 
-> 生成时间: {{timestamp}}
-> 涵盖范围: {{year_range}}
+2. 自动分组（多字段匹配）:
+   - 光电导天线 PCA: title/abstract/concepts 包含 "photoconductive" 等
+   - 光整流 OR: 包含 "optical rectification" 等
+   - 等离子体/空气: 包含 "plasma", "filament", "two-color" 等
+   - 超表面/元表面: 包含 "metasurface", "plasmonic" 等
 
----
+3. 调用 review_pipeline.py full "terahertz generation" --n 30
+   → 生成 LaTeX 综述 + BibTeX + Mermaid 引用图
 
-## 🔬 一句话总结
-
-{{用一句话概括该领域现状和核心挑战}}
-
----
-
-## 📊 领域概述
-
-### 研究背景
-{{详细介绍领域背景}}
-
-### 关键里程碑
-| 年份 | 成果 | 意义 |
-|------|------|------|
-| {{year}} | {{achievement}} | {{significance}} |
-
----
-
-## 🧠 核心原理
-
-### 物理图像
-{{用简洁语言描述核心物理过程}}
-
-### 关键公式
-$$
-{{核心公式}}
-$$
-其中：
-- {{参数1}}: {{含义}}，典型值 {{value}}
-- {{参数2}}: {{含义}}
-
----
-
-## 📈 最新进展 (2023-2026)
-
-{{按时间线组织的重要论文}}
-
-### 代表性工作
-
-#### 1. {{论文标题}}
-- **作者**: {{authors}}
-- **发表于**: {{journal}} ({{year}})
-- **核心贡献**: {{contribution}}
-- **关键结果**: {{key_results}}
-- **DOI**: {{doi}}
-- **引用数**: {{citations}}
-
-#### 2. ... (继续列出5-10篇)
-
----
-
-## 🔗 引用关系图
-
-```mermaid
-graph TD
-    A["{{主题}}"] --> B["@Paper1"]
-    A --> C["@Paper2"]
-    A --> D["@Paper3"]
-    B --> E["@Paper4"]
-    C --> E
-    D --> F["@Paper5"]
+4. 输出文件:
+   - DHL/review_terahertz_generation.tex (可编译)
+   - DHL/review_terahertz_generation.bib
+   - DHL/review_terahertz_generation.md (引用图)
 ```
 
 ---
 
-## ⚖️ 技术对比
+## 使用命令
 
-| 方法 | 优势 | 劣势 | 适用场景 |
-|------|------|------|----------|
-| {{Method A}} | {{pros}} | {{cons}} | {{use_case}} |
-| {{Method B}} | {{pros}} | {{cons}} | {{use_case}} |
+### 发现论文
+```bash
+python .claude/hooks/review_pipeline.py discover "<主题>" [--n N] [--year Y]
+```
+- `--n N`: 返回 N 篇（默认 20）
+- `--year Y`: 只返回 Y 年之后的论文
+
+### 完整生成（发现 + 分析 + LaTeX）
+```bash
+python .claude/hooks/review_pipeline.py full "<主题>" [--n N]
+```
+
+### 导出 BibTeX/DOI
+```bash
+python .claude/hooks/openalex_search.py export "<主题>" --bibtex --file refs.bibtex
+```
 
 ---
 
-## 💡 我的研究思考
+## 论文分组方法
 
-### 现有方法的局限
-{{critical analysis}}
+| 方法 | 关键词 |
+|------|--------|
+| 光电导天线 PCA | photoconductive, photo-conductive, PCA, THz antenna |
+| 光整流 OR | optical rectification, laser rectification |
+| 等离子体/空气 | air plasma, laser plasma, filamentation, two-color |
+| 量子级联激光器 | quantum cascade, QCL, THz laser |
+| 非线性晶体 | lithium niobate, LiNbO3, ZnTe, GaSe, DAST |
+| 超表面/元表面 | metasurface, metamaterial, plasmonic, nanoantenna |
 
-### 可能的研究方向
-1. {{direction 1}}
-2. {{direction 2}}
-3. {{direction 3}}
+---
+
+## 输出格式
+
+### LaTeX 综述结构
+```
+\section{引言}
+  领域重要性 + 经典工作引用（基于高引用论文）
+
+\section{方法与结果}
+  \subsection{光电导天线 PCA}
+    - 高引用工作列表（作者年 期刊 \cite{RefX}）
+    - 摘要方法描述（来自真实论文 abstract）
+    - 引用次数（真实数据）
+
+  \subsection{光整流 OR}
+    ...
+
+\section{讨论}
+  总结 + 未来方向
+
+\appendix
+  表\ref{tab:papers} 完整论文列表
+```
+
+### BibTeX 格式
+```bibtex
+@article{Ref1,
+  title   = {Real paper title},
+  author  = {Lastname1, Firstname1 and Lastname2, Firstname2},
+  journal = {Journal Name},
+  year    = {2024},
+  volume  = {123},
+  number  = {4},
+  pages   = {456--789},
+  doi     = {https://doi.org/10.xxxx/xxxxx}
+}
+```
 
 ---
 
-## 📚 参考文献
+## 质量对比
 
-{{all citations in standard format}}
+| 项目 | v1.0 (不可用) | v2.0 (当前) |
+|------|---------------|-------------|
+| 论文数据 | AI 训练知识（可能虚构） | OpenAlex 真实 API 响应 |
+| 引用次数 | 估算 | 真实 `cited_by_count` |
+| 摘要 | 无或虚构 | 从 `abstract_inverted_index` 重建 |
+| 期刊信息 | 泛泛而谈 | 真实卷期页码 |
+| 分组准确性 | 低（仅 title 匹配） | 高（多字段关键词） |
+| LaTeX 输出 | 无 | 可编译 .tex + .bib |
+| 公式溯源 | 无 | 需配合 paper-review skill |
 
 ---
-*本报告由 Claude Code 学术大脑自动生成*
+
+## 已知限制
+
+1. **分组依赖关键词**：可能存在分类不准确的情况，需人工审核
+2. **摘要长度限制**：仅截取前 500 字符，非完整摘要
+3. **公式溯源缺失**：公式与文献的映射需后续 paper-review skill 补充
+4. **无批判性分析**：当前仅整理客观信息，批判性综述需人工撰写
+
+---
+
+## 协作流程
+
+```
+review_pipeline.py (数据层)
+    ↓ 真实论文数据 + LaTeX
+paper-review skill (审查层)
+    ↓ 修改建议
+用户 → 最终论文
 ```
 
-### 2. 论文深度理解
-
-当用户提交一篇论文时：
-
-1. **下载并解析** - 使用 paper-search 或 zotero 获取PDF
-2. **结构化提取** - 提取研究问题、方法、结果、创新点
-3. **生成笔记** - 创建精品笔记，包含：
-   - 一句话物理图像
-   - 核心公式及参数物理意义
-   - 技术路线图
-   - 与已有知识关联
-4. **可视化辅助** - 生成原理示意图
-
-### 3. 智能问答
-
-基于已调研内容，回答用户问题：
-- 概念解释（带物理图像）
-- 方法对比（带表格）
-- 趋势分析（带时间线）
-- 引用推荐（带Zotero关联）
-
-## MCP协同指令
-
-### 并行搜索策略
-```
-1. 使用 semantic-scholar 搜索核心论文
-2. 并行使用 tavily-search 搜索最新进展
-3. 并行使用 zotero 搜索个人库相关文献
-4. 汇总结果，去重排序
-```
-
-### 结果筛选标准
-- 优先选择：高引用(>50)、近3年、顶级期刊
-- 覆盖范围：开创性工作 + 最新进展 + 代表性方法
-
-### 笔记质量标准
-每篇笔记必须包含：
-- ☑️ 一句话物理图像（让人"看见"物理）
-- ☑️ 核心公式（LaTeX格式 + 参数说明）
-- ☑️ Mermaid图（知识树/流程图）
-- ☑️ 具体数值（参数、指标）
-- ☑️ 文献引用（2+代表性论文）
-
-## 使用示例
-
-### 示例1: 完整调研
-```
-用户: 帮我调研太赫兹量子级联激光器的最新进展
-
-助手(自动执行):
-1. 搜索 semantic-scholar: "THz quantum cascade laser"
-2. 搜索 tavily: "THz QCL 2024 2025 breakthrough"
-3. 搜索 zotero: "QCL THz"
-4. 汇总10-15篇核心论文
-5. 生成调研报告
-6. 创建Obsidian笔记
-7. 绘制引用关系图
-```
-
-### 示例2: 论文理解
-```
-用户: 深入理解这篇论文: Tonouchi2007
-
-助手(自动执行):
-1. 从Zotero获取论文信息
-2. 提取核心内容
-3. 生成带物理图像的解释
-4. 创建笔记并关联到知识树
-```
-
-### 示例3: 对比研究
-```
-用户: 比较光电导天线和光整流产生THz的优缺点
-
-助手(自动执行):
-1. 搜索两种方法的代表性论文
-2. 提取技术参数
-3. 生成对比表格
-4. 给出具体应用场景建议
-```
-
-## 自动化规则
-
-1. **不重复原则**: 创建笔记前检查是否已存在相关笔记
-2. **关联原则**: 新笔记必须关联到已有知识树
-3. **溯源原则**: 所有信息必须标注来源
-4. **可视化原则**: 复杂概念必须生成辅助图
-
-## 错误处理
-
-- 如果某MCP不可用，自动降级到其他数据源
-- 如果论文PDF无法获取，使用摘要信息
-- 如果生成失败，保存中间结果供用户检查
