@@ -1,39 +1,12 @@
 {
   "mcpServers": {
-    "filesystem": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "~/Documents", "~/Projects", "~/Desktop"]
-    },
-    "postgres": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-postgres"],
-      "env": {
-        "DATABASE_URL": "${DATABASE_URL}"
-      }
-    },
-    "fetch": {
-      "command": "npx",
-      "args": ["-y", "@kazuph/mcp-fetch"]
-    },
-    "memory": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-memory"]
-    },
-    "thinking": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
-    },
-    "puppeteer": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-puppeteer"]
-    },
-    "tavily-search": {
-      "command": "node",
-      "args": ["C:/Users/Mac/.claude/tavily-rotate/dist/index.js"]
-    },
-    "semantic-scholar": {
+"semantic-scholar": {
       "command": "npx",
       "args": ["-y", "@xbghc/semanticscholar-mcp"]
+    },
+    "paper-search": {
+      "command": "npx",
+      "args": ["-y", "paperplain-mcp"]
     },
     "github": {
       "command": "npx",
@@ -46,7 +19,7 @@
       "command": "npx",
       "args": ["-y", "mcp-image"],
       "env": {
-        "GOOGLE_API_KEY": "${GOOGLE_API_KEY}"
+        "GEMINI_API_KEY": "${GEMINI_API_KEY}"
       }
     },
     "mermaid": {
@@ -57,34 +30,33 @@
       "command": "npx",
       "args": ["-y", "mcp-diagram-generator"]
     },
-    "zotero": {
-      "command": "zotero-mcp",
-      "env": {
-        "ZOTERO_API_KEY": "gKXxzW93bZAWlbs0DCN0KVbj",
-        "ZOTERO_LIBRARY_ID": "20242032",
-        "ZOTERO_LIBRARY_TYPE": "user"
-      }
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "~/Documents", "~/Projects", "~/Desktop"]
     },
-    "paper-search": {
-      "command": "python",
-      "args": ["-m", "paper_search_mcp", "server"]
+    "puppeteer": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-puppeteer"]
     },
-    "markitdown": {
-      "command": "markitdown-mcp"
+    "fetch": {
+      "command": "npx",
+      "args": ["-y", "@kazuph/mcp-fetch"]
     },
-    "MiniMax-Vision": {
-      "command": "uvx",
-      "args": ["minimax-coding-plan-mcp", "-y"],
-      "env": {
-        "MINIMAX_API_KEY": "${MINIMAX_API_KEY}",
-        "MINIMAX_API_HOST": "https://api.minimaxi.com"
-      }
+    "time": {
+      "command": "npx",
+      "args": ["-y", "@guanxiong/mcp-server-time"]
     },
-    "MiniMax-Image": {
+    "memory": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
+    },
+    "tavily-search": {
       "command": "node",
-      "args": ["C:/Users/Mac/.claude/mcp/minimax-image/dist/index.js"],
+      "args": ["C:/Users/Mac/.claude/tavily-rotate/dist/index.js"],
       "env": {
-        "MINIMAX_API_KEY": "${MINIMAX_API_KEY}"
+        "TAVILY_API_KEY": "${TAVILY_API_KEY}",
+        "http_proxy": "http://127.0.0.1:7890",
+        "https_proxy": "http://127.0.0.1:7890"
       }
     }
   }
