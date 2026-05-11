@@ -51,12 +51,8 @@
       "args": ["-y", "@modelcontextprotocol/server-memory"]
     },
     "zotero": {
-      "command": "npx",
-      "args": ["-y", "@xbghc/zotero-mcp"],
-      "env": {
-        "ZOTERO_API_KEY": "gKXxzW93bZAWlbs0DCN0KVbj",
-        "ZOTERO_USER_ID": "20242032"
-      }
+      "transport": "streamable_http",
+      "url": "http://127.0.0.1:23120/mcp"
     },
     "context7": {
       "command": "npx",
