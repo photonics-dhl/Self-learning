@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-"semantic-scholar": {
+    "semantic-scholar": {
       "command": "npx",
       "args": ["-y", "@xbghc/semanticscholar-mcp"]
     },
@@ -51,13 +51,20 @@
       "args": ["-y", "@modelcontextprotocol/server-memory"]
     },
     "zotero": {
-      "command": "zotero-mcp",
-      "args": [],
+      "command": "npx",
+      "args": ["-y", "@xbghc/zotero-mcp"],
       "env": {
         "ZOTERO_API_KEY": "gKXxzW93bZAWlbs0DCN0KVbj",
-        "ZOTERO_LIBRARY_ID": "20242032",
-        "ZOTERO_LIBRARY_TYPE": "user"
+        "ZOTERO_USER_ID": "20242032"
       }
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"]
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
     },
     "tavily-search": {
       "command": "node",
