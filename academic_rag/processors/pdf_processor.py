@@ -12,6 +12,7 @@ from dataclasses import asdict
 
 import fitz  # PyMuPDF
 import pdfplumber
+from PIL import Image, ImageEnhance
 
 from academic_rag.config import config
 from academic_rag.db.models import Paper, Figure, TextChunk, DomainTaxonomy
@@ -20,10 +21,15 @@ from academic_rag.db.models import Paper, Figure, TextChunk, DomainTaxonomy
 class PDFProcessor:
     """PDF论文处理器 - 提取文本、图表和元数据"""
 
-    def __init__(self, extract_images: bool = True, image_dpi: int = 300):
+    def __init__(self, extract_images: bool = True, image_dpi: int = 300, enhance: bool = True):
         self.extract_images = extract_images
         self.image_dpi = image_dpi
+        self.enhance = enhance
         self.taxonomy = DomainTaxonomy()
+        # 噪声过滤参数
+        self.min_figure_size = config.min_figure_size  # 100px
+        self.max_aspect_ratio = 20.0   # 超 20:1 = 线条/分隔符/logo
+        self.min_aspect_ratio = 0.05   # 同理
 
         # 图表类型模式
         self.figure_patterns = [
@@ -182,30 +188,49 @@ class PDFProcessor:
         return self.taxonomy.classify_domain(combined)
 
     def _extract_figures(self, pdf_path: Path, paper_id: str) -> List[Figure]:
-        """从PDF提取图表"""
+        """从PDF提取图表 — 使用页面重渲染捕获完整图层(图像+矢量+文字)"""
         figures = []
         figure_counter = 0
 
         try:
             with fitz.open(pdf_path) as doc:
                 for page_num, page in enumerate(doc, 1):
-                    # 获取页面文本用于图表标题匹配
                     page_text = page.get_text()
-
-                    # 查找图表
                     image_list = page.get_images(full=True)
 
                     for img_index, img_info in enumerate(image_list):
                         try:
                             xref = img_info[0]
-                            base_image = doc.extract_image(xref)
-                            image_bytes = base_image["image"]
-                            image_ext = base_image["ext"]
+                            img_rect = page.get_image_bbox(img_info)
+                            use_rerender = (
+                                img_rect is not None
+                                and img_rect.is_valid
+                                and not img_rect.is_empty
+                                and img_rect.width > 0
+                                and img_rect.height > 0
+                            )
+
+                            if use_rerender:
+                                # 扩展bbox以捕获标注(坐标轴标签、图例、比例尺等)
+                                expanded = self._expand_figure_bbox(
+                                    img_rect, page.rect, img_index, image_list, page
+                                )
+                                pix = page.get_pixmap(clip=expanded, dpi=self.image_dpi)
+                                image_bytes = pix.tobytes("png")
+                                image_ext = "png"
+                                width, height = pix.width, pix.height
+                            else:
+                                # 回退: 提取原始嵌入图像
+                                base_image = doc.extract_image(xref)
+                                image_bytes = base_image["image"]
+                                image_ext = base_image["ext"]
+                                width = base_image.get("width", 0)
+                                height = base_image.get("height", 0)
 
                             # 计算图片hash
                             img_hash = hashlib.md5(image_bytes).hexdigest()
 
-                            # 构建文件名
+                            # 构建文件名 (重渲染统一为PNG)
                             img_filename = f"{paper_id}_p{page_num}_i{img_index}.{image_ext}"
                             img_path = config.visualizations / paper_id[:8] / img_filename
 
@@ -213,6 +238,14 @@ class PDFProcessor:
                             img_path.parent.mkdir(parents=True, exist_ok=True)
                             with open(img_path, "wb") as f:
                                 f.write(image_bytes)
+
+                            # Pillow后期增强 (锐化+对比度)
+                            if self.enhance:
+                                self._post_process_image(img_path)
+
+                            # 噪声过滤: 跳过低质量/非图像
+                            if self._is_noise_image(width, height):
+                                continue
 
                             # 尝试匹配图表标题
                             caption = self._find_figure_caption(page_text, img_index, page_num)
@@ -225,8 +258,8 @@ class PDFProcessor:
                                 page_num=page_num,
                                 image_path=str(img_path),
                                 image_hash=img_hash,
-                                width=base_image.get("width", 0),
-                                height=base_image.get("height", 0),
+                                width=width,
+                                height=height,
                                 figure_type=caption.get("type", "unknown"),
                             )
                             figures.append(figure)
@@ -283,6 +316,132 @@ class PDFProcessor:
             return "setup"
         else:
             return "unknown"
+
+    def _expand_figure_bbox(
+        self,
+        img_rect: "fitz.Rect",
+        page_rect: "fitz.Rect",
+        img_index: int,
+        image_list: list,
+        page: "fitz.Page",
+    ) -> "fitz.Rect":
+        """扩展图表 bbox 以捕获坐标轴标签、图例、比例尺等叠加标注。
+
+        学术PDF的标注(轴标签、图例文字、比例尺)通常是独立于嵌入图像的
+        PDF矢量/文本元素。简单提取 xref 会丢失这些叠加层。
+        通过扩展 bbox 并重渲染页面区域来捕获完整图层。
+        """
+        margin_x = max(img_rect.width * 0.10, 30.0)
+        margin_top = max(img_rect.height * 0.08, 20.0)
+        margin_bottom = max(img_rect.height * 0.22, 45.0)  # x轴标签通常在下
+
+        expanded = fitz.Rect(
+            img_rect.x0 - margin_x,
+            img_rect.y0 - margin_top,
+            img_rect.x1 + margin_x,
+            img_rect.y1 + margin_bottom,
+        )
+
+        # 文本感知扩展: 检测图像附近的文字块(轴标签、标注)
+        try:
+            text_dict = page.get_text("dict")
+            for block in text_dict.get("blocks", []):
+                if block.get("type") != 0:
+                    continue
+                block_rect = fitz.Rect(block["bbox"])
+                # 仅纳入紧邻图像的小文字块(标注特征)
+                dist_to_img = max(
+                    block_rect.x0 - img_rect.x1,  # 右侧文字
+                    img_rect.x0 - block_rect.x1,  # 左侧文字
+                    block_rect.y0 - img_rect.y1,  # 下方文字(轴标签)
+                    img_rect.y0 - block_rect.y1,  # 上方文字(标题)
+                    0,
+                )
+                block_area = abs(block_rect)
+                if dist_to_img < 60 and block_area < img_rect.width * img_rect.height * 0.3:
+                    expanded.include_rect(block_rect)
+        except Exception:
+            pass  # 文本分析失败不影响提取
+
+        # 避免与同页相邻独立图像重叠
+        # 仅当原始bbox不重叠时才限制扩展(重叠图像属于同一多面板图)
+        for other_idx, other_info in enumerate(image_list):
+            if other_idx == img_index:
+                continue
+            try:
+                other_rect = page.get_image_bbox(other_info)
+                if not (other_rect and other_rect.is_valid and not other_rect.is_empty):
+                    continue
+                # 原始图像已重叠 → 同一figure的panel，不限制扩展
+                if img_rect.intersects(other_rect):
+                    continue
+                if expanded.intersects(other_rect):
+                    overlap = expanded.intersect(other_rect)
+                    if overlap.width > 0 and overlap.height > 0:
+                        mid_x = (img_rect.x1 + other_rect.x0) / 2
+                        mid_y = (img_rect.y1 + other_rect.y0) / 2
+                        if other_rect.x0 > img_rect.x0:
+                            expanded.x1 = min(expanded.x1, mid_x)
+                        else:
+                            expanded.x0 = max(expanded.x0, mid_x)
+                        if other_rect.y0 > img_rect.y0:
+                            expanded.y1 = min(expanded.y1, mid_y)
+                        else:
+                            expanded.y0 = max(expanded.y0, mid_y)
+            except Exception:
+                continue
+
+        # 确保扩展后bbox有效 (最小尺寸防护)
+        min_dim = 20.0  # 最小20pt ≈ 83px @300DPI
+        if expanded.width < min_dim:
+            expanded.x1 = expanded.x0 + min_dim
+        if expanded.height < min_dim:
+            expanded.y1 = expanded.y0 + min_dim
+
+        # 裁剪到页面边界
+        expanded.x0 = max(0, expanded.x0)
+        expanded.y0 = max(0, expanded.y0)
+        expanded.x1 = min(page_rect.width, expanded.x1)
+        expanded.y1 = min(page_rect.height, expanded.y1)
+
+        return expanded
+
+    def _post_process_image(self, img_path: Path) -> None:
+        """Pillow后期增强: 适度锐化和对比度提升。
+
+        Re-rendering at 300 DPI 已大幅提升品质，此步骤作为廉价的最后润色。
+        参数选择保守以避免过度处理(halo artifacts, 色调偏移)。
+        """
+        try:
+            img = Image.open(img_path)
+            # 仅处理RGB/RGBA图像
+            if img.mode not in ("RGB", "RGBA"):
+                return
+
+            # 保守锐化 (factor 1.15 — 仅增强边缘，不引入光晕)
+            sharpener = ImageEnhance.Sharpness(img)
+            img = sharpener.enhance(1.15)
+
+            # 微调对比度 (factor 1.08 — 拉伸直方图但不裁剪)
+            contrast = ImageEnhance.Contrast(img)
+            img = contrast.enhance(1.08)
+
+            img.save(img_path, quality=95)
+        except Exception:
+            pass  # 增强失败静默跳过，不影响提取流程
+
+    def _is_noise_image(self, width: int, height: int) -> bool:
+        """过滤 PDF 中嵌入的非图像噪声 (logo, 图标, 分隔线, 单像素)"""
+        if width < self.min_figure_size or height < self.min_figure_size:
+            return True
+        if height == 0 or width == 0:
+            return True
+        ratio = width / height
+        if ratio > self.max_aspect_ratio or ratio < self.min_aspect_ratio:
+            return True
+        if width <= 2 or height <= 2:
+            return True
+        return False
 
     def _extract_text_chunks(self, pdf_path: Path, paper_id: str, domain: str, subfield: str) -> List[TextChunk]:
         """从PDF提取文本块"""
