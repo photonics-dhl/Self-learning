@@ -30,16 +30,7 @@ class PDFProcessor:
         self.min_figure_size = config.min_figure_size  # 100px
         self.max_aspect_ratio = 20.0   # 超 20:1 = 线条/分隔符/logo
         self.min_aspect_ratio = 0.05   # 同理
-
-        # 图表类型模式
-        self.figure_patterns = [
-            r"(?:Figure|Fig\.?|Fig\.?)\s*(\d+[A-Za-z]?)",
-            r"(?:Plot|Plot\.?)\s*(\d+[A-Za-z]?)",
-            r"(?:Chart|Ch\.?)\s*(\d+[A-Za-z]?)",
-            r"(?:Panel|Panel\.?)\s*([A-Za-z])",
-            r"图\s*(\d+[A-Za-z]?)",
-            r"第\s*(\d+)\s*图",
-        ]
+        self._MAX_IMAGES_PER_PAGE = 500  # cap for formula-heavy pages
 
         # 标题模式
         self.heading_patterns = [
@@ -54,7 +45,8 @@ class PDFProcessor:
             r"\(([A-Z][a-z]+(?:\s+et\s+al\.?)?,?\s*\d{4})\)",  # (Smith et al., 2020)
         ]
 
-    def process(self, pdf_path: str | Path, domain: str = "", subfield: str = "") -> Tuple[Paper, List[Figure], List[TextChunk]]:
+    def process(self, pdf_path: str | Path, domain: str = "", subfield: str = "",
+                extract_tables: bool = True) -> Tuple[Paper, List[Figure], List[TextChunk], List[Dict[str, Any]]]:
         """
         处理单个PDF论文
 
@@ -62,9 +54,10 @@ class PDFProcessor:
             pdf_path: PDF文件路径
             domain: 领域分类（如 "optics"）
             subfield: 子领域分类（如 "terahertz"）
+            extract_tables: 是否提取表格
 
         Returns:
-            (Paper, List[Figure], List[TextChunk])
+            (Paper, List[Figure], List[TextChunk], List[Dict] tables)
         """
         pdf_path = Path(pdf_path)
 
@@ -97,6 +90,11 @@ class PDFProcessor:
         if self.extract_images:
             figures = self._extract_figures(pdf_path, paper.paper_id)
 
+        # 提取表格
+        tables = []
+        if extract_tables:
+            tables = self._extract_tables(pdf_path, paper.paper_id)
+
         # 提取文本块
         text_chunks = self._extract_text_chunks(pdf_path, paper.paper_id, domain, subfield)
 
@@ -104,7 +102,7 @@ class PDFProcessor:
         paper.num_figures = len(figures)
         paper.num_text_chunks = len(text_chunks)
 
-        return paper, figures, text_chunks
+        return paper, figures, text_chunks, tables
 
     def _compute_file_hash(self, pdf_path: Path) -> str:
         """计算文件MD5哈希"""
@@ -187,116 +185,274 @@ class PDFProcessor:
         combined = f"{title} {abstract}"
         return self.taxonomy.classify_domain(combined)
 
+    # --- Caption-driven figure extraction thresholds ---
+    _MIN_CAPTION_LEN = 25       # real captions are descriptive paragraphs
+    _MAX_FIGURE_NUM = 100       # filter OCR garbage "Fig. 7168"
+    _LABEL_MAX_CHARS = 250      # text blocks shorter than this might be figure labels
+    _LABEL_PROXIMITY_PT = 50    # max distance from image to be a label
+    _ASPECT_RATIO_LIMIT = 15    # reject ribbon-like extractions
+
+    def _find_real_captions(self, page: fitz.Page, prefix: str = "Figure") -> list[dict]:
+        """Blocks that START with Fig./Figure or Table/Tab. and are descriptive."""
+        captions = []
+        for block in page.get_text("blocks"):
+            text = block[4].strip()
+            if not text or len(text) < self._MIN_CAPTION_LEN:
+                continue
+            prefix_text = text[:30].strip()
+            if prefix == "Figure":
+                m = re.match(r'(?:Figure|Fig\.?)\s*(\d+[A-Za-z]?)[\s.,:;]', prefix_text, re.IGNORECASE)
+            else:
+                m = re.match(r'(?:Table|Tab\.?)\s*(\d+[A-Za-z]?)[\s.,:;]', prefix_text, re.IGNORECASE)
+            if not m:
+                continue
+            fig_num_str = m.group(1)
+            try:
+                fig_num = int(re.sub(r'[A-Za-z]', '', fig_num_str))
+                if fig_num > self._MAX_FIGURE_NUM:
+                    continue
+            except ValueError:
+                pass
+            captions.append({
+                'bbox': fitz.Rect(block[:4]),
+                'text': text[:300],
+                'label': m.group(0).rstrip('.,:; '),
+                'fig_num': fig_num_str,
+            })
+        return captions
+
+    def _get_image_rects(self, page: fitz.Page) -> list[fitz.Rect]:
+        """Embedded image rectangles, noise filtered (min 30pt each side).
+        Capped at _MAX_IMAGES_PER_PAGE — formula-heavy pages have thousands
+        of tiny inline rasters that contribute nothing to real figures."""
+        rects = []
+        for i, img_info in enumerate(page.get_images(full=True)):
+            if i >= self._MAX_IMAGES_PER_PAGE:
+                break
+            try:
+                rect = page.get_image_bbox(img_info)
+                if rect and rect.is_valid and not rect.is_empty:
+                    if rect.width >= 30 and rect.height >= 30:
+                        rects.append(rect)
+            except Exception:
+                pass
+        return rects
+
+    def _get_text_blocks_in_band(self, page: fitz.Page, top_y: float, bottom_y: float) -> list[dict]:
+        """All text blocks whose vertical center falls in [top_y, bottom_y]."""
+        result = []
+        for block in page.get_text("blocks"):
+            text = block[4].strip()
+            if not text:
+                continue
+            bbox = fitz.Rect(block[:4])
+            cy = (bbox.y0 + bbox.y1) / 2
+            if top_y <= cy <= bottom_y:
+                result.append({'bbox': bbox, 'text': text})
+        return result
+
     def _extract_figures(self, pdf_path: Path, paper_id: str) -> List[Figure]:
-        """从PDF提取图表 — 使用页面重渲染捕获完整图层(图像+矢量+文字)"""
+        """Caption-driven v3: find captions → group images in vertical bands → render full layer."""
         figures = []
-        figure_counter = 0
+        fig_counter = 0
 
         try:
             with fitz.open(pdf_path) as doc:
                 for page_num, page in enumerate(doc, 1):
-                    page_text = page.get_text()
-                    image_list = page.get_images(full=True)
+                    image_rects = self._get_image_rects(page)
+                    captions = self._find_real_captions(page, "Figure")
 
-                    for img_index, img_info in enumerate(image_list):
-                        try:
-                            xref = img_info[0]
-                            img_rect = page.get_image_bbox(img_info)
-                            use_rerender = (
-                                img_rect is not None
-                                and img_rect.is_valid
-                                and not img_rect.is_empty
-                                and img_rect.width > 0
-                                and img_rect.height > 0
-                            )
+                    if not captions or not image_rects:
+                        continue
 
-                            if use_rerender:
-                                # 扩展bbox以捕获标注(坐标轴标签、图例、比例尺等)
-                                expanded = self._expand_figure_bbox(
-                                    img_rect, page.rect, img_index, image_list, page
-                                )
-                                pix = page.get_pixmap(clip=expanded, dpi=self.image_dpi)
-                                image_bytes = pix.tobytes("png")
-                                image_ext = "png"
-                                width, height = pix.width, pix.height
-                            else:
-                                # 回退: 提取原始嵌入图像
-                                base_image = doc.extract_image(xref)
-                                image_bytes = base_image["image"]
-                                image_ext = base_image["ext"]
-                                width = base_image.get("width", 0)
-                                height = base_image.get("height", 0)
+                    captions.sort(key=lambda c: c['bbox'].y0)
 
-                            # 计算图片hash
-                            img_hash = hashlib.md5(image_bytes).hexdigest()
+                    for i, cap in enumerate(captions):
+                        cap_bbox = cap['bbox']
 
-                            # 构建文件名 (重渲染统一为PNG)
-                            img_filename = f"{paper_id}_p{page_num}_i{img_index}.{image_ext}"
-                            img_path = config.visualizations / paper_id[:8] / img_filename
+                        # Vertical band for this figure
+                        top_y = page.rect.y0 + 5 if i == 0 else captions[i - 1]['bbox'].y1 + 3
+                        bottom_y = cap_bbox.y0
 
-                            # 保存图片
-                            img_path.parent.mkdir(parents=True, exist_ok=True)
-                            with open(img_path, "wb") as f:
-                                f.write(image_bytes)
+                        # Step 1: find embedded images whose center is in this band
+                        fig_images = []
+                        for r in image_rects:
+                            cy = (r.y0 + r.y1) / 2
+                            if top_y <= cy <= bottom_y:
+                                fig_images.append(r)
 
-                            # Pillow后期增强 (锐化+对比度)
-                            if self.enhance:
-                                self._post_process_image(img_path)
-
-                            # 噪声过滤: 跳过低质量/非图像
-                            if self._is_noise_image(width, height):
-                                continue
-
-                            # 尝试匹配图表标题
-                            caption = self._find_figure_caption(page_text, img_index, page_num)
-
-                            figure = Figure(
-                                figure_id=f"{paper_id[:8]}_fig_{figure_counter:03d}",
-                                paper_id=paper_id,
-                                figure_label=caption.get("label", f"Fig. {figure_counter + 1}"),
-                                figure_caption=caption.get("caption", ""),
-                                page_num=page_num,
-                                image_path=str(img_path),
-                                image_hash=img_hash,
-                                width=width,
-                                height=height,
-                                figure_type=caption.get("type", "unknown"),
-                            )
-                            figures.append(figure)
-                            figure_counter += 1
-
-                        except Exception as e:
-                            print(f"Warning: Error extracting image {img_index} from page {page_num}: {e}")
+                        if not fig_images:
                             continue
+
+                        # Step 2: union of image rects as initial bbox
+                        fig_bbox = fitz.Rect(fig_images[0])
+                        for r in fig_images[1:]:
+                            fig_bbox.include_rect(r)
+
+                        # Step 3: include small text blocks as labels/annotations
+                        text_blocks = self._get_text_blocks_in_band(page, top_y, bottom_y)
+
+                        for tb in text_blocks:
+                            # Skip caption block itself
+                            if tb['bbox'].y0 >= cap_bbox.y0 - 2:
+                                continue
+                            dist = max(
+                                fig_bbox.x0 - tb['bbox'].x1,
+                                tb['bbox'].x0 - fig_bbox.x1,
+                                fig_bbox.y0 - tb['bbox'].y1,
+                                tb['bbox'].y0 - fig_bbox.y1,
+                                0,
+                            )
+                            is_small = len(tb['text']) < self._LABEL_MAX_CHARS
+                            is_close = dist < self._LABEL_PROXIMITY_PT
+                            horiz_overlaps = (
+                                tb['bbox'].x0 < fig_bbox.x1 + 10
+                                and tb['bbox'].x1 > fig_bbox.x0 - 10
+                            )
+                            if is_small and is_close and horiz_overlaps:
+                                fig_bbox.include_rect(tb['bbox'])
+
+                        # Step 4: expand to caption width (figure fills its column)
+                        fig_bbox.x0 = min(fig_bbox.x0, cap_bbox.x0)
+                        fig_bbox.x1 = max(fig_bbox.x1, cap_bbox.x1)
+
+                        # Step 5: vertical expansion
+                        fig_bbox.y1 = cap_bbox.y0 - 2   # extend to caption top
+                        fig_bbox.y0 -= 5                 # small top margin
+                        if fig_bbox.y0 < page.rect.y0:
+                            fig_bbox.y0 = page.rect.y0
+
+                        # Small horizontal margin
+                        fig_bbox.x0 = max(page.rect.x0, fig_bbox.x0 - 5)
+                        fig_bbox.x1 = min(page.rect.x1, fig_bbox.x1 + 5)
+
+                        # Validate
+                        if fig_bbox.width < 50 or fig_bbox.height < 50:
+                            continue
+                        aspect = max(fig_bbox.width, fig_bbox.height) / max(min(fig_bbox.width, fig_bbox.height), 1)
+                        if aspect > self._ASPECT_RATIO_LIMIT:
+                            continue
+                        # Don't overflow into next figure's caption
+                        if i < len(captions) - 1:
+                            fig_bbox.y1 = min(fig_bbox.y1, captions[i + 1]['bbox'].y0 - 3)
+
+                        # Render full layer at target DPI
+                        try:
+                            pix = page.get_pixmap(clip=fig_bbox, dpi=self.image_dpi)
+                        except Exception as e:
+                            print(f"Warning: Render error for {cap['label']} on page {page_num}: {e}")
+                            continue
+
+                        image_bytes = pix.tobytes("png")
+                        img_hash = hashlib.md5(image_bytes).hexdigest()
+
+                        img_filename = f"{paper_id}_p{page_num:02d}_f{fig_counter:02d}.png"
+                        img_path = config.visualizations / paper_id[:8] / img_filename
+                        img_path.parent.mkdir(parents=True, exist_ok=True)
+                        pix.save(str(img_path))
+
+                        if self.enhance:
+                            self._post_process_image(img_path)
+
+                        if self._is_noise_image(pix.width, pix.height):
+                            continue
+
+                        figure = Figure(
+                            figure_id=f"{paper_id[:8]}_fig_{fig_counter:03d}",
+                            paper_id=paper_id,
+                            figure_label=cap['label'],
+                            figure_caption=cap['text'],
+                            page_num=page_num,
+                            image_path=str(img_path),
+                            image_hash=img_hash,
+                            width=pix.width,
+                            height=pix.height,
+                            figure_type=self._classify_figure_type(cap['text']),
+                            bbox=(fig_bbox.x0, fig_bbox.y0, fig_bbox.x1, fig_bbox.y1),
+                        )
+                        figures.append(figure)
+                        fig_counter += 1
 
         except Exception as e:
             print(f"Warning: Error extracting figures from {pdf_path}: {e}")
 
         return figures
 
-    def _find_figure_caption(self, page_text: str, img_index: int, page_num: int) -> Dict[str, str]:
-        """在页面文本中查找图表标题"""
-        result = {"label": "", "caption": "", "type": "unknown"}
+    def _extract_tables(self, pdf_path: Path, paper_id: str) -> List[Dict[str, Any]]:
+        """从PDF提取表格 — caption-driven + fitz渲染。
 
-        # 分割文本为行
-        lines = page_text.split("\n")
+        返回表格字典列表，每个包含 table_id, paper_id, table_label,
+        table_caption, page_num, image_path, width, height。
+        """
+        tables = []
+        table_counter = 0
 
-        # 查找包含Figure的行
-        for i, line in enumerate(lines):
-            line_clean = line.strip()
+        try:
+            with fitz.open(pdf_path) as doc:
+                for page_num, page in enumerate(doc, 1):
+                    captions = self._find_real_captions(page, "Table")
 
-            # 匹配各种图标模式
-            for pattern in self.figure_patterns:
-                match = re.search(pattern, line_clean, re.IGNORECASE)
-                if match:
-                    result["label"] = match.group(0)
-                    result["type"] = self._classify_figure_type(line_clean)
-                    result["caption"] = line_clean
-                    return result
+                    if not captions:
+                        continue
 
-        # 如果没找到，返回默认标签
-        result["label"] = f"Fig. {img_index + 1}"
-        return result
+                    captions.sort(key=lambda c: c['bbox'].y0)
+
+                    for i, cap in enumerate(captions):
+                        cap_bbox = cap['bbox']
+
+                        # Vertical band: previous caption to this caption
+                        top_y = page.rect.y0 + 5 if i == 0 else captions[i - 1]['bbox'].y1 + 3
+                        bottom_y = cap_bbox.y0
+
+                        # Table region: caption width, band height
+                        table_bbox = fitz.Rect(
+                            cap_bbox.x0,
+                            top_y,
+                            cap_bbox.x1,
+                            cap_bbox.y0 - 2,
+                        )
+
+                        if table_bbox.width < 50 or table_bbox.height < 50:
+                            continue
+
+                        # Don't overflow into next caption
+                        if i < len(captions) - 1:
+                            table_bbox.y1 = min(table_bbox.y1, captions[i + 1]['bbox'].y0 - 3)
+
+                        # Clamp to page
+                        table_bbox.x0 = max(page.rect.x0, table_bbox.x0 - 5)
+                        table_bbox.x1 = min(page.rect.x1, table_bbox.x1 + 5)
+
+                        try:
+                            pix = page.get_pixmap(clip=table_bbox, dpi=self.image_dpi)
+                        except Exception as e:
+                            print(f"Warning: Render error for {cap['label']} on page {page_num}: {e}")
+                            continue
+
+                        img_filename = f"{paper_id}_p{page_num:02d}_t{table_counter:02d}.png"
+                        img_path = config.visualizations / paper_id[:8] / img_filename
+                        img_path.parent.mkdir(parents=True, exist_ok=True)
+                        pix.save(str(img_path))
+
+                        if self.enhance:
+                            self._post_process_image(img_path)
+
+                        tables.append({
+                            'table_id': f"{paper_id[:8]}_tab_{table_counter:03d}",
+                            'paper_id': paper_id,
+                            'table_label': cap['label'],
+                            'table_caption': cap['text'],
+                            'page_num': page_num,
+                            'image_path': str(img_path),
+                            'width': pix.width,
+                            'height': pix.height,
+                        })
+                        table_counter += 1
+
+        except Exception as e:
+            print(f"Warning: Error extracting tables from {pdf_path}: {e}")
+
+        return tables
 
     def _classify_figure_type(self, caption: str) -> str:
         """根据标题内容分类图表类型"""
@@ -316,95 +472,6 @@ class PDFProcessor:
             return "setup"
         else:
             return "unknown"
-
-    def _expand_figure_bbox(
-        self,
-        img_rect: "fitz.Rect",
-        page_rect: "fitz.Rect",
-        img_index: int,
-        image_list: list,
-        page: "fitz.Page",
-    ) -> "fitz.Rect":
-        """扩展图表 bbox 以捕获坐标轴标签、图例、比例尺等叠加标注。
-
-        学术PDF的标注(轴标签、图例文字、比例尺)通常是独立于嵌入图像的
-        PDF矢量/文本元素。简单提取 xref 会丢失这些叠加层。
-        通过扩展 bbox 并重渲染页面区域来捕获完整图层。
-        """
-        margin_x = max(img_rect.width * 0.10, 30.0)
-        margin_top = max(img_rect.height * 0.08, 20.0)
-        margin_bottom = max(img_rect.height * 0.22, 45.0)  # x轴标签通常在下
-
-        expanded = fitz.Rect(
-            img_rect.x0 - margin_x,
-            img_rect.y0 - margin_top,
-            img_rect.x1 + margin_x,
-            img_rect.y1 + margin_bottom,
-        )
-
-        # 文本感知扩展: 检测图像附近的文字块(轴标签、标注)
-        try:
-            text_dict = page.get_text("dict")
-            for block in text_dict.get("blocks", []):
-                if block.get("type") != 0:
-                    continue
-                block_rect = fitz.Rect(block["bbox"])
-                # 仅纳入紧邻图像的小文字块(标注特征)
-                dist_to_img = max(
-                    block_rect.x0 - img_rect.x1,  # 右侧文字
-                    img_rect.x0 - block_rect.x1,  # 左侧文字
-                    block_rect.y0 - img_rect.y1,  # 下方文字(轴标签)
-                    img_rect.y0 - block_rect.y1,  # 上方文字(标题)
-                    0,
-                )
-                block_area = abs(block_rect)
-                if dist_to_img < 60 and block_area < img_rect.width * img_rect.height * 0.3:
-                    expanded.include_rect(block_rect)
-        except Exception:
-            pass  # 文本分析失败不影响提取
-
-        # 避免与同页相邻独立图像重叠
-        # 仅当原始bbox不重叠时才限制扩展(重叠图像属于同一多面板图)
-        for other_idx, other_info in enumerate(image_list):
-            if other_idx == img_index:
-                continue
-            try:
-                other_rect = page.get_image_bbox(other_info)
-                if not (other_rect and other_rect.is_valid and not other_rect.is_empty):
-                    continue
-                # 原始图像已重叠 → 同一figure的panel，不限制扩展
-                if img_rect.intersects(other_rect):
-                    continue
-                if expanded.intersects(other_rect):
-                    overlap = expanded.intersect(other_rect)
-                    if overlap.width > 0 and overlap.height > 0:
-                        mid_x = (img_rect.x1 + other_rect.x0) / 2
-                        mid_y = (img_rect.y1 + other_rect.y0) / 2
-                        if other_rect.x0 > img_rect.x0:
-                            expanded.x1 = min(expanded.x1, mid_x)
-                        else:
-                            expanded.x0 = max(expanded.x0, mid_x)
-                        if other_rect.y0 > img_rect.y0:
-                            expanded.y1 = min(expanded.y1, mid_y)
-                        else:
-                            expanded.y0 = max(expanded.y0, mid_y)
-            except Exception:
-                continue
-
-        # 确保扩展后bbox有效 (最小尺寸防护)
-        min_dim = 20.0  # 最小20pt ≈ 83px @300DPI
-        if expanded.width < min_dim:
-            expanded.x1 = expanded.x0 + min_dim
-        if expanded.height < min_dim:
-            expanded.y1 = expanded.y0 + min_dim
-
-        # 裁剪到页面边界
-        expanded.x0 = max(0, expanded.x0)
-        expanded.y0 = max(0, expanded.y0)
-        expanded.x1 = min(page_rect.width, expanded.x1)
-        expanded.y1 = min(page_rect.height, expanded.y1)
-
-        return expanded
 
     def _post_process_image(self, img_path: Path) -> None:
         """Pillow后期增强: 适度锐化和对比度提升。
@@ -566,7 +633,7 @@ class BatchProcessor:
         domain: str = "",
         subfield: str = "",
         recursive: bool = True,
-    ) -> List[Tuple[Paper, List[Figure], List[TextChunk]]]:
+    ) -> List[Tuple[Paper, List[Figure], List[TextChunk], List[Dict[str, Any]]]]:
         """
         批量处理目录中的所有PDF
 

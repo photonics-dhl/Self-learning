@@ -14,6 +14,7 @@ from sentence_transformers import SentenceTransformer
 
 from academic_rag.config import config
 from academic_rag.db.models import Paper, Figure, TextChunk, SearchResult
+from academic_rag.indexer.figure_indexer import FigureIndexer, CaptionIndexer
 
 
 class VectorIndexer:
@@ -24,6 +25,7 @@ class VectorIndexer:
         collection_name: str = "academic_papers",
         embedding_model: str = "BAAI/bge-m3",
         device: str = "cpu",
+        figure_indexer: Optional[FigureIndexer] = None,
     ):
         self.collection_name = collection_name
         self.embedding_model_name = embedding_model
@@ -35,6 +37,12 @@ class VectorIndexer:
 
         # 初始化ChromaDB
         self._init_chromadb()
+
+        # 图像索引器（可选，需要 CLIP）
+        self.figure_indexer = figure_indexer
+
+        # 标题索引器（语义匹配 chunk → figure）
+        self.caption_indexer = CaptionIndexer(self.embedding_model)
 
         # 内存存储（用于快速查询）
         self._papers: Dict[str, Paper] = {}
@@ -63,6 +71,7 @@ class VectorIndexer:
         paper: Paper,
         figures: List[Figure],
         chunks: List[TextChunk],
+        tables: List[Dict[str, Any]] = None,
         regenerate: bool = False,
     ) -> bool:
         """
@@ -72,6 +81,7 @@ class VectorIndexer:
             paper: 论文元数据
             figures: 图表列表
             chunks: 文本块列表
+            tables: 表格列表 (list of dict)
             regenerate: 是否重新生成（删除旧数据）
 
         Returns:
@@ -100,11 +110,13 @@ class VectorIndexer:
             self._index_chunks(paper_id, chunks)
 
             # 保存元数据到文件
-            self._save_metadata(paper_id, paper, figures, chunks)
+            self._save_metadata(paper_id, paper, figures, chunks, tables or [])
 
+            n_tables = len(tables) if tables else 0
             print(f"Indexed paper {paper_id}: {paper.title[:50]}...")
             print(f"  - {len(chunks)} text chunks")
             print(f"  - {len(figures)} figures")
+            print(f"  - {n_tables} tables")
 
             return True
 
@@ -149,6 +161,11 @@ class VectorIndexer:
         for chunk in chunks:
             self._chunks[chunk.chunk_id] = chunk
 
+        # 索引图像标题用于语义匹配
+        paper_figs = [f for f in self._figures.values() if f.paper_id == paper_id]
+        if paper_figs:
+            self.caption_indexer.index_captions(paper_figs, paper_id)
+
     def _is_paper_indexed(self, paper_id: str) -> bool:
         """检查论文是否已索引"""
         try:
@@ -183,6 +200,7 @@ class VectorIndexer:
         paper: Paper,
         figures: List[Figure],
         chunks: List[TextChunk],
+        tables: List[Dict[str, Any]] = None,
     ):
         """保存元数据到JSON文件"""
         meta_file = config.vector_db_path / f"{paper_id}_metadata.json"
@@ -190,6 +208,7 @@ class VectorIndexer:
         metadata = {
             "paper": paper.to_dict(),
             "figures": [fig.to_dict() for fig in figures],
+            "tables": tables or [],
             "chunks": [chunk.to_dict() for chunk in chunks],
         }
 
@@ -217,11 +236,16 @@ class VectorIndexer:
         Returns:
             SearchResult列表
         """
-        where_filter = {}
+        where_filter = None
+        conditions = []
         if domain:
-            where_filter["domain"] = domain
+            conditions.append({"domain": domain})
         if subfield:
-            where_filter["subfield"] = subfield
+            conditions.append({"subfield": subfield})
+        if len(conditions) == 1:
+            where_filter = conditions[0]
+        elif len(conditions) > 1:
+            where_filter = {"$and": conditions}
 
         query_embedding = self.embedding_model.encode([query])
 
@@ -282,12 +306,14 @@ class VectorIndexer:
         self,
         concept: str,
         domain: str = "",
+        subfield: str = "",
         top_k: int = 5,
     ) -> List[Tuple[Figure, Paper, float]]:
         """按概念搜索图表"""
         results = self.search(
             query=f"figure showing {concept}",
             domain=domain,
+            subfield=subfield,
             top_k=top_k * 2,
         )
 
@@ -333,16 +359,21 @@ class VectorIndexer:
             return None
 
     def _find_related_figure(self, chunk_id: str, paper_id: str) -> Optional[Figure]:
-        """查找关联的图表"""
+        """语义匹配查找关联图表 — 使用 caption embedding 而非页码启发式"""
         chunk = self._chunks.get(chunk_id)
         if not chunk:
             return None
 
+        result = self.caption_indexer.find_best_figure(chunk.text, paper_id)
+        if result:
+            figure_id, similarity = result
+            return self._figures.get(figure_id)
+
+        # Fallback: 页码匹配（caption 未索引时）
         page_figures = [
             fig for fig in self._figures.values()
             if fig.paper_id == paper_id and fig.page_num == chunk.page_num
         ]
-
         return page_figures[0] if page_figures else None
 
     def _create_highlight(self, document: str, query: str) -> str:
@@ -395,6 +426,23 @@ class VectorIndexer:
         end = min(len(document), last_match_pos + char_limit)
         return document[last_match_pos:end]
 
+    def index_paper_figures(self, paper: Paper, figures: List[Figure]) -> int:
+        """使用 CLIP 索引论文图像 (创建跨模态嵌入)"""
+        if not self.figure_indexer:
+            print("FigureIndexer not available. Install open-clip-torch.")
+            return 0
+        return self.figure_indexer.index_figures(figures, paper)
+
+    def search_figures_by_text(
+        self, query: str, top_k: int = 5, domain: str = "", figure_type: str = ""
+    ) -> List[dict]:
+        """CLIP 文本→图像检索"""
+        if not self.figure_indexer:
+            return []
+        return self.figure_indexer.search_by_text(
+            query, top_k=top_k, domain=domain, figure_type=figure_type
+        )
+
     def get_paper_by_id(self, paper_id: str) -> Optional[Paper]:
         """获取论文元数据"""
         if paper_id in self._papers:
@@ -410,9 +458,16 @@ class VectorIndexer:
 
     def get_stats(self) -> Dict[str, Any]:
         """获取统计信息"""
+        # Ensure all papers loaded from disk
+        db_path = config.vector_db_path
+        for meta_file in sorted(db_path.glob("*_metadata.json")):
+            paper_id = meta_file.stem.replace("_metadata", "")
+            if paper_id not in self._papers:
+                self._load_paper_metadata(paper_id)
+
         return {
             "total_papers": len(self._papers),
-            "total_chunks": len(self._chunks),
+            "total_chunks": self.collection.count(),
             "total_figures": len(self._figures),
             "collection_name": self.collection_name,
             "embedding_model": self.embedding_model_name,
@@ -420,7 +475,14 @@ class VectorIndexer:
         }
 
     def list_papers(self, domain: str = "", subfield: str = "") -> List[Paper]:
-        """列出所有已索引的论文"""
+        """列出所有已索引的论文（从磁盘元数据扫描）"""
+        # Load all metadata files from disk
+        db_path = config.vector_db_path
+        for meta_file in sorted(db_path.glob("*_metadata.json")):
+            paper_id = meta_file.stem.replace("_metadata", "")
+            if paper_id not in self._papers:
+                self._load_paper_metadata(paper_id)
+
         papers = list(self._papers.values())
 
         if domain:

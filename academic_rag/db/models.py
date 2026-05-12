@@ -30,6 +30,7 @@ class Paper:
 
     # 内容统计
     num_figures: int = 0
+    num_tables: int = 0
     num_pages: int = 0
     num_text_chunks: int = 0
 
@@ -53,6 +54,7 @@ class Paper:
             "pdf_path": self.pdf_path,
             "file_hash": self.file_hash,
             "num_figures": self.num_figures,
+            "num_tables": self.num_tables,
             "num_pages": self.num_pages,
             "num_text_chunks": self.num_text_chunks,
             "linked_notes": self.linked_notes,

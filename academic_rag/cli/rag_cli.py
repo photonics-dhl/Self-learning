@@ -12,6 +12,7 @@ from typing import Optional
 from academic_rag.config import config
 from academic_rag.processors.pdf_processor import PDFProcessor, BatchProcessor
 from academic_rag.indexer.vector_indexer import VectorIndexer
+from academic_rag.indexer.figure_indexer import FigureIndexer
 from academic_rag.api.search_api import SearchAPI
 
 
@@ -25,15 +26,18 @@ def cmd_index(args):
 
     # 处理PDF
     processor = PDFProcessor(extract_images=True, image_dpi=300)
-    paper, figures, chunks = processor.process(
+    paper, figures, chunks, tables = processor.process(
         pdf_path,
         domain=args.domain or "",
         subfield=args.subfield or "",
     )
 
-    # 创建索引器
-    indexer = VectorIndexer()
-    indexer.index_paper(paper, figures, chunks, regenerate=args.regenerate)
+    # 创建索引器 (带 CLIP 跨模态)
+    figure_indexer = FigureIndexer()
+    indexer = VectorIndexer(figure_indexer=figure_indexer)
+    indexer.index_paper(paper, figures, chunks, tables=tables, regenerate=args.regenerate)
+    if figures:
+        indexer.index_paper_figures(paper, figures)
 
     print(f"\nIndexed: {paper.title}")
     print(f"  Paper ID: {paper.paper_id}")
@@ -62,13 +66,16 @@ def cmd_index_dir(args):
         recursive=args.recursive,
     )
 
-    # 索引所有论文
-    indexer = VectorIndexer()
+    # 索引所有论文 (带 CLIP 跨模态)
+    figure_indexer = FigureIndexer()
+    indexer = VectorIndexer(figure_indexer=figure_indexer)
     success_count = 0
 
     for paper, figures, chunks in results:
         if indexer.index_paper(paper, figures, chunks, regenerate=args.regenerate):
             success_count += 1
+            if figures:
+                indexer.index_paper_figures(paper, figures)
 
     print(f"\nIndexed {success_count}/{len(results)} papers")
     return 0
@@ -109,7 +116,8 @@ def cmd_search(args):
 
 def cmd_find_figure(args):
     """为知识点查找合适配图"""
-    indexer = VectorIndexer()
+    figure_indexer = FigureIndexer()
+    indexer = VectorIndexer(figure_indexer=figure_indexer)
     api = SearchAPI(indexer)
 
     result = api.find_figure_for_knowledge_point(
@@ -122,21 +130,33 @@ def cmd_find_figure(args):
         print(f"No figure found for: {args.concept}")
         return 1
 
+    method = result.get("method", "BGE-M3")
+
     print(f"\nBest match for: {args.concept}")
+    print(f"Method: {method}")
     print(f"Image: {result['image_path']}")
     print(f"\nSource:")
-    print(f"  Paper: {result['source']['paper_title']}")
-    print(f"  Authors: {result['source']['authors']}")
-    print(f"  Year: {result['source']['year']}")
-    print(f"  Figure: {result['source']['figure_label']}")
+    print(f"  Paper: {result['source'].get('paper_title', '')}")
+    if 'authors' in result['source']:
+        print(f"  Authors: {result['source']['authors']}")
+    year = result['source'].get('year') or result['source'].get('paper_year', 0)
+    print(f"  Year: {year}")
+    fig_label = result['source'].get('figure_label') or result['source'].get('figure_label', '')
+    if fig_label:
+        print(f"  Figure: {fig_label}")
     print(f"  Caption: {result['source']['figure_caption']}")
+
+    if 'similarity' in result:
+        print(f"\nSimilarity: {result['similarity']:.3f}")
+
     print(f"\nUsage Guide:")
     print(f"  {result['usage_guide']['description']}")
-    print(f"  Key findings: {result['usage_guide']['key_findings']}")
-    print(f"\nContext (from paper):")
-    print(f"  Section: {result['context']['section']}")
-    print(f"  Page: {result['context']['page']}")
-    print(f"  Quote: {result['context']['text_quote'][:200]}...")
+
+    if result.get('context'):
+        print(f"\nContext (from paper):")
+        print(f"  Section: {result['context']['section']}")
+        print(f"  Page: {result['context']['page']}")
+        print(f"  Quote: {result['context']['text_quote'][:200]}...")
 
     # 输出Obsidian引用格式
     print(f"\nObsidian引用:")
@@ -204,6 +224,8 @@ def cmd_figures(args):
 
 
 def main():
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+
     parser = argparse.ArgumentParser(
         description="Academic Paper RAG CLI - 学术论文检索增强生成系统",
         formatter_class=argparse.RawDescriptionHelpFormatter,
