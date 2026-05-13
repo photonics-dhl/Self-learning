@@ -15,24 +15,9 @@
         "GITHUB_TOKEN": "${GITHUB_TOKEN}"
       }
     },
-    "image-generation": {
-      "command": "npx",
-      "args": ["-y", "mcp-image"],
-      "env": {
-        "GEMINI_API_KEY": "${GEMINI_API_KEY}"
-      }
-    },
     "mermaid": {
       "command": "npx",
       "args": ["-y", "mcp-mermaid"]
-    },
-    "diagram-generator": {
-      "command": "npx",
-      "args": ["-y", "mcp-diagram-generator"]
-    },
-    "filesystem": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "~/Documents", "~/Projects", "~/Desktop"]
     },
     "puppeteer": {
       "command": "npx",
@@ -42,25 +27,17 @@
       "command": "npx",
       "args": ["-y", "@kazuph/mcp-fetch"]
     },
-    "time": {
-      "command": "npx",
-      "args": ["-y", "@guanxiong/mcp-server-time"]
-    },
     "memory": {
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-memory"]
     },
     "zotero": {
-      "transport": "streamable_http",
+      "type": "http",
       "url": "http://127.0.0.1:23120/mcp"
     },
     "context7": {
       "command": "npx",
       "args": ["-y", "@upstash/context7-mcp"]
-    },
-    "sequential-thinking": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
     },
     "tavily-search": {
       "command": "node",

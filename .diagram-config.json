@@ -1,8 +1,8 @@
 {
   "defaultOutputPaths": {
-    "drawio": "z:/321/DHL/Self_Learning/diagrams/drawio",
-    "mermaid": "z:/321/DHL/Self_Learning/diagrams/mermaid",
-    "excalidraw": "z:/321/DHL/Self_Learning/diagrams/excalidraw"
+    "drawio": "diagrams/drawio",
+    "mermaid": "diagrams/mermaid",
+    "excalidraw": "diagrams/excalidraw"
   },
   "initialized": true
 }

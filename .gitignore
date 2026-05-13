@@ -1,5 +1,6 @@
 # Environment (contains API keys)
 .env
+.mcp.json
 
 # Obsidian Vault (large binary/data)
 Obsidian-Vault/
@@ -34,4 +35,12 @@ academic_rag/chroma_db/
 __pycache__/
 *.pyc
 *.pyo
+
+# Python virtual environment
+.venv/
+
+# Misc noise
+.entroly-wasm-state.json
+migrate-to-wasm.js
+
 .claude/discussion_log.json
