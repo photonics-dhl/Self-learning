@@ -60,19 +60,29 @@ class RAGConfig:
     # 嵌入模型
     embedding_model: str = "BAAI/bge-m3"  # BGE-M3 多语言嵌入
     embedding_device: str = "cpu"  # cpu/cuda
+    models_cache_dir: Path = field(default_factory=lambda: PROJECT_ROOT / "academic_rag" / "models")
+    hf_home: Path = field(default_factory=lambda: PROJECT_ROOT / "academic_rag" / "models")
+
+    # CLIP 跨模态模型 (text ↔ image 检索)
+    clip_model: str = "ViT-B-32"
+    clip_pretrained: str = "laion2b_s34b_b79k"
+    clip_embedding_dim: int = 512
 
     # 向量数据库
     vector_db_type: str = "chroma"
     collection_name: str = "academic_papers"
+    figure_collection_name: str = "figure_embeddings"
 
     # PDF处理
     extract_images: bool = True
     image_dpi: int = 300
     min_text_length: int = 50  # 最小文本块长度
+    min_figure_size: int = 100  # 最小图片尺寸(px)，过滤logo/图标
 
     # 搜索参数
     top_k: int = 5
     similarity_threshold: float = 0.3
+    figure_similarity_threshold: float = 0.25
 
     # 路径
     project_root: Path = field(default_factory=lambda: PROJECT_ROOT)
@@ -85,6 +95,7 @@ class RAGConfig:
         """确保目录存在"""
         self.paper_storage.mkdir(parents=True, exist_ok=True)
         self.vector_db_path.mkdir(parents=True, exist_ok=True)
+        self.models_cache_dir.mkdir(parents=True, exist_ok=True)
 
     def get_subfield_path(self, domain: str, subfield: str) -> Path:
         """获取子领域对应的Obsidian路径"""

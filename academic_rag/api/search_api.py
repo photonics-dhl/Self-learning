@@ -3,6 +3,7 @@
 Phase 3: 提供语义搜索和图表搜索接口
 """
 
+from pathlib import Path
 from typing import List, Dict, Optional, Any
 from dataclasses import asdict
 
@@ -205,6 +206,32 @@ class SearchAPI:
 
         return results["figures"][:5]  # 返回前5个
 
+    def search_figures_crossmodal(
+        self,
+        query: str,
+        domain: str = "",
+        subfield: str = "",
+        figure_type: str = "",
+        top_k: int = 5,
+    ) -> Dict[str, Any]:
+        """
+        CLIP 跨模态图像检索 — text→image
+
+        直接使用 CLIP 在图像嵌入空间中查找，而非通过文本中间层
+        """
+        results = self.indexer.search_figures_by_text(
+            query=query,
+            top_k=top_k,
+            domain=domain,
+            figure_type=figure_type,
+        )
+        return {
+            "figures": results,
+            "total": len(results),
+            "query": query,
+            "method": "CLIP-crossmodal",
+        }
+
     def find_figure_for_knowledge_point(
         self,
         knowledge_point: str,
@@ -214,23 +241,20 @@ class SearchAPI:
         """
         为知识点查找合适的配图
 
-        这是核心功能，帮助用户在撰写笔记时找到合适的配图
-
-        Args:
-            knowledge_point: 知识点描述 (e.g., "光电导天线辐射原理")
-            domain: 领域
-            subfield: 子领域
-
-        Returns:
-            最佳匹配的图表信息，包括：
-            - 图片路径
-            - 来源论文
-            - 说明文字
-            - 如何在笔记中使用
+        CLIP 跨模态优先，回退到文本匹配
         """
-        # 构建详细查询
-        query = f"{knowledge_point} diagram schematic illustration"
+        # 1. CLIP 跨模态检索
+        clip_results = self.indexer.search_figures_by_text(
+            query=f"{knowledge_point} diagram schematic",
+            top_k=3,
+            domain=domain,
+        )
+        if clip_results:
+            best = clip_results[0]
+            return self._format_clip_match(best, knowledge_point)
 
+        # 2. 回退: BGE-M3 文本检索
+        query = f"{knowledge_point} diagram schematic illustration"
         results = self.search(
             query=query,
             domain=domain,
@@ -239,23 +263,15 @@ class SearchAPI:
             include_figures=True,
         )
 
-        # 找出有图表的结果
         best_match = None
         best_score = 0.0
-
         for r in results["results"]:
             if r.get("figure"):
-                # 综合评分：文本相似度 + 图的匹配度
                 score = r["similarity"]
-
-                # 图表标题/描述匹配知识点的额外加分
                 fig_caption = r["figure"].get("figure_caption", "").lower()
-                fig_desc = r["figure"].get("description", "").lower()
                 kp_lower = knowledge_point.lower()
-
-                if any(kw in fig_caption or kw in fig_desc for kw in kp_lower.split()):
+                if any(kw in fig_caption for kw in kp_lower.split()):
                     score += 0.2
-
                 if score > best_score:
                     best_score = score
                     best_match = r
@@ -291,7 +307,7 @@ class SearchAPI:
         return {
             "paper_id": paper.paper_id,
             "title": paper.title,
-            "authors": paper.authors[:3] + ("et al." if len(paper.authors) > 3 else ""),
+            "authors": ", ".join(paper.authors[:3]) + (", et al." if len(paper.authors) > 3 else ""),
             "year": paper.year,
             "journal": paper.journal,
             "domain": paper.domain,
@@ -348,6 +364,32 @@ class SearchAPI:
                 "section": chunk["heading"],
                 "page": chunk["page_num"],
             },
+        }
+
+    def _format_clip_match(
+        self,
+        match: Dict[str, Any],
+        knowledge_point: str,
+    ) -> Dict[str, Any]:
+        """格式化 CLIP 跨模态匹配结果"""
+        image_path = match.get("image_path", "")
+        img_filename = Path(image_path).name if image_path else ""
+        return {
+            "image_path": image_path,
+            "obsidian_ref": f"![[{img_filename}]]",
+            "source": {
+                "paper_title": match.get("paper_title", ""),
+                "paper_year": match.get("paper_year", 0),
+                "figure_label": match.get("label", ""),
+                "figure_caption": match.get("caption", ""),
+            },
+            "usage_guide": {
+                "description": match.get("caption", ""),
+                "key_findings": [],
+                "how_to_use": f"CLIP 跨模态检索匹配 {knowledge_point}\n图表标题：{match.get('caption', '')}",
+            },
+            "similarity": match.get("similarity", 0),
+            "method": "CLIP-crossmodal",
         }
 
     def _generate_usage_guide(self, figure: Dict[str, Any], knowledge_point: str) -> str:

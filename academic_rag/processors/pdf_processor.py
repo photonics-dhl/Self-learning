@@ -325,6 +325,22 @@ class PDFProcessor:
                 pass
         return rects
 
+    _CLUSTER_GAP_PT = 25  # max vertical gap within a multi-panel figure
+
+    def _cluster_image_rects(self, rects: list[fitz.Rect]) -> list[list[fitz.Rect]]:
+        """Group nearby image rects into multi-panel clusters by vertical proximity."""
+        if not rects:
+            return []
+        sorted_rects = sorted(rects, key=lambda r: (r.y0, r.x0))
+        clusters = [[sorted_rects[0]]]
+        for r in sorted_rects[1:]:
+            last = clusters[-1][-1]
+            if r.y0 - last.y1 <= self._CLUSTER_GAP_PT:
+                clusters[-1].append(r)
+            else:
+                clusters.append([r])
+        return clusters
+
     def _get_text_blocks_in_band(self, page: fitz.Page, top_y: float, bottom_y: float) -> list[dict]:
         """All text blocks whose vertical center falls in [top_y, bottom_y]."""
         result = []
@@ -339,7 +355,7 @@ class PDFProcessor:
         return result
 
     def _extract_figures(self, pdf_path: Path, paper_id: str) -> List[Figure]:
-        """Caption-driven v3: captions → image union (bidirectional) or caption-only fallback."""
+        """Caption-driven v4: image clustering + nearest-caption matching + full-width fallback."""
         figures = []
         fig_counter = 0
 
@@ -372,21 +388,26 @@ class PDFProcessor:
                         if above_top >= above_bot:
                             above_top = page.rect.y0 + 5
 
-                        # Find images above caption
-                        above_images = []
-                        for r in image_rects:
-                            cy = (r.y0 + r.y1) / 2
+                        # Cluster image rects, pick cluster nearest to caption
+                        image_clusters = self._cluster_image_rects(image_rects)
+                        cap_cy = (cap_bbox.y0 + cap_bbox.y1) / 2
+                        candidates = []  # (cluster, centroid_y, from_above)
+                        for cl in image_clusters:
+                            cy = sum((r.y0 + r.y1) / 2 for r in cl) / len(cl)
                             if above_top <= cy <= above_bot:
-                                above_images.append(r)
+                                candidates.append((cl, cy, True))
+                            elif below_top <= cy <= below_bot:
+                                candidates.append((cl, cy, False))
 
-                        # Find images below caption
-                        below_images = []
-                        for r in image_rects:
-                            cy = (r.y0 + r.y1) / 2
-                            if below_top <= cy <= below_bot:
-                                below_images.append(r)
+                        if len(candidates) > 1:
+                            candidates.sort(key=lambda x: abs(x[1] - cap_cy))
 
-                        fig_images = above_images + below_images
+                        if candidates:
+                            fig_images = candidates[0][0]
+                            from_above = candidates[0][2]
+                        else:
+                            fig_images = []
+                            from_above = False
 
                         if fig_images:
                             fig_bbox = fitz.Rect(fig_images[0])
@@ -394,7 +415,7 @@ class PDFProcessor:
                                 fig_bbox.include_rect(r)
 
                             # Include small text blocks as labels (above band only)
-                            if above_images:
+                            if from_above:
                                 text_blocks = self._get_text_blocks_in_band(page, above_top, above_bot)
                                 for tb in text_blocks:
                                     if tb['bbox'].y0 >= cap_bbox.y0 - 2:
@@ -418,19 +439,30 @@ class PDFProcessor:
                             fig_bbox.x0 = min(fig_bbox.x0, cap_bbox.x0)
                             fig_bbox.x1 = max(fig_bbox.x1, cap_bbox.x1)
                         else:
-                            # Fallback: render from above_top to caption
+                            # Fallback: render from above_top to caption.
+                            # Expand to full text-area width — figures often span
+                            # wider than their caption column in multi-column layouts.
+                            text_x0 = cap_bbox.x0
+                            text_x1 = cap_bbox.x1
+                            for blk in page.get_text("blocks"):
+                                t = blk[4].strip()
+                                if len(t) > 20:
+                                    text_x0 = min(text_x0, blk[0])
+                                    text_x1 = max(text_x1, blk[2])
+                            # Keep within page with small margin
+                            text_x0 = max(page.rect.x0 + 20, text_x0)
+                            text_x1 = min(page.rect.x1 - 20, text_x1)
                             fig_bbox = fitz.Rect(
-                                cap_bbox.x0,
+                                text_x0,
                                 above_top,
-                                cap_bbox.x1,
+                                text_x1,
                                 cap_bbox.y0 - 2,
                             )
 
                         # Vertical expansion — if images below caption, extend to them
-                        if below_images:
-                            fig_bbox.y1 = cap_bbox.y0 - 2  # caption top
-                            # Extend bottom to include below images
-                            for r in below_images:
+                        if not from_above and fig_images:
+                            fig_bbox.y1 = cap_bbox.y0 - 2
+                            for r in fig_images:
                                 fig_bbox.y1 = max(fig_bbox.y1, r.y1 + 5)
                         else:
                             fig_bbox.y1 = cap_bbox.y0 - 2
