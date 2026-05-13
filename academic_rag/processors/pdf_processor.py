@@ -113,7 +113,7 @@ class PDFProcessor:
         return hasher.hexdigest()
 
     def _extract_metadata(self, pdf_path: Path) -> Dict[str, Any]:
-        """从PDF提取元数据"""
+        """从PDF提取元数据 — font-size-aware title detection."""
         metadata = {
             "title": "",
             "authors": [],
@@ -128,38 +128,35 @@ class PDFProcessor:
             with fitz.open(pdf_path) as doc:
                 metadata["num_pages"] = len(doc)
 
-                # 尝试从PDF元数据获取
                 doc_metadata = doc.metadata
                 if doc_metadata:
                     metadata["title"] = doc_metadata.get("title", "")
                     metadata["doi"] = doc_metadata.get("doi", "")
 
-                # 尝试从第一页提取标题和作者
                 if len(doc) > 0:
                     first_page = doc[0]
+
+                    # Font-size-aware title extraction
+                    extracted_title = self._extract_title_from_page(first_page)
+                    if extracted_title:
+                        metadata["title"] = extracted_title
+
+                    # Author extraction
                     text = first_page.get_text()
-
-                    # 提取标题（通常在第一页顶部）
                     lines = [l.strip() for l in text.split("\n") if l.strip()]
-                    if lines:
-                        metadata["title"] = lines[0][:200]  # 取第一行作为标题
-
-                    # 尝试提取作者（通常在标题下方）
                     if len(lines) > 1:
-                        # 简单启发式：找包含多个逗号或"and"的行
-                        for line in lines[1:5]:
-                            if "," in line and len(line) < 200:
+                        for line in lines[1:8]:
+                            if "," in line and len(line) < 300:
                                 authors = re.split(r",\s*|\s+and\s+", line)
-                                if 1 < len(authors) <= 10:
+                                if 1 < len(authors) <= 15:
                                     metadata["authors"] = [a.strip() for a in authors if a.strip()]
                                     break
 
-                    # 尝试提取年份
                     year_match = re.search(r"\b(19|20)\d{2}\b", text)
                     if year_match:
                         metadata["year"] = int(year_match.group())
 
-                # 尝试提取摘要
+                # Abstract extraction
                 for page in doc:
                     text = page.get_text()
                     abstract_match = re.search(
@@ -171,7 +168,6 @@ class PDFProcessor:
                         metadata["abstract"] = abstract_match.group(1)[:1000]
                         break
 
-                # 尝试从PDF信息获取期刊
                 if doc_metadata:
                     metadata["journal"] = doc_metadata.get("journal", "")
 
@@ -179,6 +175,97 @@ class PDFProcessor:
             print(f"Warning: Error extracting metadata from {pdf_path}: {e}")
 
         return metadata
+
+    def _extract_title_from_page(self, page: fitz.Page) -> str:
+        """Extract paper title from first page using font-size + position heuristics.
+
+        Title is in the top 50% of the page, has the largest font size among
+        non-header text, and is not a drop cap (one huge char + rest normal).
+        After finding the title start, extends to adjacent same-font-size lines.
+        """
+        page_h = page.rect.height
+
+        # Collect individual lines with font info, only top 50% of page
+        lines: list[dict] = []
+        for block in page.get_text("dict")["blocks"]:
+            if block.get("type") != 0:
+                continue
+            for line in block.get("lines", []):
+                sizes = [s.get("size", 0) for s in line["spans"]]
+                text = "".join(s["text"] for s in line["spans"]).strip()
+                if not text or len(text) < 3:
+                    continue
+                y0 = line["bbox"][1]
+                if y0 > page_h * 0.5:
+                    continue
+
+                max_size = max(sizes)
+                median_size = sorted(sizes)[len(sizes) // 2]
+
+                # Drop-cap detection: one giant char + normal text
+                if max_size > 0 and median_size > 0 and max_size > median_size * 3 and len(sizes) > 1:
+                    continue
+
+                lines.append({
+                    "text": text,
+                    "size": max_size,
+                    "y0": y0,
+                    "x0": line["bbox"][0],
+                    "x1": line["bbox"][2],
+                })
+
+        if not lines:
+            return ""
+
+        _SKIP_WORDS = {"ARTICLES", "ARTICLE", "RESEARCH ARTICLE", "REVIEW",
+                        "LETTER", "REPORT", "COMMENTARY", "REPORTS"}
+
+        # Find best title starting line: largest font that passes filters
+        lines.sort(key=lambda L: -L["size"])
+        best = None
+        for L in lines:
+            t = L["text"]
+            if t.strip().upper() in _SKIP_WORDS:
+                continue
+            if t == t.upper() and len(t) < 60:
+                continue
+            if re.match(r'^\d+\.\s+[A-Z]\.\s+\w+,', t):
+                continue
+            if t.startswith("doi:") or t.startswith("http"):
+                continue
+            if len(t) < 10:
+                continue
+            best = L
+            break
+
+        if not best:
+            return ""
+
+        # Extend downward to adjacent lines of similar font size (multi-line titles).
+        # Only lines within 50pt vertical gap and 5 lines max. No upward extension —
+        # journal headers above the title would get chained in.
+        title_parts = [best["text"]]
+        size_tol = 2.0
+        _MAX_TITLE_LINES = 5
+        _MAX_GAP = 50  # pt
+
+        y_below = best["y0"]
+        x_below = (best["x0"], best["x1"])
+        while len(title_parts) < _MAX_TITLE_LINES:
+            cands = [
+                L for L in lines
+                if 0 < L["y0"] - y_below <= _MAX_GAP
+                and abs(L["size"] - best["size"]) <= size_tol
+                and not (L["x1"] < x_below[0] - 20 or L["x0"] > x_below[1] + 20)
+            ]
+            if not cands:
+                break
+            cands.sort(key=lambda L: L["y0"])
+            title_parts.append(cands[0]["text"])
+            y_below = cands[0]["y0"]
+            x_below = (cands[0]["x0"], cands[0]["x1"])
+
+        return " ".join(title_parts)[:200]
 
     def _auto_classify(self, title: str, abstract: str) -> Tuple[str, str]:
         """根据标题和摘要自动分类"""
@@ -252,7 +339,7 @@ class PDFProcessor:
         return result
 
     def _extract_figures(self, pdf_path: Path, paper_id: str) -> List[Figure]:
-        """Caption-driven v3: find captions → group images in vertical bands → render full layer."""
+        """Caption-driven v3: captions → image union (bidirectional) or caption-only fallback."""
         figures = []
         fig_counter = 0
 
@@ -262,7 +349,7 @@ class PDFProcessor:
                     image_rects = self._get_image_rects(page)
                     captions = self._find_real_captions(page, "Figure")
 
-                    if not captions or not image_rects:
+                    if not captions:
                         continue
 
                     captions.sort(key=lambda c: c['bbox'].y0)
@@ -270,59 +357,88 @@ class PDFProcessor:
                     for i, cap in enumerate(captions):
                         cap_bbox = cap['bbox']
 
-                        # Vertical band for this figure
-                        top_y = page.rect.y0 + 5 if i == 0 else captions[i - 1]['bbox'].y1 + 3
-                        bottom_y = cap_bbox.y0
+                        # Band ABOVE caption
+                        prev_y1 = captions[i - 1]['bbox'].y1 if i > 0 else page.rect.y0
+                        above_top = prev_y1 + 3
+                        above_bot = cap_bbox.y0
 
-                        # Step 1: find embedded images whose center is in this band
-                        fig_images = []
+                        # Band BELOW caption — start just below caption text, not the block's
+                        # potentially massive y1 (some blocks span entire columns).
+                        next_y0 = captions[i + 1]['bbox'].y0 if i + 1 < len(captions) else page.rect.y1
+                        below_top = cap_bbox.y0 + 30
+                        below_bot = next_y0 - 3
+
+                        # Multi-column guard
+                        if above_top >= above_bot:
+                            above_top = page.rect.y0 + 5
+
+                        # Find images above caption
+                        above_images = []
                         for r in image_rects:
                             cy = (r.y0 + r.y1) / 2
-                            if top_y <= cy <= bottom_y:
-                                fig_images.append(r)
+                            if above_top <= cy <= above_bot:
+                                above_images.append(r)
 
-                        if not fig_images:
-                            continue
+                        # Find images below caption
+                        below_images = []
+                        for r in image_rects:
+                            cy = (r.y0 + r.y1) / 2
+                            if below_top <= cy <= below_bot:
+                                below_images.append(r)
 
-                        # Step 2: union of image rects as initial bbox
-                        fig_bbox = fitz.Rect(fig_images[0])
-                        for r in fig_images[1:]:
-                            fig_bbox.include_rect(r)
+                        fig_images = above_images + below_images
 
-                        # Step 3: include small text blocks as labels/annotations
-                        text_blocks = self._get_text_blocks_in_band(page, top_y, bottom_y)
+                        if fig_images:
+                            fig_bbox = fitz.Rect(fig_images[0])
+                            for r in fig_images[1:]:
+                                fig_bbox.include_rect(r)
 
-                        for tb in text_blocks:
-                            # Skip caption block itself
-                            if tb['bbox'].y0 >= cap_bbox.y0 - 2:
-                                continue
-                            dist = max(
-                                fig_bbox.x0 - tb['bbox'].x1,
-                                tb['bbox'].x0 - fig_bbox.x1,
-                                fig_bbox.y0 - tb['bbox'].y1,
-                                tb['bbox'].y0 - fig_bbox.y1,
-                                0,
+                            # Include small text blocks as labels (above band only)
+                            if above_images:
+                                text_blocks = self._get_text_blocks_in_band(page, above_top, above_bot)
+                                for tb in text_blocks:
+                                    if tb['bbox'].y0 >= cap_bbox.y0 - 2:
+                                        continue
+                                    dist = max(
+                                        fig_bbox.x0 - tb['bbox'].x1,
+                                        tb['bbox'].x0 - fig_bbox.x1,
+                                        fig_bbox.y0 - tb['bbox'].y1,
+                                        tb['bbox'].y0 - fig_bbox.y1,
+                                        0,
+                                    )
+                                    is_small = len(tb['text']) < self._LABEL_MAX_CHARS
+                                    is_close = dist < self._LABEL_PROXIMITY_PT
+                                    horiz_overlaps = (
+                                        tb['bbox'].x0 < fig_bbox.x1 + 10
+                                        and tb['bbox'].x1 > fig_bbox.x0 - 10
+                                    )
+                                    if is_small and is_close and horiz_overlaps:
+                                        fig_bbox.include_rect(tb['bbox'])
+
+                            fig_bbox.x0 = min(fig_bbox.x0, cap_bbox.x0)
+                            fig_bbox.x1 = max(fig_bbox.x1, cap_bbox.x1)
+                        else:
+                            # Fallback: render from above_top to caption
+                            fig_bbox = fitz.Rect(
+                                cap_bbox.x0,
+                                above_top,
+                                cap_bbox.x1,
+                                cap_bbox.y0 - 2,
                             )
-                            is_small = len(tb['text']) < self._LABEL_MAX_CHARS
-                            is_close = dist < self._LABEL_PROXIMITY_PT
-                            horiz_overlaps = (
-                                tb['bbox'].x0 < fig_bbox.x1 + 10
-                                and tb['bbox'].x1 > fig_bbox.x0 - 10
-                            )
-                            if is_small and is_close and horiz_overlaps:
-                                fig_bbox.include_rect(tb['bbox'])
 
-                        # Step 4: expand to caption width (figure fills its column)
-                        fig_bbox.x0 = min(fig_bbox.x0, cap_bbox.x0)
-                        fig_bbox.x1 = max(fig_bbox.x1, cap_bbox.x1)
-
-                        # Step 5: vertical expansion
-                        fig_bbox.y1 = cap_bbox.y0 - 2   # extend to caption top
-                        fig_bbox.y0 -= 5                 # small top margin
+                        # Vertical expansion — if images below caption, extend to them
+                        if below_images:
+                            fig_bbox.y1 = cap_bbox.y0 - 2  # caption top
+                            # Extend bottom to include below images
+                            for r in below_images:
+                                fig_bbox.y1 = max(fig_bbox.y1, r.y1 + 5)
+                        else:
+                            fig_bbox.y1 = cap_bbox.y0 - 2
+                        fig_bbox.y0 -= 5
                         if fig_bbox.y0 < page.rect.y0:
                             fig_bbox.y0 = page.rect.y0
 
-                        # Small horizontal margin
+                        # Horizontal margin
                         fig_bbox.x0 = max(page.rect.x0, fig_bbox.x0 - 5)
                         fig_bbox.x1 = min(page.rect.x1, fig_bbox.x1 + 5)
 
@@ -332,11 +448,10 @@ class PDFProcessor:
                         aspect = max(fig_bbox.width, fig_bbox.height) / max(min(fig_bbox.width, fig_bbox.height), 1)
                         if aspect > self._ASPECT_RATIO_LIMIT:
                             continue
-                        # Don't overflow into next figure's caption
                         if i < len(captions) - 1:
                             fig_bbox.y1 = min(fig_bbox.y1, captions[i + 1]['bbox'].y0 - 3)
 
-                        # Render full layer at target DPI
+                        # Render
                         try:
                             pix = page.get_pixmap(clip=fig_bbox, dpi=self.image_dpi)
                         except Exception as e:
