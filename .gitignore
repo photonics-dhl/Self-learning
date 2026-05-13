@@ -39,6 +39,12 @@ __pycache__/
 # Python virtual environment
 .venv/
 
+# Downloaded ML models (large binary)
+academic_rag/models/
+
+# Paper PDF storage
+academic_rag/papers/
+
 # Misc noise
 .entroly-wasm-state.json
 migrate-to-wasm.js
