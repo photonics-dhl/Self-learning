@@ -1,3 +1,8 @@
+---
+name: scientific-writing
+description: AI驱动的深度科研写作。两阶段流程：规划→流畅段落，结合文献检索和验证引用。当用户需要科研写作时触发。
+---
+
 # Scientific Writing Skill - 科研写作规范
 
 ## Overview

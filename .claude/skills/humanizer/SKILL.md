@@ -1,3 +1,8 @@
+---
+name: humanizer
+description: 消除文本中AI生成的痕迹，使其听起来更自然、更像人类写作。当用户需要润色论文、去AI味、改写段落时触发。
+---
+
 # Humanizer Skill
 
 ## Overview

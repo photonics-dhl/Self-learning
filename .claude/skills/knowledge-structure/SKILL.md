@@ -1,3 +1,8 @@
+---
+name: knowledge-structure
+description: 笔记因果链和四层理解模型。定义笔记间的逻辑关系（前提→核心→推导→应用）。
+---
+
 # 知识脉络技能 (Knowledge Structure Skill)
 
 ## 定位：第二步

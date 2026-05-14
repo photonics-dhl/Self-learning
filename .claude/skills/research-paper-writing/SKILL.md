@@ -1,3 +1,8 @@
+---
+name: research-paper-writing
+description: 审稿人友好的论文重写。优先考虑第一印象质量（图/表/布局）、逻辑流程和证据支持的论点。当用户需要修改论文以适应审稿要求时触发。
+---
+
 # Research Paper Writing Skill
 
 ## Overview

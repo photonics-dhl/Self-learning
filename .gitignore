@@ -50,3 +50,4 @@ academic_rag/papers/
 migrate-to-wasm.js
 
 .claude/discussion_log.json
+.claude/settings.local.json

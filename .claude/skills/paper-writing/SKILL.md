@@ -1,3 +1,8 @@
+---
+name: paper-writing
+description: 学术论文AI辅助撰写。整合 AI Scientist V2 能力，基于实验数据、Zotero文献库和Obsidian知识库自动撰写论文。当用户需要写论文时触发。
+---
+
 # Paper Writing Skill - 学术论文AI辅助撰写
 
 ## 概述

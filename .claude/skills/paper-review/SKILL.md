@@ -1,3 +1,8 @@
+---
+name: paper-review
+description: 双代理协作的论文质量审查系统。检查期刊格式规范、学术质量、图表一致性。当用户需要审查论文时触发。
+---
+
 # Paper Review Agent - 论文质量审查技能
 
 ## 概述

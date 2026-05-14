@@ -1,3 +1,8 @@
+---
+name: literature-review
+description: 系统性文献综述撰写。整合 Pautasso (2013) 综述写作规则和 C-C-C 结构原则。当用户需要写文献综述时触发。
+---
+
 # Literature Review Writing Skill - 系统性文献综述撰写技能
 
 ## 概述

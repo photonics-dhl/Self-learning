@@ -1,3 +1,8 @@
+---
+name: knowledge-planning
+description: 笔记创建前的知识规划。扫描同级目录、分析关系、输出规划卡，防止重复笔记。写任何笔记前强制执行。
+---
+
 # 知识规划技能 (Knowledge Planning)
 
 ## 核心原则
