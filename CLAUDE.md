@@ -61,14 +61,14 @@ git add <files> && git commit -m "描述修改内容" && git push origin master
 |-------|-----------|
 | Knowledge front-end | Obsidian (Electron) with Dataview, Templater, Zotero Integration |
 | AI orchestration | Claude Code with custom skills, agents, hooks (`.claude/`) |
-| MCP extensions | tavily-search (custom rotation server), semantic-scholar, paper-search, zotero (Streamable HTTP), github, mermaid, puppeteer, fetch, memory, context7 |
+| MCP extensions | 10 servers (`.mcp.json`): tavily-search (custom rotation server), semantic-scholar, paper-search, zotero (Streamable HTTP at `127.0.0.1:23120/mcp`), github, mermaid, puppeteer, fetch, memory, context7 |
 | RAG / vector search | Python + ChromaDB + `BAAI/bge-m3` embeddings (`academic_rag/`) |
 | PDF processing | PyMuPDF (`fitz`) + `pdfplumber` |
 | Academic typesetting | TeX Live 2024 (`xelatex`, `bibtex`) |
 | Obsidian plugin | TypeScript + esbuild (`Obsidian-Claude-Assistant/`) |
 | Visualization | matplotlib + numpy + scipy |
 
-**No root-level `requirements.txt`, `pyproject.toml`, or `package.json`.** Python deps installed manually; Node deps only in `Obsidian-Claude-Assistant/`.
+**No root-level `requirements.txt`, `pyproject.toml`, or `package.json`.** Python deps installed manually into `.venv/` (Python 3.9 virtualenv). Run scripts with `.venv/Scripts/python` or activate with `.venv/Scripts/activate`. Node deps only in `Obsidian-Claude-Assistant/`.
 
 ## Key Config Files
 
@@ -90,6 +90,8 @@ git add <files> && git commit -m "描述修改内容" && git push origin master
 | `.claude/settings.local.json` | Tavily dev keys in allowlists |
 
 **Rule:** Always read API keys from `os.environ` / `.env`. Never hardcode into source files.
+
+Required env vars for key services: `ANTHROPIC_API_KEY`, `TAVILY_API_KEY` (supports rotation of 4+ keys), `GITHUB_TOKEN`, `Zotero_API_KEY`, `Zotero_user_ID`, `OpenAlex_API_KEY`, `DEEPSEEK_API_KEY`. Define in `.env` (gitignored).
 
 ## Core Commands
 
@@ -113,6 +115,7 @@ python .claude/hooks/zotero_ref.py search "near-field optics"
 pip install chromadb sentence-transformers pdfplumber pymupdf
 
 python academic_rag/run_rag.py index paper.pdf --domain optics --subfield terahertz
+python academic_rag/run_rag.py index-dir /path/to/papers --domain optics --subfield terahertz
 python academic_rag/run_rag.py search "optical rectification LiNbO3" --top-k 5
 python academic_rag/run_rag.py find-figure "photoconductive antenna" --subfield terahertz
 python academic_rag/run_rag.py stats
@@ -125,6 +128,9 @@ python academic_rag/enhance_figures.py --all
 
 ```bash
 cd Obsidian-Claude-Assistant && npm install && node build.js
+
+# Watch mode (auto-rebuild on change)
+cd Obsidian-Claude-Assistant && npm run dev
 ```
 
 Compiled `.js` / `.d.ts` / `.map` files are committed to the repo — always re-run `node build.js` after editing `.ts` sources.
@@ -193,7 +199,7 @@ Skills live in `.claude/skills/<name>/SKILL.md`. Key skills for this project:
 | `paper-search` | Multi-source academic paper search |
 
 ### Agents
-Sub-agents in `.claude/agents/` — invoke via `Agent` tool:
+Sub-agents in `.claude/agents/*.md` (flat files, not subdirectories) — invoke via `Agent` tool:
 
 | Agent | Purpose |
 |-------|---------|
@@ -210,6 +216,7 @@ Sub-agents in `.claude/agents/` — invoke via `Agent` tool:
 ### Hooks
 - `SessionStart` → `python .claude/hooks/session-start-hook.py`
 - `SessionEnd` → `python .claude/hooks/session-end-hook.py` (auto-saves discussion summary to Obsidian Inbox)
+- `viz_server.py` / `viz_engine.py` / `viz_interactive.py` — visualization server stack for interactive diagrams
 - Config in `.claude/settings.json` → `hooks` section
 
 ### Review pipeline evolution
