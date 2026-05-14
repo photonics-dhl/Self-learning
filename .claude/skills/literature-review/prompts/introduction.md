@@ -47,9 +47,14 @@
 本综述基于[数据库]检索的[N]篇相关论文，对[N]个主题方向进行系统性的主题综合。
 我们将从[维度A]、[维度B]、[维度C]三个角度分析各技术路线的核心权衡，
 并识别各主题的研究空白，为[具体应用场景]下的THz源选择提供参考依据。
+
+为增强可读性，本综述从关键论文的原始PDF中提取并整合了[M]张图表——
+包括实验装置图、关键数据图、原理示意图——使读者能直观理解各技术路线
+的核心思想与性能对比。
 ```
 - 明确说明检索范围和方法
 - 预告综述结构
+- 🔴 说明图表提取情况（来源、数量）
 
 ## 注意事项
 
@@ -67,5 +72,6 @@
 ```
 Write introduction paragraphs for [主题] with [N] papers found, covering [主题列表].
 Gaps identified: [Gap1], [Gap2], [Gap3].
+Figures extracted: [M] figures from [K] key papers (装置图 X张, 数据图 Y张, 原理图 Z张).
 Target audience: [具体领域] researchers.
 ```

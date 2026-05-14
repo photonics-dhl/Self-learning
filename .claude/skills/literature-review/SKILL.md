@@ -58,9 +58,72 @@ Wang (2012) 做了zzz
 - 追踪**技术演进**（谁在谁的基础上改进）
 - 比较**性能边界**（最优结果 vs. 理论极限）
 
+### 5. 图文并茂（Rich Illustration） 🔴 强制执行
+
+**综述必须充分利用图表来解释复杂概念和关键数据。** 不能用纯文字堆砌。
+
+每篇关键论文（引用>50 或领域里程碑）必须提取并利用其 PDF 中的图表：
+- **实验装置图** → 解释技术方法时插入，比纯文字描述直观 10 倍
+- **关键数据图** → 讨论性能指标时引用，用真实数据显示趋势/对比
+- **原理示意图** → 解释物理机制时放置，帮助建立物理图像
+- **对比表格** → 方法对比时使用，一目了然
+
+**图表来源优先级**:
+1. Zotero MCP `get_content` — 从 PDF 提取图片（最直接）
+2. `academic_rag/figure_indexer.py` — 从已索引论文获取图表及语义描述
+3. `academic_rag/enhance_figures.py` — AI 增强图表分析
+4. 论文官方 DOI 页面 — 获取公开图表
+
+**每张图表必须包含**:
+- 清晰的图题（Figure N: 描述）
+- 来源标注（Adapted from [Author, Year]）
+- 与正文的语义关联（"如图 X 所示，..."）
+
 ---
 
 ## 写作流程
+
+### Phase 0: 图表预提取（Image Pre-fetch） 🔴 写综述前必做
+
+**目标**: 在动笔之前，先收集所有关键论文的图表资产。
+
+```
+对每篇关键论文（引用>50 或主题核心论文）:
+1. 调用 Zotero MCP get_content(itemKey=论文key, include={pdf: true})
+   → 提取 PDF 全文和嵌入图片
+2. 调用 Zotero MCP search_fulltext(q="figure", itemKeys=[论文key])
+   → 搜索论文中的图表提及
+3. 调用 academic_rag figure_indexer 获取已索引图表及 AI 语义描述
+4. 建立 图表→主题 语义映射表
+```
+
+**图表-主题语义匹配**:
+```
+对每张提取的图表:
+1. 用图表标题/上下文生成 embedding
+2. 与综述各主题描述计算余弦相似度
+3. 将图表分配到最相关的主题章节
+4. 标记: [实验装置] / [数据图] / [原理图] / [对比表]
+```
+
+**输出**: 图表资产清单 `figure_assets.json`
+```json
+{
+  "theme_name": {
+    "figures": [
+      {
+        "paper_id": "Hoffmann2007",
+        "figure_number": "Fig. 3",
+        "type": "experimental_setup",
+        "description": "TPF excitation scheme for LiNbO3",
+        "semantic_match": "光整流技术路线 > LiNbO3倾斜脉冲前",
+        "caption_zh": "LiNbO3倾斜脉冲前激发THz的实验装置示意图",
+        "source_note": "Adapted from Hoffmann et al. (2007)"
+      }
+    ]
+  }
+}
+```
 
 ### Phase 1: 深读论文（不是摘要堆砌）
 
@@ -166,6 +229,8 @@ Wang (2012) 做了zzz
 4. **方法描述**具体到技术细节（不是"用了激光"而是"800nm、100fs Ti:Sa激光器"）
 5. **性能指标**带单位（THz、mJ、GW/cm²等）
 6. **引用数量**对于高影响力论文准确
+7. 🔴 **每主题 >= 2张图表** — 实验装置图、数据图、原理图、对比表均可；纯文字不合规
+8. 🔴 **每张图表有完整标注** — 图题 + 来源 + 正文引用
 
 ### 避免的问题
 
@@ -173,6 +238,7 @@ Wang (2012) 做了zzz
 ❌ "Smith did X. Jones did Y. Wang did Z."（罗列无分析）
 ❌ "This is very important for future research."（无具体内容）
 ❌ "Table 1 shows the comparison of methods."（只给表没有分析）
+❌ 🔴 纯文字综述，零图表 — 违反"图文并茂"原则，打回重写
 
 ✅ "We identify a gap in the literature: while Zhang (2015) achieved 2.5 THz bandwidth with LiNbO3 using tilted pulse front, no study has explored whether organic crystal DAST can exceed 5 THz while maintaining >100 μJ output under same pump conditions."
 
@@ -182,10 +248,23 @@ Wang (2012) 做了zzz
 
 | MCP | 用途 | 使用时机 |
 |-----|------|---------|
-| `zotero` | 获取 PDF 全文深度分析 | 关键论文（引用>100）优先读取 |
-| `openalex` | 论文元数据、引用数、摘要 | 批量筛选和排序 |
+| `zotero` | 获取 PDF 全文 + **提取图表** + 深度分析 | 🔴 关键论文（引用>50）必须调用；先 `get_content` 提取图片，再分析文字 |
+| `semantic-scholar` | 论文元数据、引用数、摘要 | 批量筛选和排序 |
 | `tavily` | 搜索最新进展、补充信息 | 验证 Gap、分析争议时 |
 | `paper-search` | 预印本搜索 | 找最新但未正式发表的工作 |
+| `academic_rag` | 已索引论文图表获取、AI 语义描述 | 论文已索引时优先使用（比 Zotero 快） |
+
+### 图表提取工具链
+
+```
+Zotero MCP get_content          → PDF 原始图片提取
+    ↓
+academic_rag/enhance_figures    → AI 增强图表分析（颜色标注、关键区域识别）
+    ↓
+academic_rag/figure_indexer     → 图表语义索引 + embedding 匹配
+    ↓
+综述撰写                          → 图表按主题分配合并到正文
+```
 
 ---
 

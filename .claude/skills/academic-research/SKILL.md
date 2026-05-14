@@ -45,13 +45,21 @@ description: |
    - 等离子体/空气: 包含 "plasma", "filament", "two-color" 等
    - 超表面/元表面: 包含 "metasurface", "plasmonic" 等
 
-3. 调用 review_pipeline.py full "terahertz generation" --n 30
-   → 生成 LaTeX 综述 + BibTeX + Mermaid 引用图
+3. 🔴 图表预提取（图文并茂 — Phase 0）:
+   对引用>50 或各主题核心论文:
+   - Zotero MCP get_content(itemKey=key, include={pdf: true}) → 提取图片
+   - academic_rag figure_indexer 查询已索引图表
+   - 图表→主题语义匹配（embedding cosine similarity）
+   - 输出 figure_assets.json
 
-4. 输出文件:
-   - DHL/review_terahertz_generation.tex (可编译)
+4. 调用 review_pipeline.py full "terahertz generation" --n 30
+   → 生成 LaTeX 综述 + BibTeX + Mermaid 引用图 + 图表嵌入
+
+5. 输出文件:
+   - DHL/review_terahertz_generation.tex (可编译，含图表)
    - DHL/review_terahertz_generation.bib
    - DHL/review_terahertz_generation.md (引用图)
+   - figure_assets.json (图表资产清单)
 ```
 
 ---
@@ -149,6 +157,7 @@ python .claude/hooks/openalex_search.py export "<主题>" --bibtex --file refs.b
 2. **摘要长度限制**：仅截取前 500 字符，非完整摘要
 3. **公式溯源缺失**：公式与文献的映射需后续 paper-review skill 补充
 4. **无批判性分析**：当前仅整理客观信息，批判性综述需人工撰写
+5. **图表依赖 PDF 可获取性**：关键论文需在 Zotero 中有 PDF 全文才能提取图表；仅有元数据的论文无法提取图表
 
 ---
 
