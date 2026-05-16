@@ -1,0 +1,856 @@
+{
+  "professor_key": "keller",
+  "paper_count": 7,
+  "total_figures": 38,
+  "total_chunks": 61,
+  "papers": [
+    {
+      "title": "Attosecond dynamical Franz-Keldysh effect in polycrystalline diamond",
+      "year": 2016,
+      "journal": "",
+      "authors": [
+        "M. Lucchini",
+        "1* S. A. Sato",
+        "2 A. Ludwig",
+        "1 J. Herrmann",
+        "1 M. Volkov",
+        "1 L. Kasmi",
+        "1"
+      ],
+      "doi": "",
+      "paper_id": "a51513b0138afe5a",
+      "file_hash": "a51513b0138afe5ada58dd44f92b107c",
+      "num_pages": 5,
+      "abstract": "",
+      "n_figures": 3,
+      "n_chunks": 5,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "a51513b0_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1. Pulse and sample characterization. (A) Schematic of the experimen-\ntal setup with the double-target for simultaneous detection of photons and\nelectrons. (B) Example of a typical streaking trace used to characterize the\nsingle attosecond pulses (SAPs) and calibrate the pump-probe delay axis i",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a51513b0\\a51513b0138afe5a_p02_f00.png",
+          "page_num": 2,
+          "width": 1273,
+          "height": 632,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "a51513b0_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2. Results obtained with single attosecond pulses. (A and B) Experimental (A) and calculated (B) IR-induced absorbance DAbs(Eph, t). (C) Upper panel:\nIR electric field EIR(t) extracted from a streaking measurement acquired simultaneously with the trace in (A). Lower panels, from bottom to top: ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a51513b0\\a51513b0138afe5a_p02_f01.png",
+          "page_num": 2,
+          "width": 2211,
+          "height": 716,
+          "figure_type": "plot",
+          "description": ""
+        },
+        {
+          "figure_id": "a51513b0_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3. Simulation results. (A and B) Diamond band structure and DOS, respectively.The main subbands\ndominating the diamond optical response are labeled with numbers and highlighted by a thicker colored line\nin (A); the same color code is used to mark the DOS of each subband in (B). (C) Cartoon of t",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a51513b0\\a51513b0138afe5a_p03_f02.png",
+          "page_num": 3,
+          "width": 1469,
+          "height": 429,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "RESEARCH | REPORTS ULTRAFASTDYNAMICS dependentphaserelation.Abinitiocalculations performedbycouplingtime-dependentdensity Attosecond dynamical Franz-Keldysh functional theory (TDDFT) in real time with Maxwell’sequationsreproducetheexperimental effect in polycrystalline diamond results.Weusedanorbitaldecompositionapproach todisentanglethecomplexityofthenumerical modelandaddressindependentlythecontribution ofeachelectronicsubband.Withthisapproach,we M.Lucchini,1*S.A.Sato,2A.Ludwig,1J.Herrmann,1M.V",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | REPORTS Fig.1.Pulseandsamplecharacterization.(A)Schematicoftheexperimen- isshowninblue.Theshadedlight-blueareadefinesthestatisticalerrorbars tal setupwith thedouble-target forsimultaneous detectionof photons and assumingaPoissondistributionforthenumberofcollectedphotons.(D)Density electrons.(B)Exampleofatypicalstreakingtraceusedtocharacterizethe ofstates(DOS)ofdiamondcalculatedwithdensityfunctionaltheory.Theblack singleattosecondpulses(SAPs)andcalibratethepump-probedelayaxisina andgra",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | REPORTS states(31),which,whentheexternalIRfield vanishes,correspondtotheBlochstatesdepicted intheenergy/momentumspaceofFig.3A(27). Figure 3, D and E, shows the pump-induced changeinthedielectricfunction,De(w,t),under thesameconditionsasFig.2Bexceptforasingle unitcellofdiamond(27).Themainpositiveos- cillating feature at ~41 eV and the V-shaped energydispersionoftheoscillationsarestillre- producedevenwhenasmallersetofdressedsub- bandsistakenintoaccount,suchastwosubbands intheVB(b,b)andf",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | REPORTS aroundatthebottomoftheCBwithmid-IRor GEOPHYSICS terahertz drivingfieldsisimpossible(23,24). Teleseismic S wave microseisms Ourresults,however,provethatitispossibleto observe the DFKE driven by femtosecond IR pulsesatenergieshighabovethebandgap.We KiwamuNishida1*andRyotaTakagi2 havealsoshownthatthefinestructureinthe transientresponseofdiamonddeviatesfromthe Althoughobservationsofmicroseismsexcitedbyoceanswellswerefirmlyestablishedinthe simplifiedparabolicmodelandthusencodesinfo",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Attosecond dynamical Franz-Keldysh effect in polycrystalline diamond M. Lucchini, S. A. Sato, A. Ludwig, J. Herrmann, M. Volkov, L. Kasmi, Y. Shinohara, K. Yabana, L. Gallmann, and U. Keller Science 353 (6302), . DOI: 10.1126/science.aag1268 Shining a fast light on diamonds Conceptually, the electronic structure of matter is a fixed scaffold of energy levels, which electrons climb with the help of light absorption. In reality, the light's electromagnetic field distorts the scaffold, a phenomenon",
+          "page": 5,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Physics Reports",
+      "year": 2015,
+      "journal": "",
+      "authors": [
+        "Alexandra S. Landsman ∗",
+        "Ursula Keller"
+      ],
+      "doi": "",
+      "paper_id": "a52053f442172c68",
+      "file_hash": "a52053f442172c68cf1167a5a238c8a6",
+      "num_pages": 24,
+      "abstract": "",
+      "n_figures": 13,
+      "n_chunks": 24,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "a52053f4_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1. Strong field ionization, taken from [28]. (a) The combined potential created by the Coulomb field of the atom and the laser field. The electron can\nescape the atom either by tunnelling (horizontal channel) or multi-photon ionization (vertical channel). (b) Electron momenta distributions meas",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a52053f4\\a52053f442172c68_p03_f00.png",
+          "page_num": 3,
+          "width": 1986,
+          "height": 907,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "a52053f4_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2. Classical Trajectory Monte Carlo (CTMC) simulations using a TIPIS model [26] for different ellipticities of laser light, taken from [46]. Only one of\nthe two symmetric lobes is shown.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a52053f4\\a52053f442172c68_p05_f01.png",
+          "page_num": 5,
+          "width": 1986,
+          "height": 1256,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "a52053f4_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3. Barrier widths predicted by different models: PPT, TIPIS, and FDM (field-direction model), taken from [28]. At high field strengths, corresponding\nto γ ≪1, the PPT curve approaches the Ip/F curve.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a52053f4\\a52053f442172c68_p06_f02.png",
+          "page_num": 6,
+          "width": 1985,
+          "height": 637,
+          "figure_type": "plot",
+          "description": ""
+        },
+        {
+          "figure_id": "a52053f4_fig_003",
+          "label": "Fig. 3",
+          "caption": "Fig. 3 compares barrier widths predicted by the three different theories: ADK, PPT, and TIPIS. As can be seen, there is\nonly a small difference between the TIPIS (magenta curve, Eq. (6)) and the Ip/F (blue) widths. Moreover, the PPT (green\ncurve, Eq. (7)) barrier width approaches Ip/F at smaller val",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a52053f4\\a52053f442172c68_p06_f03.png",
+          "page_num": 6,
+          "width": 1985,
+          "height": 797,
+          "figure_type": "plot",
+          "description": ""
+        },
+        {
+          "figure_id": "a52053f4_fig_004",
+          "label": "Fig. 4",
+          "caption": "Fig. 4. Experimentally measured electron momenta distributions after strong field ionization for different values of ellipticity, ϵ, of laser light. Peak laser\nintensity: 8 × 1014 W cm−2, pulse duration (FWHM) of 33 fs, central wavelength of 788 nm.\nSource: Taken from [36].",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a52053f4\\a52053f442172c68_p09_f04.png",
+          "page_num": 9,
+          "width": 1986,
+          "height": 826,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "a52053f4_fig_005",
+          "label": "Fig. 5",
+          "caption": "Fig. 5.\nExperimental values of Px compared with the perturbative calculation (red curve), given by Eq. (20), following the approach in [41]. All laser\nparameters are the same as in Fig. 4.\nSource: Taken from [47].",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a52053f4\\a52053f442172c68_p10_f05.png",
+          "page_num": 10,
+          "width": 1985,
+          "height": 849,
+          "figure_type": "plot",
+          "description": ""
+        },
+        {
+          "figure_id": "a52053f4_fig_006",
+          "label": "Fig. 6",
+          "caption": "Fig. 6. Centre of the electron momenta distributions Px and Py along the major and minor axes of polarization, respectively, obtained from experiment.\nTheoretical curves correspond to expected values in the absence of any Coulomb interaction for Py (green curve) and Px (horizontal black line). Exper",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a52053f4\\a52053f442172c68_p11_f06.png",
+          "page_num": 11,
+          "width": 1986,
+          "height": 850,
+          "figure_type": "plot",
+          "description": ""
+        },
+        {
+          "figure_id": "a52053f4_fig_007",
+          "label": "Fig. 7",
+          "caption": "Fig. 7. Larmor clock proposed by Baz’ [72] and Rybachenko [73]. Spin polarized electrons, with spin sx, enter a potential barrier where a constant magnetic\nfield points along the z-axis. When the electron exits the potential barrier, it acquires an additional spin component along the y-axis due to L",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a52053f4\\a52053f442172c68_p14_f07.png",
+          "page_num": 14,
+          "width": 1985,
+          "height": 911,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "a52053f4_fig_008",
+          "label": "Fig. 8",
+          "caption": "Fig. 8. The propagator corresponds to the sum of the all possible paths between points A and B, each path, xj(t) contributing eiS[xj(t)], where S is defined\nby Eq. (42).",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a52053f4\\a52053f442172c68_p16_f08.png",
+          "page_num": 16,
+          "width": 1985,
+          "height": 816,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "a52053f4_fig_009",
+          "label": "Fig. 9",
+          "caption": "Fig. 9. Radially integrated electron momenta distributions. Tunnelling delay time is extracted from the measured angle for electrons located at the peak\nof this distribution. (a) Lower intensity and clockwise polarization; (b) Higher intensity and counter-clockwise polarization.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a52053f4\\a52053f442172c68_p19_f09.png",
+          "page_num": 19,
+          "width": 1986,
+          "height": 1478,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "a52053f4_fig_010",
+          "label": "Fig. 10",
+          "caption": "Fig. 10. Set-up of VMIS experiment.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a52053f4\\a52053f442172c68_p20_f10.png",
+          "page_num": 20,
+          "width": 1502,
+          "height": 972,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "a52053f4_fig_011",
+          "label": "Fig. 11",
+          "caption": "Fig. 11. Tomographic reconstruction method. Reconstruction of full 3-D electron momenta distribution using projections in momentum space.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a52053f4\\a52053f442172c68_p21_f11.png",
+          "page_num": 21,
+          "width": 1924,
+          "height": 842,
+          "figure_type": "graph",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "PhysicsReports547(2015)1–24 ContentslistsavailableatScienceDirect Physics Reports journalhomepage:www.elsevier.com/locate/physrep Attosecond science and the tunnelling time problem ∗ AlexandraS.Landsman ,UrsulaKeller PhysicsDepartment,ETHZurich,CH-8093Zurich,Switzerland a r t i c l e i n f o a b s t r a c t Articlehistory: Thequestionofhowlongittakesaparticletotunnelthroughapotentialbarrierhasbeen Accepted9September2014 asubjectofintensetheoreticaldebateforthelast80years.Inthisdecadeofattosecond",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "2 A.S.Landsman,U.Keller/PhysicsReports547(2015)1–24 1. Introduction Thepastdecadesawanextraordinaryevolutioninexperimentalphysics,aimedattheboundarybetweenquantumand classical regimes, in the ‘‘real world’’ of atoms, molecules, and surfaces [1]. Ultrafast lasers and attosecond pulses have arrived,andwiththemcomesattosecondscience.Thedetailedmeasurementandresolutionof,reconstructionof,andeven activemanipulationofthedynamicsofvalenceelectrons–andhenceofrealworldchemistryinaction–isatlastbecoming f",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "A.S.Landsman,U.Keller/PhysicsReports547(2015)1–24 3 Fig.1. Strongfieldionization,takenfrom[28].(a)ThecombinedpotentialcreatedbytheCoulombfieldoftheatomandthelaserfield.Theelectroncan escapetheatomeitherbytunnelling(horizontalchannel)ormulti-photonionization(verticalchannel).(b)Electronmomentadistributionsmeasuredat thedetectorafterstrongfieldionizationforclose-to-circularlypolarizedlightofellipticity,ϵ=0.87. asisoftendoneinthestrongfieldionizationliterature[27].Atomicunitsareparticularlyconvenie",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "4 A.S.Landsman,U.Keller/PhysicsReports547(2015)1–24 regimeis γ ≫ 1,withthe‘cross-over’regionbeing γ ∼ 1.Thesetworegimescanbeintuitivelyunderstoodbyconsid- γ ω eringthetwolaserparametersthatdetermine inEq.(1):frequency, ,andfieldstrength,F.Athigherlaserfrequency γ (correspondingtohigher ),theelectronneedstoabsorblessphotonstoovercomethebindingpotential,hencemulti- photonionizationpathway(ortheverticalchannelinFig.1a)ismorelikely.Ontheotherhand,athigherfieldstrengths γ (correspondingtolower ),thep",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "A.S.Landsman,U.Keller/PhysicsReports547(2015)1–24 5 Fig.2. ClassicalTrajectoryMonteCarlo(CTMC)simulationsusingaTIPISmodel[26]fordifferentellipticitiesoflaserlight,takenfrom[46].Onlyoneof thetwosymmetriclobesisshown. (CEO)phase[51]: φ ≈ 0.Inthefollowingdiscussion,weshallset φ = 0,correspondingtothepeakoftheelectricfield c c occurringatt =0. NotethatthefieldgivenbyEq.(4)isanelectricfieldonly,henceneglectingthetransversemagneticcomponent.This arisesfromtheuseofthedipoleapproximation,whichneglectsth",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "6 A.S.Landsman,U.Keller/PhysicsReports547(2015)1–24 Barrier width (au) 25 20 15 10 5 Field (au) 0.04 0.05 0.06 0.07 0.08 0.09 0.10 0.11 Fig.3. Barrierwidthspredictedbydifferentmodels:PPT,TIPIS,andFDM(field-directionmodel),takenfrom[28].Athighfieldstrengths,corresponding toγ ≪1,thePPTcurveapproachestheIp /Fcurve. belessreliable.WewillcomebacktobothTIPISandPPTmodelsinthecontextofextractingtunnellingtimefromtheattoclock measurements.Forconvenienceofpresentation,wewillrefertotheexitpointgivenbyEq.(6",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "A.S.Landsman,U.Keller/PhysicsReports547(2015)1–24 7 Table1 Theoreticalpredictionsofinitialconditionsattunnelexit. Theory Type rexit v initial ADK Adiabatic Ip /F 0 FDM Adiabatic xe,f,Eq.(3) 0 TIPIS Adiabatic xe,p,Eq.(6) 0 PPT Non-adiabatic xe,na,Eq.(7) pna (0),Eq.(12) Despiteitsapproximatenature,Eq.(9)hasbeenusedfrequentlyforattosecondangularstreaking[1,7]totimethemo- mentthattheelectronappearsatthetunnelexitfromobservingitsfinalmomentumatthedetector.Intheadiabaticregime, themostlikelyelectrontr",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "8 A.S.Landsman,U.Keller/PhysicsReports547(2015)1–24 enoughphotonstogooverthetopofthepotentialbarrier,followingaverticalemissionchannel.Thetwoionizationchannels correspondingtotunnellingandmulti-photonionizationaredepictedinFig.1a. SFAwasoriginallydevelopedbyKeldysh[18],withsubsequentseminaldevelopmentsfromPerelomov,andco-authors [42],Reiss[58],andFaisal[59].Herewepresentaquickandsimplederivation,showinghowelectronmomentadistribu- tionsatthedetectorcanbeobtainedfromSFAusingsaddlepointapproximatio",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "A.S.Landsman,U.Keller/PhysicsReports547(2015)1–24 9 300 200 0 100 -1 -2 0 -2 0 2 ).u.a( p y 20 2 100 60 1 80 15 0 60 40 10 40 -1 20 5 20 -2 0 0 0 ).u.a( p y 2 1 0 -1 -2 -2 0 2 -2 0 2 -2 0 2 p (a.u.) p (a.u.) p (a.u.) p (a.u.) x x x x ).u.a( p y 2 1 0 -1 -2 ).u.a( p y 2 1 Fig.4. Experimentallymeasuredelectronmomentadistributionsafterstrongfieldionizationfordifferentvaluesofellipticity,ϵ,oflaserlight.Peaklaser intensity:8×1014Wcm−2,pulseduration(FWHM)of33fs,centralwavelengthof788nm. Source:Takenfr",
+          "page": 9,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "10 A.S.Landsman,U.Keller/PhysicsReports547(2015)1–24 Fig.5. ExperimentalvaluesofPxcomparedwiththeperturbativecalculation(redcurve),givenbyEq.(20),followingtheapproachin[41].Alllaser parametersarethesameasinFig.4. Source:Takenfrom[47]. thevicinityoftheatom,thechangeinmomentumispredominantlyalongthedirectionofionization.HencetheCoulomb correction shifts the centre of the electron momenta distribution predominantly along the x-axis. This imprint of the long-rangeionicpotentialcanbeseenespeciallycle",
+          "page": 10,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Attoclock reveals natural coordinates of the laser-induced tunnelling current ﬂow in atoms",
+      "year": 2011,
+      "journal": "",
+      "authors": [
+        "Adrian N. Pfeiffer1*",
+        "Claudio Cirelli1",
+        "Mathias Smolarski1",
+        "Darko Dimitrovski2*"
+      ],
+      "doi": "",
+      "paper_id": "2997ec7d7e545267",
+      "file_hash": "2997ec7d7e545267d8bf5bbad6e78ab0",
+      "num_pages": 5,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 5,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "2997ec7d_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1 | Strong-ﬁeld tunnelling. Laser-induced adiabatic tunnelling\npicture19,29 where the laser frequency is much smaller than the\noscillation frequency of the bound-state electron. Our helium and\nargon experiments in the near-infrared region fulﬁl this approximation\n(see Supplementary Informatio",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2997ec7d\\2997ec7d7e545267_p02_f00.png",
+          "page_num": 2,
+          "width": 2165,
+          "height": 927,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "2997ec7d_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2 | Attoclock principle. a, Attoclock4,15 set-up with a cold target\nrecoil ion momentum spectrometer18. An intense infrared laser pulse\n(about 3 cycles, 7 fs pulse duration, centre wavelength 740 nm, 1 kHz pulse\nrepetition rate) from a Ti:sapphire laser system with a two-stage ﬁlament\ncompres",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2997ec7d\\2997ec7d7e545267_p02_f01.png",
+          "page_num": 2,
+          "width": 2165,
+          "height": 1003,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "2997ec7d_fig_002",
+          "label": "Figure 3",
+          "caption": "Figure 3 | Systematic error reduction in angular streaking. Applying both clockwise and anticlockwise polarization under the same experimental\nconditions minimizes systematic errors with the attoclock. The dynamics of the tunnel ionization event is preserved; the clockwise and anticlockwise ﬁeld\nwil",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2997ec7d\\2997ec7d7e545267_p03_f02.png",
+          "page_num": 3,
+          "width": 2164,
+          "height": 1232,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "2997ec7d_fig_003",
+          "label": "Figure 4",
+          "caption": "Figure 4 | Offset angle for argon and helium. a, Exit of the tunnel for argon as a function of electric ﬁeld strength and laser intensity for different models. If\nthe ﬁeld-direction model is used, OBI is reached at about 4×1014 W cm−2. Over this intensity, the electron is placed at the combined pote",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2997ec7d\\2997ec7d7e545267_p04_f03.png",
+          "page_num": 4,
+          "width": 2165,
+          "height": 861,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "LETTERS PUBLISHEDONLINE:23OCTOBER2011|DOI:10.1038/NPHYS2125 Attoclock reveals natural coordinates of the laser-induced tunnelling current flow in atoms AdrianN.Pfeiffer1*,ClaudioCirelli1,MathiasSmolarski1,DarkoDimitrovski2*, MahmoudAbu-samha2,LarsBojerMadsen2 andUrsulaKeller1 In the research area of strong-laser-field interactions and propagationoftheliberatedelectron,theinstantofionizationcan attosecond science1, tunnelling of an electron through the bemappedtotheangleofthefinalmomentumoftheele",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "NATUREPHYSICS LETTERS DOI:10.1038/NPHYS2125 ).u.a( z 0.51 2 5 5 2 1 0.5 x (a.u.) 4/)F(I + )F , (V p (a.u.) 4/)F(I + )F , (V p 0.1 10 10 0 0 0.1 (a.u.) V 0 V 10 0 ¬lp e- ¬10 ¬10 0 10 0.4 0.2 0 ¬0.2 ¬0.4 0 5 10 15 20 0 1 2 3 4 5 η η ξ ξ a b a Supersonic gas target Electron position Ion position and TOF and TOF Quarter-wave plate X Z Gas nozzle b c d 0.2 0 ¬0.2 ¬0.4 ¬0.6 Anticlockwise Clockwise Figure1jStrong-fieldtunnelling.Laser-inducedadiabatictunnelling picture19,29wherethelaserfrequencyismuchs",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "LETTERS NATUREPHYSICS DOI:10.1038/NPHYS2125 a b β β α α )°( ε α (°) ).u.a( y p )°( Anticlockwise Clockwise 90° β 90° β p (a.u.) x Anticlockwise Clockwise Intensity (PW cm¬2) Counts (normalized) 1.0 2 0.8 1 0.6 0 0.4 ¬1 ¬2 0.2 0 ¬2 ¬1 0 1 2 ).u.a( p y 2 1 0 ¬1 ¬2 90 ¬2 ¬1 0 1 2 45 p (a.u.) x 0 ¬45 ¬90 1.0 20 0.8 10 0.6 0 0.4 ¬10 0.2 ¬20 0 0 45 90 135 180 0.5 1.0 1.5 2.0 β θ θ θ Figure3jSystematicerrorreductioninangularstreaking.Applyingbothclockwiseandanticlockwisepolarizationunderthesameexperime",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "NATUREPHYSICS LETTERS DOI:10.1038/NPHYS2125 )mn( lennut eht fo tixE Intensity (PW cm¬2) Electric field strength (a.u.) Initial velocity (106 m s¬1) Keldysh parameter Keldysh parameter 0.10.2 0.4 0.7 1.0 1.40 1.00 0.79 0.65 0.56 0.53 1.35 1.00 0.80 0.66 0.56 0.50 0.6 Data (He, 7 fs) 0.5 1.5 Field-direction model Parabolic coord 0.4 Parabolic coord + Stark shift 1.0 TIPIS 0.3 0.2 0.5 Data (Ar, 7 fs) 0.1 OBI T Fi D el S d E -direction model Parabolic coord 0 0 Parabolic coord + Stark shift F P i a ",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "LETTERS NATUREPHYSICS DOI:10.1038/NPHYS2125 30. Hauri,C.P.etal.Generationofintense,carrier-envelopephase-locked Authorcontributions few-cyclelaserpulsesthroughfilamentation.Appl.Phys.B79,673(cid:21)677(2004). A.N.P.,C.C.,M.S.andU.K.carriedoutexperimentsandsimulations.D.D.,M.A-s.and L.B.M.developedthetheory.Allauthorsparticipatedinthewritingofthepaper. Acknowledgements Additionalinformation ThisworkwassupportedbytheNCCRQuantumPhotonics(NCCRQP)andNCCR MolecularUltrafastScienceandTechnology(NCCRMUS",
+          "page": 5,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Attosecond angular streaking",
+      "year": 2008,
+      "journal": "",
+      "authors": [
+        "PETRISSA ECKLE1*",
+        "MATHIAS SMOLARSKI2†",
+        "PHILIP SCHLUP1‡",
+        "JENS BIEGERT1†",
+        "ANDR´E STAUDTE2§"
+      ],
+      "doi": "",
+      "paper_id": "1535a3fdbf86b400",
+      "file_hash": "1535a3fdbf86b400507b70c3b93c6e1a",
+      "num_pages": 6,
+      "abstract": "",
+      "n_figures": 3,
+      "n_chunks": 6,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "1535a3fd_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1 CEP in circularly and elliptically polarized few-cycle pulses. a,b, Evolution of the electric ﬁeld E(t ) of a circularly polarized few-cycle pulse for a ﬁxed position on\nthe propagation axis with the ﬁeld maximum Emax indicated by a dot. In the absence of temporal chirp, the electric ﬁeld a",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1535a3fd\\1535a3fdbf86b400_p02_f00.png",
+          "page_num": 2,
+          "width": 2160,
+          "height": 1648,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "1535a3fd_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2 Overview of the measured helium-ion momentum distributions while scanning the CEP over 2π and comparison with a semiclassical simulation.\na, Toroidal He+ momentum distributions projected onto the xy polarization plane for four different CEP values φCEO = 0, π/2, π and 3/2π, respectively. b,",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1535a3fd\\1535a3fdbf86b400_p03_f01.png",
+          "page_num": 3,
+          "width": 2161,
+          "height": 1520,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "1535a3fd_fig_002",
+          "label": "Figure 3",
+          "caption": "Figure 3 CEP dependence of the ionization angle in He using attosecond angular streaking. a,b, Radially integrated ion momentum distributions as shown in Fig. 2b\n(left). The double peak structure is clearly resolved within a measurement span of one optical cycle (2.4 fs or 360◦streaking angle span) ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1535a3fd\\1535a3fdbf86b400_p04_f02.png",
+          "page_num": 4,
+          "width": 2160,
+          "height": 1615,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "ARTICLES Attosecond angular streaking PETRISSA ECKLE1*, MATHIAS SMOLARSKI2†, PHILIP SCHLUP1‡, JENS BIEGERT1†, ANDRE´ STAUDTE2§, MARKUS SCHO¨FFLER2, HARM G. MULLER3, REINHARD DO¨RNER2 AND URSULA KELLER1 1DepartmentPhysik,ETHZurich,Wolfgang-Pauli-Str.16,8093Zurich,Switzerland 2Institutfu¨rKernphysik,JohannWolfgangGoetheUniversita¨t,Max-von-Laue-Str.1,60438FrankfurtamMain,Germany 3FOM-InstituteforAtomicandMolecularPhysics,Kruislaan407,1098SJAmsterdam,TheNetherlands †CurrentAddress:ICFO-InstitutdeCi",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "ARTICLES φ = 0 φ = π /4 CEO CEO E max E max 1 0 E x –1 –10 0 10 t (fs) E y 1.0 0.5 0 –0.5 –1.0 E x –10 0 10 t (fs) E y 1.0 0.5 0 –0.5 –1.0 1 0 –1 t (fs) dleif cirtcelE φ = 0 1.0 CEO φ = π /2 CEO 0.5 0 –10 –5 0 5 10 100 200 300 φ (°) CEO )°( θ a b c d 100 ε = 1 0 ε = 0.92 θ(E ) max –100 Figure1CEPincircularlyandellipticallypolarizedfew-cyclepulses.a,b,EvolutionoftheelectricfieldE(t)ofacircularlypolarizedfew-cyclepulseforafixedpositionon thepropagationaxiswiththefieldmaximumE indicatedbyadot.Inthe",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "ARTICLES θ 150 1.0 100 0.8 50 0 0.6 –50 0.4 –100 0.2 –150 0 100 200 300 0 100 200 300 φ CEO (°) φ CEO (°) )°(θ a 0 π/2 π 3 π /2 b 0 π/2 π 3 π /2 Figure2Overviewofthemeasuredhelium-ionmomentumdistributionswhilescanningtheCEPover2πandcomparisonwithasemiclassicalsimulation. a,ToroidalHe+momentumdistributionsprojectedontothexypolarizationplaneforfourdifferentCEPvaluesφ =0,π/2,πand3/2π,respectively.b,Radially CEO integrateddistributionsasafunctionofCEPφ fortheentireCEPscan(left)comparedwithsimulation",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "ARTICLES 100 100 80 80 60 60 40 40 20 20 –100 0 100 etar tnuoc detargetni yllaidaR etar tnuoc detargetni yllaidaR φ = 90.3° φ = 180.5° CEO CEO θ θ 1 2 –100 0 100 θ(°) θ(°) –110 δθ = 3.0° δτ = 20 as –115 –120 –125 θ Experiment 1 θ Theory 1 –130 0 100 200 300 0 100 200 300 )°(θ )°(θ a b c d 70 δθ = 3.5° δτ = 24 as 65 60 55 50 θ Experiment 2 θ Theory 45 2 φ CEO (°) φ CEO (°) Figure3CEPdependenceoftheionizationangleinHeusingattosecondangularstreaking.a,b,Radiallyintegratedionmomentumdistributionsass",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "ARTICLES switched on and off rapidly without non-adiabatic effects on the attosecond angular streaking with state-of-the-art multi-electron wavefunctioninsidetheatomicpotentialwell.Thisisdifferentto detection techniques, we are able to record the timing sequence anyotherattemptstoquicklyswitchonatunnellingcurrentwith of several steps in a few-electron process by mapping the time ashorthigh-energyelectric-fieldwavepacket.Withthisapproach, of one electron to an angle in space and the time differen",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "ARTICLES angularbroadeningofthemomentumdistributionasshowninFig.2a,adding 12.Uiberacker,M.etal.Attosecondreal-timeobservationofelectrontunnellinginatoms.Nature446, anuncertaintyof52as. 627–632(2007). 13.Bobroff,N.Positionmeasurementwitharesolutionandnoise-limitedinstrument.Rev.Sci.Instrum. 57,1152–1157(1986). MOLECULAR-CLOCKTYPEOFEXPERIMENTS 14.Yildiz,A.etal.MyosinVWalksHand-Over-Hand:Singlefluorophoreimagingwith1.5-nm Mappingthroughangularstreakingisonlyuniquewithinoneopticalcycle. localization",
+          "page": 6,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Attosecond Ionization and Tunneling Delay Time Measurements in Helium",
+      "year": 2006,
+      "journal": "",
+      "authors": [
+        "Lett. 96",
+        "250402 (2006)."
+      ],
+      "doi": "",
+      "paper_id": "dda56d42d68e14e8",
+      "file_hash": "dda56d42d68e14e8ee691a4d1fdc0347",
+      "num_pages": 6,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 6,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "dda56d42_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1. Angular calibra-\ntion. px and py are the ion\nmomentum components\nintegrated over pz along\nthe laser propagation di-\nrection for both linearly\n(A) and elliptically (B) po-\nlarizedlightmeasuredwith\ntheCOLTRIMS.Forbothpo-\nlarizations we measured\nthe optical transmission\nthrough a rotating polar",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\dda56d42\\dda56d42d68e14e8_p02_f00.png",
+          "page_num": 2,
+          "width": 2218,
+          "height": 367,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "dda56d42_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2. Determination of\ntime zero using an ellipti-\ncally polarized intense streak-\ning field. No CEP stabilization\nis needed. (A) The polariza-\ntion ellipse (red) and four\nhelium momentum distribu-\ntionsinthepolarizationplane\nand the corresponding radi-\nally integrated distributions\nare shown for ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\dda56d42\\dda56d42d68e14e8_p03_f01.png",
+          "page_num": 3,
+          "width": 2218,
+          "height": 1244,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "dda56d42_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3. Measured streaking angle (data points) as a function of l/4-wave plate angle (i.e., ellipticity) for a\nfixed peak intensity of ≈2.3 × 1014 W/cm2. The semi-classical simulation assuming instantaneous\ntunneling with Coulomb correction in the streaking (solid line) gives a very good agreement w",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\dda56d42\\dda56d42d68e14e8_p03_f02.png",
+          "page_num": 3,
+          "width": 2284,
+          "height": 923,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "dda56d42_fig_003",
+          "label": "Fig. 4",
+          "caption": "Fig. 4. Measured tunnel-\ning time delay, DtD (data\npoints), for a fixed elliptic-\nity (i.e., e = 0.88) as a\nfunction of peak intensity\nand Keldysh parameter\n(Eq. 1). The tunneling time\ndelay is the difference be-\ntween the measured and\nthe calculated propagation\nstreaking angle assuming\ninstantaneou",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\dda56d42\\dda56d42d68e14e8_p04_f03.png",
+          "page_num": 4,
+          "width": 1820,
+          "height": 1228,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "38. S.Trebst,U.Schollwöck,M.Troyer,P.Zoller,Phys.Rev. (grantsFOR801,SFB608,andSFBTR12),European Supp",
+          "text": "38. S.Trebst,U.Schollwöck,M.Troyer,P.Zoller,Phys.Rev. (grantsFOR801,SFB608,andSFBTR12),European SupportingOnlineMaterial Lett.96,250402(2006). Union(ScalableQuantumComputingwithLightand www.sciencemag.org/cgi/content/full/322/5907/1520/DC1 39. WethankE.Demlerforfruitfuldiscussions;T.Rom, Atoms),AirForceOfficeofScientificResearch,and SOMText D.vanOosten,andS.Braunforhelpduringthesetupof DefenseAdvancedResearchProjectsAgency(Optical Figs.S1toS8 theexperiment;andtheLeibnizInstituteofSurface Lattice",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "REPORTS Fig. 1. Angularcalibra- tion.p andp aretheion x y momentumcomponents integratedoverp zalong thelaserpropagationdi- rection for both linearly (A)andelliptically(B)po- larizedlightmeasuredwith theCOLTRIMS.Forbothpo- larizationswemeasured theopticaltransmission througharotatingpolar- izer(reddatapoints):Ad- justingthewaveplatefor linearpolarizationwemea- sureda100%modulation depth in the transmission signal.Forellipticalpolar- ization,thismodulation depthisreducedandso determines the amount",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "REPORTS Fig. 2. Determination of time zero using an ellipti- callypolarizedintensestreak- ingfield.NoCEPstabilization isneeded.(A)Thepolariza- tionellipse(red)andfour heliummomentumdistribu- tionsinthepolarizationplane andthecorrespondingradi- allyintegrateddistributions areshownforfourdifferent carrierenvelopeoffsetphases (CEPs).WhereastheCEPvec- tor rotates over a full 360° cycle(blackcircle),themax- imumelectricfieldismoving onlyalongasmallerangular span(redsolidline)defined bytheellipse.Ther",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "REPORTS To determine the intensity dependence of a viation from zero and the largest error. At that luminaltunnelingtimes.Thisconceptisrather possibleDt ,wethenfixedtheellipticityto0.88 intensity,thetunnelingdelaytimewasmeasured similartosuperluminalgroupvelocitiesdiscussed D (marked in red in Fig. 3) and varied the peak tobe13.9aswithanerrorof19.7(Fig.4).Wethen inthecontextofphotonpropagationthroughme- intensity from 2.3 to 3.5 × 1014 W/cm2 (corre- obtain34asbyadding13.9asand19.7as(21). diawith",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "REPORTS Weconcludethatwithourmeasurementwe tween 450 and 560 as. We reiterate that the 15. C.P.Haurietal.,Appl.Phys.B79,673(2004). canputanupperlimitof34asonaDt inthe Buttiker-Landauer traversal time, Dt , considers 16. J.Ullrichetal.,Rep.Prog.Phys.66,1463(2003). D T 17. P.Eckleetal.,Nat.Phys.4,565(2008). nonadiabatictunnelingregimewithag ranging anentirelydifferentaspectofthetunnelingpro- 18. H.R.Telleetal.,Appl.Phys.B69,327(1999). from1.45to1.17.Quantummechanicalsimula- cess.Ourexperimentalres",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Attosecond Ionization and Tunneling Delay Time Measurements in Helium P. Eckle, A. N. Pfeiffer, C. Cirelli, A. Staudte, R. Dörner, H. G. Muller, M. Büttiker, and U. Keller Science 322 (5907), . DOI: 10.1126/science.1163439 View the article online https://www.science.org/doi/10.1126/science.1163439 Permissions https://www.science.org/help/reprints-and-permissions Use of this article is subject to the Terms of service Science (ISSN 1095-9203) is published by the American Association for the Advanc",
+          "page": 6,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Recent developments in compact ultrafast lasers",
+      "year": 2003,
+      "journal": "",
+      "authors": [
+        "ix years after the first laser was demonstrated"
+      ],
+      "doi": "",
+      "paper_id": "d9186e417205e392",
+      "file_hash": "d9186e417205e392b6c6bc3e3c5bb3e0",
+      "num_pages": 8,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 8,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "d9186e41_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1 Pulses from a passively modelocked Nd:glass laser with a dye saturable\nabsorber inside the laser resonator. Picosecond pulses were superimposed upon\nmuch longer pulses, which is referred to as Q-switched modelocking. Reprinted with\npermission from ref. 1 © American Institute of Physics.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d9186e41\\d9186e417205e392_p02_f00.png",
+          "page_num": 2,
+          "width": 995,
+          "height": 881,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "d9186e41_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2 Improvements in ultrashort pulse generation since the first demonstration of\na laser in 1960. Until the end of the 1980s, ultrashort pulse generation was dominated\nby dye lasers, and pulses as short as 27 fs with an average power of ≈10 mW were\nachieved at a centre wavelength of 630 nm (ref",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d9186e41\\d9186e417205e392_p02_f01.png",
+          "page_num": 2,
+          "width": 2038,
+          "height": 922,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "d9186e41_fig_002",
+          "label": "Figure 4",
+          "caption": "Figure 4 The electric field (carrier) and pulse envelope (dashed line) of a few-cycle\npulse for different values of the CEO phase of 0 (red line) and π/2 (blue line).",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d9186e41\\d9186e417205e392_p04_f02.png",
+          "page_num": 4,
+          "width": 2055,
+          "height": 777,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "d9186e41_fig_003",
+          "label": "Figure 3",
+          "caption": "Figure 3 Kerr lens modelocking is obtained through a Kerr lens at an intracavity focus\nin the gain medium or in another material, where the refractive index  increases with\nintensity Dn4n2 I(r,t), where n2 is the nonlinear refractive index and I(r,t) the radial-\nand time-dependent intensity of a sho",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d9186e41\\d9186e417205e392_p04_f03.png",
+          "page_num": 4,
+          "width": 2055,
+          "height": 260,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "insight review articles Recent developments in compact ultrafast lasers Ursula Keller Physics Department, Swiss Federal Institute of Technology (ETH), Zürich, Switzerland (e-mail: keller@phys.ethz.ch) Ultrafast lasers, which generate optical pulses in the picosecond and femtosecond range, have progressed over the past decade from complicated and specialized laboratory systems to compact, reliable instruments. Semiconductor lasers for optical pumping and fast optical saturable absorbers, based on",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "insight review articles a KLM First ML laser Chirped mirror CEO control 1960 10 ps 200 ns/div 1 ps b 100 fs 10 fs 50 ns/div 1960 1970 1980 Year Figure 1Pulses from a passively modelocked Nd:glass laser with a dye saturable absorber inside the laser resonator. Picosecond pulses were superimposed upon much longer pulses, which is referred to as Q-switched modelocking. Reprinted with permission from ref. 1 © American Institute of Physics. for optical clocks in integrated circuits. Current microproc",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "insight review articles Box 1 Modelocking Modelocking is used to generate ultrashort pulses from lasers. A schematic set-up with a gain and a loss element inside a laser resonator is shown below. An output coupler partially transmits a small fraction of the laser pulse out of the laser resonator equally spaced by the resonator round-trip time. Typically an intracavity loss modulator is used to collect the laser light in short pulses around the minimum of the loss modulation with a period given b",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "insight review articles Dn = n I(r,t) 2 Nonlinear medium Kerr lens Aperture 0.5 0.0 Incident beam Intense pulse –0.5 Low intensity light –1.0 –20fs –10 0 Loss Time (fs) Saturated gain the first result was also very surprising, even though a saturable Pulse absorber was present. It was clear that the dye saturable absorber, Time with a recovery time in the nanosecond range, could not support ultrashort pulses with a Ti:sapphire laser as it could with dye lasers. Figure 3Kerr lens modelocking is o",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "insight review articles Box 2 Saturable absorbers and SESAMs A saturable absorber is a material that has decreasing light absorption with increasing light intensity. We need saturable absorbers that show this effect at the intensities typically found in solid-state laser cavities, and semiconductor saturable absorbers are ideally suited for this. The key parameters for a saturable absorber are its wavelength range (where it absorbs), its dynamic response (how fast it recovers), and its saturatio",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "insight review articles Box 3 Q-switched modelocking A saturable absorber may also produce Q- switched modelocking, where the laser emits E 2 > E E DR P sat,L sat, A bunches of modelocked pulses, which may or may not have a stable Q-switching envelope. Q-switching instabilities occur when the pulse energy is temporarly increased because of noise fluctuations in the laser, which then gets 2 even further increased because of the stronger P A saturation of the saturable absorber. This has = ƒ intra",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "insight review articles chirped mirrors84,85 and back-side coated chirped mirrors86, have passively modelocked ion-doped solid-state lasers have been gener- resulted in record pulsewidth results87. ated with Nd:YVO lasers at a centre wavelength around 1mm94. 4 Ultrashort pulses in the one-to-two optical cycle regime also Shortly afterwards thiswas increased to 77 GHz95and 160 GHz7. open up new possibilities in nonlinear optics, where the variation Average power has been optimized at a 10 GHz pul",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "insight review articles Electron. Lett.38,225–227 (2002). Ti:sapphire laser producing pulses in the two-cycle regime. Opt. Lett.24,631–633 (1999). 20. Zeller, S. C.et al.Passively modelocked 40-GHz Er:Yb:glass laser. Appl. Phys. B76,787–788 (2003). 63. Ell, R.et al.Generation of 5-fs pulses and octave-spanning spectra directly from a Ti:sapphire laser. 21. Huang, D.et al.Optical coherence tomography. Science254,1178–1181 (1991). Opt. Lett.26,373–375 (2001). 22. Fujimoto, J. G. Optical coherence ",
+          "page": 8,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Frontiers in Ultrashort Pulse Generation: Pushing the Limits in Linear and Nonlinear Optics",
+      "year": 1999,
+      "journal": "",
+      "authors": [
+        "G. Steinmeyer",
+        "* D. H. Sutter",
+        "L. Gallmann",
+        "N. Matuschek",
+        "U. Keller"
+      ],
+      "doi": "",
+      "paper_id": "037b0498bff174b4",
+      "file_hash": "037b0498bff174b48033fdf011821cd8",
+      "num_pages": 7,
+      "abstract": "",
+      "n_figures": 7,
+      "n_chunks": 7,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "037b0498_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1. Development of shortest\nreported pulse duration over the\nlast three decades. Circles refer to\ndye-laser technology, triangles re-\nfer to Ti:sapphire laser systems.\nFilled symbols indicate results di-\nrectly achieved from an oscillator,\nopen\nsymbols\nindicate\nresults\nachieved with additional e",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\037b0498\\037b0498bff174b4_p01_f00.png",
+          "page_num": 1,
+          "width": 2309,
+          "height": 2477,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "037b0498_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2. Comparison of inter-\nferometric\nautocorrelation\ntraces\nof\ndifferent\npulse\nsources in the 5-fs range. (A)\nOptical parametric ampliﬁca-\ntion (8), (B) compression of\ncavity-dumped pulses in a sil-\nica ﬁber (9), (C) compression\nof microjoule pulses in a hol-\nlow ﬁber ﬁlled with krypton\n(10), and",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\037b0498\\037b0498bff174b4_p02_f01.png",
+          "page_num": 2,
+          "width": 2400,
+          "height": 962,
+          "figure_type": "plot",
+          "description": ""
+        },
+        {
+          "figure_id": "037b0498_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3. The Kerr effect gives rise to an increase of the refractive index with intensity, causing a\nretardation of the most intense parts of a pulse. In its longitudinal form (A), the Kerr effect causes\nself-phase modulation; in its transverse form (B), a nonlinear lens is formed in the central part",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\037b0498\\037b0498bff174b4_p02_f02.png",
+          "page_num": 2,
+          "width": 2400,
+          "height": 1336,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "037b0498_fig_003",
+          "label": "Fig. 4",
+          "caption": "Fig. 4. Different combina-\ntions of ampliﬁcation, the\nKerr\neffect,\nand\ndispersion\nused for the generation of\npulses in the two-cycle regime:\n(A) directly in an oscillator, (B)\nusing external compression in\nhollow,\ngas-ﬁlled\nﬁbers\nor\nfused silica ﬁbers, and (C) con-\ntinuum generation in sapphire\nand\n",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\037b0498\\037b0498bff174b4_p03_f03.png",
+          "page_num": 3,
+          "width": 2311,
+          "height": 2511,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "037b0498_fig_004",
+          "label": "Fig. 5",
+          "caption": "Fig. 5. Visible part of the spatial beam proﬁles\nbehind one intracavity mirror of a two-cycle\nTi:sapphire laser. (A) Cavity parameters are\nclose to the stability limit, with pure KLM ac-\ntion. (B) Cavity is adjusted for a reduced KLM-\neffect with stronger stabilization action from\nthe SESAM. Note th",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\037b0498\\037b0498bff174b4_p04_f04.png",
+          "page_num": 4,
+          "width": 734,
+          "height": 1017,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "037b0498_fig_005",
+          "label": "Fig. 6",
+          "caption": "Fig. 6. Double-chirped\nmirror. (A) Structure\nof\na\ntypical\nDCM,\nschematically showing\nthe path of a long-\nwavelength beam. (B)\nStanding-wave\nelec-\ntric ﬁeld patterns in a\nDCM structure versus\nwavelength. The dis-\npersion of the mirrors\nis clearly illustrated by\nthe\ndependence\nof\npenetration depth on\n",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\037b0498\\037b0498bff174b4_p05_f05.png",
+          "page_num": 5,
+          "width": 2311,
+          "height": 1287,
+          "figure_type": "diagram",
+          "description": ""
+        },
+        {
+          "figure_id": "037b0498_fig_006",
+          "label": "Fig. 7",
+          "caption": "Fig. 7. (A) Reﬂectivity of a typi-\ncal DCM (solid line) compared to\nthe gain spectrum of Ti:sapphire\n(dashed) and the measured spec-\ntrum of a two-cycle pulse (ﬁlled\ncircles). (B) Calculated phase ac-\ncumulated after six reﬂections\noff a DCM and a single pass\nthrough a prism pair, as used in\nthe ext",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\037b0498\\037b0498bff174b4_p05_f06.png",
+          "page_num": 5,
+          "width": 1468,
+          "height": 929,
+          "figure_type": "spectrum",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "FRONTIERS IN OPTICS REVIEW Frontiers in Ultrashort Pulse Generation: Pushing the Limits in Linear and Nonlinear Optics G. Steinmeyer,* D. H. Sutter, L. Gallmann, N. Matuschek, U. Keller Optical pulses in the 5-femtosecond range are produced by a variety of The Kerr Effect, Dispersion, and Pulse Compression methods.Althoughdifferentintechnicaldetail,eachmethodreliesonthe same three key components: spectral broadening due to the nonlinear At high intensities, the polarization inside a optical Kerr",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "FRONTIERS IN OPTICS spectrallybroadenedpulseiscalleddispersion, wherecisthespeedoflightinvacuum,and gives rise to solitons, optical pulses that are whichisalinearopticaleffectindependentof v isareferencefrequencyforseriesexpan- able to propagate for long distances in a 0 intensity. For a given optical element with sion.Thefirstcoefficient(i51inEq.2)in nonlinearmediumwitheitheraconstantora length,,dispersionmanifestsitselfasaspec- this dispersion series ]T (v )/]v is also periodicallychangingpuls",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "FRONTIERS IN OPTICS ond regime, dispersion and bandwidth limi- laser (20), pulses compressed by the soliton thesub–10-fsregimehowever,pulse-shaping tation of the gain medium, mirrors, and so effectsinthecoupledcavityaredirectlycou- processes become very complex (28), and forthmainlycausetemporalstretchingofthe pled back into the main laser cavity. This significant deviations from this simple theo- pulse. Therefore, the pulse shortening effect providesmoregainforthecenterofthepulse. reticalpictur",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "FRONTIERS IN OPTICS bandwidthsupportingtwo-cyclepulses,SPM metricprocess,eachpumpphotonissplitinto (36). For shorter pulse operation, higher or- isemployedbyfocusingtheamplifiedpulses two photons, with the sum of the generated derdispersionhastobecompensatedfor. intoanonlinearopticalmedium. photon energies equal to the pump photon Specially designed mirrors can also be NoblegasessuchasArorHeprovideSPM energy. If photons within the wavelength used for dispersion compensation. Standard with minima",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "FRONTIERS IN OPTICS tionsandsignificantlydeviatesfromthesim- uses the autocorrelation data together with characterizedinamplitudeandphase(7,46). ple picture predicted from the soliton-like thefundamentalspectrum(9,44)toprovide In these measurements, the residual uncom- pulseshaping(7,40).Moreover,groupdelay a simultaneous fit to both measurements. pensateddispersionmainlyduetotheoutput- oscillationscanultimatelylimittheintracav- Whereas the characterization techniques dis- couplingmirrorofthelas",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "FRONTIERS IN OPTICS poralpulsebroadening. 4.4nmrangewouldallowforinvivomicros- Feugnet,inAdvancedSolid-StateLasers,G.Dub«eand The continuous improvement of femto- copy with a good contrast between organic L.Chase,Eds.(OpticalSocietyofAmerica,Washing- second pulse sources has resulted in pulse compounds and water (52). In addition, a ton,DC,1991),vol.10,pp.120—124;U.Keller,G.W. (cid:213)tHooft,W.H.Knox,J.E.Cunningham,Opt.Lett.16, durations of about two optical cycles, which spatialresolutionofafe",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Frontiers in Ultrashort Pulse Generation: Pushing the Limits in Linear and Nonlinear Optics G. Steinmeyer, D. H. Sutter, L. Gallmann, N. Matuschek, and U. Keller Science 286 (5444), . DOI: 10.1126/science.286.5444.1507 View the article online https://www.science.org/doi/10.1126/science.286.5444.1507 Permissions https://www.science.org/help/reprints-and-permissions Use of this article is subject to the Terms of service Science (ISSN 1095-9203) is published by the American Association for the Adva",
+          "page": 7,
+          "type": "body"
+        }
+      ]
+    }
+  ]
+}

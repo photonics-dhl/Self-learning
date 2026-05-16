@@ -1,0 +1,491 @@
+{
+  "professor_key": "gedik",
+  "paper_count": 4,
+  "total_figures": 16,
+  "total_chunks": 42,
+  "papers": [
+    {
+      "title": "Evidence for a single-layer van der Waals multiferroic",
+      "year": 2022,
+      "journal": "",
+      "authors": [
+        "Qian Song1",
+        "2",
+        "9",
+        "Connor A. Occhialini1",
+        "9",
+        "Emre Ergeçen1",
+        "9",
+        "Batyr Ilyas1",
+        "9",
+        "Danila Amoroso3",
+        "4"
+      ],
+      "doi": "",
+      "paper_id": "754537c15577ee66",
+      "file_hash": "754537c15577ee6664a0a341028e89b0",
+      "num_pages": 18,
+      "abstract": "",
+      "n_figures": 3,
+      "n_chunks": 18,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "754537c1_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1 | Crystal structure, magnetic order and optical characterization of \nbulk NiI2. a, The high-temperature R m\n3\n structure of NiI2. b, The helical \nmagnetic structure of bulk NiI2 below TN,2 = 59.5 K (see text). c, Temperature- \ndependent linear dichroism (∆R(T)) measurements on a mono-domain r",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\754537c1\\754537c15577ee66_p02_f00.png",
+          "page_num": 2,
+          "width": 2165,
+          "height": 1214,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "754537c1_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2 | Birefringence and SHG in few- and single-layer NiI2. a, Optical image \nof single-layer (1L) and two-layer (2L) NiI2 samples grown on hBN with atomic \nstep height profiles measured by atomic force microscopy (scale bar, 5 µm).  \nb, Temperature-dependent polarized microscopy images on the sam",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\754537c1\\754537c15577ee66_p03_f01.png",
+          "page_num": 3,
+          "width": 1111,
+          "height": 899,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "754537c1_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3 | Layer-dependent magnetic transition temperatures and the ground \nstate of single-layer NiI2. a, Evolution of the reduced temperature t as a \nfunction of the interlayer exchange J\nJ j\n/ (\n)\n⊥\n⊥, where t = T N,2\nbulk/Tc\nsingle-layer  \nis the ratio of the bulk and single-layer transition tempe",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\754537c1\\754537c15577ee66_p04_f02.png",
+          "page_num": 4,
+          "width": 1106,
+          "height": 989,
+          "figure_type": "photo",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "Article Evidence for a single-layer van der Waals multiferroic https://doi.org/10.1038/s41586-021-04337-x Qian Song1,2,9, Connor A. Occhialini1,9, Emre Ergeçen1,9, Batyr Ilyas1,9, Danila Amoroso3,4, Paolo Barone5, Jesse Kapeghian6, Kenji Watanabe7, Takashi Taniguchi8, Antia S. Botana6, Received: 24 May 2021 Silvia Picozzi3, Nuh Gedik1 & Riccardo Comin1 ✉ Accepted: 10 December 2021 Published online: 23 February 2022 Multiferroic materials have attracted wide interest because of their exceptional ",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article f T = 30 Κ –50 –25 0 25 50 Raman shift (cm–1) appearance of an in-plane electrical polarization perpendicular to the symmetry in the parent 3m point group, resulting in birefringent ordering vector2 and crystal symmetry lowering from rhombohedral domains that are characterized by uniquely oriented, in-plane C axes 2 to monoclinic 28. (Extended Data Fig. 2 and Supplemental Information). The temperature In this study, we investigate the multiferroic states in bulk and dependence of ∆R bear",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "4 3 2 1 0 0 10 20 30 40 50 60 70 Temperature (K) NiI (Supplemental Information) and an underlying single-Q, helical cross-polarized microscopy (Methods), signalling the presence of 2 magnetic ground state. The resulting electrical polarization induces birefringent domains on both the one- and two-layer regions at T = 5 K a bulk photovoltaic effect, which was detected in photocurrent meas- (Fig. 2b). As temperature is increased, the birefringent domains van- urements on a thin NiI flake (Extended",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article guarantees a finite-temperature transition to a long-range ordered magnetic phase even in the monolayer (Fig. 3c). In addition, the transi- tion temperature of the bulk system is found to increase proportionally with J (Fig. 3a). Experimentally, the helimagnetic transition tempera- ⊥ ture of the single-layer sample is strongly reduced from its bulk value, being T N,2 /T c single-layer ≃ 2.8. A linear extrapolation of the MC estimates for transition temperatures as a function of J enables",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Our results point to the crucial role of SOC and the orbital extension 8. Spaldin, N. A. & Ramesh, R. Advances in magnetoelectric multiferroics. Nat. Mater. 18, of the ligands in modulating both magnetic anisotropies and exchange 203–212 (2019). interactions beyond nearest-neighbour , ultimately determining the 9. H 54 u 4 a – n 5 g 4 , 8 B . ( 2 e 0 t a 18 l. ) E . lectrical control of 2D magnetism in bilayer CrI 3. Nat. Nanotechnol. 13, magnetic ground state among closely lying, competing phas",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article Methods to 180°. An analyser was placed in front of the spectrometer entrance and kept vertical and horizontal for parallel (XX) and perpendicular Growth and characterization of few-layer NiI 2 crystals (XY) configurations, respectively. For circularly polarized measure- Bulk-like NiI crystals were grown on 300 nm SiO/Si and few-layer crys- ments, an achromatic quarter-wave plate was placed in front of the 2 2 tals were grown on hBN substrates by physical vapour deposition (PVD) objectiv",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "(Janis ST-500). For wavelength-dependent SHG experiments, we used an optical parametric amplifier (ORPHEUS, Light Conversion) seeded Generalized spin-current model for magnetically induced with a regenerative amplifier (PHAROS SP-10-600-PP, Light Conver- polarization sion) These enabled us to tune the output wavelength in a wide spec- Within the generalized spin-current gKNB model38, the total polariza- tral range. The estimated spot size on the sample was approximately tion is given by 2 µm. Th",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article (S and S) along the x axis (parallel to the a lattice vector) and calcu- 48. Perdew, J. P. et al. Restoring the density-gradient expansion for exchange in solids and 1 2 lated the Berry-phase polarization arising from different sets of four surfaces. Phys. Rev. Lett. 100, 136406 (2008). 49. Becke, A. D. On the large-gradient behavior of the density functional exchange energy. J. non-collinear spin configurations, defining the M tensor, in units of Chem. Phys. 85, 7184–7187 (1986). 10−5 e",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Extended Data Fig. 1 | X-ray and electron diffraction of NiI crystals. a, X-ray transferred onto a SiN membrane. d, The electron diffraction pattern of the 2 x diffraction of a CVT-grown NiI single crystal along the c-axis. b, X-ray powder PVD grown NiI flake shown in c, using a transmission electron microscope. 2 2 diffraction of CVT-grown NiI. c, An optical image of a 7 nm PVD grown NiI flake 2 2",
+          "page": 9,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article Extended Data Fig. 2 | Linear dichroism and birefringence-induced measurements from the three distinct domains identified in a. Radial lines polarization rotation measurements in bulk NiI. a, Polarized microscopy indicate the crystallographic a-axes determined from the edges of the 2 image of bulk NiI2. The positions where the optical measurements were as-grown PVD sample. d, Schematics of the domains as identified from AD-LD performed are labelled as Domain I-III. b, Comparison of the t",
+          "page": 10,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Observation of the nonlinear Hall effect under time-reversal-symmetric conditions",
+      "year": 2019,
+      "journal": "",
+      "authors": [
+        "Qiong Ma1",
+        "13",
+        "Su-Yang Xu1",
+        "13",
+        "Huitao Shen1",
+        "13",
+        "David MacNeill1",
+        "Valla Fatemi1",
+        "Tay-Rong Chang2",
+        "Andrés M. Mier Valdivia1"
+      ],
+      "doi": "",
+      "paper_id": "ea60c91dffd53f79",
+      "file_hash": "ea60c91dffd53f7984074c53115b49ea",
+      "num_pages": 11,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 11,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "ea60c91d_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1 | Crystal structure and basic characterization of bilayer WTe2.  \na, Illustration of the anomalous Hall effect in a magnetic metal. M is the \nmagnetization, JAHE is the anomalous Hall current, Jx and Vx are the \ncurrent and voltage, respectively, along the x direction, J = Jx + JAHE is the \nt",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ea60c91d\\ea60c91dffd53f79_p02_f00.png",
+          "page_num": 2,
+          "width": 1127,
+          "height": 1142,
+          "figure_type": "diagram",
+          "description": ""
+        },
+        {
+          "figure_id": "ea60c91d_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2 | Circular photocurrents and nonlinear \ntransport in bilayer WTe2. a, Optical image of \nour WTe2 device, with the electrodes numbered. \nThe black lines trace the encapsulated bilayer \nWTe2 flake. The crystalline directions \ndetermined from the circular photogalvanic \neffect (CPGE) are noted. ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ea60c91d\\ea60c91dffd53f79_p03_f01.png",
+          "page_num": 3,
+          "width": 2152,
+          "height": 1713,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "ea60c91d_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3 | Systematic studies of the nonlinear Hall effect in bilayer WTe2. \na, Gate map of \nω\nVbaa\n2  at T = 10 K. A current Iω = 1 μA is applied for all gate \nvoltages. The black dashed line traces the (VT, VB) that correspond to the \nmaximum resistance (Fig. 1i) at every D (see Supplementary Inform",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ea60c91d\\ea60c91dffd53f79_p03_f02.png",
+          "page_num": 3,
+          "width": 1678,
+          "height": 1323,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "ea60c91d_fig_003",
+          "label": "Fig. 4",
+          "caption": "Fig. 4 | Large Berry-curvature dipole arising from layer-polarized Dirac \nfermions in bilayer WTe2. a, A massless Dirac fermion (solid lines and \nblack filled circle) does not have any Berry curvature (colour scale).  \nb, Opening an energy gap at the Dirac point (the black filled circle) by \nbreakin",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ea60c91d\\ea60c91dffd53f79_p04_f03.png",
+          "page_num": 4,
+          "width": 1827,
+          "height": 1464,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "Letter https://doi.org/10.1038/s41586-018-0807-6 Observation of the nonlinear Hall effect under time-reversal-symmetric conditions Qiong Ma1,13, Su-Yang Xu1,13, Huitao Shen1,13, David MacNeill1, Valla Fatemi1, tay-rong Chang2, Andrés M. Mier Valdivia1, Sanfeng Wu1, Zongzheng Du3,4,5, Chuang-Han Hsu6,7, Shiang Fang8, Quinn D. Gibson9, Kenji Watanabe10, takashi taniguchi10, robert J. Cava9, efthimios Kaxiras8,11, Hai-Zhou Lu3,4, Hsin Lin12, Liang Fu1, Nuh Gedik1* & Pablo Jarillo-Herrero1* The elec",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "reSeArCH Letter a Anomalous Hall effect c Nonlinear Hall effect bilayer WTe 2 (Fig. 1e, f)24,30 because of the stacking arrangement, in contrast to hexagonal transition-metal dichalcogenides. The only crys- M talline symmetry for bilayer WTe is the mirror plane M (Fig. 1e). J AHE J J NLHE Because of M , Λ (a pseudovecto 2 r) has to be parallel to a the a axis a (Fig. 1g). Therefore, as per the schematic in Fig. 1c, a nonlinear Hall J x voltage is expected to appear along the b axis in response t",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Letter reSeArCH 1 0 –1 Photon polarization )1–W Aμ( I EGPC )1–W Aμ( I EGPC b Bilayer WTe 2 Light 7–8 1.0 2–5 2–1 0.8 4–1 2 8 4–3 0.6 1 4 3 6 5 7 –1 0 1 D (V nm–1) 0 c Bilayer Monolayer 0.4 0.2 )Vμ( (cid:90)2V aa(cid:68) )Vμ( (cid:90)2V aab Fig. 2 | Circular photocurrents and nonlinear a transport in bilayer WTe2. a, Optical image of our WTe2 device, with the electrodes numbered. The black lines trace the encapsulated bilayer WTe2 flake. The crystalline directions determined from the circular pho",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "reSeArCH Letter a b c We highlight here the key data, including the clear observation of the consisting of a strong dependence on D and multiple sign reversals as nonlinear Hall voltage V b 2 a ω a , its dominance over the longitudinal a function of ε F . These experimental features over a large parameter response, its gate dependence and its consistency across many combi- space provide information about the physical origin of the nonlinear nations of electrodes. These data are crucial for exclu",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Letter reSeArCH At D = 1.6 V nm−1, a sharp, negative feature appears in the data near 9. Moore, J. E. & Orenstein, J. Confinement-induced Berry phase and helicity- dependent photocurrents. Phys. Rev. Lett. 105, 026805 (2010). ε = 0 (Fig. 4i), which is also captured by the theory (Fig. 4l). In fact, F 10. Sodemann, I. & Fu, L. Quantum nonlinear Hall effect induced by Berry curvature the calculations show two sharp peaks immediately next to each other; dipole in time-reversal invariant materials. ",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "reSeArCH Letter Odyssey cluster, which is supported by the FAS Division of Science, Research crystals. K.W. and T.T. grew the bulk hexagonal boron nitride single crystals. Computing Group. S.-Y.X., Q.M., N.G. and P.J.-H. wrote the manuscript, with input from all authors. Reviewer information Nature thanks J. van den Brink and the other anonymous Competing interests The authors declare no competing interests. reviewer(s) for their contribution to the peer review of this work. Additional informati",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Letter reSeArCH MEthodS behaviour (Fig. 1i, j). Furthermore, the clear directional dependence of the Sample fabrication. High-quality bulk WTe2 crystals34 were grown using a previ- CPGE allows us to determine the crystalline axes (Supplementary Information ously described method21. Our fabrication of the dual-gated bilayer WTe2 devices section IV). As shown in Fig. 2b, the direction connecting electrodes 7 and 8 consists of two phases. Phase I was done under ambient conditions: local bottom roug",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "reSeArCH Letter Data availability 41. Kim, J. et al. Layer thickness dependence of the current-induced effective field vector in Ta|CoFeB|MgO. Nat. Mater. 12, 240–245 (2013). The data shown in the plots and that support the other findings of this study are 42. Garello, K. et al. Symmetry and magnitude of spin-orbit torques in available from the corresponding authors on reasonable request. ferromagnetic heterostructures. Nat. Nanotechnol. 8, 587–593 (2013). 43. MacNeill, D. et al. Thickness depen",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Letter reSeArCH Extended Data Fig. 1 | Asymmetric inter-layer coupling. a, b, In in layer 1 (W-L1), the W 5d band in layer2 (W-L2), the Te 5p band in monolayer WTe2 (a), the low-energy physics is characterized by a W 5d layer 1 (Te-L1) and the Te 5p band in layer 2 (Te-L2). Owing to the band and a Te 5p band (b). Owing to the band inversion near the Γ point, asymmetric inter-layer coupling, orbitals from opposite layers gain a Dirac fermion is formed at the Q (Q′) point. Without spin–orbit coupl",
+          "page": 9,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "reSeArCH Letter Extended Data Fig. 2 | Band structure of bilayer WTe2 as a function of the anti-crossing (a massive Dirac fermion) formed between the lowest the external electric field. a–d, With positive E fields, the global bandgap two conduction bands at D > 0. Such a massive Dirac cone with a small increases then decreases; with negative E fields, the global bandgap gap (approximately 3 meV) leads to large Berry curvature near the gap decreases. The evolution of the valence-band splitting at",
+          "page": 10,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Direct optical detection of Weyl fermion chirality in a topological semimetal",
+      "year": 2017,
+      "journal": "",
+      "authors": [
+        "Qiong Ma1†",
+        "Su-Yang Xu1†",
+        "Ching-Kit Chan1",
+        "2",
+        "Cheng-Long Zhang3",
+        "4",
+        "Guoqing Chang5",
+        "6",
+        "Yuxuan Lin7"
+      ],
+      "doi": "",
+      "paper_id": "389a69e459d931e1",
+      "file_hash": "389a69e459d931e1312daf3ac1e0ce52",
+      "num_pages": 7,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 7,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "389a69e4_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1 | Chirality-dependent optical transition of Weyl fermions in TaAs. a, The blue and green arrows depict the Berry curvatures in momentum space.\nThe grey spheres represent the Fermi surfaces that enclose the Weyl nodes. b, Surface band structures along the closed k loops in the surface Brillo",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\389a69e4\\389a69e459d931e1_p02_f00.png",
+          "page_num": 2,
+          "width": 2160,
+          "height": 1166,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "389a69e4_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2 | Observation of chirality-dependent photocurrent in TaAs. a, Schematic illustration of the mid-IR photocurrent microscope setup. We used a\nlaser power about 10 mW throughout the main text. b, A photograph of the measured TaAs sample. The crystal axes a, b, c are denoted. Scale bar: 300 µm.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\389a69e4\\389a69e459d931e1_p03_f01.png",
+          "page_num": 3,
+          "width": 2160,
+          "height": 2021,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "389a69e4_fig_002",
+          "label": "Figure 3",
+          "caption": "Figure 3 | Control of photocurrent by varying the Weyl fermion chirality conﬁguration with respect to the light. a, Repetition of Fig. 2c. Both the\nlaboratory coordinate ({ˆx, ˆy,ˆz}) and the sample coordinate ({ˆa, ˆb,ˆc}) are noted. I>0 is deﬁned as along the −ˆy direction in the laboratory framew",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\389a69e4\\389a69e459d931e1_p04_f02.png",
+          "page_num": 4,
+          "width": 2160,
+          "height": 935,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "389a69e4_fig_003",
+          "label": "Figure 4",
+          "caption": "Figure 4 | Detection and manipulation of chiral Weyl fermions by\noptical means. a, Our calculations (see Supplementary Information III.4)\nshow ˆJTHY =χW1 ˆklight ×ˆc. b, By measuring the direction of the current ˆJ\nand knowing the polarization and propagation direction of the light, we\nobtain ˆJEXP ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\389a69e4\\389a69e459d931e1_p05_f03.png",
+          "page_num": 5,
+          "width": 1076,
+          "height": 679,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "LETTERS PUBLISHEDONLINE:29MAY2017|DOI:10.1038/NPHYS4146 Direct optical detection of Weyl fermion chirality in a topological semimetal QiongMa1†,Su-YangXu1†,Ching-KitChan1,2,Cheng-LongZhang3,4,GuoqingChang5,6,YuxuanLin7, WeiweiXie8,TomásPalacios7,HsinLin5,6,ShuangJia3,4,PatrickA.Lee1,PabloJarillo-Herrero1* andNuhGedik1* A Weyl semimetal is a novel topological phase of matter1–16, applyingparallelelectricandmagneticfieldscanbreaktheapparent inwhichWeylfermionsariseaspseudo-magneticmonopoles conser",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "LETTERS NATUREPHYSICS DOI:10.1038/NPHYS4146 a Loop 1 Loop 2 b C = −1 C = +1 E E CB CB χ = +1 1 0 k z χ = −1 −1 VB VB 1 1 k y 0 −1 −1 0 k x k loop1 k loop2 c Optical selection rule e E χ = +1 χ = −1 μ μ J + J = 0 χ=+1 χ=−1 k z 1 Transition RCP k x k probability y 0 d Pauli blockade f E k v v z + − μ k z J χ=+1 + J χ=−1 ≠ 0 g Ta h i j a W 1 b As b c c a k c k b a b W 2 a k a Figure1|Chirality-dependentopticaltransitionofWeylfermionsinTaAs.a,TheblueandgreenarrowsdepicttheBerrycurvaturesinmomentumsp",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "LETTERS NATUREPHYSICS DOI:10.1038/NPHYS4146 a b )An( tnerrucotohP a c b )An( tnerrucotohP c Photon polarization d 200 −200 I || b (nA) Scanning mirror RCP LCP RCP LCP RCP CO 2 laser Polarizer Beam splitter 80 Photodetector Lens 40 θ λ/4-wave plate 0 z −40 c A y b I > 0 x −80 a A 80 40 0 c I > 0 A −40 b a −80 0 90 180 270 360 θ (°) e f g c c b 0 90 180 270 360 0 1/π 2/π 3/π 4/π θ (°) Frequency h i j c c c b b 0 90 180 270 360 θ (°) Figure2|Observationofchirality-dependentphotocurrentinTaAs.a,Sche",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "LETTERS NATUREPHYSICS DOI:10.1038/NPHYS4146 a 40 0 −40 0 90 180 270 360 )An( tnerrucotohP b c d y z I c > 0 b c C 2a b b c C 2b b a b c C 2c a c b x b a a c a a c a 0 90 180 270 360 0 90 180 270 360 0 90 180 270 360 θ (°) θ (°) θ (°) θ (°) Figure3|ControlofphotocurrentbyvaryingtheWeylfermionchiralityconfigurationwithrespecttothelight.a,RepetitionofFig.2c.Boththe laboratorycoordinate({xO,yO,zO})andthesamplecoordinate({aO,b O ,cO})arenoted.I>0isdefinedasalongthe(cid:0)yOdirectioninthelaboratoryfra",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "LETTERS NATUREPHYSICS DOI:10.1038/NPHYS4146 furtherexcludeothermechanisms).Specifically,thephotocurrent a k^ c c Valley—optical control fromasingleWFisgivenby E J DC N J singleWF Z k N JD d3qTvC .q/(cid:0)v(cid:0) .q/UjVC(cid:0) .A,(cid:31)/j2(cid:14)TEC .q/(cid:0)E(cid:0) .q/(cid:0)hN!U χ W1 J^ THY k^ light K K' (cid:2)Tn0.(cid:22),q/(cid:0)n0.(cid:22),q/U (2) d Weyl—optical control (cid:0) C J^ = χ k^ × c^ THY W1 light E whereCisaconstantdeterminingthemagnitudeofthecurrentthat N is the same fo",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "LETTERS NATUREPHYSICS DOI:10.1038/NPHYS4146 5. Wan,X.,Turner,A.M.,Vishwanath,A.&Savrasov,S.Y.Topologicalsemimetal 33.Zheng,H.etal.AtomicscalevisualizationofquantuminterferenceonaWeyl andFermi-arcsurfacestatesintheelectronicstructureofpyrochloreiridates. semimetalsurfacebyscanningtunnelingmicroscopy/spectroscopy.ACSNano Phys.Rev.B83,205101(2011). 10,1378(cid:21)1385(2016). 6. Burkov,A.A.&Balents,L.Weylsemimetalinatopologicalinsulator 34.Inoue,H.etal.QuasiparticleinterferenceoftheFermiarcsandsurfa",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "LETTERS NATUREPHYSICS DOI:10.1038/NPHYS4146 Methods 2(cid:25)eZ d3q Mid-infraredphotocurrentmicroscopysetup.Inourexperiment,thesampleis JD(cid:0) hN .2(cid:25)/3 1v.q/jhqC jVjq(cid:0) ij2(cid:14).1E.q/(cid:0)hN!/.n0 (cid:0) .q/(cid:0)n0 C .q// (6) contactedwithmetalwiresandplacedinanopticalscanningmicroscopesetupthat combineselectronictransportmeasurementswithlightillumination44,45.Thelaser whereVistheelectron(cid:21)lightcouplingresponsibleforphotoexcitationsfromjq(cid:0) i sourceisatemperature",
+          "page": 7,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "to both minimal and IL12 gene promoters, thus impairing their transcription (Fig. 6, B to E, and We have shown here that MUC2 enhances gut fig. S20C). Accordingly, b-catenin deficiency im- homeostasis",
+      "year": 2011,
+      "journal": "",
+      "authors": [
+        "impairing their transcription (Fig. 6",
+        "B to E",
+        "and"
+      ],
+      "doi": "",
+      "paper_id": "749410bb2c1c795d",
+      "file_hash": "749410bb2c1c795d83c07ce245e28c11",
+      "num_pages": 6,
+      "abstract": "",
+      "n_figures": 5,
+      "n_chunks": 6,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "749410bb_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1. Angle-resolved photoemission spectra (APRES) of Bi2Se3.\n(A) A sketch of the experimental geometry for the p-polarized case. kx is\ndefined to be the in-plane electron momentum parallel to the pump scatter-",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\749410bb\\749410bb2c1c795d_p02_f00.png",
+          "page_num": 2,
+          "width": 2203,
+          "height": 639,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "749410bb_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2. ARPES spectra\nat 0 fs time delay under\nlinearly polarized MIR\nexcitation. (A) and (B)\nshowtheenergy-momentum\nspectra through G along\nthe kx and ky directions,\nrespectively. (C) and (D)\nare the same spectra after\nsubtracting the spectra at\nt = –500 fs (35). Dashed\norange lines are guides to\nt",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\749410bb\\749410bb2c1c795d_p02_f01.png",
+          "page_num": 2,
+          "width": 1563,
+          "height": 1305,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "749410bb_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3. ARPES spectra at\n0 fs time delay under\ncircularly polarized MIR\nexcitation. (A to D) are\nanalogous to the corre-\nsponding panels in Fig. 2.\n(E) The projection of the\nelectric field on the sur-\nface plane (light blue) is\nelliptical, and the avoided\ncrossing appears along both\ndirections. The ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\749410bb\\749410bb2c1c795d_p03_f02.png",
+          "page_num": 3,
+          "width": 1569,
+          "height": 1337,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "749410bb_fig_003",
+          "label": "Fig. 4",
+          "caption": "Fig. 4. Band gap at the Dirac point induced by circularly polar-\nized MIR pulse. (A) and (B) show the energy distribution curves along\nky obtained from intensity spectra in Figs. 2B and 3B under circularly and\nlinearly polarized MIR excitation, respectively. The blue curves are the\nones passing thro",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\749410bb\\749410bb2c1c795d_p04_f03.png",
+          "page_num": 4,
+          "width": 2351,
+          "height": 2349,
+          "figure_type": "plot",
+          "description": ""
+        },
+        {
+          "figure_id": "749410bb_fig_004",
+          "label": "Fig. 1",
+          "caption": "Fig. 1. From few to many. A single impurity (blue)\ninteracting with one, few, and many fermions (green)\nin a harmonic trapping potential. In the many-body\ncase, the majority component can be described as\na Fermi sea with a Fermi energy EF.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\749410bb\\749410bb2c1c795d_p05_f04.png",
+          "page_num": 5,
+          "width": 2284,
+          "height": 2779,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "tobothminimalandIL12genepromoters,thus Conclusions 15. S.Vaishnavaetal.,Science334,255–258(2011). impairingtheirtranscription(Fig.6,BtoE,and We have shown here that MUC2 enhances gut 16. A.Estebanetal.,Proc.Natl.Acad.Sci.U.S.A.108, 14270–14275(2011). fig.S20C).Accordingly,b-catenindeficiencyim- homeostasisandoraltolerancebyconditioning 17. S.Dillonetal.,J.Clin.Invest.116,916–928(2006). pededMUC2-mediatedinhibitionofLPS-induced DCsandIECs.Antigen-samplingDCsassemble 18. J.M.Ilarreguietal.,Nat.Imm",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "These so-called Floquet states can be regarded spectroscopy (21–23) and photoemission spec- (26–28).Whenthephotonenergyofthelaser asatimeanalogofBlochstates,whicharethe troscopy (24, 25) have shown many coherent that excites the sample is below the bulk band eigenstatesofaHamiltonianperiodicinspace phenomenaunderintenseradiation,atechnique gap(typicallylessthan300meV),thecoherent (19).Combiningthetwosituations,aperiodicex- thatcanprobethestatesinanenergy-momentum– interactionbetweenlightandtheTI",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "thedetectororientationinapump-probescheme about zero momentum G is due to the coupling (LAPE)(24,25).Becausethiseffectiscausedby (28,29).TheMIRpumppulsesaregenerated between the linearly polarized UV pulse and the theabsorptionofpumpphotonsbythenear-free from a commercial optical parametric amplifier spin-orbittextureofthesurfacestatesofTI(29). electronsinthefinalstatesofphotoemission,the pumped by a Titanium:Sapphire amplifier. The Whenthetwopulsesstarttooverlapintime(t= LAPEbandsdonotopenbandg",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Diracpoint.Thereisareplicaofthis∞patternat patternaroundthen=0Diracpointisaresult D,and3,CandD).Tobeabletoresolveanygap onepumpphotonenergy(120meV)abovethe ofthecrossingsandavoidedcrossingsbetween aroundtheDiracpoint,weconvertedtheinten- onearoundn=0Diracpoint,suggestingthat n=0andn=T1(Fig.2,DandE).Theenergy sityspectraforbothpolarizations(Figs.2Band this is a coherent feature on the photo-induced distributioncurve(fig.S1A)throughtheavoided 3B)intoenergydistributioncurves(EDCs)byin- bands. E = 0",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "REPORTS The surface Dirac Hamiltonian hybridized 4. C.Z.Changetal.,Science340,167–170(2013). 27. M.Hajlaouietal.,NanoLett.12,3532–3536(2012). withcircularlypolarizedlightessentiallyresults 5. X.-L.Qi,T.L.Hughs,S.-C.Zhang,Phys.Rev.B78, 28. Y.H.Wangetal.,Phys.Rev.Lett.109,127401 195424(2008). (2012). inaCherninsulatorasoriginallyproposedby 6. Y.L.Chenetal.,Science329,659–662(2010). 29. Y.H.Wangetal.,Phys.Rev.Lett.107,207602 Haldane(35).Inhismodel,alternatingcurrent 7. S.Y.Xuetal.,Nat.Phys.8,616–62",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Observation of Floquet-Bloch States on the Surface of a Topological Insulator Y. H. Wang, H. Steinberg, P. Jarillo-Herrero, and N. Gedik Science 342 (6157), . DOI: 10.1126/science.1239834 Topological Replicas When a periodic perturbation couples strongly to electrons in a solid, replicas of the original electronic levels are predicted to develop at certain energies—the so-called Floquet-Bloch states. Such conditions can be achieved by shining light on a solid, but the effect is challenging to ob",
+          "page": 6,
+          "type": "body"
+        }
+      ]
+    }
+  ]
+}

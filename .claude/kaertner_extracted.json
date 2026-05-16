@@ -1,0 +1,517 @@
+{
+  "professor_key": "kaertner",
+  "paper_count": 5,
+  "total_figures": 21,
+  "total_chunks": 24,
+  "papers": [
+    {
+      "title": "Impact of the Electronic Band Structure in High-Harmonic Generation Spectra of Solids Nicolas Tancogne-Dejean,1,2,* Oliver D. Mücke,3,4 Franz X. Kärtner,3,4,5,6 and Angel Rubio1,2,3,5,†",
+      "year": 2016,
+      "journal": "",
+      "authors": [
+        "Nicolas Tancogne-Dejean",
+        "1",
+        "2",
+        "* Oliver D. Mücke",
+        "3",
+        "4 Franz X. Kärtner",
+        "3",
+        "4",
+        "5",
+        "6",
+        "Angel Rubio1",
+        "2",
+        "3",
+        "5",
+        "†"
+      ],
+      "doi": "",
+      "paper_id": "5cb0f8f3e688c1f5",
+      "file_hash": "5cb0f8f3e688c1f51eee14237f7cced8",
+      "num_pages": 6,
+      "abstract": "",
+      "n_figures": 3,
+      "n_chunks": 6,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "5cb0f8f3_fig_000",
+          "label": "FIG. 1",
+          "caption": "FIG. 1.\nHHG spectra from bulk silicon, for polarization along\nΓX, computed within the LDA (LDA, black line) and within the\nLDA, but freezing the Coulomb and exchange-correlation terms\nto their ground-state value (LDA-FreezeHXC, red line).",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\5cb0f8f3\\5cb0f8f3e688c1f5_p03_f00.png",
+          "page_num": 3,
+          "width": 2159,
+          "height": 791,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "5cb0f8f3_fig_001",
+          "label": "FIG. 3",
+          "caption": "FIG. 3.\nHHG spectra vs center wavelength of the driver pulses,\nat fixed peak intensity and laser pulse duration, for polarization\nalong ΓX. White dashed curves represent the harmonics and the\nred arrow indicates the wavelength-independent harmonic cutoff.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\5cb0f8f3\\5cb0f8f3e688c1f5_p04_f01.png",
+          "page_num": 4,
+          "width": 2159,
+          "height": 833,
+          "figure_type": "plot",
+          "description": ""
+        },
+        {
+          "figure_id": "5cb0f8f3_fig_002",
+          "label": "FIG. 2",
+          "caption": "FIG. 2.\n(a) Calculated TDDFT anisotropy map of the HHG\nspectra obtained by rotating the laser polarization around the\n[001] crystallographic direction, from 0° (ΓX) to 45° (ΓK) to 90°\n(ΓX). (b) HHG spectra for the ΓX polarization direction (red line)\nand the ΓL direction (blue line). The bottom pane",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\5cb0f8f3\\5cb0f8f3e688c1f5_p04_f02.png",
+          "page_num": 4,
+          "width": 2159,
+          "height": 350,
+          "figure_type": "graph",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "weekending PRL 118, 087403 (2017) PHYSICAL REVIEW LETTERS 24 FEBRUARY 2017 Impact of the Electronic Band Structure in High-Harmonic Generation Spectra of Solids Nicolas Tancogne-Dejean,1,2,* Oliver D. Mücke,3,4 Franz X. Kärtner,3,4,5,6 and Angel Rubio1,2,3,5,† 1Max Planck Institute for the Structure and Dynamics of Matter, Luruper Chaussee 149, 22761 Hamburg, Germany 2European Theoretical Spectroscopy Facility (ETSF), Luruper Chaussee 149, 22761 Hamburg, Germany 3Center for Free-Electron Laser S",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "weekending PRL 118, 087403 (2017) PHYSICAL REVIEW LETTERS 24 FEBRUARY 2017 excitationinZnOby3.76 μmpulses,suchthattheelectrons formula for the high-harmonic spectra. Using the current exploreonlythenear-parabolicregionoftheBrillouinzone expreRssion for the HHG spectra, namely, HHGðωÞ¼ (BZ), it was found that the magnitude of the interband jFTf d3rð∂=∂tÞjðr;tÞgj 2, and plugging now Eq. (3), we Ω contributionislargerthanthatoftheintrabandcontribution obtain a general expression forthe HHG spectra,",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "weekending PRL 118, 087403 (2017) PHYSICAL REVIEW LETTERS 24 FEBRUARY 2017 therefore guide the search of better materials for HHG from solids, as not only bulk crystal properties but also nanostructureengineeringaspectsareimportantforoptimum HHG. Next we discuss the numerical results of our first- principles TDDFT calculations. This method has already beensuccessfullyappliedtothedescriptionofstrong-field phenomena in atoms [38,39] and solids [40–43]. Being interested in the microscopic origin of",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "weekending PRL 118, 087403 (2017) PHYSICAL REVIEW LETTERS 24 FEBRUARY 2017 (a) (b) FIG.3. HHGspectravscenterwavelengthofthedriverpulses, at fixed peak intensity and laser pulse duration, for polarization alongΓX.Whitedashedcurvesrepresenttheharmonicsandthe redarrowindicatesthewavelength-independentharmoniccutoff. Similarly to previous theoretical studies [16,27,28,44, 48–50], we do not obtain clean odd harmonics above the band gap. Nevertheless, we see in Fig. 2(b) that the noisy region (orange ",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "weekending PRL 118, 087403 (2017) PHYSICAL REVIEW LETTERS 24 FEBRUARY 2017 acceleratedbythelaserfield.Inthecaseofsolids,itisclear [8] M. Hohenleutner, F. Langer, O. Schubert, M. Knorr, that electrons do not evolve as free particles. Thus, for U. Huttner, S.W. Koch, M. Kira, and R. Huber, solids, a wavelength dependence cannot arise from the Nature (London) 523, 572 (2015). ponderomotive energy. We note also that increasing the [9] T.T.Luu,M.Garg,S.Y.Kruchinin,A.Moulet,M.T.Hassan, andE.Goulielmak",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "weekending PRL 118, 087403 (2017) PHYSICAL REVIEW LETTERS 24 FEBRUARY 2017 [37] A. Gordon, F.X. Kärtner, N. Rohringer, and R. Santra, units,andanoptimized28×28×28gridshiftedfourtimes Phys. Rev. Lett. 96, 223902 (2006). tosampletheBZ. Weemploynorm-conservingpseudopo- [38] A. Crawford-Uranga, U. De Giovannini, E. Räsänen, tentials,andusetheexperimentallatticeconstant.TheLDA M.J.T. Oliveira, D.J. Mowbray, G.M. Nikolopoulos, bandgapofsiliconof2.58eVcorrespondstosixtimesthe E.T. Karamatskos, D. Marke",
+          "page": 6,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Terahertz-driven linear electron acceleration",
+      "year": 2015,
+      "journal": "",
+      "authors": [
+        "Emilio A. Nanni1",
+        "Wenqian R. Huang1",
+        "Kyung-Han Hong1",
+        "Koustuban Ravi1",
+        "Arya Fallahi2",
+        "3",
+        "Gustavo Moriena4"
+      ],
+      "doi": "",
+      "paper_id": "45e48fcdce35c5f8",
+      "file_hash": "45e48fcdce35c5f8ce05d55be9fd1abb",
+      "num_pages": 8,
+      "abstract": "",
+      "n_figures": 7,
+      "n_chunks": 8,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "45e48fcd_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1 | Terahertz-driven linear accelerator. (a) Schematic of the THz LINAC. Top right: a linearly polarized THz pulse is converted into a radially\npolarized pulse by a segmented waveplate before being focused into the THz waveguide. The THz pulse is reﬂected at the end of the waveguide to\nco-pro",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\45e48fcd\\45e48fcdce35c5f8_p02_f00.png",
+          "page_num": 2,
+          "width": 2160,
+          "height": 633,
+          "figure_type": "diagram",
+          "description": ""
+        },
+        {
+          "figure_id": "45e48fcd_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2 | Demonstration of terahertz acceleration. Transverse electron density of the electron bunch as recorded by a micro-channel plate (MCP) at\n59 kV for (a) THz off and (b) THz on. The bimodal distribution is due to the presence of accelerated and decelerated electrons, which are separated\nspat",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\45e48fcd\\45e48fcdce35c5f8_p03_f01.png",
+          "page_num": 3,
+          "width": 2160,
+          "height": 1450,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "45e48fcd_fig_002",
+          "label": "Figure 3",
+          "caption": "Figure 3 | Acceleration gradient and terahertz phasing. (a) Scaling of energy gain for accelerated electrons as a function of the initial electron energy\nat the entrance of the THz LINAC. Black dots with one s.d. error bars are measured values and the red line is a single-particle model. (b) The tem",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\45e48fcd\\45e48fcdce35c5f8_p04_f02.png",
+          "page_num": 4,
+          "width": 2160,
+          "height": 821,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "45e48fcd_fig_003",
+          "label": "Figure 4",
+          "caption": "Figure 4 | TM01 THz LINAC parameters. (a) Normalized magnitude of the longitudinal electric ﬁeld and perpendicular magnetic ﬁeld for the TM01 mode\nat 450 GHz in a circular copper waveguide with dielectric loading. The inner diameter of the copper waveguide is 940 mm with a vacuum radius\nrv ¼ 200 mm ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\45e48fcd\\45e48fcdce35c5f8_p05_f03.png",
+          "page_num": 5,
+          "width": 2160,
+          "height": 749,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "45e48fcd_fig_004",
+          "label": "Figure 5",
+          "caption": "Figure 5 | Relativistic THz LINAC design. Performance parameters as a function of vacuum radius and dielectric wall thickness for a relativistic THz LINAC\noperating in the TM01 mode with a 10 mJ single-cycle THz pulse and an initial electron energy of 1 MeV. The phase velocity is c for the nominal f",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\45e48fcd\\45e48fcdce35c5f8_p05_f04.png",
+          "page_num": 5,
+          "width": 2160,
+          "height": 1136,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "45e48fcd_fig_005",
+          "label": "Figure 6",
+          "caption": "Figure 6 | Electromagnetic ﬁeld distribution. The ﬁeld distribution in the THz waveguide for (a) the non-relativistic design described in Fig. 4 with\nrv ¼ 200 mm and d ¼ 270 mm, (b) the relativistic design in Fig. 5f for operation at 0.45 THz with rv ¼ 105 mm and d ¼ 90 mm and (c) the relativistic d",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\45e48fcd\\45e48fcdce35c5f8_p06_f05.png",
+          "page_num": 6,
+          "width": 2160,
+          "height": 705,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "45e48fcd_fig_006",
+          "label": "Figure 7",
+          "caption": "Figure 7 | Coupling and dispersion of THz pulses in waveguides. (a) HFSS28 simulation of the coupling of the free-space radially polarized mode into the\nTM01 mode through a dielectric-loaded taper. (b) The time-domain waveform of the THz pulse determined with electro-optic sampling before being\ncoup",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\45e48fcd\\45e48fcdce35c5f8_p06_f06.png",
+          "page_num": 6,
+          "width": 2160,
+          "height": 532,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "ARTICLE Received20Apr2015 |Accepted 27 Aug 2015 |Published 6 Oct2015 DOI:10.1038/ncomms9486 OPEN Terahertz-driven linear electron acceleration Emilio A. Nanni1, Wenqian R. Huang1, Kyung-Han Hong1, Koustuban Ravi1, Arya Fallahi2,3, Gustavo Moriena4, R.J. Dwayne Miller3,4,5 & Franz X. Ka¨rtner1,2,3,6 The cost, size and availability of electron accelerators are dominated by the achievable accelerating gradient. Conventional high-brightness radio-frequency accelerating structures operatewith30–50MeV",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "A t radio-frequency (RF) frequencies where conventional spread,theelectronbunchneedstooccupyasmallfractionofthe sources(klystronsandsoon)areefficient,surfaceelectric opticalcycle.Evenforalong-infraredwavelengthof10mm,1(cid:2)of field gradients in accelerating structures are limited by phase in the optical wavelength corresponds to only B28nm. RF-induced plasma breakdown1,2. Empirically, the breakdown Anotherpracticalconcernwouldbethetimingprecisionbetween thresholdhasbeenfound3,4toscaleasEpf1/2t",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "precision corresponds to 10-fs timing jitter, which is readily LINAC in Fig. 1b. Using 60-keV electrons, from a d.c. electron achievable22. On the other hand, the frequency is high enough gun, an energy gain of 7keV is observed in a 3-mm interaction that the plasma breakdown threshold for surface electric fields length.Thesingle-cycleTHzpulse,seeFig.1c–e,isproducedvia increases into the multi-GVm(cid:2)1 range6. In addition, using optical rectification of a 1.2mJ, 1.03mm laser pulse with a 1kHz ",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "62 60 58 56 54 52 50 −15 −10 −5 0 5 10 15 Time (ps) ofthecopperwaveguideis940mmwithadielectricwallthickness experiments for an on-axis electric field of 8.5MVm(cid:2)1. Using of 270mm. This results in a vacuum space with a radius of this estimated field strength, at the exit of the LINAC, the 200mm. The significant thickness of the dielectric is due to the modelled transverse and longitudinal emittance are 240 and low energy of the electrons entering the structure, and will 370nmrad, respectivel",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "800 600 400 200 0 0 1 2 3 TheavailableTHzpulseenergyscaleswithinfraredpumpenergy, small-scalelaboratoriesprovidinguserswithelectronbeamsthat withrecentlyreportedresultsofmJTHzpulseenergiesandB3% will enable new experiments in ultrafast electron diffraction and infrared-to-THz conversion efficiencies32,33. Multiple stages of X-ray production. THzaccelerationcanbeused toachievehigherenergygainwith additional infrared pump lasers for subsequent stages. Timing jitterwillimproveonthejitterofconventio",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "1 0.8 0.6 0.4 0.2 0 0 50 100 150 200 THzbeam.TheTHzbeamhasexcellentGaussianmodecontent,whichallowsfor radiallypolarizedbeam,whichcoupleswellinthefarfieldtotheTM mode 01 low-losscoupling.TheTHzbeamwascharacterizedspatiallybyapyroelectric oftheacceleratingstructure.Asegmentedl/2waveplatewitheightsegmentsof detectorarray(SpiriconPyrocamIV,OphirPhotonics). B8-mm-thickquartzdesignedforoperationat0.45THzwasused. Pumpsource. ThepumpsourceforTHzgenerationisaYb:KYWchirpedpulse THzLINAC.TheTHzpulseacceler",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "ARTICLE NATURECOMMUNICATIONS|DOI:10.1038/ncomms9486 isimproved.Figure6comparesthefielddistributionforthenon-relativistic 16.Carbajo,S.,Wong,L.J.,Nanni,E.,Schimpf,D.N.&Ka¨rtner,F.X.inHigh waveguidedesign(Fig.4),whichwasinvestigatedexperimentallyandthe IntensityLasersandHighFieldPhenomena,HTu2C-6(OpticalSocietyof relativisticdesignshighlightedinFig.5f.Notethedecreaseinwaveguideradius,the America,2014). decreaseindielectricwallthicknessandtheimprovedrelativeamplitudeofthe 17.Faure,J.etal.Alaser-pla",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "ARTICLE NATURECOMMUNICATIONS|DOI:10.1038/ncomms9486 Reprintsandpermissioninformationisavailableonlineathttp://npg.nature.com/ This work is licensed under a Creative Commons Attribution 4.0 reprintsandpermissions/ InternationalLicense.Theimagesorotherthirdpartymaterialinthis articleareincludedinthearticle’sCreativeCommonslicense,unlessindicatedotherwise Howtocitethisarticle:Nanni,E.A.etal.Terahertz-drivenlinear inthecreditline;ifthematerialisnotincludedundertheCreativeCommonslicense, electronacce",
+          "page": 8,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "A laser frequency comb that enables radial velocity measurements with a precision of 1 cm s21",
+      "year": 2008,
+      "journal": "",
+      "authors": [
+        "Chih-Hao Li1",
+        "2",
+        "Andrew J. Benedick3",
+        "Peter Fendel3",
+        "4",
+        "Alexander G. Glenday1",
+        "2",
+        "Franz X. Ka¨rtner3",
+        "David F. Phillips1"
+      ],
+      "doi": "",
+      "paper_id": "9ace81cab9699b50",
+      "file_hash": "9ace81cab9699b50a32ee8f93b873292",
+      "num_pages": 3,
+      "abstract": "",
+      "n_figures": 3,
+      "n_chunks": 3,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "9ace81ca_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1 | Block diagram of the astro-comb. a, A stabilized 1-GHz frequency\ncomb (‘source-comb’) using a mode-locked femtosecond laser passes\nthrough an FP cavity that filters out unwanted comb lines and increases the\nline spacing to at most 40 GHz (,1 A˚ ). For the demonstration spectra shown\nin th",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\9ace81ca\\9ace81cab9699b50_p01_f00.png",
+          "page_num": 1,
+          "width": 1530,
+          "height": 655,
+          "figure_type": "diagram",
+          "description": ""
+        },
+        {
+          "figure_id": "9ace81ca_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2 | Example astro-comb output spectrum with 37-GHz line spacing.\na, The astro-comb is tuned to span a bandwidth of ,1,000 A˚ . The resolution\nof the figure is not high enough to show individual lines. The observed\namplitude variation is primarily due to the amplitude variation of the\nsource-c",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\9ace81ca\\9ace81cab9699b50_p02_f01.png",
+          "page_num": 2,
+          "width": 2201,
+          "height": 2496,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "9ace81ca_fig_002",
+          "label": "Figure 3",
+          "caption": "Figure 3 | Suppression of extraneous source-comb lines for the astro-\ncomb. Here, the FP cavity is tuned such that the astro-comb has a 25-GHz\nline spacing. A fast photo-diode and spectrum analyser are used to measure\nthe power in the 24-GHz and 25-GHz beatnotes from the 1-GHz source-\ncomb (a) and t",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\9ace81ca\\9ace81cab9699b50_p02_f02.png",
+          "page_num": 2,
+          "width": 2201,
+          "height": 2731,
+          "figure_type": "photo",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "LETTERS A laser frequency comb that enables radial velocity 21 measurements with a precision of 1 cm s Chih-HaoLi1,2,AndrewJ.Benedick3,PeterFendel3,4,AlexanderG.Glenday1,2,FranzX.Ka¨rtner3,DavidF.Phillips1, DimitarSasselov1,AndrewSzentgyorgyi1&RonaldL.Walsworth1,2 SearchesforextrasolarplanetsusingtheperiodicDopplershiftof clusters10. Iodine cells have very few spectral lines in the red and stellar spectral lines have recently achieved a precision of near-IR spectral bands, while thorium–argon la",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "R<104–105 owing to physical limitations on the instruments, themirrorreflectivityandFresnellosses.TheGDD-optimizedmir- including the telescope aperture, the grating collimator diameter rorsenablethegenerationofafilteredcombspanningabandwidthof and the grating blaze. Thus, a laser comb must have line spacing ,1,000A˚.Withstraightforwardadjustmentofthefreespectralrange .10GHz to serve as a practical wavelength calibrator. Therefore, oftheFPcavitytoapproximately equalanintegermultipleoff , rep we a",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "LETTERS NATURE|Vol452|3April2008 required10-kHzsource-combstability.)Residualfrequencynoisein preci>sion of ,1cms21, broad wavelength coverage and repro- the DAVLL is ,300kHzHz21/2; corresponding to an amplitude ducibility over many years and between telescopes, astro-combs fluctuation of ,0.1% for the suppressed (extraneous) comb lines. shouldrevolutionizeastrophysicalspectroscopy. Theresultantfrequencynoiseinthedesiredastro-comblinespacing is,3kHzHz21/2.Takingadvantageoftheultrastablesource-co",
+          "page": 3,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Polarization-transparent microphotonic devices in the strong conﬁnement limit",
+      "year": 2006,
+      "journal": "",
+      "authors": [
+        "TYMON BARWICZ*§",
+        "MICHAEL R. WATTS†",
+        "MILOSˇ A. POPOVIC´",
+        "PETER T. RAKICH",
+        "LUCIANO SOCCI‡"
+      ],
+      "doi": "",
+      "paper_id": "f63fcb3298d52375",
+      "file_hash": "f63fcb3298d523753567e2741d298fe8",
+      "num_pages": 4,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 4,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "f63fcb32_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1 Integrated polarization diversity scheme. Polarization-transparent\nmicrophotonic circuits are constructed from polarization-sensitive components.\nArrows depict the orientation of the electric ﬁeld. An arbitrary input polarization\nstate is split into its orthogonal components and one of thes",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f63fcb32\\f63fcb3298d52375_p01_f00.png",
+          "page_num": 1,
+          "width": 1072,
+          "height": 782,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "f63fcb32_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2 Design of the polarization-transparent optical add–drop ﬁlter (OADF). a, Functional diagram of the OADF. b, Schematic of the polarization splitter\nand rotator (PSR). The white arrows depict the orientation of the electric ﬁeld in the guides. The vertically polarized light (TM mode) tunnels ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f63fcb32\\f63fcb3298d52375_p02_f01.png",
+          "page_num": 2,
+          "width": 2165,
+          "height": 717,
+          "figure_type": "diagram",
+          "description": ""
+        },
+        {
+          "figure_id": "f63fcb32_fig_002",
+          "label": "Figure 3",
+          "caption": "Figure 3 Fabricated polarization-transparent OADF. a, Electron micrograph of the central part of a fabricated polarization-transparent OADF. The PSRs are not\nshown and extend to the left and the right of the micrograph. The picture was assembled from six successive micrographs and the greyscale was ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f63fcb32\\f63fcb3298d52375_p03_f02.png",
+          "page_num": 3,
+          "width": 2169,
+          "height": 638,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "f63fcb32_fig_003",
+          "label": "Figure 4",
+          "caption": "Figure 4 Spectral response of a fabricated polarization-transparent OADF\nfor 40 randomly chosen polarization states at each wavelength. The spectral\nresponses for the two polarization eigenstates are overlaid in blue and red.\nA remarkably low polarization-dependent loss (the vertical distance betwee",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f63fcb32\\f63fcb3298d52375_p03_f03.png",
+          "page_num": 3,
+          "width": 2169,
+          "height": 1718,
+          "figure_type": "spectrum",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "LETTERS Polarization-transparent microphotonic devices in the strong confinement limit TYMON BARWICZ*§, MICHAEL R. WATTS†, MILOSˇ A. POPOVIC´, PETER T. RAKICH, LUCIANO SOCCI‡, FRANZ X. KA¨RTNER, ERICH P. IPPEN AND HENRY I. SMITH ResearchLaboratoryofElectronics,MassachusettsInstituteofTechnology,77MassachusettsAve,Cambridge,Massachusetts02139,USA *Presentaddress:IBMT.J.WatsonResearchCenter,YorktownHeights,NewYork,USA †Presentaddress:SandiaNationalLaboratory,Albuquerque,NewMexico,USA ‡Permanentadd",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "a In Add TE from TE coupled to the chip TE + TM TE from TM coupled to the chip rotatorsareplacedonoppositearmstoachieveoverallsymmetry. of the minimum complexity required to render completely In Fig. 1, the photonic structures depicted operate on the arbitraryphotonicstructurespolarizationtransparent. transverse-electric (TE) polarization state, corresponding to an The PSRs used are shown in Fig. 2b. They were designed so in-plane orientation of the electric field. By rearranging the that it is ",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "a b In In Through Drop Add Add Crossing Drop Add In Through 100 µm Drop 80 nm Through c d Cr e Ni f g h i SiN 970 nm Figure3Fabricatedpolarization-transparentOADF.a,Electronmicrographofthecentralpartofafabricatedpolarization-transparentOADF.ThePSRsarenot shownandextendtotheleftandtherightofthemicrograph.Thepicturewasassembledfromsixsuccessivemicrographsandthegreyscalewasinvertedtomake thefinelinesreadablewhenprinted.b,Electronmicrographoftheonsetofapolarizationsplitter.Thefinestfeaturesshowanasp",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "LETTERS 60-nm bandwidth measured, while maintaining outstanding attheoutputofthechip.Toavoidbiasingthemeasurementbyfibre-to-chip device performance. Polarization transparency is a key milestone couplingefficiencyvariations,themeasurementwasrepeatedseveraltimeson for SC microphotonics, allowing the immediate application of numerousdevices.Asthefilterthrough-portlossoff-resonancehasbeen photonic-crystal devices and micrometre-scale resonators to experimentallyverifiedtobenegligible,thedroplossrepr",
+          "page": 4,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Generation of 5-fs pulses and octave-spanning spectra directly from a Ti:sapphire laser",
+      "year": 2001,
+      "journal": "",
+      "authors": [
+        "R. Ell",
+        "U. Morgner",
+        "and F. X. Kärtner"
+      ],
+      "doi": "",
+      "paper_id": "1fef80af4a89d8ae",
+      "file_hash": "1fef80af4a89d8ae283a21629e5ef98f",
+      "num_pages": 3,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 3,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "1fef80af_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1.\nSetup of the double-Z cavity.\nTwo prisms and\neight bounces on DCMP’s provide flat dispersion.\nA sec-\nond focus, in a BK7 plate (P), generates significantly more\nspectrum.\nL’s, lenses; other abbreviations defined in text.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1fef80af\\1fef80af4a89d8ae_p01_f00.png",
+          "page_num": 1,
+          "width": 2160,
+          "height": 2911,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "1fef80af_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2.\nSecond-order dispersion map of the double-Z cav-\nity.\nThe positive dispersion of the laser crystal \u0003D1\u0004 and\nthe glass plate \u0003D2\u0004 is balanced by the DCMP’s and the\nprisms.\nIn the middle of the dispersion cells, the pulse\nis chirp free.\nAdditionally, the pulse is modified by SPM\nin the crystal",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1fef80af\\1fef80af4a89d8ae_p02_f01.png",
+          "page_num": 2,
+          "width": 1064,
+          "height": 542,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "1fef80af_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3.\nOutput power spectrum on a logarithmic and on\na linear scale.\nThe spectrum extends over more than\n1 octave.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1fef80af\\1fef80af4a89d8ae_p02_f02.png",
+          "page_num": 2,
+          "width": 1063,
+          "height": 609,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "1fef80af_fig_003",
+          "label": "Fig. 4",
+          "caption": "Fig. 4.\nMeasured and reconstructed IAC of the pulse.\nA\nphase-retrieval algorithm reveals a pulse width of 5 fs.\nThe reconstructed IAC fits perfectly and is not distinguish-\nable.\nThe reconstructed electric field is displayed in the\ninset.\nSH, second harmonic.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1fef80af\\1fef80af4a89d8ae_p03_f03.png",
+          "page_num": 3,
+          "width": 1063,
+          "height": 611,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "March 15, 2001 / Vol. 26, No. 6 / OPTICS LETTERS 373 Generation of 5-fs pulses and octave-spanning spectra directly from a Ti:sapphire laser R. Ell, U. Morgner, and F. X. Kärtner High Frequency and Quantum ElectronicsLaboratory, University of Karlsruhe, D-76128 Karlsruhe,Germany J. G. Fujimoto and E. P. Ippen Department of Electrical Engineering and Computer Science and Research Laboratory of Electronics, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139 V. Scheuer, G. Angelo",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "374 OPTICS LETTERS / Vol. 26, No. 6 / March 15, 2001 prisms is adjustable from 95 to 115 cm, leading to in Fig. 3. On a logarithmic scale the spectrum ex- a repetition rate of (cid:1)65 MHz. The output coupling tends from 600 to 1350 nm above the noise floor. mirrorisabroadbandquarter-wavemirrormadefrom The FWHM of the corresponding pulse, assuming ZnSe(cid:2)MgF with a center transmission of 1%. With a flat phase, would be 4.3 fs. The structure in the 2 an absorbed pump power of 4 W, the cw out",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "March 15, 2001 / Vol. 26, No. 6 / OPTICS LETTERS 375 the Medical Free Electron Laser Program, U.S. Office of Naval Research, contract N00014-94-1-0717. U. Morgner’s e-mail address is morgner@ ihq.uni-karlsruhe.de. References 1. M. Pshenichnikov, A. Baltuska, R. Szipöcs, and D. Wiersma, in Ultrafast Phenomena XI, P. F. Bar- bara, J. G. Fujimoto, W. H. Knox, and W. Zinth, eds. (Springer-Verlag, Berlin, 1998), p. 3. 2. Z. Cheng, G. Tempea, T. Brabec, K. Ferencz, C. Spiel- mann, and F. Krausz, in Ul",
+          "page": 3,
+          "type": "body"
+        }
+      ]
+    }
+  ]
+}
