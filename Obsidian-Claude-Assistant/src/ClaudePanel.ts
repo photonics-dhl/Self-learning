@@ -125,6 +125,15 @@ const styleContent = `
 .claude-btn.secondary:hover { background: var(--background-secondary); }
 .claude-btn.stop { background: #ff6b6b; color: white; }
 .claude-btn.stop:hover { background: #ff5252; }
+.claude-btn.upload { background: transparent; color: var(--text-muted); border: 1px solid var(--border-color); padding: 8px 10px; position: relative; }
+.claude-btn.upload:hover { background: var(--background-secondary); color: var(--text-primary); }
+.claude-btn.upload input[type="file"] { position: absolute; inset: 0; opacity: 0; cursor: pointer; }
+.claude-image-preview { display: none; padding: 6px 0; position: relative; }
+.claude-image-preview.has-image { display: flex; align-items: center; gap: 8px; }
+.claude-image-preview img { max-width: 80px; max-height: 60px; border-radius: 4px; border: 1px solid var(--border-color); object-fit: cover; }
+.claude-image-preview .image-info { font-size: 11px; color: var(--text-muted); flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.claude-image-preview .remove-image { background: transparent; border: none; cursor: pointer; font-size: 14px; color: var(--text-muted); padding: 2px; line-height: 1; }
+.claude-image-preview .remove-image:hover { color: #ff6b6b; }
 .claude-status { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--text-muted); margin-top: 8px; }
 .claude-status .spinner { width: 12px; height: 12px; border: 2px solid var(--border-color); border-top-color: #667eea; border-radius: 50%; animation: spin 0.8s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
@@ -163,6 +172,10 @@ export class ClaudePanel {
 	private streamingMsgEl: HTMLElement | null = null;
 	private streamingContentEl: HTMLElement | null = null;
 	private streamingText: string = '';
+
+	// Image upload state
+	private attachedImage: { base64: string; mediaType: string; name: string } | null = null;
+	private imagePreviewEl: HTMLElement | null = null;
 
 	constructor(
 		private app: App,
@@ -246,6 +259,21 @@ export class ClaudePanel {
 		this.stopBtn.style.display = 'none';
 		this.stopBtn.addEventListener('click', () => this.stopGeneration());
 
+		// 图片上传按钮
+		const uploadBtn = document.createElement('button');
+		uploadBtn.className = 'claude-btn upload';
+		uploadBtn.textContent = '📎 图片';
+		const fileInput = document.createElement('input');
+		fileInput.type = 'file';
+		fileInput.accept = 'image/png,image/jpeg,image/gif,image/webp';
+		fileInput.title = '上传图片进行分析';
+		fileInput.addEventListener('change', (e: Event) => this.handleImageUpload(e));
+		uploadBtn.appendChild(fileInput);
+
+		// 图片预览区域
+		this.imagePreviewEl = document.createElement('div');
+		this.imagePreviewEl.className = 'claude-image-preview';
+
 		// 写入模式选择器
 		const modeRow = document.createElement('div');
 		modeRow.className = 'claude-write-mode';
@@ -285,9 +313,11 @@ export class ClaudePanel {
 		btnContainer.className = 'claude-buttons';
 		btnContainer.appendChild(this.sendBtn);
 		btnContainer.appendChild(this.stopBtn);
+		btnContainer.appendChild(uploadBtn);
 		btnContainer.appendChild(this.writeBtn);
 
 		inputArea.appendChild(this.inputEl);
+		inputArea.appendChild(this.imagePreviewEl);
 		inputArea.appendChild(modeRow);
 		inputArea.appendChild(btnContainer);
 		inputArea.appendChild(this.statusEl);
@@ -328,16 +358,22 @@ export class ClaudePanel {
 
 	private async sendMessage() {
 		const message = this.inputEl.value.trim();
-		if (!message || this.isGenerating) return;
+		if ((!message && !this.attachedImage) || this.isGenerating) return;
 
 		await this.refreshCurrentNote();
 
 		// 显示用户消息
-		this.addMessage('user', message);
-		this.conversation.push({ role: 'user', content: message, timestamp: Date.now() });
+		this.addMessage('user', message || '(图片分析)');
+		this.conversation.push({ role: 'user', content: message || '(图片分析)', timestamp: Date.now() });
 
 		this.inputEl.value = '';
 		this.setGenerating(true);
+
+		// 有图片走 vision 请求
+		if (this.attachedImage) {
+			await this.sendVisionMessage(message);
+			return;
+		}
 
 		const validNoteContent = this.currentNoteContent || '';
 
@@ -747,6 +783,107 @@ export class ClaudePanel {
 		this.writeMode = mode;
 		for (const [id, btn] of this.modeBtns) {
 			btn.classList.toggle('active', id === mode);
+		}
+	}
+
+
+	private handleImageUpload(e: Event) {
+		const input = e.target as HTMLInputElement;
+		const file = input.files?.[0];
+		if (!file) return;
+
+		// Validate file type
+		const validTypes = ['image/png', 'image/jpeg', 'image/gif', 'image/webp'];
+		if (!validTypes.includes(file.type)) {
+			this.showError('仅支持 PNG, JPG, GIF, WebP 格式');
+			return;
+		}
+
+		// Validate file size (max 10MB)
+		if (file.size > 10 * 1024 * 1024) {
+			this.showError('图片不能超过 10MB');
+			return;
+		}
+
+		const reader = new FileReader();
+		reader.onload = () => {
+			const base64Full = reader.result as string;
+			// Strip data:image/xxx;base64, prefix
+			const base64 = base64Full.split(',')[1];
+			const mediaType = file.type as 'image/png' | 'image/jpeg' | 'image/gif' | 'image/webp';
+
+			this.attachedImage = { base64, mediaType, name: file.name };
+			this.updateImagePreview();
+		};
+		reader.readAsDataURL(file);
+
+		// Reset input so same file can be re-selected
+		input.value = '';
+	}
+
+	private removeAttachedImage() {
+		this.attachedImage = null;
+		this.updateImagePreview();
+	}
+
+	private updateImagePreview() {
+		if (!this.imagePreviewEl) return;
+
+		if (!this.attachedImage) {
+			this.imagePreviewEl.className = 'claude-image-preview';
+			this.imagePreviewEl.empty();
+			return;
+		}
+
+		this.imagePreviewEl.className = 'claude-image-preview has-image';
+		this.imagePreviewEl.empty();
+
+		const img = document.createElement('img');
+		img.src = `data:${this.attachedImage.mediaType};base64,${this.attachedImage.base64}`;
+
+		const info = document.createElement('span');
+		info.className = 'image-info';
+		info.textContent = this.attachedImage.name;
+
+		const removeBtn = document.createElement('button');
+		removeBtn.className = 'remove-image';
+		removeBtn.textContent = '✕';
+		removeBtn.title = '移除图片';
+		removeBtn.addEventListener('click', () => this.removeAttachedImage());
+
+		this.imagePreviewEl.appendChild(img);
+		this.imagePreviewEl.appendChild(info);
+		this.imagePreviewEl.appendChild(removeBtn);
+	}
+
+	private async sendVisionMessage(userText: string) {
+		if (!this.attachedImage) return;
+
+		const prompt = userText || '请详细分析这张图片中的内容，包括其中的物理现象、实验装置、数据图表等。';
+		this.showStatus('正在分析图片...');
+
+		try {
+			const result = await this.client.sendVisionRequest(
+				prompt,
+				this.attachedImage.base64,
+				this.attachedImage.mediaType as 'image/jpeg' | 'image/png' | 'image/gif' | 'image/webp'
+			);
+
+			// Clear image after successful send
+			this.removeAttachedImage();
+
+			this.lastResponse = result;
+			this.conversation.push({ role: 'assistant', content: result, timestamp: Date.now() });
+			this.addMessage('assistant', result);
+
+			this.showStatus('');
+			this.setGenerating(false);
+			this.writeBtn.style.display = 'block';
+			this.modeRow.style.display = 'flex';
+		} catch (error: any) {
+			const errMsg = error?.message || String(error);
+			this.showError(`图片分析失败: ${errMsg.substring(0, 100)}`);
+			this.setGenerating(false);
 		}
 	}
 
