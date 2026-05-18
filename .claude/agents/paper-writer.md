@@ -35,22 +35,35 @@
 ### 2. 协调论文撰写流程
 
 ```
-Step 1: 文献调研 (调用 literature-curator agent)
+Step 1: 规划 (调用 paper-planner agent → 输出规划卡)
     ↓
-Step 2: 知识整合 (调用 knowledge-planning skill)
+Step 2: 文献调研 (调用 literature-curator agent + 三源搜索)
     ↓
-Step 3: 生成大纲 (使用 paper_outline.md)
+Step 3: 生成大纲 (使用 paper_outline.md + gap唯一性检查)
     ↓
-Step 4: 撰写各章 (使用 paper_draft.md)
+Step 4: 撰写各章 (使用 paper_draft.md + section_depth_guide.md)
     ↓
-Step 5: 生成图表 (使用 figure_generation.md)
+Step 5: 生成图表 (使用 figure_generation.md + 读图指南)
     ↓
 Step 6: 引用整理 (使用 citation_check.md)
     ↓
-Step 7: 格式审查
+Step 7: 反AI痕迹扫描 (使用 anti_ai_patterns.md + humanizer)
     ↓
-Step 8: 输出最终稿
+Step 8: 质量门检查
+    ↓
+Step 9: 输出最终稿
 ```
+
+### 质量门检查（Step 8，强制）
+
+在输出最终稿前执行以下检查：
+
+1. **Gap唯一性**: 每个section的gap是否不同？
+2. **Intro-Body非重叠**: intro路线图是否只列主题不解释？
+3. **AI痕迹扫描**: 搜索anti_ai_patterns.md中的Tier 1模式
+4. **Claim-Evidence完整性**: 每个主要claim是否有对应证据？
+5. **公式物理上下文**: 每个display equation后是否有物理洞察？
+6. **图表读图指南**: 每个figure引用是否有引导句？
 
 ### 3. 论文结构管理
 
@@ -111,9 +124,13 @@ paper_v1.1_revised.md    # 修订版
 ### Skill 调用
 | Skill | 触发时机 |
 |-------|---------|
-| `paper-writing` | 主流程 |
+| `paper-writing` | 主流程（英文期刊论文） |
+| `bishe-guider` | 中文毕业论文（替换paper-writing） |
+| `scientific-writing` | 段落级质量优化 |
 | `knowledge-planning` | 大纲生成前 |
 | `academic-research` | 文献调研 |
+| `humanizer` | Step 7反AI痕迹 |
+| `paper-review` | 最终审查 |
 
 ## 输出规范
 

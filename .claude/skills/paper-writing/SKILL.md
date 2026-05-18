@@ -1,199 +1,146 @@
 ---
 name: paper-writing
-description: 学术论文AI辅助撰写。整合 AI Scientist V2 能力，基于实验数据、Zotero文献库和Obsidian知识库自动撰写论文。当用户需要写论文时触发。
+description: 英文期刊论文AI辅助撰写。从Gap识别到定稿的全流程pipeline，整合三源文献、Gap-driven规划、审稿人友好写作、反AI痕迹。当用户需要写英文期刊论文时触发。中文毕业论文请用bishe-guider。
 ---
 
-# Paper Writing Skill - 学术论文AI辅助撰写
+# Paper Writing Skill — 英文期刊论文撰写
 
-## 概述
+## 核心定位
 
-本技能整合 AI Scientist V2 的论文撰写能力与光学大脑的知识管理系统，帮助用户基于实验数据、个人文献库（Zotero）和知识库（Obsidian）自动撰写符合学术规范的论文。
+英文期刊论文的完整撰写系统。覆盖从Gap识别、文献调研、结构规划到分章节撰写和定稿审查的全流程。
 
-**核心定位**: 替代 AI Scientist V2 的实验执行模块，替换为实验数据分析；三源搜索替代单一 Semantic Scholar 搜索。
+**中文毕业论文** → 使用 `bishe-guider` skill（不使用本skill）
 
----
+## 与其他 Skill 的边界
 
-## 核心能力
+| 需求 | 使用 | 不使用 |
+|------|------|--------|
+| 英文期刊论文撰写 | **paper-writing**（本skill） | — |
+| 段落/语言层面优化 | scientific-writing | paper-writing |
+| 中文学位论文 | bishe-guider | paper-writing |
+| 文献综述章节 | literature-review + academic-research | paper-writing |
+| 去AI写作痕迹 | humanizer | paper-writing |
+| 论文质量审查 | paper-review | paper-writing |
 
-### 1. 三源文献调研
+## 质量标准：研究者综述8项技术
+
+以下技术已在Krausz/Miao等研究者综述中验证有效，现导入论文写作：
+
+| 技术 | 论文写作应用 | 详细指导 |
+|------|------------|---------|
+| 分层深度 | 3级撰写深度（清晰度/审稿人抗辩/叙事连贯） | `prompts/section_depth_guide.md` |
+| 物理直觉标注 | 每个display equation后一句话物理含义 | `prompts/paper_draft.md` |
+| 公式+物理上下文 | 公式必须回答"为什么展示"+"物理极限" | `prompts/paper_draft.md` |
+| 图表读图指南 | Fig引用必须引导读者看核心结论 | `prompts/paper_draft.md` |
+| 竞争格局表 | Discussion强制包含量化对比表 | `prompts/paper_draft.md` |
+| 技术演化叙事 | Intro按技术路线分组综合，不逐篇罗列 | `prompts/anti_ai_patterns.md` |
+| 审稿人视角 | Claim-Challenge-Evidence预映射 | `agents/paper-planner.md` |
+| 方法论局限 | Discussion诚实量化局限（非空泛"future work"） | `prompts/paper_draft.md` |
+
+## 五阶段工作流程
+
 ```
-用户输入研究主题
+Stage 1: 规划
+    │ 调用 paper-planner agent
+    │ 输出: 论文规划卡（Gap + 结构 + Claim-Evidence映射）
     ↓
-┌──────────────────────────────────────┐
-│ 1. Obsidian 知识库（优先）            │
-│    → 已理解的笔记 → 标记"已知"       │
-│ 2. Zotero 个人文献库                 │
-│    → 个人收藏 → 真实引用              │
-│ 3. Semantic Scholar + Tavily（扩展） │
-│    → 最新论文 → 高引用论文           │
-└──────────────────────────────────────┘
+Stage 2: 文献调研
+    │ 三源搜索: Obsidian → Zotero → Semantic Scholar/Tavily
+    │ 输出: 结构化文献综述 + 真实引用列表
     ↓
-结构化文献综述 + 引用图谱
-```
-
-### 2. 知识整合与大纲生成
-```
-实验数据 + 文献综述
+Stage 3: 大纲生成
+    │ Gap-driven大纲 + 审稿人视角检查
+    │ 输出: 每节主题句 + Claim预映射 + 图表规划
     ↓
-关联理论框架
+Stage 4: 分章节撰写
+    │ 每节走两阶段: 提纲 → 流畅段落
+    │ 应用深度指南 + 反AI模式
     ↓
-构建叙事："我的实验 → 验证/挑战已有理论"
-    ↓
-IMRAD 结构论文大纲
+Stage 5: 定稿审查
+    │ 反向大纲 + humanizer润色 + Claim-Evidence验证
+    │ 输出: 质量门检查清单
 ```
 
-### 3. 论文撰写
-- 支持格式：毕业论文 (LaTeX/Word)、期刊论文 (LaTeX)、草稿 (Markdown)
-- 各章节独立生成，可迭代修改
-- 自动插入图表和引用
+### 用户审核节点
 
-### 4. 引用管理
-- Zotero 真实引用插入
-- 多格式参考文献（Nature/Science/ACS/IEEE）
-- 幻觉引用检测
+1. **规划卡确认** — Stage 1完成后，用户确认Gap和创新点
+2. **大纲确认** — Stage 3完成后，用户确认结构
+3. **各章节初稿** — Stage 4每节完成后
+4. **完整草稿** — Stage 5完成后
 
-### 5. 图表生成
-- 概念图：技术原理示意图
-- 数据图：实验结果可视化
+## 撰写原则
 
----
+### 通用原则
+1. **一段一意** — 每段只传达一个信息
+2. **首句立题** — 第一句陈述段落主旨
+3. **Gap驱动** — 每篇论文必须回答"填补了什么空白"
+4. **保守陈述** — 创新点来自用户实验，不夸大
 
-## 工作流程
+### Gap唯一性规则
+- Introduction gap: 领域层面空白（为什么这个方向重要但未解决）
+- Methods gap: 技术层面空白（现有方法做不到什么）
+- Results gap: 数据层面空白（哪些参数区间未被探索）
+- Discussion gap: 理解层面空白（现象已知但机理未知）
+- **同一gap不可在2+章节重复使用**
+
+### Intro-Body非重叠规则
+- Intro路线图只命名章节主题，不解释内容
+- 详细解释只在正文对应章节出现
+- 如果Intro已提到某信息，正文必须增加深度而非重复
+
+## 文件结构
 
 ```
-┌──────────────────────────────────────────────────────────────┐
-│                     论文撰写完整流程                           │
-└──────────────────────────────────────────────────────────────┘
-
-Step 1: 文献调研
-    │
-    ├─ 收集 Obsidian 相关笔记
-    ├─ 收集 Zotero 相关文献
-    ├─ 外部论文搜索（Semantic Scholar / Tavily）
-    └─ 输出: 文献综述 + 引用列表
-
-Step 2: 知识整合
-    │
-    ├─ 导入实验数据描述
-    ├─ 关联理论框架
-    └─ 输出: 论文大纲（IMRAD）
-
-Step 3: 论文撰写
-    │
-    ├─ Introduction
-    ├─ Theory/Methods
-    ├─ Results
-    ├─ Discussion
-    └─ Conclusion
-
-Step 4: 图表生成
-    │
-    ├─ 原理示意图
-    └─ 数据可视化
-
-Step 5: 引用整理
-    │
-    ├─ Zotero 插入引用
-    ├─ 格式规范化
-    └─ 输出: 完整论文 LaTeX/Word
+paper-writing/
+├── SKILL.md                       # 本文件（主skill定义）
+├── prompts/
+│   ├── literature_review.md       # 文献调研prompt
+│   ├── knowledge_graph.md         # 知识整合prompt
+│   ├── paper_outline.md           # 大纲生成prompt
+│   ├── paper_draft.md             # 各章节撰写prompt（核心）
+│   ├── section_depth_guide.md     # 章节深度控制（新增）
+│   ├── anti_ai_patterns.md        # 反AI写作模式（新增）
+│   ├── figure_generation.md       # 图表生成prompt
+│   └── citation_check.md          # 引用审查prompt
+└── templates/
+    ├── thesis_templates/zjuthesis/  # 浙大博士论文模板
+    └── journal_templates/
+        ├── optica/                  # Optica (OSA)
+        ├── aps/                     # APS REVTeX
+        ├── nature/                  # Springer Nature
+        └── ieee/                    # IEEE
 ```
-
----
-
-## 使用方式
-
-### 触发论文撰写
-```
-"帮我写一篇关于 {{主题}} 的期刊论文"
-"基于我的实验数据撰写毕业论文"
-"帮我生成论文草稿"
-```
-
-### 提供信息
-用户应提供：
-- 研究主题/方向
-- 实验数据（文件路径或描述）
-- 目标期刊/格式要求
-- 特殊创新点说明
-
----
 
 ## MCP 协同
 
 | MCP | 用途 | 优先级 |
 |-----|------|--------|
 | `semantic-scholar` | 学术论文搜索 | 高 |
-| `tavily-search` | 网络深度搜索 | 高 |
+| `tavily-search` | 深度网络搜索 | 高 |
 | `zotero` | 个人文献引用 | 高 |
-| `image-generation` | 图表生成 | 高 |
-| `mermaid` | 引用图谱绘制 | 中 |
+| `mermaid` | 引用图谱/流程图 | 中 |
 | `paper-search` | 预印本搜索 | 中 |
-
----
 
 ## 质量保证
 
 ### 防止幻觉引用
 - 仅使用 Zotero 验证过的真实引用
 - 外部文献需双重确认存在性
+- 引用格式统一
 
-### 用户审核节点
-- 大纲生成后需用户确认
-- 创新点声明需用户审核
-- 参考文献列表需用户确认完整性
+### 反AI痕迹
+- 参见 `prompts/anti_ai_patterns.md` 三级模式
+- 完成后调用 `humanizer` skill 终审
 
-### 格式规范
-- 不同期刊/学位格式模板
-- 自动单位转换检查
-- 图表编号规范
+### 深度自检
+- 参见 `prompts/section_depth_guide.md` 三级深度
+- 每节至少达到该章最低深度要求
 
----
-
-## 文件结构
+## 使用方式
 
 ```
-paper-writing/
-├── SKILL.md                    # 本文件
-├── prompts/
-│   ├── literature_review.md    # 文献调研 prompt
-│   ├── knowledge_graph.md      # 知识整合 prompt
-│   ├── paper_outline.md        # 大纲生成 prompt
-│   ├── paper_draft.md          # 各章节撰写 prompt
-│   ├── figure_generation.md   # 图表生成 prompt
-│   └── citation_check.md       # 引用审查 prompt
-└── templates/
-    ├── thesis_templates/zjuthesis/  # 浙江大学博士论文模板
-    └── journal_templates/
-        ├── optica/             # Optica (OSA) 通用模板
-        ├── aps/                # APS REVTeX (需手动下载)
-        ├── nature/            # Springer Nature (需手动下载)
-        └── ieee/              # IEEE (需手动下载)
+"帮我写一篇关于 {{主题}} 的期刊论文，目标投 {{期刊名}}"
+"基于实验数据撰写论文的 {{章节}} 部分"
+"帮我改进论文引言的Gap陈述"
+"审查论文草稿的claim-evidence一致性"
 ```
-
-## 模板位置
-
-| 模板类型 | 位置 | 状态 |
-|---------|------|------|
-| 浙大博士论文 | `.../thesis_templates/zjuthesis/` | ✅ 已下载 |
-| Optica 期刊 | `.../journal_templates/optica/` | ✅ 已下载 |
-| APS/PRL | `.../journal_templates/aps/` | ⏳ 需手动下载 |
-| Springer Nature | `.../journal_templates/nature/` | ⏳ 需手动下载 |
-| IEEE | `.../journal_templates/ieee/` | ⏳ 需手动下载 |
-
-详见: `.../journal_templates/README.md`
-
----
-
-## 借鉴 AI Scientist V2
-
-| 功能 | AI Scientist V2 | 本系统适配 |
-|-----|---------------|----------|
-| 文献搜索 | Semantic Scholar | 三源搜索 |
-| 创新点生成 | AI 自主生成 | 用户主导 + AI 辅助 |
-| 实验执行 | 运行代码 | 分析已有数据 |
-| 论文撰写 | 模板-free | 模板引导 |
-| 图表优化 | VLM 反馈 | 保留 |
-
----
-
-*本技能是 AI Scientist V2 与光学大脑的深度融合，专为光学领域实验科学设计。*

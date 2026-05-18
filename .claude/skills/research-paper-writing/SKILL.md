@@ -1,119 +1,28 @@
 ---
 name: research-paper-writing
-description: 审稿人友好的论文重写。优先考虑第一印象质量（图/表/布局）、逻辑流程和证据支持的论点。当用户需要修改论文以适应审稿要求时触发。
+description: 已合并到 paper-writing 和 scientific-writing。保留此文件用于向后兼容路由。
 ---
 
-# Research Paper Writing Skill
+# Research Paper Writing — 已整合
 
-## Overview
+本 Skill 的内容已整合到以下 Skill 中：
 
-将论文重写为审稿人友好、高清晰度的版本。优先考虑第一印象质量（图/表/布局）、逻辑流程和证据支持的论点。
+- **论文结构和审稿人友好写作** → [paper-writing](../paper-writing/SKILL.md)
+  - 分章节撰写指南（Intro/Methods/Results/Discussion/Conclusion）
+  - 深度控制（section_depth_guide.md）
+  - 反AI模式（anti_ai_patterns.md）
+  - Gap唯一性规则
+  - 图表读图指南
+  - 竞争方法对比表
 
-## 核心工作流程
+- **段落级写作工艺** → [scientific-writing](../scientific-writing/SKILL.md)
+  - 两阶段写作流程
+  - 段落清晰度检查
+  - 反向大纲
+  - 7条全局原则
+  - 段落角色标注
+  - Claim-Evidence映射
 
-1. **理清论文故事** - 在句子级编辑前先梳理叙事
-2. **使用分章节指南** - 在 `references/` 中查找对应章节指导
-3. **逐段重写** - 每段只传达一个信息
-4. **写完每节后反向提纲** - 验证逻辑结构
-5. **检查摘要/引言中每个主要论点是否有实验支撑**
-6. **使用 `references/paper-review.md` 进行最终对抗性审查**
+- **质量审查** → [paper-review](../paper-review/SKILL.md)
 
-## 全局原则
-
-1. **一段一意** - 每段只传达一个信息
-2. **首句立题** - 第一句陈述段落主旨
-3. **名词自含定义** - 新术语使用前先定义
-4. **保持句间连贯** - 因果、对比、结果或深化
-5. **对抗性自我审查迭代** - 以怀疑审稿人角度阅读
-6. **视觉质量是核心内容** - 非装饰
-7. **使用简洁的 teaser 和流程图**
-8. **使用易读、墨迹最少的表格**
-9. **格式一致整洁**
-
-## 段落清晰度检查
-
-当询问段落是否"流畅"或清晰时：
-
-### 1. 外部读者视角
-- 段落是否有一个明确信息？
-- 首句是否说明段落目的？
-- 所有关键名词是否无需隐藏上下文即可理解？
-- 每句是否通过清晰关系（因果/对比/结果/深化）连接？
-
-### 2. 反向提纲
-- 写下论点/主要主张
-- 写下每段主题句
-- 写下每段论据/解释点
-- 检查映射关系并修订
-
-### 3. 若仍不流畅
-添加临时小标题和过渡短语，最终移除不必要标题。
-
-## 分章节指南
-
-按需加载对应文件：
-- 引言: `references/introduction.md`
-- 摘要: `references/abstract.md`
-- 相关工作: `references/related-work.md`
-- 方法: `references/method.md`
-- 实验: `references/experiments.md`
-- 结论: `references/conclusion.md`
-- 论文审查: `references/paper-review.md`
-- 段落流畅来源: `references/does-my-writing-flow-source.md`
-- 示例库: `references/examples/index.md`
-
-## 论文审查核心要点
-
-使用 `references/paper-review.md` 获取完整清单和工作流程：
-
-1. 在草稿末尾添加五维度自我审查问题：
-   - 贡献度
-   - 写作清晰度
-   - 实验强度
-   - 评估完整性
-   - 方法设计合理性
-
-2. **论点与证据一致性作为硬约束** - 特别是摘要和引言
-3. **对抗性写作** - 作为怀疑审稿人审查并解决所有高风险问题
-4. **修订直到主要拒稿风险被明确解决**
-
-## 执行规则
-
-1. 起草前构建小型提纲
-2. 每个小节明确包含动机、设计和技术优势
-3. 避免增量修补式的写作风格
-4. 全篇术语保持稳定
-5. 无法用结果支持的论点需弱化或删除
-6. 定稿前附加并回答五维度自我审查问题
-7. 不一次性加载所有章节参考文件
-
-## 输出约定
-
-被要求重写或起草章节时返回：
-
-1. **简洁章节提纲** (3-7 条)
-2. **修订后段落** 标注明确角色（开篇/挑战/方法/优势/论据/局限）
-3. **简短自我审查清单**：清晰度、流畅性、术语一致性、无依据论点、缺失证据
-4. **论点-证据地图**：每个主要论点的 `Claim | Evidence | Status (supported/needs evidence)`
-
-## IMRAD 结构参考
-
-| 章节 | 核心内容 |
-|------|---------|
-| Introduction | 研究背景、文献差距、研究目标 |
-| Methods | 研究设计、步骤、分析方法 |
-| Results | 客观发现，不带解释 |
-| Discussion | 解释、局限性、未来方向 |
-
-## 调用方式
-
-在Claude Code中直接调用：
-```
-请使用 research-paper-writing skill 重写论文的引言部分
-```
-
-或组合使用：
-```
-请使用 research-paper-writing skill 审查以下论文草稿：
-[paste content]
-```
+请直接使用对应 Skill。
