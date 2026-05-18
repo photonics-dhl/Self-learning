@@ -145,7 +145,11 @@ export class ZAIClient {
 				messages: [
 					{
 						role: 'system',
-						content: systemPrompt || '你是光学领域专家，分析图片中的物理内容。用中文回答，物理术语保留英文。'
+						content: systemPrompt || '你是光学领域专家，分析图片中的物理内容。用中文回答，物理术语保留英文。' +
+			'公式用 UTF-8 Unicode 符号直接输出，不要用 LaTeX。' +
+			'例如：用 E=mc² 不用 $E=mc^2$；用 λ=hc/E 不用 $\lambda=hc/E$；' +
+			'用 ∫、∑、∂、∇、≈、≤、→ 等 Unicode 数学符号。' +
+			'分数用 a/b 或 a÷b，不用 \frac{a}{b}。'
 					},
 					{
 						role: 'user',
