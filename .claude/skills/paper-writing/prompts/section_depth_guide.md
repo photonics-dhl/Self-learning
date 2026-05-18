@@ -1,6 +1,6 @@
-# Section Depth Guide — 章节撰写深度控制
+# Section Depth Guide — 章节撰写质量控制
 
-> 灵感来源：研究者综述（Krausz/Miao档案）的分层阅读指南。论文需服务3类读者：匆忙读者（只看摘要+图表）、标准读者（通读全文）、审稿人（检查每条claim的证据链）。
+> 期刊论文的质量控制框架。三个递进层次：先把话说清楚，再确保每条claim能经受审稿人质疑，最后确保全文叙事连贯。
 
 ## 三级深度体系
 
@@ -26,11 +26,11 @@
 
 | 章节 | 最低深度 | 推荐深度 | 特殊要求 |
 |------|---------|---------|---------|
-| Abstract | L3 | L3 | 每句对应一个IMRAD章节，无冗余信息 |
-| Introduction | L3 | L3 | Gap唯一性 + 4段式结构 + 技术演化叙事 |
-| Methods | L1 | L2 | 可复现性参数表 + 公式物理上下文 |
-| Results | L2 | L3 | 图表读图指南 + 客观数据先行 |
-| Discussion | L3 | L3 | 竞争方法对比表 + 诚实局限 + "so what" |
+| Abstract | L3 | L3 | 背景-方法-结果-结论，每句对应一个章节 |
+| Introduction | L3 | L3 | Gap唯一 + 按技术路线综合文献（不逐篇罗列） |
+| Methods | L1 | L2 | 可复现 + 公式配物理上下文 |
+| Results | L2 | L3 | 引用图表时引导读者看核心结论 |
+| Discussion | L3 | L3 | 量化对比表 + 诚实局限 + 领域意义 |
 | Conclusion | L2 | L3 | 回答引言gap + 不过度外推 |
 
 ## 深度自检方法
@@ -50,17 +50,18 @@
 ## 物理公式撰写要求（Methods/Theory）
 
 每个display equation必须包含：
-1. **为什么展示**：用一句话说明这个方程回答什么物理问题
-2. **关键参数含义**：新出现的符号立即定义
-3. **物理极限**：这个方程在什么条件下失效
-4. **物理洞察**：用一句话解释方程的物理含义（不是数学含义）
+1. **引入语**：说明为什么展示这个方程（"To quantify X, we use..."）
+2. **参数定义**：新符号紧跟定义（"where λ is the wavelength and n is the refractive index"）
+3. **适用条件**：方程在什么条件下成立或失效
 
-示例：
+示例（正常期刊论文写法）：
 ```
+The measured spectral intensity can be expressed as
 $$I(\omega) = |E(\omega)|^2 \propto \left|\int_{-\infty}^{+\infty} E(t) e^{i\omega t} dt\right|^2$$
-
-[物理洞察] 测量的光谱强度是时域电场的Fourier变换的模平方——相位信息完全丢失。
-这意味着从光谱数据无法唯一反推时域波形，除非引入额外约束（如Kramers-Kronig关系）。
+where $E(t)$ is the time-domain electric field. This expression shows that the measured spectrum
+is the squared magnitude of the Fourier transform — the phase information is entirely lost.
+Consequently, the time-domain waveform cannot be uniquely reconstructed from spectral data
+alone without additional constraints such as Kramers-Kronig relations.
 ```
 
 ## 图表撰写要求（Results）
