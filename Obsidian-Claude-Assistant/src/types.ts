@@ -36,8 +36,8 @@ export interface ConversationEntry {
 export const ZAI_MODELS = [
 	{ id: 'glm-5.1', name: 'GLM-5.1', desc: '旗舰模型，最强推理' },
 	{ id: 'glm-5-turbo', name: 'GLM-5-Turbo', desc: '快速推理' },
-	{ id: 'glm-5', name: 'GLM-5', desc: '标准模型' },
-	{ id: 'glm-4.7', name: 'GLM-4.7', desc: '高效模型' },
+	{ id: 'glm-5', name: 'GLM-5', desc: '标准模型（支持图片）' },
+	{ id: 'glm-4.7', name: 'GLM-4.7', desc: '高效模型（支持图片）' },
 	{ id: 'glm-4.6', name: 'GLM-4.6', desc: '均衡模型' },
 	{ id: 'glm-4.5', name: 'GLM-4.5', desc: '轻量模型' },
 	{ id: 'glm-4.5-air', name: 'GLM-4.5-Air', desc: '极速模型' },

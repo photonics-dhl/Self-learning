@@ -133,7 +133,7 @@ export class ZAIClient {
 			method: 'POST',
 			headers: this.makeHeaders(),
 			body: JSON.stringify({
-				model: 'glm-4.6v',
+				model: 'glm-5',
 				max_tokens: this.maxTokens,
 				system: systemPrompt || '你是光学领域专家，分析图片中的物理内容。用中文回答。',
 				messages: [{
@@ -158,7 +158,20 @@ export class ZAIClient {
 		});
 
 		const data = response.json;
-		return data.content?.[0]?.text || '';
+		console.log('[ZAIClient] Vision API response:', JSON.stringify(data).substring(0, 500));
+		console.log('[ZAIClient] Vision response status:', response.status);
+
+		// 兼容多种返回格式
+		if (data.content?.[0]?.text) {
+			return data.content[0].text;
+		}
+		// 有些 API 直接返回 { text: "..." } 或 { choices: [...] }
+		if (data.text) return data.text;
+		if (data.choices?.[0]?.message?.content) return data.choices[0].message.content;
+		if (data.output) return typeof data.output === 'string' ? data.output : JSON.stringify(data.output);
+
+		console.warn('[ZAIClient] Vision response empty or unknown format:', JSON.stringify(data));
+		return '';
 	}
 
 	async testConnection(): Promise<boolean> {

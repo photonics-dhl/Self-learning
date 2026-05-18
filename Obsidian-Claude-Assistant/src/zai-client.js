@@ -114,13 +114,13 @@ ${request.context.note_content}`);
     }
   }
   async sendVisionRequest(textPrompt, imageBase64, mediaType, systemPrompt) {
-    var _a, _b;
+    var _a, _b, _c, _d, _e;
     const response = await (0, import_obsidian.requestUrl)({
       url: `${ZAI_BASE_URL}/v1/messages`,
       method: "POST",
       headers: this.makeHeaders(),
       body: JSON.stringify({
-        model: "glm-4.6v",
+        model: "glm-5",
         max_tokens: this.maxTokens,
         system: systemPrompt || "\u4F60\u662F\u5149\u5B66\u9886\u57DF\u4E13\u5BB6\uFF0C\u5206\u6790\u56FE\u7247\u4E2D\u7684\u7269\u7406\u5185\u5BB9\u3002\u7528\u4E2D\u6587\u56DE\u7B54\u3002",
         messages: [{
@@ -144,7 +144,16 @@ ${request.context.note_content}`);
       })
     });
     const data = response.json;
-    return ((_b = (_a = data.content) == null ? void 0 : _a[0]) == null ? void 0 : _b.text) || "";
+    console.log("[ZAIClient] Vision API response:", JSON.stringify(data).substring(0, 500));
+    console.log("[ZAIClient] Vision response status:", response.status);
+    if ((_b = (_a = data.content) == null ? void 0 : _a[0]) == null ? void 0 : _b.text) {
+      return data.content[0].text;
+    }
+    if (data.text) return data.text;
+    if ((_e = (_d = (_c = data.choices) == null ? void 0 : _c[0]) == null ? void 0 : _d.message) == null ? void 0 : _e.content) return data.choices[0].message.content;
+    if (data.output) return typeof data.output === "string" ? data.output : JSON.stringify(data.output);
+    console.warn("[ZAIClient] Vision response empty or unknown format:", JSON.stringify(data));
+    return "";
   }
   async testConnection() {
     try {
