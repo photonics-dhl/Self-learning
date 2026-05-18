@@ -114,46 +114,44 @@ ${request.context.note_content}`);
     }
   }
   async sendVisionRequest(textPrompt, imageBase64, mediaType, systemPrompt) {
-    var _a, _b, _c, _d, _e;
+    var _a, _b, _c;
+    const VISION_BASE_URL = "https://api.z.ai/api/paas/v4";
+    const dataUrl = `data:${mediaType};base64,${imageBase64}`;
     const response = await (0, import_obsidian.requestUrl)({
-      url: `${ZAI_BASE_URL}/v1/messages`,
+      url: `${VISION_BASE_URL}/chat/completions`,
       method: "POST",
-      headers: this.makeHeaders(),
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${this.apiKey}`
+      },
       body: JSON.stringify({
-        model: "glm-5",
+        model: "glm-4.6v-flash",
         max_tokens: this.maxTokens,
-        system: systemPrompt || "\u4F60\u662F\u5149\u5B66\u9886\u57DF\u4E13\u5BB6\uFF0C\u5206\u6790\u56FE\u7247\u4E2D\u7684\u7269\u7406\u5185\u5BB9\u3002\u7528\u4E2D\u6587\u56DE\u7B54\u3002",
-        messages: [{
-          role: "user",
-          content: [
-            {
-              type: "image",
-              source: {
-                type: "base64",
-                media_type: mediaType,
-                data: imageBase64
+        messages: [
+          {
+            role: "system",
+            content: systemPrompt || "\u4F60\u662F\u5149\u5B66\u9886\u57DF\u4E13\u5BB6\uFF0C\u5206\u6790\u56FE\u7247\u4E2D\u7684\u7269\u7406\u5185\u5BB9\u3002\u7528\u4E2D\u6587\u56DE\u7B54\uFF0C\u7269\u7406\u672F\u8BED\u4FDD\u7559\u82F1\u6587\u3002"
+          },
+          {
+            role: "user",
+            content: [
+              {
+                type: "image_url",
+                image_url: { url: dataUrl }
+              },
+              {
+                type: "text",
+                text: textPrompt
               }
-            },
-            {
-              type: "text",
-              text: textPrompt
-            }
-          ]
-        }],
+            ]
+          }
+        ],
         stream: false
       })
     });
     const data = response.json;
-    console.log("[ZAIClient] Vision API response:", JSON.stringify(data).substring(0, 500));
-    console.log("[ZAIClient] Vision response status:", response.status);
-    if ((_b = (_a = data.content) == null ? void 0 : _a[0]) == null ? void 0 : _b.text) {
-      return data.content[0].text;
-    }
-    if (data.text) return data.text;
-    if ((_e = (_d = (_c = data.choices) == null ? void 0 : _c[0]) == null ? void 0 : _d.message) == null ? void 0 : _e.content) return data.choices[0].message.content;
-    if (data.output) return typeof data.output === "string" ? data.output : JSON.stringify(data.output);
-    console.warn("[ZAIClient] Vision response empty or unknown format:", JSON.stringify(data));
-    return "";
+    console.log("[ZAIClient] Vision response:", JSON.stringify(data).substring(0, 500));
+    return ((_c = (_b = (_a = data.choices) == null ? void 0 : _a[0]) == null ? void 0 : _b.message) == null ? void 0 : _c.content) || "";
   }
   async testConnection() {
     try {

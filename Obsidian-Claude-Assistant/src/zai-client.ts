@@ -128,50 +128,46 @@ export class ZAIClient {
 		mediaType: 'image/jpeg' | 'image/png' | 'image/gif' | 'image/webp',
 		systemPrompt?: string
 	): Promise<string> {
+		// z.ai vision 用 OpenAI 兼容端点
+		const VISION_BASE_URL = 'https://api.z.ai/api/paas/v4';
+		const dataUrl = `data:${mediaType};base64,${imageBase64}`;
+
 		const response = await requestUrl({
-			url: `${ZAI_BASE_URL}/v1/messages`,
+			url: `${VISION_BASE_URL}/chat/completions`,
 			method: 'POST',
-			headers: this.makeHeaders(),
+			headers: {
+				'Content-Type': 'application/json',
+				'Authorization': `Bearer ${this.apiKey}`
+			},
 			body: JSON.stringify({
-				model: 'glm-5',
+				model: 'glm-4.6v-flash',
 				max_tokens: this.maxTokens,
-				system: systemPrompt || '你是光学领域专家，分析图片中的物理内容。用中文回答。',
-				messages: [{
-					role: 'user',
-					content: [
-						{
-							type: 'image',
-							source: {
-								type: 'base64',
-								media_type: mediaType,
-								data: imageBase64
+				messages: [
+					{
+						role: 'system',
+						content: systemPrompt || '你是光学领域专家，分析图片中的物理内容。用中文回答，物理术语保留英文。'
+					},
+					{
+						role: 'user',
+						content: [
+							{
+								type: 'image_url',
+								image_url: { url: dataUrl }
+							},
+							{
+								type: 'text',
+								text: textPrompt
 							}
-						},
-						{
-							type: 'text',
-							text: textPrompt
-						}
-					]
-				}],
+						]
+					}
+				],
 				stream: false
 			})
 		});
 
 		const data = response.json;
-		console.log('[ZAIClient] Vision API response:', JSON.stringify(data).substring(0, 500));
-		console.log('[ZAIClient] Vision response status:', response.status);
-
-		// 兼容多种返回格式
-		if (data.content?.[0]?.text) {
-			return data.content[0].text;
-		}
-		// 有些 API 直接返回 { text: "..." } 或 { choices: [...] }
-		if (data.text) return data.text;
-		if (data.choices?.[0]?.message?.content) return data.choices[0].message.content;
-		if (data.output) return typeof data.output === 'string' ? data.output : JSON.stringify(data.output);
-
-		console.warn('[ZAIClient] Vision response empty or unknown format:', JSON.stringify(data));
-		return '';
+		console.log('[ZAIClient] Vision response:', JSON.stringify(data).substring(0, 500));
+		return data.choices?.[0]?.message?.content || '';
 	}
 
 	async testConnection(): Promise<boolean> {
