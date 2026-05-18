@@ -22,80 +22,147 @@ __export(ClaudePanel_exports, {
   ClaudePanel: () => ClaudePanel
 });
 module.exports = __toCommonJS(ClaudePanel_exports);
-var import_obsidian = require("obsidian");
+var import_obsidian2 = require("obsidian");
 
-// src/cli.ts
-var import_child_process = require("child_process");
-var ClaudeCLI = class {
-  constructor(cliPath = "node claude-wrapper.js") {
-    this.cliPath = cliPath;
+// src/zai-client.ts
+var import_obsidian = require("obsidian");
+var ZAI_BASE_URL = "https://api.z.ai/api/anthropic";
+var DEFAULT_MODEL = "glm-5.1";
+var ZAIClient = class {
+  constructor(config) {
+    this.apiKey = config.apiKey;
+    this.model = config.model || DEFAULT_MODEL;
+    this.maxTokens = config.maxTokens || 4096;
+  }
+  setModel(model) {
+    this.model = model;
+  }
+  getModel() {
+    return this.model;
+  }
+  buildSystemPrompt(request) {
+    const parts = [];
+    parts.push("\u4F60\u662F\u5149\u5B66\u7814\u7A76\u8005\u7684\u5B66\u672F\u52A9\u624B\uFF0C\u8FD0\u884C\u5728 Obsidian \u77E5\u8BC6\u7BA1\u7406\u73AF\u5883\u4E2D\u3002");
+    parts.push("\u7528\u4E2D\u6587\u56DE\u7B54\uFF0C\u7269\u7406\u672F\u8BED\u4FDD\u7559\u82F1\u6587\u3002\u8F93\u51FA Markdown \u683C\u5F0F\u3002");
+    if (request.context.note_content) {
+      parts.push(`
+\u5F53\u524D\u7B14\u8BB0\u5185\u5BB9\uFF08\u538B\u7F29\uFF09:
+${request.context.note_content}`);
+    }
+    if (request.options.include_formula) {
+      parts.push("\u5305\u542B LaTeX \u516C\u5F0F\uFF08\u884C\u5185 $...$\uFF0C\u884C\u95F4 $$...$$\uFF09\u3002");
+    }
+    return parts.join("\n");
+  }
+  buildMessages(request) {
+    const messages = [];
+    const history = request.context.conversation_history || [];
+    for (const entry of history) {
+      messages.push({ role: entry.role, content: entry.content });
+    }
+    return messages;
+  }
+  makeHeaders() {
+    return {
+      "Content-Type": "application/json",
+      "Authorization": `Bearer ${this.apiKey}`,
+      "anthropic-version": "2023-06-01"
+    };
   }
   async sendRequest(request) {
-    return new Promise((resolve, reject) => {
-      const requestStr = JSON.stringify(request);
-      const isWindows = process.platform === "win32";
-      const child = (0, import_child_process.spawn)(
-        isWindows ? "cmd" : "bash",
-        isWindows ? ["/c", this.cliPath] : ["-c", this.cliPath],
-        {
-          stdio: ["pipe", "pipe", "pipe"],
-          env: { ...process.env },
-          cwd: isWindows ? void 0 : __dirname
-        }
-      );
-      let stdout = "";
-      let stderr = "";
-      child.stdout.on("data", (data) => {
-        stdout += data.toString();
-      });
-      child.stderr.on("data", (data) => {
-        stderr += data.toString();
-      });
-      child.on("error", reject);
-      child.on("close", (code) => {
-        if (code !== 0 && !stdout) {
-          reject(new Error(`CLI exited with code ${code}: ${stderr}`));
-          return;
-        }
-        try {
-          const lines = stdout.trim().split("\n");
-          const jsonLine = lines.find((l) => l.trim().startsWith("{"));
-          if (jsonLine) {
-            resolve(JSON.parse(jsonLine));
-          } else {
-            resolve({
-              response: stdout,
-              write_actions: []
-            });
-          }
-        } catch (e) {
-          resolve({
-            response: stdout || stderr,
-            write_actions: []
-          });
-        }
-      });
-      child.stdin.write(requestStr);
-      child.stdin.end();
+    var _a, _b;
+    const response = await (0, import_obsidian.requestUrl)({
+      url: `${ZAI_BASE_URL}/v1/messages`,
+      method: "POST",
+      headers: this.makeHeaders(),
+      body: JSON.stringify({
+        model: this.model,
+        max_tokens: this.maxTokens,
+        system: this.buildSystemPrompt(request),
+        messages: this.buildMessages(request),
+        stream: false
+      })
     });
+    const data = response.json;
+    const text = ((_b = (_a = data.content) == null ? void 0 : _a[0]) == null ? void 0 : _b.text) || "";
+    return {
+      response: text,
+      write_actions: []
+    };
+  }
+  async sendRequestStream(request, onToken, onDone, onError) {
+    var _a, _b;
+    try {
+      const response = await (0, import_obsidian.requestUrl)({
+        url: `${ZAI_BASE_URL}/v1/messages`,
+        method: "POST",
+        headers: this.makeHeaders(),
+        body: JSON.stringify({
+          model: this.model,
+          max_tokens: this.maxTokens,
+          system: this.buildSystemPrompt(request),
+          messages: this.buildMessages(request),
+          stream: false
+        })
+      });
+      const data = response.json;
+      const fullText = ((_b = (_a = data.content) == null ? void 0 : _a[0]) == null ? void 0 : _b.text) || "";
+      const chunkSize = 8;
+      for (let i = 0; i < fullText.length; i += chunkSize) {
+        onToken(fullText.slice(i, i + chunkSize));
+      }
+      onDone(fullText);
+    } catch (err) {
+      onError(err instanceof Error ? err : new Error(String(err)));
+    }
+  }
+  async sendVisionRequest(textPrompt, imageBase64, mediaType, systemPrompt) {
+    var _a, _b;
+    const response = await (0, import_obsidian.requestUrl)({
+      url: `${ZAI_BASE_URL}/v1/messages`,
+      method: "POST",
+      headers: this.makeHeaders(),
+      body: JSON.stringify({
+        model: "glm-4.6v",
+        max_tokens: this.maxTokens,
+        system: systemPrompt || "\u4F60\u662F\u5149\u5B66\u9886\u57DF\u4E13\u5BB6\uFF0C\u5206\u6790\u56FE\u7247\u4E2D\u7684\u7269\u7406\u5185\u5BB9\u3002\u7528\u4E2D\u6587\u56DE\u7B54\u3002",
+        messages: [{
+          role: "user",
+          content: [
+            {
+              type: "image",
+              source: {
+                type: "base64",
+                media_type: mediaType,
+                data: imageBase64
+              }
+            },
+            {
+              type: "text",
+              text: textPrompt
+            }
+          ]
+        }],
+        stream: false
+      })
+    });
+    const data = response.json;
+    return ((_b = (_a = data.content) == null ? void 0 : _a[0]) == null ? void 0 : _b.text) || "";
   }
   async testConnection() {
     try {
-      const result = await this.sendRequest({
-        action: "explain",
-        context: {
-          current_note: "test.md",
-          note_content: "test",
-          selected_text: "test",
-          conversation_history: []
-        },
-        options: {
-          depth: "brief",
-          include_formula: false,
-          include_visualization: false
-        }
+      const response = await (0, import_obsidian.requestUrl)({
+        url: `${ZAI_BASE_URL}/v1/messages`,
+        method: "POST",
+        headers: this.makeHeaders(),
+        body: JSON.stringify({
+          model: this.model,
+          max_tokens: 32,
+          messages: [{ role: "user", content: "Hi" }],
+          stream: false
+        })
       });
-      return !!result.response;
+      return response.status >= 200 && response.status < 300;
     } catch {
       return false;
     }
@@ -195,6 +262,13 @@ var styleContent = `
   font-weight: 600;
   font-size: 14px;
 }
+.claude-panel-model-badge {
+  font-size: 10px;
+  background: rgba(255,255,255,0.2);
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-weight: 400;
+}
 .claude-panel-controls { display: flex; gap: 8px; }
 .claude-panel-controls button {
   background: rgba(255,255,255,0.2);
@@ -222,12 +296,27 @@ var styleContent = `
 .claude-message { margin-bottom: 12px; border-radius: 8px; overflow: hidden; }
 .claude-message.user { background: var(--background-secondary); border-left: 3px solid #667eea; }
 .claude-message.assistant { background: var(--background-primary); border-left: 3px solid #764ba2; }
-.claude-message-header { padding: 6px 10px; font-size: 11px; color: var(--text-muted); background: rgba(0,0,0,0.05); }
+.claude-message-header { padding: 6px 10px; font-size: 11px; color: var(--text-muted); background: rgba(0,0,0,0.05); position: relative; display: flex; align-items: center; justify-content: space-between; }
+.claude-message-write-btn { background: transparent; border: none; cursor: pointer; font-size: 12px; opacity: 0.4; padding: 2px 6px; border-radius: 3px; color: var(--text-muted); }
+.claude-message-write-btn:hover { opacity: 1; background: rgba(102, 126, 234, 0.15); color: #667eea; }
+.claude-write-mode { display: flex; gap: 4px; margin-bottom: 8px; }
+.claude-write-mode-btn { padding: 4px 10px; border: 1px solid var(--border-color); border-radius: 4px; background: var(--background-primary); color: var(--text-muted); font-size: 11px; cursor: pointer; white-space: nowrap; }
+.claude-write-mode-btn.active { background: #667eea; color: white; border-color: #667eea; }
+.claude-write-mode-btn:hover:not(.active) { background: var(--background-secondary); }
 .claude-message-content { padding: 10px; font-size: 13px; line-height: 1.5; }
 .claude-message-content pre { background: var(--background-secondary); padding: 8px; border-radius: 4px; overflow-x: auto; font-size: 12px; }
 .claude-message-content code { background: var(--background-secondary); padding: 2px 4px; border-radius: 3px; font-family: 'Consolas', monospace; }
+.claude-streaming-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  background: #667eea;
+  animation: blink-cursor 0.8s step-end infinite;
+  vertical-align: text-bottom;
+  margin-left: 1px;
+}
+@keyframes blink-cursor { 50% { opacity: 0; } }
 .claude-panel-input { padding: 12px 16px; border-top: 1px solid var(--border-color); background: var(--background-secondary); }
-.claude-input-row { display: flex; gap: 8px; margin-bottom: 8px; }
 .claude-input {
   flex: 1;
   padding: 10px 12px;
@@ -251,6 +340,8 @@ var styleContent = `
 .claude-btn.primary:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
 .claude-btn.secondary { background: var(--background-primary); color: var(--text-secondary); border: 1px solid var(--border-color); }
 .claude-btn.secondary:hover { background: var(--background-secondary); }
+.claude-btn.stop { background: #ff6b6b; color: white; }
+.claude-btn.stop:hover { background: #ff5252; }
 .claude-status { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--text-muted); margin-top: 8px; }
 .claude-status .spinner { width: 12px; height: 12px; border: 2px solid var(--border-color); border-top-color: #667eea; border-radius: 50%; animation: spin 0.8s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
@@ -259,10 +350,9 @@ var styleContent = `
 .claude-panel.minimized { height: auto; }
 `;
 var ClaudePanel = class {
-  constructor(app, plugin, cliPath = "claude", selectedText) {
+  constructor(app, plugin, selectedText) {
     this.app = app;
     this.plugin = plugin;
-    this.cliPath = cliPath;
     this.conversation = [];
     this.currentNotePath = null;
     this.currentNoteContent = "";
@@ -270,7 +360,20 @@ var ClaudePanel = class {
     this.lastResponse = "";
     this.lastWriteActions = [];
     this.isMinimized = false;
-    this.cli = new ClaudeCLI(cliPath);
+    this.writeMode = "cursor";
+    this.modeBtns = /* @__PURE__ */ new Map();
+    this.isGenerating = false;
+    this.currentAbortController = null;
+    // Streaming state
+    this.streamingMsgEl = null;
+    this.streamingContentEl = null;
+    this.streamingText = "";
+    const settings = plugin.settings || {};
+    this.client = new ZAIClient({
+      apiKey: settings.apiKey || "",
+      model: settings.model || "glm-5.1",
+      maxTokens: settings.maxTokens || 4096
+    });
     this.selectedText = selectedText || "";
     const styleEl = document.createElement("style");
     styleEl.textContent = styleContent;
@@ -281,9 +384,7 @@ var ClaudePanel = class {
     this.loadCurrentNote();
     document.body.appendChild(this.container);
     this.keydownHandler = (e) => {
-      if (e.key === "Escape") {
-        this.close();
-      }
+      if (e.key === "Escape") this.close();
     };
     document.addEventListener("keydown", this.keydownHandler);
   }
@@ -292,32 +393,57 @@ var ClaudePanel = class {
     const header = document.createElement("div");
     header.className = "claude-panel-header";
     header.innerHTML = `
-      <div class="claude-panel-title">Claude Assistant</div>
-      <div class="claude-panel-controls">
-        <button class="btn-minimize" title="\u6700\u5C0F\u5316">_</button>
-        <button class="btn-close" title="\u5173\u95ED">\xD7</button>
-      </div>
-    `;
+			<div class="claude-panel-title">
+				<span>Claude Assistant</span>
+				<span class="claude-panel-model-badge">${this.client.getModel()}</span>
+			</div>
+			<div class="claude-panel-controls">
+				<button class="btn-minimize" title="\u6700\u5C0F\u5316">_</button>
+				<button class="btn-close" title="\u5173\u95ED">\xD7</button>
+			</div>
+		`;
+    this.modelBadge = header.querySelector(".claude-panel-model-badge");
     (_a = header.querySelector(".btn-minimize")) == null ? void 0 : _a.addEventListener("click", () => this.toggleMinimize());
     (_b = header.querySelector(".btn-close")) == null ? void 0 : _b.addEventListener("click", () => this.close());
     this.infoEl = document.createElement("div");
     this.infoEl.className = "claude-panel-info";
-    this.infoEl.innerHTML = `
-      <span>\u{1F4C4} \u5F53\u524D: </span>
-      <span class="note-name">\u672A\u6253\u5F00\u7B14\u8BB0</span>
-    `;
+    this.infoEl.innerHTML = `<span>\u{1F4C4} \u5F53\u524D: </span><span class="note-name">\u672A\u6253\u5F00\u7B14\u8BB0</span>`;
     this.historyEl = document.createElement("div");
     this.historyEl.className = "claude-panel-history";
     const inputArea = document.createElement("div");
     inputArea.className = "claude-panel-input";
     this.inputEl = document.createElement("textarea");
     this.inputEl.className = "claude-input";
-    this.inputEl.placeholder = "\u8F93\u5165\u6307\u4EE4... (/explain \u89E3\u91CA\u6982\u5FF5, /visualize \u751F\u6210\u56FE, /cite \u5F15\u7528\u6587\u732E)";
+    this.inputEl.placeholder = "\u8F93\u5165\u6307\u4EE4... (\u652F\u6301 Markdown, LaTeX, \u5FEB\u6377\u952E Enter \u53D1\u9001)";
     this.inputEl.rows = 2;
     this.sendBtn = document.createElement("button");
     this.sendBtn.className = "claude-btn primary";
     this.sendBtn.textContent = "\u{1F4E4} \u53D1\u9001";
     this.sendBtn.addEventListener("click", () => this.sendMessage());
+    this.stopBtn = document.createElement("button");
+    this.stopBtn.className = "claude-btn stop";
+    this.stopBtn.textContent = "\u23F9 \u505C\u6B62";
+    this.stopBtn.style.display = "none";
+    this.stopBtn.addEventListener("click", () => this.stopGeneration());
+    const modeRow = document.createElement("div");
+    modeRow.className = "claude-write-mode";
+    modeRow.style.display = "none";
+    this.modeRow = modeRow;
+    const modes = [
+      { id: "cursor", label: "\u293C \u5149\u6807", title: "\u5199\u5165\u5230\u7F16\u8F91\u5668\u5149\u6807\u4F4D\u7F6E" },
+      { id: "heading", label: "\u{1F4D1} \u6807\u9898", title: "\u667A\u80FD\u5339\u914D\u6807\u9898\u540E\u63D2\u5165" },
+      { id: "append", label: "\u2913 \u6587\u672B", title: "\u8FFD\u52A0\u5230\u7B14\u8BB0\u672B\u5C3E" }
+    ];
+    for (const mode of modes) {
+      const modeBtn = document.createElement("button");
+      modeBtn.className = "claude-write-mode-btn";
+      modeBtn.textContent = mode.label;
+      modeBtn.title = mode.title;
+      modeBtn.addEventListener("click", () => this.setWriteMode(mode.id));
+      this.modeBtns.set(mode.id, modeBtn);
+      modeRow.appendChild(modeBtn);
+    }
+    this.setWriteMode("cursor");
     this.writeBtn = document.createElement("button");
     this.writeBtn.className = "claude-btn secondary";
     this.writeBtn.textContent = "\u{1F4DD} \u5199\u5165\u7B14\u8BB0";
@@ -328,8 +454,10 @@ var ClaudePanel = class {
     const btnContainer = document.createElement("div");
     btnContainer.className = "claude-buttons";
     btnContainer.appendChild(this.sendBtn);
+    btnContainer.appendChild(this.stopBtn);
     btnContainer.appendChild(this.writeBtn);
     inputArea.appendChild(this.inputEl);
+    inputArea.appendChild(modeRow);
     inputArea.appendChild(btnContainer);
     inputArea.appendChild(this.statusEl);
     this.container.appendChild(header);
@@ -344,65 +472,67 @@ var ClaudePanel = class {
     });
   }
   async loadCurrentNote() {
-    this.app.workspace.on("active-leaf-change", () => {
-      this.refreshCurrentNote();
-    });
+    this.app.workspace.on("active-leaf-change", () => this.refreshCurrentNote());
     await this.refreshCurrentNote();
     if (this.selectedText) {
       this.inputEl.value = this.selectedText;
-      this.inputEl.placeholder = "\u5DF2\u9009\u4E2D\u5185\u5BB9\u53EF\u76F4\u63A5\u53D1\u9001...";
     }
   }
-  /**
-   * 刷新当前笔记信息
-   */
   async refreshCurrentNote() {
     const fileInfo = await getActiveFileContent(this.app);
     if (fileInfo) {
       this.currentNotePath = fileInfo.path;
       this.currentNoteContent = fileInfo.content;
       const fileName = this.currentNotePath.split("/").pop();
-      this.infoEl.innerHTML = `
-        <span>\u{1F4C4} \u5F53\u524D: </span>
-        <span class="note-name">${fileName}</span>
-      `;
+      this.infoEl.innerHTML = `<span>\u{1F4C4} \u5F53\u524D: </span><span class="note-name">${fileName}</span>`;
     } else {
-      this.infoEl.innerHTML = `
-        <span>\u{1F4C4} \u5F53\u524D: </span>
-        <span class="note-name">\u672A\u6253\u5F00\u7B14\u8BB0</span>
-      `;
+      this.infoEl.innerHTML = `<span>\u{1F4C4} \u5F53\u524D: </span><span class="note-name">\u672A\u6253\u5F00\u7B14\u8BB0</span>`;
     }
   }
   async sendMessage() {
+    var _a;
     const message = this.inputEl.value.trim();
-    if (!message) return;
+    if (!message || this.isGenerating) return;
     await this.refreshCurrentNote();
     this.addMessage("user", message);
     this.conversation.push({ role: "user", content: message, timestamp: Date.now() });
     this.inputEl.value = "";
-    this.showStatus("\u6B63\u5728\u601D\u8003...");
+    this.setGenerating(true);
     const validNoteContent = this.currentNoteContent || "";
     const request = {
       action: this.detectAction(message),
       context: {
-        current_note: this.currentNotePath || "\u672A\u6253\u5F00\u7B14\u8BB0",
+        current_note: this.currentNotePath || "",
         note_content: compressNoteContent(validNoteContent),
         selected_text: this.selectedText || "",
-        conversation_history: this.conversation.slice(-4)
-        // 最近2轮对话
+        conversation_history: this.conversation.slice(-6)
+        // 最近3轮
       },
       options: {
         depth: "detailed",
         include_formula: true,
         include_visualization: false
-        // Phase 1 暂不生成图
       }
     };
-    try {
-      const response = await this.cli.sendRequest(request);
-      this.handleResponse(response);
-    } catch (error) {
-      this.showError(`\u8C03\u7528\u5931\u8D25: ${error}`);
+    const useStreaming = ((_a = this.plugin.settings) == null ? void 0 : _a.streaming) !== false;
+    if (useStreaming) {
+      this.startStreamingMessage();
+      this.showStatus("\u751F\u6210\u4E2D...");
+      await this.client.sendRequestStream(
+        request,
+        (token) => this.onStreamToken(token),
+        (fullText) => this.onStreamDone(fullText),
+        (error) => this.onStreamError(error)
+      );
+    } else {
+      this.showStatus("\u601D\u8003\u4E2D...");
+      try {
+        const response = await this.client.sendRequest(request);
+        this.handleResponse(response);
+      } catch (error) {
+        this.showError(`\u8C03\u7528\u5931\u8D25: ${error}`);
+        this.setGenerating(false);
+      }
     }
   }
   detectAction(message) {
@@ -411,6 +541,94 @@ var ClaudePanel = class {
     if (message.startsWith("/tree")) return "tree";
     return "explain";
   }
+  // ── Streaming ──
+  startStreamingMessage() {
+    this.streamingText = "";
+    const msgEl = document.createElement("div");
+    msgEl.className = "claude-message assistant";
+    msgEl.innerHTML = `
+			<div class="claude-message-header">
+				<span>Assistant</span>
+				<button class="claude-message-write-btn" title="\u5199\u5165\u5230\u5149\u6807\u4F4D\u7F6E">\u{1F4DD}</button>
+			</div>
+			<div class="claude-message-content"></div>
+		`;
+    this.streamingContentEl = msgEl.querySelector(".claude-message-content");
+    this.streamingMsgEl = msgEl;
+    this.historyEl.appendChild(msgEl);
+    this.historyEl.scrollTop = this.historyEl.scrollHeight;
+  }
+  onStreamToken(token) {
+    if (!this.streamingContentEl) return;
+    this.streamingText += token;
+    this.streamingContentEl.empty();
+    const cursor = document.createElement("span");
+    cursor.className = "claude-streaming-cursor";
+    import_obsidian2.MarkdownRenderer.renderMarkdown(this.streamingText, this.streamingContentEl, "", this.plugin);
+    this.streamingContentEl.appendChild(cursor);
+    this.historyEl.scrollTop = this.historyEl.scrollHeight;
+  }
+  onStreamDone(fullText) {
+    if (!this.streamingContentEl || !this.streamingMsgEl) return;
+    this.streamingContentEl.empty();
+    import_obsidian2.MarkdownRenderer.renderMarkdown(fullText, this.streamingContentEl, "", this.plugin);
+    const writeBtn = this.streamingMsgEl.querySelector(".claude-message-write-btn");
+    if (writeBtn) {
+      writeBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        this.writeMessageToNote(fullText);
+      });
+    }
+    this.lastResponse = fullText;
+    this.conversation.push({ role: "assistant", content: fullText, timestamp: Date.now() });
+    this.streamingMsgEl = null;
+    this.streamingContentEl = null;
+    this.streamingText = "";
+    this.showStatus("");
+    this.setGenerating(false);
+    this.writeBtn.style.display = "block";
+    this.modeRow.style.display = "flex";
+  }
+  onStreamError(error) {
+    if (this.streamingContentEl) {
+      this.streamingContentEl.empty();
+      this.streamingContentEl.textContent = `\u751F\u6210\u51FA\u9519: ${error.message}`;
+      this.streamingContentEl.style.color = "#ff6b6b";
+    }
+    this.streamingMsgEl = null;
+    this.streamingContentEl = null;
+    this.setGenerating(false);
+  }
+  stopGeneration() {
+    if (this.currentAbortController) {
+      this.currentAbortController.abort();
+      this.currentAbortController = null;
+    }
+    if (this.streamingText) {
+      this.lastResponse = this.streamingText;
+      this.conversation.push({ role: "assistant", content: this.streamingText, timestamp: Date.now() });
+      if (this.streamingContentEl) {
+        this.streamingContentEl.empty();
+        import_obsidian2.MarkdownRenderer.renderMarkdown(this.streamingText, this.streamingContentEl, "", this.plugin);
+      }
+    }
+    this.streamingMsgEl = null;
+    this.streamingContentEl = null;
+    this.streamingText = "";
+    this.setGenerating(false);
+    this.writeBtn.style.display = this.lastResponse ? "block" : "none";
+    this.modeRow.style.display = this.lastResponse ? "flex" : "none";
+    this.showStatus("\u5DF2\u505C\u6B62\u751F\u6210");
+    setTimeout(() => this.showStatus(""), 2e3);
+  }
+  setGenerating(value) {
+    this.isGenerating = value;
+    this.sendBtn.textContent = value ? "\u23F3 \u751F\u6210\u4E2D" : "\u{1F4E4} \u53D1\u9001";
+    this.sendBtn.disabled = value;
+    this.stopBtn.style.display = value ? "inline-block" : "none";
+    this.inputEl.disabled = value;
+  }
+  // ── Non-streaming fallback ──
   handleResponse(response) {
     this.lastResponse = response.response;
     this.lastWriteActions = response.write_actions;
@@ -418,32 +636,33 @@ var ClaudePanel = class {
     this.conversation.push({ role: "assistant", content: response.response, timestamp: Date.now() });
     this.showStatus("");
     this.writeBtn.style.display = "block";
-    if (response.visualization) {
-      this.addVisualization(response.visualization);
-    }
+    this.modeRow.style.display = "flex";
+    this.setGenerating(false);
   }
+  // ── Message display ──
   addMessage(role, content) {
     const msgEl = document.createElement("div");
     msgEl.className = `claude-message ${role}`;
     msgEl.innerHTML = `
-      <div class="claude-message-header">${role === "user" ? "\u4F60" : "Claude"}</div>
-      <div class="claude-message-content"></div>
-    `;
+			<div class="claude-message-header">
+				<span>${role === "user" ? "\u4F60" : "Assistant"}</span>
+				${role === "assistant" ? '<button class="claude-message-write-btn" title="\u5199\u5165\u5230\u5149\u6807\u4F4D\u7F6E">\u{1F4DD}</button>' : ""}
+			</div>
+			<div class="claude-message-content"></div>
+		`;
     const contentEl = msgEl.querySelector(".claude-message-content");
-    import_obsidian.MarkdownRenderer.renderMarkdown(content, contentEl, "", this.plugin);
+    import_obsidian2.MarkdownRenderer.renderMarkdown(content, contentEl, "", this.plugin);
+    if (role === "assistant") {
+      const writeBtn = msgEl.querySelector(".claude-message-write-btn");
+      if (writeBtn) {
+        writeBtn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          this.writeMessageToNote(content);
+        });
+      }
+    }
     this.historyEl.appendChild(msgEl);
     this.historyEl.scrollTop = this.historyEl.scrollHeight;
-  }
-  addVisualization(vis) {
-    const visEl = document.createElement("div");
-    visEl.className = "claude-message assistant";
-    visEl.innerHTML = `
-      <div class="claude-message-header">\u{1F4CA} \u53EF\u89C6\u5316</div>
-      <div class="claude-message-content">
-        <pre>${vis.content}</pre>
-      </div>
-    `;
-    this.historyEl.appendChild(visEl);
   }
   showStatus(text) {
     if (text) {
@@ -456,64 +675,78 @@ var ClaudePanel = class {
     this.statusEl.innerHTML = `<span style="color: #ff6b6b;">\u26A0\uFE0F ${text}</span>`;
     setTimeout(() => this.showStatus(""), 3e3);
   }
+  // ── Write to note ──
+  writeMessageToNote(content) {
+    var _a;
+    const editor = (_a = this.app.workspace.activeEditor) == null ? void 0 : _a.editor;
+    if (!editor) {
+      this.showError("\u672A\u627E\u5230\u6D3B\u52A8\u7F16\u8F91\u5668");
+      return;
+    }
+    editor.replaceRange("\n" + content + "\n", editor.getCursor());
+    this.showStatus("\u2705 \u5DF2\u5199\u5165\u5149\u6807\u4F4D\u7F6E");
+    setTimeout(() => this.showStatus(""), 2e3);
+  }
   async writeToNote() {
-    const errors = [];
+    var _a;
     if (!this.lastResponse) {
-      errors.push("\u65E0\u56DE\u590D\u5185\u5BB9");
-    }
-    if (!this.currentNotePath) {
-      errors.push("\u672A\u6253\u5F00\u7B14\u8BB0");
-    }
-    if (this.conversation.length < 2) {
-      errors.push("\u5BF9\u8BDD\u4E0D\u5B8C\u6574");
-    }
-    if (errors.length > 0) {
-      this.showError("\u65E0\u6CD5\u5199\u5165: " + errors.join(", "));
+      this.showError("\u65E0\u56DE\u590D\u5185\u5BB9");
       return;
     }
     this.showStatus("\u6B63\u5728\u5199\u5165\u7B14\u8BB0...");
     try {
-      const fileInfo = await getActiveFileContent(this.app);
-      if (!fileInfo) {
-        this.showError("\u9519\u8BEF: \u65E0\u6CD5\u8BFB\u53D6\u5F53\u524D\u7B14\u8BB0 - \u8BF7\u786E\u8BA4\u7B14\u8BB0\u5DF2\u6253\u5F00");
-        return;
-      }
-      const headings = extractHeadings(fileInfo.content);
-      const targetHeading = this.findBestMatchingHeading(headings);
-      const summaryContent = this.generateLocalSummary(fileInfo.content, headings);
-      if (!summaryContent || summaryContent.trim().length === 0) {
-        this.showError("\u9519\u8BEF: \u751F\u6210\u7684\u5185\u5BB9\u4E3A\u7A7A");
-        return;
-      }
-      if (fileInfo.content.includes(summaryContent.substring(0, 50))) {
-        this.showError("\u5185\u5BB9\u5DF2\u5B58\u5728\uFF0C\u65E0\u9700\u91CD\u590D\u5199\u5165");
-        setTimeout(() => this.showStatus(""), 2e3);
-        return;
-      }
-      const activeFile = this.app.workspace.getActiveFile();
-      if (!activeFile) {
-        this.showError("\u9519\u8BEF: \u672A\u627E\u5230\u6D3B\u52A8\u6587\u4EF6");
-        return;
-      }
-      let newContent;
-      if (targetHeading && headings.length > 0) {
-        newContent = insertAfterHeading(fileInfo.content, targetHeading, summaryContent);
+      const summary = this.generateLocalSummary(this.currentNoteContent, []);
+      if (this.writeMode === "cursor") {
+        const editor = (_a = this.app.workspace.activeEditor) == null ? void 0 : _a.editor;
+        if (!editor) {
+          this.showError("\u672A\u627E\u5230\u6D3B\u52A8\u7F16\u8F91\u5668");
+          return;
+        }
+        editor.replaceRange("\n" + summary + "\n", editor.getCursor());
+        this.showStatus("\u2705 \u5DF2\u5199\u5165\u5149\u6807\u4F4D\u7F6E");
+      } else if (this.writeMode === "append") {
+        const activeFile = this.app.workspace.getActiveFile();
+        if (!activeFile) {
+          this.showError("\u672A\u627E\u5230\u6D3B\u52A8\u6587\u4EF6");
+          return;
+        }
+        const currentContent = await this.app.vault.read(activeFile);
+        if (currentContent.includes(summary.substring(0, 50))) {
+          this.showError("\u5185\u5BB9\u5DF2\u5B58\u5728");
+          return;
+        }
+        await this.app.vault.modify(activeFile, currentContent + "\n" + summary);
+        this.showStatus("\u2705 \u5DF2\u8FFD\u52A0\u5230\u6587\u672B");
       } else {
-        newContent = fileInfo.content + "\n" + summaryContent;
+        const activeFile = this.app.workspace.getActiveFile();
+        if (!activeFile) {
+          this.showError("\u672A\u627E\u5230\u6D3B\u52A8\u6587\u4EF6");
+          return;
+        }
+        const currentContent = await this.app.vault.read(activeFile);
+        if (currentContent.includes(summary.substring(0, 50))) {
+          this.showError("\u5185\u5BB9\u5DF2\u5B58\u5728");
+          return;
+        }
+        const headings = extractHeadings(currentContent);
+        const targetHeading = this.findBestMatchingHeading(headings);
+        let newContent;
+        if (targetHeading && headings.length > 0) {
+          newContent = insertAfterHeading(currentContent, targetHeading, summary);
+        } else {
+          newContent = currentContent + "\n" + summary;
+        }
+        await this.app.vault.modify(activeFile, newContent);
+        this.currentNoteContent = newContent;
+        this.showStatus(`\u2705 \u5DF2\u5199\u5165\u300C${targetHeading || "\u6587\u672B"}\u300D`);
       }
-      await this.app.vault.modify(activeFile, newContent);
-      this.currentNoteContent = newContent;
-      this.showStatus("\u2705 \u5DF2\u5199\u5165\u7B14\u8BB0");
-      setTimeout(() => this.showStatus(""), 2e3);
     } catch (error) {
       const errMsg = (error == null ? void 0 : error.message) || String(error);
       console.error("[ClaudePanel] writeToNote error:", error);
       this.showError(`\u5199\u5165\u5931\u8D25: ${errMsg.substring(0, 100)}`);
     }
+    setTimeout(() => this.showStatus(""), 2500);
   }
-  /**
-   * 根据对话内容找到最匹配的标题
-   */
   findBestMatchingHeading(headings) {
     var _a;
     if (headings.length === 0) return null;
@@ -535,11 +768,8 @@ var ClaudePanel = class {
           score += word.length;
         }
       }
-      if (heading.startsWith("## ")) {
-        score *= 1.5;
-      } else if (heading.startsWith("### ")) {
-        score *= 2;
-      }
+      if (heading.startsWith("## ")) score *= 1.5;
+      else if (heading.startsWith("### ")) score *= 2;
       if (score > bestScore) {
         bestScore = score;
         bestHeading = heading;
@@ -547,16 +777,11 @@ var ClaudePanel = class {
     }
     if (!bestHeading && headings.length > 0) {
       for (let i = headings.length - 1; i >= 0; i--) {
-        if (!headings[i].match(/^#\s/)) {
-          return headings[i];
-        }
+        if (!headings[i].match(/^#\s/)) return headings[i];
       }
     }
     return bestHeading;
   }
-  /**
-   * 生成符合项目规范的笔记内容
-   */
   generateLocalSummary(noteContent, headings) {
     var _a, _b;
     const userMessages = this.conversation.filter((c) => c.role === "user");
@@ -604,33 +829,18 @@ var ClaudePanel = class {
     }
     return summary;
   }
-  /**
-   * 提取一句话物理图像
-   */
   extractCoreConcept(userQuery, assistantResponse) {
     const sentences = assistantResponse.split(/[.。!！?？]/).filter((s) => s.length > 10 && s.length < 100);
-    if (sentences.length > 0) {
-      return sentences[sentences.length - 1].trim().substring(0, 80);
-    }
-    return `\u4E0E\u300C${userQuery.substring(0, 20)}...\u300D\u76F8\u5173\u7684\u6DF1\u5165\u8BA8\u8BBA`;
+    if (sentences.length > 0) return sentences[sentences.length - 1].trim().substring(0, 80);
+    return `\u4E0E\u300C${userQuery.substring(0, 20)}...\u300D\u76F8\u5173\u7684\u8BA8\u8BBA`;
   }
-  /**
-   * 提取核心要点（bullet points）
-   */
   extractCorePoints(content) {
     const lines = content.split("\n").filter((l) => l.trim().startsWith("-") || l.trim().startsWith("*"));
-    if (lines.length >= 2) {
-      return lines.slice(0, 3).map((l) => `- ${l.replace(/^[-*]\s*/, "")}`).join("\n");
-    }
+    if (lines.length >= 2) return lines.slice(0, 3).map((l) => `- ${l.replace(/^[-*]\s*/, "")}`).join("\n");
     const sentences = content.split(/[.。!！?？]/).filter((s) => s.length > 20 && s.length < 150);
-    if (sentences.length >= 2) {
-      return sentences.slice(0, 3).map((s) => `- ${s.trim()}`).join("\n");
-    }
+    if (sentences.length >= 2) return sentences.slice(0, 3).map((s) => `- ${s.trim()}`).join("\n");
     return "- \u8BE6\u89C1\u4E0B\u65B9\u8BE6\u7EC6\u89E3\u91CA";
   }
-  /**
-   * 格式化详细解释
-   */
   formatExplanation(content, formulas, diagrams) {
     let formatted = content;
     formatted = formatted.replace(/```mermaid[\s\S]*?```/g, "");
@@ -639,13 +849,16 @@ var ClaudePanel = class {
   }
   toggleMinimize() {
     this.isMinimized = !this.isMinimized;
-    if (this.isMinimized) {
-      this.container.classList.add("minimized");
-    } else {
-      this.container.classList.remove("minimized");
+    this.container.classList.toggle("minimized", this.isMinimized);
+  }
+  setWriteMode(mode) {
+    this.writeMode = mode;
+    for (const [id, btn] of this.modeBtns) {
+      btn.classList.toggle("active", id === mode);
     }
   }
   close() {
+    this.stopGeneration();
     document.removeEventListener("keydown", this.keydownHandler);
     this.container.remove();
   }

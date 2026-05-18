@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["env-loader.ts"],
+  "sourcesContent": ["import { readFileSync, existsSync } from 'fs';\nimport * as path from 'path';\n\n/**\n * \u4ECE .env \u6587\u4EF6\u8BFB\u53D6 ZAI_API_KEY\n * Searches: vault root, plugin dir, project root\n */\nexport function readZAIKey(): string | null {\n\t// Try common .env locations\n\tconst candidates = [\n\t\tpath.join(process.cwd(), '.env'),\n\t\tpath.join(__dirname, '..', '.env'),\n\t\tpath.join(__dirname, '..', '..', '.env'),\n\t\tpath.join(__dirname, '..', '..', '..', '.env')\n\t];\n\n\tfor (const envPath of candidates) {\n\t\tif (!existsSync(envPath)) continue;\n\t\ttry {\n\t\t\tconst content = readFileSync(envPath, 'utf-8');\n\t\t\tconst match = content.match(/^ZAI_API_KEY\\s*=\\s*[\"']?([^\\s\"']+)[\"']?/m);\n\t\t\tif (match) return match[1];\n\t\t} catch {\n\t\t\tcontinue;\n\t\t}\n\t}\n\treturn null;\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,gBAAyC;AACzC,WAAsB;AAMf,SAAS,aAA4B;AAE3C,QAAM,aAAa;AAAA,IACb,UAAK,QAAQ,IAAI,GAAG,MAAM;AAAA,IAC1B,UAAK,WAAW,MAAM,MAAM;AAAA,IAC5B,UAAK,WAAW,MAAM,MAAM,MAAM;AAAA,IAClC,UAAK,WAAW,MAAM,MAAM,MAAM,MAAM;AAAA,EAC9C;AAEA,aAAW,WAAW,YAAY;AACjC,QAAI,KAAC,sBAAW,OAAO,EAAG;AAC1B,QAAI;AACH,YAAM,cAAU,wBAAa,SAAS,OAAO;AAC7C,YAAM,QAAQ,QAAQ,MAAM,0CAA0C;AACtE,UAAI,MAAO,QAAO,MAAM,CAAC;AAAA,IAC1B,QAAQ;AACP;AAAA,IACD;AAAA,EACD;AACA,SAAO;AACR;",
+  "names": []
+}
