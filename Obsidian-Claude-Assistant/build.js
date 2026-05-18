@@ -1,4 +1,9 @@
 const esbuild = require('esbuild');
+const fs = require('fs');
+const path = require('path');
+
+// Obsidian vault 插件安装目录
+const VAULT_PLUGIN_DIR = path.join(__dirname, '..', 'Obsidian-Vault', '.obsidian', 'plugins', 'Obsidian-Claude-Assistant');
 
 async function build() {
 	const entryPoints = [
@@ -22,6 +27,20 @@ async function build() {
 			external: ['obsidian']
 		});
 		console.log(`Built ${outfile}`);
+	}
+
+	// 自动复制到 Obsidian vault 插件目录
+	if (fs.existsSync(VAULT_PLUGIN_DIR)) {
+		const filesToCopy = ['main.js', 'main.js.map', 'manifest.json'];
+		for (const f of filesToCopy) {
+			const src = path.join(__dirname, f);
+			if (fs.existsSync(src)) {
+				fs.copyFileSync(src, path.join(VAULT_PLUGIN_DIR, f));
+				console.log(`Copied ${f} → vault plugin dir`);
+			}
+		}
+	} else {
+		console.log(`⚠️  Vault plugin dir not found: ${VAULT_PLUGIN_DIR}`);
 	}
 
 	console.log('Build complete!');
