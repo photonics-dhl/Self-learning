@@ -12,25 +12,38 @@
 - 已有知识: 从 Obsidian 知识库提取的相关笔记摘要
 - 个人文献: 从 Zotero 提取的相关收藏论文
 
+**Stage 0 素材**（已由素材准备阶段收集）:
+- 实验数据: {{experiment_assets}} — 用户实验结果（最高优先级）
+- 文献清单: {{structured_refs}} — Zotero + 外部搜索筛选后的核心论文
+- 图表清单: {{figure_assets}} — 已有图表 + 需新生成的图表
+- 知识汇总: {{knowledge_summary}} — Obsidian笔记中的关键知识点
+
 **调研主题**: {{research_topic}}
 
 ## 调研目标
 
-### 1. 三源搜索整合
+### 1. 四层素材整合
+
 ```
-第一优先: Obsidian 知识库
-- 搜索: {{obsidian_search_results}}
-- 标记: 用户已理解的知识点 → intro中可作为已知背景
+第零优先: 用户实验数据（论文核心）
+- 来源: Stage 0 收集的 experiment_assets
+- 用途: 论文的Results和Discussion围绕实验数据展开
+- 所有文献综述和分析以支撑用户实验结论为目的
+- 如果使用模拟数据 → 明确标注，所有结论需标注"待实验验证"
 
-第二优先: Zotero 个人文献库
-- 搜索: {{zotero_search_results}}
-- 提取: 相关论文的 DOI、引用数、核心结论
-- 优先选择: 高引用论文 + 近3年论文
+第一优先: Stage 0 已收集素材
+- Obsidian 笔记: {{knowledge_summary}} → intro中可作为已知背景
+- Zotero 文献: {{structured_refs}} → 已筛选的核心论文
+- 图表素材: {{figure_assets}} → 可用的技术图和数据图
 
-第三优先: 外部搜索 (Semantic Scholar + Tavily)
-- 最新论文 (近1-2年)
-- 高引用论文
-- 领域代表性工作
+第二优先: 补充外部搜索（仅补充Stage 0遗漏）
+- Semantic Scholar: 搜索Stage 0未覆盖的最新论文
+- Tavily: 搜索技术进展、应用前景
+- 重点关注: Stage 0素材中缺失的技术路线或竞争方法
+
+第三优先: 交叉验证
+- 确认所有引用论文真实存在（DOI可访问）
+- 确认核心论文的引用数和结论准确
 ```
 
 ### 2. 文献分类

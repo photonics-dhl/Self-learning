@@ -12,20 +12,50 @@
 - 目标期刊/格式: {{target_format}}
 - 目标读者: {{target_audience}}
 
+### Stage 0 素材（已就绪）
+
+#### 用户实验数据（最高优先级）
+```markdown
+[Stage 0 收集的 experiment_assets]
+- 核心图表: [清单]
+- 关键数值: [参数表]
+- 实验条件: [条件描述]
+- 核心发现: [发现列表]
+⚠️ 如果标注 [模拟数据] → 所有相关结论需标注"待实验验证"
+```
+
+#### 文献引用
+```markdown
+[Stage 0 收集的 structured_refs，按引用顺序排列]
+```
+
+#### 图表素材
+```markdown
+[Stage 0 收集的 figure_assets]
+- 已有图表: [可直接引用的]
+- 需新生成: [规划中的]
+```
+
+#### 知识点
+```markdown
+[Stage 0 收集的 knowledge_summary]
+- 物理直觉: [from Obsidian callouts]
+- 关键公式: [from 笔记]
+- 对比表: [from 笔记]
+```
+
 ### 大纲确认
 ```markdown
 [已确认的论文大纲，含每节gap陈述和claim-evidence映射]
 ```
 
-### 实验数据
-```markdown
-[实验数据描述、关键数值、图表数据]
-```
+## 撰写核心原则
 
-### 文献引用
-```markdown
-[从 Zotero 提取的相关引用，按引用顺序排列]
-```
+**实验数据优先**：论文为用户实验结果服务。
+- Results章节围绕用户实验数据展开，不围绕文献展开
+- Discussion的对比表以用户数据为基准，文献数据作为参照
+- 每个创新点必须有用户实验数据支撑
+- 如果使用模拟数据 → 所有claim降级为"预期结果"
 
 ## 撰写深度控制
 
