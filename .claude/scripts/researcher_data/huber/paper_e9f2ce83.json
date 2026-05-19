@@ -1,0 +1,37 @@
+{
+  "paper_id": "e9f2ce83",
+  "title": "and S requires a shielding mechanism against ionizing radiation. A",
+  "authors": [],
+  "year": 2001,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\huber\\Huber 等 - 2001 - How many-particle interactions develop after ultrafast excitation of an electron–hole plasma.pdf",
+  "filename": "Huber 等 - 2001 - How many-particle interactions develop after ultrafast excitation of an electron–hole plasma.pdf",
+  "n_figs": 2,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "e9f2ce83_fig_000",
+      "caption": "Figure 2 Two-time dependent polarization response of the electron±hole plasma.\na, Electric-®eld amplitude ETHz of the single-cycle probe versus time T. The transient has\nbeen corrected for the frequency response of the electro-optic detector30. The Fourier\namplitude spectrum contains components betw",
+      "label": "Figure 2",
+      "page": 2,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\e9f2ce83\\e9f2ce83_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "spectrum"
+    },
+    {
+      "figure_id": "e9f2ce83_fig_001",
+      "caption": "Figure 3 Build-up of Coulomb screening and plasmon scattering. a, b, Imaginary (a) and\nreal (b) part of the long-wavelength limit of the inverse dielectric function of GaAs versus\nfrequency for different pump-probe delays tD, as deduced from the time-domain data in\nFig. 2. The green lines result fro",
+      "label": "Figure 3",
+      "page": 3,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\e9f2ce83\\e9f2ce83_p03_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

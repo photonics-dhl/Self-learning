@@ -1,0 +1,51 @@
+{
+  "paper_id": "f418da10",
+  "title": "LETTER",
+  "authors": [
+    "Michael Kru¨ger1*",
+    "Markus Schenk1* & Peter Hommelhoff1"
+  ],
+  "year": 2011,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\hommelhoff\\Krüger 等 - 2011 - Attosecond control of electrons emitted from a nanoscale metal tip.pdf",
+  "filename": "Krüger 等 - 2011 - Attosecond control of electrons emitted from a nanoscale metal tip.pdf",
+  "n_figs": 3,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "f418da10_fig_000",
+      "caption": "Figure 1 | Overview of the experiment. Electrons, indicated in blue, are\nemitted (large blue arrow pointing away from surface) from a sharp tungsten\ntip (left) by, and interact with, a few-cycle laser electric field (red waveform).\nControlled by the carrier-envelope phase, the liberated electron may",
+      "label": "Figure 1",
+      "page": 1,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f418da10\\f418da10_p01_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "f418da10_fig_001",
+      "caption": "Figure 2 | Carrier-envelope phase modulation in photoelectron spectra.\na, Carrier-envelope phase-averaged electron count rate as function of energy\n(blue solid curve). About three photon orders, indicated by encircled numbers,\nare visible in the direct part (that is, when the electrons do not re-col",
+      "label": "Figure 2",
+      "page": 2,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f418da10\\f418da10_p02_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "f418da10_fig_002",
+      "caption": "Figure 3 | Theoretical modelling of the experimental data. a, Contour plot\nrepresentation of the count rate as a function of energy and carrier-envelope\nphase, according to the extended SMM. Here only re-scattered electrons are\nconsidered (only those contribute to plateau energies). Regions with qua",
+      "label": "Figure 3",
+      "page": 3,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f418da10\\f418da10_p03_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "plot"
+    }
+  ],
+  "tables": []
+}

@@ -1,0 +1,67 @@
+{
+  "paper_id": "864df71a",
+  "title": "Terahertz-driven linear electron acceleration",
+  "authors": [
+    "Emilio A. Nanni1",
+    "Wenqian R. Huang1",
+    "Kyung-Han Hong1",
+    "Koustuban Ravi1",
+    "Arya Fallahi2",
+    "3",
+    "Gustavo Moriena4"
+  ],
+  "year": 2015,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\kaertner\\Nanni 等 - 2015 - Terahertz-driven linear electron acceleration.pdf",
+  "filename": "Nanni 等 - 2015 - Terahertz-driven linear electron acceleration.pdf",
+  "n_figs": 4,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "864df71a_fig_000",
+      "caption": "Figure 1 | Terahertz-driven linear accelerator. (a) Schematic of the THz LINAC. Top right: a linearly polarized THz pulse is converted into a radially\npolarized pulse by a segmented waveplate before being focused into the THz waveguide. The THz pulse is reﬂected at the end of the waveguide to\nco-pro",
+      "label": "Figure 1",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\864df71a\\864df71a_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    },
+    {
+      "figure_id": "864df71a_fig_001",
+      "caption": "Figure 2 | Demonstration of terahertz acceleration. Transverse electron density of the electron bunch as recorded by a micro-channel plate (MCP) at\n59 kV for (a) THz off and (b) THz on. The bimodal distribution is due to the presence of accelerated and decelerated electrons, which are separated\nspat",
+      "label": "Figure 2",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\864df71a\\864df71a_p03_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "864df71a_fig_002",
+      "caption": "Figure 4 | TM01 THz LINAC parameters. (a) Normalized magnitude of the longitudinal electric ﬁeld and perpendicular magnetic ﬁeld for the TM01 mode\nat 450 GHz in a circular copper waveguide with dielectric loading. The inner diameter of the copper waveguide is 940 mm with a vacuum radius\nrv ¼ 200 mm ",
+      "label": "Figure 4",
+      "page": 5,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\864df71a\\864df71a_p05_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "864df71a_fig_003",
+      "caption": "Figure 5 | Relativistic THz LINAC design. Performance parameters as a function of vacuum radius and dielectric wall thickness for a relativistic THz LINAC\noperating in the TM01 mode with a 10 mJ single-cycle THz pulse and an initial electron energy of 1 MeV. The phase velocity is c for the nominal f",
+      "label": "Figure 5",
+      "page": 5,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\864df71a\\864df71a_p05_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

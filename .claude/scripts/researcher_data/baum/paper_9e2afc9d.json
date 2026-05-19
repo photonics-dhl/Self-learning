@@ -1,0 +1,66 @@
+{
+  "paper_id": "9e2afc9d",
+  "title": "Nature  |  Vol 619  |  6 July 2023  |  63",
+  "authors": [
+    "David Nabben1",
+    "2",
+    "Joel Kuttruff1",
+    "2",
+    "Levin Stolz1",
+    "Andrey Ryabov1 ✉ & Peter Baum1 ✉"
+  ],
+  "year": 2023,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\baum\\Nabben 等 - 2023 - Attosecond electron microscopy of sub-cycle optical dynamics.pdf",
+  "filename": "Nabben 等 - 2023 - Attosecond electron microscopy of sub-cycle optical dynamics.pdf",
+  "n_figs": 4,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "9e2afc9d_fig_000",
+      "caption": "Fig. 1 | Attosecond field-cycle-contrast electron microscopy. a, A continuous- \nwave (CW) laser (red) excites a compression membrane (yellow) and a \nnanophotonic material (black). A train of attosecond electron pulses (blue) \nprobes the material and energy changes are recorded as a function of the t",
+      "label": "Fig. 1",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\9e2afc9d\\9e2afc9d_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "9e2afc9d_fig_001",
+      "caption": "Fig. 2 | Visualization of chiral field-cycle dynamics in a slit-modified needle \ntip. a, Image of the modified tungsten nanotip. b, Time-resolved electron \nenergy changes for left-circular (top) and right-circular (bottom) excitation \nlight. The dotted lines and arrows visualize the propagation dyna",
+      "label": "Fig. 2",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\9e2afc9d\\9e2afc9d_p03_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "9e2afc9d_fig_002",
+      "caption": "Fig. 3 | Dynamics of the electric field in a dielectric nanoresonator. a, Image \nof the slit resonator, milled into a freestanding 200-nm-thick silicon membrane. \nb, Measured electron energy changes as a function of space and time within \none cycle of the excitation field. c, A snapshot at t = 0.6 f",
+      "label": "Fig. 3",
+      "page": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\9e2afc9d\\9e2afc9d_p04_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "9e2afc9d_fig_003",
+      "caption": "Fig. 4 | Time-resolved dynamics of a nanophotonic meta-atom. Four \ndielectric nanoresonator slits are milled into a freestanding 200-nm-thick \nsilicon membrane in a zig-zag geometry. a, Amplitude map of the measured \nfield oscillations. See Supplementary Video 4 for full data. b, Time traces of the ",
+      "label": "Fig. 4",
+      "page": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\9e2afc9d\\9e2afc9d_p04_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    }
+  ],
+  "tables": []
+}

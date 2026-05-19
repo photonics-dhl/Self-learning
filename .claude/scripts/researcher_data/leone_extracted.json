@@ -1,0 +1,534 @@
+{
+  "professor_key": "leone",
+  "paper_count": 4,
+  "total_figures": 20,
+  "total_chunks": 46,
+  "papers": [
+    {
+      "title": "Attosecond Optical Orientation Lauren B. Drescher ,1,2,3,* Nicola Mayer ,4,3 Kylie Gannan ,1 Jonah R. Adelman ,1 and Stephen R. Leone",
+      "year": 2025,
+      "journal": "",
+      "authors": [
+        "Lauren B. Drescher",
+        "1",
+        "2",
+        "3",
+        "* Nicola Mayer",
+        "4",
+        "3 Kylie Gannan",
+        "1 Jonah R. Adelman",
+        "1",
+        "Stephen R. Leone"
+      ],
+      "doi": "",
+      "paper_id": "0e0a798c731626aa",
+      "file_hash": "0e0a798c731626aaca1306139709058f",
+      "num_pages": 8,
+      "abstract": "",
+      "n_figures": 5,
+      "n_chunks": 8,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "0e0a798c_fig_000",
+          "label": "FIG. 2",
+          "caption": "FIG. 2.\nFano’s propensity rule (a) states that l tends to increase\nin absorption (left) and decrease in emission (right), as indicated\nby arrow size. Bethe’s propensity rule (b) indicates that jmj\nincreases (for absorption and emission), as indicated for the\ntransition from an l ¼ 1, m ¼ 1 state. Ad",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\0e0a798c\\0e0a798c731626aa_p02_f00.png",
+          "page_num": 2,
+          "width": 2159,
+          "height": 578,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "0e0a798c_fig_001",
+          "label": "FIG. 1",
+          "caption": "FIG. 1.\nExperimental scheme: A circularly polarized XUV\npulse excites the 1s2pðm ¼ 1Þ level of He. In the presence of a\ncorotating NIR pulse (left), coupling to the 1s2s and 1s3d levels\nleads to the presence of LISs in the XUV spectrum. When the\nNIR pulse is counterrotating to the XUV pulse (right),",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\0e0a798c\\0e0a798c731626aa_p02_f01.png",
+          "page_num": 2,
+          "width": 2159,
+          "height": 722,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "0e0a798c_fig_002",
+          "label": "FIG. 3",
+          "caption": "FIG. 3.\n(a,c) Experimental and (b,d) calculated transient ab-\nsorption spectra of the He 1snp Rydberg series for (a,b) co- and\n(c,d) counterrotating circularly polarized XUV + NIR pulses.\nTaking the transient spectra at τ ¼ 1.3 fs, the experimental results\n(e), as well as the calculations using TDSE",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\0e0a798c\\0e0a798c731626aa_p03_f02.png",
+          "page_num": 3,
+          "width": 1583,
+          "height": 1566,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "0e0a798c_fig_003",
+          "label": "FIG. 4",
+          "caption": "FIG. 4.\n(a,b) Time-dependent populations of states from TDSE.\nThe npm¼1 states are populated by the circularly polarized XUV\npulse at 0 fs and start to decay. Population is transferred between\nneighboring (dark) states by the NIR pulse (centered at 1.3 fs),\ndepending on the selection and propensity ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\0e0a798c\\0e0a798c731626aa_p04_f03.png",
+          "page_num": 4,
+          "width": 2159,
+          "height": 877,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "0e0a798c_fig_004",
+          "label": "FIG. 5",
+          "caption": "FIG. 5.\n(a) Circular dichroism of the 2sþ LIS as a function of\nXUV ellipticity for the TDSE calculation (black), perturbative\nmodel (dashed orange), and experimental results for LCP\n(yellow) and RCP (red). (b) Experimental and TDSE dichroism\nspectrum at temporal overlap of XUV and NIR pulses. When\nX",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\0e0a798c\\0e0a798c731626aa_p04_f04.png",
+          "page_num": 4,
+          "width": 2159,
+          "height": 882,
+          "figure_type": "photo",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "PHYSICAL REVIEW LETTERS 135, 163201 (2025) Attosecond Optical Orientation Lauren B. Drescher ,1,2,3,* Nicola Mayer ,4,3 Kylie Gannan ,1 Jonah R. Adelman ,1 and Stephen R. Leone 1,2,5 1Department of Chemistry, University of California, Berkeley, California 94720, USA 2Chemical Sciences Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA 3Max-Born-Institut, Max-Born-Str. 2A, 12489, Berlin, Germany 4Attosecond Quantum Physics Laboratory, Department of Physics, King’s Co",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "PHYSICAL REVIEW LETTERS 135, 163201 (2025) (a) (b) FIG.2. Fano’spropensityrule(a)statesthatltendstoincrease inabsorption(left)anddecreaseinemission(right),asindicated by arrow size. Bethe’s propensity rule (b) indicates that jmj FIG. 1. Experimental scheme: A circularly polarized XUV increases (for absorption and emission), as indicated for the pulse excites the 1s2pðm¼1Þ level of He. In the presence of a transition from an l¼1, m¼1 state. Additionally, dipole corotatingNIRpulse(left),couplingto",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "PHYSICAL REVIEW LETTERS 135, 163201 (2025) the same XUVellipticity (not shown). More strikingly, in the case of a counterrotating NIR pulse, these features appear strongly reduced if not absent as can be seen in Fig.3(c):whiletheeffectofthelight-inducedphaseseems substantially reduced around the bright-state resonant energies, the LISs of the 1sns series are not observed and the LIS of the 1snd series is heavily suppressed. To get further physical insight into the observations, TDSE calculations",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "PHYSICAL REVIEW LETTERS 135, 163201 (2025) (a) (b) (a) (b) FIG.4. (a,b)Time-dependentpopulationsofstatesfromTDSE. FIG.5. (a)Circulardichroismofthe2sþLISasafunctionof Thenp m¼1 statesarepopulatedbythecircularlypolarizedXUV XUV ellipticity for the TDSE calculation (black), perturbative pulseat0fsandstarttodecay.Populationistransferredbetween model (dashed orange), and experimental results for LCP neighboring (dark) states by the NIR pulse (centered at 1.3 fs), (yellow) and RCP (red). (b) Experimen",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "PHYSICAL REVIEW LETTERS 135, 163201 (2025) co- and counterrotating NIR pulses. The spectra thereby No. DE-AC02-05CH11231 within the Fundamentals of giveinsightintotheelectronconfigurationofbrightexcited SemiconductorNanowiresProgram(KCPY23)forperson- states and their (dark state) neighbors. The method allows nel support. ustoexploreΛ-vsV-typecouplings,similartofour-wave mixing [31,32], but here due to their different selection Data availability—The data that support the findings of rulesofmquant",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "PHYSICAL REVIEW LETTERS 135, 163201 (2025) [19] N.Mayer,S.Beaulieu,Á.Jime´nez-Galán,S.Patchkovskii, [30] A.N. Pfeiffer, M.J. Bell, A.R. Beck, H. Mashiko, D.M. O. Kornilov, D. Descamps, S. Petit, O. Smirnova, Y. Neumark, and S.R. Leone, Phys. Rev. A 88, 051402(R) Mairesse, and M.Y. Ivanov, Phys. Rev. Lett. 129, 173202 (2013). (2022). [31] J.D. Gaynor, A.P. Fidler, Y.-C. Lin, H.-T. Chang, M. [20] S. Carlström, R. Tahouri, A. Papoulia, J.M. Dahlström, Zuerch, D.M. Neumark, and S.R. Leone, Phys. Rev",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "PHYSICAL REVIEW LETTERS 135, 163201 (2025) Intheexperiment,thetimedelaybetweenNIRandXUV and (cid:5) the ATAS (cid:6) single-atom response SðωÞ¼ pulseswasvariedbetween-15 fsand18fs,with200steps 2ωIm d˜ðωÞ·E˜(cid:2)ðωÞ can be obtained. The change in (0.166fssteps),wheretheNIRpulsearrivesaftertheXUV signal ΔS is obtained by subtracting the pre-time zero pulse for positive delays. Avariable iris in the pump arm signal S 0, where the NIR field cannot modify the allows control of the NIR intensity and",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "PHYSICAL REVIEW LETTERS 135, 163201 (2025) (cid:9) (cid:10) where the phases ϕ are sorted by the helicity (þ=−) of E˜(cid:2)ðωÞ 1þϵ 1−ϵ the XUV (X) and N X I L R (L) pulses, respectively: E˜(cid:2) XUV ðωÞ¼pffi 2 ffiffi ð ffiffi 1 ffiffiffi þ ffiffiffiffiffi ϵ ffiffi 2 ffiffiffi Þ ffi 2 Xe − þ 2 Xe þ þc:c:; X ð1−ϵ Þ2 X ðC8Þ ϕ ðtÞ¼ L ðΔφ þΔφ Þ þþ 2ð1þϵ2Þ pþ1;nd2 pþ1;ns R ð1þϵ L Þ2X n with E˜ðωÞ¼ dtEðtÞexp½iðω−ω X Þt(cid:3) and similar d˜ðωÞ ϕ ðtÞ¼ L ðΔφ þΔφ Þ is obtained through Fourier transform",
+          "page": 8,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Attosecond band-gap dynamics in silicon",
+      "year": 2014,
+      "journal": "",
+      "authors": [
+        "Martin Schultze",
+        "1",
+        "2*† Krupa Ramasesha",
+        "1* C.D. Pemmaraju",
+        "3 S.A. Sato",
+        "4 D. Whitmore",
+        "1"
+      ],
+      "doi": "",
+      "paper_id": "bdaa764cfef3b802",
+      "file_hash": "bdaa764cfef3b80204a3da74614343ee",
+      "num_pages": 6,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 6,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "bdaa764c_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1. Ultrafast spectroscopy of band-gap dy-\nnamics. (A) An intense few-cycle laser pump\npulse with a spectrum covering the entire visible\nwavelength range excites electrons into the\nconduction band, where they are probed by an\nultrabroadband attosecond XUV probe pulse.\nChanges in the electronic p",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bdaa764c\\bdaa764cfef3b802_p01_f00.png",
+          "page_num": 1,
+          "width": 1469,
+          "height": 729,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "bdaa764c_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2. Attosecond transient absorption spectroscopy of silicon. (A)\nThe injection of electrons into conduction band states of silicon by a few-\ncycle near-infrared laser pump-pulse modifies the derivative of the XUV-\nabsorbance ∂A/∂E plotted as a function of probe-photon energy EXUV and\ntime delay ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bdaa764c\\bdaa764cfef3b802_p02_f01.png",
+          "page_num": 2,
+          "width": 1102,
+          "height": 1186,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "bdaa764c_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3. Theoretical\nsimulations of sub-\nfemtosecond popu-\nlation transfer in\nsilicon. (A) Number\nof electrons excited\ninto the conduction\nband by a 4.8-fs laser\npulse of peak inten-\nsity inside silicon of\n1 × 1012 W/cm2, as\npredicted by TD-DFT\ncalculations. The\nextent of population\ntransfer is quant",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bdaa764c\\bdaa764cfef3b802_p03_f02.png",
+          "page_num": 3,
+          "width": 2211,
+          "height": 639,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "bdaa764c_fig_003",
+          "label": "Figure 1A",
+          "caption": "Figure 1A summarizes the most common di-\nrect shaping processes, materials, ranges of their\nrespective processing strain rates, and processing\ntemperatures. A key barrier that impedes the\nfabrication of smooth ultrafine crystalline metal-\nlic 3D nanostructures is the high strain rate re-\nquired to a",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bdaa764c\\bdaa764cfef3b802_p05_f03.png",
+          "page_num": 5,
+          "width": 2281,
+          "height": 904,
+          "figure_type": "photo",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "RESEARCH | REPORTS ULTRAFASTDYNAMICS on an ~450-attosecond time scale. The elec- tronicresponseiscompletedbeforethelattice motionaffectsthebandgap,withalongertime Attosecond band-gap dynamics constantof60T10fsresemblingtheperiodof the fastest optical phonon in silicon of 64 fs in silicon (15.6THz)(14,15). Theprinciplesofattosecondtransientabsorp- tionspectroscopyofsemiconductorsareillustrated MartinSchultze,1,2*†KrupaRamasesha,1*C.D.Pemmaraju,3S.A.Sato,4D.Whitmore,1 in Fig. 1. The band structure",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "materials (SM), section S2], and span a spec- lationsoftheelectricfieldandattaininginten- extendeddelayrangewithtimeconstantsof5fs trumofextremeultraviolet(XUV)photonener- sitiesbetween1010and1014W/cm2atthefocus, and60fs,respectively,indicatingthetransition giescovering80 to125eV.Thisspectralrange correspondingtoavacuumpeakamplitudeE betweenpurelyelectronicinitialresponseafter 0 probes the density of empty electronic states of the electric field between 0.02 and 2 V/Å. thelaserpulseandconvoluted",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | REPORTS inthesubcycleevolutionallowsanestimateof following the oscillations of the laser electric derivedfromtheTD-DFTcalculation.Modifica- theresponsetimeoftheelectronicensembleby field,analogoustothestepwisesignalevolution tions of the spatial electronic density distribu- fittinganerrorfunctionwithabest-fitfull-width showninFig.2B.Asinputforthesimulations, tionalongacutthroughtheeight-atomunitcell half-maximumof~450attoseconds(seeFig.2B we employed the temporal electric field evolu-",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | REPORTS These observations are irreconcilable with a Theexcitation-inducedbroadeningofthespec- time spansampledbecause ofthe insensitivity multiphotonexcitationmechanism,whichwould tral features (Fig. 2A) is observed for at least of the transmitted XUV pulse to the phase of promoteelectronstostatesconcentratedatthe 200fs,suggestingthepersistenceofthepopula- the lattice vibration. Furthermore, fully coher- bandedge.Incontrast,theelectronshaveanin- tiontransferbeyondthetimescalesampledi",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | REPORTS 19. D.Hulin,A.Mourchid,R.Vanderhaghen,P.M.Fauchet,in ACKNOWLEDGMENTS 25104702.M.S.wassupportedbyaMarieCurieInternational UltrafastPhenomenaVIISE-85,SpringerSeriesinChemical OutgoingFellowship(FP7-PEOPLE-2011-IOF).C.D.P.andD.P. WeacknowledgefruitfuldiscussionswithP.Feulnerandhelpwith Physics.C.Harris,E.Ippen,G.Mourou,A.Zewail,Eds. performedworkattheMolecularFoundry,supportedbythe (Springer,BerlinHeidelberg,1990),vol.53,pp.282–284. samplepreparationfromR.Rivers.Theexperimentalwo",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Attosecond band-gap dynamics in silicon Martin Schultze, Krupa Ramasesha, C.D. Pemmaraju, S.A. Sato, D. Whitmore, A. Gandman, James S. Prell, L. J. Borja, D. Prendergast, K. Yabana, Daniel M. Neumark, and Stephen R. Leone Science 346 (6215), . DOI: 10.1126/science.1260311 Watching electrons dart through silicon The ultimate speed limit in electronic circuitry is set by the motion of the electrons themselves. Schultze et al. applied attosecond spectroscopy to glimpse this motion in a sample of si",
+          "page": 6,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "PERSpECTIVES",
+      "year": 1967,
+      "journal": "",
+      "authors": [],
+      "doi": "",
+      "paper_id": "e4b2f07f26a7a5bd",
+      "file_hash": "e4b2f07f26a7a5bd8c1eb1706ef00fb7",
+      "num_pages": 13,
+      "abstract": "",
+      "n_figures": 7,
+      "n_chunks": 13,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "e4b2f07f_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1 | X-​ray spectroscopy of chemical dynamics. Chemical dynamic pro-\ncesses occur on different timescales spanning from attoseconds (10−18 s) to \nnanoseconds (10−9 s). Various X-​ray techniques are suited to investigate the \ndifferent processes on all timescales. EXAFS, extended X-​ray absorptio",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\e4b2f07f\\e4b2f07f26a7a5bd_p02_f00.png",
+          "page_num": 2,
+          "width": 2177,
+          "height": 1432,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "e4b2f07f_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2 | electronic coherence measured in atoms and molecules. \na | Schematic of the 4p-​shell holes in a Kr ion excited by a visible-​light laser \npulse. The extreme ultraviolet (XUV) probe, not shown, measures transitions \nfrom the 3d shell. The energy splitting between the 4p−1\n3/2 and 4p−1\n1/2 s",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\e4b2f07f\\e4b2f07f26a7a5bd_p05_f01.png",
+          "page_num": 5,
+          "width": 2185,
+          "height": 1283,
+          "figure_type": "diagram",
+          "description": ""
+        },
+        {
+          "figure_id": "e4b2f07f_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3 | Following a chemical reaction with soft X-​ray spectroscopy. \n a | A schematic view of the potential energy surfaces of ground-​state and \nphotoexcited cyclohexadiene (CHD), which undergoes an electrocyclic \nring-​opening through conical intersections. The ring opening reaction then \nproduc",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\e4b2f07f\\e4b2f07f26a7a5bd_p07_f02.png",
+          "page_num": 7,
+          "width": 2169,
+          "height": 1632,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "e4b2f07f_fig_003",
+          "label": "Fig. 4",
+          "caption": "Fig. 4 | time-​resolved XANes measurement of spin-​crossover dynamics in aqueous \ntris(2,2´-bipyridine)iron(ii) ([Fe",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\e4b2f07f\\e4b2f07f26a7a5bd_p08_f03.png",
+          "page_num": 8,
+          "width": 2177,
+          "height": 1145,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "e4b2f07f_fig_004",
+          "label": "Fig. 5",
+          "caption": "Fig. 5 | time-​resolved riXs (free-​electron laser) of the ligand-​exchange dynamics in aqueous \nFe(CO)5. a | Differential excited-​state resonant inelastic X-​ray scattering (RIXS) spectrum with high-\nlighted areas of increased and decreased intensity , corresponding to the ground, ligand, excited ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\e4b2f07f\\e4b2f07f26a7a5bd_p09_f04.png",
+          "page_num": 9,
+          "width": 2177,
+          "height": 1640,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "e4b2f07f_fig_005",
+          "label": "Fig. 6",
+          "caption": "Fig. 6, in which the black spectrum shows \nthe ground-​state absorption and the \nred spectrum indicates the excited state. \nAbsorption oscillations versus energy can be \npredicted from the initial starting geometry \nof the diplatinum complex, which is \niteratively varied to match the experimental \ns",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\e4b2f07f\\e4b2f07f26a7a5bd_p09_f05.png",
+          "page_num": 9,
+          "width": 2177,
+          "height": 378,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "e4b2f07f_fig_006",
+          "label": "Fig. 6",
+          "caption": "Fig. 6 | time-​resolved eXAFs measurement reveals structural dynamics \nof a photochemically active diplatinum molecule in solution. \n a| Time-resolved extended X-​ray absorption fine structure (EXAFS) spec-\ntrum is recorded at the platinum L3 edge (ground-​state absorbance in black) \n150 ns followin",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\e4b2f07f\\e4b2f07f26a7a5bd_p10_f06.png",
+          "page_num": 10,
+          "width": 2176,
+          "height": 1586,
+          "figure_type": "photo",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "Corrected: Publisher Correction PERSPECTIVES changes in the arrangement of nuclei, The ultrafast X-r ay spectroscopic the temporal evolution of the electronic structure can also provide important revolution in chemical dynamics information on chemical reactivity. Electron dynamics can occur on timescales as fast as attoseconds and can be probed Peter M. Kraus, Michael Zürch, Scott K. Cushing, Daniel M. Neumark and by powerful spectroscopic methods. Stephen R. Leone Possibly, the ultimate goal of",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "F Elapsed time (fs) 19 20 21 22 23 24 Spin-crossover dynamics Ligand-exchange dynamics Coherent electron dynamics Photoinduced reactions: Structural changes ring-openings, dissociations, isomerizations and conical Chemical intersection dynamics Lifetimes of highly excited states dynamics 10–18 10–15 10–12 10–9 Time (s) Available Attosecond photo- Transient absorption and reflectivity (XANES, EXAFS…) techniques electron interferometry PIS and PFS HHS (self-probing) HHS (pump–probe) Time-resolved ",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "PersPectives Box 1 | X-r ay spectroscopic methods for following chemical dynamics Different X-r ay techniques can be used in time-r esolved (tr) experiments to measure chemical dynamics, as illustrated in the figure below. the red arrows indicate processes induced by visible (vis) and/or infrared (ir) pulses, and violet arrows indicate X-r ay-induced processes. tr-X ANes (X-r ay absorption near-e dge structure) spectroscopy vis and/or ir pump pulses excite valence electrons, and the photoinduced",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "PersPectives measures the electronic structure from the Thus, optical X-r ay absorption spectroscopy Charge transfer following photoexcitation viewpoint of a reporter atom in terms of in the form of XANES or EXAFS can already or photoionization can occur on timescales the joint density of states (jDOS) between provide information on all relevant timescales of a few femtoseconds166 and can be a core level and an empty valence state. down to attoseconds, with sensitivity to monitored with high tem",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "a b c ΔE = 0.67 eV = 6.3 ± 0.1 fs Elapsed time (fs) d e f short pulse durations, their main drawback XFEL homepage96. There are now several response of a system to a short light pulse. is the low conversion efficiency (on the femtosecond synchrotron sources around the After photoexcitation, the quantum states order of 10−6) of infrared pules to soft X-rays, world that enable precise control over the of a system are initially coherent, which resulting in low pulse energies. However, incidental wa",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "PersPectives quantum computing. Applications in these The results for the Kr atom illustrate The dissociation breaks the symmetry of fields typically aim at creating a binary that the coherent electronic wavepacket the system and leads to the appearance of a entangled state that preserves the excited lives for a long time46 and dephases only new C X-r ay spectral line at lower energies coherence for a given time100–102. once the atoms collide in the gas phase, (fig. 3f). The C K-e dge X-r ay tra",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "a b c 1B 2π / 1π* 2A 266 nm Cl1 2π → 1π* Cl2 Pericyclic minimum CHD 1A cZc tZc tZt Reaction coordiate d e f F CF+ 3 CF+ 4 CF 4 into a triply degenerate t set and a doubly in the prototypical tris(bipyridine)iron(ii)- complexes. Bressler et al.73 observed a 2g degenerate e set of orbitals. The 3d orbitals ([Feii(bpy)]2+) complex have been studied substantial increase in the absorption edge g 3 are occupied by six valence electrons in the extensively by ultrafast spectroscopy118–120. after a relat",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "a b the 2p→LUMO resonance energy within the range of 706.5 to 710 eV. Photoexcitation 1MLCT 3MLCT 20fs 120fs and ligand dissociation leave a hole in a dπ orbital, which is localized on the metal. The depletion of the ground state upon photoexcitation is apparent in the signal decrease in the green region in fig. 5a,b, which is located at the same position of the 5T (HS) 2 c main RIXS signal of unexcited Fe(CO) 665ps 5 (not shown). In addition, photoexcitation introduces a new transition at lower",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "a b such as spin-c rossover73 and ligand-e xchange dynamics90, occur on similar timescales, and new spectroscopic techniques, such as RIXS, can be used to measure valence energy transfers, reminiscent of the valence energy- level separations and core-l evel transitions, simultaneously. Finally, EXAFS studies give information on the nuclear dynamics74. Synchrotron sources for X-r ay spectroscopy have been perfected over the past decades, and HHG-b ased laboratory sources and FELs are undergoing t",
+          "page": 9,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "a b EXAFS Energy (keV) c hard X-r ay pulses95. The femtosecond source140. These experiments have paved the requires the use of very short pulses with technology underlying HHG is currently way towards nanoscale imaging experiments durations of a few femtoseconds, as well as undergoing a rapid change. For the past with few-f emtosecond to attosecond time a thorough understanding of the ionization 20 years, Ti:sapphire lasers delivering 800 nm resolution. Such scattering techniques dynamics upon X",
+          "page": 10,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Background-free Tracking of Ultrafast Hole and",
+      "year": 0,
+      "journal": "",
+      "authors": [
+        "Vincent Eggers1",
+        "†",
+        "*",
+        "Rafael Quintero-Bermudez1",
+        "2",
+        "‡",
+        "Kevin Gulu Xiong1",
+        "Stephen R. Leone1",
+        "2",
+        "3"
+      ],
+      "doi": "",
+      "paper_id": "94ddf09b00ad55c1",
+      "file_hash": "94ddf09b00ad55c175e739fa9c9b792f",
+      "num_pages": 19,
+      "abstract": "ABSTRACT Extreme ultraviolet (XUV) transient absorption (TA) and transient reflectivity (TR) spectroscopies enable element-specific insights into attosecond-timescale processes in solids. XUV transient grating spectroscopy (TGS) is an emerging tool that combines the advantages of both absorption and reflectivity while offering intrinsically background-free detection. Here, we implement XUV- TGS by generating a transient grating in germanium solid using two few-cycle near-infrared pulses and probing it with an attosecond XUV pulse, produced via tabletop high-harmonic generation. The spectrally resolved, diffracted XUV pulses directly visualize the separate ultrashort decay times of both photoexcited electrons and holes, without the need for iterative deconvolution. By combining XUV-TA and -",
+      "n_figures": 4,
+      "n_chunks": 19,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "94ddf09b_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1. Extreme UV transient grating spectroscopy in germanium. (a) Schematic of the \nexperimental setup. (b) XUV linear absorption spectrum (black line) and projected density of \nstates (DOS, blue line) in the vicinity of the M4,5 edge of germanium (~ 30 eV). Around this \nphoton energy, the XUV l",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\94ddf09b\\94ddf09b00ad55c1_p04_f00.png",
+          "page_num": 4,
+          "width": 2144,
+          "height": 847,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "94ddf09b_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2. Time-resolved transient absorption and transient grating data. (a) The pump-induced \nchanges to the transient absorption spectrum reveal positive and negative components spanning \nthe spectral regions connected to both electrons and holes. The different features overlap partially, \nand the",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\94ddf09b\\94ddf09b00ad55c1_p06_f01.png",
+          "page_num": 6,
+          "width": 2144,
+          "height": 1108,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "94ddf09b_fig_002",
+          "label": "Figure 3",
+          "caption": "Figure 3. Electron and hole dynamics revealed by transient grating. (a) Modified transient grating \nsignal accounting for spin-orbit separation. The map is divided into different spectral regions, \nwhich correspond to hot holes (hh) and hot electrons (he) and thermalized holes (h) and \nthermalized e",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\94ddf09b\\94ddf09b00ad55c1_p07_f02.png",
+          "page_num": 7,
+          "width": 2144,
+          "height": 1108,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "94ddf09b_fig_003",
+          "label": "Figure 4",
+          "caption": "Figure 4. Pump-induced changes of the refractive index and reflectivity. (a) Absolute change of \nthe real part of the refractive index, n, determined from calibrated TA and TG measurements. \n(b) Change of the imaginary part of the refractive index, k, determined from a calibrated TA \nmeasurement. (c",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\94ddf09b\\94ddf09b00ad55c1_p09_f03.png",
+          "page_num": 9,
+          "width": 2144,
+          "height": 1382,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "Background-free Tracking of Ultrafast Hole and Electron Dynamics with XUV Transient Grating Spectroscopy Vincent Eggers1,†,*, Rafael Quintero-Bermudez1,2,‡, Kevin Gulu Xiong1, Stephen R. Leone1,2,3 1Department of Chemistry, University of California, Berkeley, California 94720, USA 2Chemical Sciences Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA 3Department of Physics, University of California, Berkeley, California 94720, USA †Present Address: Department of Phys",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "INTRODUCTION Understanding the ultrafast dynamics of photoexcited carriers in solids is essential for advancing technologies in optoelectronics, photovoltaics, and quantum information [1-3]. Processes such as carrier generation, scattering, and recombination occur on femtosecond to attosecond timescales and are often element-specific, necessitating techniques that combine high temporal resolution with chemical sensitivity [4,5]. XUV transient absorption and transient reflectivity spectroscopies ",
+          "page": 3,
+          "type": "introduction"
+        },
+        {
+          "heading": "",
+          "text": "Figure 1. Extreme UV transient grating spectroscopy in germanium. (a) Schematic of the experimental setup. (b) XUV linear absorption spectrum (black line) and projected density of states (DOS, blue line) in the vicinity of the M edge of germanium (~ 30 eV). Around this 4,5 photon energy, the XUV light probes both the valence bands (red shaded area) and the conduction bands (blue shaded area) by promoting electrons from the 3d-core states to unoccupied states. combining the spatial selectivity an",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "dynamics without the need for iterative deconvolution methods. In addition, combining XUV-TGS with conventional XUV-TA allows us to infer changes in the complex refractive index, without the need for Kramers–Kronig reconstruction. The experimental geometry is illustrated in Fig. 1a. A detailed description of the setup can be found in [16]. A portion of the output of a Ti:sapphire amplifier (7 mJ maximum pulse energy, 35 fs pulse duration) is focused into a hollow core fiber to generate a superco",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Figure 2. Time-resolved transient absorption and transient grating data. (a) The pump-induced changes to the transient absorption spectrum reveal positive and negative components spanning the spectral regions connected to both electrons and holes. The different features overlap partially, and they decay over a time span of a few ps. The black line shows the projected density of states as a reference. (b) The transient grating signal, naturally, has only positive components, resulting in a less c",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Figure 3. Electron and hole dynamics revealed by transient grating. (a) Modified transient grating signal accounting for spin-orbit separation. The map is divided into different spectral regions, which correspond to hot holes (hh) and hot electrons (he) and thermalized holes (h) and thermalized electrons (e). The black line shows the projected density of states as a reference. (b) Carrier recombination dynamics revealed by fitting the decay of the integrated signal in the electron and hole regio",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "it much easier to directly compare features from different energy regions to each other. A feature associated with the redshift of the ground state is missing or weak. This reveals a difference in the decay rate of the signal from the electron and hole regions, which cannot be identified in the TA image. After removing spectral features associated with spin–orbit separation using a Fourier filter applied to the data [22,11], a quantitative analysis of the electron and hole dynamics from the tran",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Figure 4. Pump-induced changes of the refractive index and reflectivity. (a) Absolute change of the real part of the refractive index, n, determined from calibrated TA and TG measurements. (b) Change of the imaginary part of the refractive index, k, determined from a calibrated TA measurement. (c) Absolute change of the reflectivity, R, reconstructed from the modulation of n for an assumed incident angle of 66°. (d) Change of the reflectivity reconstructed from the modulation of k for an inciden",
+          "page": 9,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "of n and k, respectively. For n, the relative strength of the signal shifts towards the feature at 30 eV, for which previous studies observed a strong band shift [11,12]. In contrast, the map showing the changes to k is virtually identical to the TA data. We can further calculate the resulting changes to the reflectivity, R, from the pump-induced modulation of the complex refractive index, ñ, at a specified TR geometry, in this case with an incident angle chosen to be 66° versus normal (Fig. 4c,",
+          "page": 10,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "CONCLUSION In summary, this work demonstrates the use of XUV-TGS to achieve background-free tracking of ultrafast electron and hole dynamics in germanium. By generating a transient grating with two few-cycle near-infrared pulses and probing with an attosecond XUV pulse, we directly visualize carrier relaxation and recombination without iterative deconvolution or Kramers–Kronig reconstruction. The combined use of XUV-TG and XUV-TA spectroscopy allows us to reconstruct the time-dependent complex r",
+          "page": 11,
+          "type": "conclusion"
+        }
+      ]
+    }
+  ]
+}

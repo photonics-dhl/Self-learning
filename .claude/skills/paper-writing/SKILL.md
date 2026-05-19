@@ -61,8 +61,11 @@ Stage 4: 分章节撰写
     │ 应用深度指南 + 反AI模式
     ↓
 Stage 5: 定稿审查
-    │ 反向大纲 + humanizer润色 + Claim-Evidence验证
-    │ 输出: 质量门检查清单
+    │ 5a: academic-craft 6维度诊断（主题综合/批判评价/实验证据/Gap具体性/焦点控制/研究连接）
+    │ 5b: 反向大纲 + Claim-Evidence验证
+    │ 5c: humanizer润色
+    │ 任一维度C级 → 强制修订后再继续
+    │ 输出: 质量门检查清单（6维度全B级以上方可定稿）
 ```
 
 ### 用户审核节点
@@ -99,23 +102,20 @@ Stage 5: 定稿审查
 paper-writing/
 ├── SKILL.md                       # 本文件（主skill定义）
 ├── prompts/
-│   ├── material_prep.md           # Stage 0 素材准备prompt（新增）
+│   ├── material_prep.md           # Stage 0 素材准备prompt
 │   ├── literature_review.md       # 文献调研prompt
 │   ├── knowledge_graph.md         # 知识整合prompt
 │   ├── paper_outline.md           # 大纲生成prompt
 │   ├── paper_draft.md             # 各章节撰写prompt（核心）
-│   ├── section_depth_guide.md     # 章节深度控制（新增）
-│   ├── anti_ai_patterns.md        # 反AI写作模式（新增）
+│   ├── section_depth_guide.md     # 章节深度控制
+│   ├── anti_ai_patterns.md        # 反AI写作模式
 │   ├── figure_generation.md       # 图表生成prompt
 │   └── citation_check.md          # 引用审查prompt
-└── templates/
-    ├── thesis_templates/zjuthesis/  # 浙大博士论文模板
-    └── journal_templates/
-        ├── optica/                  # Optica (OSA)
-        ├── aps/                     # APS REVTeX
-        ├── nature/                  # Springer Nature
-        └── ieee/                    # IEEE
 ```
+
+LaTeX 模板位置：`Obsidian-Vault/6️⃣ 工具/templates/`
+- `thesis_templates/zjuthesis/` — 浙大博士论文
+- `reference_templates/journal_template.tex` — 期刊论文通用模板
 
 ## MCP 协同
 
@@ -137,6 +137,12 @@ paper-writing/
 ### 反AI痕迹
 - 参见 `prompts/anti_ai_patterns.md` 三级模式
 - 完成后调用 `humanizer` skill 终审
+
+### 6维度质量诊断（academic-craft）
+- Stage 5a 强制执行 `academic-craft` skill 的6维度诊断
+- 主题综合(A/B/C)、批判评价、实验证据、Gap具体性、焦点控制、研究连接
+- 任一维度C级 → 执行对应修订策略后再进入5b/5c
+- 详见 `.claude/skills/academic-craft/SKILL.md`
 
 ### 深度自检
 - 参见 `prompts/section_depth_guide.md` 三级深度

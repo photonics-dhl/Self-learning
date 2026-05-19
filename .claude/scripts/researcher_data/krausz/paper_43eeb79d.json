@@ -1,0 +1,70 @@
+{
+  "paper_id": "43eeb79d",
+  "title": "Attosecond science",
+  "authors": [],
+  "year": 0,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\NP-2007-Attosecond science.pdf",
+  "filename": "NP-2007-Attosecond science.pdf",
+  "n_figs": 5,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "43eeb79d_fig_000",
+      "caption": "Figure 1 Shorter and shorter. The minimum duration of laser pulses fell continually \nfrom the discovery of mode-locking in 1964 until 1986 when 6-fs pulses \nwere generated. Each advance in technology opened new ﬁ elds of science for \nmeasurement. Each advance in science strengthened the motivation f",
+      "label": "Figure 1",
+      "page": 2,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\43eeb79d\\43eeb79d_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "43eeb79d_fig_001",
+      "caption": "Figure 2 Creating an attosecond pulse. a–d, An intense femtosecond near-infrared or \nvisible (henceforth: optical) pulse (shown in yellow) extracts an electron wavepacket \nfrom an atom or molecule. For ionization in such a strong ﬁ eld (a), Newton’s \nequations of motion give a relatively good descri",
+      "label": "Figure 2",
+      "page": 2,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\43eeb79d\\43eeb79d_p02_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "43eeb79d_fig_002",
+      "caption": "Figure 3 Generation of a single or twin attosecond photon pulse. a,c, The \nspectrogram (window Fourier transform) of the atomic high-harmonic emission driven \nby a few-cycle near-infrared laser pulse (τL = 5 fs, λL = 750 nm), as accumulated \ncoherently over a macroscopic propagation distance. b,d, S",
+      "label": "Figure 3",
+      "page": 3,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\43eeb79d\\43eeb79d_p03_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "43eeb79d_fig_003",
+      "caption": "Figure 4 Orbital tomography. a, The basic physics of orbital tomography. The \nrecollision electron is shown as a coloured wave that has low frequency at the \nbottom and high frequency at the top. It emerges from the orbital to be imaged and \nwhen it returns it interferes with the orbital. The sketch",
+      "label": "Figure 4",
+      "page": 4,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\43eeb79d\\43eeb79d_p04_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "43eeb79d_fig_004",
+      "caption": "Figure 5 Excitation and relaxation. Electronic excitation and relaxation processes in \natoms, molecules and solids, and possible ways of tracing these dynamics in real \ntime. The labels 1+ and 2+ indicate single and double ionization.",
+      "label": "Figure 5",
+      "page": 5,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\43eeb79d\\43eeb79d_p05_f04.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

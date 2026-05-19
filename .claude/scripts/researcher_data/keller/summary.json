@@ -1,0 +1,131 @@
+{
+  "researcher": "keller",
+  "n_papers": 7,
+  "n_figures": 21,
+  "papers": [
+    {
+      "paper_id": "fa435344",
+      "title": "Physics Reports 547 (2015) 1–24",
+      "authors": [],
+      "year": 2015,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\keller\\Landsman和Keller - 2015 - Attosecond science and the tunnelling time problem.pdf",
+      "filename": "Landsman和Keller - 2015 - Attosecond science and the tunnelling time problem.pdf",
+      "n_figs": 9,
+      "n_tables": 1,
+      "tables": [
+        {
+          "table_id": "fa435344_tab_000",
+          "paper_id": "fa435344",
+          "table_label": "Table 2\n",
+          "table_caption": "Table 2\nCommonly used definitions of tunnelling times. Each one depends on the transmission amplitude, T, of the\nwave function through the potential barrier.",
+          "page_num": 11,
+          "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\fa435344\\fa435344_p11_t00.png",
+          "width": 1402,
+          "height": 1034
+        }
+      ]
+    },
+    {
+      "paper_id": "53588653",
+      "title": "Attosecond Ionization and Tunneling Delay Time Measurements in Helium",
+      "authors": [
+        "Lett. 96",
+        "250402 (2006)."
+      ],
+      "year": 2006,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\keller\\Eckle 等 - 2008 - Attosecond ionization and tunneling delay time measurements in helium.pdf",
+      "filename": "Eckle 等 - 2008 - Attosecond ionization and tunneling delay time measurements in helium.pdf",
+      "n_figs": 4,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "74198cb8",
+      "title": "916",
+      "authors": [],
+      "year": 2016,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\keller\\Lucchini 等 - 2016 - Attosecond dynamical Franz-Keldysh effect in polycrystalline diamond.pdf",
+      "filename": "Lucchini 等 - 2016 - Attosecond dynamical Franz-Keldysh effect in polycrystalline diamond.pdf",
+      "n_figs": 3,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "da9a5736",
+      "title": "LETTERS",
+      "authors": [
+        "Adrian N. Pfeiffer1*",
+        "Claudio Cirelli1",
+        "Mathias Smolarski1",
+        "Darko Dimitrovski2*"
+      ],
+      "year": 2011,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\keller\\Pfeiffer 等 - 2012 - Attoclock reveals natural coordinates of the laser-induced tunnelling current flow in atoms.pdf",
+      "filename": "Pfeiffer 等 - 2012 - Attoclock reveals natural coordinates of the laser-induced tunnelling current flow in atoms.pdf",
+      "n_figs": 2,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "72d5bf93",
+      "title": "insight review articles",
+      "authors": [
+        "ix years after the first laser was demonstrated"
+      ],
+      "year": 2003,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\keller\\Keller - 2003 - Recent developments in compact ultrafast lasers.pdf",
+      "filename": "Keller - 2003 - Recent developments in compact ultrafast lasers.pdf",
+      "n_figs": 1,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "f74b0325",
+      "title": "Attosecond angular streaking",
+      "authors": [
+        "PETRISSA ECKLE1*",
+        "MATHIAS SMOLARSKI2†",
+        "PHILIP SCHLUP1‡",
+        "JENS BIEGERT1†",
+        "ANDR´E STAUDTE2§"
+      ],
+      "year": 2008,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\keller\\Eckle 等 - 2008 - Attosecond angular streaking.pdf",
+      "filename": "Eckle 等 - 2008 - Attosecond angular streaking.pdf",
+      "n_figs": 1,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "ff8155ad",
+      "title": "Frontiers in Ultrashort Pulse Generation:",
+      "authors": [
+        "G. Steinmeyer",
+        "* D. H. Sutter",
+        "L. Gallmann",
+        "N. Matuschek",
+        "U. Keller"
+      ],
+      "year": 1999,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\keller\\Steinmeyer 等 - 1999 - Frontiers in Ultrashort Pulse Generation Pushing the Limits in Linear and Nonlinear Optics.pdf",
+      "filename": "Steinmeyer 等 - 1999 - Frontiers in Ultrashort Pulse Generation Pushing the Limits in Linear and Nonlinear Optics.pdf",
+      "n_figs": 1,
+      "n_tables": 0,
+      "tables": []
+    }
+  ]
+}

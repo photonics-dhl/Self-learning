@@ -1,0 +1,345 @@
+{
+  "professor_key": "nisoli",
+  "paper_count": 3,
+  "total_figures": 14,
+  "total_chunks": 19,
+  "papers": [
+    {
+      "title": "High-energy attosecond light sources",
+      "year": 2011,
+      "journal": "",
+      "authors": [
+        "ver the past few decades",
+        "the ability to investigate ultra-"
+      ],
+      "doi": "",
+      "paper_id": "ebc3c7d24e90ee68",
+      "file_hash": "ebc3c7d24e90ee68a3f68b7687c91746",
+      "num_pages": 9,
+      "abstract": "",
+      "n_figures": 6,
+      "n_chunks": 9,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "ebc3c7d2_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1 | Isolated attosecond pulses from gases. Various approaches for \nthe generation of isolated attosecond pulses have been experimentally \ndemonstrated. a, Polarization gating. b, Double optical gating.  \nc, Generalized double optical gating. d, Interferometric polarization gating. \ne, XUV gen",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ebc3c7d2\\ebc3c7d24e90ee68_p02_f00.png",
+          "page_num": 2,
+          "width": 1745,
+          "height": 429,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "ebc3c7d2_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2 | Temporal gating. a,b, A multicycle driving field (blue curves) \ngenerates a train of attosecond pulses, separated by either half an optical \ncycle, T0/2, in the case of single-colour excitation (a), or a full optical \ncycle, T0, in the case of a two-colour excitation (b). Isolated attosec",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ebc3c7d2\\ebc3c7d24e90ee68_p02_f01.png",
+          "page_num": 2,
+          "width": 1078,
+          "height": 439,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "ebc3c7d2_fig_002",
+          "label": "Figure 3",
+          "caption": "Figure 3 | Ionization gating: electron quantum path analysis. a,b, Ionization rate (green curves) calculated in xenon for the case of 5 fs driving pulses \n(red curves), with a peak intensity of 2.5 × 1015 W cm–2, for two CEP values. The first two electron quantum paths are shown by dotted blue lines",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ebc3c7d2\\ebc3c7d24e90ee68_p03_f02.png",
+          "page_num": 3,
+          "width": 2180,
+          "height": 1550,
+          "figure_type": "plot",
+          "description": ""
+        },
+        {
+          "figure_id": "ebc3c7d2_fig_003",
+          "label": "Figure 4",
+          "caption": "Figure 4 | Isolated attosecond pulses by harmonic generation from a \nsolid surface. a–c, Motion of the plasma surface induced by excitation \npulses with linear (a), circular (b) and time-dependent polarization (the \ncorresponding electric field, characterized by a short temporal window \nof linear po",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ebc3c7d2\\ebc3c7d24e90ee68_p04_f03.png",
+          "page_num": 4,
+          "width": 2174,
+          "height": 1094,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "ebc3c7d2_fig_004",
+          "label": "Figure 5",
+          "caption": "Figure 5 | Attosecond nonlinear Fourier transform spectroscopy. a, Kinetic energy distribution of D+ ions as a function of the delay between a pair \nof harmonic fields. The horizontal axis was scaled by the optical cycle of the fundamental radiation. b, Potential energy curves of D2. The one-photon ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ebc3c7d2\\ebc3c7d24e90ee68_p05_f04.png",
+          "page_num": 5,
+          "width": 2175,
+          "height": 792,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "ebc3c7d2_fig_005",
+          "label": "Figure 6",
+          "caption": "Figure 6 | Attosecond pump–probe experiment for investigating electron \nmotion inside an atom. The first pump XUV pulse (central energy of \n23.7 eV) excites the ground state to the superposition 1s + 1snp. The radial \ndistributions in the (r1, r2) plane are shown before (t = 0 fs) and after \n(t = 1.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ebc3c7d2\\ebc3c7d24e90ee68_p06_f05.png",
+          "page_num": 6,
+          "width": 2172,
+          "height": 1423,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "review articleS pubLished onLine: 18 septeMber 2011 | doi: 10.1038/nphoton.2011.167 high-energy attosecond light sources Giuseppe sansone1, Luca poletto2 and Mauro nisoli1* The development of attosecond technology is one of the most significant achievements in the field of ultrafast optics over the past decade. Since the first experimental demonstration of attosecond pulses just ten years ago, novel techniques have been introduced for the generation, characterization and application of subfemtos",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "review articleS NaTuRe phoToNicS doi: 10.1038/nphoton.2011.167 a d fundamental radiation28 (Fig. 2). Using such a two-colour scheme (known as double optical gating; DOG)29, the width of the lin- BS 1 ear polarization gate can be close to one optical cycle of the fun- λ/4 BK7 damental radiation, as shown in Fig. 2. This has two advantages: Quartz plate BS 2 longer driving pulses with durations of up to ~12 fs can be used, b and the ground-state population depletion on the leading edge of λ/2 the ",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Ionization rate Ionization rate Path 1 Ψ = 0 Path 1 Ψ = π/2 Time (cycles) Time (cycles) Path 2 Path 2 Path 2 Path 1 Two-colour gating. Recent advances in the realization of high- without CEP control, when the two-colour field synthesis is prop- energy optical parametric amplifiers in the near-infrared spectral erly optimized in terms of central wavelength of the near-infrared region have allowed the investigation of HHG using long-wave- component and intensity ratio between the two colours. More",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "a b c pulses is explained by considering the spatiotemporal dynamics of the driving field during the filamentation process. In particular, as pointed out in ref. 55, filamentation gives rise to the formation of high-intensity driving spikes with single-optical-cycle duration, which are responsible for the generation of isolated attosecond pulses. high-energy attosecond pulses from laser-produced plasmas The loose-focusing approach becomes experimentally unfeasible for gaseous media if the energy",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "a 10 8 6 4 iii 2 ii 1 i 0 −1 0 1 2 is always of the order of unity, except for cases when the momentum XUV generation process is produced by the deformation of the – of the plasma mirror is perpendicular to the surface (p(t) = 0), plasma profile, which results in large changes in the local incidence || which leads to sharp features in the time evolution of γ. These angle (the angle between the original wavefront and the deformed S spikes are responsible for the rich harmonic content in the refle",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "review articleS NaTuRe phoToNicS doi: 10.1038/nphoton.2011.167 Such an interferometric technique forms the basis of the recently r 1 developed attosecond nonlinear Fourier transform spectroscopy t = 0 fs technique — a very powerful method for characterizing coupled electronic–nuclear dynamics in molecules. The first experiments to use this technique were performed in CO (ref. 75) and D (ref. 76). 2 2 In general, the interferometric trace of the attosecond pulse train as a function of the delay b",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "NaTuRe phoToNicS review articleS doi: 10.1038/nphoton.2011.167 Table 1 | Relevant parameters of current attosecond sources based on hhG in gases. Method Gas ħω (eV) τ (as) E type efficiency reference AG Neon 80 80 0.5 nJ IAP 1.7 × 10–6 22 PG Argon 35 130 70 pJ IAP 3.5 × 10–7 26,27 PG Neon 60 — 1 pJ IAP 5 × 10–9 26 DOG Argon 38 — 6.5 nJ IAP 6 × 10–6 31 DOG Neon 45 107 170 pJ IAP 1.5 × 10–7 31,85 IG Xenon 27 155 9 nJ IAP 2.6 × 10–5 50 IPG Xenon 50 <1,000 20 nJ IAP 2 × 10–5 36 LF Xenon 20 320 10 μJ",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "review articleS NaTuRe phoToNicS doi: 10.1038/nphoton.2011.167 references 35. Charalambidis, D. et al. Exploring intense attosecond pulses. New J. Phys. 10, 1. Zewail, A. H. Femtochemistry: Atomic-Scale Dynamics of the Chemical Bond. 025018 (2008). J. Phys. Chem. A 104, 5660–5694 (2000). 36. Skantzakis, E., Tzallas, P., Kruse, J., Kalpouzos, C. & Charalambidis, D. 2. Agostini, P. & DiMauro, L. F. The physics of attosecond light pulses. Rep. Prog. Coherent continuum extreme ultraviolet radiation ",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "NaTuRe phoToNicS review articleS doi: 10.1038/nphoton.2011.167 67. Rykovanov, S. G., Geissler, M., MeyerterVehn, J. & Tsakiris, G. D. Intense 78. Cavalieri, S., Eramo, R., Materazzi, M., Corsi, C. & Bellini, M. Ramsey-type single attosecond pulses from surface harmonics using the polarization gating spectroscopy with high-order harmonics. Phys. Rev. Lett. 89, 133002 (2002). technique. New J. Phys. 10, 025025 (2008). 79. Hu, S. X. & Collins, L. A. Attosecond pump probe: exploring ultrafast electr",
+          "page": 9,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Isolated Single-Cycle Attosecond Pulses",
+      "year": 2005,
+      "journal": "",
+      "authors": [
+        "30. M. Amenomori et al.",
+        "Astrophys. J. 633",
+        "1005 (2005)."
+      ],
+      "doi": "",
+      "paper_id": "ee6f6c82fd49c4e3",
+      "file_hash": "ee6f6c82fd49c4e311af5bc8899c0520",
+      "num_pages": 5,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 5,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "ee6f6c82_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1. (A) Portion of an experi-\nmental CRAB trace measured in the\ncase of a 100-nm-thick aluminum\nfoil as a function of the temporal\ndelay between the attosecond and\nthe streaking IR pulses. Isolated\nattosecond pulses were generated\nby phase-stabilized, 5-fs pulses with\nmodulated polarization stat",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ee6f6c82\\ee6f6c82fd49c4e3_p02_f00.png",
+          "page_num": 2,
+          "width": 1479,
+          "height": 1275,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "ee6f6c82_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2. (A) Complete experimental\nCRAB trace measured in the case of a\n300-nm-thick aluminum foil as a\nfunction of the temporal delay be-\ntween the attosecond and the streak-\ning IR pulses. Isolated attosecond\npulses were generated by phase-\nstabilized, 5-fs pulses with modulated\npolarization state.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ee6f6c82\\ee6f6c82fd49c4e3_p02_f01.png",
+          "page_num": 2,
+          "width": 1545,
+          "height": 1279,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "ee6f6c82_fig_002",
+          "label": "Fig. 4",
+          "caption": "Fig. 4. Electric field of 135-as isolated pulses\ncalculated for two different values of the CEP of\nthe driving pulses with the use of the nonadiabatic\nsaddle-point method. The simulations have been\nperformed assuming the same driving pulse\nparameters that were used in the experiment.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ee6f6c82\\ee6f6c82fd49c4e3_p03_f02.png",
+          "page_num": 3,
+          "width": 1473,
+          "height": 574,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "ee6f6c82_fig_003",
+          "label": "Fig. 3",
+          "caption": "Fig. 3. Reconstruction of the CRAB trace of the\nattosecond pulses retrieved from the experi-\nmental trace shown in Fig. 2A, after 5 \u0001 104\niterations of the PCGPA algorithm.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ee6f6c82\\ee6f6c82fd49c4e3_p03_f03.png",
+          "page_num": 3,
+          "width": 1474,
+          "height": 657,
+          "figure_type": "plot",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "29. K.Kasahara,http://cosmos.n.kanagawa-u.ac.jp/EPICSHome/. 38. Y.-Q.Lou,Z.H.Fan,Mon.Not.R.Astron.So",
+          "text": "29. K.Kasahara,http://cosmos.n.kanagawa-u.ac.jp/EPICSHome/. 38. Y.-Q.Lou,Z.H.Fan,Mon.Not.R.Astron.Soc.341,909 MinistryofForeignAffairsofJapan.Thisworkwas 30. M.Amenomorietal.,Astrophys.J.633,1005(2005). (2003). supportedinpartbyGrants-in-AidforScientificResearch 31. F.A.Aharonianetal.,A&A393,L37(2002). 39. Y.-Q.Lou,X.N.Bai,Mon.Not.R.Astron.Soc.,inpress, onPriorityAreas(712)(MEXT),bytheJapanSocietyfor 32. S.D.Hunteretal.,Astrophys.J.481,205(1997). astro-ph/0607328(2006). thePromotionofScience,byt",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "REPORTS We adjusted the CEP of the driving few- high-order harmonic generation can be com- beam, in order to filter out the fundamental ra- cycle light pulses Efull-width at intensity pensatedforbythenegativegroupdelaydisper- diation,thusreducingtheintrinsicpositivechirp half-maximum (FWHM): t 0 5 fs; central sion of thin aluminum foils, which is almost oftheattosecondpulses.Totestthepossibilityof D wavelength:l 0750nm^withcontrolledelec- constant on the bandwidth of the generated further compre",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "REPORTS (Fig.3)reproducestheexperimentaltrace:The values in a range of È175 mrad, giving rise to of the IR driving pulses, we can envisage ap- CRABerror,evaluatedastherootmeansquare an efficient generation of isolated attosecond plications of the phase-stable single-cycle at- errorperelementofthetrace(21),isÈ10j3.In pulses. As demonstrated in Fig. 4, which dis- tosecond pulses to the study of strong-field the intensity profile and the temporal phase of plays the calculated electric field evoluti",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "REPORTS 16. A.L’Huillier,P.Balcou,Phys.Rev.Lett.70,774(1993). 23. M.Lewenstein,P.Balcou,M.Y.Ivanov,A.L’Huillier, Time-ResolvedandNonlinearApplications(XTRA)(grant 17. J.J.Macklin,J.D.Kmetec,C.L.GordonIII,Phys.Rev. P.B.Corkum,Phys.Rev.A.49,2117(1994). no.MRTN-CT-2003-505138),byMinisterodell’Universita` Lett.70,766(1993). 24. G.Sansone,C.Vozzi,S.Stagira,M.Nisoli,Phys.Rev.A. edellaRicercaunderprojectProcessifisicineldominio 18. D.Kane,IEEEJ.QuantumElectron.35,421(1999). 70,013411(2004). degliattose",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Isolated Single-Cycle Attosecond Pulses G. Sansone, E. Benedetti, F. Calegari, C. Vozzi, L. Avaldi, R. Flammini, L. Poletto, P. Villoresi, C. Altucci, R. Velotta, S. Stagira, S. De Silvestri, and M. Nisoli Science 314 (5798), . DOI: 10.1126/science.1132838 View the article online https://www.science.org/doi/10.1126/science.1132838 Permissions https://www.science.org/help/reprints-and-permissions Use of this article is subject to the Terms of service Science (ISSN 1095-9203) is published by the A",
+          "page": 5,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Ultrafast electron dynamics in phenylalanine initiated by attosecond pulses",
+      "year": 2002,
+      "journal": "",
+      "authors": [
+        "F. Calegari",
+        "1 D. Ayuso",
+        "2 A. Trabattoni",
+        "3 L. Belshaw",
+        "4 S. De Camillis",
+        "4 S. Anumula",
+        "3"
+      ],
+      "doi": "",
+      "paper_id": "c842b97d0e452102",
+      "file_hash": "c842b97d0e45210234e2a5c9b4ba56b1",
+      "num_pages": 5,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 5,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "c842b97d_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1. Three-dimensional\nstructure of phenylalanine.\nMolecular structure of the most\nabundant conformer of the\naromatic amino acid phenylalanine.\nDark gray spheres represent\ncarbon atoms; light gray spheres,\nhydrogen atoms; blue sphere,\nnitrogen; and red spheres, oxygen.\nThe molecular geometry has\n",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c842b97d\\c842b97d0e452102_p01_f00.png",
+          "page_num": 1,
+          "width": 1469,
+          "height": 904,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "c842b97d_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2. Pump-probe measurements. (A) Yield of doubly charged immonium ion (mass/charge = 60) as\na function of pump-probe delay, measured with 3-fs temporal steps.The red line is a fitting curve with an\nexponential rise time of 10 fs and an exponential relaxation time of 25 fs. (B) Yield of doubly ch",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c842b97d\\c842b97d0e452102_p02_f01.png",
+          "page_num": 2,
+          "width": 1469,
+          "height": 1075,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "c842b97d_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3. Fourier analysis of charge dynamics. Spectrograms calculated for the measured data of Fig. 2C\n(A) and for the calculated hole density integrated over the amine group for the most abundant con-\nformer (B). The sliding window Fourier transforms have been calculated by using a Gaussian window\nf",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c842b97d\\c842b97d0e452102_p03_f02.png",
+          "page_num": 3,
+          "width": 1541,
+          "height": 1546,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "c842b97d_fig_003",
+          "label": "Fig. 4",
+          "caption": "Fig. 4. Snapshots of hole dynamics. Relative variation of the hole density with respect to its time-averaged value as a function of time for the most abundant\nconformer. Isosurfaces of the relative hole density are shown for cutoff values of +10−4 arbitrary units (yellow) and –10−4 (purple).Time is ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c842b97d\\c842b97d0e452102_p04_f03.png",
+          "page_num": 4,
+          "width": 2211,
+          "height": 1196,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "RESEARCH | REPORTS ATTOSECONDDYNAMICS tionbyattosecondpulsesmayproduceultrafast chargemigrationalongthemolecularskeleton, Ultrafast electron dynamics in whichcanprecedenuclearrearrangement.This behaviorhasbeenpredictedintheoreticalcalcu- phenylalanine initiated by lations by various authors(15–19),whosework wasstimulatedbypioneeringexperimentsper- formedbyWeinkauf,Schlag,andco-workerson attosecond pulses fragmentation of peptide chains (20, 21). This electrondynamics,evolvingonanattosecondor few",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | REPORTS atom,andasidechain(R),whichinthecaseof mentalresultsreportedin(14)].Figure2Bshows quantumchemistrycalculationsinphenylalanine phenylalanineisabenzylgroup(Fig.1).Inour a25-fs-widezoomofthepump-probedynamics, (see supplementary materials) show that the experiments, we used a two-color,pump-probe obtained by reducing the delay step between highestvibrationalfrequencyis0.11PHz,which technique.Chargedynamicswereinitiatedbyiso- pumpandprobepulsesfrom3to0.5fs.Anos- correspondstoaperi",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | REPORTS openchannels(32forasingleconformer)were quantitativelydeterminedbymeansofthestatic- exchange density functional theory (28–30), whichhasbeenthoroughlytestedinsystemsof similarcomplexity,andfirst-ordertime-dependent perturbationtheory.Acalculatedphotoelectron spectrumat45-eVphotonenergyisinverygood agreement with that obtained at 100 eV in a synchrotronradiationexperiment(31).Fromthe ionizationamplitudes,theactualelectronicwave packetwascalculatedbyusingtheexperimental frequenc",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | REPORTS Fig.4.Snapshotsofholedynamics.Relativevariationoftheholedensitywithrespecttoitstime-averagedvalueasafunctionoftimeforthemostabundant conformer.Isosurfacesoftherelativeholedensityareshownforcutoffvaluesof+10−4arbitraryunits(yellow)and–10−4(purple).Timeiswithreferencetothe endoftheXUVpulse(firstsnapshot).Toguidetheeye,timeintervalsbetweensnapshotsshowingasimilaraccumulateddensityovertheaminegroupare indicated.Thesetimeintervalsareclosetothedominantperiodsassociatedwiththeelectro",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Ultrafast electron dynamics in phenylalanine initiated by attosecond pulses F. Calegari, D. Ayuso, A. Trabattoni, L. Belshaw, S. De Camillis, S. Anumula, F. Frassetto, L. Poletto, A. Palacios, P. Decleva, J. B. Greenwood, F. Martín, and M. Nisoli Science 346 (6207), . DOI: 10.1126/science.1254061 A very quick look at phenylalanine Over the past decade, laser technology has pushed back the fastest directly observable time scale from femtoseconds (quadrillionths of a second) to attoseconds (quinti",
+          "page": 5,
+          "type": "body"
+        }
+      ]
+    }
+  ]
+}

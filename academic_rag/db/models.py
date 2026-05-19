@@ -13,12 +13,13 @@ import uuid
 @dataclass
 class Paper:
     """论文元数据"""
-    paper_id: str = field(default_factory=lambda: str(uuid.uuid4())[:8])
+    paper_id: str = ""  # Set from file_hash after PDF processing
     title: str = ""
     authors: List[str] = field(default_factory=list)
     year: int = 0
     journal: str = ""
     doi: str = ""
+    abstract: str = ""
 
     # 领域分类（与Obsidian知识树对应）
     domain: str = ""  # optics, physics, engineering, chemistry
@@ -49,6 +50,7 @@ class Paper:
             "year": self.year,
             "journal": self.journal,
             "doi": self.doi,
+            "abstract": self.abstract,
             "domain": self.domain,
             "subfield": self.subfield,
             "pdf_path": self.pdf_path,

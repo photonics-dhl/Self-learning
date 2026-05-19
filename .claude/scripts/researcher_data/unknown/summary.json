@@ -1,0 +1,23 @@
+{
+  "researcher": "unknown",
+  "n_papers": 1,
+  "n_figures": 4,
+  "papers": [
+    {
+      "paper_id": "f7144059",
+      "title": "2678",
+      "authors": [
+        "Vol. 47",
+        "No. 11 / 1 June 2022 / Optics Letters"
+      ],
+      "year": 2022,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "E:\\PostGraduate\\Science_softwares\\Zotero\\data\\storage\\MJQ7AUEH\\Zhang 等 - 2022 - Efficient multicycle terahertz pulse generation based on the tilted pulse-front technique.pdf",
+      "filename": "Zhang 等 - 2022 - Efficient multicycle terahertz pulse generation based on the tilted pulse-front technique.pdf",
+      "n_figs": 4,
+      "n_tables": 0,
+      "tables": []
+    }
+  ]
+}

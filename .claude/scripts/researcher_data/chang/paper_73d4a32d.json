@@ -1,0 +1,48 @@
+{
+  "paper_id": "73d4a32d",
+  "title": "162",
+  "authors": [],
+  "year": 2014,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\chang\\Leone 等 - 2014 - What will it take to observe processes in ‘real time’.pdf",
+  "filename": "Leone 等 - 2014 - What will it take to observe processes in ‘real time’.pdf",
+  "n_figs": 3,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "73d4a32d_fig_000",
+      "caption": "Figure 1 | Streak field measurements of surface photoelectron ejection. The apparatus for streaking of \nelectrons from a tungsten surface is shown overlaid on streak traces from the conduction-band electrons \nand 4f electrons of W(110). The attosecond pulses are generated in the neon-filled tube, pr",
+      "label": "Figure 1",
+      "page": 1,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\73d4a32d\\73d4a32d_p01_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "73d4a32d_fig_001",
+      "caption": "Figure 2 | Charge migration in molecules. A \ncalculation showing just the hole migration in the \nhole and particle migrations of Ete–NHNH–Ete \n(Ete = ethenyl), which ensues from the initial \nlocalization on the left side of the molecule. Figure \nreproduced with permission from ref. 17, \n© 2011 AIP.",
+      "label": "Figure 2",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\73d4a32d\\73d4a32d_p02_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "73d4a32d_fig_002",
+      "caption": "Figure 3 | Transient absorption measurements on He, taking advantage of the polarization of the medium. \nThe apparatus for attosecond transient absorption (FM, focusing mirror; GDOG, generalized double \noptical gating optics; GC1, argon or xenon-backed gas cell for attosecond pulse generation; Al, a",
+      "label": "Figure 3",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\73d4a32d\\73d4a32d_p03_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "setup"
+    }
+  ],
+  "tables": []
+}

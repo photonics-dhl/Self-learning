@@ -19,10 +19,6 @@
       "command": "npx",
       "args": ["-y", "mcp-mermaid"]
     },
-    "puppeteer": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-puppeteer"]
-    },
     "fetch": {
       "command": "npx",
       "args": ["-y", "@kazuph/mcp-fetch"]

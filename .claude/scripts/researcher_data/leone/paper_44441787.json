@@ -1,0 +1,37 @@
+{
+  "paper_id": "44441787",
+  "title": "Attosecond Optical Orientation",
+  "authors": [
+    "Lauren B. Drescher",
+    "1",
+    "2",
+    "3",
+    "* Nicola Mayer",
+    "4",
+    "3 Kylie Gannan",
+    "1 Jonah R. Adelman",
+    "1",
+    "Stephen R. Leone"
+  ],
+  "year": 2025,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\leone\\Drescher 等 - 2025 - Attosecond optical orientation.pdf",
+  "filename": "Drescher 等 - 2025 - Attosecond optical orientation.pdf",
+  "n_figs": 1,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "44441787_fig_000",
+      "caption": "FIG. 3.\n(a,c) Experimental and (b,d) calculated transient ab-\nsorption spectra of the He 1snp Rydberg series for (a,b) co- and\n(c,d) counterrotating circularly polarized XUV + NIR pulses.\nTaking the transient spectra at τ ¼ 1.3 fs, the experimental results\n(e), as well as the calculations using TDSE",
+      "label": "FIG. 3",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\44441787\\44441787_p03_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "spectrum"
+    }
+  ],
+  "tables": []
+}

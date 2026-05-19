@@ -1,0 +1,77 @@
+{
+  "paper_id": "a5082eb1",
+  "title": "Bright Coherent Ultrahigh Harmonics",
+  "authors": [
+    "Tenio Popmintchev",
+    "1* Ming-Chang Chen",
+    "1 Dimitar Popmintchev",
+    "1 Paul Arpin",
+    "1 Susannah Brown",
+    "1"
+  ],
+  "year": 2012,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\murnane\\Popmintchev 等 - 2012 - Bright coherent ultrahigh harmonics in the keV X-ray regime from mid-infrared femtosecond lasers.pdf",
+  "filename": "Popmintchev 等 - 2012 - Bright coherent ultrahigh harmonics in the keV X-ray regime from mid-infrared femtosecond lasers.pdf",
+  "n_figs": 4,
+  "n_tables": 1,
+  "figures": [
+    {
+      "figure_id": "a5082eb1_fig_000",
+      "caption": "Fig. 1. (A) Schematic illustration of the coherent kilo–electron volt x-ray super-\ncontinua emitted when a mid-IR laser pulse is focused into a high-pressure gas-filled\nwaveguide. The experimental phase-matched harmonic signal grows quadratically\nwith pressure, demonstrating excellent phase-matched ",
+      "label": "Fig. 1",
+      "page": 1,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a5082eb1\\a5082eb1_p01_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    },
+    {
+      "figure_id": "a5082eb1_fig_001",
+      "caption": "Fig. 2. (A) Predicted and observed HHG phase-matching cutoffs as a function of laser wavelength from\nthe UV to the mid-IR. Solid circles show the observed cutoffs; open circles show the predicted cutoffs for Ar\nand Ne [which cannot be reached due to inner-shell absorption, as shown in (B)]. Solid sq",
+      "label": "Fig. 2",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a5082eb1\\a5082eb1_p02_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "a5082eb1_fig_002",
+      "caption": "Fig. 3. (A) Measured HHG yield in Ar as a function of pressure and photon energy,\nshowing two peaks: one at 3-atm pressure due to pressure-tuned phase matching and\na second at 26-atm pressure due to the additional presence of laser-beam spatio-temporal self-confinement. (B) Experimental HHG beam pro",
+      "label": "Fig. 3",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a5082eb1\\a5082eb1_p03_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "a5082eb1_fig_003",
+      "caption": "Fig. 4. (A) X-ray experimental beam profile. (B and C) Young’s double-slit diffraction patterns taken by\nilluminating 5-mm slits, separated by 10 mm, with the beam shown in (A). There is excellent agreement\nbetween the experimentally observed (purple line) and theoretically predicted (blue line) dif",
+      "label": "Fig. 4",
+      "page": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a5082eb1\\a5082eb1_p04_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "a5082eb1_tab_000",
+      "paper_id": "a5082eb1",
+      "table_label": "Table 1",
+      "table_caption": "Table 1. Interstellar flow parameters in ecliptic (J2000) and galactic coordinates.",
+      "page_num": 5,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a5082eb1\\a5082eb1_p05_t00.png",
+      "width": 1244,
+      "height": 2376
+    }
+  ]
+}

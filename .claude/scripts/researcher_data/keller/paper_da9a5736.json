@@ -1,0 +1,42 @@
+{
+  "paper_id": "da9a5736",
+  "title": "LETTERS",
+  "authors": [
+    "Adrian N. Pfeiffer1*",
+    "Claudio Cirelli1",
+    "Mathias Smolarski1",
+    "Darko Dimitrovski2*"
+  ],
+  "year": 2011,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\keller\\Pfeiffer 等 - 2012 - Attoclock reveals natural coordinates of the laser-induced tunnelling current flow in atoms.pdf",
+  "filename": "Pfeiffer 等 - 2012 - Attoclock reveals natural coordinates of the laser-induced tunnelling current flow in atoms.pdf",
+  "n_figs": 2,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "da9a5736_fig_000",
+      "caption": "Figure 1 | Strong-ﬁeld tunnelling. Laser-induced adiabatic tunnelling\npicture19,29 where the laser frequency is much smaller than the\noscillation frequency of the bound-state electron. Our helium and\nargon experiments in the near-infrared region fulﬁl this approximation\n(see Supplementary Informatio",
+      "label": "Figure 1",
+      "page": 2,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\da9a5736\\da9a5736_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "da9a5736_fig_001",
+      "caption": "Figure 3 | Systematic error reduction in angular streaking. Applying both clockwise and anticlockwise polarization under the same experimental\nconditions minimizes systematic errors with the attoclock. The dynamics of the tunnel ionization event is preserved; the clockwise and anticlockwise ﬁeld\nwil",
+      "label": "Figure 3",
+      "page": 3,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\da9a5736\\da9a5736_p03_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    }
+  ],
+  "tables": []
+}

@@ -1,0 +1,359 @@
+[
+  {
+    "doi": "10.1126/science.aaj2198",
+    "title": "Femtosecond x-ray spectroscopy of an electrocyclic ring-opening reaction",
+    "year": "2017",
+    "cites": 349,
+    "journal": "Science",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Andrew",
+        "lastName": "Attar"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Aditi",
+        "lastName": "Bhattacherjee"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "C.",
+        "lastName": "D. Pemmaraju"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kirsten",
+        "lastName": "Schnorr"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kristina",
+        "lastName": "D. Closser"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "David",
+        "lastName": "Prendergast"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Stephen",
+        "lastName": "R. Leone"
+      }
+    ]
+  },
+  {
+    "doi": "10.1088/1361-6455/aa9735",
+    "title": "Roadmap of ultrafast x-ray atomic and molecular physics",
+    "year": "2018",
+    "cites": 335,
+    "journal": "Journal of Physics B Atomic Molecular and Optical Physics",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Linda",
+        "lastName": "Young"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kiyoshi",
+        "lastName": "Ueda"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Markus",
+        "lastName": "Gühr"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "P.",
+        "lastName": "H. Bucksbaum"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Simon"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Shaul",
+        "lastName": "Mukamel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nina",
+        "lastName": "Rohringer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kevin",
+        "lastName": "C. Prince"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "C.",
+        "lastName": "Masciovecchio"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michael",
+        "lastName": "Meyer"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/nmat4936",
+    "title": "Excitation-wavelength-dependent small polaron trapping of photoexcited carriers in α-Fe2O3",
+    "year": "2017",
+    "cites": 258,
+    "journal": "Nature Materials",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Lucas",
+        "lastName": "M. Carneiro"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Scott",
+        "lastName": "K. Cushing"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chong",
+        "lastName": "Liu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yude",
+        "lastName": "Su"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Peidong",
+        "lastName": "Yang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "A.",
+        "lastName": "Paul Alivisatos"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Stephen",
+        "lastName": "R. Leone"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/nphoton.2014.48",
+    "title": "What will it take to observe processes in 'real time'?",
+    "year": "2014",
+    "cites": 256,
+    "journal": "Nature Photonics",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Stephen",
+        "lastName": "R. Leone"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "C.",
+        "lastName": "William McCurdy"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Joachim",
+        "lastName": "Burgdörfer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Lorenz",
+        "lastName": "S. Cederbaum"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Zenghu",
+        "lastName": "Chang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nirit",
+        "lastName": "Dudovich"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Johannes",
+        "lastName": "Feist"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chris",
+        "lastName": "H. Greene"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Misha",
+        "lastName": "Ivanov"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Reinhard",
+        "lastName": "Kienberger"
+      }
+    ]
+  },
+  {
+    "doi": "10.1098/rsta.2017.0463",
+    "title": "Transient absorption spectroscopy using high harmonic generation: a review of ultrafast X-ray dynamics in molecules and solids",
+    "year": "2019",
+    "cites": 232,
+    "journal": "Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Romain",
+        "lastName": "Géneaux"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Hugo",
+        "lastName": "J. B. Marroux"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alexander",
+        "lastName": "Guggenmos"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Daniel",
+        "lastName": "M. Neumark"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Stephen",
+        "lastName": "R. Leone"
+      }
+    ]
+  },
+  {
+    "doi": "10.1063/1.3000004",
+    "title": "The multiplexed chemical kinetic photoionization mass spectrometer: A new approach to isomer-resolved chemical kinetics",
+    "year": "2008",
+    "cites": 229,
+    "journal": "Review of Scientific Instruments",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "David",
+        "lastName": "L. Osborn"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Peng",
+        "lastName": "Zou"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "H.",
+        "lastName": "A. Johnsen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Carl",
+        "lastName": "C. Hayden"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Craig",
+        "lastName": "A. Taatjes"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vadim",
+        "lastName": "D. Knyazev"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Simon",
+        "lastName": "W. North"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Darcy",
+        "lastName": "S. Peterka"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Musahid",
+        "lastName": "Ahmed"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Stephen",
+        "lastName": "R. Leone"
+      }
+    ]
+  },
+  {
+    "doi": "10.1146/annurev-physchem-040215-112025",
+    "title": "Real-Time Probing of Electron Dynamics Using Attosecond Time-Resolved Spectroscopy",
+    "year": "2016",
+    "cites": 224,
+    "journal": "Annual Review of Physical Chemistry",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Krupa",
+        "lastName": "Ramasesha"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Stephen",
+        "lastName": "R. Leone"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Daniel",
+        "lastName": "M. Neumark"
+      }
+    ]
+  },
+  {
+    "doi": "10.1364/ol.31.000975",
+    "title": "Single attosecond pulse generation in the multicycle-driver regime by adding a weak second-harmonic field",
+    "year": "2006",
+    "cites": 213,
+    "journal": "Optics Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Thomas",
+        "lastName": "Pfeifer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "L.",
+        "lastName": "Gallmann"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mark",
+        "lastName": "J. Abel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Daniel",
+        "lastName": "M. Neumark"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Stephen",
+        "lastName": "R. Leone"
+      }
+    ]
+  }
+]

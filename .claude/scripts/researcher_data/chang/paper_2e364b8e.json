@@ -1,0 +1,62 @@
+{
+  "paper_id": "2e364b8e",
+  "title": "178",
+  "authors": [
+    "high-order harmonic generation (HHG) in 20011",
+    "the exten­"
+  ],
+  "year": 2014,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\chang\\Chini 等 - 2014 - The generation, characterization and applications of broadband isolated attosecond pulses.pdf",
+  "filename": "Chini 等 - 2014 - The generation, characterization and applications of broadband isolated attosecond pulses.pdf",
+  "n_figs": 3,
+  "n_tables": 1,
+  "figures": [
+    {
+      "figure_id": "2e364b8e_fig_000",
+      "caption": "Figure 1 | Gating an ultrabroadband isolated attosecond pulse. Various techniques have been demonstrated for generating isolated attosecond pulses: \na, Amplitude gating; b, ionization gating; c, polarization gating or DOG; d, the attosecond lighthouse effect. e,f Only the cutoff spectrum is usable w",
+      "label": "Figure 1",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2e364b8e\\2e364b8e_p03_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "spectrum"
+    },
+    {
+      "figure_id": "2e364b8e_fig_001",
+      "caption": "Figure 2 | Attosecond pulse characterization. Temporal measurements on ultrabroadband attosecond pulses necessitate methods that do not require \nnarrow-bandwidth approximations. a, In PROOF, the weak perturbation of the dressing NIR laser field imprints an interference oscillation on measured \ndelay",
+      "label": "Figure 2",
+      "page": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2e364b8e\\2e364b8e_p04_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "2e364b8e_fig_002",
+      "caption": "Figure 3 | Conventional methods for attosecond pulse compression. a, Various metal-foil filters have transmission and a negative GDD over a relatively \nbroad energy range. b, Spectrum and temporal profile before (grey lines in projections) and after (black lines in projections) passing through the Z",
+      "label": "Figure 3",
+      "page": 5,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2e364b8e\\2e364b8e_p05_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "2e364b8e_tab_000",
+      "paper_id": "2e364b8e",
+      "table_label": "Table 1",
+      "table_caption": "Table 1 | State of the art in ultrabroadband isolated attosecond pulse generation, compression and characterization.",
+      "page_num": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2e364b8e\\2e364b8e_p02_t00.png",
+      "width": 1862,
+      "height": 244
+    }
+  ]
+}

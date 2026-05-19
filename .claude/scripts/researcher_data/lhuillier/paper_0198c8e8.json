@@ -1,0 +1,51 @@
+{
+  "paper_id": "0198c8e8",
+  "title": "PHYSICAL REVIE%' A",
+  "authors": [
+    "VOLUME 49",
+    "NUMBER 3"
+  ],
+  "year": 1994,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\lhuillier\\Lewenstein 等 - 1994 - Theory of high-harmonic generation by low-frequency laser fields.pdf",
+  "filename": "Lewenstein 等 - 1994 - Theory of high-harmonic generation by low-frequency laser fields.pdf",
+  "n_figs": 3,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "0198c8e8_fig_000",
+      "caption": "FIG. 1. The\nfunction\n2~C(r)\n~\n(solid\nline)\nand\nthe\nki-\nnetic-energy\ngain EEq;„(r) (dashed line) as a function of the\nreturn\ntime 7'. Note that both functions\nhave the same ex-\ntrema at the same values of r.",
+      "label": "FIG. 1",
+      "page": 5,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\0198c8e8\\0198c8e8_p05_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "0198c8e8_fig_001",
+      "caption": "FIG. 6. Harmonic spectra for the GBR model with I„=30,\na = I„.The curve with open squares\nis obtained\nfor U„:10\nand the one with black squares\nfor U„= 20. The locations of\nthe phenomenological\nand exact cutoffs are indicated\nby the\narrows.",
+      "label": "FIG. 6",
+      "page": 11,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\0198c8e8\\0198c8e8_p11_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "plot"
+    },
+    {
+      "figure_id": "0198c8e8_fig_002",
+      "caption": "FIG. 8. Comparison\nof intensity\ndependences\nof the 35th\nharmonic\nwith\n(open squares),\nand without\n(black squares)\ndepletion.\nBoth curves are obtained\nfor the GBR model with\nI„=5, o. = 2I„. The duration\nof the pulse t~ is taken to be\n50 optical cycles.",
+      "label": "FIG. 8",
+      "page": 13,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\0198c8e8\\0198c8e8_p13_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "plot"
+    }
+  ],
+  "tables": []
+}

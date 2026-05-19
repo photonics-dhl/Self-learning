@@ -1,0 +1,45 @@
+{
+  "paper_id": "dff7caac",
+  "title": "ULTRAFAST DYNAMICS",
+  "authors": [
+    "Martin Schultze",
+    "1",
+    "2*† Krupa Ramasesha",
+    "1* C.D. Pemmaraju",
+    "3 S.A. Sato",
+    "4 D. Whitmore",
+    "1"
+  ],
+  "year": 2014,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\leone\\Schultze 等 - 2014 - Attosecond band-gap dynamics in silicon.pdf",
+  "filename": "Schultze 等 - 2014 - Attosecond band-gap dynamics in silicon.pdf",
+  "n_figs": 2,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "dff7caac_fig_000",
+      "caption": "Fig. 1. Ultrafast spectroscopy of band-gap dy-\nnamics. (A) An intense few-cycle laser pump\npulse with a spectrum covering the entire visible\nwavelength range excites electrons into the\nconduction band, where they are probed by an\nultrabroadband attosecond XUV probe pulse.\nChanges in the electronic p",
+      "label": "Fig. 1",
+      "page": 1,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\dff7caac\\dff7caac_p01_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "spectrum"
+    },
+    {
+      "figure_id": "dff7caac_fig_001",
+      "caption": "Fig. 2. Attosecond transient absorption spectroscopy of silicon. (A)\nThe injection of electrons into conduction band states of silicon by a few-\ncycle near-infrared laser pump-pulse modifies the derivative of the XUV-\nabsorbance ∂A/∂E plotted as a function of probe-photon energy EXUV and\ntime delay ",
+      "label": "Fig. 2",
+      "page": 2,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\dff7caac\\dff7caac_p02_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    }
+  ],
+  "tables": []
+}

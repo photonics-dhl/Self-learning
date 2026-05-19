@@ -1,0 +1,179 @@
+{
+  "paper_id": "d15aed5a",
+  "title": "Hu et al. Light: Science & Applications  (2026) 15:24",
+  "authors": [],
+  "year": 2026,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\Hu 等 - 2026 - Ultrafast lasers for attosecond science.pdf",
+  "filename": "Hu 等 - 2026 - Ultrafast lasers for attosecond science.pdf",
+  "n_figs": 13,
+  "n_tables": 2,
+  "figures": [
+    {
+      "figure_id": "d15aed5a_fig_000",
+      "caption": "Fig. 1 Relationship between attosecond pulse applications and driving laser parameters. Adapted from ref.28–31,35,36, with permission from\nSpringer Nature. Copyright © 2004–2023. Reproduced from ref.32 under a Creative Commons Attribution 4.0 International License (CC BY 4.0);\nAdapted from ref.33, w",
+      "label": "Fig. 1",
+      "page": 2,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d15aed5a\\d15aed5a_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "d15aed5a_fig_001",
+      "caption": "Fig. 3 Schemes of three parametric ampliﬁcation conﬁgurations. a OPA; b OPCPA; c DC-OPA. Redrawn based on ref.145",
+      "label": "Fig. 3",
+      "page": 7,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d15aed5a\\d15aed5a_p07_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "d15aed5a_fig_002",
+      "caption": "Fig. 4 Example setup of a high-energy, single-cycle MIR laser source based on the advanced DC-OPA scheme150. Reproduced from ref.150,\nlicensed under CC BY 4.0",
+      "label": "Fig. 4",
+      "page": 8,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d15aed5a\\d15aed5a_p08_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "setup"
+    },
+    {
+      "figure_id": "d15aed5a_fig_003",
+      "caption": "Fig. 5 Concept of FOPA151. Reproduced from ref.151, licensed under\nCC BY 4.0",
+      "label": "Fig. 5",
+      "page": 8,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d15aed5a\\d15aed5a_p08_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "d15aed5a_fig_004",
+      "caption": "Fig. 6 FOPA with a non-collinear geometry158. Reprinted with permission from ref.158 © Optica Publishing Group",
+      "label": "Fig. 6",
+      "page": 9,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d15aed5a\\d15aed5a_p09_f04.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "d15aed5a_fig_005",
+      "caption": "Fig. 7 Schematic of a coherent beam combination setup including an active control of the optical phase168. Adapted with permission from\nref.168. © Optica Publishing Group",
+      "label": "Fig. 7",
+      "page": 10,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d15aed5a\\d15aed5a_p10_f05.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    },
+    {
+      "figure_id": "d15aed5a_fig_006",
+      "caption": "Fig. 8 Schematic of a DPA setup175. Reprinted with permission from\nref.175 © Optica Publishing Group",
+      "label": "Fig. 8",
+      "page": 11,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d15aed5a\\d15aed5a_p11_f06.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    },
+    {
+      "figure_id": "d15aed5a_fig_007",
+      "caption": "Fig. 9 Schematic of pulse compression using HCF technology. a Conventional post-compression with a gas-ﬁlled HCF; b Soliton self-\ncompression dynamics in a gas-ﬁlled HCF50. Reproduced from ref.50, with permission from Springer Nature. Copyright © 2019 Springer Nature",
+      "label": "Fig. 9",
+      "page": 13,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d15aed5a\\d15aed5a_p13_f07.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    },
+    {
+      "figure_id": "d15aed5a_fig_008",
+      "caption": "Fig. 10 Illustration showing the multiple plates arrangement\nconsisting of four thin fused silica plates aligned at Brewster’s\nangle and located at the waist of the incident beam. Redrawn\nbased on ref.228",
+      "label": "Fig. 10",
+      "page": 13,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d15aed5a\\d15aed5a_p13_f08.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    },
+    {
+      "figure_id": "d15aed5a_fig_009",
+      "caption": "Fig. 11 The structure of the MPC248. Adapted with permission from\nref.248 © Optica Publishing Group",
+      "label": "Fig. 11",
+      "page": 14,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d15aed5a\\d15aed5a_p14_f09.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "d15aed5a_fig_010",
+      "caption": "Fig. 14 Concept of the direct feed-forward method for\nstabilization of CEP284. fCE is the carrier-envelope offset frequency.\nReproduced from ref.284, with permission from Springer Nature.\nCopyright © 2010 Springer Nature",
+      "label": "Fig. 14",
+      "page": 19,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d15aed5a\\d15aed5a_p19_f10.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "d15aed5a_fig_011",
+      "caption": "Fig. 15 An experimental setup used to stabilize CEP based on AOFS284. MSF microstructured ﬁber, AOFS acousto-optic frequency shifter with\nnumbered output orders, PPLN periodically poled lithium niobate crystal, IF interference ﬁlter, APD avalanche photodiode. DSO digital sampling\noscilloscope. Inter",
+      "label": "Fig. 15",
+      "page": 20,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d15aed5a\\d15aed5a_p20_f11.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "d15aed5a_fig_012",
+      "caption": "Fig. 16 Schematic of a cavity-enhanced HHG setup454. Adapted from ref.454, with permission from Springer Nature. Copyright © 2021\nSpringer Nature",
+      "label": "Fig. 16",
+      "page": 21,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d15aed5a\\d15aed5a_p21_f12.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "d15aed5a_tab_000",
+      "paper_id": "d15aed5a",
+      "table_label": "Table 1\n",
+      "table_caption": "Table 1\nCharacteristics of OPA, OPCPA, FOPA, and DC-OPA. Adapted from ref.146, licensed under CC BY 4.0",
+      "page_num": 10,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d15aed5a\\d15aed5a_p10_t00.png",
+      "width": 1875,
+      "height": 336
+    },
+    {
+      "table_id": "d15aed5a_tab_001",
+      "paper_id": "d15aed5a",
+      "table_label": "Table 2\n",
+      "table_caption": "Table 2\nResearch status of HCF, MPSC, and MPC for generating few-cycle pulses",
+      "page_num": 12,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d15aed5a\\d15aed5a_p12_t01.png",
+      "width": 1421,
+      "height": 344
+    }
+  ]
+}

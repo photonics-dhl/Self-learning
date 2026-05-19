@@ -37,9 +37,49 @@ def init_discussion_log():
     print(f"[Session Start] Discussion log initialized: {DISCUSSION_LOG}")
 
 
+def print_handoff():
+    """Print HANDOFF.md content for session continuity."""
+    PROJECT_ROOT = Path(__file__).parent.parent.parent.absolute()
+    HANDOFF = PROJECT_ROOT / "HANDOFF.md"
+
+    if not HANDOFF.exists():
+        print("\n[HANDOFF] No HANDOFF.md found. New session with no prior context.")
+        return
+
+    content = HANDOFF.read_text(encoding='utf-8', errors='ignore')
+
+    # Check if HANDOFF is empty template (no actual content filled)
+    sections_filled = False
+    for section in ['## Last Task', '## Key Decisions', '## Current Blockers', '## Next Steps']:
+        # Find section and check if next line has non-empty content
+        idx = content.find(section)
+        if idx >= 0:
+            next_line_start = content.find('\n', idx) + 1
+            if next_line_start < len(content):
+                next_line = content[next_line_start:content.find('\n', next_line_start)].strip()
+                if next_line and not next_line.startswith('<!--'):
+                    sections_filled = True
+                    break
+
+    if not sections_filled:
+        print("\n[HANDOFF] HANDOFF.md exists but is empty — no prior task state recorded.")
+        return
+
+    # Print HANDOFF summary (first 2000 chars, key sections only)
+    summary = content[:2000]
+    print("\n" + "=" * 60)
+    print("[HANDOFF] Prior session state:")
+    print("=" * 60)
+    print(summary)
+    if len(content) > 2000:
+        print(f"... (truncated, {len(content)} total chars)")
+    print("=" * 60)
+
+
 def main():
     try:
         init_discussion_log()
+        print_handoff()
     except Exception as e:
         print(f"[Session Start] Error: {e}")
 

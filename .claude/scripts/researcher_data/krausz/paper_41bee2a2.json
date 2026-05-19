@@ -1,0 +1,48 @@
+{
+  "paper_id": "41bee2a2",
+  "title": "Nature Photonics | Volume 19 | July 2025 | 772–777",
+  "authors": [],
+  "year": 2025,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\Heinzerling 等 - 2025 - Field-resolved attosecond solitons.pdf",
+  "filename": "Heinzerling 等 - 2025 - Field-resolved attosecond solitons.pdf",
+  "n_figs": 3,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "41bee2a2_fig_000",
+      "caption": "Fig. 1 | Generation and detection of a self-compressed attosecond soliton \nand dispersive wave. a, The simulated evolution of the electric field transient \nas it propagates along the hollow-core waveguide filled with helium gas. The \ncolour scale shows the instantaneous frequency of the field, with ",
+      "label": "Fig. 1",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\41bee2a2\\41bee2a2_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "41bee2a2_fig_001",
+      "caption": "Fig. 2 | Measurement set-up for the soliton and RDW generation and \ncharacterization via NPS.",
+      "label": "Fig. 2",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\41bee2a2\\41bee2a2_p02_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "41bee2a2_fig_002",
+      "caption": "Fig. 5 | Ionization gate triggered by attosecond soliton. a, A typical NPS \nmeasurement configuration without soliton generation when the fibre is \nremoved. b, The measured electric field of the VIS–NIR pulse that is usually used \nas fibre input with an intensity envelope FWHM of 2.9 fs. c, The Four",
+      "label": "Fig. 5",
+      "page": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\41bee2a2\\41bee2a2_p04_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

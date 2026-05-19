@@ -1,0 +1,90 @@
+{
+  "paper_id": "84a37544",
+  "title": "Attosecond real-time observation of electron tunnelling in atoms",
+  "authors": [
+    "N. M. Kabachnik3",
+    "6",
+    "H. Schro¨der2",
+    "M. Lezius2",
+    "K. L. Kompa2",
+    "H.-G. Muller5",
+    "M. J. J. Vrakking5",
+    "S. Hendel3"
+  ],
+  "year": 1960,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\kling\\Uiberacker 等 - 2007 - Attosecond real-time observation of electron tunnelling in atoms.pdf",
+  "filename": "Uiberacker 等 - 2007 - Attosecond real-time observation of electron tunnelling in atoms.pdf",
+  "n_figs": 6,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "84a37544_fig_000",
+      "caption": "Figure 1 | Strong-field ionization and pump-probe setting for its real-time\nobservation. a, Exposing an atom to a strong NIR laser field will result in a\nmodified potential (solid curve) composed of the Coulomb potential\n(dashed curve) and the time-dependent effective potential of the laser pulse.\nT",
+      "label": "Figure 1",
+      "page": 2,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\84a37544\\84a37544_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "plot"
+    },
+    {
+      "figure_id": "84a37544_fig_001",
+      "caption": "Figure 2 | Probing electron dynamics in atoms, molecules or solids with\nattosecond sampling techniques. A subfemtosecond XUV pulse triggers the\nmotion by inducing valence (process a) or core photoelectron emission\n(process b). The temporal evolution of photo- and Auger electron emission\n(process c) ",
+      "label": "Figure 2",
+      "page": 2,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\84a37544\\84a37544_p02_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "84a37544_fig_002",
+      "caption": "Figure 4 | Ne21 ion yield versus delay between the subfemtoscond XUV\npump and the few-cycle NIR probe: experiment and modelling. The peak\nintensity of the NIR probe was (7 6 1) 3 1013 W cm22. a, The experimental\ndata were acquired from six delay scans repeated under the same\nexperimental conditions.",
+      "label": "Figure 4",
+      "page": 3,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\84a37544\\84a37544_p03_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "84a37544_fig_003",
+      "caption": "Figure 3 | Energy levels and transitions in Ne11 and Ne21 ions relevant to\nthis study. The plotted levels represent energies required to ionize and\npossibly excite a neutral atom from its ground state. Absorption of photons\nof about 91-eV energy can produce singly or doubly charged ions with\nprobabi",
+      "label": "Figure 3",
+      "page": 3,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\84a37544\\84a37544_p03_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "84a37544_fig_004",
+      "caption": "Figure 4a shows the number of Ne21 ions detected as a function of\ndelay Dt between the XUV pump and NIR probe. Figure 4b compares\nthe prediction of the Yudin–Ivanov theory6 (lines) with the experi-\nmental data (squares). In our modelling the shake-up states were\npopulated instantly during XUV photoi",
+      "label": "Figure 4a",
+      "page": 4,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\84a37544\\84a37544_p04_f04.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "84a37544_fig_005",
+      "caption": "Figure 6 | Xe41 and Xe31 ion yields versus delay between the\nsubfemtosecond XUV pump and the few-cycle NIR probe. The data have\nbeen compiled from the results of five delay scans repeated under the same\nexperimental conditions. The signals were accumulated for 20 s at each delay\nsetting. The squares",
+      "label": "Figure 6",
+      "page": 5,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\84a37544\\84a37544_p05_f05.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

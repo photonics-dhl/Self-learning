@@ -1,0 +1,42 @@
+{
+  "paper_id": "44d818de",
+  "title": "LETTERS",
+  "authors": [
+    "D. R. Solli1",
+    "C. Ropers1",
+    "2",
+    "P. Koonath1 & B. Jalali1"
+  ],
+  "year": 2007,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\ropers\\Solli 等 - 2007 - Optical rogue waves.pdf",
+  "filename": "Solli 等 - 2007 - Optical rogue waves.pdf",
+  "n_figs": 2,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "44d818de_fig_000",
+      "caption": "Figure 2a shows the time trace and histogram of peak heights for a\ntrial of 1,000 events after red-pass filtering each output pulse at\nthe start of the solitonic shoulder illustrated in Fig. 2b. Clearly, the\nhistogram of heights is sharply peaked but has extended tails, as\nobserved in the experiment",
+      "label": "Figure 2a",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\44d818de\\44d818de_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "plot"
+    },
+    {
+      "figure_id": "44d818de_fig_001",
+      "caption": "Figure 3 | Time–wavelength profile of an optical rogue wave obtained from\na short-time Fourier transform. The optical wave has broad bandwidth and\nhas extremely steep slopes in the time domain compared with the typical\nevents. It appears as a ‘wall of light’ analogous to the ‘wall of water’\ndescript",
+      "label": "Figure 3",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\44d818de\\44d818de_p03_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

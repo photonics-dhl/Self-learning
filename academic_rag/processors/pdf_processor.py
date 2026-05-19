@@ -73,6 +73,7 @@ class PDFProcessor:
 
         # 创建Paper对象
         paper = Paper(
+            paper_id=file_hash[:16],  # Deterministic from file content hash
             title=metadata.get("title", pdf_path.stem),
             authors=metadata.get("authors", []),
             year=metadata.get("year", 0),
@@ -113,7 +114,11 @@ class PDFProcessor:
         return hasher.hexdigest()
 
     def _extract_metadata(self, pdf_path: Path) -> Dict[str, Any]:
-        """从PDF提取元数据 — font-size-aware title detection."""
+        """从PDF提取元数据 — font-size-aware title + Semantic Scholar fallback."""
+        import urllib.request
+        import urllib.parse
+        import urllib.error
+
         metadata = {
             "title": "",
             "authors": [],
@@ -124,6 +129,7 @@ class PDFProcessor:
             "num_pages": 0,
         }
 
+        first_page_text = ""
         try:
             with fitz.open(pdf_path) as doc:
                 metadata["num_pages"] = len(doc)
@@ -132,9 +138,11 @@ class PDFProcessor:
                 if doc_metadata:
                     metadata["title"] = doc_metadata.get("title", "")
                     metadata["doi"] = doc_metadata.get("doi", "")
+                    metadata["journal"] = doc_metadata.get("journal", "")
 
                 if len(doc) > 0:
                     first_page = doc[0]
+                    first_page_text = first_page.get_text()
 
                     # Font-size-aware title extraction
                     extracted_title = self._extract_title_from_page(first_page)
@@ -142,8 +150,7 @@ class PDFProcessor:
                         metadata["title"] = extracted_title
 
                     # Author extraction
-                    text = first_page.get_text()
-                    lines = [l.strip() for l in text.split("\n") if l.strip()]
+                    lines = [l.strip() for l in first_page_text.split("\n") if l.strip()]
                     if len(lines) > 1:
                         for line in lines[1:8]:
                             if "," in line and len(line) < 300:
@@ -152,29 +159,76 @@ class PDFProcessor:
                                     metadata["authors"] = [a.strip() for a in authors if a.strip()]
                                     break
 
-                    year_match = re.search(r"\b(19|20)\d{2}\b", text)
+                    year_match = re.search(r"\b(19|20)\d{2}\b", first_page_text)
                     if year_match:
                         metadata["year"] = int(year_match.group())
 
-                # Abstract extraction
-                for page in doc:
+                    # DOI extraction from page text (e.g., "DOI: 10.1038/...")
+                    if not metadata["doi"]:
+                        doi_match = re.search(
+                            r'\b(10\.\d{4,}(?:\.\d+)*/[-._;()/:a-zA-Z0-9]+)\b',
+                            first_page_text
+                        )
+                        if doi_match:
+                            raw_doi = doi_match.group(1).rstrip(".,);")
+                            if len(raw_doi) > 10:
+                                metadata["doi"] = raw_doi
+
+                # Abstract: 搜索前2页和最后1页
+                abstract_pages = list(doc[:2])
+                if len(doc) > 2:
+                    abstract_pages.append(doc[-1])
+                for page in abstract_pages:
                     text = page.get_text()
                     abstract_match = re.search(
-                        r"(?:Abstract|SUMMARY|摘要)[:\s]*([^\n]+(?:\n[^\n]+){1,10})",
+                        r"(?:Abstract|ABSTRACT|摘要)[—\-:\s]+((?:[^\n]+\n?){1,30})",
                         text,
-                        re.IGNORECASE | re.DOTALL
                     )
                     if abstract_match:
-                        metadata["abstract"] = abstract_match.group(1)[:1000]
-                        break
-
-                if doc_metadata:
-                    metadata["journal"] = doc_metadata.get("journal", "")
+                        abstract_text = abstract_match.group(1).strip()
+                        if len(abstract_text) > 50:
+                            metadata["abstract"] = abstract_text[:2000]
+                            break
 
         except Exception as e:
             print(f"Warning: Error extracting metadata from {pdf_path}: {e}")
 
+        # Semantic Scholar API fallback for DOI/abstract/journal
+        title = metadata.get("title", "").strip()
+        if title and (not metadata["doi"] or not metadata["abstract"] or not metadata["journal"]):
+            try:
+                encoded_title = urllib.parse.quote(title[:200])
+                url = (
+                    "https://api.semanticscholar.org/graph/v1/paper/search"
+                    f"?query={encoded_title}&limit=1"
+                    "&fields=title,abstract,externalIds,journal,year,authors"
+                )
+                req = urllib.request.Request(url)
+                req.add_header("User-Agent", "AcademicRAG/1.0")
+                with urllib.request.urlopen(req, timeout=10) as resp:
+                    data = json.loads(resp.read().decode())
+                    if data.get("data"):
+                        match = data["data"][0]
+                        s2_title = match.get("title", "")
+                        if self._title_similar(title, s2_title):
+                            if not metadata["doi"] and match.get("externalIds", {}).get("DOI"):
+                                metadata["doi"] = match["externalIds"]["DOI"]
+                            if not metadata["abstract"] and match.get("abstract"):
+                                metadata["abstract"] = match["abstract"][:2000]
+                            if not metadata["journal"] and match.get("journal", {}).get("name"):
+                                metadata["journal"] = match["journal"]["name"]
+                            if not metadata["year"] and match.get("year"):
+                                metadata["year"] = match["year"]
+            except Exception as e:
+                print(f"Warning: Semantic Scholar lookup failed for '{title[:60]}...': {e}")
+
         return metadata
+
+    def _title_similar(self, t1: str, t2: str) -> bool:
+        """Title similarity: 首3个单词相同即匹配"""
+        def norm(t):
+            return re.sub(r'[^a-z0-9\s]', '', t.lower()).split()[:3]
+        return norm(t1) == norm(t2)
 
     def _extract_title_from_page(self, page: fitz.Page) -> str:
         """Extract paper title from first page using font-size + position heuristics.
@@ -526,16 +580,18 @@ class PDFProcessor:
         return figures
 
     def _extract_tables(self, pdf_path: Path, paper_id: str) -> List[Dict[str, Any]]:
-        """从PDF提取表格 — caption-driven + fitz渲染。
-
-        返回表格字典列表，每个包含 table_id, paper_id, table_label,
-        table_caption, page_num, image_path, width, height。
-        """
+        """从PDF提取表格 — caption-driven fitz渲染 + pdfplumber结构化提取."""
         tables = []
         table_counter = 0
 
         try:
             with fitz.open(pdf_path) as doc:
+                # Open pdfplumber for structured extraction
+                try:
+                    pplumber = pdfplumber.open(str(pdf_path))
+                except Exception:
+                    pplumber = None
+
                 for page_num, page in enumerate(doc, 1):
                     captions = self._find_real_captions(page, "Table")
 
@@ -543,6 +599,9 @@ class PDFProcessor:
                         continue
 
                     captions.sort(key=lambda c: c['bbox'].y0)
+
+                    # Get pdfplumber page for structured extraction
+                    plumber_page = pplumber.pages[page_num - 1] if pplumber else None
 
                     for i, cap in enumerate(captions):
                         cap_bbox = cap['bbox']
@@ -570,6 +629,20 @@ class PDFProcessor:
                         table_bbox.x0 = max(page.rect.x0, table_bbox.x0 - 5)
                         table_bbox.x1 = min(page.rect.x1, table_bbox.x1 + 5)
 
+                        # Structured extraction via pdfplumber
+                        csv_data = ""
+                        if plumber_page:
+                            try:
+                                plumber_tables = plumber_page.within_bbox(
+                                    (table_bbox.x0, table_bbox.y0,
+                                     table_bbox.x1, table_bbox.y1)
+                                ).extract_table()
+                                if plumber_tables:
+                                    csv_data = self._table_to_csv(plumber_tables)
+                            except Exception:
+                                pass
+
+                        # PNG rendering (always)
                         try:
                             pix = page.get_pixmap(clip=table_bbox, dpi=self.image_dpi)
                         except Exception as e:
@@ -593,30 +666,51 @@ class PDFProcessor:
                             'image_path': str(img_path),
                             'width': pix.width,
                             'height': pix.height,
+                            'table_data': csv_data,
                         })
                         table_counter += 1
+
+                if pplumber:
+                    pplumber.close()
 
         except Exception as e:
             print(f"Warning: Error extracting tables from {pdf_path}: {e}")
 
         return tables
 
+    def _table_to_csv(self, table: list) -> str:
+        """pdfplumber table → CSV string"""
+        lines = []
+        for row in table:
+            if row:
+                cells = [str(cell or "").replace(",", ";").replace("\n", " ") for cell in row]
+                lines.append(",".join(cells))
+        return "\n".join(lines)
+
     def _classify_figure_type(self, caption: str) -> str:
         """根据标题内容分类图表类型"""
         caption_lower = caption.lower()
 
-        if any(kw in caption_lower for kw in ["photo", "image", "micrograph", "sem", "tem", "aftm"]):
+        if any(kw in caption_lower for kw in ["photo", "image", "micrograph", "sem", "tem", "aftm",
+                                                "afm", "stm", "microscope"]):
             return "photo"
-        elif any(kw in caption_lower for kw in ["diagram", "schematic", "illustration"]):
+        elif any(kw in caption_lower for kw in ["schematic", "diagram", "illustration", "layout",
+                                                  "architecture", "sketch"]):
             return "diagram"
         elif any(kw in caption_lower for kw in ["plot", "curve", "trace"]):
             return "plot"
-        elif any(kw in caption_lower for kw in ["graph", "chart"]):
+        elif any(kw in caption_lower for kw in ["graph", "chart", "histogram"]):
             return "graph"
-        elif any(kw in caption_lower for kw in ["spectrum", "spectra"]):
+        elif any(kw in caption_lower for kw in ["spectrum", "spectra", "spectral"]):
             return "spectrum"
-        elif any(kw in caption_lower for kw in ["setup", "apparatus", "system"]):
+        elif any(kw in caption_lower for kw in ["setup", "apparatus", "system", "schematic",
+                                                  "experimental", "characterization",
+                                                  "measured", "measurement"]):
             return "setup"
+        elif any(kw in caption_lower for kw in ["simulat", "numerical", "calculated",
+                                                  "computed", "theoretical", "tddft",
+                                                  "model", "tdse"]):
+            return "simulation"
         else:
             return "unknown"
 

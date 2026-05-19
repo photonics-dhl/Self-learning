@@ -1,0 +1,56 @@
+{
+  "paper_id": "d20f9d87",
+  "title": "ATTOSECOND DYNAMICS",
+  "authors": [
+    "F. Calegari",
+    "1 D. Ayuso",
+    "2 A. Trabattoni",
+    "3 L. Belshaw",
+    "4 S. De Camillis",
+    "4 S. Anumula",
+    "3"
+  ],
+  "year": 2002,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\nisoli\\Calegari 等 - 2014 - Ultrafast electron dynamics in phenylalanine initiated by attosecond pulses.pdf",
+  "filename": "Calegari 等 - 2014 - Ultrafast electron dynamics in phenylalanine initiated by attosecond pulses.pdf",
+  "n_figs": 3,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "d20f9d87_fig_000",
+      "caption": "Fig. 2. Pump-probe measurements. (A) Yield of doubly charged immonium ion (mass/charge = 60) as\na function of pump-probe delay, measured with 3-fs temporal steps.The red line is a fitting curve with an\nexponential rise time of 10 fs and an exponential relaxation time of 25 fs. (B) Yield of doubly ch",
+      "label": "Fig. 2",
+      "page": 2,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d20f9d87\\d20f9d87_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "d20f9d87_fig_001",
+      "caption": "Fig. 3. Fourier analysis of charge dynamics. Spectrograms calculated for the measured data of Fig. 2C\n(A) and for the calculated hole density integrated over the amine group for the most abundant con-\nformer (B). The sliding window Fourier transforms have been calculated by using a Gaussian window\nf",
+      "label": "Fig. 3",
+      "page": 3,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d20f9d87\\d20f9d87_p03_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "d20f9d87_fig_002",
+      "caption": "Fig. 4. Snapshots of hole dynamics. Relative variation of the hole density with respect to its time-averaged value as a function of time for the most abundant\nconformer. Isosurfaces of the relative hole density are shown for cutoff values of +10−4 arbitrary units (yellow) and –10−4 (purple).Time is ",
+      "label": "Fig. 4",
+      "page": 4,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d20f9d87\\d20f9d87_p04_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

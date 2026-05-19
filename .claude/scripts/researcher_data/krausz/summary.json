@@ -1,0 +1,316 @@
+{
+  "researcher": "krausz",
+  "n_papers": 16,
+  "n_figures": 209,
+  "papers": [
+    {
+      "paper_id": "9d9019ec",
+      "title": "Attosecond physics",
+      "authors": [],
+      "year": 0,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\Krausz和Ivanov - 2009 - Attosecond physics.pdf",
+      "filename": "Krausz和Ivanov - 2009 - Attosecond physics.pdf",
+      "n_figs": 60,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "c4d31b7d",
+      "title": "Attosecond physics",
+      "authors": [
+        "Department für Physik",
+        "Ludwig-Maximilians-Universitat",
+        "Am Coulombwall 1",
+        "D-85748"
+      ],
+      "year": 2009,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\Krausz和Ivanov - 2009 - Attosecond physics.pdf",
+      "filename": "Krausz和Ivanov - 2009 - Attosecond physics.pdf",
+      "n_figs": 25,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "d47f9289",
+      "title": "Attosecond physics",
+      "authors": [
+        "Krausz, F.",
+        "Ivanov, M."
+      ],
+      "year": 2009,
+      "journal": "Reviews of Modern Physics",
+      "doi": "",
+      "pdf_path": "z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\Krausz和Ivanov - 2009 - Attosecond physics.pdf",
+      "filename": "Krausz和Ivanov - 2009 - Attosecond physics.pdf",
+      "n_figs": 23,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "a17c64f6",
+      "title": "Nobel Lecture: Sub-atomic motions*",
+      "authors": [],
+      "year": 0,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\Krausz - 2024 - Nobel lecture sub-atomic motions.pdf",
+      "filename": "Krausz - 2024 - Nobel lecture sub-atomic motions.pdf",
+      "n_figs": 20,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "9e2f425a",
+      "title": "Ultrafast lasers for attosecond science",
+      "authors": [],
+      "year": 0,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\Hu 等 - 2026 - Ultrafast lasers for attosecond science.pdf",
+      "filename": "Hu 等 - 2026 - Ultrafast lasers for attosecond science.pdf",
+      "n_figs": 16,
+      "n_tables": 2,
+      "tables": [
+        {
+          "table_id": "9e2f425a_tab_000",
+          "paper_id": "9e2f425a",
+          "table_label": "Table 1\n",
+          "table_caption": "Table 1\nCharacteristics of OPA, OPCPA, FOPA, and DC-OPA. Adapted from ref.146, licensed under CC BY 4.0",
+          "page_num": 10,
+          "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\9e2f425a\\9e2f425a_p10_t00.png",
+          "width": 1875,
+          "height": 336
+        },
+        {
+          "table_id": "9e2f425a_tab_001",
+          "paper_id": "9e2f425a",
+          "table_label": "Table 2\n",
+          "table_caption": "Table 2\nResearch status of HCF, MPSC, and MPC for generating few-cycle pulses",
+          "page_num": 12,
+          "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\9e2f425a\\9e2f425a_p12_t01.png",
+          "width": 1421,
+          "height": 344
+        }
+      ]
+    },
+    {
+      "paper_id": "0044a2d6",
+      "title": "Hu et al. Light: Science & Applications  (2026) 15:24",
+      "authors": [],
+      "year": 2026,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\Hu 等 - 2026 - Ultrafast lasers for attosecond science.pdf",
+      "filename": "Hu 等 - 2026 - Ultrafast lasers for attosecond science.pdf",
+      "n_figs": 13,
+      "n_tables": 2,
+      "tables": [
+        {
+          "table_id": "0044a2d6_tab_000",
+          "paper_id": "0044a2d6",
+          "table_label": "Table 1\n",
+          "table_caption": "Table 1\nCharacteristics of OPA, OPCPA, FOPA, and DC-OPA. Adapted from ref.146, licensed under CC BY 4.0",
+          "page_num": 10,
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\0044a2d6\\0044a2d6_p10_t00.png",
+          "width": 1875,
+          "height": 336
+        },
+        {
+          "table_id": "0044a2d6_tab_001",
+          "paper_id": "0044a2d6",
+          "table_label": "Table 2\n",
+          "table_caption": "Table 2\nResearch status of HCF, MPSC, and MPC for generating few-cycle pulses",
+          "page_num": 12,
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\0044a2d6\\0044a2d6_p12_t01.png",
+          "width": 1421,
+          "height": 344
+        }
+      ]
+    },
+    {
+      "paper_id": "630a25cd",
+      "title": "Nobel Lecture: Sub-atomic motions*",
+      "authors": [
+        "Ludwig-Maximilians-Universit¨at M¨unchen",
+        "Munich",
+        "Germany"
+      ],
+      "year": 2024,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\Krausz - 2024 - Nobel lecture sub-atomic motions.pdf",
+      "filename": "Krausz - 2024 - Nobel lecture sub-atomic motions.pdf",
+      "n_figs": 13,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "d15aed5a",
+      "title": "Hu et al. Light: Science & Applications  (2026) 15:24",
+      "authors": [],
+      "year": 2026,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\Hu 等 - 2026 - Ultrafast lasers for attosecond science.pdf",
+      "filename": "Hu 等 - 2026 - Ultrafast lasers for attosecond science.pdf",
+      "n_figs": 13,
+      "n_tables": 2,
+      "tables": [
+        {
+          "table_id": "d15aed5a_tab_000",
+          "paper_id": "d15aed5a",
+          "table_label": "Table 1\n",
+          "table_caption": "Table 1\nCharacteristics of OPA, OPCPA, FOPA, and DC-OPA. Adapted from ref.146, licensed under CC BY 4.0",
+          "page_num": 10,
+          "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d15aed5a\\d15aed5a_p10_t00.png",
+          "width": 1875,
+          "height": 336
+        },
+        {
+          "table_id": "d15aed5a_tab_001",
+          "paper_id": "d15aed5a",
+          "table_label": "Table 2\n",
+          "table_caption": "Table 2\nResearch status of HCF, MPSC, and MPC for generating few-cycle pulses",
+          "page_num": 12,
+          "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d15aed5a\\d15aed5a_p12_t01.png",
+          "width": 1421,
+          "height": 344
+        }
+      ]
+    },
+    {
+      "paper_id": "82ba12ce",
+      "title": "Attosecond metrology",
+      "authors": [],
+      "year": 0,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\35107000.pdf",
+      "filename": "35107000.pdf",
+      "n_figs": 7,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "04d28f96",
+      "title": "Field-resolved attosecond solitons",
+      "authors": [],
+      "year": 0,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\Heinzerling 等 - 2025 - Field-resolved attosecond solitons.pdf",
+      "filename": "Heinzerling 等 - 2025 - Field-resolved attosecond solitons.pdf",
+      "n_figs": 5,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "43eeb79d",
+      "title": "Attosecond science",
+      "authors": [],
+      "year": 0,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\NP-2007-Attosecond science.pdf",
+      "filename": "NP-2007-Attosecond science.pdf",
+      "n_figs": 5,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "41bee2a2",
+      "title": "Nature Photonics | Volume 19 | July 2025 | 772–777",
+      "authors": [],
+      "year": 2025,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\Heinzerling 等 - 2025 - Field-resolved attosecond solitons.pdf",
+      "filename": "Heinzerling 等 - 2025 - Field-resolved attosecond solitons.pdf",
+      "n_figs": 3,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "7d9cafd2",
+      "title": "PROGRESS ARTICLE",
+      "authors": [
+        "P. B. CORKUM1 AND FERENC KRAUSZ2",
+        "3"
+      ],
+      "year": 2007,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\NP-2007-Attosecond science.pdf",
+      "filename": "NP-2007-Attosecond science.pdf",
+      "n_figs": 2,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "98e7b4b8",
+      "title": "PROGRESS ARTICLE",
+      "authors": [
+        "P. B. CORKUM1 AND FERENC KRAUSZ2",
+        "3"
+      ],
+      "year": 2007,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\NP-2007-Attosecond science.pdf",
+      "filename": "NP-2007-Attosecond science.pdf",
+      "n_figs": 2,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "768267fb",
+      "title": "NATURE | VOL 414 | 29 NOVEMBER 2001 | www.nature.com",
+      "authors": [
+        "M. Hentschel*²",
+        "R. Kienberger*²",
+        "Ch. Spielmann*",
+        "G. A. Reider*",
+        "N. Milosevic*",
+        "T. Brabec*",
+        "P. Corkum³",
+        "U. Heinzmann§",
+        "M. Drescher§"
+      ],
+      "year": 2001,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\35107000.pdf",
+      "filename": "35107000.pdf",
+      "n_figs": 1,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "b8eca62a",
+      "title": "NATURE | VOL 414 | 29 NOVEMBER 2001 | www.nature.com",
+      "authors": [
+        "M. Hentschel*²",
+        "R. Kienberger*²",
+        "Ch. Spielmann*",
+        "G. A. Reider*",
+        "N. Milosevic*",
+        "T. Brabec*",
+        "P. Corkum³",
+        "U. Heinzmann§",
+        "M. Drescher§"
+      ],
+      "year": 2001,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\35107000.pdf",
+      "filename": "35107000.pdf",
+      "n_figs": 1,
+      "n_tables": 0,
+      "tables": []
+    }
+  ]
+}

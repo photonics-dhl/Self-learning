@@ -90,7 +90,7 @@ def index_professor(name, domain, subfield, processor, indexer):
     success = 0
     fail = 0
 
-    for paper, figures, chunks in results:
+    for paper, figures, chunks, tables in results:
         paper_id = paper.paper_id
         try:
             if indexer._is_paper_indexed(paper_id):

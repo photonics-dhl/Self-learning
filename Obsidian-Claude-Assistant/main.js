@@ -165,37 +165,44 @@ ${request.context.note_content}`);
     }
   }
   async sendVisionRequest(textPrompt, imageBase64, mediaType, systemPrompt) {
-    var _a, _b;
+    var _a, _b, _c;
+    const VISION_BASE_URL = "https://api.z.ai/api/paas/v4";
+    const dataUrl = `data:${mediaType};base64,${imageBase64}`;
     const response = await (0, import_obsidian.requestUrl)({
-      url: `${ZAI_BASE_URL}/v1/messages`,
+      url: `${VISION_BASE_URL}/chat/completions`,
       method: "POST",
-      headers: this.makeHeaders(),
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${this.apiKey}`
+      },
       body: JSON.stringify({
-        model: "glm-4.6v",
+        model: "glm-4.6v-flash",
         max_tokens: this.maxTokens,
-        system: systemPrompt || "\u4F60\u662F\u5149\u5B66\u9886\u57DF\u4E13\u5BB6\uFF0C\u5206\u6790\u56FE\u7247\u4E2D\u7684\u7269\u7406\u5185\u5BB9\u3002\u7528\u4E2D\u6587\u56DE\u7B54\u3002",
-        messages: [{
-          role: "user",
-          content: [
-            {
-              type: "image",
-              source: {
-                type: "base64",
-                media_type: mediaType,
-                data: imageBase64
+        messages: [
+          {
+            role: "system",
+            content: systemPrompt || "\u4F60\u662F\u5149\u5B66\u9886\u57DF\u4E13\u5BB6\uFF0C\u5206\u6790\u56FE\u7247\u4E2D\u7684\u7269\u7406\u5185\u5BB9\u3002\u7528\u4E2D\u6587\u56DE\u7B54\uFF0C\u7269\u7406\u672F\u8BED\u4FDD\u7559\u82F1\u6587\u3002\u516C\u5F0F\u7528 UTF-8 Unicode \u7B26\u53F7\u76F4\u63A5\u8F93\u51FA\uFF0C\u4E0D\u8981\u7528 LaTeX\u3002\u4F8B\u5982\uFF1A\u7528 E=mc\xB2 \u4E0D\u7528 $E=mc^2$\uFF1B\u7528 \u03BB=hc/E \u4E0D\u7528 $lambda=hc/E$\uFF1B\u7528 \u222B\u3001\u2211\u3001\u2202\u3001\u2207\u3001\u2248\u3001\u2264\u3001\u2192 \u7B49 Unicode \u6570\u5B66\u7B26\u53F7\u3002\u5206\u6570\u7528 a/b \u6216 a\xF7b\uFF0C\u4E0D\u7528 \frac{a}{b}\u3002"
+          },
+          {
+            role: "user",
+            content: [
+              {
+                type: "image_url",
+                image_url: { url: dataUrl }
+              },
+              {
+                type: "text",
+                text: textPrompt
               }
-            },
-            {
-              type: "text",
-              text: textPrompt
-            }
-          ]
-        }],
+            ]
+          }
+        ],
         stream: false
       })
     });
     const data = response.json;
-    return ((_b = (_a = data.content) == null ? void 0 : _a[0]) == null ? void 0 : _b.text) || "";
+    console.log("[ZAIClient] Vision response:", JSON.stringify(data).substring(0, 500));
+    return ((_c = (_b = (_a = data.choices) == null ? void 0 : _a[0]) == null ? void 0 : _b.message) == null ? void 0 : _c.content) || "";
   }
   async testConnection() {
     try {
@@ -390,6 +397,15 @@ var styleContent = `
 .claude-btn.secondary:hover { background: var(--background-secondary); }
 .claude-btn.stop { background: #ff6b6b; color: white; }
 .claude-btn.stop:hover { background: #ff5252; }
+.claude-btn.upload { background: transparent; color: var(--text-muted); border: 1px solid var(--border-color); padding: 8px 10px; position: relative; }
+.claude-btn.upload:hover { background: var(--background-secondary); color: var(--text-primary); }
+.claude-btn.upload input[type="file"] { position: absolute; inset: 0; opacity: 0; cursor: pointer; }
+.claude-image-preview { display: none; padding: 6px 0; position: relative; }
+.claude-image-preview.has-image { display: flex; align-items: center; gap: 8px; }
+.claude-image-preview img { max-width: 80px; max-height: 60px; border-radius: 4px; border: 1px solid var(--border-color); object-fit: cover; }
+.claude-image-preview .image-info { font-size: 11px; color: var(--text-muted); flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.claude-image-preview .remove-image { background: transparent; border: none; cursor: pointer; font-size: 14px; color: var(--text-muted); padding: 2px; line-height: 1; }
+.claude-image-preview .remove-image:hover { color: #ff6b6b; }
 .claude-status { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--text-muted); margin-top: 8px; }
 .claude-status .spinner { width: 12px; height: 12px; border: 2px solid var(--border-color); border-top-color: #667eea; border-radius: 50%; animation: spin 0.8s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
@@ -416,6 +432,9 @@ var ClaudePanel = class {
     this.streamingMsgEl = null;
     this.streamingContentEl = null;
     this.streamingText = "";
+    // Image upload state
+    this.attachedImage = null;
+    this.imagePreviewEl = null;
     const settings = plugin.settings || {};
     this.client = new ZAIClient({
       apiKey: settings.apiKey || "",
@@ -473,6 +492,17 @@ var ClaudePanel = class {
     this.stopBtn.textContent = "\u23F9 \u505C\u6B62";
     this.stopBtn.style.display = "none";
     this.stopBtn.addEventListener("click", () => this.stopGeneration());
+    const uploadBtn = document.createElement("button");
+    uploadBtn.className = "claude-btn upload";
+    uploadBtn.textContent = "\u{1F4CE} \u56FE\u7247";
+    const fileInput = document.createElement("input");
+    fileInput.type = "file";
+    fileInput.accept = "image/png,image/jpeg,image/gif,image/webp";
+    fileInput.title = "\u4E0A\u4F20\u56FE\u7247\u8FDB\u884C\u5206\u6790";
+    fileInput.addEventListener("change", (e) => this.handleImageUpload(e));
+    uploadBtn.appendChild(fileInput);
+    this.imagePreviewEl = document.createElement("div");
+    this.imagePreviewEl.className = "claude-image-preview";
     const modeRow = document.createElement("div");
     modeRow.className = "claude-write-mode";
     modeRow.style.display = "none";
@@ -503,8 +533,10 @@ var ClaudePanel = class {
     btnContainer.className = "claude-buttons";
     btnContainer.appendChild(this.sendBtn);
     btnContainer.appendChild(this.stopBtn);
+    btnContainer.appendChild(uploadBtn);
     btnContainer.appendChild(this.writeBtn);
     inputArea.appendChild(this.inputEl);
+    inputArea.appendChild(this.imagePreviewEl);
     inputArea.appendChild(modeRow);
     inputArea.appendChild(btnContainer);
     inputArea.appendChild(this.statusEl);
@@ -540,12 +572,16 @@ var ClaudePanel = class {
   async sendMessage() {
     var _a;
     const message = this.inputEl.value.trim();
-    if (!message || this.isGenerating) return;
+    if (!message && !this.attachedImage || this.isGenerating) return;
     await this.refreshCurrentNote();
-    this.addMessage("user", message);
-    this.conversation.push({ role: "user", content: message, timestamp: Date.now() });
+    this.addMessage("user", message || "(\u56FE\u7247\u5206\u6790)");
+    this.conversation.push({ role: "user", content: message || "(\u56FE\u7247\u5206\u6790)", timestamp: Date.now() });
     this.inputEl.value = "";
     this.setGenerating(true);
+    if (this.attachedImage) {
+      await this.sendVisionMessage(message);
+      return;
+    }
     const validNoteContent = this.currentNoteContent || "";
     const request = {
       action: this.detectAction(message),
@@ -905,6 +941,82 @@ var ClaudePanel = class {
       btn.classList.toggle("active", id === mode);
     }
   }
+  handleImageUpload(e) {
+    var _a;
+    const input = e.target;
+    const file = (_a = input.files) == null ? void 0 : _a[0];
+    if (!file) return;
+    const validTypes = ["image/png", "image/jpeg", "image/gif", "image/webp"];
+    if (!validTypes.includes(file.type)) {
+      this.showError("\u4EC5\u652F\u6301 PNG, JPG, GIF, WebP \u683C\u5F0F");
+      return;
+    }
+    if (file.size > 10 * 1024 * 1024) {
+      this.showError("\u56FE\u7247\u4E0D\u80FD\u8D85\u8FC7 10MB");
+      return;
+    }
+    const reader = new FileReader();
+    reader.onload = () => {
+      const base64Full = reader.result;
+      const base64 = base64Full.split(",")[1];
+      const mediaType = file.type;
+      this.attachedImage = { base64, mediaType, name: file.name };
+      this.updateImagePreview();
+    };
+    reader.readAsDataURL(file);
+    input.value = "";
+  }
+  removeAttachedImage() {
+    this.attachedImage = null;
+    this.updateImagePreview();
+  }
+  updateImagePreview() {
+    if (!this.imagePreviewEl) return;
+    if (!this.attachedImage) {
+      this.imagePreviewEl.className = "claude-image-preview";
+      this.imagePreviewEl.empty();
+      return;
+    }
+    this.imagePreviewEl.className = "claude-image-preview has-image";
+    this.imagePreviewEl.empty();
+    const img = document.createElement("img");
+    img.src = `data:${this.attachedImage.mediaType};base64,${this.attachedImage.base64}`;
+    const info = document.createElement("span");
+    info.className = "image-info";
+    info.textContent = this.attachedImage.name;
+    const removeBtn = document.createElement("button");
+    removeBtn.className = "remove-image";
+    removeBtn.textContent = "\u2715";
+    removeBtn.title = "\u79FB\u9664\u56FE\u7247";
+    removeBtn.addEventListener("click", () => this.removeAttachedImage());
+    this.imagePreviewEl.appendChild(img);
+    this.imagePreviewEl.appendChild(info);
+    this.imagePreviewEl.appendChild(removeBtn);
+  }
+  async sendVisionMessage(userText) {
+    if (!this.attachedImage) return;
+    const prompt = userText || "\u8BF7\u8BE6\u7EC6\u5206\u6790\u8FD9\u5F20\u56FE\u7247\u4E2D\u7684\u5185\u5BB9\uFF0C\u5305\u62EC\u5176\u4E2D\u7684\u7269\u7406\u73B0\u8C61\u3001\u5B9E\u9A8C\u88C5\u7F6E\u3001\u6570\u636E\u56FE\u8868\u7B49\u3002";
+    this.showStatus("\u6B63\u5728\u5206\u6790\u56FE\u7247...");
+    try {
+      const result = await this.client.sendVisionRequest(
+        prompt,
+        this.attachedImage.base64,
+        this.attachedImage.mediaType
+      );
+      this.removeAttachedImage();
+      this.lastResponse = result;
+      this.conversation.push({ role: "assistant", content: result, timestamp: Date.now() });
+      this.addMessage("assistant", result);
+      this.showStatus("");
+      this.setGenerating(false);
+      this.writeBtn.style.display = "block";
+      this.modeRow.style.display = "flex";
+    } catch (error) {
+      const errMsg = (error == null ? void 0 : error.message) || String(error);
+      this.showError(`\u56FE\u7247\u5206\u6790\u5931\u8D25: ${errMsg.substring(0, 100)}`);
+      this.setGenerating(false);
+    }
+  }
   close() {
     this.stopGeneration();
     document.removeEventListener("keydown", this.keydownHandler);
@@ -916,8 +1028,8 @@ var ClaudePanel = class {
 var ZAI_MODELS = [
   { id: "glm-5.1", name: "GLM-5.1", desc: "\u65D7\u8230\u6A21\u578B\uFF0C\u6700\u5F3A\u63A8\u7406" },
   { id: "glm-5-turbo", name: "GLM-5-Turbo", desc: "\u5FEB\u901F\u63A8\u7406" },
-  { id: "glm-5", name: "GLM-5", desc: "\u6807\u51C6\u6A21\u578B" },
-  { id: "glm-4.7", name: "GLM-4.7", desc: "\u9AD8\u6548\u6A21\u578B" },
+  { id: "glm-5", name: "GLM-5", desc: "\u6807\u51C6\u6A21\u578B\uFF08\u652F\u6301\u56FE\u7247\uFF09" },
+  { id: "glm-4.7", name: "GLM-4.7", desc: "\u9AD8\u6548\u6A21\u578B\uFF08\u652F\u6301\u56FE\u7247\uFF09" },
   { id: "glm-4.6", name: "GLM-4.6", desc: "\u5747\u8861\u6A21\u578B" },
   { id: "glm-4.5", name: "GLM-4.5", desc: "\u8F7B\u91CF\u6A21\u578B" },
   { id: "glm-4.5-air", name: "GLM-4.5-Air", desc: "\u6781\u901F\u6A21\u578B" },

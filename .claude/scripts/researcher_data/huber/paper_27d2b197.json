@@ -1,0 +1,57 @@
+{
+  "paper_id": "27d2b197",
+  "title": "Sub-cycle control of terahertz high-harmonic",
+  "authors": [
+    "O. Schubert1",
+    "M. Hohenleutner1",
+    "F. Langer1",
+    "B. Urbanek1",
+    "C. Lange1",
+    "U. Huttner2",
+    "D. Golde2",
+    "T. Meier3"
+  ],
+  "year": 2014,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\huber\\Schubert 等 - 2014 - Sub-cycle control of terahertz high-harmonic generation by dynamical bloch oscillations.pdf",
+  "filename": "Schubert 等 - 2014 - Sub-cycle control of terahertz high-harmonic generation by dynamical bloch oscillations.pdf",
+  "n_figs": 3,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "27d2b197_fig_000",
+      "caption": "Figure 1 | Field-sensitive terahertz nonlinear optics. a, The waveform of the\nterahertz driving ﬁeld (blue, solid curve) features a Gaussian envelope (black\ndashed curve) with an intensity full-width at half-maximum of 109 fs, which\ncontains three optical cycles. The transient was recorded electro-o",
+      "label": "Figure 1",
+      "page": 1,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\27d2b197\\27d2b197_p01_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "plot"
+    },
+    {
+      "figure_id": "27d2b197_fig_001",
+      "caption": "Figure 3 | Sub-cycle carrier dynamics driven by CEP-stable terahertz\ntransients. a, Phase-locked terahertz waveform driving coherent interband\nexcitation and carrier transport. The calculated temporal dynamics of the\ndistribution of electrons in the ﬁrst conduction band, ne ¼ fk\ne1, is shown as\ncolo",
+      "label": "Figure 3",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\27d2b197\\27d2b197_p03_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "27d2b197_fig_002",
+      "caption": "Figure 4 | CEP control of terahertz HHG in GaSe. a, HH intensity spectra\nmeasured for a CEP of the driving ﬁeld of wCEP ¼ 0.1p (blue) and 1.1p (red).\nWe deﬁne wCEP to be zero when a positive ﬁeld maximum of the carrier\nwave coincides with the peak of the Gaussian envelope. Inset: corresponding\nwavef",
+      "label": "Figure 4",
+      "page": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\27d2b197\\27d2b197_p04_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "spectrum"
+    }
+  ],
+  "tables": []
+}

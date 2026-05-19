@@ -1,0 +1,106 @@
+{
+  "researcher": "kaertner",
+  "n_papers": 5,
+  "n_figures": 12,
+  "papers": [
+    {
+      "paper_id": "864df71a",
+      "title": "Terahertz-driven linear electron acceleration",
+      "authors": [
+        "Emilio A. Nanni1",
+        "Wenqian R. Huang1",
+        "Kyung-Han Hong1",
+        "Koustuban Ravi1",
+        "Arya Fallahi2",
+        "3",
+        "Gustavo Moriena4"
+      ],
+      "year": 2015,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\kaertner\\Nanni 等 - 2015 - Terahertz-driven linear electron acceleration.pdf",
+      "filename": "Nanni 等 - 2015 - Terahertz-driven linear electron acceleration.pdf",
+      "n_figs": 4,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "a5691ddd",
+      "title": "March 15, 2001 / Vol. 26, No. 6 / OPTICS LETTERS",
+      "authors": [
+        "R. Ell",
+        "U. Morgner",
+        "and F. X. Kärtner"
+      ],
+      "year": 2001,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\kaertner\\Ell 等 - 2001 - Generation of 5-fs pulses and octave-spanning spectra directly from a Tisapphire laser.pdf",
+      "filename": "Ell 等 - 2001 - Generation of 5-fs pulses and octave-spanning spectra directly from a Tisapphire laser.pdf",
+      "n_figs": 3,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "fe83cb4f",
+      "title": "Polarization-transparent microphotonic",
+      "authors": [
+        "TYMON BARWICZ*§",
+        "MICHAEL R. WATTS†",
+        "MILOSˇ A. POPOVIC´",
+        "PETER T. RAKICH",
+        "LUCIANO SOCCI‡"
+      ],
+      "year": 2006,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\kaertner\\Barwicz 等 - 2007 - Polarization-transparent microphotonic devices in the strong confinement limit.pdf",
+      "filename": "Barwicz 等 - 2007 - Polarization-transparent microphotonic devices in the strong confinement limit.pdf",
+      "n_figs": 3,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "06b8d330",
+      "title": "LETTERS",
+      "authors": [
+        "Chih-Hao Li1",
+        "2",
+        "Andrew J. Benedick3",
+        "Peter Fendel3",
+        "4",
+        "Alexander G. Glenday1",
+        "2",
+        "Franz X. Ka¨rtner3",
+        "David F. Phillips1"
+      ],
+      "year": 2008,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\kaertner\\Li 等 - 2008 - A laser frequency comb that enables radial velocity measurements with a precision of 1 cm s-1.pdf",
+      "filename": "Li 等 - 2008 - A laser frequency comb that enables radial velocity measurements with a precision of 1 cm s-1.pdf",
+      "n_figs": 1,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "bae740ee",
+      "title": "Impact of the Electronic Band Structure in High-Harmonic Generation Spectra of Solids",
+      "authors": [
+        "1Max Planck Institute for the Structure",
+        "Dynamics of Matter",
+        "Luruper Chaussee 149",
+        "22761 Hamburg",
+        "Germany"
+      ],
+      "year": 2016,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\kaertner\\Tancogne-Dejean 等 - 2017 - Impact of the electronic band structure in high-harmonic generation spectra of solids.pdf",
+      "filename": "Tancogne-Dejean 等 - 2017 - Impact of the electronic band structure in high-harmonic generation spectra of solids.pdf",
+      "n_figs": 1,
+      "n_tables": 0,
+      "tables": []
+    }
+  ]
+}

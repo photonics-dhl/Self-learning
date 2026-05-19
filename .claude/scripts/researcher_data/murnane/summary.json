@@ -1,0 +1,93 @@
+{
+  "researcher": "murnane",
+  "n_papers": 4,
+  "n_figures": 12,
+  "papers": [
+    {
+      "paper_id": "a5082eb1",
+      "title": "Bright Coherent Ultrahigh Harmonics",
+      "authors": [
+        "Tenio Popmintchev",
+        "1* Ming-Chang Chen",
+        "1 Dimitar Popmintchev",
+        "1 Paul Arpin",
+        "1 Susannah Brown",
+        "1"
+      ],
+      "year": 2012,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\murnane\\Popmintchev 等 - 2012 - Bright coherent ultrahigh harmonics in the keV X-ray regime from mid-infrared femtosecond lasers.pdf",
+      "filename": "Popmintchev 等 - 2012 - Bright coherent ultrahigh harmonics in the keV X-ray regime from mid-infrared femtosecond lasers.pdf",
+      "n_figs": 4,
+      "n_tables": 1,
+      "tables": [
+        {
+          "table_id": "a5082eb1_tab_000",
+          "paper_id": "a5082eb1",
+          "table_label": "Table 1",
+          "table_caption": "Table 1. Interstellar flow parameters in ecliptic (J2000) and galactic coordinates.",
+          "page_num": 5,
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a5082eb1\\a5082eb1_p05_t00.png",
+          "width": 1244,
+          "height": 2376
+        }
+      ]
+    },
+    {
+      "paper_id": "ac06546b",
+      "title": "REFERENCES AND NOTES",
+      "authors": [
+        "M. Ringbauer et al.",
+        "Nat. Phys. 11",
+        "249–254 (2015)."
+      ],
+      "year": 2015,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\murnane\\Miao 等 - 2015 - Beyond crystallography diffractive imaging using coherent x-ray light sources.pdf",
+      "filename": "Miao 等 - 2015 - Beyond crystallography diffractive imaging using coherent x-ray light sources.pdf",
+      "n_figs": 4,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "28959507",
+      "title": "Generation of bright phase-matched circularly-",
+      "authors": [
+        "Ofer Kﬁr1*",
+        "Patrik Grychtol2",
+        "Emrah Turgut2",
+        "Ronny Knut2",
+        "3",
+        "Dmitriy Zusin2",
+        "Dimitar Popmintchev2"
+      ],
+      "year": 2014,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\murnane\\Kfir 等 - 2015 - Generation of bright phase-matched circularly-polarized extreme ultraviolet high harmonics.pdf",
+      "filename": "Kfir 等 - 2015 - Generation of bright phase-matched circularly-polarized extreme ultraviolet high harmonics.pdf",
+      "n_figs": 3,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "c2ad1385",
+      "title": "Phase-Matched Generation of Coherent",
+      "authors": [
+        "Andy Rundquist",
+        "Charles G. Durfee III",
+        "Zenghu Chang"
+      ],
+      "year": 2099,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\murnane\\Rundquist 等 - 1998 - Phase-matched generation of coherent soft X-rays.pdf",
+      "filename": "Rundquist 等 - 1998 - Phase-matched generation of coherent soft X-rays.pdf",
+      "n_figs": 1,
+      "n_tables": 0,
+      "tables": []
+    }
+  ]
+}

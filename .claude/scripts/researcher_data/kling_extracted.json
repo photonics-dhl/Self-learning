@@ -1,0 +1,742 @@
+{
+  "professor_key": "kling",
+  "paper_count": 6,
+  "total_figures": 58,
+  "total_chunks": 202,
+  "papers": [
+    {
+      "title": "Roadmap on Attosecond Science",
+      "year": 2026,
+      "journal": "",
+      "authors": [
+        "Journal of Optics",
+        "IOP Publishing"
+      ],
+      "doi": "",
+      "paper_id": "565277b2f4c378cb",
+      "file_hash": "565277b2f4c378cb81d0576a79687867",
+      "num_pages": 174,
+      "abstract": "",
+      "n_figures": 37,
+      "n_chunks": 174,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "565277b2_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1: Overview of the technological advances that are pushing attosecond science beyond simple observation, and the \nemerging applications of attosecond science.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\565277b2\\565277b2f4c378cb_p07_f00.png",
+          "page_num": 7,
+          "width": 1924,
+          "height": 1096,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "565277b2_fig_001",
+          "label": "Figure 1",
+          "caption": "Figure 1. (a) and (c): Electron trajectories calculated from the semiclassical three-step model. (b) and (d): Electron return energy, in unit of \nthe ponderomotive energy U_p, as a function of return time, in unit of the period of the fundamental optical cycle. (a) and (b) correspond",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\565277b2\\565277b2f4c378cb_p12_f01.png",
+          "page_num": 12,
+          "width": 2147,
+          "height": 595,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "565277b2_fig_002",
+          "label": "Figure 1",
+          "caption": "Figure 1: Comparison of HHG source efficiencies \nreported in the literature. The performance of the \nmicrofluidic source in He and Ar is highlighted. \nFigure from ref. [14], see ref [14] for detailed \nreferences.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\565277b2\\565277b2f4c378cb_p16_f02.png",
+          "page_num": 16,
+          "width": 1990,
+          "height": 684,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "565277b2_fig_003",
+          "label": "Figure 2",
+          "caption": "Figure 2:  Key benefits of the microfluidic approach, including (a) efficient generation in extended gas media [14], (b) precise control of gas \ndelivery and distribution within the active region [14], and (c) driving and XUV beam manipulation through modal properties [16].",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\565277b2\\565277b2f4c378cb_p17_f03.png",
+          "page_num": 17,
+          "width": 2149,
+          "height": 581,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "565277b2_fig_004",
+          "label": "Figure 1",
+          "caption": "Figure 1. (a) A multi-octave supercontinuum from Ne-filled HCF capillary post-compressor, seeded by 22 fs pulse with \ncentral wavelength of 790 nm and an energy of ~ 1 mJ. (b) Photograph of an attosecond light field synthesizer. The pulse in \n(a) is divided into four nearly equal-width spectral band",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\565277b2\\565277b2f4c378cb_p22_f04.png",
+          "page_num": 22,
+          "width": 1954,
+          "height": 1625,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "565277b2_fig_005",
+          "label": "Figure 1",
+          "caption": "Figure 1. Three tailoring schemes focusing on cutoff (a) and efficiency (b,c) enhancement are depicted above. The horizontal \naxis is normalized based on the period of the main pulse (grey dashed line) used in the synthesis, with each tailoring method \nhaving different limits of wavelength scalabili",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\565277b2\\565277b2f4c378cb_p26_f05.png",
+          "page_num": 26,
+          "width": 1930,
+          "height": 826,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "565277b2_fig_006",
+          "label": "Figure 1",
+          "caption": "Figure 1. Laser sources and post-compression techniques demonstrated for IAP generation include three types \nof drivers: (1) CEP-stabilized Ti:Sapphire lasers (red), (2) CEP-stabilized OPA/OPCPA driven by Ti:Sapphire or Yb \nlasers (green), and (3) direct CEP-stabilized Yb lasers (blue). Hollow-core ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\565277b2\\565277b2f4c378cb_p36_f06.png",
+          "page_num": 36,
+          "width": 1934,
+          "height": 1568,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "565277b2_fig_007",
+          "label": "Figure 2",
+          "caption": "Figure 2. Attosecond pulse generation in argon driven by a post-compressed Yb laser. (a) Streaking spectrogram, (b) \nretrieved EUV spectrum and spectral phase, and (c) temporal profile of an isolated attosecond pulse in Ar, with a retrieved \nduration of about 200 as. The pulse is slightly positively",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\565277b2\\565277b2f4c378cb_p38_f07.png",
+          "page_num": 38,
+          "width": 1924,
+          "height": 510,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "565277b2_fig_008",
+          "label": "Figure 1",
+          "caption": "Figure 1. Volumes enclosing positive electric field values for two ultrashort vortex structures. (a) attosecond \nlight spring resulting from the interference of five harmonics with increasing topological charges (see inset). \n(b) Train of attosecond vortex pulses from the interference of harmonics w",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\565277b2\\565277b2f4c378cb_p41_f08.png",
+          "page_num": 41,
+          "width": 1715,
+          "height": 1435,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "565277b2_fig_009",
+          "label": "Figure 2",
+          "caption": "Figure 2. (a) Iso-intensity contour of an electron wavepacket ionized by an attosecond light spring, reconstructed from \nexperimental intensity profiles and spectral phases, assuming an ideal qℓ vortex phase for each harmonic order. \nReproduced from [5]. (b) Experimental intensity and phase front of",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\565277b2\\565277b2f4c378cb_p42_f09.png",
+          "page_num": 42,
+          "width": 1840,
+          "height": 801,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "565277b2_fig_010",
+          "label": "Figure 1",
+          "caption": "Figure 1. Attosecond structured pulses. a) High harmonic STOVs with scaling topological charge resulting from HHG driven \nby STOV pulses [23] (Credit, Steve Burrows and KM group, JILA). b) Attosecond STOV pulses, obtained from the coherent \nsuperposition of SSOV-driven harmonics [7]. d) Attosecond s",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\565277b2\\565277b2f4c378cb_p47_f10.png",
+          "page_num": 47,
+          "width": 1934,
+          "height": 1853,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "565277b2_fig_011",
+          "label": "Figure 1",
+          "caption": "Figure 1 The distribution of the 369 user experiments to which beamtime was granted up until summer 2025 at the ELI \nfacilities. Source: 2024–2025 edition of the ELI Annual Report, https://www.eli-\nlaser.eu/media/3012/eli_annual_report_2024-2025_digital.pdf",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\565277b2\\565277b2f4c378cb_p51_f11.png",
+          "page_num": 51,
+          "width": 1934,
+          "height": 2897,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "2026 Roadmap on Attosecond Science Journal of Optics, IOP Publishing This is the version of the article before peer review or editing, as submitted by an author to Journal of Optics. IOP Publishing Ltd is not responsible for any errors or omissions in this version of the manuscript or any version derived from it. This roadmap is currently submitted and under peer-review with the Journal of Optics from IOP Publishing. Roadmap on Attosecond Science Rocio Borrego Varillas1,⧫,*, Pierre Agostini2,3, ",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "2026 Roadmap on Attosecond Science Journal of Optics, IOP Publishing 22 Istituto di Fotonica e Nanotecnologie, Consiglio Nazionale delle Ricerche, Milano, Italy 23 Joint Attosecond Science Laboratory, University of Ottawa and National Research Council of Canada, Ottawa, Canada 24 Université Paris-Saclay, CEA, LIDYL, Gif-sur-Yvette 91191, France 25 Department of Complex Systems, Weizmann Institute of Science, Rehovot, Israel 26 European XFEL, Schenefeld, Germany 27 School of Physical Sciences, Th",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "2026 Roadmap on Attosecond Science Journal of Optics, IOP Publishing E-mails: rocio.borregovarillas@cnr.it, caterina.vozzi@ifn.cnr.it Abstract Twenty-five years have passed since the first experimental demonstration of attosecond pulses, marking the advent of our ability to resolve and control electron motion in real time. What began as a technological breakthrough - generating the shortest flashes ever produced - has evolved into a powerful approach for probing and steering electronic dynamics ",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "2026 Roadmap on Attosecond Science Journal of Optics, IOP Publishing Contents Roadmap on Attosecond Science .......................................................................................................... 1 Abstract........................................................................................................................................... 3 Contents ............................................................................................................................",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "2026 Roadmap on Attosecond Science Journal of Optics, IOP Publishing 29. Attosecond spectroscopy of solids and molecules of opto-electronic interest ............... 140 30. Attosecond Spectroscopy: A New Window on Many-Body Physics ................................. 143 31. High Harmonics as a Universal Response of Matter to High Intensity Light .................... 147 32. Attosecond Electronics .....................................................................................................",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "2026 Roadmap on Attosecond Science Journal of Optics, IOP Publishing Introduction: from light bursts to electron motion Rocío Borrego-Varillas1, Jon P. Marangos2,*, and Caterina Vozzi1 1 CNR-IFN, Piazza Leonardo da Vinci 32, 20133 Milano (Italy) 2 Blackett Laboratory, Imperial College London, Prince Consort Road, London SW7 2AZ, UK j.marangos@imperial.ac.uk 25 years have now passed since the first experimental demonstration of attosecond pulses [1,2], marking the beginning of our ability to reso",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "2026 Roadmap on Attosecond Science Journal of Optics, IOP Publishing leading to important achievements such as the observation of charge migration [19,20] or the characterisation of the molecular stereo Wigner time delays [21]. The attosecond frontier now extends from fundamental studies of correlated electron behaviour to applications in photonics, materials science, and chemistry. As we look ahead, technological advances in high-order harmonic generation, waveform control, and free electron la",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "2026 Roadmap on Attosecond Science Journal of Optics, IOP Publishing The full range of contributions represents a valuable survey of the attosecond landscape. We are very grateful to all the authors for their efforts in putting together this roadmap. As an aid to the reader we will briefly highlight a selection of the contributions to point towards important emerging directions. An important task for the future, already highlighted in many contributions, is to turn attosecond technology into a u",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "2026 Roadmap on Attosecond Science Journal of Optics, IOP Publishing The possibilities are discussed in a number of chapters including “34. Attosecond Quantum Optics” Giulio Vampa, David N. Purschke, Thomas Brabec. Hopefully, this roadmap will prove a useful resource in orientating the researcher in the landscape of attosecond science. This landscape, and the routes available in it, are constantly changing and amongst the most exciting opportunities are in exploring the terra incognita at the cu",
+          "page": 9,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "2026 Roadmap on Attosecond Science Journal of Optics, IOP Publishing Decleva P, Greenwood J B and Nisoli M 2014 Ultrafast electron dynamics in phenylalanine initiated by attosecond pulses Science (80-. ). 346 336–9 [20] Kraus P M, Mignolet B, Baykusheva D, Rupenyan A, Horný L, Penka E F, Grassi G, Tolstikhin O I, Schneider J, Jensen F, Madsen L B, Bandrauk A D, Remacle F and Wörner H J 2015 Measurement and laser control of attosecond charge migration in ionized iodoacetylene Science (80-. ). 350",
+          "page": 10,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Controlled near-ﬁeld enhanced electron acceleration from dielectric nanospheres with intense few-cycle laser ﬁelds",
+      "year": 2011,
+      "journal": "",
+      "authors": [
+        "Sergey Zherebtsov1†",
+        "Thomas Fennel2*"
+      ],
+      "doi": "",
+      "paper_id": "bfc47a9fe18d3db5",
+      "file_hash": "bfc47a9fe18d3db539a5be10710d77df",
+      "num_pages": 7,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 7,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "bfc47a9f_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1 | Electron emission from Xe and SiO2 nanoparticles. a, Momentum map of photoelectrons from Xe (log colour scale) at an intensity of\n1.9×1013 W cm−2 averaged over the carrier-envelope phase with the laser polarization along the py axis. b, Electron kinetic energy spectrum obtained from\nangul",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bfc47a9f\\bfc47a9fe18d3db5_p03_f00.png",
+          "page_num": 3,
+          "width": 2160,
+          "height": 2247,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "bfc47a9f_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2 | Dependence of the cutoffs in the electron emission spectra\nfrom SiO2 nanoparticles on laser intensity. The experimental results for\nnanoparticles of different sizes are represented by circles of different\ncolours, as indicated in the legend. The experimental data are ﬁtted by a\nlinear fun",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bfc47a9f\\bfc47a9fe18d3db5_p04_f01.png",
+          "page_num": 4,
+          "width": 2165,
+          "height": 948,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "bfc47a9f_fig_002",
+          "label": "Figure 3",
+          "caption": "Figure 3 | Calculated electron energy spectra. a,b, Electron energy spectra from SiO2 nanoparticles (diameter: 100 nm) for excitation with 5 fs pulses at\n720 nm and I0 = 2×1013 W cm−2 calculated without (a) and with the Coulomb ﬁeld from free charges (b). Corresponding CEP-averaged energy spectra\n(b",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bfc47a9f\\bfc47a9fe18d3db5_p04_f02.png",
+          "page_num": 4,
+          "width": 2165,
+          "height": 1307,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "bfc47a9f_fig_003",
+          "label": "Figure 4",
+          "caption": "Figure 4 | Calculated electron emission from a SiO2 nanosphere in a few-cycle laser ﬁeld. a–d, Snapshots of the phase-space distributions (a,c) of single\nparticle energies at a time t = 35 fs after the peak of the laser pulse and birth time analyses (b,d) for electrons emitted within a 30◦cone (full",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bfc47a9f\\bfc47a9fe18d3db5_p05_f03.png",
+          "page_num": 5,
+          "width": 2145,
+          "height": 1405,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "ARTICLES PUBLISHEDONLINE:24APRIL2011|DOI:10.1038/NPHYS1983 Controlled near-field enhanced electron acceleration from dielectric nanospheres with intense few-cycle laser fields SergeyZherebtsov1(,ThomasFennel2*(,JürgenPlenge3(,EgillAntonsson3,IrinaZnakovskaya1, AdrianWirth1,OliverHerrwerth1,FrederikSüßmann1,ChristianPeltz2,IzharAhmad1, SergeiA.Trushin1,VladimirPervak4,StefanKarsch1,4,MarcJ.J.Vrakking5,6,BurkhardLanger3, ChristinaGraf3,MarkI.Stockman1,7,FerencKrausz1,4,EckartRühl3*andMatthiasF.Kli",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "NATUREPHYSICS ARTICLES DOI:10.1038/NPHYS1983 theelectronemissionfrom52to147nmSiO nanoparticlesunder energy W and CEP ’, where P (W;’) and P (W;’) are the 2 up down intense(1(cid:21)4:5(cid:2)1013Wcm(cid:0)2)few-cycle(5fs)waveform-controlled angle-integratedelectronyieldsintheup(positivep momentum) y opticallaserpulses,highkineticenergyelectronsupto100eVand and down (negative p momentum) directions. Figure1c and f y directional control of the electrons with the CEP are observed. showsA(W;’)forXea",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "ARTICLES NATUREPHYSICS DOI:10.1038/NPHYS1983 30 20 1 20 0 15 10 ¬1 0 10 ¬2 ¬10 ¬20 ¬3 5 ¬30 ¬4 ¬30 ¬20 ¬10 0 10 20 30 0 1 2 3 0 1 2 3 20 0 ¬20 ¬20 0 20 )s N 52¬01( y p )s N 52¬01( y p Xe p (10¬25 N s) x 40 ¬40 ¬40 40 p (10¬25 N s) x ¬20 0 20 )s N 52¬01( p y log (signal) Phase (π) SiO nanoparticles (experiment) 2 2 1 0 ¬1 ¬2 ¬3 ¬4 SiO nanoparticles (calculations) 2 40 2 1 20 0 0 ¬1 ¬2 ¬20 ¬3 ¬40 ¬4 ¬40 40 p (10¬25 N s) x )Ve( ygrenE 0.4 0.2 0 ¬0.2 ¬0.4 60 0.2 50 0.1 40 30 0 20 ¬0.1 10 0 ¬0.2 0 1 ",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "NATUREPHYSICS ARTICLES DOI:10.1038/NPHYS1983 110 100 90 80 70 60 50 40 30 20 10 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 )Ve( ygrene ffo-tuc norctelE asymmetryoscillationswithCEParound47eVcoincideswellwith Experiment Model the energy cutoff, see Fig.1h and i, and is in good agreement diameter 50 nm MF, peak int. with the experimental cutoff value. The higher amplitude of the 82 nm MF, vol. avg. asymmetry parameter in the calculations as compared to the 105 nm Peak int. experiment, in particular towards h",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "ARTICLES NATUREPHYSICS DOI:10.1038/NPHYS1983 Phase space distribution (CEP = 0, t = 35 fs) Energy versus birth time (CEP = 0) Backscattered 30° Down Up y z x R = 50 nm Direct Laser field ¬100 0 100 ¬4 ¬2 0 2 4 y-coordinate (nm) Time (fs) ¬4 ¬2 0 2 4 Time (fs) )Ve( ygrenE 50 40 30 20 10 0 –10 –20 c ¬100 0 100 y-coordinate (nm) )Ve( ygrenE 50 40 30 20 10 0 –10 –20 )Ve( ygrenE 50 40 30 20 10 0 –10 –20 d )Ve( ygrenE a b 50 40 30 20 10 0 (¬eΦfree) –10 Meanfield potential –20 Figure4jCalculatedelectro",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "NATUREPHYSICS ARTICLES DOI:10.1038/NPHYS1983 a large increase of the cutoff energy of emitted electrons when 3. Kim,S.etal.High-harmonicgenerationbyresonantplasmonfield compared with atomic ATI. The cutoff in the electron energy enhancement.Nature453,757(cid:21)760(2008). spectrashowalineardependenceonlaserintensityintherangeof 4. Sukharev,M.&Seideman,T.Coherentcontrolapproachestolightguidance 1(cid:21)4:5(cid:2)1013Wcm(cid:0)2,withacutoffat(53:0(cid:6)0:6)U .Acomparison inthenanoscale.J.Chem.Ph",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "ARTICLES NATUREPHYSICS DOI:10.1038/NPHYS1983 37. Salieres,P.etal.Feynman’spath-integralapproachforintense-laser-atom thenetworkPhoNaandgrantnos:05KS7KEAand05K10KE2.M.F.K.acknowledges interactions.Science292,902(cid:21)905(2001). supportfromKAINwithintheKSU-MPQcollaboration.T.F.andC.P.gratefully 38. Schenk,M.,Kr(cid:252)ger,M.&Hommelhoff,P.Strong-fieldabove-threshold acknowledgefinancialsupportfromtheDFGwithinSFB652/2.I.A.isgratefulfor photoemissionfromsharpmetaltips.Phys.Rev.Lett.105,257601(2010",
+          "page": 7,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Plasmonic generation of ultrashort extreme-ultraviolet light pulses",
+      "year": 2011,
+      "journal": "",
+      "authors": [
+        "In-Yong Park1†",
+        "Seungchul Kim1†",
+        "Joonhee Choi1†",
+        "Dong-Hyub Lee1",
+        "Young-Jin Kim1",
+        "Matthias F. Kling2"
+      ],
+      "doi": "",
+      "paper_id": "f4ecc129a78bd2b1",
+      "file_hash": "f4ecc129a78bd2b142c59939d2814b58",
+      "num_pages": 5,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 5,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "f4ecc129_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1 | Plasmonic nanofocusing of femtosecond NIR light pulses for high-harmonic generation of coherent ultrashort EUV pulses using a metallic\nwaveguide. Surface-plasmon polaritons are guided to converge to a sub-wavelength spot near the exit aperture, creating a strong boost in the intensity ﬁel",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f4ecc129\\f4ecc129a78bd2b1_p02_f00.png",
+          "page_num": 2,
+          "width": 2168,
+          "height": 1591,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "f4ecc129_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2 | Computation of the enhanced electric ﬁeld inside the waveguide by adopting a FDTD method. a, Snapshot illustrating the intensity distribution at\nthe moment when the intensity peak of the incident NIR pulse approaches the exit aperture. b, Three consecutive snapshots in time steps of 0.67 ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f4ecc129\\f4ecc129a78bd2b1_p03_f01.png",
+          "page_num": 3,
+          "width": 2168,
+          "height": 387,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "f4ecc129_fig_002",
+          "label": "Figure 3",
+          "caption": "Figure 3 | Waveguide fabrication on the tip of a cantilever microstructure using the FIB process. a, Scanning electron microscope (SEM) image of the\ncantilever structure that houses the waveguide. b, Top view showing the inlet aperture of the waveguide. c, Bottom view showing the exit aperture.\nd, C",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f4ecc129\\f4ecc129a78bd2b1_p03_f02.png",
+          "page_num": 3,
+          "width": 2086,
+          "height": 399,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "f4ecc129_fig_003",
+          "label": "Figure 4",
+          "caption": "Figure 4 | Experimental results. a, Measurement scheme using a transmission-type diffraction grating and a photomultiplier (PM) tube. b, SEM images of\nthe grating showing the important dimensions. c, Measured spectrum spanning from the 15th (H15) to 43rd (H43) harmonics. Inset: comparison of photon\n",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f4ecc129\\f4ecc129a78bd2b1_p04_f03.png",
+          "page_num": 4,
+          "width": 2136,
+          "height": 1866,
+          "figure_type": "photo",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "LETTERS PUBLISHEDONLINE:16OCTOBER2011|DOI:10.1038/NPHOTON.2011.258 Plasmonic generation of ultrashort extreme-ultraviolet light pulses In-Yong Park1†, Seungchul Kim1†, Joonhee Choi1†, Dong-Hyub Lee1, Young-Jin Kim1, Matthias F. Kling2, Mark I. Stockman3 and Seung-Woo Kim1* Ultrashort extreme-ultraviolet pulses are a key tool in time- boost that is sustained by the SPPs driven by the incident NIR resolved spectroscopy for the investigation of electronic pulse. Consequently, high-harmonic EUV puls",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "LETTERS NATURE PHOTONICS DOI:10.1038/NPHOTON.2011.258 Enhanced NIR laser field 75 MHz, 10 fs Ti:sapphire laser Xe gas EUV pulses Ag Ag NIR pulse Figure1|PlasmonicnanofocusingoffemtosecondNIRlightpulsesforhigh-harmonicgenerationofcoherentultrashortEUVpulsesusingametallic waveguide.Surface-plasmonpolaritonsareguidedtoconvergetoasub-wavelengthspotneartheexitaperture,creatingastrongboostintheintensityfield ofincidentNIRpulsespropagatingalongthewaveguide.EUVpulsesproducedbymeansofhigh-harmonicgenerat",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "2.2 μm 14° 9 μm t = 0 t = 0.67 fs t = 1.34 fs z y x holdingthewaveguideabsorbedheatwellandalsofuncti",
+          "text": "2.2 μm 14° 9 μm t = 0 t = 0.67 fs t = 1.34 fs z y x holdingthewaveguideabsorbedheatwellandalsofunctionedasa which to carry out plasmonic nanofocusing of NIR pulses for goodconductor. high-harmonic generation of ultrashort EUV pulses with high In conclusion, the tapered waveguide of the present elliptical spatiotemporal coherence. The intensity enhancement factor hollow cross-section proved to be an effective means with exceeds 20dB, directly generating high harmonics up to 43rd tnemecnahne )2|E|",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Al filter M P 70 nm 1st order 10 nm 0th order 50 mm Polarization direction 30 mm Gas Minor axis c 109 H15 H19 H17 109 108 H21 H23 107 108 H25 H27 106 107 20 30 40 50 60 70 80 order from a modest input intensity of 1×1011Wcm22 in an shapes, this three-dimensional waveguide, as well as offering high interaction with xenon gaseous atoms. In comparison to previous conversion efficiency, also provides improved immunity to studies using planar nanostructures27 with bowtie or nanorod thermal damage and",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "LETTERS NATURE PHOTONICS DOI:10.1038/NPHOTON.2011.258 canbereadilyembeddedonacantilevertiptorenderitsuitablefora 8. Krischek,R.etal.Ultravioletenhancementcavityforultrafastnonlinearoptics range of near-field experiments in attosecond science, including andhigh-ratemultiphotonentanglementexperiments.NaturePhoton.4, 170–173(2010). time-resolved pump–probe spectroscopy and photoelectron 9. Gohle,C.etal.Afrequencycombintheextremeultraviolet.Nature436, emissionmicroscopy. 234–237(2005). 10.Gramotnev,",
+          "page": 5,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Real-time observation of valence electron motion",
+      "year": 2010,
+      "journal": "",
+      "authors": [
+        "Eleftherios Goulielmakis1*",
+        "Zhi-Heng Loh2",
+        "3*",
+        "Adrian Wirth1",
+        "Robin Santra4",
+        "5",
+        "Nina Rohringer6"
+      ],
+      "doi": "",
+      "paper_id": "cb42319abad09fb4",
+      "file_hash": "cb42319abad09fb4d74f995e3b52c825",
+      "num_pages": 6,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 6,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "cb42319a_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1 | Probing intra-atomic electron motion by attosecond absorption\nspectroscopy. a, The strong electric field of a near-infrared (NIR) laser pulse\n(in red) with a duration of tL , 4 fs liberates electrons from the 4p valence\nsubshell of krypton atoms to generate singly charged 4p21, doubly cha",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\cb42319a\\cb42319abad09fb4_p02_f00.png",
+          "page_num": 2,
+          "width": 2201,
+          "height": 1499,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "cb42319a_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2 | Transient absorption spectra of krypton ions. Absorbance is\ndefined as A(E, t) 5 ln(Itrans(E, t)/I0(E)), where I0(E) is the spectral density\nrecorded at a negative delay of 210 fs, that is, the attosecond probe precedes\nthe ionizing laser pulse by 10 fs in the atomic sample, and Itrans(E,",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\cb42319a\\cb42319abad09fb4_p02_f01.png",
+          "page_num": 2,
+          "width": 2202,
+          "height": 1511,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "cb42319a_fig_002",
+          "label": "Figure 3",
+          "caption": "Figure 3 | Build-up of electronic coherence in Kr1 produced by optical field\nionization (theory). a, Temporal evolution of the diagonal elements of the\nreduced density matrix of Kr1 in the presence of a 750-nm, 3.8-fs laser pulse\nwith a peak intensity of ,3 3 1014 W cm22 and a sinusoidal waveform. T",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\cb42319a\\cb42319abad09fb4_p03_f02.png",
+          "page_num": 3,
+          "width": 2202,
+          "height": 2480,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "cb42319a_fig_003",
+          "label": "Figure 5",
+          "caption": "Figure 5 | Reconstruction of valence-shell electron wave-packet motion.\na, Absorbance (dots) averaged over the photon energy range 81.20–81.45 eV\ncorresponding to the 4p{1\n3=2 R 3d{1\n3=2 transition (see Fig. 4c), as a function of\ntime elapsed since zero as defined in the text. The full line shows th",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\cb42319a\\cb42319abad09fb4_p05_f03.png",
+          "page_num": 5,
+          "width": 2201,
+          "height": 1406,
+          "figure_type": "photo",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "Vol466|5August2010|doi:10.1038/nature09212 LETTERS Real-time observation of valence electron motion EleftheriosGoulielmakis1*,Zhi-HengLoh2,3*,AdrianWirth1,RobinSantra4,5,NinaRohringer6, VladislavS.Yakovlev1,7,SergeyZherebtsov1,ThomasPfeifer2,3{,AbdallahM.Azzeer8,MatthiasF.Kling1, StephenR.Leone2,3&FerencKrausz1,7 Thesuperpositionofquantumstatesdrivesmotionontheatomic Isolated attosecond extreme-ultraviolet (EUV) pulses3,11–13 lend andsubatomicscales,withtheenergyspacingofthestatesdictat- themsel",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "b a 150 140 130 120 100 80 60 40 20 0 c they result from a coherent polarization response of the atomic ensemblethatextendsoverseveralfemtosecondsaftertheEUVpulse high-orderharmonicradiationemergingfromthekryptontargetwas hitsthesample.Duringthistime,thestronglaserfieldisstillpresent detectedinthespectralrangeofinterest(.60eV).InFig.2,weplota andmayaffecttheatomicpolarizationresponse.Modellingofthis seriesoftransientEUVabsorptionspectraforanon-axispeaklaser interaction is beyond the scope of thi",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "NATURE|Vol466|5August2010 LETTERS Wehavenumericallymodelledtheinteractionofkryptonatoms TheevolutionofcoherenceshowninFig.3bcanbeunderstood withastronglaserfield,asdescribedinref.1.Thepopulationsofthe intuitively. At every intense wave crest, a fraction of the atoms is sixrelevantquantumstatesofKr1andthecoherencebetweenthese ionized and a hole spin–orbit wave packet is launched in the 4p statesarerespectivelygivenbythediagonalelementsr (mj) andthe valencesubshellbypopulatingthe4p21manifold.Spin–",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "predictionagreesbestwithspectrarecordedoverthephotonenergy range 78.5–82eV and the pump-probe delay range 3–33fs (Sup- plementary Information, section III). This procedure has yielded Photon energy (eV) 0 (f . o 35 r 6 t$ 0.0 3 3 f , s) r r (3 ( 3 = 1 = 2 = 2 ) 2 ,3 ) =2 1 1 r r ({ ( 3 { = 3 2 = 1 , 2 3 = ) = 2 2 5 )5 0. 0 2 . 3 42 6 6 0. 0 0 . 8 1 , 0, g r 5 ( 1 1 = 0 = 2 2 , . 1 ) 6 = 3 2 6 1 0 r . 1 ( 1 { = 7 2 1 ,1 = = 2 a 2 ) n 5 d 3=2,3=2 3=2,3=2 T 56.360.1fs.ThisvalueforT isinexcellentagr",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "6. Niikura,H.etal.Sub-laser-cycleelectronpulsesforprobingmoleculardynamics. Elapsed time (fs) Nature",
+          "text": "6. Niikura,H.etal.Sub-laser-cycleelectronpulsesforprobingmoleculardynamics. Elapsed time (fs) Nature417,917–922(2002). 7. Niikura,H.etal.Probingmoleculardynamicswithattosecondresolutionusing correlatedwavepacketpairs.Nature421,826–829(2002). 0.3 8. Niikura,H.,Villeneuve,D.M.&Corkum,P.B.Mappingattosecondelectronwave packetmotion.Phys.Rev.Lett.94,083003(2005). 9. Baker,S.etal.Probingprotondynamicsinmoleculesonanattosecondtimescale. Science312,424–427(2006). 0.2 10. Smirnova,O.etal.Highharmonicinte",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "doi:10.1038/nature09212 METHODS bandwidth.TheNIRbeamisreflectedbytheouterpartofthemirrorassembly, which is coated with silver. Both mirrors are deposited on a super-polished Carrier-envelope-phase-controlled,sub-4-fs,0.3-mJNIRlaserpulsescarriedata substrate with a radius of curvature of 25cm. Both beams are focused in a wavelengthof,750nmanddeliveredatarepetitionrateof3kHzarefocusedintoa quasistaticgascell formedby anickel tube, containingthe kryptongasat a neon-filledtubetogenerateEUVpulsesbyme",
+          "page": 6,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Control of Electron Localization in Molecular Dissociation",
+      "year": 2005,
+      "journal": "",
+      "authors": [
+        "volts. In practice",
+        "if we consider the polarization and"
+      ],
+      "doi": "",
+      "paper_id": "af7f5d87e0c4b342",
+      "file_hash": "af7f5d87e0c4b342e864988d91a21b5b",
+      "num_pages": 4,
+      "abstract": "",
+      "n_figures": 3,
+      "n_chunks": 4,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "af7f5d87_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1. (A) Pathways for the production of Dþ ions from D2 by dissociation of the molecular ion\n(through BS, SE, or RCE) or by Coulomb explosion (through RCI, SI, or EI). BS occurs when the avoided\ncrossing between diabatic potentials that are dressed by the laser field gives rise to dissociation fr",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\af7f5d87\\af7f5d87e0c4b342_p01_f00.png",
+          "page_num": 1,
+          "width": 1477,
+          "height": 954,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "af7f5d87_fig_001",
+          "label": "Fig. 3",
+          "caption": "Fig. 3. (A) Dþ kinetic\nenergy spectrum for D2\ndissociation with 5-fs,\n1 \u0001 1014 W cm–2 laser\npulses without phase\nstabilization. (B) Map of\nasymmetry parameter\nA(W,8) as a function of\nthe Dþ kinetic energy\nand carrier envelope\nphase 8 (measured over\na range of 6p with a\nstep size of D8 0 0.1p).\n(C) I",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\af7f5d87\\af7f5d87e0c4b342_p02_f01.png",
+          "page_num": 2,
+          "width": 2215,
+          "height": 817,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "af7f5d87_fig_002",
+          "label": "Fig. 4",
+          "caption": "Fig. 4. (A) Electric field\nof the 5-fs, 1I1014 W cm–2\npulse used in the calcu-\nlations, with carrier en-\nvelope phase 8 0 0. (B)\nTime-dependent pop-\nulations of the 1ssg\nþ\nand 2psu\nþ states of D2\nþ\nafter excitation through\nrecollision. (C) Temporal\nevolution of the electron\nlocalization parameter\nst",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\af7f5d87\\af7f5d87e0c4b342_p03_f02.png",
+          "page_num": 3,
+          "width": 1476,
+          "height": 1046,
+          "figure_type": "photo",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "REPORTS 22. AsimplecalculationindicatesthatthemagnitudesofVþ 24. R.F.Pierret,SemiconductorDeviceFundamentals ProjectsAgency.WethankX.Wang,W.L.Hughes, andV–areontheorderofafewtenstohundredsof s (Addison-Wesley,Reading,MA,1996),chapter14. J.Zhou,andJ.Liufortheirhelp. s volts.Inpractice,ifweconsiderthepolarizationand 25. W.I.Park,G.C.Yi,J.W.Kim,S.M.Park,Appl.Phys.Lett. dielectricscreeninginthecalculation,thelocalpotential 82,4358(2003). ismuchsmallerthanthenumbersgivenbytheequations 26. Y.Huangetal",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "REPORTS stepviarecollisionErecollisionionization(RCI)^ creationofthehigh-energyfragments(Fig.1B). 210 360 X X or via the laser field Esequential ionization Decreasing the pulse duration from 8 to 5 fs P down ðW(8Þ 0 dq dfPðW(q(f(8Þsinq (SI)^.Enhancedionization(EI)takesplacewhen suppresses spectral components assigned to 150 0 the vibrational wave packet reaches a transi- doubleionization.Light-fieldcontrolofmolec- tion region where electron localization occurs ular dissociation was therefore pur",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "REPORTS To gain qualitative insight into the mecha- (B), respectively. A time-dependent electron nonzero background of the few-cycle pulses nism responsible for the observed phase- localizationparameterquantifyingthelocaliza- (G10%inintensity),alaserfieldmaystillbe controlledasymmetryinthedissociationofDþ, tionontheupper/lowernucleus(fordefinition, present when the molecule breaks up and 2 wemodeledthelaser-drivenmotionofthetwo see theSOM) isdisplayedin (C).By thetime contributetotheasymmetry (2",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Control of Electron Localization in Molecular Dissociation M. F. Kling, Ch. Siedschlag, A. J. Verhoef, J. I. Khan, M. Schultze, Th. Uphues, Y. Ni, M. Uiberacker, M. Drescher, F. Krausz, and M. J. J. Vrakking Science 312 (5771), . DOI: 10.1126/science.1126259 View the article online https://www.science.org/doi/10.1126/science.1126259 Permissions https://www.science.org/help/reprints-and-permissions Use of this article is subject to the Terms of service Science (ISSN 1095-9203) is published by the",
+          "page": 4,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Attosecond real-time observation of electron tunnelling in atoms",
+      "year": 1960,
+      "journal": "",
+      "authors": [
+        "M. Uiberacker1",
+        "2",
+        "Th. Uphues3",
+        "M. Schultze2",
+        "A. J. Verhoef2",
+        "4",
+        "V. Yakovlev1",
+        "M. F. Kling5",
+        "J. Rauschenberger1",
+        "2"
+      ],
+      "doi": "",
+      "paper_id": "5a2abe8856545993",
+      "file_hash": "5a2abe8856545993cdaf117b5cc3048d",
+      "num_pages": 6,
+      "abstract": "",
+      "n_figures": 6,
+      "n_chunks": 6,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "5a2abe88_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1 | Strong-field ionization and pump-probe setting for its real-time\nobservation. a, Exposing an atom to a strong NIR laser field will result in a\nmodified potential (solid curve) composed of the Coulomb potential\n(dashed curve) and the time-dependent effective potential of the laser pulse.\nT",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\5a2abe88\\5a2abe8856545993_p02_f00.png",
+          "page_num": 2,
+          "width": 2201,
+          "height": 2021,
+          "figure_type": "plot",
+          "description": ""
+        },
+        {
+          "figure_id": "5a2abe88_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2 | Probing electron dynamics in atoms, molecules or solids with\nattosecond sampling techniques. A subfemtosecond XUV pulse triggers the\nmotion by inducing valence (process a) or core photoelectron emission\n(process b). The temporal evolution of photo- and Auger electron emission\n(process c) ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\5a2abe88\\5a2abe8856545993_p02_f01.png",
+          "page_num": 2,
+          "width": 2201,
+          "height": 2258,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "5a2abe88_fig_002",
+          "label": "Figure 4",
+          "caption": "Figure 4 | Ne21 ion yield versus delay between the subfemtoscond XUV\npump and the few-cycle NIR probe: experiment and modelling. The peak\nintensity of the NIR probe was (7 6 1) 3 1013 W cm22. a, The experimental\ndata were acquired from six delay scans repeated under the same\nexperimental conditions.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\5a2abe88\\5a2abe8856545993_p03_f02.png",
+          "page_num": 3,
+          "width": 2202,
+          "height": 2124,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "5a2abe88_fig_003",
+          "label": "Figure 3",
+          "caption": "Figure 3 | Energy levels and transitions in Ne11 and Ne21 ions relevant to\nthis study. The plotted levels represent energies required to ionize and\npossibly excite a neutral atom from its ground state. Absorption of photons\nof about 91-eV energy can produce singly or doubly charged ions with\nprobabi",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\5a2abe88\\5a2abe8856545993_p03_f03.png",
+          "page_num": 3,
+          "width": 2202,
+          "height": 2481,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "5a2abe88_fig_004",
+          "label": "Figure 4a",
+          "caption": "Figure 4a shows the number of Ne21 ions detected as a function of\ndelay Dt between the XUV pump and NIR probe. Figure 4b compares\nthe prediction of the Yudin–Ivanov theory6 (lines) with the experi-\nmental data (squares). In our modelling the shake-up states were\npopulated instantly during XUV photoi",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\5a2abe88\\5a2abe8856545993_p04_f04.png",
+          "page_num": 4,
+          "width": 2201,
+          "height": 1012,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "5a2abe88_fig_005",
+          "label": "Figure 6",
+          "caption": "Figure 6 | Xe41 and Xe31 ion yields versus delay between the\nsubfemtosecond XUV pump and the few-cycle NIR probe. The data have\nbeen compiled from the results of five delay scans repeated under the same\nexperimental conditions. The signals were accumulated for 20 s at each delay\nsetting. The squares",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\5a2abe88\\5a2abe8856545993_p05_f05.png",
+          "page_num": 5,
+          "width": 2201,
+          "height": 1694,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "Vol446|5April2007|doi:10.1038/nature05648 ARTICLES Attosecond real-time observation of electron tunnelling in atoms M.Uiberacker1,2,Th.Uphues3,M.Schultze2,A.J.Verhoef2,4,V.Yakovlev1,M.F.Kling5,J.Rauschenberger1,2, N.M.Kabachnik3,6,H.Schro¨der2,M.Lezius2,K.L.Kompa2,H.-G.Muller5,M.J.J.Vrakking5,S.Hendel3, U.Kleineberg1,U.Heinzmann3,M.Drescher7&F.Krausz1,2,4 Atomsexposedtointenselightloseoneormoreelectronsandbecomeions.Instrongfields,theprocessispredictedtooccur viatunnellingthroughthebindingpotent",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "ARTICLES NATURE|Vol446|5April2007 viaAugerdecayisaccompaniedbytransitionstounoccupiedorbitals beginningofthistimeintervalwithintheNIRpulseisadjustedwith via‘shake-up’(Fig.2d–f)14–16.Here,weusetheterm‘shake-up’ina thedelayDtbetweentheXUVpumpandtheNIRprobe.Asthedelay broad sense, standing for all possible processes populating excited isscannedfromlargenegativevalues(NIRprobefirst)tolargepos- ionicstates(includinginstantaneousandnon-instantaneousones), itivevalues(XUVpumpfirst)themeasuredionyield(F",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Experimentalset-up particles within a micrometre-scale detection volume17–19. The Foradetaileddescriptionoftheattosecondpump–probeapparatus, target and background pressures were ,1022 and ,1028mbar, see the Supplementary Information. Briefly, the XUV pump origi- respectively. nates fromhigh-harmonic generation in aneon gasjet exposed to 300-mJ,750-nmwaveform-controlledlaserpulseswithadurationof Shake-upandtunnelling t <(5.560.5)fs,atarepetitionrateof3kHz.Thecollinear,linearly Toprobeshake-upandl",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "(19.760.5):1(with,2,500Ne11ionscreatedpersecond),ingood of a strong laser field need to be developed and (2) the temporal agreementwiththeresultsofsynchrotronmeasurements22.Afewper resolution needs to be improved by using shorter XUV pulses25 centoftheNe11ionswerepromotedinto2p22nl(principalquantum and improving the signal-to-noise ratio as well as the accuracy of numbern:3or4;quantumorbitl:s,pord)configurations23(Fig.3). determiningthezeroofdelay.Theseadvanceswillallowdetermina- Thesesatellites",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "NATURE|Vol446|5April2007 ARTICLES Multi-electronrelaxation Fig.5weinferthatthelaser-inducedincreaseintheXe31yieldisdue Asafirstapplicationofthetechniqueofattosecondtunnelling,we toionizationfromthec-statesinXe21,whichcannotspontaneously capturedAugercascadexenonatomsfollowingexcitationbyasub- decay into Xe31. This NIR-probe-induced transition (denoted by femtosecondXUVpulse.Figure5sketchestherelevantenergylevels NIR-I in Fig. 5) yields Xe31 in configuration 5p23. Because these and transitions. E",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "ARTICLES NATURE|Vol446|5April2007 7. Baltuska,A.etal.Attosecondcontrolofelectronicprocessesbyintenselight 24. Smirnova,O.,Spanner,M.&Ivanov,M.Y.Coulombandpolarizationeffectsin fields.Nature421,611–615(2003). laser-assistedXUVionization.J.Phys.B39,323–339(2006). 8. Itatani,J.etal.Attosecondstreakcamera.Phys.Rev.Lett.88,173903(2002). 25. Sansone,G.etal.Isolatedsingle-cycleattosecondpulses.Science314,443–446 9. Kitzler,M.,Milosevic,N.,Scrinzi,A.,Krausz,F.&Brabec,T.Quantumtheoryof (2006). attosecond",
+          "page": 6,
+          "type": "body"
+        }
+      ]
+    }
+  ]
+}

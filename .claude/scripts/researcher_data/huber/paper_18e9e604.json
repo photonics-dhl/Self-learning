@@ -1,0 +1,68 @@
+{
+  "paper_id": "18e9e604",
+  "title": "1",
+  "authors": [
+    "V. Eggers1",
+    "G. Inzani1",
+    "M. Meierhofer1",
+    "L. Münster1",
+    "J. Helml1",
+    "R. Wallauer2",
+    "S. Zajusch2",
+    "S. Ito2"
+  ],
+  "year": 0,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\huber\\Eggers 等 - 2026 - Subcycle videography of lightwave-driven landau-zener-majorana transitions in graphene.pdf",
+  "filename": "Eggers 等 - 2026 - Subcycle videography of lightwave-driven landau-zener-majorana transitions in graphene.pdf",
+  "n_figs": 4,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "18e9e604_fig_000",
+      "caption": "Figure 1 | Landau-Zener-Majorana transitions in 2D momentum space. a, Illustration of the",
+      "label": "Figure 1",
+      "page": 23,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\18e9e604\\18e9e604_p23_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    },
+    {
+      "figure_id": "18e9e604_fig_001",
+      "caption": "Figure 2 | Lightwave-driven currents in graphene. a, Zoomed-in curvature-filtered cuts through the",
+      "label": "Figure 2",
+      "page": 25,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\18e9e604\\18e9e604_p25_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "graph"
+    },
+    {
+      "figure_id": "18e9e604_fig_002",
+      "caption": "Figure 3 | Subcycle electron dynamics in 2D momentum space. a, 2D carrier distribution in the",
+      "label": "Figure 3",
+      "page": 26,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\18e9e604\\18e9e604_p26_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "18e9e604_fig_003",
+      "caption": "Figure 4 | Ultrafast scattering channels in momentum space. a, Simulated 2D carrier distribution in",
+      "label": "Figure 4",
+      "page": 27,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\18e9e604\\18e9e604_p27_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

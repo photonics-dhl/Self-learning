@@ -1,0 +1,48 @@
+{
+  "paper_id": "a7126460",
+  "title": "Time-​resolved experimental techniques",
+  "authors": [],
+  "year": 1967,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\leone\\Kraus 等 - 2018 - The ultrafast X-ray spectroscopic revolution in chemical dynamics.pdf",
+  "filename": "Kraus 等 - 2018 - The ultrafast X-ray spectroscopic revolution in chemical dynamics.pdf",
+  "n_figs": 2,
+  "n_tables": 1,
+  "figures": [
+    {
+      "figure_id": "a7126460_fig_000",
+      "caption": "Fig. 2 | electronic coherence measured in atoms and molecules. \na | Schematic of the 4p-​shell holes in a Kr ion excited by a visible-​light laser \npulse. The extreme ultraviolet (XUV) probe, not shown, measures transitions \nfrom the 3d shell. The energy splitting between the 4p−1\n3/2 and 4p−1\n1/2 s",
+      "label": "Fig. 2",
+      "page": 5,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a7126460\\a7126460_p05_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    },
+    {
+      "figure_id": "a7126460_fig_001",
+      "caption": "Fig. 3 | Following a chemical reaction with soft X-​ray spectroscopy. \n a | A schematic view of the potential energy surfaces of ground-​state and \nphotoexcited cyclohexadiene (CHD), which undergoes an electrocyclic \nring-​opening through conical intersections. The ring opening reaction then \nproduc",
+      "label": "Fig. 3",
+      "page": 7,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a7126460\\a7126460_p07_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "a7126460_tab_000",
+      "paper_id": "a7126460",
+      "table_label": "Table 1",
+      "table_caption": "Table 1 | Overview of available short-​pulse X-​ray light sources",
+      "page_num": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a7126460\\a7126460_p04_t00.png",
+      "width": 1001,
+      "height": 2503
+    }
+  ]
+}

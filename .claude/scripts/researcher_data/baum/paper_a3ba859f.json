@@ -1,0 +1,47 @@
+{
+  "paper_id": "a3ba859f",
+  "title": "Nature  |  Vol 602  |  3 February 2022  |  73",
+  "authors": [
+    "S. R. Tauchert1",
+    "2",
+    "M. Volkov1",
+    "2",
+    "D. Ehberger2",
+    "D. Kazenwadel1",
+    "M. Evers1",
+    "H. Lange1",
+    "A. Donges1"
+  ],
+  "year": 2022,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\baum\\Tauchert 等 - 2022 - Polarized phonons carry angular momentum in ultrafast demagnetization.pdf",
+  "filename": "Tauchert 等 - 2022 - Polarized phonons carry angular momentum in ultrafast demagnetization.pdf",
+  "n_figs": 2,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "a3ba859f_fig_000",
+      "caption": "Fig. 1 | Pump–probe electron diffraction measurements of atomic motions \nduring ultrafast demagnetization. a, Experimental arrangement. Ultrashort \nelectron pulses (blue) are compressed by THz radiation (black) and probe the \nlaser-excited lattice dynamics in a single crystal of nickel (light green)",
+      "label": "Fig. 1",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a3ba859f\\a3ba859f_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "a3ba859f_fig_001",
+      "caption": "Fig. 3 | Molecular dynamics simulations. a, After laser excitation (red pulse), \nwe excite the lattice by instantaneously displacing an atom locally from its \nequilibrium position assuming a velocity in the x–z plane perpendicular to the \ndisplacement (blue motion), leading to an angular momentum of",
+      "label": "Fig. 3",
+      "page": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a3ba859f\\a3ba859f_p04_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

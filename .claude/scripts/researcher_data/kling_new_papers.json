@@ -1,0 +1,404 @@
+[
+  {
+    "doi": "10.1038/nature09084",
+    "title": "Electron localization following attosecond molecular photoionization",
+    "year": "2010",
+    "cites": 725,
+    "journal": "Nature",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "G.",
+        "lastName": "Sansone"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "F.",
+        "lastName": "Kelkensberg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "J.",
+        "lastName": "F. Pérez‐Torres"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Felipe",
+        "lastName": "Morales"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Matthias",
+        "lastName": "F. Kling"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "W.",
+        "lastName": "Siu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "O.",
+        "lastName": "Ghafur"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "P.",
+        "lastName": "Johnsson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Swoboda"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "E.",
+        "lastName": "Benedetti"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/nphoton.2007.169",
+    "title": "Attosecond nanoplasmonic-field microscope",
+    "year": "2007",
+    "cites": 334,
+    "journal": "Nature Photonics",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Mark",
+        "lastName": "I. Stockman"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Matthias",
+        "lastName": "F. Kling"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "U.",
+        "lastName": "Kleineberg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      }
+    ]
+  },
+  {
+    "doi": "10.1146/annurev.physchem.59.032607.093532",
+    "title": "Attosecond Electron Dynamics",
+    "year": "2007",
+    "cites": 330,
+    "journal": "Annual Review of Physical Chemistry",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Matthias",
+        "lastName": "F. Kling"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Marc",
+        "lastName": "J. J. Vrakking"
+      }
+    ]
+  },
+  {
+    "doi": "10.1088/2040-8986/aaa114",
+    "title": "Roadmap on plasmonics",
+    "year": "2018",
+    "cites": 318,
+    "journal": "Journal of Optics",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Mark",
+        "lastName": "I. Stockman"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Katrin",
+        "lastName": "Kneipp"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sergey",
+        "lastName": "I. Bozhevolnyi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Soham",
+        "lastName": "Saha"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Aveek",
+        "lastName": "Dutta"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Justus",
+        "lastName": "C. Ndukaife"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nathaniel",
+        "lastName": "Kinsey"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Harsha",
+        "lastName": "Reddy"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Urcan",
+        "lastName": "Guler"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vladimir",
+        "lastName": "M. Shalaev"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevlett.103.153002",
+    "title": "Field-Free Orientation of CO Molecules by Femtosecond Two-Color Laser Fields",
+    "year": "2009",
+    "cites": 272,
+    "journal": "Physical Review Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Sankar",
+        "lastName": "De"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "I.",
+        "lastName": "Znakovskaya"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "D.",
+        "lastName": "Ray"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Fatima",
+        "lastName": "Anis"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nora",
+        "lastName": "G. Johnson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "И.",
+        "lastName": "А. Бочарова"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Maia",
+        "lastName": "Magrakvelidze"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "B.",
+        "lastName": "D. Esry"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "C.",
+        "lastName": "L. Cocke"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "I.",
+        "lastName": "V. Litvinyuk"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/nphoton.2014.48",
+    "title": "What will it take to observe processes in 'real time'?",
+    "year": "2014",
+    "cites": 256,
+    "journal": "Nature Photonics",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Stephen",
+        "lastName": "R. Leone"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "C.",
+        "lastName": "William McCurdy"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Joachim",
+        "lastName": "Burgdörfer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Lorenz",
+        "lastName": "S. Cederbaum"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Zenghu",
+        "lastName": "Chang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nirit",
+        "lastName": "Dudovich"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Johannes",
+        "lastName": "Feist"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chris",
+        "lastName": "H. Greene"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Misha",
+        "lastName": "Ivanov"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Reinhard",
+        "lastName": "Kienberger"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/ncomms1807",
+    "title": "Attosecond tracing of correlated electron-emission in non-sequential double ionization",
+    "year": "2012",
+    "cites": 245,
+    "journal": "Nature Communications",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Boris",
+        "lastName": "Bergues"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Kübel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nora",
+        "lastName": "G. Johnson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Bettina",
+        "lastName": "Fischer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nicolas",
+        "lastName": "Camus"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "K.",
+        "lastName": "J. Betsch"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "O.",
+        "lastName": "Herrwerth"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Arne",
+        "lastName": "Senftleben"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "A.",
+        "lastName": "M. Sayler"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tim",
+        "lastName": "Rathje"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/nphys290",
+    "title": "Attosecond electron wave packet interferometry",
+    "year": "2006",
+    "cites": 231,
+    "journal": "Nature Physics",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "T.",
+        "lastName": "Remetter"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "P.",
+        "lastName": "Johnsson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "J.",
+        "lastName": "Mauritsson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Katalin",
+        "lastName": "Varjú"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Y.",
+        "lastName": "Ni"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "F.",
+        "lastName": "Lépine"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "E.",
+        "lastName": "Gustafsson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Matthias",
+        "lastName": "F. Kling"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "J.",
+        "lastName": "I. Khan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Rodrigo",
+        "lastName": "López-Martens"
+      }
+    ]
+  }
+]

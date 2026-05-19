@@ -1,0 +1,92 @@
+{
+  "paper_id": "82ba12ce",
+  "title": "Attosecond metrology",
+  "authors": [],
+  "year": 0,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\35107000.pdf",
+  "filename": "35107000.pdf",
+  "n_figs": 7,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "82ba12ce_fig_000",
+      "caption": "Figure 2 Diagram of the principal physical effects and processes preceding our light-\n®eld-controlled X-ray photoemission experiment. First, the few-cycle visible light pulse\ninteracts with a jet of neon atoms to produce a train of pulses in the XUV and soft-X-ray\nspectral range. The rainbow colours",
+      "label": "Figure 2",
+      "page": 2,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\82ba12ce\\82ba12ce_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "82ba12ce_fig_001",
+      "caption": "Figure 1 The principle of measuring cross-correlation between light electric ®eld and\nX-ray intensity with attosecond resolution by means of `two-colour' photoionization. The\nphotoelectrons created initially with isotropic momentum distribution by the absorption of\nX-ray photons pick up momentum fro",
+      "label": "Figure 1",
+      "page": 2,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\82ba12ce\\82ba12ce_p02_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "82ba12ce_fig_002",
+      "caption": "Figure 4 Cross-correlation of X-ray pulse with few-cycle laser pulse. Lower panel,\ncontour plot of the Kr 4p photoelectron spectra (vertical axis) as a function of delay td of the\nsoft-X-ray pulse with respect to the light pulse (horizontal axis). The plot displays the\nasymmetric gaussian ®ts introd",
+      "label": "Figure 4",
+      "page": 3,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\82ba12ce\\82ba12ce_p03_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "82ba12ce_fig_003",
+      "caption": "Figure 3 Kr 4p photoelectron spectra produced by ,90-eV soft-X-ray pulses in the\npresence of a strong visible light ®eld at two different delays td of the X-ray pulse. (Positive\ntd corresponds to a retardation of the X-ray pulse.) The dots represent results corrected for\nATI background. The lines sh",
+      "label": "Figure 3",
+      "page": 3,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\82ba12ce\\82ba12ce_p03_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "82ba12ce_fig_004",
+      "caption": "Figure 5 Spectral width DW of the Kr 4p photoelectron spectra as a function of td. The\ndots represent the oscillating component of the spectral width, DW - DWca(td), where\nDWca(td) stands for the cycle-averaged value of DW(td). The full red line is the result of\nsimulations based on the quasi-classi",
+      "label": "Figure 5",
+      "page": 4,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\82ba12ce\\82ba12ce_p04_f04.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "82ba12ce_fig_005",
+      "caption": "Figure 6 Calculated far-®eld, near-axis temporal intensity pro®le of a soft-X-ray pulse.\nThe X-ray pulse is produced in a 3-mm-long 200-mbar neon gas volume by a 7-fs, 750-\nnm gaussian laser pulse with an on-axis peak intensity of 9 ´ 1014 W cm-2. For the\nelectric ®eld of the laser pulse, E(t) ~ exp",
+      "label": "Figure 6",
+      "page": 4,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\82ba12ce\\82ba12ce_p04_f05.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "82ba12ce_fig_006",
+      "caption": "Figure 7 Calculated (line) and measured (dots) instantaneous frequency of the few-cycle\nlight ®eld. The experimental data are derived from DW(td) shown in Fig. 5. The computed\nfrequency sweep originates from self-phase modulation of the light pulse upon its\ninteraction with the neon gas X-ray source",
+      "label": "Figure 7",
+      "page": 5,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\82ba12ce\\82ba12ce_p05_f06.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

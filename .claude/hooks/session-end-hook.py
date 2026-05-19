@@ -418,9 +418,44 @@ def create_session_summary():
     DISCUSSION_LOG.unlink(missing_ok=True)
 
 
+def check_handoff():
+    """Check if HANDOFF.md was filled — warn if not."""
+    HANDOFF = PROJECT_ROOT / "HANDOFF.md"
+
+    if not HANDOFF.exists():
+        print("\n[HANDOFF] ⚠ HANDOFF.md does not exist. Next session will have no task continuity.")
+        print("[HANDOFF] Consider: writing current task state before /clear.")
+        return
+
+    content = HANDOFF.read_text(encoding='utf-8', errors='ignore')
+
+    # Check if any real content was filled into the template
+    sections_filled = 0
+    for section in ['## Last Task', '## Key Decisions', '## Current Blockers', '## Next Steps']:
+        idx = content.find(section)
+        if idx >= 0:
+            next_line_start = content.find('\n', idx) + 1
+            if next_line_start < len(content):
+                next_line = content[next_line_start:content.find('\n', next_line_start)].strip()
+                if next_line and not next_line.startswith('<!--'):
+                    sections_filled += 1
+
+    if sections_filled == 0:
+        print("\n" + "=" * 60)
+        print("[HANDOFF] ⚠ HANDOFF.md STILL EMPTY — NO TASK STATE SAVED")
+        print("[HANDOFF] Next session will lose all task context.")
+        print("[HANDOFF] Fill HANDOFF.md before /clear or session end.")
+        print("=" * 60)
+    elif sections_filled < 3:
+        print(f"\n[HANDOFF] ⚡ Only {sections_filled}/4 sections filled — partial context saved.")
+    else:
+        print(f"\n[HANDOFF] ✓ HANDOFF.md populated ({sections_filled}/4 sections). Next session will resume cleanly.")
+
+
 def main():
     """入口点"""
     try:
+        check_handoff()
         create_session_summary()
     except Exception as e:
         print(f"[Session Hook] Error: {e}")

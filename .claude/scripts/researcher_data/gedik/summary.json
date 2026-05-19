@@ -1,0 +1,73 @@
+{
+  "researcher": "gedik",
+  "n_papers": 4,
+  "n_figures": 10,
+  "papers": [
+    {
+      "paper_id": "2d08beb6",
+      "title": "LETTERS",
+      "authors": [
+        "Qiong Ma1†",
+        "Su-Yang Xu1†",
+        "Ching-Kit Chan1",
+        "2",
+        "Cheng-Long Zhang3",
+        "4",
+        "Guoqing Chang5",
+        "6",
+        "Yuxuan Lin7"
+      ],
+      "year": 2017,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\gedik\\Ma 等 - 2017 - Direct optical detection of weyl fermion chirality in a topological semimetal.pdf",
+      "filename": "Ma 等 - 2017 - Direct optical detection of weyl fermion chirality in a topological semimetal.pdf",
+      "n_figs": 3,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "578d7739",
+      "title": "Letter",
+      "authors": [],
+      "year": 2019,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\gedik\\Ma 等 - 2019 - Observation of the nonlinear hall effect under time-reversal-symmetric conditions.pdf",
+      "filename": "Ma 等 - 2019 - Observation of the nonlinear hall effect under time-reversal-symmetric conditions.pdf",
+      "n_figs": 3,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "a6da36a3",
+      "title": "Nature  |  Vol 602  |  24 February 2022  |  601",
+      "authors": [],
+      "year": 2022,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\gedik\\Song 等 - 2022 - Evidence for a single-layer van der waals multiferroic.pdf",
+      "filename": "Song 等 - 2022 - Evidence for a single-layer van der waals multiferroic.pdf",
+      "n_figs": 3,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "94a77e9d",
+      "title": "to both minimal and IL12 gene promoters, thus",
+      "authors": [
+        "impairing their transcription (Fig. 6",
+        "B to E",
+        "and"
+      ],
+      "year": 2011,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\gedik\\Wang 等 - 2013 - Observation of floquet-bloch states on the surface of a topological insulator.pdf",
+      "filename": "Wang 等 - 2013 - Observation of floquet-bloch states on the surface of a topological insulator.pdf",
+      "n_figs": 1,
+      "n_tables": 0,
+      "tables": []
+    }
+  ]
+}

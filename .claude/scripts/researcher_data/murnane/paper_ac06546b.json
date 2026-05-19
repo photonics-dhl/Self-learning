@@ -1,0 +1,63 @@
+{
+  "paper_id": "ac06546b",
+  "title": "REFERENCES AND NOTES",
+  "authors": [
+    "M. Ringbauer et al.",
+    "Nat. Phys. 11",
+    "249–254 (2015)."
+  ],
+  "year": 2015,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\murnane\\Miao 等 - 2015 - Beyond crystallography diffractive imaging using coherent x-ray light sources.pdf",
+  "filename": "Miao 等 - 2015 - Beyond crystallography diffractive imaging using coherent x-ray light sources.pdf",
+  "n_figs": 4,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "ac06546b_fig_000",
+      "caption": "Fig. 1. Schematic layout of five main CDI methods and iterative phase\nretrieval algorithms. (A) Plane-wave CDI: A plane wave illuminates a sample,\nand an oversampled diffraction pattern is measured by a detector. (B) Bragg\nCDI: The diffraction pattern surrounding a Bragg peak is acquired from a\nnano",
+      "label": "Fig. 1",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ac06546b\\ac06546b_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    },
+    {
+      "figure_id": "ac06546b_fig_001",
+      "caption": "Fig. 2. Revolution in coherent x-ray sources. (A) The x-ray brilliance of coherent light sources has improved by 20 orders of magnitude in 6 decades (brilliance\nis a measure of coherent x-ray flux). The inset shows the SASE process to produce extremely intense and ultrashort XFEL pulses. (B) Progres",
+      "label": "Fig. 2",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ac06546b\\ac06546b_p03_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "ac06546b_fig_002",
+      "caption": "Fig. 3. Physical science applications of diffractive imaging methods with\ncoherent x-rays. (A) 3D morphology of Fe-rich and Fe-S phases in an olivine\nmatrix (37). (B) Histogram of the Fe-rich phase, Fe-S phase, and olivine distribution\nwithin a dotted-line cube in (A). (C) Phase of the ptychographic",
+      "label": "Fig. 3",
+      "page": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ac06546b\\ac06546b_p04_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "graph"
+    },
+    {
+      "figure_id": "ac06546b_fig_003",
+      "caption": "Fig. 4. Biological applications of diffractive imaging methods with coher-\nent x-rays. (A) 3D mass density distribution of a whole, unstained yeast spore\ncell, showing nucleus (orange), endoplasmic reticulum (green), vacuole (white),\nmitochondria (blue), and granules (light blue) (44). (B) 3D image ",
+      "label": "Fig. 4",
+      "page": 5,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ac06546b\\ac06546b_p05_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    }
+  ],
+  "tables": []
+}

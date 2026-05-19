@@ -1,0 +1,84 @@
+{
+  "researcher": "nisoli",
+  "n_papers": 4,
+  "n_figures": 10,
+  "papers": [
+    {
+      "paper_id": "464c5e72",
+      "title": "nature photonics | VOL 5 | NOVEMBER 2011 | www.nature.com/naturephotonics",
+      "authors": [
+        "ver the past few decades",
+        "the ability to investigate ultra-"
+      ],
+      "year": 2011,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\nisoli\\Sansone 等 - 2011 - High-energy attosecond light sources.pdf",
+      "filename": "Sansone 等 - 2011 - High-energy attosecond light sources.pdf",
+      "n_figs": 4,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "d20f9d87",
+      "title": "ATTOSECOND DYNAMICS",
+      "authors": [
+        "F. Calegari",
+        "1 D. Ayuso",
+        "2 A. Trabattoni",
+        "3 L. Belshaw",
+        "4 S. De Camillis",
+        "4 S. Anumula",
+        "3"
+      ],
+      "year": 2002,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\nisoli\\Calegari 等 - 2014 - Ultrafast electron dynamics in phenylalanine initiated by attosecond pulses.pdf",
+      "filename": "Calegari 等 - 2014 - Ultrafast electron dynamics in phenylalanine initiated by attosecond pulses.pdf",
+      "n_figs": 3,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "dce1474b",
+      "title": "Isolated Single-Cycle Attosecond Pulses",
+      "authors": [
+        "30. M. Amenomori et al.",
+        "Astrophys. J. 633",
+        "1005 (2005)."
+      ],
+      "year": 2005,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\nisoli\\Sansone 等 - 2006 - Isolated Single-Cycle Attosecond Pulses.pdf",
+      "filename": "Sansone 等 - 2006 - Isolated Single-Cycle Attosecond Pulses.pdf",
+      "n_figs": 2,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "cbf5933d",
+      "title": "LETTERS",
+      "authors": [
+        "G. Sansone1*",
+        "F. Kelkensberg2*",
+        "J. F. Pe´rez-Torres3*",
+        "F. Morales3*",
+        "M. F. Kling4",
+        "W. Siu2",
+        "O. Ghafur2",
+        "P. Johnsson2",
+        "5"
+      ],
+      "year": 1918,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\nisoli\\Sansone 等 - 2010 - Electron localization following attosecond molecular photoionization.pdf",
+      "filename": "Sansone 等 - 2010 - Electron localization following attosecond molecular photoionization.pdf",
+      "n_figs": 1,
+      "n_tables": 0,
+      "tables": []
+    }
+  ]
+}

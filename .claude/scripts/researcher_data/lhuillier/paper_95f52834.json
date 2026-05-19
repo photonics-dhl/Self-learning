@@ -1,0 +1,47 @@
+{
+  "paper_id": "95f52834",
+  "title": "Probing Single-Photon Ionization on the Attosecond Time Scale",
+  "authors": [
+    "K. Klu¨nder",
+    "1 J. M. Dahlstro¨m",
+    "1 M. Gisselbrecht",
+    "1 T. Fordell",
+    "1 M. Swoboda",
+    "1 D. Gue´not",
+    "1 P. Johnsson",
+    "1 J. Caillat",
+    "2"
+  ],
+  "year": 2010,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\lhuillier\\Klünder 等 - 2011 - Probing single-photon ionization on the attosecond time scale.pdf",
+  "filename": "Klünder 等 - 2011 - Probing single-photon ionization on the attosecond time scale.pdf",
+  "n_figs": 2,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "95f52834_fig_000",
+      "caption": "FIG. 1 (color online).\nPrinciple of the measurement. Two\nEWPs originating from different shells are simultaneously cre-\nated using the same comb of high-order harmonics. The out-\ngoing EWPs are further probed with a weak ir ﬁeld. For\nsimplicity only two harmonics are indicated. Also shown is the\nexp",
+      "label": "FIG. 1",
+      "page": 1,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\95f52834\\95f52834_p01_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "95f52834_fig_001",
+      "caption": "FIG. 2 (color).\nEnergy spectra as a function of delay from\nelectrons liberated from the 3s shell (a) and the 3p shell (b),\nrespectively. (c) Retrieved delays corrected for the Cr group\ndelay. Also shown are the 3p delays shifted down in energy for\ncomparison with the 3s delays (dashed line).",
+      "label": "FIG. 2",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\95f52834\\95f52834_p02_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "spectrum"
+    }
+  ],
+  "tables": []
+}

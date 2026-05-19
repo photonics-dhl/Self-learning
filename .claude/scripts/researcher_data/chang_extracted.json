@@ -1,0 +1,568 @@
+{
+  "professor_key": "chang",
+  "paper_count": 5,
+  "total_figures": 22,
+  "total_chunks": 36,
+  "papers": [
+    {
+      "title": "Phase-Matched Generation of Coherent Soft X-rays",
+      "year": 2099,
+      "journal": "",
+      "authors": [
+        "Andy Rundquist",
+        "Charles G. Durfee III",
+        "Zenghu Chang"
+      ],
+      "doi": "",
+      "paper_id": "1cf11fc29b473e6a",
+      "file_hash": "1cf11fc29b473e6a5fb1ea3314a04ba3",
+      "num_pages": 5,
+      "abstract": "",
+      "n_figures": 5,
+      "n_chunks": 5,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "1cf11fc2_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1. Experimental set-up for\nphase-matching of soft x-rays in a\ncapillary wave guide. The inset\nshows the growth of the x-ray wave\nwhen phase-matched. Note that\nthe laser and x-ray wavelengths are\nnot to scale.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1cf11fc2\\1cf11fc29b473e6a_p01_f00.png",
+          "page_num": 1,
+          "width": 1493,
+          "height": 529,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "1cf11fc2_fig_001",
+          "label": "Figure 3",
+          "caption": "Figure 3 shows the theoretically predict-\ned output for the 29th harmonic, with and\nwithout the presence of absorption and ion-\nization. The presence of absorption and ion-\nization tends to dampen and broaden the\nexpected oscillations of the output signal\nwith pressure, both because the absorption\nd",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1cf11fc2\\1cf11fc29b473e6a_p03_f01.png",
+          "page_num": 3,
+          "width": 2351,
+          "height": 227,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "1cf11fc2_fig_002",
+          "label": "Fig. 2",
+          "caption": "Fig. 2. Measured signals of the (A) 29th and (B)\n31st harmonics as a function of gas pressure.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1cf11fc2\\1cf11fc29b473e6a_p03_f02.png",
+          "page_num": 3,
+          "width": 2351,
+          "height": 2085,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "1cf11fc2_fig_003",
+          "label": "Fig. 3",
+          "caption": "Fig. 3. (A) Calculated output of the 29th harmonic,\n(B) in the presence of constant 2% ionization, (C)\nin the presence of absorption, and (D) net output\nin the presence of absorption and varying levels of\nionization around 2%.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1cf11fc2\\1cf11fc29b473e6a_p03_f03.png",
+          "page_num": 3,
+          "width": 1437,
+          "height": 1506,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "1cf11fc2_fig_004",
+          "label": "Fig. 4",
+          "caption": "Fig. 4. Soft x-ray output beam for harmonic or-\nders 23 through 31: (A) unphase-matched, detec-\ntor set to high gain, and (B) phase-matched, de-\ntector set to low gain.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1cf11fc2\\1cf11fc29b473e6a_p03_f04.png",
+          "page_num": 3,
+          "width": 1493,
+          "height": 1546,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "REPORTS Phase-Matched Generation of Coherent However,manymoreapplicationswouldbe possible if the process were made more ef- Soft X-rays ficient by phase-matching. Unfortunately, the rapidly changing free-electron density Andy Rundquist, Charles G. Durfee III, Zenghu Chang, associated with ionization of the atoms led Catherine Herne, Sterling Backus, Margaret M. Murnane,* to the generally held opinion that phase- matching would result in, at most, modest Henry C. Kapteyn improvements in efficienc",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "ityofthelaserlightinahollowwaveguide flections.Theintrinsicdiffraction,andthus regained as long as the total percentage of can be adjusted by simply changing the the effective grazing angle of incidence on ionized atoms is still small (,;5% for ar- guidediameterorbychangingthegaspres- the walls, increases with wavelength. Be- gon). The use of 20-fs pulses allows us to sureinsidethewaveguide.Thus,verylong cause the projection of the wave vector keep the total ionization fraction small but coheren",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "ic generation in a pulsed-gas nozzle or free- output.Wecheckedthatforpressuresupto Figure3showsthetheoreticallypredict- flowing cell, which have been used in the 200 torr, no change in the transmission of ed output for the 29th harmonic, with and pastforHHGexperiments. the laser light occurred because of ioniza- withoutthepresenceofabsorptionandion- Ifphase-matchingofconversionoflaser tion effects. Therefore, the decrease in sig- ization.Thepresenceofabsorptionandion- light into x-rays is achiev",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "REPORTS those made using other types of detectors. 15. S.C.Rae,K.Burnett,J.Cooper,Phys.Rev.A50, 20. C. G. Durfee, S. Backus, M. M. Murnane, H. C. An image of the phase-matched har- 3438(1994). Kapteyn,Opt.Lett.22,1565(1997). 16. A.H.Kung,J.F.Young,S.E.Harris,Appl.Phys. 21. E.A.J.MarcateliandR.A.Schmeltzer,BellSyst. monic output was obtained by placing an Lett.22,301(1973). Tech.J.43,1783(1964). imagingmicrochannelplatedetector(XSI) 17. R.Mahon,T.J.McIlrath,V.P.Myerscough,D.W. 22. S. Backus, C. G",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Phase-Matched Generation of Coherent Soft X-rays Andy Rundquist, Charles G. Durfee, III, Zenghu Chang, Catherine Herne, Sterling Backus, Margaret M. Murnane, and Henry C. Kapteyn Science 280 (5368), . DOI: 10.1126/science.280.5368.1412 View the article online https://www.science.org/doi/10.1126/science.280.5368.1412 Permissions https://www.science.org/help/reprints-and-permissions Use of this article is subject to the Terms of service Science (ISSN 1095-9203) is published by the American Associa",
+          "page": 5,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Attosecond science based on high harmonic generation from gases and solids",
+      "year": 2020,
+      "journal": "",
+      "authors": [
+        "Jie Li1",
+        "2",
+        "3",
+        "Jian Lu4",
+        "Andrew Chew2",
+        "Seunghwoi Han"
+      ],
+      "doi": "",
+      "paper_id": "c5a5ea87f1350ebd",
+      "file_hash": "c5a5ea87f1350ebdd540a6f46f677232",
+      "num_pages": 13,
+      "abstract": "",
+      "n_figures": 7,
+      "n_chunks": 13,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "c5a5ea87_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1 Atto-chirp compensation in the water window. Comparison of group delay dispersion (a) and X-ray transmission (b) between a 2-μm-thick uranium\nfoil and 8.26 cm long, 1 atm H2 gas from 250 to 550 eV.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c5a5ea87\\c5a5ea87f1350ebd_p04_f00.png",
+          "page_num": 4,
+          "width": 2160,
+          "height": 885,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "c5a5ea87_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2 Attosecond transient-absorption spectroscopy at the N K-edge. a Experimental setup. b Attosecond X-ray spectrum. c Molecular orbitals of NO.\nd Absorption spectrogram. e Static absorbance of NO without the IR pump pulse. Reproduced from ref. 65, Copyright 2019, Optical Society of America.\nf El",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c5a5ea87\\c5a5ea87f1350ebd_p05_f01.png",
+          "page_num": 5,
+          "width": 2160,
+          "height": 1334,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "c5a5ea87_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3 Charge migration in molecules. a The reconstructed electron–hole density from HHG spectroscopy as a function of time after strong-ﬁeld ionization\nof HCCI. Reproduced from ref. 71 with permission from AAAS. b Dipole moment oscillations of C2HCI+ ionized from a HOMO/HOMO-1 superposition of\nstat",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c5a5ea87\\c5a5ea87f1350ebd_p06_f02.png",
+          "page_num": 6,
+          "width": 2160,
+          "height": 1016,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "c5a5ea87_fig_003",
+          "label": "Fig. 4",
+          "caption": "Fig. 4 Charge transfer in organic photovoltaic materials. a Schematics describing 2-picolinic acid adsorbed onto TiO2 with femtosecond UV as the pump\nand attosecond SXR as the probe. b Energy diagram describing the electron transfer from LUMO of adsorbate to conduction band of TiO2. Schematics\nshowi",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c5a5ea87\\c5a5ea87f1350ebd_p06_f03.png",
+          "page_num": 6,
+          "width": 2160,
+          "height": 900,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "c5a5ea87_fig_004",
+          "label": "Fig. 5",
+          "caption": "Fig. 5 High-harmonic spectroscopy of solid materials. a Schematics for HHS of solid-state materials in transmission geometry. Few-cycle laser pulses\nexcite the sample at the V/Å level without damage. Attosecond pulses are produced on subcycle timescales, which interfere in the far ﬁeld and produce\nd",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c5a5ea87\\c5a5ea87f1350ebd_p07_f04.png",
+          "page_num": 7,
+          "width": 2160,
+          "height": 832,
+          "figure_type": "diagram",
+          "description": ""
+        },
+        {
+          "figure_id": "c5a5ea87_fig_005",
+          "label": "Fig. 6",
+          "caption": "Fig. 6 Momentum-space interpretation for HHG in solid materials. The\nmicroscopic mechanism for solid-state HHG showing two major channels\nsemiclassically. The laser ﬁeld promotes an electron from valence to\nconduction band leaving behind a hole in the valence band, as shown by the\nvertical solid lin",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c5a5ea87\\c5a5ea87f1350ebd_p08_f05.png",
+          "page_num": 8,
+          "width": 2160,
+          "height": 656,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "c5a5ea87_fig_006",
+          "label": "Fig. 7",
+          "caption": "Fig. 7 Attosecond interferometry in transmission and reﬂection conﬁguration. Experimental setup in a transmission and b reﬂection, where high\nharmonics from two sources interfere in the far ﬁeld. Reproduced with permission from ref. 106, Copyright 2019, Springer Nature. A representative\ninterferogra",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c5a5ea87\\c5a5ea87f1350ebd_p09_f06.png",
+          "page_num": 9,
+          "width": 2160,
+          "height": 1207,
+          "figure_type": "setup",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "PERSPECTIVE OPEN https://doi.org/10.1038/s41467-020-16480-6 Attosecond science based on high harmonic generation from gases and solids Jie Li1,2,3, Jian Lu4, Andrew Chew2, Seunghwoi Han 2,5, Jialin Li2, Yi Wu2, ✉ He Wang6, Shambhu Ghimire 4 & Zenghu Chang 2 Recentprogressinhighpowerultrafastshort-waveandmid-waveinfraredlasershasenabled gas-phasehighharmonicgeneration(HHG)inthewaterwindowandbeyond,aswellasthe demonstration of HHG in condensed matter. In this Perspective, we discuss the recent adv",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "PERSPECTIVE NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-16480-6 Box 1|Photon energyofthe high-harmonic spectrum Thehighestphotonenergy(cutoffphotonenergy)fromgas-phaseHHGcanbeestimatedby (cid:1)hω c ½eV(cid:2)¼I p þ3´10(cid:3)13I 0 λ2 L ; ð1Þ μ w m he . r D e u I e p i t s o t q h u e a i n o t n u i m zat d io if n fu p s o io t n e , n t t h ia e l s o i f n t g h le e - g a a to s m at e o f m fic e ie x n p c re y s d s e e c d re in as e e V s . w T i h t e h p th e e ak dr la i",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Spectral filtering methods, such as AG and ionization gating (IG)32, can only isolate IAPs near the HHG spectrum cutoff. TechniquesbasedonthetemporalgatingoftheHHGprocesscan generate an attosecond supercontinuum that covers both the plateau and cutoff spectrum portion. The most common temporal gating method is polarization gating (PG)33,34. The influenceoffieldellipticityonHHGsuppressionincreasesasthe driving wavelength increases35. PG has the potential for generating ultra-broadband SXR pulses3",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "a b 0 100 100 –200 10–1 10–1 –400 10–2 10–2 10–3 10–3 10–4 10–4 chirp at 365eV, the required pressure–length product is 54-atm Chargemigrationinmoleculesandwave-packagedynamicsat cm, which is experimentally feasible. Hydrogen is preferred conical intersections. Comprehensive numerical simulations of because of its low absorption in the SXR region compared with electron dynamics in polyatomic molecules have predicted that othermaterials.UraniumfoilalsoexhibitsnegativeGDDbeyond when an electron is",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "0.20 Al filter 0.15 NO gas cell Slit 0.10 1.0 High-harmonic spectroscopy is based on the predictions",
+          "text": "0.20 Al filter 0.15 NO gas cell Slit 0.10 1.0 High-harmonic spectroscopy is based on the predictions of the The scheme is shown in Fig. 3c. Like in the HHG spectroscopy semiclassical model of HHG that relate photon energy of a experiments, the electronic superposition state can be formed by harmonic peak to the time difference between the tunneling ionizationofthemoleculeswithastrongIRlaserpulse.However, ionization (pump) and the photon emission (probe)78. When heretheholemotionwillbemonitoredby",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "time Times, fs Probing charge transfer in organic photovoltaic materials. strongly coupled system, the charge injection from the organic Organic photovoltaic materials have received extensive research dye molecules to TiO takes place in 3–30fs86,87, exceeding the 2 attentionduetolowfabricationcost,largeareaproduction,light instrument limit of femtosecond lasers that are the primary tool weight, and flexibility. One type of organic solar cell consists of totime-resolvetheseprocessesatpresent88,89",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "absorptionofLUMOattheCorNK-edges(~285eVor~400eV) window X-ray source will allow simultaneous measurements at should decrease. When the electrons move to the TiO , the both the Si L-edge and the O K-edge (533eV) in transient- 2 absorption in the conduction band probed by the Ti L-edge absorption experiments. This could provide the evidence of cor- (~460eV) should decrease. At the same time, the absorption of related charge motion at the Si and O sites to deepen the the LUMO at the C or N K-edges ",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "PERSPECTIVE NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-16480-6 Intra-band Similarly, depending on the system, lower-lying valence bands current Conduction mayalsocontribute,asunderstoodbyanalysingtheterahertz-field band driven harmonics in GaSe crystal103,104. Therefore, in the momentum-space framework, high-harmonic spectroscopy also presentsanovel,all-opticalapproachforprobingelectronicband structure, including away from the zone center. For these mea- Inter-band polarization sure",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "a b EUV far-field profile High-harmonic pulses NIR driving pulses EUV spectrometer Sample 3 2 1 0 –1 –2 –3 12 13 14 15 16 17 18 Photon energy (eV) SiO 112.Circularlypolarizedharmonicshavebeendemonstrated, systems. Examples of ultrafast phenomena include insulator to 2 at least in the visible wavelength range113. metalphasetransitions,stronglycorrelatedelectrondynamics117, One drawback of solid-state HHG when compared with gas- and topological phase transitions in quantum materials118. The- phase",
+          "page": 9,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "PERSPECTIVE NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-16480-6 effects such as electron-electron correlations and dephasing are novel time-resolved experimental and theoretical tools in a wide largely ignored while the latter is implemented just phenomen- spectral range for studying dynamics in isolated molecules and ologically. Therefore, more predictive theories that consider condensed-phase materials, we now stand at the threshold of correlations and multiple electronic bands are",
+          "page": 10,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Laser waveform control of extreme ultraviolet high harmonics from solids",
+      "year": 2017,
+      "journal": "",
+      "authors": [
+        "YONG SING YOU",
+        "1 MENGXI WU",
+        "2 YANCHUN YIN",
+        "3",
+        "4 ANDREW CHEW",
+        "3",
+        "4 XIAOMING REN",
+        "3",
+        "4"
+      ],
+      "doi": "",
+      "paper_id": "9db50e53e44ccc4f",
+      "file_hash": "9db50e53e44ccc4f4c556fb594074b69",
+      "num_pages": 4,
+      "abstract": "",
+      "n_figures": 3,
+      "n_chunks": 4,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "9db50e53_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1.\nIntense two-cycle laser pulses are focused into a 200 μm thick\nMgO crystal to produce high harmonics. The harmonic spectrum is\nsensitive to the CEP of the drive laser; for example, (a) shows represen-\ntative measured spectra for a sine-like and a cosine-like pulse as shown\nin the insets. The",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\9db50e53\\9db50e53e44ccc4f_p02_f00.png",
+          "page_num": 2,
+          "width": 2143,
+          "height": 2379,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "9db50e53_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2.\nTop row shows the measured CEP dependence of HHG from MgO with peak laser fields of (a) 1.2 V/Å, (b) 1.7 V/Å, and (c) 2.1 V/Å,\nrespectively. The bottom row shows calculation results from the three-level model, at similar field strengths of (d) 1.0 V/Å, (e) 1.3 V/Å, and (f) 1.8 V/Å,\nrespectiv",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\9db50e53\\9db50e53e44ccc4f_p03_f01.png",
+          "page_num": 3,
+          "width": 2143,
+          "height": 1093,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "9db50e53_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3.\n(a) Calculated time-frequency profile of the HHG emission\nusing a field strength of 1.0 V/Å and a CEP of zero. The color scale\nindicating the spectral yield is logarithmic. The dashed lines indicate\npredicted time-dependent photon energies. Photon energies above the\nbandgap (7.8 eV) are emit",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\9db50e53\\9db50e53e44ccc4f_p03_f02.png",
+          "page_num": 3,
+          "width": 1043,
+          "height": 481,
+          "figure_type": "photo",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "1816 Vol.42,No.9/May12017/OpticsLetters Letter Laser waveform control of extreme ultraviolet high harmonics from solids YONG SING YOU,1 MENGXI WU,2 YANCHUN YIN,3,4 ANDREW CHEW,3,4 XIAOMING REN,3,4 SHIMA GHOLAM-MIRZAEI,4 DANA A. BROWNE,2 MICHAEL CHINI,4 ZENGHU CHANG,3,4 KENNETH J. SCHAFER,2 METTE B. GAARDE,2 AND SHAMBHU GHIMIRE 1,* 1StanfordPULSEInstitute,SLACNationalAcceleratorLaboratory,MenloPark,California94025,USA 2DepartmentofPhysicsandAstronomy,LouisianaStateUniversity,BatonRouge,Louisiana7",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Letter Vol.42,No.9/May12017/OpticsLetters 1817 chirped-pulse amplifier system [19] into a 001-cut 200 μm bandstructure.Whendrivenbylinearlypolarizedlight,thethree thick MgO crystal. We estimate the field strength inside the bandsthatpredominantlycontributetotheharmonicspectraare crystal to be ∼2 V∕Å (peak intensity ∼1014 W∕cm2 ), which VB,CB1,andCB2,whichhaveenergiesat0,7.8,and24.6eVat isjustbelowthedamagethresholdatarepetitionrateof1kHz. the Γ point. The only non-zero transition matrix elements",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "1818 Vol.42,No.9/May12017/OpticsLetters Letter Fig.2. ToprowshowsthemeasuredCEPdependenceofHHGfromMgOwithpeaklaserfieldsof(a)1.2V/Å,(b)1.7V/Å,and(c)2.1V/Å, respectively.Thebottomrowshowscalculationresultsfromthethree-levelmodel,atsimilarfieldstrengthsof(d)1.0V/Å,(e)1.3V/Å,and(f)1.8V/Å, respectively.Thedashedblacklinestracethechangeinphotonenergyoftheharmonicpeakaround18eV.Theslopeofthislineforagivenplateau harmonicdecreaseswithanincreasingpeakfield.Inthecalculations,whichshowalargerrangeofphoton",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Letter Vol.42,No.9/May12017/OpticsLetters 1819 energy difference between the first and second instantaneous Acknowledgment. S. G. and Y. S. Y. thank David Reis eigenstates of the three-level system [dashed lines in Fig. 3(b)]. for fruitful discussions. Constructive interference requires that the frequencies peak at the values given by the following equation: REFERENCES ω∕ω (cid:1)2n−1−θ ∕π; (4) L 12 1. P.B.CorkumandF.Krausz,Nat.Phys.3,381(2007). whereω Listhelaserfrequency,andθ 12istheenergy-dep",
+          "page": 4,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "What will it take to observe processes in ‘real time’?",
+      "year": 2014,
+      "journal": "",
+      "authors": [
+        "Stephen R. Leone",
+        "C. William McCurdy",
+        "Joachim Burgdörfer",
+        "Lorenz S. Cederbaum",
+        "Zenghu Chang"
+      ],
+      "doi": "",
+      "paper_id": "62e5dc1ba49a6244",
+      "file_hash": "62e5dc1ba49a6244592c541733994847",
+      "num_pages": 5,
+      "abstract": "",
+      "n_figures": 3,
+      "n_chunks": 5,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "62e5dc1b_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1 | Streak field measurements of surface photoelectron ejection. The apparatus for streaking of \nelectrons from a tungsten surface is shown overlaid on streak traces from the conduction-band electrons \nand 4f electrons of W(110). The attosecond pulses are generated in the neon-filled tube, pr",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\62e5dc1b\\62e5dc1ba49a6244_p01_f00.png",
+          "page_num": 1,
+          "width": 1489,
+          "height": 1009,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "62e5dc1b_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2 | Charge migration in molecules. A \ncalculation showing just the hole migration in the \nhole and particle migrations of Ete–NHNH–Ete \n(Ete = ethenyl), which ensues from the initial \nlocalization on the left side of the molecule. Figure \nreproduced with permission from ref. 17, \n© 2011 AIP.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\62e5dc1b\\62e5dc1ba49a6244_p02_f01.png",
+          "page_num": 2,
+          "width": 736,
+          "height": 594,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "62e5dc1b_fig_002",
+          "label": "Figure 3",
+          "caption": "Figure 3 | Transient absorption measurements on He, taking advantage of the polarization of the medium. \nThe apparatus for attosecond transient absorption (FM, focusing mirror; GDOG, generalized double \noptical gating optics; GC1, argon or xenon-backed gas cell for attosecond pulse generation; Al, a",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\62e5dc1b\\62e5dc1ba49a6244_p03_f02.png",
+          "page_num": 3,
+          "width": 1482,
+          "height": 1020,
+          "figure_type": "setup",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "COMMENTARY | FOCUS What will it take to observe processes in ‘real time’? Stephen R. Leone, C. William McCurdy, Joachim Burgdörfer, Lorenz S. Cederbaum, Zenghu Chang, Nirit Dudovich, Johannes Feist, Chris H. Greene, Misha Ivanov, Reinhard Kienberger, Ursula Keller, Matthias F. Kling, Zhi-Heng Loh, Thomas Pfeifer, Adrian N. Pfeiffer, Robin Santra, Kenneth Schafer, Albert Stolow, Uwe Thumm and Marc J. J. Vrakking Even for simple systems, the interpretations of new attosecond measurements are compl",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "FOCUS | COMMENTARY consensus that attosecond measurements diffractive imaging. Such methods Hole are constrained by currently available have the potential to provide images of techniques. Isolated attosecond (70–500 as) complex chemical transformations, charge pulses and attosecond pulse trains have migration and plasmonic charge motion been reliably produced for photon energies in nanostructures. However, they have in the approximate range 15–120 eV using complications, such as requiring high X",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "COMMENTARY | FOCUS ejected from atoms in the gas phase and from solid-state surfaces upon direct ionization or Auger decay. This method, called streak- field detection1, has been refined to detect ns+, nd+ differences in electron ejection times of the order of tens of attoseconds. In the streak-field method, a strong field from a near-infrared few-cycle pulse is used to shift the momentum of an electron released into a laser field, providing exquisite time resolution for the time of birth of the",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "FOCUS | COMMENTARY ionization, it is possible to produce localized affect the polarization of the medium hole motion in the time between ionization hole states in migrating molecules driven by ionizing it or by coupling to other and recombination24, to follow the dynamic by electron correlation. Theory shows that states, thereby creating Autler–Townes evolution of bonds, and to probe core a valence hole localized in one part of a doublets, electromagnetically induced electron excitation and elas",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "COMMENTARY | FOCUS enhance these measurements by adding USA. 10Max Born Institute, Max Born Strasse References multidimensionality to the mix, providing 2A, 12489 Berlin Adlershof, Berlin, Germany. 1. Krausz, F. & Ivanov, M. Rev. Mod. Phys. 81, 163–234 (2009). 2. Sansone, G., Pfeifer, T., Simeonidis, K. & Kuleff, A. I. new parameters to unravel more-complex 11Department of Physics, Humboldt University, ChemPhysChem 13, 661–680 (2012). systems. Although the attosecond field is Newtonstrasse 15, 1",
+          "page": 5,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "The generation, characterization and applications of broadband isolated attosecond pulses",
+      "year": 2014,
+      "journal": "",
+      "authors": [
+        "high-order harmonic generation (HHG) in 20011",
+        "the exten­"
+      ],
+      "doi": "",
+      "paper_id": "c45b93a7103a700a",
+      "file_hash": "c45b93a7103a700ad51bf8f6d0c831c5",
+      "num_pages": 9,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 9,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "c45b93a7_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1 | Gating an ultrabroadband isolated attosecond pulse. Various techniques have been demonstrated for generating isolated attosecond pulses: \na, Amplitude gating; b, ionization gating; c, polarization gating or DOG; d, the attosecond lighthouse effect. e,f Only the cutoff spectrum is usable w",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c45b93a7\\c45b93a7103a700a_p03_f00.png",
+          "page_num": 3,
+          "width": 2164,
+          "height": 459,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "c45b93a7_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2 | Attosecond pulse characterization. Temporal measurements on ultrabroadband attosecond pulses necessitate methods that do not require \nnarrow-bandwidth approximations. a, In PROOF, the weak perturbation of the dressing NIR laser field imprints an interference oscillation on measured \ndelay",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c45b93a7\\c45b93a7103a700a_p04_f01.png",
+          "page_num": 4,
+          "width": 2184,
+          "height": 1539,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "c45b93a7_fig_002",
+          "label": "Figure 3",
+          "caption": "Figure 3 | Conventional methods for attosecond pulse compression. a, Various metal-foil filters have transmission and a negative GDD over a relatively \nbroad energy range. b, Spectrum and temporal profile before (grey lines in projections) and after (black lines in projections) passing through the Z",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c45b93a7\\c45b93a7103a700a_p05_f02.png",
+          "page_num": 5,
+          "width": 2177,
+          "height": 1842,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "c45b93a7_fig_003",
+          "label": "Figure 4",
+          "caption": "Figure 4 | Schematic of attosecond electron interferometry and attosecond transient absorption measurements in helium. a, In attosecond electron \ninterferometry, an isolated attosecond pulse excites the helium atom to both bound and continuum states (I). These states freely evolve in time (II) until",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c45b93a7\\c45b93a7103a700a_p06_f03.png",
+          "page_num": 6,
+          "width": 2180,
+          "height": 1113,
+          "figure_type": "diagram",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "REVIEW ARTICLE | FOCUS PUBLISHED ONLINE: 28 FEBRUARY 2014 | DOI: 10.1038/NPHOTON.2013.362 The generation, characterization and applications of broadband isolated attosecond pulses Michael Chini, Kun Zhao and Zenghu Chang* The generation of extremely short isolated attosecond pulses requires both a broad spectral bandwidth and control of the spec- tral phase. Rapid progress has been made in both aspects, leading to the generation of light pulses as short as 67 as in 2012, and broadband attosecond",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "NATURE PHOTONICS DOI: 10.1038/NPHOTON.2013.362 FOCUS | REVIEW ARTICLE Table 1 | State of the art in ultrabroadband isolated attosecond pulse generation, compression and characterization. Gating Central FWHM Measured Compression Characterization method Gas energy (eV) bandwidth (eV) FT limit (as) duration (as) method method Refs Amplitude gating Ne 80 28 75 80 Zr foil FROG-CRAB 7 Ionization gating Xe 25 8 130 155 Al foil FROG-CRAB 25 Polarization gating Ne 100 22 45 130* Al foil FROG-CRAB 6, 41 D",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "e 2.0 1.5 1.0 0.5 0.0 20 40 60 80 100 120 Photon energy (eV) f 2.0 1.5 1.0 0.5 0.0 20 40 60 80 100 120 Photon energy (eV) promise for the development of high-flux ultrabroadband attosecond laser at the time of its generation. Therefore, if the wavefront rota- pulses when combined with high-energy driving laser pulses47. tion within one half cycle of the driving laser field is larger than the divergence of the attosecond pulse, the attosecond lighthouse effect Spatiotemporal gating. Another promi",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Gas jet XUV wavefront e− Polarization E (t) θp 0 E(t) τ p from 30 eV to more than 110 eV. Extension of the attosecond light- challenging. Nonlinear autocorrelation methods, which have been house effect to even broader bandwidths is relatively straightforward, extremely successful in femtosecond science, cannot be straight- as the divergence angle of the attosecond pulse tends to decrease with forwardly extended to the attosecond domain, as a result of both increasing photon energy, allowing clea",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "a b c d trace, allowing reliable FROG retrieval algorithms to be used64,65. (XUV/SXR) and two-photon (XUV/SXR + NIR) absorption, and For ultrabroadband attosecond pulses, however, a different approxi- does not depend on the delay. I and I result from interferences ω 2ω mation must be made to ensure the accurate retrieval of the spec- between the different one- and two-photon pathways to a given tral phase over the entire spectral bandwidth. For this reason, phase final state, and oscillate with ",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "NATURE PHOTONICS DOI: 10.1038/NPHOTON.2013.362 FOCUS | REVIEW ARTICLE a b 1snp 2 Isolated attosecond pulse 1sn 1 p NIR pulse 1s3s I p 800 nm 660 nm 1s2p XUV He I II III Time t XUV t XUV + τ Figure 4 | Schematic of attosecond electron interferometry and attosecond transient absorption measurements in helium. a, In attosecond electron interferometry, an isolated attosecond pulse excites the helium atom to both bound and continuum states (I). These states freely evolve in time (II) until the arriva",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "REVIEW ARTICLE | FOCUS NATURE PHOTONICS DOI: 10.1038/NPHOTON.2013.362 early proposals to use chirped multilayer mirrors to compensate the formation of a wave packet consisting of both bound and con- the spectral phase of high-order harmonics77,78, such mirrors were tinuum states, which naturally evolves on attosecond timescales. predominantly used in conjunction with metal-foil filters, with A delayed NIR laser can then transfer population between bound the mirrors serving only as band-pass filt",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "NATURE PHOTONICS DOI: 10.1038/NPHOTON.2013.362 FOCUS | REVIEW ARTICLE technology for studying electron correlation in complex materials 31. Vincenti, H. & Quéré, F. Attosecond lighthouses: how to use spatiotemporally can be realized. Finally, combining the techniques used to generate coupled light fields to generate isolated attosecond pulses. Phys. Rev. Lett. 108, 113904 (2012). broadband attosecond pulses with those for generating high-energy 32. Kim, K. T. et al. Photonic streaking of attosec",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "REVIEW ARTICLE | FOCUS NATURE PHOTONICS DOI: 10.1038/NPHOTON.2013.362 64. Gagnon, J., Goulielmakis, E. & Yakovlev, V. S. The accurate FROG 85. Wang, H. et al. Attosecond time-resolved autoionization of argon. Phys. Rev. characterization of attosecond pulses from streaking measurements. Appl. Lett. 105, 143002 (2010). Phys. B 92, 25–32 (2008). 86. Klünder, K. et al. Reconstruction of attosecond electron wave packets using 65. Wang, H. et al. Practical issues of retrieving isolated attosecond puls",
+          "page": 9,
+          "type": "body"
+        }
+      ]
+    }
+  ]
+}

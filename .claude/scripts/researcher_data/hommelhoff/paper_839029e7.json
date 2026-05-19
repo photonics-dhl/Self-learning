@@ -1,0 +1,41 @@
+{
+  "paper_id": "839029e7",
+  "title": "denoting transitions from the upper to the lower atomic state. This total spontaneous",
+  "authors": [
+    "emission can be decomposed",
+    "without changing equation (7)",
+    "into parts C1  C2 "
+  ],
+  "year": 2001,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\hommelhoff\\Hänsel 等 - 2001 - Bose–einstein condensation on a microelectronic chip.pdf",
+  "filename": "Hänsel 等 - 2001 - Bose–einstein condensation on a microelectronic chip.pdf",
+  "n_figs": 2,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "839029e7_fig_000",
+      "caption": "Figure 1 The chip and the magnetic potentials that it creates. a, Layout of the lithographic\ngold wires on the substrate. The inset shows the relevant part of the conductor pattern. I0,\nI1, IM1 and IM2 create the various magnetic potentials for trapping (see b) and transport, as\ndescribed in the mai",
+      "label": "Figure 1",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\839029e7\\839029e7_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "graph"
+    },
+    {
+      "figure_id": "839029e7_fig_001",
+      "caption": "Figure 3 Time-of-¯ight absorption images of the atom cloud after 21 ms of free\nexpansion. (Pro®le height and false colours are used to encode the optical density of the\ncloud.) The images were taken after a ®nal radio-frequency sweep ending at frequencies\nns  n0  66 kHz, 44 kHz and 15 kHz (from to",
+      "label": "Figure 3",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\839029e7\\839029e7_p03_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    }
+  ],
+  "tables": []
+}

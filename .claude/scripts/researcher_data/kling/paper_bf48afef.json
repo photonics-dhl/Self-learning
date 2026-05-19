@@ -1,0 +1,66 @@
+{
+  "paper_id": "bf48afef",
+  "title": "Plasmonic generation of ultrashort",
+  "authors": [
+    "In-Yong Park1†",
+    "Seungchul Kim1†",
+    "Joonhee Choi1†",
+    "Dong-Hyub Lee1",
+    "Young-Jin Kim1",
+    "Matthias F. Kling2"
+  ],
+  "year": 2011,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\kling\\Park 等 - 2011 - Plasmonic generation of ultrashort extreme-ultraviolet light pulses.pdf",
+  "filename": "Park 等 - 2011 - Plasmonic generation of ultrashort extreme-ultraviolet light pulses.pdf",
+  "n_figs": 4,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "bf48afef_fig_000",
+      "caption": "Figure 1 | Plasmonic nanofocusing of femtosecond NIR light pulses for high-harmonic generation of coherent ultrashort EUV pulses using a metallic\nwaveguide. Surface-plasmon polaritons are guided to converge to a sub-wavelength spot near the exit aperture, creating a strong boost in the intensity ﬁel",
+      "label": "Figure 1",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bf48afef\\bf48afef_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "bf48afef_fig_001",
+      "caption": "Figure 2 | Computation of the enhanced electric ﬁeld inside the waveguide by adopting a FDTD method. a, Snapshot illustrating the intensity distribution at\nthe moment when the intensity peak of the incident NIR pulse approaches the exit aperture. b, Three consecutive snapshots in time steps of 0.67 ",
+      "label": "Figure 2",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bf48afef\\bf48afef_p03_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "bf48afef_fig_002",
+      "caption": "Figure 3 | Waveguide fabrication on the tip of a cantilever microstructure using the FIB process. a, Scanning electron microscope (SEM) image of the\ncantilever structure that houses the waveguide. b, Top view showing the inlet aperture of the waveguide. c, Bottom view showing the exit aperture.\nd, C",
+      "label": "Figure 3",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bf48afef\\bf48afef_p03_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "bf48afef_fig_003",
+      "caption": "Figure 4 | Experimental results. a, Measurement scheme using a transmission-type diffraction grating and a photomultiplier (PM) tube. b, SEM images of\nthe grating showing the important dimensions. c, Measured spectrum spanning from the 15th (H15) to 43rd (H43) harmonics. Inset: comparison of photon\n",
+      "label": "Figure 4",
+      "page": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bf48afef\\bf48afef_p04_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    }
+  ],
+  "tables": []
+}

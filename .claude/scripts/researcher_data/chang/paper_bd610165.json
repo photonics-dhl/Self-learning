@@ -1,0 +1,99 @@
+{
+  "paper_id": "bd610165",
+  "title": "PERSPECTIVE",
+  "authors": [
+    "Jie Li1",
+    "2",
+    "3",
+    "Jian Lu4",
+    "Andrew Chew2",
+    "Seunghwoi Han"
+  ],
+  "year": 2020,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\chang\\Li 等 - 2020 - Attosecond science based on high harmonic generation from gases and solids.pdf",
+  "filename": "Li 等 - 2020 - Attosecond science based on high harmonic generation from gases and solids.pdf",
+  "n_figs": 7,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "bd610165_fig_000",
+      "caption": "Fig. 1 Atto-chirp compensation in the water window. Comparison of group delay dispersion (a) and X-ray transmission (b) between a 2-μm-thick uranium\nfoil and 8.26 cm long, 1 atm H2 gas from 250 to 550 eV.",
+      "label": "Fig. 1",
+      "page": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bd610165\\bd610165_p04_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "bd610165_fig_001",
+      "caption": "Fig. 2 Attosecond transient-absorption spectroscopy at the N K-edge. a Experimental setup. b Attosecond X-ray spectrum. c Molecular orbitals of NO.\nd Absorption spectrogram. e Static absorbance of NO without the IR pump pulse. Reproduced from ref. 65, Copyright 2019, Optical Society of America.\nf El",
+      "label": "Fig. 2",
+      "page": 5,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bd610165\\bd610165_p05_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "spectrum"
+    },
+    {
+      "figure_id": "bd610165_fig_002",
+      "caption": "Fig. 3 Charge migration in molecules. a The reconstructed electron–hole density from HHG spectroscopy as a function of time after strong-ﬁeld ionization\nof HCCI. Reproduced from ref. 71 with permission from AAAS. b Dipole moment oscillations of C2HCI+ ionized from a HOMO/HOMO-1 superposition of\nstat",
+      "label": "Fig. 3",
+      "page": 6,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bd610165\\bd610165_p06_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "bd610165_fig_003",
+      "caption": "Fig. 4 Charge transfer in organic photovoltaic materials. a Schematics describing 2-picolinic acid adsorbed onto TiO2 with femtosecond UV as the pump\nand attosecond SXR as the probe. b Energy diagram describing the electron transfer from LUMO of adsorbate to conduction band of TiO2. Schematics\nshowi",
+      "label": "Fig. 4",
+      "page": 6,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bd610165\\bd610165_p06_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "bd610165_fig_004",
+      "caption": "Fig. 5 High-harmonic spectroscopy of solid materials. a Schematics for HHS of solid-state materials in transmission geometry. Few-cycle laser pulses\nexcite the sample at the V/Å level without damage. Attosecond pulses are produced on subcycle timescales, which interfere in the far ﬁeld and produce\nd",
+      "label": "Fig. 5",
+      "page": 7,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bd610165\\bd610165_p07_f04.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    },
+    {
+      "figure_id": "bd610165_fig_005",
+      "caption": "Fig. 6 Momentum-space interpretation for HHG in solid materials. The\nmicroscopic mechanism for solid-state HHG showing two major channels\nsemiclassically. The laser ﬁeld promotes an electron from valence to\nconduction band leaving behind a hole in the valence band, as shown by the\nvertical solid lin",
+      "label": "Fig. 6",
+      "page": 8,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bd610165\\bd610165_p08_f05.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "bd610165_fig_006",
+      "caption": "Fig. 7 Attosecond interferometry in transmission and reﬂection conﬁguration. Experimental setup in a transmission and b reﬂection, where high\nharmonics from two sources interfere in the far ﬁeld. Reproduced with permission from ref. 106, Copyright 2019, Springer Nature. A representative\ninterferogra",
+      "label": "Fig. 7",
+      "page": 9,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bd610165\\bd610165_p09_f06.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "setup"
+    }
+  ],
+  "tables": []
+}

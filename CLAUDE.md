@@ -11,6 +11,7 @@ Personal digital academic brain for an optics PhD researcher. Core: AI-assisted 
 | `.claude/rules/commands.md` | Core commands (literature review, RAG, plugin build, LaTeX, utilities) |
 | `.claude/rules/architecture.md` | Skills, agents, hooks inventory and review pipeline |
 | `.claude/rules/conventions.md` | Note quality, knowledge dedup, file naming, tags, language, testing |
+| `.claude/rules/security.md` | API key security: never hardcode, always read from `.env` |
 
 ## Tech Stack
 
@@ -36,13 +37,30 @@ No root-level `requirements.txt` or `package.json`. Python 3.9 in `.venv/`, Node
 | `.mcp.json` | MCP server definitions |
 | `.env` | Environment variables (API keys, gitignored) |
 
-## API Key Security (Critical)
+## Key Resource Locations
 
-**Rule:** Always read API keys from `os.environ` / `.env`. Never hardcode into source files.
+| Resource | Path | Note |
+|----------|------|------|
+| LaTeX templates | `Obsidian-Vault/6️⃣ 工具/templates/` | thesis (zjuthesis) + journal (Nature/APS/IEEE) |
+| Draft output dir | `DHL/test_paper_draft/` | Paper-writing pipeline outputs |
+| RAG database | `academic_rag/chroma_db/` | Never delete (see protected-dirs) |
+| Obsidian plugin | `Obsidian-Claude-Assistant/` | `npm run build` to compile |
+| Skills | `.claude/skills/<name>/SKILL.md` | All custom skills |
+| Agents | `.claude/agents/*.md` | Sub-agent definitions |
+| Hooks | `.claude/hooks/*.py` | Session start/end hooks |
+| Zotero downloads | `E:\PostGraduate\Science_softwares\Zotero\downloads` | PDF source for indexing |
 
-Hardcoded keys risk locations: `academic_rag/processors/multimodal_analyzer.py`, `.mcp.json` (Zotero API key), `.claude/settings.local.json` (Tavily dev keys). Never add new keys to these files.
+## Session Continuity
 
-Required env vars: `ANTHROPIC_API_KEY`, `TAVILY_API_KEY` (supports rotation of 4+ keys), `GITHUB_TOKEN`, `Zotero_API_KEY`, `Zotero_user_ID`, `OpenAlex_API_KEY`, `DEEPSEEK_API_KEY`.
+- **HANDOFF.md**: Before `/clear` or session end, write current task state, key decisions, and next steps to `HANDOFF.md`. Read it at session start.
+- **Document & Clear**: Write阶段性成果 to files → `/clear` → new session reads files back. Never accumulate all context in chat.
+- **Memory**: Cross-session persistent memory at `.claude/projects/.../memory/`. Used automatically for user preferences, feedback, project decisions.
+
+## Compact & Verification
+
+- **Compact triggers**: Task complete, rounds > 20, time > 30min, or context switching. `/compact` immediately.
+- **Before declaring done**: Run `/context`. If >73%, `/compact` or `/clear` first.
+- **Verification per task type**: Code change → run the script. LaTeX → `xelatex -interaction=batchmode file.tex`. Plugin → `npm run build`. Lit review → output file exists and non-empty.
 
 ## First-Principles Thinking
 

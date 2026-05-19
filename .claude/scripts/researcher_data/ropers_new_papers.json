@@ -1,0 +1,314 @@
+[
+  {
+    "doi": "10.1021/nl071340m",
+    "title": "Grating-Coupling of Surface Plasmons onto Metallic Tips:  A Nanoconfined Light Source",
+    "year": "2007",
+    "cites": 511,
+    "journal": "Nano Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Claus",
+        "lastName": "Ropers"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Catalin",
+        "lastName": "C. Neacsu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Thomas",
+        "lastName": "Elsaesser"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Albrecht"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Markus",
+        "lastName": "B. Raschke"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Christoph",
+        "lastName": "Lienau"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevlett.102.086809",
+    "title": "Ultrafast Carrier Dynamics in Graphite",
+    "year": "2009",
+    "cites": 478,
+    "journal": "Physical Review Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Markus",
+        "lastName": "Breusing"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Claus",
+        "lastName": "Ropers"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Thomas",
+        "lastName": "Elsaesser"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevb.83.153410",
+    "title": "Ultrafast nonequilibrium carrier dynamics in a single graphene layer",
+    "year": "2011",
+    "cites": 433,
+    "journal": "Physical Review B",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Markus",
+        "lastName": "Breusing"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sergei",
+        "lastName": "Kuehn"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Torben",
+        "lastName": "Winzer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ermin",
+        "lastName": "Malić"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Frank",
+        "lastName": "Milde"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nikolai",
+        "lastName": "Severin"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jürgen",
+        "lastName": "P. Rabe"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Claus",
+        "lastName": "Ropers"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "A.",
+        "lastName": "Knorr"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Thomas",
+        "lastName": "Elsaesser"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.ultramic.2016.12.005",
+    "title": "Ultrafast transmission electron microscopy using a laser-driven field emitter: Femtosecond resolution with a high coherence electron beam",
+    "year": "2016",
+    "cites": 421,
+    "journal": "Ultramicroscopy",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Armin",
+        "lastName": "Feist"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nora",
+        "lastName": "Bach"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nara",
+        "lastName": "Rubiano da Silva"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Thomas",
+        "lastName": "Danz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Marcel",
+        "lastName": "Möller"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Katharina",
+        "lastName": "E. Priebe"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Till",
+        "lastName": "Domröse"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "J.",
+        "lastName": "Gregor Gatzmann"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Stefan",
+        "lastName": "Rost"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jakob",
+        "lastName": "Schauss"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevlett.98.043907",
+    "title": "Localized Multiphoton Emission of Femtosecond Electron Pulses from Metal Nanotips",
+    "year": "2007",
+    "cites": 409,
+    "journal": "Physical Review Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Claus",
+        "lastName": "Ropers"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Daniel",
+        "lastName": "R. Solli"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "C.",
+        "lastName": "P. Schulz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Christoph",
+        "lastName": "Lienau"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Thomas",
+        "lastName": "Elsaesser"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/nphoton.2016.38",
+    "title": "Resolving the build-up of femtosecond mode-locking with single-shot spectroscopy at 90 MHz frame rate",
+    "year": "2016",
+    "cites": 385,
+    "journal": "Nature Photonics",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Georg",
+        "lastName": "Herink"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Bahram",
+        "lastName": "Jalali"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Claus",
+        "lastName": "Ropers"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Daniel",
+        "lastName": "R. Solli"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/s41566-017-0045-8",
+    "title": "Attosecond electron pulse trains and quantum state reconstruction in ultrafast transmission electron microscopy",
+    "year": "2017",
+    "cites": 347,
+    "journal": "Nature Photonics",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Katharina",
+        "lastName": "E. Priebe"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Christopher",
+        "lastName": "Rathje"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sergey",
+        "lastName": "V. Yalunin"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Thorsten",
+        "lastName": "Hohage"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Armin",
+        "lastName": "Feist"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sascha",
+        "lastName": "Schäfer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Claus",
+        "lastName": "Ropers"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevlett.101.233902",
+    "title": "Active Control of Rogue Waves for Stimulated Supercontinuum Generation",
+    "year": "2008",
+    "cites": 322,
+    "journal": "Physical Review Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Daniel",
+        "lastName": "R. Solli"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Claus",
+        "lastName": "Ropers"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Bahram",
+        "lastName": "Jalali"
+      }
+    ]
+  }
+]

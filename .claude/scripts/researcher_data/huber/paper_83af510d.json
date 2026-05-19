@@ -1,0 +1,45 @@
+{
+  "paper_id": "83af510d",
+  "title": "LETTER",
+  "authors": [
+    "M. Hohenleutner1*",
+    "F. Langer1*",
+    "O. Schubert1*",
+    "M. Knorr1",
+    "U. Huttner2*",
+    "S. W. Koch2",
+    "M. Kira2 & R. Huber1"
+  ],
+  "year": 2051,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\huber\\Hohenleutner 等 - 2015 - Real-time observation of interfering crystal electrons in high-harmonic generation.pdf",
+  "filename": "Hohenleutner 等 - 2015 - Real-time observation of interfering crystal electrons in high-harmonic generation.pdf",
+  "n_figs": 2,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "83af510d_fig_000",
+      "caption": "Figure 1 | Subcycle time structure of HH emission from a bulk crystalline\nsolid. a, Experimental setup of the novel cross-correlation scheme: a multi-\nterahertz transient (black) is focused ontoa bulk GaSe crystal (thickness 60 mm)\nfor HH generation. The resulting waveform (red) is overlapped with a",
+      "label": "Figure 1",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\83af510d\\83af510d_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "setup"
+    },
+    {
+      "figure_id": "83af510d_fig_001",
+      "caption": "Figure 2 | Non-perturbative quantum interference in HH emission.\na, Driving terahertz field (black curve) and calculated intensity envelope of HH\nemission as a function of time for Fcc 5 0 (broken red curve, magnified by a\nfactor of 25) and Fcc 5 1 (solid red curve). Dashed vertical lines highlight ",
+      "label": "Figure 2",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\83af510d\\83af510d_p03_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "plot"
+    }
+  ],
+  "tables": []
+}

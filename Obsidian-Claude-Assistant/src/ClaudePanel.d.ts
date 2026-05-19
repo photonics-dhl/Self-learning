@@ -28,6 +28,8 @@ export declare class ClaudePanel {
     private streamingMsgEl;
     private streamingContentEl;
     private streamingText;
+    private attachedImage;
+    private imagePreviewEl;
     constructor(app: App, plugin: any, selectedText?: string);
     private buildUI;
     private loadCurrentNote;
@@ -53,6 +55,10 @@ export declare class ClaudePanel {
     private formatExplanation;
     private toggleMinimize;
     private setWriteMode;
+    private handleImageUpload;
+    private removeAttachedImage;
+    private updateImagePreview;
+    private sendVisionMessage;
     close(): void;
 }
 //# sourceMappingURL=ClaudePanel.d.ts.map

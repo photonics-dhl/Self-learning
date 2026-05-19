@@ -1,0 +1,606 @@
+[
+  {
+    "doi": "10.1063/1.116609",
+    "title": "Generation of high energy 10 fs pulses by a new pulse compression technique",
+    "cites": 1025,
+    "date": "1996-05-13",
+    "journal": {
+      "id": "https://openalex.org/S105243760",
+      "display_name": "Applied Physics Letters",
+      "issn_l": "0003-6951",
+      "issn": [
+        "0003-6951",
+        "1077-3118",
+        "1520-8842"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320257",
+      "host_organization_name": "American Institute of Physics",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320257"
+      ],
+      "host_organization_lineage_names": [
+        "American Institute of Physics"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1038/35102520",
+    "title": "Absolute-phase phenomena in photoionization with few-cycle laser pulses",
+    "cites": 701,
+    "date": "2001-11-01",
+    "journal": {
+      "id": "https://openalex.org/S137773608",
+      "display_name": "Nature",
+      "issn_l": "0028-0836",
+      "issn": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1021/acs.chemrev.6b00453",
+    "title": "Attosecond Electron Dynamics in Molecules",
+    "cites": 540,
+    "date": "2017-05-10",
+    "journal": {
+      "id": "https://openalex.org/S41143188",
+      "display_name": "Chemical Reviews",
+      "issn_l": "0009-2665",
+      "issn": [
+        "0009-2665",
+        "1520-6890"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320006",
+      "host_organization_name": "American Chemical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320006"
+      ],
+      "host_organization_lineage_names": [
+        "American Chemical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://bib-pubdb1.desy.de/search?p=id:%22PUBDB-2017-10784%22",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1088/0953-4075/49/6/062001",
+    "title": "Advances in attosecond science",
+    "cites": 484,
+    "date": "2016-02-22",
+    "journal": {
+      "id": "https://openalex.org/S108417319",
+      "display_name": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "issn_l": "0953-4075",
+      "issn": [
+        "0953-4075",
+        "1361-6455"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320083",
+      "host_organization_name": "IOP Publishing",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320083",
+        "https://openalex.org/P4310311669"
+      ],
+      "host_organization_lineage_names": [
+        "IOP Publishing",
+        "Institute of Physics"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://iopscience.iop.org/article/10.1088/0953-4075/49/6/062001/pdf",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1038/nphys281",
+    "title": "Controlling attosecond electron dynamics by phase-stabilized polarization gating",
+    "cites": 474,
+    "date": "2006-04-23",
+    "journal": {
+      "id": "https://openalex.org/S156274416",
+      "display_name": "Nature Physics",
+      "issn_l": "1745-2473",
+      "issn": [
+        "1745-2473",
+        "1745-2481"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://www.nature.com/articles/nphys281.pdf",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1038/nphys2029",
+    "title": "Generalized molecular orbital tomography",
+    "cites": 447,
+    "date": "2011-06-26",
+    "journal": {
+      "id": "https://openalex.org/S156274416",
+      "display_name": "Nature Physics",
+      "issn_l": "1745-2473",
+      "issn": [
+        "1745-2473",
+        "1745-2481"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1103/physrevlett.95.153902",
+    "title": "Controlling Two-Center Interference in Molecular High Harmonic Generation",
+    "cites": 370,
+    "date": "2005-10-04",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1038/nphoton.2010.250",
+    "title": "High-energy isolated attosecond pulses generated by above-saturation few-cycle fields",
+    "cites": 301,
+    "date": "2010-11-14",
+    "journal": {
+      "id": "https://openalex.org/S120392215",
+      "display_name": "Nature Photonics",
+      "issn_l": "1749-4885",
+      "issn": [
+        "1749-4885",
+        "1749-4893"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://zenodo.org/record/3443946",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1103/physreva.61.063801",
+    "title": "Nonadiabatic three-dimensional model of high-order harmonic generation in the few-optical-cycle regime",
+    "cites": 261,
+    "date": "2000-05-05",
+    "journal": {
+      "id": "https://openalex.org/S164566984",
+      "display_name": "Physical Review A",
+      "issn_l": "1050-2947",
+      "issn": [
+        "1050-2947",
+        "1094-1622",
+        "1538-4446"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1364/ol.23.001283",
+    "title": "Sub-8-fs pulses from an ultrabroadband optical parametric amplifier in the visible",
+    "cites": 260,
+    "date": "1998-08-15",
+    "journal": {
+      "id": "https://openalex.org/S134390580",
+      "display_name": "Optics Letters",
+      "issn_l": "0146-9592",
+      "issn": [
+        "0146-9592",
+        "1071-2763",
+        "1539-4794"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315679",
+      "host_organization_name": "Optica Publishing Group",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315679"
+      ],
+      "host_organization_lineage_names": [
+        "Optica Publishing Group"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1364/ol.28.001987",
+    "title": "Generation of 38-fs pulses from adaptive compression of a cascaded hollow fiber supercontinuum",
+    "cites": 227,
+    "date": "2003-10-15",
+    "journal": {
+      "id": "https://openalex.org/S134390580",
+      "display_name": "Optics Letters",
+      "issn_l": "0146-9592",
+      "issn": [
+        "0146-9592",
+        "1071-2763",
+        "1539-4794"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315679",
+      "host_organization_name": "Optica Publishing Group",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315679"
+      ],
+      "host_organization_lineage_names": [
+        "Optica Publishing Group"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1103/physrevlett.105.053001",
+    "title": "Attosecond Electron Spectroscopy Using a Novel Interferometric Pump-Probe Technique",
+    "cites": 211,
+    "date": "2010-07-27",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "http://link.aps.org/pdf/10.1103/PhysRevLett.105.053001",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1364/ol.32.002957",
+    "title": "Millijoule-level phase-stabilized few-optical-cycle infrared parametric source",
+    "cites": 201,
+    "date": "2007-10-05",
+    "journal": {
+      "id": "https://openalex.org/S134390580",
+      "display_name": "Optics Letters",
+      "issn_l": "0146-9592",
+      "issn": [
+        "0146-9592",
+        "1071-2763",
+        "1539-4794"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315679",
+      "host_organization_name": "Optica Publishing Group",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315679"
+      ],
+      "host_organization_lineage_names": [
+        "Optica Publishing Group"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1088/1361-6455/aa6ee8",
+    "title": "The ELI-ALPS facility: the next generation of attosecond sources",
+    "cites": 178,
+    "date": "2017-04-24",
+    "journal": {
+      "id": "https://openalex.org/S108417319",
+      "display_name": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "issn_l": "0953-4075",
+      "issn": [
+        "0953-4075",
+        "1361-6455"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320083",
+      "host_organization_name": "IOP Publishing",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320083",
+        "https://openalex.org/P4310311669"
+      ],
+      "host_organization_lineage_names": [
+        "IOP Publishing",
+        "Institute of Physics"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://iopscience.iop.org/article/10.1088/1361-6455/aa6ee8/pdf",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1007/s003400050263",
+    "title": "A novel-high energy pulse compression system: generation of multigigawatt sub-5-fs pulses",
+    "cites": 171,
+    "date": "1997-08-01",
+    "journal": {
+      "id": "https://openalex.org/S182865820",
+      "display_name": "Applied Physics B",
+      "issn_l": "0946-2171",
+      "issn": [
+        "0946-2171",
+        "1432-0649"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319900",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Science+Business Media",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1016/j.pquantelec.2008.10.004",
+    "title": "New frontiers in attosecond science",
+    "cites": 165,
+    "date": "2008-11-12",
+    "journal": {
+      "id": "https://openalex.org/S83014014",
+      "display_name": "Progress in Quantum Electronics",
+      "issn_l": "0079-6727",
+      "issn": [
+        "0079-6727",
+        "1873-1627"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1063/1.120458",
+    "title": "Generation of 11 fs pulses tunable across the visible by optical parametric amplification",
+    "cites": 162,
+    "date": "1997-12-22",
+    "journal": {
+      "id": "https://openalex.org/S105243760",
+      "display_name": "Applied Physics Letters",
+      "issn_l": "0003-6951",
+      "issn": [
+        "0003-6951",
+        "1077-3118",
+        "1520-8842"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320257",
+      "host_organization_name": "American Institute of Physics",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320257"
+      ],
+      "host_organization_lineage_names": [
+        "American Institute of Physics"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1103/physrevlett.91.213905",
+    "title": "Effects of Carrier-Envelope Phase Differences of Few-Optical-Cycle Light Pulses in Single-Shot High-Order-Harmonic Spectra",
+    "cites": 158,
+    "date": "2003-11-20",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1103/physrevb.55.r13424",
+    "title": "Coherent acoustic oscillations in metallic nanoparticles generated with femtosecond optical pulses",
+    "cites": 155,
+    "date": "1997-05-15",
+    "journal": {
+      "id": "https://openalex.org/S4210174675",
+      "display_name": "Physical review. B, Condensed matter",
+      "issn_l": "0163-1829",
+      "issn": [
+        "0163-1829",
+        "1095-3795"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1103/physrevlett.76.847",
+    "title": "Femtosecond Relaxation of Photoexcitations in a Poly(<i>Para</i>-Phenylene)-Type Ladder Polymer",
+    "cites": 139,
+    "date": "1996-01-29",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  }
+]

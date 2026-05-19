@@ -1,0 +1,54 @@
+{
+  "paper_id": "fe83cb4f",
+  "title": "Polarization-transparent microphotonic",
+  "authors": [
+    "TYMON BARWICZ*§",
+    "MICHAEL R. WATTS†",
+    "MILOSˇ A. POPOVIC´",
+    "PETER T. RAKICH",
+    "LUCIANO SOCCI‡"
+  ],
+  "year": 2006,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\kaertner\\Barwicz 等 - 2007 - Polarization-transparent microphotonic devices in the strong confinement limit.pdf",
+  "filename": "Barwicz 等 - 2007 - Polarization-transparent microphotonic devices in the strong confinement limit.pdf",
+  "n_figs": 3,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "fe83cb4f_fig_000",
+      "caption": "Figure 1 Integrated polarization diversity scheme. Polarization-transparent\nmicrophotonic circuits are constructed from polarization-sensitive components.\nArrows depict the orientation of the electric ﬁeld. An arbitrary input polarization\nstate is split into its orthogonal components and one of thes",
+      "label": "Figure 1",
+      "page": 1,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\fe83cb4f\\fe83cb4f_p01_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "fe83cb4f_fig_001",
+      "caption": "Figure 2 Design of the polarization-transparent optical add–drop ﬁlter (OADF). a, Functional diagram of the OADF. b, Schematic of the polarization splitter\nand rotator (PSR). The white arrows depict the orientation of the electric ﬁeld in the guides. The vertically polarized light (TM mode) tunnels ",
+      "label": "Figure 2",
+      "page": 2,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\fe83cb4f\\fe83cb4f_p02_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    },
+    {
+      "figure_id": "fe83cb4f_fig_002",
+      "caption": "Figure 3 Fabricated polarization-transparent OADF. a, Electron micrograph of the central part of a fabricated polarization-transparent OADF. The PSRs are not\nshown and extend to the left and the right of the micrograph. The picture was assembled from six successive micrographs and the greyscale was ",
+      "label": "Figure 3",
+      "page": 3,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\fe83cb4f\\fe83cb4f_p03_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    }
+  ],
+  "tables": []
+}

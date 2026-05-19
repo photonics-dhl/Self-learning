@@ -1,0 +1,80 @@
+{
+  "researcher": "hommelhoff",
+  "n_papers": 4,
+  "n_figures": 41,
+  "papers": [
+    {
+      "paper_id": "d634f298",
+      "title": "Dielectric laser accelerators",
+      "authors": [
+        "R. Joel England",
+        "* Robert J. Noble",
+        "Karl Bane",
+        "David H. Dowell"
+      ],
+      "year": 2014,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\hommelhoff\\England 等 - 2014 - Dielectric laser accelerators.pdf",
+      "filename": "England 等 - 2014 - Dielectric laser accelerators.pdf",
+      "n_figs": 34,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "f418da10",
+      "title": "LETTER",
+      "authors": [
+        "Michael Kru¨ger1*",
+        "Markus Schenk1* & Peter Hommelhoff1"
+      ],
+      "year": 2011,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\hommelhoff\\Krüger 等 - 2011 - Attosecond control of electrons emitted from a nanoscale metal tip.pdf",
+      "filename": "Krüger 等 - 2011 - Attosecond control of electrons emitted from a nanoscale metal tip.pdf",
+      "n_figs": 3,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "19bb3f3a",
+      "title": "Nature  |  Vol 605  |  12 May 2022  |  251",
+      "authors": [
+        "Tobias Boolakee1",
+        "6 ✉",
+        "Christian Heide1",
+        "2",
+        "6",
+        "Antonio Garzón-Ramírez3",
+        "4",
+        "Heiko B. Weber1"
+      ],
+      "year": 2022,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\hommelhoff\\Boolakee 等 - 2022 - Light-field control of real and virtual charge carriers.pdf",
+      "filename": "Boolakee 等 - 2022 - Light-field control of real and virtual charge carriers.pdf",
+      "n_figs": 2,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "839029e7",
+      "title": "denoting transitions from the upper to the lower atomic state. This total spontaneous",
+      "authors": [
+        "emission can be decomposed",
+        "without changing equation (7)",
+        "into parts C1  C2 "
+      ],
+      "year": 2001,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\hommelhoff\\Hänsel 等 - 2001 - Bose–einstein condensation on a microelectronic chip.pdf",
+      "filename": "Hänsel 等 - 2001 - Bose–einstein condensation on a microelectronic chip.pdf",
+      "n_figs": 2,
+      "n_tables": 0,
+      "tables": []
+    }
+  ]
+}
