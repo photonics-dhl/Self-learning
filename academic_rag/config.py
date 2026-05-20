@@ -59,7 +59,7 @@ class RAGConfig:
     """RAG系统配置"""
     # 嵌入模型
     embedding_model: str = "BAAI/bge-m3"  # BGE-M3 多语言嵌入
-    embedding_device: str = "cpu"  # cpu/cuda
+    embedding_device: str = "cuda"  # cpu/cuda — RTX 4060
     models_cache_dir: Path = field(default_factory=lambda: PROJECT_ROOT / "academic_rag" / "models")
     hf_home: Path = field(default_factory=lambda: PROJECT_ROOT / "academic_rag" / "models")
 
