@@ -910,26 +910,61 @@ export class ClaudePanel {
 		});
 	}
 
-	private async extractPdfText(file: File): Promise<string> {
-		const arrayBuffer = await file.arrayBuffer();
-		try {
-			// @ts-ignore - Obsidian bundles pdfjs-dist
-			const pdfjs = require('pdfjs-dist');
-			const pdf = await pdfjs.getDocument({ data: arrayBuffer }).promise;
-			const pages: string[] = [];
-			for (let i = 1; i <= pdf.numPages; i++) {
-				const page = await pdf.getPage(i);
-				const content = await page.getTextContent();
-				const text = content.items.map((item: any) => item.str).join(' ');
-				if (text.trim()) pages.push(text);
+		private async extractPdfText(file: File): Promise<string> {
+			const t0 = Date.now();
+			const arrayBuffer = await file.arrayBuffer();
+			
+			const loadPdfjs = (): any => {
+				// Try multiple sources
+				try { return require('pdfjs-dist'); } catch {}
+				try { return (window as any).pdfjsLib; } catch {}
+				try {
+					const viewer = (this.app as any).plugins?.plugins?.['obsidian-pdf'];
+					if (viewer?.pdfjs) return viewer.pdfjs;
+				} catch {}
+				return null;
+			};
+			
+			const pdfjs = loadPdfjs();
+			console.log('[ClaudePlugin] pdfjs loaded:', !!pdfjs, Date.now() - t0, 'ms');
+			
+			if (!pdfjs) {
+				console.warn('[ClaudePlugin] pdfjs not available, skipping PDF text extraction');
+				return '';
 			}
-			return pages.join('\n\n');
-			} catch {
-				// Fallback: read as text (some PDFs have readable text sections)
-				const text = await this.readTextFile(new File([file], file.name, { type: 'text/plain' }));
-				return text;
+			
+			// Extract with timeout (10s) and page limit (30)
+			const MAX_PAGES = 30;
+			const TIMEOUT_MS = 10000;
+			
+			const extraction = (async () => {
+				const pdf = await pdfjs.getDocument({ data: arrayBuffer }).promise;
+				const totalPages = Math.min(pdf.numPages, MAX_PAGES);
+				const pages: string[] = [];
+				for (let i = 1; i <= totalPages; i++) {
+					this.showStatus(`PDF ${i}/${totalPages}...`);
+					const page = await pdf.getPage(i);
+					const content = await page.getTextContent();
+					const text = content.items.map((item: any) => item.str).join(' ');
+					if (text.trim()) pages.push(text);
+				}
+				return pages.join('\n\n');
+			})();
+			
+			const timer = new Promise<string>((_, reject) =>
+				setTimeout(() => reject(new Error('PDF extraction timeout')), TIMEOUT_MS)
+			);
+			
+			try {
+				const result = await Promise.race([extraction, timer]);
+				console.log('[ClaudePlugin] PDF extracted:', result.length, 'chars,', Date.now() - t0, 'ms');
+				return result;
+			} catch (err) {
+				console.warn('[ClaudePlugin] PDF extraction failed:', err, Date.now() - t0, 'ms');
+				return '';
 			}
 		}
+
 
 
 	private removeAttachedFile() {
