@@ -134,6 +134,11 @@ const styleContent = `
 .claude-image-preview .image-info { font-size: 11px; color: var(--text-muted); flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .claude-image-preview .remove-image { background: transparent; border: none; cursor: pointer; font-size: 14px; color: var(--text-muted); padding: 2px; line-height: 1; }
 .claude-image-preview .remove-image:hover { color: #ff6b6b; }
+.claude-file-preview { display: none; padding: 6px 0; position: relative; }
+.claude-file-preview.has-file { display: flex; align-items: center; gap: 8px; }
+.claude-file-preview .file-info { font-size: 11px; color: var(--text-muted); flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.claude-file-preview .remove-file { background: transparent; border: none; cursor: pointer; font-size: 14px; color: var(--text-muted); padding: 2px; line-height: 1; }
+.claude-file-preview .remove-file:hover { color: #ff6b6b; }
 .claude-status { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--text-muted); margin-top: 8px; }
 .claude-status .spinner { width: 12px; height: 12px; border: 2px solid var(--border-color); border-top-color: #667eea; border-radius: 50%; animation: spin 0.8s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
@@ -176,6 +181,10 @@ export class ClaudePanel {
 	// Image upload state
 	private attachedImage: { base64: string; mediaType: string; name: string } | null = null;
 	private imagePreviewEl: HTMLElement | null = null;
+
+	// File upload state
+	private attachedFile: { content: string; name: string; extension: string; size: number } | null = null;
+	private filePreviewEl: HTMLElement | null = null;
 
 	constructor(
 		private app: App,
@@ -270,9 +279,24 @@ export class ClaudePanel {
 		fileInput.addEventListener('change', (e: Event) => this.handleImageUpload(e));
 		uploadBtn.appendChild(fileInput);
 
+		// 文件上传按钮
+		const fileUploadBtn = document.createElement('button');
+		fileUploadBtn.className = 'claude-btn upload';
+		fileUploadBtn.textContent = '📁 文件';
+		const textFileInput = document.createElement('input');
+		textFileInput.type = 'file';
+		textFileInput.accept = '.txt,.md,.csv,.json,.yaml,.yml,.py,.js,.ts,.tsx,.tex,.bib,.c,.cpp,.h,.java,.rs,.go,.xml,.html,.css,.sql,.r,.jl,.lua,.sh,.bat,.log,.cfg,.ini,.toml,.m,.mat,.rst,.env,.gitignore,.dockerfile';
+		textFileInput.title = '上传文本文件作为上下文';
+		textFileInput.addEventListener('change', (e: Event) => this.handleFileUpload(e));
+		fileUploadBtn.appendChild(textFileInput);
+
 		// 图片预览区域
 		this.imagePreviewEl = document.createElement('div');
 		this.imagePreviewEl.className = 'claude-image-preview';
+
+		// 文件预览区域
+		this.filePreviewEl = document.createElement('div');
+		this.filePreviewEl.className = 'claude-file-preview';
 
 		// 写入模式选择器
 		const modeRow = document.createElement('div');
@@ -314,10 +338,12 @@ export class ClaudePanel {
 		btnContainer.appendChild(this.sendBtn);
 		btnContainer.appendChild(this.stopBtn);
 		btnContainer.appendChild(uploadBtn);
+		btnContainer.appendChild(fileUploadBtn);
 		btnContainer.appendChild(this.writeBtn);
 
 		inputArea.appendChild(this.inputEl);
 		inputArea.appendChild(this.imagePreviewEl);
+		inputArea.appendChild(this.filePreviewEl);
 		inputArea.appendChild(modeRow);
 		inputArea.appendChild(btnContainer);
 		inputArea.appendChild(this.statusEl);
@@ -358,15 +384,31 @@ export class ClaudePanel {
 
 	private async sendMessage() {
 		const message = this.inputEl.value.trim();
-		if ((!message && !this.attachedImage) || this.isGenerating) return;
+		if ((!message && !this.attachedImage && !this.attachedFile) || this.isGenerating) return;
 
 		await this.refreshCurrentNote();
 
+		// 构建有效消息（注入文件内容）
+		let effectiveMessage = message;
+		let displayMessage = message || '(图片分析)';
+
+		if (this.attachedFile) {
+			const lang = this.getLangForExt(this.attachedFile.extension);
+			effectiveMessage = `用户上传了文件「${this.attachedFile.name}」:\n\`\`\`${lang}\n${this.attachedFile.content}\n\`\`\`\n\n${message || '请分析这个文件的内容。'}`;
+			displayMessage = `📎 ${this.attachedFile.name}${message ? '\n' + message : ''}`;
+		}
+
 		// 显示用户消息
-		this.addMessage('user', message || '(图片分析)');
-		this.conversation.push({ role: 'user', content: message || '(图片分析)', timestamp: Date.now() });
+		this.addMessage('user', displayMessage);
+		this.conversation.push({ role: 'user', content: effectiveMessage, timestamp: Date.now() });
 
 		this.inputEl.value = '';
+
+		// 清除文件附件
+		if (this.attachedFile) {
+			this.removeAttachedFile();
+		}
+
 		this.setGenerating(true);
 
 		// 有图片走 vision 请求
@@ -787,6 +829,90 @@ export class ClaudePanel {
 	}
 
 
+	private handleFileUpload(e: Event) {
+		const input = e.target as HTMLInputElement;
+		const file = input.files?.[0];
+		if (!file) return;
+
+		// Validate size (max 2MB for text files)
+		if (file.size > 2 * 1024 * 1024) {
+			this.showError('文件不能超过 2MB');
+			return;
+		}
+
+		const reader = new FileReader();
+		reader.onload = () => {
+			const text = reader.result as string;
+
+			// Check for binary content
+			if (text.includes(' ') || text.length === 0) {
+				this.showError('仅支持文本文件');
+				return;
+			}
+
+			const ext = file.name.split('.').pop()?.toLowerCase() || '';
+			this.attachedFile = { content: text, name: file.name, extension: ext, size: file.size };
+
+			// Clear any attached image (mutual exclusion)
+			this.removeAttachedImage();
+
+			this.updateFilePreview();
+		};
+		reader.readAsText(file);
+		input.value = '';
+	}
+
+	private removeAttachedFile() {
+		this.attachedFile = null;
+		this.updateFilePreview();
+	}
+
+	private updateFilePreview() {
+		if (!this.filePreviewEl) return;
+
+		if (!this.attachedFile) {
+			this.filePreviewEl.className = 'claude-file-preview';
+			this.filePreviewEl.empty();
+			return;
+		}
+
+		this.filePreviewEl.className = 'claude-file-preview has-file';
+		this.filePreviewEl.empty();
+
+		const icon = document.createElement('span');
+		icon.textContent = '📄';
+
+		const info = document.createElement('span');
+		info.className = 'file-info';
+		const sizeKB = (this.attachedFile.size / 1024).toFixed(1);
+		info.textContent = `${this.attachedFile.name} (${sizeKB} KB)`;
+
+		const removeBtn = document.createElement('button');
+		removeBtn.className = 'remove-file';
+		removeBtn.textContent = '✕';
+		removeBtn.title = '移除文件';
+		removeBtn.addEventListener('click', () => this.removeAttachedFile());
+
+		this.filePreviewEl.appendChild(icon);
+		this.filePreviewEl.appendChild(info);
+		this.filePreviewEl.appendChild(removeBtn);
+	}
+
+	private getLangForExt(ext: string): string {
+		const map: Record<string, string> = {
+			py: 'python', js: 'javascript', ts: 'typescript', tsx: 'typescript',
+			tex: 'latex', bib: 'bibtex', cpp: 'cpp', c: 'c', h: 'c',
+			java: 'java', rs: 'rust', go: 'go', sql: 'sql',
+			r: 'r', jl: 'julia', lua: 'lua', sh: 'bash', bat: 'batch',
+			html: 'html', css: 'css', json: 'json', xml: 'xml',
+			yaml: 'yaml', yml: 'yaml', toml: 'toml', csv: 'csv',
+			md: 'markdown', rst: 'rst', m: 'matlab', mat: 'matlab',
+			env: 'bash', gitignore: 'bash', dockerfile: 'dockerfile',
+			log: 'log', cfg: 'ini', ini: 'ini',
+		};
+		return map[ext] || '';
+	}
+
 	private handleImageUpload(e: Event) {
 		const input = e.target as HTMLInputElement;
 		const file = input.files?.[0];
@@ -813,6 +939,7 @@ export class ClaudePanel {
 			const mediaType = file.type as 'image/png' | 'image/jpeg' | 'image/gif' | 'image/webp';
 
 			this.attachedImage = { base64, mediaType, name: file.name };
+			this.removeAttachedFile();
 			this.updateImagePreview();
 		};
 		reader.readAsDataURL(file);
