@@ -285,8 +285,8 @@ export class ClaudePanel {
 		fileUploadBtn.textContent = '📁 文件';
 		const textFileInput = document.createElement('input');
 		textFileInput.type = 'file';
-		textFileInput.accept = '.txt,.md,.csv,.json,.yaml,.yml,.py,.js,.ts,.tsx,.tex,.bib,.c,.cpp,.h,.java,.rs,.go,.xml,.html,.css,.sql,.r,.jl,.lua,.sh,.bat,.log,.cfg,.ini,.toml,.m,.mat,.rst,.env,.gitignore,.dockerfile,.pdf';
-		textFileInput.title = '上传文本文件作为上下文';
+		textFileInput.accept = '*/*';
+		textFileInput.title = '上传文件作为上下文';
 		textFileInput.addEventListener('change', (e: Event) => this.handleFileUpload(e));
 		fileUploadBtn.appendChild(textFileInput);
 
@@ -829,43 +829,70 @@ export class ClaudePanel {
 	}
 
 
-	private async handleFileUpload(e: Event) {
-		const input = e.target as HTMLInputElement;
-		const file = input.files?.[0];
-		if (!file) return;
+		private async handleFileUpload(e: Event) {
+			const input = e.target as HTMLInputElement;
+			const file = input.files?.[0];
+			if (!file) return;
 
-		const ext = file.name.split('.').pop()?.toLowerCase() || '';
-		const isPdf = ext === 'pdf';
+			const ext = file.name.split('.').pop()?.toLowerCase() || '';
+			const isPdf = ext === 'pdf';
+			const isImage = ['png','jpg','jpeg','gif','webp','svg','bmp','ico'].includes(ext);
 
-		// Validate size
-		const maxSize = isPdf ? 10 * 1024 * 1024 : 2 * 1024 * 1024;
-		if (file.size > maxSize) {
-			this.showError(isPdf ? 'PDF 不能超过 10MB' : '文件不能超过 2MB');
-			return;
-		}
-
-		try {
-			let text: string;
-			if (isPdf) {
-				this.showStatus('正在提取 PDF 文本...');
-				text = await this.extractPdfText(file);
-				this.showStatus('');
-				if (!text || text.trim().length === 0) {
-					this.showError('PDF 文本提取失败，可能是扫描件或图片 PDF');
-					return;
-				}
-			} else {
-				text = await this.readTextFile(file);
+			// Validate size
+			const maxSize = isPdf ? 10 * 1024 * 1024 : 2 * 1024 * 1024;
+			if (file.size > maxSize) {
+				this.showError('文件过大');
+				return;
 			}
 
-			this.attachedFile = { content: text, name: file.name, extension: ext, size: file.size };
-			this.removeAttachedImage();
-			this.updateFilePreview();
-		} catch (err) {
-			this.showError(`文件读取失败: ${err}`);
+			try {
+				let text: string;
+
+				if (isPdf) {
+					this.showStatus('正在提取 PDF 文本...');
+					text = await this.extractPdfText(file);
+					this.showStatus('');
+					if (!text || text.trim().length === 0) {
+						this.showError('PDF 文本提取失败');
+						return;
+					}
+				} else if (isImage) {
+					// Redirect images to image upload
+					this.handleImageFileUpload(file);
+					input.value = '';
+					return;
+				} else {
+					text = await this.readTextFile(file);
+				}
+
+				this.attachedFile = { content: text, name: file.name, extension: ext, size: file.size };
+				this.removeAttachedImage();
+				this.updateFilePreview();
+			} catch (err) {
+				// Binary file: use metadata as fallback content
+				const sizeKB = (file.size / 1024).toFixed(1);
+				const meta = `[二进制文件] ${file.name} | 类型: ${file.type || ext} | 大小: ${sizeKB}KB`;
+				this.attachedFile = { content: meta, name: file.name, extension: ext, size: file.size };
+				this.removeAttachedImage();
+				this.updateFilePreview();
+			}
+			input.value = '';
 		}
-		input.value = '';
-	}
+
+		private handleImageFileUpload(file: File) {
+			const reader = new FileReader();
+			reader.onload = () => {
+				const base64Full = reader.result as string;
+				const base64 = base64Full.split(',')[1];
+				const mediaType = file.type as any;
+				if (base64) {
+					this.attachedImage = { base64, mediaType, name: file.name };
+					this.removeAttachedFile();
+					this.updateImagePreview();
+				}
+			};
+			reader.readAsDataURL(file);
+		}
 
 	private readTextFile(file: File): Promise<string> {
 		return new Promise((resolve, reject) => {
