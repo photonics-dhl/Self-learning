@@ -1,0 +1,332 @@
+{
+  "paper_id": "1a7ecab5",
+  "title": "Journal of Physics D:",
+  "authors": [],
+  "year": 2017,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\huber\\Dhillon 等 - 2017 - The 2017 terahertz science and technology roadmap.pdf",
+  "filename": "Dhillon 等 - 2017 - The 2017 terahertz science and technology roadmap.pdf",
+  "n_figs": 26,
+  "n_tables": 3,
+  "figures": [
+    {
+      "figure_id": "1a7ecab5_fig_000",
+      "caption": "Figure 1.  (a) Bandstructure of two periods of an LO phonon depopulation-based QCL active region for emission at 3.3 THz (13.7 meV, \nelectronic states 5 and 4). (b) Modal profile of the two waveguides used for THz QCLs: single plasmon, where the THz mode is weakly \nconfined and has a large overlap w",
+      "label": "Figure 1",
+      "page": 6,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p06_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_001",
+      "caption": "Figure 2.  Overview of intense laser-based THz sources: optical \nrectification in LiNbO3 or nonlinear organic crystals results in \nbroadband, single-cycle pulses. Ionization of plasmas produce \nultra-broadband pulses with a wide frequency spectrum. Difference \nfrequency mixing (DFG) of optical param",
+      "label": "Figure 2",
+      "page": 7,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p07_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "spectrum"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_002",
+      "caption": "Figure 3.  Conceptual illustration of a THz vacuum electron \namplifier, including the gun (electron beam source), interaction \ncircuit, beam confinement magnets t, beam collector and radiation \nports. Oscillators would not need the input port.",
+      "label": "Figure 3",
+      "page": 9,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p09_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_003",
+      "caption": "Figure 4.  State of the art of compact and gyro THz vacuum \nelectron devices. Data for compact sources (TWT, BWO, EIK, \nmagnetron) from [29–31]. Data for gyro devices from [32]. The \ntwo thick, double-banded, continuous lines represent the upper \nperformance limit bounds (to date) of the compact sou",
+      "label": "Figure 4",
+      "page": 9,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p09_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_004",
+      "caption": "Figure 5.  THz-driven chemistry—a quasi-half-cycle, broadband \nsuperradiant THz pulse with peak fields of ~1 V nm−1  \n(10 MV  =  cm) and a peak frequency of 10 THz induces CO \noxidation on the coadsorbed phase of CO and O on Ru(0 0 0 1) in \nultrahigh vacuum (UHV) at a temperature of 300 K [50] (reus",
+      "label": "Figure 5",
+      "page": 12,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p12_f04.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_005",
+      "caption": "Figure 6.  Schematic representation of a photoconductive switch \nwith nano-patterned contacts. The nanometric ‘fingers’ of the \nstructure allow the plasmonic coupling of laser photons into \nthe semiconductor improving the performance of the device. \nFigure courtesy of M Jarahi (UCLA).",
+      "label": "Figure 6",
+      "page": 13,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p13_f05.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_006",
+      "caption": "Figure 7.  (a) Shows a 3D representation of a terahertz pulse with non-planar polarisation detected by a three-contact photoconductive \ndetector, the pulse was produced by propagating a linearly polarized pulse through a 1.6 mm thick X-cut quartz plate. (b) Shows a \nparametric plot, as a function of",
+      "label": "Figure 7",
+      "page": 14,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p14_f06.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_007",
+      "caption": "Figure 8.  Progress of terahertz sources over recent years: BWO  =  backward wave oscillator ( ), FEL  =  free electron laser ( ), \nFMD  =  frequency multiplier devices ( ), gunn diodes ( ), QCL  =  quantum cascade laser (at 10 K unless otherwise stated) ( ), \nDFG  =  difference frequency generation",
+      "label": "Figure 8",
+      "page": 17,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p17_f07.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_008",
+      "caption": "Figure 9.  Progress of terahertz detectors over recent years: micro-bolometer based FPA ( ), micro-bolometer single detector ( ), CMOS \nbased FPA ( ), CMOS based single detector ( ), SBD FPA ( ), SBD single detector (\n), pyroelectric FPA ( ), pyroelectric single detector \n( ) and Golay cell ( ). NEP",
+      "label": "Figure 9",
+      "page": 18,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p18_f08.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_009",
+      "caption": "Figure 10.  Left: surface micromachined integrated 3 THz meandered metal-pipe rectangular waveguide with H-plane horn antenna \ncoupling [93]. Right: concept illustration of a 0.3 THz ‘virtual’ substrate integrated waveguide tuneable and reconfigureable phased array \nantenna subsystem using RETINA te",
+      "label": "Figure 10",
+      "page": 20,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p20_f09.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_010",
+      "caption": "Figure 11.  MEMS spirals [96] (a): microphotograph in the pre-actuation state, (b) microphotograph in the on-actuation state, and \n(c) illustration of THz polarization modulator operation. Images reprinted by permission from Macmillan Publishers Ltd: NATURE \nCOMMUNICATIONS [96], Copyright (2015).",
+      "label": "Figure 11",
+      "page": 21,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p21_f10.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_011",
+      "caption": "Figure 12.  Schematic diagram of a free-space THz time-domain spectrometer. The emission from a titanium sapphire laser, which is \npumped by an argon ion laser is used to drive photoconductive dipole antennas. The emitted THz pulses are guided by off-axis parabolic \nmirrors. Taken from [103] with pe",
+      "label": "Figure 12",
+      "page": 23,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p23_f11.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_012",
+      "caption": "Figure 13.  Imaginary (a) and real (b) parts of the inverse dielectric function of GaAs upon photoexcitation. It is seen that the transition \nfrom independent electrons and holes to an ensemble of screened quasiparticles occurs on a time scale of 10–100 fs. Reproduced with \npermission from [111], co",
+      "label": "Figure 13",
+      "page": 25,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p25_f12.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_013",
+      "caption": "Figure 14.  Amplitude of THz emission from photoexcitation of an integrated circuit with 1 micron spatial resolution. Part (a) shows an \nundamaged chip, part (b) illustrates that the defect created by severing the ground line using fast ion beam etching can be readily identified \n(shown in the CAD d",
+      "label": "Figure 14",
+      "page": 26,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p26_f13.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_014",
+      "caption": "Figure 15.  Scattering-type near-field scanning THz microscopy. (a) THz pulses focused onto a sample composed of nanoparticles on a flat \nsubstrate are reflected, carrying away information about the effective dielectric function averaged over the THz focal spot. (b) Introducing \na sharp metallic tip",
+      "label": "Figure 15",
+      "page": 28,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p28_f14.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_015",
+      "caption": "Figure 16.  Ultrafast, ultrabroadband THz spectroscopy on the sub-nanoparticle scale. (a) Atomic force microscope image of an indium \narsenide nanowire on a diamond substrate. (b) Ultrafast near-field THz ‘snapshot’ images of the nanowire taken before (top) and after \n(bottom) photoexcitation by a n",
+      "label": "Figure 16",
+      "page": 28,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p28_f15.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_016",
+      "caption": "Figure 17.  The first in vivo cancer images. Collected using a flatbed reflection, time domain, imaging system (TeraView Ltd, Cambridge, \nUK). The clinical photo (left) show only surface feature which can be compare with the terahertz image (centre) which is formed by \nplotting the the peak of the r",
+      "label": "Figure 17",
+      "page": 32,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p32_f16.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_017",
+      "caption": "Figure 18.  The photo (left) show the prototype intra-operative surgical probe for use during breast cancer surgery. The graph (right) show \nthe classification of breast cancer data collected with the probe where tumour (red) is well separated from normal tissue (blue).",
+      "label": "Figure 18",
+      "page": 32,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p32_f17.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_018",
+      "caption": "Figure 20.  Sea level zenith transmission of the Earth’s atmosphere modelled for different latitudes and seasons. Courtesy of D. Gerber, \nSTFC-RAL Space.",
+      "label": "Figure 20",
+      "page": 37,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p37_f18.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_019",
+      "caption": "Figure 21.  Fundamental detection methodology selection path.",
+      "label": "Figure 21",
+      "page": 37,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p37_f19.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_020",
+      "caption": "Figure 22.  (a) JPL’s imaging radar showing a snapshot of an 8.3 Hz frame rate video revealing a handgun inside the pocket of an insulated \nrain jacket, obtained using a four-element, 340 GHz heterodyne transceiver front end. (b) Hardware and standoff imagery of a checkpoint \nscenario for the 350 GH",
+      "label": "Figure 22",
+      "page": 39,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p39_f20.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_021",
+      "caption": "Figure 23.  Focal plane array of about 2500 thermal kinetic \ninductance detectors (left), with optical (upper right) and scanning \nelectron micrograph (lower right) of individual detectors.",
+      "label": "Figure 23",
+      "page": 39,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p39_f21.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_022",
+      "caption": "Figure 24.  Photographs, left, of an anti-parallel pair of airbridged Schottky diodes and, right, of the typical waveguide block in which the \ndiode circuit is embedded. Photos courtesy of MMT group, RAL space.",
+      "label": "Figure 24",
+      "page": 41,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p41_f22.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_023",
+      "caption": "Figure 25.  Performance of Schottky mixers as a function of frequency. Left hand graph shows double sideband conversion loss and, right, \ncorresponding mixer noise temperature. Adapted with permission from [188].",
+      "label": "Figure 25",
+      "page": 41,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p41_f23.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_024",
+      "caption": "Figure 26.  Photonic multiband wireless over fibre system. (OFCG: optical frequency comb generator, PD: photodiode, E/O mod: electro-\noptic modulator, OF: optical filter, UL Rx: uplink receiver, DSP: digital signal processing).",
+      "label": "Figure 26",
+      "page": 43,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p43_f24.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "1a7ecab5_fig_025",
+      "caption": "Figure 27.  Microscope view of monolithic photonic integration of (a) dual DFB dual wavelength source [201] and (b) a dual OPLL [202], \nand (c) schematic diagram of tuneable coherent THz source. (SOA: semiconductor amplifier, DFB: distributed feedback laser, DBR: \ndistributed Bragg reflector, OFCG: ",
+      "label": "Figure 27",
+      "page": 43,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p43_f25.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "1a7ecab5_tab_000",
+      "paper_id": "1a7ecab5",
+      "table_label": "Table 1",
+      "table_caption": "Table 1.  Terahertz sources.",
+      "page_num": 16,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p16_t00.png",
+      "width": 458,
+      "height": 234
+    },
+    {
+      "table_id": "1a7ecab5_tab_001",
+      "paper_id": "1a7ecab5",
+      "table_label": "Table 2",
+      "table_caption": "Table 2.  Terahertz detectors.",
+      "page_num": 17,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p17_t01.png",
+      "width": 480,
+      "height": 1293
+    },
+    {
+      "table_id": "1a7ecab5_tab_002",
+      "paper_id": "1a7ecab5",
+      "table_label": "Table 3",
+      "table_caption": "Table 3.  Required aperture tolerances for  −42 dB reflection coefficient to 3.3 THz, and reflection coefficient values achieved by the \nexisting IEEE 1785.2a interface [217] to 3.3 THz.",
+      "page_num": 46,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p46_t02.png",
+      "width": 2034,
+      "height": 236
+    }
+  ]
+}

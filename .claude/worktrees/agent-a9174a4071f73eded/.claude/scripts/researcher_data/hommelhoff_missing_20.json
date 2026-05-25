@@ -1,0 +1,607 @@
+[
+  {
+    "doi": "10.1103/physrevlett.96.077401",
+    "title": "Field Emission Tip as a Nanometer Source of Free Electron Femtosecond Pulses",
+    "cites": 496,
+    "date": "2006-02-21",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://arxiv.org/pdf/quant-ph/0507241",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1038/nature23900",
+    "title": "Light-field-driven currents in graphene",
+    "cites": 416,
+    "date": "2017-09-21",
+    "journal": {
+      "id": "https://openalex.org/S137773608",
+      "display_name": "Nature",
+      "issn_l": "0028-0836",
+      "issn": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://arxiv.org/pdf/1607.04198",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1103/physrevlett.111.134803",
+    "title": "Laser-Based Acceleration of Nonrelativistic Electrons at a Dielectric Structure",
+    "cites": 344,
+    "date": "2013-09-27",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://arxiv.org/pdf/1308.0464",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1103/physrevlett.97.247402",
+    "title": "Ultrafast Electron Pulses from a Tungsten Tip Triggered by Low-Power Femtosecond Laser Pulses",
+    "cites": 284,
+    "date": "2006-12-14",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://arxiv.org/pdf/quant-ph/0607006",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1103/physrevlett.105.257601",
+    "title": "Strong-Field Above-Threshold Photoemission from Sharp Metal Tips",
+    "cites": 262,
+    "date": "2010-12-14",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://arxiv.org/pdf/1009.2872",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1103/physrevlett.92.203005",
+    "title": "Coherence in Microchip Traps",
+    "cites": 247,
+    "date": "2004-05-21",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://arxiv.org/pdf/quant-ph/0311197",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1103/physrevlett.86.608",
+    "title": "Magnetic Conveyor Belt for Transporting and Merging Trapped Atom Clouds",
+    "cites": 186,
+    "date": "2001-01-22",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1103/physrevlett.113.213901",
+    "title": "Strong-Field Perspective on High-Harmonic Radiation from Bulk Solids",
+    "cites": 183,
+    "date": "2014-11-17",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://arxiv.org/pdf/1406.7234",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1103/physrevlett.120.103203",
+    "title": "Ponderomotive Generation and Detection of Attosecond Free-Electron Pulse Trains",
+    "cites": 178,
+    "date": "2018-03-09",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://arxiv.org/pdf/1905.05245",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1088/0953-4075/45/7/074006",
+    "title": "Attosecond physics in photoemission from a metal nanotip",
+    "cites": 154,
+    "date": "2012-03-16",
+    "journal": {
+      "id": "https://openalex.org/S108417319",
+      "display_name": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "issn_l": "0953-4075",
+      "issn": [
+        "0953-4075",
+        "1361-6455"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320083",
+      "host_organization_name": "IOP Publishing",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320083",
+        "https://openalex.org/P4310311669"
+      ],
+      "host_organization_lineage_names": [
+        "IOP Publishing",
+        "Institute of Physics"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "http://edoc.mpg.de/608948",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1103/physrevlett.114.227601",
+    "title": "Highly Coherent Electron Beam from a Laser-Triggered Tungsten Needle Tip",
+    "cites": 148,
+    "date": "2015-06-05",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://arxiv.org/pdf/1412.4584",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1103/physreva.64.063607",
+    "title": "Trapped-atom interferometer in a magnetic microtrap",
+    "cites": 138,
+    "date": "2001-11-14",
+    "journal": {
+      "id": "https://openalex.org/S164566984",
+      "display_name": "Physical Review A",
+      "issn_l": "1050-2947",
+      "issn": [
+        "1050-2947",
+        "1094-1622",
+        "1538-4446"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://arxiv.org/pdf/quant-ph/0106162",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1038/nphys4282",
+    "title": "Inelastic ponderomotive scattering of electrons at a high-intensity optical travelling wave in vacuum",
+    "cites": 121,
+    "date": "2017-10-09",
+    "journal": {
+      "id": "https://openalex.org/S156274416",
+      "display_name": "Nature Physics",
+      "issn_l": "1745-2473",
+      "issn": [
+        "1745-2473",
+        "1745-2481"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://www.nature.com/articles/nphys4282.pdf",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1088/1361-6455/aac6ac",
+    "title": "Attosecond physics phenomena at nanometric tips",
+    "cites": 118,
+    "date": "2018-05-22",
+    "journal": {
+      "id": "https://openalex.org/S108417319",
+      "display_name": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "issn_l": "0953-4075",
+      "issn": [
+        "0953-4075",
+        "1361-6455"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320083",
+      "host_organization_name": "IOP Publishing",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320083",
+        "https://openalex.org/P4310311669"
+      ],
+      "host_organization_lineage_names": [
+        "IOP Publishing",
+        "Institute of Physics"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://doi.org/10.1088/1361-6455/aac6ac",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1103/physrevlett.123.264803",
+    "title": "Generation and Characterization of Attosecond Microbunched Electron Pulse Trains via Dielectric Laser Acceleration",
+    "cites": 112,
+    "date": "2019-12-26",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://arxiv.org/pdf/1910.14343",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1103/physrevlett.121.207401",
+    "title": "Coherent Electron Trajectory Control in Graphene",
+    "cites": 107,
+    "date": "2018-11-14",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://arxiv.org/pdf/1811.07047",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1007/s003400000460",
+    "title": "Applications of integrated magnetic microtraps",
+    "cites": 106,
+    "date": "2001-01-01",
+    "journal": {
+      "id": "https://openalex.org/S182865820",
+      "display_name": "Applied Physics B",
+      "issn_l": "0946-2171",
+      "issn": [
+        "0946-2171",
+        "1432-0649"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319900",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Science+Business Media",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://arxiv.org/pdf/quant-ph/0008118",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1103/physrevlett.117.217601",
+    "title": "Two-Color Coherent Control of Femtosecond Above-Threshold Photoemission from a Tungsten Nanotip",
+    "cites": 86,
+    "date": "2016-11-14",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://arxiv.org/pdf/1603.01516",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1038/ncomms14342",
+    "title": "Optical gating and streaking of free electrons with sub-optical cycle precision",
+    "cites": 86,
+    "date": "2017-01-25",
+    "journal": {
+      "id": "https://openalex.org/S64187185",
+      "display_name": "Nature Communications",
+      "issn_l": "2041-1723",
+      "issn": [
+        "2041-1723"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://www.nature.com/articles/ncomms14342.pdf",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1103/physrevb.86.035402",
+    "title": "Electron rescattering at metal nanotips induced by ultrashort laser pulses",
+    "cites": 82,
+    "date": "2012-07-05",
+    "journal": {
+      "id": "https://openalex.org/S6791298",
+      "display_name": "Physical Review B",
+      "issn_l": "1098-0121",
+      "issn": [
+        "1098-0121",
+        "1538-4489",
+        "1550-235X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://arxiv.org/pdf/1201.0462",
+    "is_oa": true
+  }
+]

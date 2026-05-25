@@ -1,0 +1,47 @@
+{
+  "paper_id": "3639a49c",
+  "title": "Laser waveform control of extreme ultraviolet",
+  "authors": [
+    "YONG SING YOU",
+    "1 MENGXI WU",
+    "2 YANCHUN YIN",
+    "3",
+    "4 ANDREW CHEW",
+    "3",
+    "4 XIAOMING REN",
+    "3",
+    "4"
+  ],
+  "year": 2017,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\chang\\You 等 - 2017 - Laser waveform control of extreme ultraviolet high harmonics from solids.pdf",
+  "filename": "You 等 - 2017 - Laser waveform control of extreme ultraviolet high harmonics from solids.pdf",
+  "n_figs": 2,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "3639a49c_fig_000",
+      "caption": "Fig. 2.\nTop row shows the measured CEP dependence of HHG from MgO with peak laser fields of (a) 1.2 V/Å, (b) 1.7 V/Å, and (c) 2.1 V/Å,\nrespectively. The bottom row shows calculation results from the three-level model, at similar field strengths of (d) 1.0 V/Å, (e) 1.3 V/Å, and (f) 1.8 V/Å,\nrespectiv",
+      "label": "Fig. 2",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\3639a49c\\3639a49c_p03_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "3639a49c_fig_001",
+      "caption": "Fig. 3.\n(a) Calculated time-frequency profile of the HHG emission\nusing a field strength of 1.0 V/Å and a CEP of zero. The color scale\nindicating the spectral yield is logarithmic. The dashed lines indicate\npredicted time-dependent photon energies. Photon energies above the\nbandgap (7.8 eV) are emit",
+      "label": "Fig. 3",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\3639a49c\\3639a49c_p03_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    }
+  ],
+  "tables": []
+}

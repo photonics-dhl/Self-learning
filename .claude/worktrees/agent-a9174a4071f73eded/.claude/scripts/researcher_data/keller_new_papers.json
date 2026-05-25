@@ -1,0 +1,319 @@
+[
+  {
+    "doi": "10.1109/2944.571743",
+    "title": "Semiconductor saturable absorber mirrors (SESAM's) for femtosecond to nanosecond pulse generation in solid-state lasers",
+    "year": "1996",
+    "cites": 1945,
+    "journal": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "U.",
+        "lastName": "Keller"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "K.",
+        "lastName": "J. Weingarten"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Franz",
+        "lastName": "X. Kärtner"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "D.",
+        "lastName": "Kopf"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "B.",
+        "lastName": "Braun"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "I.D.",
+        "lastName": "Jung"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "R.",
+        "lastName": "Fluck"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Clemens",
+        "lastName": "Hönninger"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "N.",
+        "lastName": "Matuschek"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "J.",
+        "lastName": "Aus der Au"
+      }
+    ]
+  },
+  {
+    "doi": "10.1007/s003400050813",
+    "title": "Carrier-envelope offset phase control: A novel concept for absolute optical frequency measurement and ultrashort pulse generation",
+    "year": "1999",
+    "cites": 862,
+    "journal": "Applied Physics B",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Harald",
+        "lastName": "R. Telle"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "G.",
+        "lastName": "Steinmeyer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "A.",
+        "lastName": "Dunlop"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jörn",
+        "lastName": "Stenger"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Dirk",
+        "lastName": "Sutter"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "U.",
+        "lastName": "Keller"
+      }
+    ]
+  },
+  {
+    "doi": "10.1364/josab.16.000046",
+    "title": "Q-switching stability limits of continuous-wave passive mode locking",
+    "year": "1999",
+    "cites": 839,
+    "journal": "Journal of the Optical Society of America B",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Clemens",
+        "lastName": "Hönninger"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "R.",
+        "lastName": "Paschotta"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "F.",
+        "lastName": "Morier‐Genoud"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Moser"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "U.",
+        "lastName": "Keller"
+      }
+    ]
+  },
+  {
+    "doi": "10.1364/ol.17.000505",
+    "title": "Solid-state low-loss intracavity saturable absorber for Nd:YLF lasers: an antiresonant semiconductor Fabry–Perot saturable absorber",
+    "year": "1992",
+    "cites": 654,
+    "journal": "Optics Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "U.",
+        "lastName": "Keller"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "David",
+        "lastName": "A. B. Miller"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "G.",
+        "lastName": "D. Boyd"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "T.",
+        "lastName": "H. Chiu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "John",
+        "lastName": "Ferguson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "T. Asom"
+      }
+    ]
+  },
+  {
+    "doi": "10.1007/s00340-004-1650-z",
+    "title": "Generation of intense, carrier-envelope phase-locked few-cycle laser pulses through filamentation",
+    "year": "2004",
+    "cites": 615,
+    "journal": "Applied Physics B",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "C.",
+        "lastName": "P. Hauri"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "W.",
+        "lastName": "Kornelis"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "F.W.",
+        "lastName": "Helbing"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "A.",
+        "lastName": "Heinrich"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "A.",
+        "lastName": "Couairon"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "A.",
+        "lastName": "Mysyrowicz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jens",
+        "lastName": "Biegert"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "U.",
+        "lastName": "Keller"
+      }
+    ]
+  },
+  {
+    "doi": "10.1364/ol.24.000631",
+    "title": "Semiconductor saturable-absorber mirror–assisted Kerr-lens mode-locked Ti:sapphire laser producing pulses in the two-cycle regime",
+    "year": "1999",
+    "cites": 406,
+    "journal": "Optics Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Dirk",
+        "lastName": "Sutter"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Günter",
+        "lastName": "Steinmeyer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "L.",
+        "lastName": "Gallmann"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "N.",
+        "lastName": "Matuschek"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "F.",
+        "lastName": "Morier‐Genoud"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "U.",
+        "lastName": "Keller"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "V.",
+        "lastName": "Scheuer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "G.",
+        "lastName": "Angelow"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Τ.",
+        "lastName": "Tschudi"
+      }
+    ]
+  },
+  {
+    "doi": "10.1109/2944.571754",
+    "title": "Soliton mode-locking with saturable absorbers",
+    "year": "1996",
+    "cites": 383,
+    "journal": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Franz",
+        "lastName": "X. Kärtner"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "I.D.",
+        "lastName": "Jung"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "U.",
+        "lastName": "Keller"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.physrep.2006.03.004",
+    "title": "Passively modelocked surface-emitting semiconductor lasers",
+    "year": "2006",
+    "cites": 382,
+    "journal": "Physics Reports",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "U.",
+        "lastName": "Keller"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Anne",
+        "lastName": "C. Tropper"
+      }
+    ]
+  }
+]

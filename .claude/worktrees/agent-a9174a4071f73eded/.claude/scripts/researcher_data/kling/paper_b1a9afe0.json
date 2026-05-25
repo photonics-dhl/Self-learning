@@ -1,0 +1,37 @@
+{
+  "paper_id": "b1a9afe0",
+  "title": "Controlled near-ﬁeld enhanced electron acceleration from dielectric nanospheres with intense few-cycle laser ﬁelds",
+  "authors": [],
+  "year": 2011,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\kling\\Zherebtsov 等 - 2011 - Controlled near-field enhanced electron acceleration from dielectric nanospheres with intense few-cy.pdf",
+  "filename": "Zherebtsov 等 - 2011 - Controlled near-field enhanced electron acceleration from dielectric nanospheres with intense few-cy.pdf",
+  "n_figs": 2,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "b1a9afe0_fig_000",
+      "caption": "Figure 1 | Electron emission from Xe and SiO2 nanoparticles. a, Momentum map of photoelectrons from Xe (log colour scale) at an intensity of\n1.9×1013 W cm−2 averaged over the carrier-envelope phase with the laser polarization along the py axis. b, Electron kinetic energy spectrum obtained from\nangul",
+      "label": "Figure 1",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\b1a9afe0\\b1a9afe0_p03_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "b1a9afe0_fig_001",
+      "caption": "Figure 4 | Calculated electron emission from a SiO2 nanosphere in a few-cycle laser ﬁeld. a–d, Snapshots of the phase-space distributions (a,c) of single\nparticle energies at a time t = 35 fs after the peak of the laser pulse and birth time analyses (b,d) for electrons emitted within a 30◦cone (full",
+      "label": "Figure 4",
+      "page": 5,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\b1a9afe0\\b1a9afe0_p05_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

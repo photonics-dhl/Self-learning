@@ -1,0 +1,46 @@
+{
+  "paper_id": "19bb3f3a",
+  "title": "Nature  |  Vol 605  |  12 May 2022  |  251",
+  "authors": [
+    "Tobias Boolakee1",
+    "6 ✉",
+    "Christian Heide1",
+    "2",
+    "6",
+    "Antonio Garzón-Ramírez3",
+    "4",
+    "Heiko B. Weber1"
+  ],
+  "year": 2022,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\hommelhoff\\Boolakee 等 - 2022 - Light-field control of real and virtual charge carriers.pdf",
+  "filename": "Boolakee 等 - 2022 - Light-field control of real and virtual charge carriers.pdf",
+  "n_figs": 2,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "19bb3f3a_fig_000",
+      "caption": "Fig. 2 | Measured phase-resolved CEP-dependent current for graphene \nstrip lengths L = 5 μm, L = 2 μm and L = 1 μm. The gold–graphene–gold \nheterostructures shown at the top are illuminated with a Gaussian laser spot \n(1.8 μm 1/e2 intensity radius) placed in the centre of each structure and \nindicat",
+      "label": "Fig. 2",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\19bb3f3a\\19bb3f3a_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "graph"
+    },
+    {
+      "figure_id": "19bb3f3a_fig_001",
+      "caption": "Fig. 3 | Charge transfer simulations for gold–graphene–gold \nheterostructures (TD-NEGF). a, b, Charge transfer dynamics for a CEP of \nφCE = π/2 (a) and φCE = 0 (b) in graphene strips of different lengths, as indicated. \nThe laser pulse with E0 = 2.3 V nm−1 is centred at t = 0. Inset in a: extended t",
+      "label": "Fig. 3",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\19bb3f3a\\19bb3f3a_p03_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "graph"
+    }
+  ],
+  "tables": []
+}

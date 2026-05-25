@@ -1,0 +1,59 @@
+{
+  "paper_id": "7a7a1c7f",
+  "title": "RESEARCH ARTICLE",
+  "authors": [],
+  "year": 2016,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\baum\\Kealhofer 等 - 2016 - All-optical control and metrology of electron pulses.pdf",
+  "filename": "Kealhofer 等 - 2016 - All-optical control and metrology of electron pulses.pdf",
+  "n_figs": 4,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "7a7a1c7f_fig_000",
+      "caption": "Fig. 1. Experimental setup. A 1-ps laser pulse from a Yb:YAG regenerative amplifier is frequency-\ndoubled and generates an electron pulse from a thin-film gold photocathode. The laser also drives two\noptical-rectification stages, each generating single-cycle terahertz pulses with energy of up to 40 ",
+      "label": "Fig. 1",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\7a7a1c7f\\7a7a1c7f_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "7a7a1c7f_fig_001",
+      "caption": "Fig. 2. All-optical terahertz streak camera. (A) Images of the electron beam on the camera with and\nwithout the terahertz field.The FWHM of the streaked beam is ~50 times larger than that of the unstreaked\nspot. (B) Time-dependent deflection (deflectogram) measured by varying the delay between the e",
+      "label": "Fig. 2",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\7a7a1c7f\\7a7a1c7f_p02_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "7a7a1c7f_fig_002",
+      "caption": "Fig. 3. Terahertz-driven electron pulse compression. (A and B) Comparison of deflectograms for (A)\nuncompressed (930 fs) and (B) compressed (75 fs) pulses at time steps of 200 and 10 fs, respectively.The\ndeflectograms were measured sequentially and have a temporal resolution of ~9 fs (RMS). (C) Meas",
+      "label": "Fig. 3",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\7a7a1c7f\\7a7a1c7f_p03_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "7a7a1c7f_fig_003",
+      "caption": "Fig. 5. Resonance-free single-cycle streaking. (A) Resonator-free concept for mediating the electron-\nterahertz interaction by using an ultrathin terahertz mirror. The angles of the terahertz and the electron\nbeams with respect to the foil’s surface normal (dotted line) are chosen for lateral phase ",
+      "label": "Fig. 5",
+      "page": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\7a7a1c7f\\7a7a1c7f_p04_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

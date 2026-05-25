@@ -1,0 +1,456 @@
+{
+  "professor_key": "miao",
+  "paper_count": 4,
+  "total_figures": 16,
+  "total_chunks": 42,
+  "papers": [
+    {
+      "title": "Accurate determination of the 3D atomic structure of amorphous materials",
+      "year": 2026,
+      "journal": "",
+      "authors": [
+        "Yuxuan Liao1",
+        "Haozhi Sha1",
+        "Colum M. O’Leary1",
+        "Hanfeng Zhong1",
+        "Yao Yang2 & Jianwei Miao1 ✉"
+      ],
+      "doi": "",
+      "paper_id": "c35207a8d8ffcb3e",
+      "file_hash": "c35207a8d8ffcb3e6117c713fc43dae0",
+      "num_pages": 19,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 19,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "c35207a8_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1 | Improved 3D reconstruction and atom tracing of 208-atom and \n19,993-atom amorphous Si nanoparticles using our AET workflow.  \na, Representative projection of the 208-atom nanoparticle at a dose of \n1.6 × 104 e− Å−2. Scale bar, 5 Å. b, Denoised and background-subtracted \nprojection, showing ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c35207a8\\c35207a8d8ffcb3e_p03_f00.png",
+          "page_num": 3,
+          "width": 1527,
+          "height": 924,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "c35207a8_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2 | Three-dimensional atomic localization and elemental identification \nof a 13,982-atom amorphous SiGeSn nanoparticle using our AET workflow. \na, Representative projection at a dose of 1.6 × 104 e− Å−2. Scale bar, 2 nm.  \nb, Denoised and background-subtracted projection. c, Corresponding \nproj",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c35207a8\\c35207a8d8ffcb3e_p04_f01.png",
+          "page_num": 4,
+          "width": 2001,
+          "height": 1784,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "c35207a8_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3 | Three-dimensional atomic localization and elemental identification \nof an 18,356-atom amorphous CoPdPt nanoparticle using our AET workflow. \na, Representative projection simulated with the electron probe focused at the \nnanoparticle centre and a dose of 1.7 × 104 e− Å−2, matching experiment",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c35207a8\\c35207a8d8ffcb3e_p05_f02.png",
+          "page_num": 5,
+          "width": 2002,
+          "height": 1676,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "c35207a8_fig_003",
+          "label": "Fig. 4",
+          "caption": "Fig. 4 | Three-dimensional atomic structure and medium-range order of a \n7,704-atom amorphous silica nanoparticle reconstructed by pAET (dose \n1.6 × 103 e− Å−2). a,b, Representative projections reconstructed by single-slice (a) \nand multislice (b) ptychography. Scale bar, 2 nm. c, Atom-identificatio",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c35207a8\\c35207a8d8ffcb3e_p06_f03.png",
+          "page_num": 6,
+          "width": 2000,
+          "height": 1912,
+          "figure_type": "graph",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "Analysis Accurate determination of the 3D atomic structure of amorphous materials https://doi.org/10.1038/s41586-025-09857-4 Yuxuan Liao1, Haozhi Sha1, Colum M. O’Leary1, Hanfeng Zhong1, Yao Yang2 & Jianwei Miao1 ✉ Received: 15 June 2025 Accepted: 4 November 2025 Amorphous materials—solids lacking long-range order—underpin technologies from thin-film electronics1, solar cells2 and phase-change memory3 to magnetic Published online: 28 January 2026 components4, medical devices5 and quantum technol",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Analysis Table 1 | Comparison of methods and procedures used in this study and in ref. 28 This study Reference 28 Projection simulation, Projection simulation Multislice simulations (abTEM42) are performed Absorptive-potential projection method background addition, and with the electron beam focused at the centre (Eqs. 1–2 in their paper) with a fixed defocus noise modelling of the sample, consistent with experimental of –5 nm conditions. A random defocus shift of ±3 nm was applied to emulate ex",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "4,000 3,000 2,000 1,000 0 0 0.2 0.4 0.6 0.8 Deviation (Å) 3D volume was then traced to produce the atomic model (Extended whereas 3D positional precisions improved from 68 pm to 50 pm (Si), Data Fig. 3d). All 208 Si atoms were correctly identified with a 3D posi- 18 pm to 10 pm (Ge) and 9 pm to 5 pm (Sn) as the dose increased from tional precision of 5 pm (Extended Data Fig. 3e), representing more 1.6 × 104 e− Å−2 to 1.6 × 105 e− Å−2 (Fig. 2f). The lower precision for Si atoms than a two-fold im",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Analysis 1,500 1,000 500 0 0 20 40 60 rigorous than the absorptive-potential projection method in ref. 28. of minimizing defocus variations during data acquisition. Overall, The electron probe was focused at the centre of the nanoparticle to these results represent a substantial improvement over those reported better reproduce the experimental conditions, in contrast to the –5 nm in ref. 28 and underscore the necessity of a systematic workflow for defocus used in ref. 28. Each projection was the",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "1,500 1,000 500 0 0 2 4 6 8 10 12 14 16 18 Integrated intensity (a.u.) an R-factor defined as the normalized difference between calculated Three-dimensional atomic structure determination by and measured projections. pAET To demonstrate the effectiveness of these advanced algorithms, we used RESIRE44, the latest development in this class of methods, to recon- Compared with ADF-STEM, electron ptychography is a coherent imag- struct multislice-simulated noisy projections of the amorphous CoPdPt in",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Analysis a 500 700 600 400 500 300 400 300 b 200 200 100 100 0 0 0 0.2 0.4 0 0.5 Deviation (Å) Deviation (Å) Deviation (Å) improved atom-identification accuracy from 82% to 97.2% and 3D Conclusions precision from 24 pm to 13 pm relative to single-slice pAET (Fig. 4a–c). At 1.6 × 104 e− Å−2, multislice pAET achieved 100% accuracy and 7 pm We present a comprehensive and quantitative framework for accurately precision, whereas single-slice reached 88.8% and 19 pm (Extended determining the 3D atomic",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "for accurate 3D atomic reconstruction. Although simulations cannot 28. Busch, R., Rez, P., Treacy, M. M. J. & Zuo, J.-M. Limit of atomic resolution tomography fully capture experimental complexity, this analysis clarifies the capa- reconstruction of amorphous nanoparticles. Nature https://doi.org/10.1038/s41586-025- 09924-w (2026). bilities and practical constraints of AET and pAET and, when combined 29. Miao, J., Ercius, P. & Billinge, S. J. L. Atomic electron tomography: 3D structures without ",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Analysis Methods its centre position—that is, the 3D coordinates of a potential atom. Peaks within 1 Å of each other were merged based on intensity. Finally, Multislice simulations K-means clustering was used to exclude non-atomic sites and classify The ground-truth atomic models of the amorphous Si, SiGeSn and CoP- atomic species among the identified positions33,57. dPt nanoparticles were obtained from the references listed in Extended Data Table 1, whereas the SiO model was generated by molecu",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "updates of both the probe and object functions during reconstruction. 60. Miao, J., Sayre, D. & Chapman, H. N. Phase retrieval from the magnitude of the Fourier As a result, even in simulations, careful alignment of the phase images transform of nonperiodic objects. J. Opt. Soc. Am. A 15, 1662–1669 (1998). 61. Wakonig, K. et al. PtychoShelves, a versatile high-level framework for high-performance across tilt angles is required. Finally, to account for partial coherence, analysis of ptychographic",
+          "page": 9,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Analysis Extended Data Fig. 1 | Projections of 208-atom and 19,993-atom amorphous signal-to-noise ratio. c, Corresponding projection calculated from the RESIRE Si nanoparticles using our AET workflow. a, Representative projection of the reconstruction. d–f, Same as (a–c) at a dose of 1.6 × 105 e−/Å2. g–i, Same as (a–c) 208-atom Si nanoparticle at a dose of 8.0 × 103 e−/Å2. Scale bar, 5 Å. b, Denoised for the 19,993-atom nanoparticle at a dose of 8.0 × 103 e−/Å2. Scale bar, 2 nm. and background-s",
+          "page": 10,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "High-entropy nanoparticles: Synthesis-structure- property relationships and data-driven discovery",
+      "year": 2022,
+      "journal": "",
+      "authors": [
+        "Yonggang Yao†",
+        "Qi Dong†",
+        "Alexandra Brozena",
+        "Jian Luo",
+        "Jianwei Miao",
+        "Miaofang Chi"
+      ],
+      "doi": "",
+      "paper_id": "2e963b2e34fdabaf",
+      "file_hash": "2e963b2e34fdabaf69feeb9408ef9e87",
+      "num_pages": 13,
+      "abstract": "",
+      "n_figures": 5,
+      "n_chunks": 13,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "2e963b2e_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1. Development of high-entropy nanoparticles with multielemental\ncomposition and enhanced functionality. (A) Schematic showing high-\nentropy mixing in a face-centered cubic lattice. Multiple elements will occupy the\nsame lattice site randomly to form a high-entropy structure such as a high-\nent",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2e963b2e\\2e963b2e34fdabaf_p03_f00.png",
+          "page_num": 3,
+          "width": 2212,
+          "height": 1241,
+          "figure_type": "diagram",
+          "description": ""
+        },
+        {
+          "figure_id": "2e963b2e_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2. High-entropy nanoparticle synthesis and structure. Thermodynamic\nanalysis of high-entropy mixing considers both entropy (A) and enthalpy\n(B), which are mainly determined by the composition of high-entropy nano-\nparticles (8). (C) Thermal shock synthesis of high-entropy nanoparticles features",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2e963b2e\\2e963b2e34fdabaf_p04_f01.png",
+          "page_num": 4,
+          "width": 1961,
+          "height": 1966,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "2e963b2e_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3. Advanced characterization of high-entropy nanoparticles. (A) Schematic\nof the macroscopic and bulk characterization of the structural, chemical, and\nelectronic hybridization in high-entropy nanoparticles through x-ray–based\ntechniques, including XRD, XAS, and HAXPES, particularly using synch",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2e963b2e\\2e963b2e34fdabaf_p05_f02.png",
+          "page_num": 5,
+          "width": 2065,
+          "height": 2162,
+          "figure_type": "diagram",
+          "description": ""
+        },
+        {
+          "figure_id": "2e963b2e_fig_003",
+          "label": "Fig. 4",
+          "caption": "Fig. 4. High-entropy nanoparticles in catalytic reactions. (A) Multielemental\nsynergy in high-entropy nanoparticles leads to multiactive sites and a broadband\nbinding energy distribution pattern (40, 42). (B) The composition volcano plot is\na facile guide for designing high-performance catalysts, in",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2e963b2e\\2e963b2e34fdabaf_p07_f03.png",
+          "page_num": 7,
+          "width": 2169,
+          "height": 1994,
+          "figure_type": "plot",
+          "description": ""
+        },
+        {
+          "figure_id": "2e963b2e_fig_004",
+          "label": "Fig. 5",
+          "caption": "Fig. 5. Data-driven high-entropy nanoparticle discovery. (A and B) High-throughput\ncomputation for structural prediction based on size mismatch and enthalpy\n(73) (A) and adsorption sites and binding energy distribution patterns to predict\ncatalytic properties (B). Reprinted from (27) with permission",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2e963b2e\\2e963b2e34fdabaf_p09_f04.png",
+          "page_num": 9,
+          "width": 2169,
+          "height": 2184,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "RESEARCH REVIEW SUMMARY ◥ methodsdesignedtoinducesingle-phasemix- ingevenfortraditionallyimmiscibleelemen- talcombinations.Thenanomaterialtypeshave NANOMATERIALS alsorapidlyevolvedfromcrystallinemetallic alloys to metallic glasses, oxides, sulfides, High-entropy nanoparticles: Synthesis-structure- phosphates,andothers.Advancedcharacteri- zation tools have been used to uncover the property relationships and data-driven discovery structuralcomplexitiesofhigh-entropynano- particles.Forexample,atomi",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH REVIEW ◥ nanoparticleshavedemonstratedafourfold improvementinammoniadecompositioncom- paredwithnobleRuandarestableat500°C NANOMATERIALS for50hourswithoutnoticeabledegradation (36).Inanotherexample,Pt Ni Fe Co Cu High-entropy nanoparticles: Synthesis-structure- 18 26 15 14 27 nanoparticles were developed for electro- chemicalhydrogenevolutionandshoweda property relationships and data-driven discovery lower onset potential (11 versus 84 mV), a higheractivity(10.98versus0.83A/mg ),and Pt Y",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | REVIEW Fig.1.Developmentofhigh-entropynanoparticleswithmultielemental increasingnumberandrangeofelements(7,8,14,20).Reprinted compositionandenhancedfunctionality.(A)Schematicshowinghigh- from(14)withpermissionfromElsevier.(C)Thesehigh-entropynano- entropymixinginaface-centeredcubiclattice.Multipleelementswilloccupythe particleshavefoundcriticalapplicationinthermo-andelectro-catalysis, samelatticesiterandomlytoformahigh-entropystructuresuchasahigh- energystorageandconversation,andenvir",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | REVIEW Fig.2.High-entropynanoparticlesynthesisandstructure.Thermodynamic kineticallycontrolledsynthesescanbeadjustedtoformvariousnanoparticles analysisofhigh-entropymixingconsidersbothentropy(A)andenthalpy featuringdifferentdegreesofstructuralandchemicalordering.(E)The (B),whicharemainlydeterminedbythecompositionofhigh-entropynano- Ellinghamdiagram[reprintedfrom(14)withpermissionfromElsevier]providesa particles(8).(C)Thermalshocksynthesisofhigh-entropynanoparticlesfeatures guideforcom",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | REVIEW high-entropyalloyoroxideelementalspaces and random mixing of the constituent ele- distribution, and valence state, but may lack (14,20,70).Inadditiontohigh-entropyoxides ments.However,thecharacterizationofthis therequiredresolutiontodecouplethemulti- (8),otherhigh-entropycompounds(e.g.,sul- random mixing of multielements and their elemental mixing. Synchrotron x-ray–based fidesandcarbides)havealsobeensynthesized synergy is very challenging. Conventional techniques,whichuse amuc",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | REVIEW aswellaspossibleimmisciblephasesandim- includingface-centeredcubic,hexagonalclose- tal design and compositional tunability. It purities in high-entropy nanoparticles with packed,body-centeredcubic,andsimplecubic shouldbenotedthatthediverseandhetero- greateraccuracy(49,72),confirmingwhether structures that coexist in the high-entropy geneous active sites canlead to statistical high-entropymixingisachieved.x-rayabsorp- nanoparticle(Fig.3E).Theseresultsprovide variationsinlocalact",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | REVIEW Fig.4.High-entropynanoparticlesincatalyticreactions.(A)Multielemental hydrogenevolutionreactionperformance(D)andamuchhigherturnover synergyinhigh-entropynanoparticlesleadstomultiactivesitesandabroadband frequencythanthatoftheindividualmetalsafteralinearscalingrelation(E), bindingenergydistributionpattern(40,42).(B)Thecompositionvolcanoplotis indicatingstrongnonlinearsynergyinHEAcatalysts.Reprintedfrom(75). afacileguidefordesigninghigh-performancecatalysts,inwhichalloyingcan (F)",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | REVIEW ofRuinbimetallicRu–Ni,suggestingbetter (105),bothofwhicharecapableofscreening screeningthenenabledthediscoveryofhigh- kinetic stability in HEA nanoparticles (73). millionsofelementalcompositions(Fig.5A). performancePtPdFeCoNiHEAcatalystsfor Another important factor affecting catalyst However,thesecalculationsaremostlybased oxygenreductionreaction,thecatalyticperform- stability is the interfacial bonding between on thermodynamic equilibrium considerations ances of which were ver",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | REVIEW Fig.5.Data-drivenhigh-entropynanoparticlediscovery.(AandB)High-throughput catalystsconsistsof(i)modelingandsimulation,(ii)MLfittingandacceleration, computationforstructuralpredictionbasedonsizemismatchandenthalpy (iii)compositionexplorationandprediction,and(iv)experimentalverificationand (73)(A)andadsorptionsitesandbindingenergydistributionpatternstopredict feedback.Reprintedfrom(116)withpermissionfromElsevier.(E)Synthesis- catalyticproperties(B).Reprintedfrom(27)withpermission",
+          "page": 9,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | REVIEW development,continuedeffortsareneededin Currently,combinatorialsynthesesandhigh- Adv.Mater.32,e2002853(2020).doi:10.1002/ manyareas,suchassynthesismethodologies, throughputscreeningaremostlylimitedto adma.202002853;pmid:33020998 advancedcharacterization,fundamentalunder- thin-filmsamplesandsimpleelectrochemical 11. H.Lietal.,Fastsite-to-siteelectrontransferofhigh-entropy alloynanocatalystdrivingredoxelectrocatalysis.Nat.Commun. standing, and application- and data-driven reactio",
+          "page": 10,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Beyond crystallography: Diffractive imaging using coherent x-ray light sources",
+      "year": 2015,
+      "journal": "",
+      "authors": [
+        "M. Ringbauer et al.",
+        "Nat. Phys. 11",
+        "249–254 (2015)."
+      ],
+      "doi": "",
+      "paper_id": "9df122fcc3d87cbf",
+      "file_hash": "9df122fcc3d87cbf6ba6f5c6880ae73c",
+      "num_pages": 7,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 7,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "9df122fc_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1. Schematic layout of five main CDI methods and iterative phase\nretrieval algorithms. (A) Plane-wave CDI: A plane wave illuminates a sample,\nand an oversampled diffraction pattern is measured by a detector. (B) Bragg\nCDI: The diffraction pattern surrounding a Bragg peak is acquired from a\nnano",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\9df122fc\\9df122fcc3d87cbf_p02_f00.png",
+          "page_num": 2,
+          "width": 2213,
+          "height": 931,
+          "figure_type": "diagram",
+          "description": ""
+        },
+        {
+          "figure_id": "9df122fc_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2. Revolution in coherent x-ray sources. (A) The x-ray brilliance of coherent light sources has improved by 20 orders of magnitude in 6 decades (brilliance\nis a measure of coherent x-ray flux). The inset shows the SASE process to produce extremely intense and ultrashort XFEL pulses. (B) Progres",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\9df122fc\\9df122fcc3d87cbf_p03_f01.png",
+          "page_num": 3,
+          "width": 2211,
+          "height": 933,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "9df122fc_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3. Physical science applications of diffractive imaging methods with\ncoherent x-rays. (A) 3D morphology of Fe-rich and Fe-S phases in an olivine\nmatrix (37). (B) Histogram of the Fe-rich phase, Fe-S phase, and olivine distribution\nwithin a dotted-line cube in (A). (C) Phase of the ptychographic",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\9df122fc\\9df122fcc3d87cbf_p04_f02.png",
+          "page_num": 4,
+          "width": 2215,
+          "height": 1170,
+          "figure_type": "graph",
+          "description": ""
+        },
+        {
+          "figure_id": "9df122fc_fig_003",
+          "label": "Fig. 4",
+          "caption": "Fig. 4. Biological applications of diffractive imaging methods with coher-\nent x-rays. (A) 3D mass density distribution of a whole, unstained yeast spore\ncell, showing nucleus (orange), endoplasmic reticulum (green), vacuole (white),\nmitochondria (blue), and granules (light blue) (44). (B) 3D image ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\9df122fc\\9df122fcc3d87cbf_p05_f03.png",
+          "page_num": 5,
+          "width": 2155,
+          "height": 1231,
+          "figure_type": "photo",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "LIGHTANDOPTICS REFERENCESANDNOTES REVIEW 1. M.Ringbaueretal.,Nat.Phys.11,249–254(2015). 2. S.Garnerone,P.Zanardi,D.A.Lidar,Phys.Rev.Lett.108, Beyond crystallography: Diffractive 230506(2012). 3. T.Calarco,P.Grangier,A.Wallraff,P.Zoller,Nat.Phys.4,2–3 (2008). imaging using coherent x-ray 4. B.Sanguinetti,A.Martin,H.Zbinden,N.Gisin,Phys.Rev.X4, 031056(2014). 5. See,forexample,www.idquantique.com/random-number- light sources generators/products/quantis-usb.html. 6. H.-K.Lo,M.Curty,K.Tamaki,Nat.Phot",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "A B C Order Extended sorting sample Focusing aperture optics Pinhole Sample Detector Nanocrystal Measured Fourier D E F magnitude Updated Fourier transform Fourier transform FFT FFT-1 Constraints Modified image Real-space image Final output Fig. 1.SchematiclayoutoffivemainCDImethodsanditerativephase patternismeasuredbyadetector.(E)ReflectionCDI:Acoherentx-raywaveis retrievalalgorithms.(A)Plane-waveCDI:Aplanewaveilluminatesasample, specularlyreflectedoffasampleonasubstrate,andthediffractionintens",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "microcopy (AFM), allowing for long (>3 cm) beam,furtherreduceitsemittance,andincrease electricfieldsthatarepresentinafocusedlaser working distances, less damage, and higher- thex-raybrilliance(23). beam can drive electrons in a highly irregular contrastimagingthanotherapproaches. Attheturnofthe21stcentury,brighterXFEL (anharmonic)motionthatreradiatesharmonics sourcesweredeveloped(23)basedonself-amplified ofthedrivinglaserlightatmuchshorterwave- Arevolutionincoherent spontaneous emission (SASE) (",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "A B C D Density (g/cm3) E F thespectrumtowavelengths<8Å.Moreover,these sothatdestructivesamplepreparationcanoften tentialapplicationinelectrochemicalenergystor- x-raysemergeasisolatedattosecondbursts,which beavoided.Moreover,byquantifyingtheincident age(40).Byacquiringmultipleimagesacrossthe arepredictedtoscaletothesubattosecond(i.e., anddiffractedx-rayflux,CDIcanextractthemass FeL-shellx-rayabsorptionedgeandusingthem zeptosecond)regimewithlonger-wavelengthla- densityandthusdistinguishdifferentp",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "LIGHTANDOPTICS and then followedby snapshot imaging of the Several discoveries have been made recently tion,electronmicroscopyisthemethodofchoice, excitedstatewithXFELBCDI.Providedthatboth simplybymonitoringthetime-dependentHHG butitislimitedtoimagingthinnersamples,owing laserandx-raypulseswerekeptbelowtheirdam- diffractionfromamaterialafterexcitationbya totheshortpenetrationdepthofelectrons.Com- agethresholds,full3Ddiffractionpatternscould laserpulse,touncoverwhichmechanismsarere- paredwithsupe",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "virus particle and its reconstructed structure dreamedofthedevelopmentofatomic-resolution 16.M.M.Seibertetal.,Nature470,78–81(2011). (46,47).CDIhasalsobeenappliedtostudybiolog- x-raymicroscopy.However,thehighestresolution 17. J.N.Clarketal.,Science341,56–59(2013). icalcompositematerials,includingnanoscaleim- presentlyattainablebyanyx-rayimagingmethod 18.M.D.Seabergetal.,Optica1,39–44(2014). agingofmineralcrystalsinboneatdifferentstages is~2nmin2Dand~5.5nmin3D(27,28).With 1 2 9 0 . . M A. . S E a",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Beyond crystallography: Diffractive imaging using coherent x-ray light sources Jianwei Miao, Tetsuya Ishikawa, Ian K. Robinson, and Margaret M. Murnane Science 348 (6234), . DOI: 10.1126/science.aaa1394 View the article online https://www.science.org/doi/10.1126/science.aaa1394 Permissions https://www.science.org/help/reprints-and-permissions Use of this article is subject to the Terms of service Science (ISSN 1095-9203) is published by the American Association for the Advancement of Science. 12",
+          "page": 7,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Extending the methodology of X-ray crystallography to allow imaging of micrometre-sized non-crystalline specimens",
+      "year": 1999,
+      "journal": "",
+      "authors": [
+        "respectively. Thus on compression",
+        "b-Si3N4 will directly transform"
+      ],
+      "doi": "",
+      "paper_id": "63606bcf8b327816",
+      "file_hash": "63606bcf8b3278169fcd72195f52bcc8",
+      "num_pages": 3,
+      "abstract": "",
+      "n_figures": 3,
+      "n_chunks": 3,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "63606bcf_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1 A scanning electron microscope image of the specimen. The specimen",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\63606bcf\\63606bcf8b327816_p02_f00.png",
+          "page_num": 2,
+          "width": 2159,
+          "height": 805,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "63606bcf_fig_001",
+          "label": "Figure 3",
+          "caption": "Figure 3 An optical microscope image of the specimen.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\63606bcf\\63606bcf8b327816_p02_f01.png",
+          "page_num": 2,
+          "width": 1947,
+          "height": 809,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "63606bcf_fig_002",
+          "label": "Figure 2",
+          "caption": "Figure 2 A diffraction pattern of the specimen (using a logarithmic intensity scale).",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\63606bcf\\63606bcf8b327816_p02_f02.png",
+          "page_num": 2,
+          "width": 1950,
+          "height": 755,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "letters to nature respectively.Thusoncompression,b-Si N willdirectlytransform 24.Cartz,L.&Jorgensen,J.D.Thehigh-pressurebehaviourofa-quartz,oxynitride,andnitride 3 4 toc-Si N andnottothehypotheticalw-Si N withlowerdensity. structures.J.Appl.Phys.52,236–244(1981). 3 4 3 4 25.Knittle,E.inMineralPhysicsandCrystallography:aHandbookofPhysicalConstants(ed.Ahrens,T.J.) Thisfindingagreeswithoursynthesisofc-Si 3 N 4 above15GPa. 98–142(Am.Geophys.Union,WashingtonDC,1995). Thestructuralparametersfortheopti",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "letters to nature Figure1Ascanningelectronmicroscopeimageofthespecimen.Thespecimen Figure3Anopticalmicroscopeimageofthespecimen. wasfabricatedbydepositinggolddots,each,100nmindiameterand80nm thick,onasiliconnitridemembrane. Figure2Adiffractionpatternofthespecimen(usingalogarithmicintensityscale). Thecentral15-pixel-radiuscircularareaissuppliedbythesquaredmagnitudeof Figure4Thespecimenimageasreconstructedfromthediffractionpatternof theFouriertransformoftheopticalmicroscopeimage(Fig.3). Fig.2. inG",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "letters to nature discrete Bragg peaks. This continuous pattern can therefore be 19.Maser,J.etal.inX-rayMicroscopyandSpectromicroscopy(edsThieme,J.,Schmahl,G.,Rudolph,D.& sampledonafinerscale.Thatsufficientoversamplingcanleadtoa Umbach,E.)35–44(Springer,Berlin,1998). 20.Lindaas,S.etal.inX-rayMicroscopyandSpectromicroscopy(edsThieme,J.,Schmahl,G.,Rudolph,D. reconstruction was pointed out by Bates4. To perform such a &Umbach,E.)75–86(Springer,Berlin,1998). reconstruction, Chapman2 devised a Fienup",
+          "page": 3,
+          "type": "body"
+        }
+      ]
+    }
+  ]
+}

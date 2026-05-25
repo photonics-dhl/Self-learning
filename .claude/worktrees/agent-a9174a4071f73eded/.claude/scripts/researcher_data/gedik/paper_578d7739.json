@@ -1,0 +1,48 @@
+{
+  "paper_id": "578d7739",
+  "title": "Letter",
+  "authors": [],
+  "year": 2019,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\gedik\\Ma 等 - 2019 - Observation of the nonlinear hall effect under time-reversal-symmetric conditions.pdf",
+  "filename": "Ma 等 - 2019 - Observation of the nonlinear hall effect under time-reversal-symmetric conditions.pdf",
+  "n_figs": 3,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "578d7739_fig_000",
+      "caption": "Fig. 1 | Crystal structure and basic characterization of bilayer WTe2.  \na, Illustration of the anomalous Hall effect in a magnetic metal. M is the \nmagnetization, JAHE is the anomalous Hall current, Jx and Vx are the \ncurrent and voltage, respectively, along the x direction, J = Jx + JAHE is the \nt",
+      "label": "Fig. 1",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\578d7739\\578d7739_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    },
+    {
+      "figure_id": "578d7739_fig_001",
+      "caption": "Fig. 3 | Systematic studies of the nonlinear Hall effect in bilayer WTe2. \na, Gate map of \nω\nVbaa\n2  at T = 10 K. A current Iω = 1 μA is applied for all gate \nvoltages. The black dashed line traces the (VT, VB) that correspond to the \nmaximum resistance (Fig. 1i) at every D (see Supplementary Inform",
+      "label": "Fig. 3",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\578d7739\\578d7739_p03_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "578d7739_fig_002",
+      "caption": "Fig. 4 | Large Berry-curvature dipole arising from layer-polarized Dirac \nfermions in bilayer WTe2. a, A massless Dirac fermion (solid lines and \nblack filled circle) does not have any Berry curvature (colour scale).  \nb, Opening an energy gap at the Dirac point (the black filled circle) by \nbreakin",
+      "label": "Fig. 4",
+      "page": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\578d7739\\578d7739_p04_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

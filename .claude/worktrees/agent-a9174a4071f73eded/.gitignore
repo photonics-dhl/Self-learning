@@ -1,0 +1,53 @@
+# Environment (contains API keys)
+.env
+.mcp.json
+
+# Obsidian Vault (large binary/data)
+Obsidian-Vault/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Windows specific
+*.vbs
+*.lnk
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+
+# Downloaded plugins
+Obsidian-Vault/6️⃣ 工具/plugins/
+
+# Large PDF files
+tmp_pdfs/*.pdf
+
+# ChromaDB (large binary data)
+academic_rag/chroma_db/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Python virtual environment
+.venv/
+
+# Downloaded ML models (large binary)
+academic_rag/models/
+
+# Paper PDF storage
+academic_rag/papers/
+
+# Misc noise
+.entroly-wasm-state.json
+migrate-to-wasm.js
+
+.claude/discussion_log.json
+.claude/settings.local.json

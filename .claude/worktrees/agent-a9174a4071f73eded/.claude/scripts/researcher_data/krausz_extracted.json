@@ -1,0 +1,1018 @@
+{
+  "professor_key": "krausz",
+  "paper_count": 6,
+  "total_figures": 112,
+  "total_chunks": 147,
+  "papers": [
+    {
+      "title": "Ultrafast lasers for attosecond science",
+      "year": 2026,
+      "journal": "",
+      "authors": [
+        "Xijie Hu1",
+        "Ka Fai Mak1",
+        "2",
+        "Jinwei Zhang"
+      ],
+      "doi": "",
+      "paper_id": "459cdd320d9d500c",
+      "file_hash": "459cdd320d9d500cd30dd7537ba14e6a",
+      "num_pages": 33,
+      "abstract": "",
+      "n_figures": 16,
+      "n_chunks": 33,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "459cdd32_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1 Relationship between attosecond pulse applications and driving laser parameters. Adapted from ref.28–31,35,36, with permission from\nSpringer Nature. Copyright © 2004–2023. Reproduced from ref.32 under a Creative Commons Attribution 4.0 International License (CC BY 4.0);\nAdapted from ref.33, w",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\459cdd32\\459cdd320d9d500c_p02_f00.png",
+          "page_num": 2,
+          "width": 1995,
+          "height": 1789,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "459cdd32_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2 Typical driving lasers for generating attosecond pulses.\nFrom refs. 15,59–63,94,103,365,389,451,453,475,479,480,496–502",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\459cdd32\\459cdd320d9d500c_p04_f01.png",
+          "page_num": 4,
+          "width": 2051,
+          "height": 962,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "459cdd32_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3 Schemes of three parametric ampliﬁcation conﬁgurations. a OPA; b OPCPA; c DC-OPA. Redrawn based on ref.145",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\459cdd32\\459cdd320d9d500c_p07_f02.png",
+          "page_num": 7,
+          "width": 1718,
+          "height": 867,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "459cdd32_fig_003",
+          "label": "Fig. 4",
+          "caption": "Fig. 4 Example setup of a high-energy, single-cycle MIR laser source based on the advanced DC-OPA scheme150. Reproduced from ref.150,\nlicensed under CC BY 4.0",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\459cdd32\\459cdd320d9d500c_p08_f03.png",
+          "page_num": 8,
+          "width": 2013,
+          "height": 429,
+          "figure_type": "setup",
+          "description": ""
+        },
+        {
+          "figure_id": "459cdd32_fig_004",
+          "label": "Fig. 5",
+          "caption": "Fig. 5 Concept of FOPA151. Reproduced from ref.151, licensed under\nCC BY 4.0",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\459cdd32\\459cdd320d9d500c_p08_f04.png",
+          "page_num": 8,
+          "width": 993,
+          "height": 433,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "459cdd32_fig_005",
+          "label": "Fig. 6",
+          "caption": "Fig. 6 FOPA with a non-collinear geometry158. Reprinted with permission from ref.158 © Optica Publishing Group",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\459cdd32\\459cdd320d9d500c_p09_f05.png",
+          "page_num": 9,
+          "width": 1896,
+          "height": 732,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "459cdd32_fig_006",
+          "label": "Fig. 7",
+          "caption": "Fig. 7 Schematic of a coherent beam combination setup including an active control of the optical phase168. Adapted with permission from\nref.168. © Optica Publishing Group",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\459cdd32\\459cdd320d9d500c_p10_f06.png",
+          "page_num": 10,
+          "width": 2026,
+          "height": 1126,
+          "figure_type": "diagram",
+          "description": ""
+        },
+        {
+          "figure_id": "459cdd32_fig_007",
+          "label": "Fig. 8",
+          "caption": "Fig. 8 Schematic of a DPA setup175. Reprinted with permission from\nref.175 © Optica Publishing Group",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\459cdd32\\459cdd320d9d500c_p11_f07.png",
+          "page_num": 11,
+          "width": 992,
+          "height": 318,
+          "figure_type": "diagram",
+          "description": ""
+        },
+        {
+          "figure_id": "459cdd32_fig_008",
+          "label": "Fig. 9",
+          "caption": "Fig. 9 Schematic of pulse compression using HCF technology. a Conventional post-compression with a gas-ﬁlled HCF; b Soliton self-\ncompression dynamics in a gas-ﬁlled HCF50. Reproduced from ref.50, with permission from Springer Nature. Copyright © 2019 Springer Nature",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\459cdd32\\459cdd320d9d500c_p13_f08.png",
+          "page_num": 13,
+          "width": 1968,
+          "height": 278,
+          "figure_type": "diagram",
+          "description": ""
+        },
+        {
+          "figure_id": "459cdd32_fig_009",
+          "label": "Fig. 10",
+          "caption": "Fig. 10 Illustration showing the multiple plates arrangement\nconsisting of four thin fused silica plates aligned at Brewster’s\nangle and located at the waist of the incident beam. Redrawn\nbased on ref.228",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\459cdd32\\459cdd320d9d500c_p13_f09.png",
+          "page_num": 13,
+          "width": 993,
+          "height": 282,
+          "figure_type": "diagram",
+          "description": ""
+        },
+        {
+          "figure_id": "459cdd32_fig_010",
+          "label": "Fig. 11",
+          "caption": "Fig. 11 The structure of the MPC248. Adapted with permission from\nref.248 © Optica Publishing Group",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\459cdd32\\459cdd320d9d500c_p14_f10.png",
+          "page_num": 14,
+          "width": 993,
+          "height": 280,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "459cdd32_fig_011",
+          "label": "Fig. 12",
+          "caption": "Fig. 12 Categorization of CEP stabilization schemes",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\459cdd32\\459cdd320d9d500c_p17_f11.png",
+          "page_num": 17,
+          "width": 2051,
+          "height": 964,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "Huetal.Light:Science&Applications ( 2026) 15:24 www.nature.com/lsa https://doi.org/10.1038/s41377-025-02121-4 REVIEW ARTICLE Open Access Ultrafast lasers for attosecond science ✉ Xijie Hu1, Ka Fai Mak1,2, Jinwei Zhang 1 , Zhiyi Wei3 and Ferenc Krausz 2 Abstract Thefirstmeasurementofattosecondpulsesin2001unleashedanewwaveofexplorationinthemicrocosmicworld. The pulse width has since shrunk from an initial 650 to 43as, and the flux, photon energy, and repetition rates have progressively been raised",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Huetal.Light:Science&Applications (2026) 15:24 Page2of33 Time-of-flight analyser Counter (cid:2)t e- Electron TOF He gas Pulsed gas jet spec P tr h o o s t c o o e p m y[ i 3 ss 6 i ] on XUVNIR Mg/W(110) Sc m /S irr i o m r ultilayer AI filter Mu lo lti n -p iz h a o ti t o o n n [31] –2 1(cid:3)pe L – F (cid:3)pH LF + (cid:3)pH M H + F + (cid:3)p e e L – – F H XUV – β 2 1(cid:3)pe L – F etiti o n r at e attosecond pulse High energy a tto s e c o n d GPI Lens S G i J1 Filter TOF SM GJ2 Coinciden",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Huetal.Light:Science&Applications (2026) 15:24 Page3of33 established and widely adopted method for attosecond the varying electric field distributions55. To obtain the pulsegeneration.Basedondifferentphysicalmechanisms, same APT for each driving pulse, the CEP needs to be HHG can be classified into three types: gas-phase HHG, stabilized. solid- and liquid-phase HHG, and plasma-surface HHG. As the driving laser pulse duration shortens, there will befeweropticalcyclesandfewerattosecondpulsesinthe ",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "photonenergyofliquidhighharmonicsislinearlyrelated 2 to the peak electric field strength82. Ti:SaCPAwithHCF(IAPs) OPA(IAPs) 1.8 OPAwithHCF(IAPs) OPCPA(IAPs) OPCPAwithHCF(IAPs) In plasma Synthesis(IAPs) 1.4 When the intensity of the driving laser is increased to Ti:SaCPA(APTs) FiberCPAwithHCF(APTs) 1016 W∙cm-2 84, another effective method for generating 1 OPCPA(APTs) highharmonicsandattosecondpulsesisviaultra-intense 0.8 laser ablation of solids85 and solid surface plasmas86,87 with full ionizati",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Huetal.Light:Science&Applications (2026) 15:24 Page5of33 diffractive imaging102, single-order ultrafast imaging and energy density per unit area. Subsequently, the stretched multi-photonionization31,103.Consequently, theboosting pulse undergoes amplification and is compressed back of photon flux is a major part of the ongoing attosecond through a compressor, compensating for the introduced research effort. This compels the corresponding dispersion and restoring the pulse width to the femtose- ad",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Huetal.Light:Science&Applications (2026) 15:24 Page6of33 idler photon at the frequency difference between the energy without damaging nonlinear crystals. In the pumpandthesignal116.Thesignalandidlerphotonsmay OPCPA scheme, the broadband seed pulse is initially or may not be of the same frequency, representing the chirped and temporally broadened, and synchronized degenerate and non-degenerate cases, respectively. Since with a pump pulse of similar pulse durations. Subse- the process does not req",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Huetal.Light:Science&Applications (2026) 15:24 Page7of33 a OPA Nonlinear crystal Pump Signal Seed Idler bOPCPA Compressor Nonlinear crystal Signal Pump Seed Idler Stretcher Compressor c DC-OPA Stretcher Compressor Pump Nonlinear crystal Signal Seed Idler Stretcher Compressor Fig.3Schemesofthreeparametricamplificationconfigurations.aOPA;bOPCPA;cDC-OPA.Redrawnbasedonref.145 Compared to the conventional OPCPA configuration, Frequency domain optical parametric the DC-OPA system provides greater flex",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "1 kHz Ti:sapphire laser schemes is the reversibility of the three-wave mixing processes, where both amplification and back-conversion share the same energy conservation and phase-matching conditions.Astheintensitiesofthesignalandidlerwaves increase, the reverse process becomes inevitable, leading to a “backflow” of pump energy, which severely limits both efficiency and stability141,160. To address the limitation, the quasi-parametric chirped- pulse amplification(QPCPA)scheme hasbeen proposed161.",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Huetal.Light:Science&Applications (2026) 15:24 Page9of33 Input: G 1 1.8 μm, Output 2.4 mJ, 1.8 μm, 14.1 fs M 2 30 mJ, 11.6 fs M 1 G 2 Pump: 0.8 μm, 240 mJ, 2.5 ps Fig.6FOPAwithanon-collineargeometry158.Reprintedwithpermissionfromref.158©OpticaPublishingGroup However, QPCPA remains at the validation stage and 2005,T.Y.Fanetal.proposedthemethodtoenhancethe faces numerous challenges. Currently, high-quality and output power of continuous lasers167. The idea was sub- scalableabsorptivenonlinearcryst",
+          "page": 9,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Table 1 Characteristics ofOPA, OPCPA, FOPA,andDC-OPA. Adapted from ref.146,licensed under CC BY4.0 OPA146 OPCPA132–134,146,493 FOPA146,151,158 DC-OPA146 Pumpsource fsTi:sapphireCPA pslaser fsTi:sapphireCPA fsTi:sapphireCPA Pumpduration TL TL Chirped Chirped Pumpspectrum Broad Narrow Broad Broad Maximumpump 0.1-J-level 200-J-level 10-J-level 100-J-level energy Seedduration TL Chirped TL Chirped Seedspectrum Broad Broad Broad Broad Energyscaling Difficult Straightforward Possible Straightforward O",
+          "page": 10,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Field-resolved attosecond solitons",
+      "year": 2025,
+      "journal": "",
+      "authors": [
+        "1",
+        "2"
+      ],
+      "doi": "",
+      "paper_id": "46016c546e5ce38e",
+      "file_hash": "46016c546e5ce38e23b6d58b78366eb8",
+      "num_pages": 8,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 8,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "46016c54_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1 | Generation and detection of a self-compressed attosecond soliton \nand dispersive wave. a, The simulated evolution of the electric field transient \nas it propagates along the hollow-core waveguide filled with helium gas. The \ncolour scale shows the instantaneous frequency of the field, with ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\46016c54\\46016c546e5ce38e_p02_f00.png",
+          "page_num": 2,
+          "width": 2216,
+          "height": 770,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "46016c54_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2 | Measurement set-up for the soliton and RDW generation and \ncharacterization via NPS.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\46016c54\\46016c546e5ce38e_p02_f01.png",
+          "page_num": 2,
+          "width": 1084,
+          "height": 616,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "46016c54_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3 | Measured electric field of self-compressed soliton and RDW. a, The \nmeasured and simulated electric field of the soliton plus RDW for optimal CEP. \nb, The intensity representation of the fields shown in a highlights the short pulse \nduration of the generated ~350 as light transient (E2). Th",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\46016c54\\46016c546e5ce38e_p03_f02.png",
+          "page_num": 3,
+          "width": 2223,
+          "height": 1254,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "46016c54_fig_003",
+          "label": "Fig. 5",
+          "caption": "Fig. 5 | Ionization gate triggered by attosecond soliton. a, A typical NPS \nmeasurement configuration without soliton generation when the fibre is \nremoved. b, The measured electric field of the VIS–NIR pulse that is usually used \nas fibre input with an intensity envelope FWHM of 2.9 fs. c, The Four",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\46016c54\\46016c546e5ce38e_p04_f03.png",
+          "page_num": 4,
+          "width": 2019,
+          "height": 970,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "nature photonics Article https://doi.org/10.1038/s41566-025-01658-5 Field-resolved attosecond solitons Received: 23 August 2024 Amelie M. Heinzerling 1,2 , Francesco Tani 3,4, Manoram Agarwal1,2, Vladislav S. Yakovlev 1,2, Ferenc Krausz 1,2 & Nicholas Karpowicz 1 Accepted: 11 March 2025 Published online: 13 June 2025 Here we harness soliton dynamics in a hollow-core fibre to generate Check for updates attosecond laser pulses spanning the deep ultraviolet (DUV) to the near infrared, and we record",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article https://doi.org/10.1038/s41566-025-01658-5 a b Injection Free e– Drive τ A –3 –2 Time (fs) dynamics and, thus, measurement of subcycle light transients at opti- cal wavelengths with durations of ~350 as full width at half maximum (FWHM) of E2(t). Moreover, by isolating the RDW, we demonstrate DUV pulses as short as 0.9 fs. Finally, as a proof of concept, we use these atto- second pulses as a gate for measuring NIR pulses, thus demonstrating access to extreme nonlinear optics in a previou",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article https://doi.org/10.1038/s41566-025-01658-5 1.0 E (t) E (t) NPS NPS 0.5 0 –0.5 E (t) Sim –1.0 –10.0 –7.5 –5.0 –2.5 0 2.5 5.0 7.5 10.0 Time (fs) E N 2 PS (t) E S 2 im (t) τ E2 = 352 as τ E2 = 411 as temporal gate allows waveform sampling of the drive with a comparable as 352 as at FWHM for the squared electric field (and 0.83 fs when resolution. It has been shown that the measured electric current I (τ) considering the intensity envelope as defined in the Methods) in the drift maps the vec",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article https://doi.org/10.1038/s41566-025-01658-5 a UV spectrometer with slit c NPS field E(t) d NPS spectrum |E ~ (λ)|2 1.0 P = 10 bar He 0.8 P = 9 bar He P = 10 bar P = 8 bar He N ≈ 1.95 0.6 P = 7 bar He P = 6 bar He P = 9 bar N ≈ 1.81 P = 8 bar N ≈ 1.66 P = 7 bar N ≈ 1.52 P = 6 bar N ≈ 1.38 is not necessarily the shortest transient. However, the overview clearly changed the configuration shown in Fig. 1 to use the pulses for their shows the dynamics, letting the RDW evolve. The change in spe",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article https://doi.org/10.1038/s41566-025-01658-5 two-photon or three-photon process. As we can detect a current, we 2. Itatani, J. et al. Attosecond streak camera. Phys. Rev. Lett. 88, show that the DUV–NIR pulse is nonlinearly absorbed by the argon, 173903 (2002). leading to free electrons. The derived electric field and the corre- 3. Schultze, M. et al. Delay in photoemission. Science 328, sponding spectrum are shown in Fig. 5e,f. To compare this measure- 1658–1662 (2010). ment with the stan",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article https://doi.org/10.1038/s41566-025-01658-5 31. Brahms, C. et al. Direct characterization of tuneable 44. Scrinzi, A. tRecX—an environment for solving time-dependent few-femtosecond dispersive-wave pulses in the deep UV. Opt. Schrödinger-like problems. Comput. Phys. Commun. 270, 108146 Lett. 44, 731–734 (2019). (2022). 32. Reduzzi, M. et al. Direct temporal characterization of sub-3-fs 45. Schade, D. et al. Scaling rules for high quality soliton self- deep UV pulses generated by resonant ",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article https://doi.org/10.1038/s41566-025-01658-5 Methods photoionization of the gas via the Perelomov–Popov–Terent’ev rate, Laser system modified with the Ammosov–Delone–Krainov coefficients52. For this, We used a commercial Ti:sapphire oscillator (Femtolasers Rainbow), we use the numerical code described in ref. 53 using the Marcatili providing NIR pulses centred at 780 nm with a repetition rate of 78 MHz. expressions for the dispersion and the optical loss54, with the χ(3) of He The CEP is m",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article https://doi.org/10.1038/s41566-025-01658-5 References Science (IMPRS-APS). Open-access funding was provided by the Max 50. Principles of Lock-in Detection and the State of the Art (Zurich Planck Society. Instruments, 2016); https://www.zhinst.com/sites/default/files/ li_primer/zi_whitepaper_principles_of_lock-in_detection.pdf Author contributions 51. Couairon, A. et al. Practitioner’s guide to laser pulse propagation A.M.H., N.K., F.T. and F.K. contributed to the study conception and mod",
+          "page": 8,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Nobel Lecture: Sub-atomic motions*",
+      "year": 2024,
+      "journal": "",
+      "authors": [
+        "Ludwig-Maximilians-Universit¨at M¨unchen",
+        "Munich",
+        "Germany"
+      ],
+      "doi": "",
+      "paper_id": "8341ea17997a45cc",
+      "file_hash": "8341ea17997a45cc1a48a0df9e301809",
+      "num_pages": 22,
+      "abstract": "",
+      "n_figures": 20,
+      "n_chunks": 22,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "8341ea17_fig_000",
+          "label": "FIG. 1",
+          "caption": "FIG. 1.\nWaves of different wavelength can create a wave packet\nhighly localized in space (as well as in time) when being added to\neach other with proper phase.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\8341ea17\\8341ea17997a45cc_p02_f00.png",
+          "page_num": 2,
+          "width": 1452,
+          "height": 774,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "8341ea17_fig_001",
+          "label": "FIG. 2",
+          "caption": "FIG. 2.\nEnergy levels of the hydrogen atom and modulus square of the wave function of the 1s and 2p states represented by clouds\n(left-hand side). Temporal evolution of the 1s-2p superposition state with time elapsing from the bottom to the top of the figure (right-\nhand side).",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\8341ea17\\8341ea17997a45cc_p03_f01.png",
+          "page_num": 3,
+          "width": 2159,
+          "height": 1392,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "8341ea17_fig_002",
+          "label": "FIG. 3",
+          "caption": "FIG. 3.\nElectric current (I) flowing through a semiconductor\ndiode when a voltage V is applied to it.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\8341ea17\\8341ea17997a45cc_p05_f02.png",
+          "page_num": 5,
+          "width": 2159,
+          "height": 3003,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "8341ea17_fig_003",
+          "label": "FIG. 4",
+          "caption": "FIG. 4.\nGroup-delay control in a chirped multilayer mirror.\nNarrowband wave packets carried at different wavelengths penetrate\nto different depths before being reflected, as a consequence of a\nmodulation of the multilayer period across the layer stack. In the\nillustrating example,theincreasingmultil",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\8341ea17\\8341ea17997a45cc_p06_f03.png",
+          "page_num": 6,
+          "width": 1452,
+          "height": 949,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "8341ea17_fig_004",
+          "label": "FIG. 5",
+          "caption": "FIG. 5.\nSelf-phase modulation due to the optical Kerr effect in a gas-filled hollow-core fiber broadens the spectrum of a high-energy\nultrashort laser pulse. At the output, the pulse carries a frequency sweep and can be temporally compressed by chirped multilayer\nmirrors. Bottom panel: near-single-c",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\8341ea17\\8341ea17997a45cc_p06_f04.png",
+          "page_num": 6,
+          "width": 2159,
+          "height": 1393,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "8341ea17_fig_005",
+          "label": "FIG. 6",
+          "caption": "FIG. 6.\nPhysical picture of high-order harmonic generation in a rare gas exposed to a single strong electric-field cycle of near-infrared laser\nlight (Baltuska et al., 2003), based on the three-step model of Corkum (1993). Step 1. (a): The Coulomb potential binding valence electrons\nto the atomic co",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\8341ea17\\8341ea17997a45cc_p07_f05.png",
+          "page_num": 7,
+          "width": 2159,
+          "height": 2480,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "8341ea17_fig_006",
+          "label": "FIG. 7",
+          "caption": "FIG. 7.\nSchematic illustration of the experimental apparatus that permitted the generation and measurement of the first isolated sub-\nfemtosecond pulses in 2001 at the Technical University of Vienna. Photo courtesy of Gabriel Tempea.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\8341ea17\\8341ea17997a45cc_p08_f06.png",
+          "page_num": 8,
+          "width": 2159,
+          "height": 1334,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "8341ea17_fig_007",
+          "label": "FIG. 8",
+          "caption": "FIG. 8.\nThe common focus of the single-cycle laser beam and\nthe attosecond XUV pulse defines the interaction region, where\nelectron processes are initiated and probed by analyzing the\nemitted photoelectrons or secondary electrons with a time-of-\nflight spectrometer. Courtesy of Thorsten Naeser and C",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\8341ea17\\8341ea17997a45cc_p08_f07.png",
+          "page_num": 8,
+          "width": 1064,
+          "height": 747,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "8341ea17_fig_008",
+          "label": "FIG. 9",
+          "caption": "FIG. 9.\nConcept and implementation of light-field-driven attosecond streaking. (a) Change of the photoelectrons’ momentum (arrows)\nreleased by an attosecond XUV pulse at a fixed delay in the presence of a strong laser field (red line). (b) Variation of the final\nphotoelectron momentum distribution a",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\8341ea17\\8341ea17997a45cc_p09_f08.png",
+          "page_num": 9,
+          "width": 2159,
+          "height": 1264,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "8341ea17_fig_009",
+          "label": "FIG. 10",
+          "caption": "FIG. 10.\nThe heroes behind the first precision attosecond measurements by use of the controlled electric-field oscillations of visible-\nnear-infrared laser light. From left to right: Eleftherios Goulielmakis, Andrius Baltuska, Reinhard Kienberger, Matthias Üiberacker, and\nVlad Yakovlev at the Techni",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\8341ea17\\8341ea17997a45cc_p10_f09.png",
+          "page_num": 10,
+          "width": 2159,
+          "height": 1052,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "8341ea17_fig_010",
+          "label": "FIG. 11",
+          "caption": "FIG. 11.\nTools of attosecond control and metrology with sub-100-as resolution (Goulielmakis et al., 2008).",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\8341ea17\\8341ea17997a45cc_p10_f10.png",
+          "page_num": 10,
+          "width": 2159,
+          "height": 1793,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "8341ea17_fig_011",
+          "label": "FIG. 12",
+          "caption": "FIG. 12.\nProbing electron dynamics in atoms, molecules, or solids with attosecond spectroscopy. An attosecond XUV/x-ray pulse\ninitiates the motion by catapulting an electron from (a) an outer or (b) a core shell. The temporal evolution of the emission of a\nphotoelectron or (c) an Auger-Meitner (A-M)",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\8341ea17\\8341ea17997a45cc_p11_f11.png",
+          "page_num": 11,
+          "width": 2159,
+          "height": 1118,
+          "figure_type": "photo",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "REVIEWS OF MODERN PHYSICS, VOLUME 96, JULY–SEPTEMBER 2024 Nobel Lecture: Sub-atomic motions* † Ferenc Krausz Ludwig-Maximilians-Universita¨t Mu¨nchen, Munich, Germany, Max-Planck-Institut fu¨r Quantenoptik, Garching, Germany, and Center for Molecular Fingerprinting Research, Budapest, Hungary (published 28 August 2024) Thewrittenversion of my lecture is a personal reflection on decades of research on electron-light interactions,culminatingintheircontrolandobservationinrealtimeattheturnofthemille",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "FerencKrausz: NobelLecture:Sub-atomicmotions nucleusdepictedbytheblacklineinFig.1—canbeconstructed byadding perfectly periodic functions of different periods. Increasing confinement calls for adding waves with decreasing wavelength, i.e., increasing wave numbers. This, inturn,implies—accordingtoEq.(1)—increasingthespread of electron momenta. This counteracts stronger confinement, preventingtherebytheimplosionoftheelectroncloudaround the nucleus. The electron as a wave prompted Erwin Schrödinger ",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "FerencKrausz: NobelLecture:Sub-atomicmotions FIG.2. Energylevelsofthehydrogenatomandmodulussquareofthewavefunctionofthe1sand2pstatesrepresentedbyclouds (left-handside).Temporalevolutionofthe1s-2psuperpositionstatewithtimeelapsingfromthebottomtothetopofthefigure(right- hand side). Almost a century had passed since the first hint at the before it. And ending shortly thereafter. For visible-near- existence of an elementary unit of charge from Faraday’s infrared light, existing within a time interva",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "FerencKrausz: NobelLecture:Sub-atomicmotions and measurement of brief electrical pulses in modern elec- fields, at frequencies many thousand times higher than the tronics also underlie frequencyofcontemporaryelectronics,inordertocreatelight wave electronics? attosecondphysics:thecontrolandmeasurementoflight ThiswasthechallengetowhichIdevotedthefirstoneanda wavesandattosecondpulses,andtheiruseforobserving half decades of my professional life. Together with a small and controlling electron motion ",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "FerencKrausz: NobelLecture:Sub-atomicmotions radiation suffers upon its circulation in the cavity. This efforts to control the frequency comb of a femtosecond Ti: fosters the growth of an initial intensity fluctuation and the sapphire laser. simultaneousdecayofthecontinuous-wave“background”in It became clear that there is a connection. For a comb of the resonator. In the steady state, the continuous-wave equidistant eigenfrequencies of the longitudinal modes f n ¼ radiation completely disappears",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "FerencKrausz: NobelLecture:Sub-atomicmotions high-orderharmonicsofmulticyclelaserlight,discoveredby AnneL’Huillierandco-workers(Lietal.,1989).Weapplied the Corkum-Lewenstein model (Lewenstein et al., 1994) to describehigh-harmonicemissionfromneonatomsionizedby single-cyclelaserpulses.Figure6summarizestheunderlying physical picture and the essential predictions. ThecomputationsofVladislavYakovlevandArminScrinzi [Fig. 6(e)] suggest the emission of an isolated attosecond pulse or twin pulses of XUV",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "FerencKrausz: NobelLecture:Sub-atomicmotions (a) (b) (c) (d) (e) FIG.6. Physicalpictureofhigh-orderharmonicgenerationinararegasexposedtoasinglestrongelectric-fieldcycleofnear-infraredlaser light(Baltuskaetal.,2003),basedonthethree-stepmodelofCorkum(1993).Step1.(a):TheCoulombpotentialbindingvalenceelectrons totheatomiccore(dashedcurve)istemporarilysuppressedatmomentsaroundthefieldoscillationpeak.Anelectrontunnelsthroughthe suppressedpotentialbarrier(solidcurve),leavingaholeinthemost-weakly-bounda",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "FerencKrausz: NobelLecture:Sub-atomicmotions FIG.7. Schematicillustrationoftheexperimentalapparatusthatpermittedthegenerationandmeasurementofthefirstisolatedsub- femtosecond pulses in 2001 at the Technical University of Vienna. Photo courtesy of Gabriel Tempea. Single-cyclelaserpulsesionizedneonatomstoproducehigh presenceofthelaserfield,butthistimethetime-of-flighttube harmonics, which copropagate with the driving laser beam. was aligned parallel to the direction of the laser electric field The ",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "FerencKrausz: NobelLecture:Sub-atomicmotions (a) (b) FIG.9. Conceptandimplementationoflight-field-drivenattosecondstreaking.(a)Changeofthephotoelectrons’momentum(arrows) released by an attosecond XUV pulse at a fixed delay in the presence of a strong laser field (red line). (b) Variation of the final photoelectron momentum distribution as a function of delay of the XUV pulse with respect to the streak laser field. Rev.Mod.Phys.,Vol.96,No.3,July–September2024 030502-9",
+          "page": 9,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "FerencKrausz: NobelLecture:Sub-atomicmotions FIG.10. Theheroesbehindthefirstprecisionattosecondmeasurementsbyuseofthecontrolledelectric-fieldoscillationsofvisible- near-infraredlaserlight.Fromlefttoright:EleftheriosGoulielmakis,AndriusBaltuska,ReinhardKienberger,MatthiasÜiberacker,and Vlad Yakovlev at the Technical University of Vienna in 2004. photoelectron spectrum as a function of delay results in a is well understood (Mairesse and Que´re´, 2005; Yakovlev spectrogram [Fig. 9(b)]. It allows co",
+          "page": 10,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Attosecond physics",
+      "year": 2009,
+      "journal": "",
+      "authors": [
+        "Department für Physik",
+        "Ludwig-Maximilians-Universitat",
+        "Am Coulombwall 1",
+        "D-85748"
+      ],
+      "doi": "",
+      "paper_id": "a880300c987aa1cf",
+      "file_hash": "a880300c987aa1cf64174b5b00fac209",
+      "num_pages": 72,
+      "abstract": "",
+      "n_figures": 60,
+      "n_chunks": 72,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "a880300c_fig_000",
+          "label": "FIG. 1",
+          "caption": "FIG. 1. \u0001Color\u0002 Characteristic length and time scales for structure and dynamics in the microcosm, respectively.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a880300c\\a880300c987aa1cf_p03_f00.png",
+          "page_num": 3,
+          "width": 2164,
+          "height": 1409,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "a880300c_fig_001",
+          "label": "FIG. 2",
+          "caption": "FIG. 2. \u0001Color\u0002 Characteristic time scales for microscopic motion and its connection with energy spacing between relevant\nstationary states \u0001upper panel\u0002; characteristic time scales for the motion of one or several electrons and for the collective motion\nof an electronic ensemble \u0001lower panel\u0002.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a880300c\\a880300c987aa1cf_p04_f01.png",
+          "page_num": 4,
+          "width": 2289,
+          "height": 1238,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "a880300c_fig_002",
+          "label": "FIG. 3",
+          "caption": "FIG. 3. \u0001Color\u0002 Schematic of a microwave-\ncontrolled\nstreak\ncamera.\nPhotoelectrons\nknocked off from a photocathode by a short\nlight pulse \u0001to be measured\u0002 are deﬂected on\ntheir way to a screen by a transverse micro-\nwave voltage ramp V\u0001t\u0002 to an extent depend-\ning on their instant of release \u0001Bradley",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a880300c\\a880300c987aa1cf_p05_f02.png",
+          "page_num": 5,
+          "width": 2163,
+          "height": 876,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "a880300c_fig_003",
+          "label": "FIG. 4",
+          "caption": "FIG. 4. \u0001Color online\u0002 Typical reference \u0001clocking\u0002 signal gra-\ndients \u0001tainted with noise and jitter\u0002 for triggering or probing\nfast processes.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a880300c\\a880300c987aa1cf_p05_f03.png",
+          "page_num": 5,
+          "width": 2164,
+          "height": 2059,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "a880300c_fig_004",
+          "label": "FIG. 5",
+          "caption": "FIG. 5. \u0001Color\u0002 Evolution of ultrafast science. The duration of the fastest controlled signal gradients dictates the speed of control\nand resolution of probing of microscopic processes. Microwave electronics, ultrafast optics, and lightwave electronics offer con-\ntrolled transient for these purposes",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a880300c\\a880300c987aa1cf_p06_f04.png",
+          "page_num": 6,
+          "width": 2289,
+          "height": 914,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "a880300c_fig_005",
+          "label": "FIG. 6",
+          "caption": "FIG. 6. \u0001Color\u0002 Evolution of techniques for real-time observa-\ntion of microscopic processes. Discontinuities in the slope of\nbriefest measured events vs years indicate revolutions in tech-\nnology.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a880300c\\a880300c987aa1cf_p07_f05.png",
+          "page_num": 7,
+          "width": 2164,
+          "height": 1209,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "a880300c_fig_006",
+          "label": "FIG. 7",
+          "caption": "FIG. 7. \u0001Color\u0002 Nuclear wave-packet control in a molecule\nwith short pulses; PES, potential energy surface. A pump pulse\ninitiates vibrational motion by exciting the molecule into an\nexcited electronic state. Depending on its time delay with re-\nspect to the pump, a control pulse catches the vibrati",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a880300c\\a880300c987aa1cf_p08_f06.png",
+          "page_num": 8,
+          "width": 2166,
+          "height": 1038,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "a880300c_fig_007",
+          "label": "FIG. 8",
+          "caption": "FIG. 8. \u0001Color\u0002 Coherent control of quantum transition by\nchanging the relative phase between two waves of different\nfrequency. On the left panel, transition between initial and ﬁ-\nnal states can proceed via two pathways, involving the absorp-\ntion of one and three photons. Its probability is contro",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a880300c\\a880300c987aa1cf_p09_f07.png",
+          "page_num": 9,
+          "width": 2166,
+          "height": 739,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "a880300c_fig_008",
+          "label": "FIG. 9",
+          "caption": "FIG. 9. \u0001Color\u0002 Frequency-domain interpretation of wave-\npacket control with short pulses. Multiple pathways via various\nintermediate states interfere, with their interference controlled\nby the relative phases determined by the free wave-packet\nevolution.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a880300c\\a880300c987aa1cf_p09_f08.png",
+          "page_num": 9,
+          "width": 2166,
+          "height": 989,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "a880300c_fig_009",
+          "label": "FIG. 10",
+          "caption": "FIG. 10. \u0001Color\u0002 Laser pulses containing two oscillation cycles\nwithin the full width at half maximum of their intensity proﬁle,\nwith sine- and cosine-shaped waveforms, with their \u0001a\u0002 ampli-\ntude envelopes and \u0001b\u0002 ﬁeld oscillations coinciding.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a880300c\\a880300c987aa1cf_p11_f09.png",
+          "page_num": 11,
+          "width": 2165,
+          "height": 1280,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "a880300c_fig_010",
+          "label": "FIG. 11",
+          "caption": "FIG. 11. \u0001Color\u0002 Control of the waveform of few-cycle laser pulses relies on measurement of the CE phase by a strong-ﬁeld\nlight-electron interaction. \u0001a\u0002 Once the measurement is performed \u0001yielding \u00120\u0002, the required CE phase \u0012target can be set by\nimposing an external phase shift \u0006\u0012=\u0012target−\u00120, leadi",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a880300c\\a880300c987aa1cf_p12_f10.png",
+          "page_num": 12,
+          "width": 2164,
+          "height": 993,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "a880300c_fig_011",
+          "label": "FIG. 12",
+          "caption": "FIG. 12. \u0001Color\u0002 Electric ﬁeld \u0001solid line\u0002 of the ﬁrst com-\npletely characterized light wave \u0001Goulielmakis et al., 2004\u0002.\nThe measurement has been performed with an attosecond\nstreak camera, described in Sec. V, and yields the temporal\nevolution, direction, and strength of the ﬁeld. The pulses are\n",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a880300c\\a880300c987aa1cf_p12_f11.png",
+          "page_num": 12,
+          "width": 2164,
+          "height": 1429,
+          "figure_type": "photo",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "REVIEWSOFMODERNPHYSICS,VOLUME81,JANUARY–MARCH2009 Attosecond physics Ferenc Krausz DepartmentfürPhysik,Ludwig-Maximilians-Universitat,AmCoulombwall1,D-85748 Garching,GermanyandMax-Planck-InstitutfürQuantenoptik,Hans-Kopfermann-Strasse1, D-85748Garching,Germany Misha Ivanov SteacieInstituteforMolecularSciences,NationalResearchCouncilofCanada,100 SussexDrive,Ottawa,Ontario,CanadaK1A0R6 (cid:1)Published2February2009(cid:2) Intenseultrashortlightpulsescomprisingmerelyafewwavecyclesbecameroutinelyava",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "164 FerencKrauszandMishaIvanov: Attosecondphysics VI. Sub-fsElectronandPhotonPulses:CurrentStatus the fact that the experimental tools and techniques for andFutureProspects 197 real-time observation and steering of electronic dynam- A. Atomicelectronsinteractingwithfew-cyclefields: ics on the atomic scale are now becoming available. AtomicHHG 197 Inthemicrocosm,thebordersbetweenbiology,chem- B. Relativisticelectronsinteractingwithfew-cyclelight 198 istry, and physics tend to disappear. The gaps ",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "FerencKrauszandMishaIvanov: Attosecondphysics 165 FIG.1. (cid:1)Color(cid:2)Characteristiclengthandtimescalesforstructureanddynamicsinthemicrocosm,respectively. A.Timeandlengthscalesinthemicrocosm Forawavepacketmadeoftwoboundeigenstates,the oscillation period T =2(cid:4)(cid:1)(cid:5)/(cid:6)W(cid:2) also determines the osc Structure and dynamics in the microcosm are inher- responsetimeoftheparticletoanexternalperturbation. ently connected by the laws of quantum mechanics. Forexample,atwo-levela",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "166 FerencKrauszandMishaIvanov: Attosecondphysics Energy spacing MeV keV eV meV 106 103 1 10-3 [eV] Nucleonic motion Electronic motion on Atomic motion on within nuclei atomic/molecularscales molecular scales zepto atto femto pico 10-21 10-18 10-15 10-12 Time[seconds] Motionofindividualelectronsin Innershell Outershells/valence band Conduction band 1 10 100 1000 10000 Collectivemotionoffreeelectronsin Time[attoseconds] Fusionmatter Solidmatter/biomolecules Ionized matter (plasmons)(charge transf",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "FerencKrauszandMishaIvanov: Attosecondphysics 167 Streakimage V(t) FIG. 3. (cid:1)Color(cid:2) Schematic of a microwave- Fluorescent controlled streak camera. Photoelectrons screen knocked off from a photocathode by a short light pulse (cid:1)to be measured(cid:2) are deflected on HHiigghh--voltageramp,,VV((tt)) their way to a screen by a transverse micro- t wave voltage ramp V(cid:1)t(cid:2) to an extent depend- ing on their instant of release (cid:1)Bradley et al., 1971; Schelev et al., 1971(c",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "10--9 Microwave Controlledmicrowavevoltage, electronics currenttransient::V(t),I(t) pico-- second Time 10--12 TTrraannssiissttoorr Ultrafast femto-- optics second LLaasseerr E L (t) Controlledlightamplitude:: 10--15 LLiigghhttwwaavvee Time a L (t) atto-- eelleeccttrroonniiccss second Controlled Controlledlightfield::E(t) L 10--18 lightwaves I X (t) a o n r d X- s r u a b y - ) fs pu (e ls l e e : ct I ro (t n ) 1940 1950 196019701980 1990 20002010 X Year E(t) L ultraviolet (cid:1)XUV(cid:2) or x",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "FerencKrauszandMishaIvanov: Attosecondphysics 169 Forinstance,photoelectronspectra11mayconstitutethis micro Observationof signal.Thefactthatthesespectrachangeinacontrolled -6 Pump-probe intermediatesof and reproducible way upon varying the time delay be- 10 spectroscopy chemicalreactions (Toepler) (Eigen,Norrish,Porter) tween the pump and probe in time-resolved photoelec- s] nano tron spectroscopy is also a manifestation of ultrafast n d control over the whole process. o a s ur e d [ s e c pic 1",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "170 FerencKrauszandMishaIvanov: Attosecondphysics Thegatecangenerallybecomplexorevenpurelyimagi- nary(cid:1)phasegate(cid:2).Knowledgeofthespectrogramallows one to reconstruct both the gate G(cid:1)t(cid:2) (cid:1)Trebino, 2000(cid:2) and the signal’s complex pulse envelope a (cid:1)t(cid:2); see Eq. L (cid:1)6(cid:2). 2.Spectralinterferometry The temporal evolution of a signal can be inferred from measuring the amplitudes and relative phases of theirspectralcomponents.Thelattercanbeaccessedby c",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "(a) (b) f |f> (cid:4) =0 (cid:1) 2 (cid:4) =0.6(cid:2) L 1 Probe/Control (cid:1) L (cid:3)=3(cid:1) L 0 --1 (cid:1) L --2 v |i> 0.0 0.5 1.0 1.5 2.0 2.5 3.0 Time[fs] a (t) v ~a (0)exp((cid:1)iW t) vv v Pump i FIG. 9. (cid:1)Color(cid:2) Frequency-domain interpretation of wave- packetcontrolwithshortpulses.Multiplepathwaysviavarious intermediatestatesinterfere,withtheirinterferencecontrolled by the relative phases determined by the free wave-packet evolution. the relative phases between the (cid:1",
+          "page": 9,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "172 FerencKrauszandMishaIvanov: Attosecondphysics rithms, allowing efficient optimization toward the de- frequency electric fields, by means of optical rectifica- sired outcome.15 tion of femtosecond light pulses.17 However, even these fastest electric fields synthesized are far too slow for controllingandtracingthemotionofelectronsonatomic D.Principlesofattosecondcontrolandmeasurementof scales, which requires an electric force variable at peta- electronicdynamics hertz frequencies. Petahertz-fr",
+          "page": 10,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Attosecond science",
+      "year": 2007,
+      "journal": "",
+      "authors": [
+        "P. B. CORKUM1 AND FERENC KRAUSZ2",
+        "3"
+      ],
+      "doi": "",
+      "paper_id": "5aaf6704c000a8c2",
+      "file_hash": "5aaf6704c000a8c2ecaf6e4a58e53091",
+      "num_pages": 7,
+      "abstract": "",
+      "n_figures": 5,
+      "n_chunks": 7,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "5aaf6704_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1 Shorter and shorter. The minimum duration of laser pulses fell continually \nfrom the discovery of mode-locking in 1964 until 1986 when 6-fs pulses \nwere generated. Each advance in technology opened new ﬁ elds of science for \nmeasurement. Each advance in science strengthened the motivation f",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\5aaf6704\\5aaf6704c000a8c2_p02_f00.png",
+          "page_num": 2,
+          "width": 2178,
+          "height": 1072,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "5aaf6704_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2 Creating an attosecond pulse. a–d, An intense femtosecond near-infrared or \nvisible (henceforth: optical) pulse (shown in yellow) extracts an electron wavepacket \nfrom an atom or molecule. For ionization in such a strong ﬁ eld (a), Newton’s \nequations of motion give a relatively good descri",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\5aaf6704\\5aaf6704c000a8c2_p02_f01.png",
+          "page_num": 2,
+          "width": 2178,
+          "height": 1076,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "5aaf6704_fig_002",
+          "label": "Figure 3",
+          "caption": "Figure 3 Generation of a single or twin attosecond photon pulse. a,c, The \nspectrogram (window Fourier transform) of the atomic high-harmonic emission driven \nby a few-cycle near-infrared laser pulse (τL = 5 fs, λL = 750 nm), as accumulated \ncoherently over a macroscopic propagation distance. b,d, S",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\5aaf6704\\5aaf6704c000a8c2_p03_f02.png",
+          "page_num": 3,
+          "width": 1088,
+          "height": 1534,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "5aaf6704_fig_003",
+          "label": "Figure 4",
+          "caption": "Figure 4 Orbital tomography. a, The basic physics of orbital tomography. The \nrecollision electron is shown as a coloured wave that has low frequency at the \nbottom and high frequency at the top. It emerges from the orbital to be imaged and \nwhen it returns it interferes with the orbital. The sketch",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\5aaf6704\\5aaf6704c000a8c2_p04_f03.png",
+          "page_num": 4,
+          "width": 1074,
+          "height": 961,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "5aaf6704_fig_004",
+          "label": "Figure 5",
+          "caption": "Figure 5 Excitation and relaxation. Electronic excitation and relaxation processes in \natoms, molecules and solids, and possible ways of tracing these dynamics in real \ntime. The labels 1+ and 2+ indicate single and double ionization.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\5aaf6704\\5aaf6704c000a8c2_p05_f04.png",
+          "page_num": 5,
+          "width": 2179,
+          "height": 1433,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "PROGRESS ARTICLE Attosecond science The motion of electrons on the atomic scale has been hidden from direct experimental access until recently. We review the revolution in technology that opened the door to real-time observation and time-domain control of atomic-scale electron dynamics, and address the expected implications of having the tools to monitor electrons with sub-atomic resolution in both space and time. P. B. CORKUM1 AND FERENC KRAUSZ2,3 Step 1: Ionization. When induced by a strong (n",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "PROGRESS ARTICLE of the optical pulse controls the kinetic energy2, amplitude17 and phase18 of the recollision electron and therefore the attosecond pulse19 that it produces. In addition to producing attosecond electron and photon pulses, the recollision simultaneously encodes all information on the electron interference. Once the amplitude and phase of the electron interference is encoded in light, powerful optical methods become may push the frontiers of attosecond technology near the atomic u",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "PROGRESS ARTICLE measurement28,29 — follows a diff erent strategy. First a photoelectron replica of the optical pulse is produced and then the electron replica is measured. Although two-photon ionization of atoms allows autocorrelation Time of low-frequency attosecond pulses30,31, at photon energies of 50–100 eV and beyond the streak camera approach19,32 is the method of choice for measuring attosecond pulses: a photoelectron replica is produced and then measured by defl ecting or accelerating i",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "PROGRESS ARTICLE 3 attoseconds and strong enough to rival the internal forces acting on 2.5 2 2.0 the electrons. Th e electric fi eld of waveform-controlled light provides 1 1.5 such a force. Its ability to control the motion of ionizing electrons 1.0 on a nanometre scale has been demonstrated by the reproducible 0 0.5 0 generation of single and double attosecond photon pulses19. Th e –1 –0.5 controlled electric force of light was recently shown47 to be able also to –2 –1.0 steer the motion of a",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "PROGRESS ARTICLE the molecule is aligned parallel or perpendicular to the recollision electron, double ionization dynamics is measured48. Th e experiment shows that electrons are much more likely to leave the molecule within a few hundred attoseconds of each other for parallel than for perpendicular molecules. Th e second experiment uses only a single laser pulse, but concentrates on recollision-induced multiple ionization (for example, Ne → Ne4+ + 4e). Only electrons that recollide near the zer",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "PROGRESS ARTICLE for the fi rst time. Implications for X-ray laser research are obvious. doi:10.1038/nphys620 (2) Shaping the amplitude and frequency of the recolliding electron References and emitted photon wavepacket requires shaping of the optical 1. Paul, P. M. et al. Observation of a train of attosecond pulses from high harmonic generation. Science electric fi eld and manipulating its polarization state within the wave 292, 1689–1692 (2001). cycle. Th is calls for advancing waveform-control",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "PROGRESS ARTICLE 46. Niikura, H., Villeneuve, D. M. & Corkum, P. B. Mapping attosecond electron wave packet motion. 58. Tsakiris, G. D., Eidmann, K., Meyer-ter-Vehn, J. & Krausz, F. Route to intense single attosecond Phys. Rev Lett. 94, 083003 (2005). pulses. New J. Phys. 8, 19 (2006). 47. Kling, M. et al. Control of electron localization in molecular dissociation. Science 312, 246–248 (2006). 59. Nitzan, A. & Ratner, M. A. Electron transport in molecular wire junctions. Science 48. Zeidler, D. ",
+          "page": 7,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Attosecond metrology",
+      "year": 2001,
+      "journal": "",
+      "authors": [
+        "M. Hentschel*²",
+        "R. Kienberger*²",
+        "Ch. Spielmann*",
+        "G. A. Reider*",
+        "N. Milosevic*",
+        "T. Brabec*",
+        "P. Corkum³",
+        "U. Heinzmann§",
+        "M. Drescher§"
+      ],
+      "doi": "",
+      "paper_id": "6bd7efa3f7679106",
+      "file_hash": "6bd7efa3f7679106d22b66ac960abc06",
+      "num_pages": 5,
+      "abstract": "",
+      "n_figures": 7,
+      "n_chunks": 5,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "6bd7efa3_fig_000",
+          "label": "Figure 2",
+          "caption": "Figure 2 Diagram of the principal physical effects and processes preceding our light-\n®eld-controlled X-ray photoemission experiment. First, the few-cycle visible light pulse\ninteracts with a jet of neon atoms to produce a train of pulses in the XUV and soft-X-ray\nspectral range. The rainbow colours",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\6bd7efa3\\6bd7efa3f7679106_p02_f00.png",
+          "page_num": 2,
+          "width": 2160,
+          "height": 2298,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "6bd7efa3_fig_001",
+          "label": "Figure 1",
+          "caption": "Figure 1 The principle of measuring cross-correlation between light electric ®eld and\nX-ray intensity with attosecond resolution by means of `two-colour' photoionization. The\nphotoelectrons created initially with isotropic momentum distribution by the absorption of\nX-ray photons pick up momentum fro",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\6bd7efa3\\6bd7efa3f7679106_p02_f01.png",
+          "page_num": 2,
+          "width": 2160,
+          "height": 2386,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "6bd7efa3_fig_002",
+          "label": "Figure 4",
+          "caption": "Figure 4 Cross-correlation of X-ray pulse with few-cycle laser pulse. Lower panel,\ncontour plot of the Kr 4p photoelectron spectra (vertical axis) as a function of delay td of the\nsoft-X-ray pulse with respect to the light pulse (horizontal axis). The plot displays the\nasymmetric gaussian ®ts introd",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\6bd7efa3\\6bd7efa3f7679106_p03_f02.png",
+          "page_num": 3,
+          "width": 1077,
+          "height": 930,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "6bd7efa3_fig_003",
+          "label": "Figure 3",
+          "caption": "Figure 3 Kr 4p photoelectron spectra produced by ,90-eV soft-X-ray pulses in the\npresence of a strong visible light ®eld at two different delays td of the X-ray pulse. (Positive\ntd corresponds to a retardation of the X-ray pulse.) The dots represent results corrected for\nATI background. The lines sh",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\6bd7efa3\\6bd7efa3f7679106_p03_f03.png",
+          "page_num": 3,
+          "width": 2116,
+          "height": 1105,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "6bd7efa3_fig_004",
+          "label": "Figure 5",
+          "caption": "Figure 5 Spectral width DW of the Kr 4p photoelectron spectra as a function of td. The\ndots represent the oscillating component of the spectral width, DW - DWca(td), where\nDWca(td) stands for the cycle-averaged value of DW(td). The full red line is the result of\nsimulations based on the quasi-classi",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\6bd7efa3\\6bd7efa3f7679106_p04_f04.png",
+          "page_num": 4,
+          "width": 2160,
+          "height": 924,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "6bd7efa3_fig_005",
+          "label": "Figure 6",
+          "caption": "Figure 6 Calculated far-®eld, near-axis temporal intensity pro®le of a soft-X-ray pulse.\nThe X-ray pulse is produced in a 3-mm-long 200-mbar neon gas volume by a 7-fs, 750-\nnm gaussian laser pulse with an on-axis peak intensity of 9 ´ 1014 W cm-2. For the\nelectric ®eld of the laser pulse, E(t) ~ exp",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\6bd7efa3\\6bd7efa3f7679106_p04_f05.png",
+          "page_num": 4,
+          "width": 2160,
+          "height": 1474,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "6bd7efa3_fig_006",
+          "label": "Figure 7",
+          "caption": "Figure 7 Calculated (line) and measured (dots) instantaneous frequency of the few-cycle\nlight ®eld. The experimental data are derived from DW(td) shown in Fig. 5. The computed\nfrequency sweep originates from self-phase modulation of the light pulse upon its\ninteraction with the neon gas X-ray source",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\6bd7efa3\\6bd7efa3f7679106_p05_f06.png",
+          "page_num": 5,
+          "width": 2160,
+          "height": 817,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "articles Attosecond metrology M.Hentschel*†,R.Kienberger*†,Ch.Spielmann*,G.A.Reider*,N.Milosevic*,T.Brabec*,P.Corkum‡,U.Heinzmann§,M.Drescher§ &F.Krausz* *Institutfu¨rPhotonik,TechnischeUniversita¨tWien,Gusshausstr.27,A-1040Wien,Austria ‡SteacieInstituteofMolecularSciences,NRCCanada,Ottawa,CanadaK1A0R6 §Fakulta¨tfu¨rPhysik,Universita¨tBielefeld,D-33615Bielefeld,Germany †Theseauthorscontributedequallytothiswork ......................................................................................",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "articles ejectedbyashortX-raypulsewithadistributionofinitialmomenta Scanning the instant of birth of the photoelectron through the knownfromconventionalphotoionizationstudies6;andsecond,the lightfieldoscillationsbychangingtherelativedelayt betweenthe d photoelectronissubsequentlyacceleratedasaclassicalparticleby lightpulseandX-raypulseresultsinamodulationofthespectral theelectricfieldofafemtosecondlightpulse.Inaccordancewiththe widthDW(t )withaperiodequaltoone-halfofthelightoscillation d quantum",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "articles The kinetic energy spectrum of 4p photoelectrons ejected from samplingschemeof#150as.Themodulationperiodofthedatais kryptonatomsundersimultaneousirradiationbythe90-eVX-ray closeto1.25fsinthewingsofthecorrelationfunctionDW(t ),in d pulse (l<14nm) and the light pulse (l<750nm) driving the agreementwithacarrierwavelengthof,750nmofthelightpulse. harmonicradiationwasmeasuredasafunctionoft ,whichisthe However, it decreases to ,0.9fs near zero delay, indicative of a d delaybetweentheX-rayandth",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "articles –6 –4 –2 0 2 4 6 Delay, t (fs) d Theemergenceofasubfemtosecondpulsefromhighharmonic limitof10%tothetotalsatellitefluencerelativetothetotalX-ray generationinthefew-cycleregimewascorroboratedbynumerical fluencewithina5-eVrangearound90eV. simulationsofourX-raysourcewithacomputercode17.Thiscode Theagreement ofthemeasuredX-ray pulsedurationwiththat solvedMaxwell’swaveequationsinthreedimensionsandcomputed obtainedfromournumericalcalculations16(withintheexperimen- theradiationofthestrongly-dri",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "articles and non-sequential photoionization. These processes could be tracedintimebymeasuringtheenergyofphotoelectronsdetached 0.55 fromtheionbyadelayed,subfemtosecondX-ray probepulse. In another class of studies, the subfemtosecond X-ray pulse might serveasapumppulsetocreateinner-shellvacancies.Thetemporal 0.50 evolutionofthesubsequentinner-shellrelaxationprocessescould be traced by time-resolved spectroscopy of the emitted Auger 0.45 electron(s). The Auger spectrum, modified by a few-cycle lig",
+          "page": 5,
+          "type": "body"
+        }
+      ]
+    }
+  ]
+}

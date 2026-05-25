@@ -1,0 +1,70 @@
+{
+  "paper_id": "f013dfb1",
+  "title": "REVIEW SUMMARY",
+  "authors": [],
+  "year": 2022,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\miao\\Yao 等 - 2022 - High-entropy nanoparticles synthesis-structure-property relationships and data-driven discovery.pdf",
+  "filename": "Yao 等 - 2022 - High-entropy nanoparticles synthesis-structure-property relationships and data-driven discovery.pdf",
+  "n_figs": 5,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "f013dfb1_fig_000",
+      "caption": "Fig. 1. Development of high-entropy nanoparticles with multielemental\ncomposition and enhanced functionality. (A) Schematic showing high-\nentropy mixing in a face-centered cubic lattice. Multiple elements will occupy the\nsame lattice site randomly to form a high-entropy structure such as a high-\nent",
+      "label": "Fig. 1",
+      "page": 3,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f013dfb1\\f013dfb1_p03_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    },
+    {
+      "figure_id": "f013dfb1_fig_001",
+      "caption": "Fig. 2. High-entropy nanoparticle synthesis and structure. Thermodynamic\nanalysis of high-entropy mixing considers both entropy (A) and enthalpy\n(B), which are mainly determined by the composition of high-entropy nano-\nparticles (8). (C) Thermal shock synthesis of high-entropy nanoparticles features",
+      "label": "Fig. 2",
+      "page": 4,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f013dfb1\\f013dfb1_p04_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "f013dfb1_fig_002",
+      "caption": "Fig. 3. Advanced characterization of high-entropy nanoparticles. (A) Schematic\nof the macroscopic and bulk characterization of the structural, chemical, and\nelectronic hybridization in high-entropy nanoparticles through x-ray–based\ntechniques, including XRD, XAS, and HAXPES, particularly using synch",
+      "label": "Fig. 3",
+      "page": 5,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f013dfb1\\f013dfb1_p05_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    },
+    {
+      "figure_id": "f013dfb1_fig_003",
+      "caption": "Fig. 4. High-entropy nanoparticles in catalytic reactions. (A) Multielemental\nsynergy in high-entropy nanoparticles leads to multiactive sites and a broadband\nbinding energy distribution pattern (40, 42). (B) The composition volcano plot is\na facile guide for designing high-performance catalysts, in",
+      "label": "Fig. 4",
+      "page": 7,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f013dfb1\\f013dfb1_p07_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "plot"
+    },
+    {
+      "figure_id": "f013dfb1_fig_004",
+      "caption": "Fig. 5. Data-driven high-entropy nanoparticle discovery. (A and B) High-throughput\ncomputation for structural prediction based on size mismatch and enthalpy\n(73) (A) and adsorption sites and binding energy distribution patterns to predict\ncatalytic properties (B). Reprinted from (27) with permission",
+      "label": "Fig. 5",
+      "page": 9,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f013dfb1\\f013dfb1_p09_f04.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

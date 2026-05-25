@@ -1,0 +1,32 @@
+{
+  "paper_id": "f74b0325",
+  "title": "Attosecond angular streaking",
+  "authors": [
+    "PETRISSA ECKLE1*",
+    "MATHIAS SMOLARSKI2†",
+    "PHILIP SCHLUP1‡",
+    "JENS BIEGERT1†",
+    "ANDR´E STAUDTE2§"
+  ],
+  "year": 2008,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\keller\\Eckle 等 - 2008 - Attosecond angular streaking.pdf",
+  "filename": "Eckle 等 - 2008 - Attosecond angular streaking.pdf",
+  "n_figs": 1,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "f74b0325_fig_000",
+      "caption": "Figure 2 Overview of the measured helium-ion momentum distributions while scanning the CEP over 2π and comparison with a semiclassical simulation.\na, Toroidal He+ momentum distributions projected onto the xy polarization plane for four different CEP values φCEO = 0, π/2, π and 3/2π, respectively. b,",
+      "label": "Figure 2",
+      "page": 3,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f74b0325\\f74b0325_p03_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    }
+  ],
+  "tables": []
+}

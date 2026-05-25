@@ -1,0 +1,600 @@
+{
+  "professor_key": "baum",
+  "paper_count": 5,
+  "total_figures": 22,
+  "total_chunks": 52,
+  "papers": [
+    {
+      "title": "Attosecond electron microscopy of sub-cycle optical dynamics",
+      "year": 2023,
+      "journal": "",
+      "authors": [
+        "David Nabben1",
+        "2",
+        "Joel Kuttruff1",
+        "2",
+        "Levin Stolz1",
+        "Andrey Ryabov1 ✉ & Peter Baum1 ✉"
+      ],
+      "doi": "",
+      "paper_id": "ffabbfec02d368f8",
+      "file_hash": "ffabbfec02d368f8ec93c34f25c92395",
+      "num_pages": 14,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 14,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "ffabbfec_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1 | Attosecond field-cycle-contrast electron microscopy. a, A continuous- \nwave (CW) laser (red) excites a compression membrane (yellow) and a \nnanophotonic material (black). A train of attosecond electron pulses (blue) \nprobes the material and energy changes are recorded as a function of the t",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ffabbfec\\ffabbfec02d368f8_p02_f00.png",
+          "page_num": 2,
+          "width": 2103,
+          "height": 820,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "ffabbfec_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2 | Visualization of chiral field-cycle dynamics in a slit-modified needle \ntip. a, Image of the modified tungsten nanotip. b, Time-resolved electron \nenergy changes for left-circular (top) and right-circular (bottom) excitation \nlight. The dotted lines and arrows visualize the propagation dyna",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ffabbfec\\ffabbfec02d368f8_p03_f01.png",
+          "page_num": 3,
+          "width": 2025,
+          "height": 1006,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "ffabbfec_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3 | Dynamics of the electric field in a dielectric nanoresonator. a, Image \nof the slit resonator, milled into a freestanding 200-nm-thick silicon membrane. \nb, Measured electron energy changes as a function of space and time within \none cycle of the excitation field. c, A snapshot at t = 0.6 f",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ffabbfec\\ffabbfec02d368f8_p04_f02.png",
+          "page_num": 4,
+          "width": 2121,
+          "height": 1062,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "ffabbfec_fig_003",
+          "label": "Fig. 4",
+          "caption": "Fig. 4 | Time-resolved dynamics of a nanophotonic meta-atom. Four \ndielectric nanoresonator slits are milled into a freestanding 200-nm-thick \nsilicon membrane in a zig-zag geometry. a, Amplitude map of the measured \nfield oscillations. See Supplementary Video 4 for full data. b, Time traces of the ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\ffabbfec\\ffabbfec02d368f8_p04_f03.png",
+          "page_num": 4,
+          "width": 1101,
+          "height": 469,
+          "figure_type": "photo",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "Article Attosecond electron microscopy of sub-cycle optical dynamics https://doi.org/10.1038/s41586-023-06074-9 David Nabben1,2, Joel Kuttruff1,2, Levin Stolz1, Andrey Ryabov1 ✉ & Peter Baum1 ✉ Received: 12 October 2022 Accepted: 12 April 2023 The primary step of almost any interaction between light and materials is the electrodynamic response of the electrons to the optical cycles of the impinging light Published online: 31 May 2023 wave on sub-wavelength and sub-cycle dimensions1. Understandin",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article a b e g Δt Laser Electron 2 Electron train beam gun 1 Material response Light wave 0 Modulation 2 t element –2 Field Attosecond f cycles electron –4 –2 0 2 4 pulses c Specimen 1 Attosecond Δt electron pulses Magnification Δt Energy d y x filter z Screen gain is produced by field vectors pointing against the electron trajec- the remaining plane wave of the excitation (v = c) and its reflection tory and loss is produced for fields in a parallel direction. As time passes, (Extended Data Fig",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "1 –1 –500 0 0 x (nm) Next, we study the spatiotemporal response of dielectric nanoresona- increases with distance, and there is a delay of around 1.8 fs between tors, which are the central building blocks for nanophotonic wavefront the left and right emission pattern (dotted lines in Fig. 3e) owing to the control3,5,14 or efficient frequency conversion6. Figure 3a depicts the opposite polarity of the emission and the finite width of the slit. These investigated slit structure (80 × 1,000 nm2) mi",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article 80 nm 1 μm 800 as –500 0 500 x (nm) physically rather symmetrical, but the symmetry is broken by multi-slit are to be detected, isolated attosecond electron pulses can be gener- and multi-mode interference in space and time. ated by single-cycle beam control35, light-cycle gating36 or three-wave These experiments establish attosecond transmission electron ponderomotive deflection37. Ptychographic electron microscopy has micro scopy with field-cycle contrast as a versatile and sensitive m",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "4. Fei, Z. et al. Gate-tuning of graphene plasmons revealed by infrared nano-imaging. 25. Tsarev, M.",
+          "text": "4. Fei, Z. et al. Gate-tuning of graphene plasmons revealed by infrared nano-imaging. 25. Tsarev, M. V., Ryabov, A. & Baum, P. Free-electron qubits and maximum-contrast Nature 487, 82–85 (2012). attosecond pulses via temporal Talbot revivals. Phys. Rev. Res. 3, 043033 (2021). 5. Shaltout, A. M., Shalaev, V. M. & Brongersma, M. L. Spatiotemporal light control with 26. Feist, A. et al. Quantum coherent optical phase modulation in an ultrafast transmission active metasurfaces. Science 364, eaat3100",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article Methods 1 eV to introduce attosecond field-cycle contrast and temporal Fourier filtering, as described above. Experimental details and data acquisition We operate the transmission electron microscope (JEM-F200 tFEG, Field-contrast mechanism and optimum attosecond contrast JEOL) at an electron kinetic energy of E = 183 keV. For attosecond When the electron beam is compressed into pulses at the first laser 0 electron pulse generation24, the electrons pass through a 50-nm-thick interaction,",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "are insignificant. We see that ΔI for each time delay Δt depends on the Data Figs. 1 and 2 adapts the experiment of Figs. 1 and 2 by using a integrated electric near-field along the propagation direction of the spherical tip with a radius of 150 nm on a cylindrically symmetric nee- electrons48. If the propagation time through optical fields near or in the dle shaft at an opening angle of 12°. The geometry in Extended Data specimen is short enough, we can directly image the time-frozen elec- Fig.",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article Extended Data Fig. 1 | Numerical simulations of light-cycle contrast on a tungsten needle. Simulated electron energy changes on a tungsten nanotip for varying times within one optical cycle of the exciting laser wave. The dimensions of the needle correspond to the experiment of Fig. 1.",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Extended Data Fig. 2 | Numerical simulation for explanation of phase velocities and chiral sensitivity. a, Simulated field-cycle-contrast images for laser incidence from the upper/right direction for explaining the measured super-luminal phase velocities of Fig. 2. b, Simulated field-cycle-contrast images for laser incidence from the upper/left direction. c, Simulated field-cycle contrast as a function of time. d, Time-frozen electric field component E around the needle (black circle) in right-h",
+          "page": 9,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article Extended Data Fig. 3 | Numerical simulations of light-cycle contrast in a arrows indicate the field direction and highlight a dipolar and quadrupolar dielectric nanoresonator. Simulated electron energy changes as a function of mode at different times. The slit dimensions and membrane properties space and time within half a cycle of the excitation field. The black dashed lines correspond to the experiment of Fig. 3. highlight the propagating wave front of the buried field cycles. The blac",
+          "page": 10,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Polarized phonons carry angular momentum in ultrafast demagnetization",
+      "year": 2022,
+      "journal": "",
+      "authors": [
+        "S. R. Tauchert1",
+        "2",
+        "M. Volkov1",
+        "2",
+        "D. Ehberger2",
+        "D. Kazenwadel1",
+        "M. Evers1",
+        "H. Lange1",
+        "A. Donges1"
+      ],
+      "doi": "",
+      "paper_id": "4dce33fb1cb5c89a",
+      "file_hash": "4dce33fb1cb5c89a685c8fea6cf2f2ec",
+      "num_pages": 21,
+      "abstract": "",
+      "n_figures": 5,
+      "n_chunks": 21,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "4dce33fb_fig_000",
+          "label": "Figure 1a",
+          "caption": "Figure 1a depicts the experiment. A single-crystalline layer of nickel \nwith a thickness of 22 nm is epitaxially grown on a single-crystalline \nsilicon membrane with a hydrogen-terminated (100)-surface; see \nFig. 1b and Extended Data Figs. 1, 2. Demagnetization by 40–50% is trig-\ngered by femtosecon",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4dce33fb\\4dce33fb1cb5c89a_p01_f00.png",
+          "page_num": 1,
+          "width": 2223,
+          "height": 1893,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "4dce33fb_fig_001",
+          "label": "Fig. 1",
+          "caption": "Fig. 1 | Pump–probe electron diffraction measurements of atomic motions \nduring ultrafast demagnetization. a, Experimental arrangement. Ultrashort \nelectron pulses (blue) are compressed by THz radiation (black) and probe the \nlaser-excited lattice dynamics in a single crystal of nickel (light green)",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4dce33fb\\4dce33fb1cb5c89a_p02_f01.png",
+          "page_num": 2,
+          "width": 2214,
+          "height": 887,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "4dce33fb_fig_002",
+          "label": "Fig. 2",
+          "caption": "Fig. 2 | Time-resolved diffraction results. a, Bragg spot intensities for two \ndifferent diffraction orders as a function of time. The solid lines denote a decay \ntime of 770 fs. Origin of this observation is thermal disorder. The standard error is \n4 × 10−4. b, Anisotropy between crystallographical",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4dce33fb\\4dce33fb1cb5c89a_p03_f02.png",
+          "page_num": 3,
+          "width": 2222,
+          "height": 589,
+          "figure_type": "graph",
+          "description": ""
+        },
+        {
+          "figure_id": "4dce33fb_fig_003",
+          "label": "Fig. 3",
+          "caption": "Fig. 3 | Molecular dynamics simulations. a, After laser excitation (red pulse), \nwe excite the lattice by instantaneously displacing an atom locally from its \nequilibrium position assuming a velocity in the x–z plane perpendicular to the \ndisplacement (blue motion), leading to an angular momentum of",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4dce33fb\\4dce33fb1cb5c89a_p04_f03.png",
+          "page_num": 4,
+          "width": 1967,
+          "height": 486,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "4dce33fb_fig_004",
+          "label": "Fig. 4",
+          "caption": "Fig. 4 | Sequence of events. After the laser (red) has impinged on our \nmagnetized material (M, green), hot electrons with spin quickly couple to \nanisotropic and circularly polarized phonons with angular momentum (middle \npanel). The material is demagnetized at this point. Only later, low-frequency",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4dce33fb\\4dce33fb1cb5c89a_p04_f04.png",
+          "page_num": 4,
+          "width": 2223,
+          "height": 1819,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "Article Polarized phonons carry angular momentum in ultrafast demagnetization https://doi.org/10.1038/s41586-021-04306-4 S. R. Tauchert1,2, M. Volkov1,2, D. Ehberger2, D. Kazenwadel1, M. Evers1, H. Lange1, A. Donges1, A. Book3, W. Kreuzpaintner3,4,5, U. Nowak1 & P. Baum1,2 ✉ Received: 8 June 2021 Accepted: 1 December 2021 Magnetic phenomena are ubiquitous in nature and indispensable for modern science Published online: 2 February 2022 and technology, but it is notoriously difficult to change the",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article a Pump pulses x y d 300 e THz compressor H z Ni (020) Ni (220) 200 Si (220) Electron M pulses 100 f Ni THz field crystal Screen Ni (2¯00) Ni (200) 0 M b c Si [100] M Si –100 85 fs g Si (2¯2¯0) –200 Ni [100] Ni (02¯0) [010] –300 –300 –200 –100 0 100 200 300 Ni dynamics of the lattice. Although we see within the measured delay oscillation in real space in perpendicular direction to the initial mag- range of several picoseconds no measurable broadening of the Bragg netization, providing a d",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "1.000 0.995 0.990 0.985 –2 –1 0 1 2 3 4 Fig. 2 | Time-resolved diffraction results. a, Bragg spot in",
+          "text": "1.000 0.995 0.990 0.985 –2 –1 0 1 2 3 4 Fig. 2 | Time-resolved diffraction results. a, Bragg spot intensities for two lines depict the upper and lower level of the fit histogram; see methods. The different diffraction orders as a function of time. The solid lines denote a decay measured levels after saturation (1 ps < t < 4 ps) are 0.9981 ± 0.0005 (red data) and time of 770 fs. Origin of this observation is thermal disorder. The standard error is 1.0019 ± 0.0007 (blue data) under the constraint ",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article a b c 300 0 z –300 –300 0 300 x y their acceleration. The time constants of Fig. 2b are therefore upper momentum before the onset of a macroscopic Einstein–de Haas rota- limits for the time in which the angular momentum arrives in the lattice. tion (Fig. 4). Hence, circularly polarized or chiral phonons are not only The anisotropic phonons persist for picoseconds in the experiment a peculiarity of crystals with broken inversion symmetry32,39,40 but can and for tens of picoseconds in the ",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "15. Melnikov, A. et al. Ultrafast transport of laser-excited spin-polarized carriers Au/Fe/ 29. Wang",
+          "text": "15. Melnikov, A. et al. Ultrafast transport of laser-excited spin-polarized carriers Au/Fe/ 29. Wang, X. et al. Temperature dependence of electron-phonon thermalization and its MgO(001). Phys. Rev. Lett. 107, 076601 (2011). correlation to ultrafast magnetism. Phys. Rev. B 81, 220301 (2010). 16. Rudolf, D. et al. Ultrafast magnetization enhancement in metallic multilayers driven by 30. Zhang, L. F. & Niu, Q. Angular momentum of phonons and the Einstein-de Haas effect. superdiffusive spin current.",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article Methods coverage (dirt) is also allowed in the fits. Extended Data Figure 1a depicts the measured X-ray reflectivity data, the best fit results and the scat- Thin film growth tering length density profile. A 35 nm thick and 3 × 3 mm2 large single-crystalline Si(100) membrane is ultrasonically cleaned in acetone and ethanol, rinsed with water Out-of-plane X-ray diffraction. For XRD analysis, the sample is aligned and dipped in 5% hydrofluoric acid for approximately 15 s to prepare with re",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "cancel out. Additionally, we normalize I (t) to I (t) in order to com- hkl 000 Pump probe electron diffraction pensate for potential temporal drifts of the electron beam. About 250 Sub-100-fs laser pulses for sample excitation at a repetition rate of pump–probe scans over the measured time range are performed rap- 25–50 kHz are obtained from an Yb:YAG laser system (Pharos, Light idly in order to average out potential long-term drifts of the experiment. Conversion UAB) by applying a series of two",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article velocity. Therefore, each excited atom is deflected from its Laser fluence determination and optical absorption depth equilibrium position by Δ=Δ(cos(φ),0,sin(φ)) and given a velocity The optical beam radius ω = 150 µm (at an intensity of 1/e2) at the sam- 0 v 0 =v 0 (−sin(φ),0,cos(φ)),such that the local angular momentum ple position is evaluated by knife-edge measurements. Using the equals ħ. The angle φ is uniformly distributed in [0,2π] under the side measured average laser power P w",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "by 40 µs) into the quasi-static temperature profile of Extended Data Fig. 4b. Control experiment on Si and Cu Extended Data Figure 8 shows an analysis of the Bragg spot anisotropy Magneto-optical Faraday effect of the silicon and copper spots with exactly the same procedure as Extended Data Figure 5a, b show measurements of the dynamical it is used to analyse the nickel data. To perform this experiment, the magnetization M in our single-crystalline thin-films via recording the sample has to be s",
+          "page": 9,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article the focus of our investigation because it is shorter than the laser puls- magnetic anisotropies70. For bulk nickel, the largest contribution to es that we do not model explicitly. However, we also find a slower de- the magnetostriction is given by G ms = B 1(ε 11 S 1 2 +ε 22 S 2 2 + ε 33 S 3 2 )+ … cay on the time scale of some picoseconds, which is not observed in with the magneto-elastic constant B ≈1 meV per atom71. Upon complete 1 the experimental data (see Fig. 2b). This decay time ",
+          "page": 10,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "All-optical control and metrology of electron pulses",
+      "year": 2016,
+      "journal": "",
+      "authors": [
+        "C. Kealhofer",
+        "1",
+        "2 W. Schneider",
+        "1",
+        "2 D. Ehberger",
+        "1",
+        "2 A. Ryabov",
+        "1",
+        "2 F. Krausz",
+        "1",
+        "2* P. Baum1",
+        "2*"
+      ],
+      "doi": "",
+      "paper_id": "1cbf22e8b91ecd5a",
+      "file_hash": "1cbf22e8b91ecd5a8b193aeb1201861a",
+      "num_pages": 6,
+      "abstract": "",
+      "n_figures": 5,
+      "n_chunks": 6,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "1cbf22e8_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1. Experimental setup. A 1-ps laser pulse from a Yb:YAG regenerative amplifier is frequency-\ndoubled and generates an electron pulse from a thin-film gold photocathode. The laser also drives two\noptical-rectification stages, each generating single-cycle terahertz pulses with energy of up to 40 ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1cbf22e8\\1cbf22e8b91ecd5a_p02_f00.png",
+          "page_num": 2,
+          "width": 1469,
+          "height": 746,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "1cbf22e8_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2. All-optical terahertz streak camera. (A) Images of the electron beam on the camera with and\nwithout the terahertz field.The FWHM of the streaked beam is ~50 times larger than that of the unstreaked\nspot. (B) Time-dependent deflection (deflectogram) measured by varying the delay between the e",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1cbf22e8\\1cbf22e8b91ecd5a_p02_f01.png",
+          "page_num": 2,
+          "width": 1469,
+          "height": 859,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "1cbf22e8_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3. Terahertz-driven electron pulse compression. (A and B) Comparison of deflectograms for (A)\nuncompressed (930 fs) and (B) compressed (75 fs) pulses at time steps of 200 and 10 fs, respectively.The\ndeflectograms were measured sequentially and have a temporal resolution of ~9 fs (RMS). (C) Meas",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1cbf22e8\\1cbf22e8b91ecd5a_p03_f02.png",
+          "page_num": 3,
+          "width": 1541,
+          "height": 1574,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "1cbf22e8_fig_003",
+          "label": "Fig. 4",
+          "caption": "Fig. 4. Passive few-femtosecond synchronization. (A) Concept for measuring arrival-time drifts\nbetween the uncompressed electron pulses and the optical streaking field. (B) Systematic coupling\nof laser fluctuations to timing drifts. Measuring shifts in the terahertz zero-crossing time with\nincreasin",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1cbf22e8\\1cbf22e8b91ecd5a_p04_f03.png",
+          "page_num": 4,
+          "width": 1469,
+          "height": 277,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "1cbf22e8_fig_004",
+          "label": "Fig. 5",
+          "caption": "Fig. 5. Resonance-free single-cycle streaking. (A) Resonator-free concept for mediating the electron-\nterahertz interaction by using an ultrathin terahertz mirror. The angles of the terahertz and the electron\nbeams with respect to the foil’s surface normal (dotted line) are chosen for lateral phase ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1cbf22e8\\1cbf22e8b91ecd5a_p04_f04.png",
+          "page_num": 4,
+          "width": 1469,
+          "height": 396,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "RESEARCH RESEARCH ARTICLE ◥ theresonatorsandconfinedtosubwavelength dimensionssothatenergyandmomentumcon- servationintheelectron-photoninteractioncan besatisfied(26). ULTRAFASTOPTICS Electronspassingthroughtheresonatorstruc- turesexperienceanetchangeinmomentumthat All-optical control and metrology correspondstotheintegraloftheLorentzforce alongtheirtrajectories.Thischangevariessinu- of electron pulses soidallyasafunctionofarrivaltimeoftheelec- tron in the terahertz field. The first terahertz con",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | RESEARCHARTICLE wherecisthespeedoflight,m isthemassofthe wedub“streaking,”inanalogytomicrowave-driven andoffandtimedsoastoyieldmaximumstreak- e electron,bistheratiooftpheffiffiffieffiffilffieffifficffiffitffirffiffionspeedtothe andlaserfield–drivendevices.Wefirsttestedthe ing of the beam (Fig. 2A). At the maxima and speedoflight,andg¼1= ð1−b2Þ.Localizedtera- temporalcharacterizationwiththeuncompressed minima,minimalspreadingoccurs.Theelectron hertzfieldsenhancedtomerely106V/maresuf- p",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | RESEARCHARTICLE timeof6sandimprovewithlongerintegration. processesinthephotodiodesusedformicrowave terahertzcontrolfieldoff.Forintegrationtimes Thesevaluesrepresentanear-two-order-of-magnitude synchronization(9),laser-generatedterahertz longerthan1s,weobtained4.6 fs(RMS)over improvementoverthestateoftheartofmicrowave fieldsare,withintheattosecondresponsetimeof 15min(Fig.4C).Last,werepeatedthismeasure- streakcameras(3,4),obtainedalreadyatterahertz the underlying nonlinear polarization,",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | RESEARCHARTICLE avoidingthelocalizationandlimitedspectralre- Measured and calculated streaking deflecto- formly)deflecteddirectlywiththefieldcycles, sponseinextricablylinkedtoresonators.Fora gramsofanuncompressedelectronpulsearede- advancing the century-old cathode-ray-tube direct electron-terahertz interaction, we real- pictedinFig.5,CandD,atanenergyof90keV, oscilloscope to the terahertz domain. Owing izedaresonator-freeinteractiongeometrybased exhibiting excellent agreement. Althoug",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH temporalresolutionoftheterahertz-drivenstreak REPORTS ◥ cameracouldalsobeusedtocharacterizeelectron microbunchinginfree-electronlasers,supple- mentingterahertz-baseddiagnosticsforthex- rayoutput(39,40).Thedemonstratedconceptis ORGANICCHEMISTRY scalabletohigherterahertzfrequenciesandmul- tiplestages,offeringthepotential forcascaded Catalytic asymmetric addition of compressionintothesubfemtosecondregimeor directinjectionintoasingleopticalcycleofa Grignard reagents to alkenyl-substituted l",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "All-optical control and metrology of electron pulses C. Kealhofer, W. Schneider, D. Ehberger, A. Ryabov, F. Krausz, and P. Baum Science 352 (6284), . DOI: 10.1126/science.aae0003 Electron pulses under control The ability to take snapshots of fast events can often provide insights into the dynamics of the processes involved: chemical reactions, electronic transport, structural transitions, and complex combinations involving of all of these processes. Kealhofer et al. describe an ultrafast optics ",
+          "page": 6,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "4D Visualization of Transitional Structures in Phase Transformations by Electron Diffraction",
+      "year": 2007,
+      "journal": "",
+      "authors": [
+        "Peter Baum",
+        "Ding-Shyue Yang",
+        "Ahmed H. Zewail*"
+      ],
+      "doi": "",
+      "paper_id": "bf4ffcd84bc8c87c",
+      "file_hash": "bf4ffcd84bc8c87c5aab78d823ae37cf",
+      "num_pages": 6,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 6,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "bf4ffcd8_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1. Crystal struc-\ntures of vanadium diox-\nide phases and observed\nBraggdiffraction.(A) Crys-\ntal structure of the mono-\nclinic, low-temperature\nphase (left) and the ru-\ntile, high-temperature\nphase (right). Vanadium\natoms are depicted in red\nand oxygen atoms in a\nlighter color. Because of\na sym",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bf4ffcd8\\bf4ffcd84bc8c87c_p01_f00.png",
+          "page_num": 1,
+          "width": 2212,
+          "height": 1639,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "bf4ffcd8_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2. Ultrafast, fs and ps, diffraction dy-\nnamics of the structural phase transition.\n(A) Intensity change of the (606) Bragg\nspot with time. A decay with a time con-\nstant t1 of 307 fs was obtained on the total\ntime scale of ±3 ps (40); note the change\nin intensity of diffraction in the 250-fs\ns",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bf4ffcd8\\bf4ffcd84bc8c87c_p02_f01.png",
+          "page_num": 2,
+          "width": 2284,
+          "height": 1801,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "bf4ffcd8_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3. (A) Atomic movements and the calculated structure factors. (Top left) Initial (purple) and final (blue)\npositions of the vanadium atoms. The monoclinic unit cell is depicted as dotted purple lines, and the rutile unit\ncell as a blue dotted box. (Top right) The direct motion of the vanadium a",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bf4ffcd8\\bf4ffcd84bc8c87c_p03_f02.png",
+          "page_num": 3,
+          "width": 1477,
+          "height": 581,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "bf4ffcd8_fig_003",
+          "label": "Fig. 4",
+          "caption": "Fig. 4. Dependence of\nthe fs dynamics and the\nlarge-scale shear dis-\nplacement on excitation\nfluence. The magnitude\nof the initial intensity\ndecrease (violet) and the\namplitude of the long-\ntime change (green) are\nplotted for different exci-\ntation fluences. A com-\nmon threshold region is\nobserved. ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bf4ffcd8\\bf4ffcd84bc8c87c_p04_f03.png",
+          "page_num": 4,
+          "width": 2284,
+          "height": 2166,
+          "figure_type": "plot",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "REPORTS 4D Visualization of Transitional also have a wavelength on the scale of atomic distances,asdemonstratedinthestudiesofmelt- ing and lattice dynamics by ultrafast x-ray ab- Structures in Phase Transformations sorption (3) and diffraction (4–7) and electron diffraction(8–10).Inourlaboratory,ultrafastelec- by Electron Diffraction tronmicroscopy(UEM)andultrafastdiffraction (11)havebeenthemethodsofchoiceforstudies ofmolecularandphasetransitions(12–16). Peter Baum, Ding-Shyue Yang, AhmedH.Zewai",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "are appropriate for the separation of different transition(22–26).Thetransitioncanbeinduced near-infrared(800nm)pulses,and,afteravaria- types of nuclear motions. As with chemical re- nonthermally on the ultrashort time scale, with ble delay time, structural dynamics were fol- actions,theconceptofconcerted(orconcurrent) the required excitation a variable characteristic lowed by diffracting the electron packets. The versusconsecutivenuclearmotions(1,2)becomes dependent on the morphology of the spe",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "wasmeasurableatearlytimes.Theabsenceofa A spot shift (12) shows that no substantial lattice expansionistakingplaceontheultrashorttime scale; theabsence of a clear width change also indicates that no measurable disorder is intro- ducedonthistimescale.Theseobservationsex- cludethermalexpansionorlatticeinhomogeneity (strain)inthistimerange(28). All Bragg spots that show the fs behavior involve nonzero values of (hkl), whereas those displaying the slower ps behavior have a zero component of h. Accor",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "REPORTS Theinitiatingexcitationat1.55eVprimarily of structural dynamics. As shown in Fig. 3B, FromEq.1,thecalculatedV−Vdisplacement involvesthed band,whicharisesfrombonding after the initial insulator-metal transition after a (Fig. 3A) reaches 0.02 Å for ~0.1 photon per || ofthevanadiumpairs(30,31).Fromachemical delay, there is a continued temporal change of vanadiumfordelocalizedexcitationofthelattice. perspective, the excitation is to an antibonding intensity that levels off at ~300 ps. Given ",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "REPORTS 14. M.S.Grinolds,V.A.Lobastov,J.Weissenrieder, 30. J.B.Goodenough,Phys.Rev.120,67(1960). 38. Fromthereflectivityof0.28andtheabsorptiondepth A.H.Zewail,Proc.Natl.Acad.Sci.U.S.A.103,18427 31. T.C.Koetheetal.,Phys.Rev.Lett.97,116402 of100nmat800nm(20),thethresholdfluencecorresponds (2006). (2006). to450mJ/mm3atthesurface.Withtheunitcellvolume 15. V.A.Lobastov,J.Weissenrieder,J.Tang,A.H.Zewail, 32. Giventhex-raywavelength(1.54A˚)anddiffractionangle of118Å3(21),whichcontainsfourvanadiumatoms,",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "4D Visualization of Transitional Structures in Phase Transformations by Electron Diffraction Peter Baum, Ding-Shyue Yang, and Ahmed H. Zewail Science 318 (5851), . DOI: 10.1126/science.1147724 View the article online https://www.science.org/doi/10.1126/science.1147724 Permissions https://www.science.org/help/reprints-and-permissions Use of this article is subject to the Terms of service Science (ISSN 1095-9203) is published by the American Association for the Advancement of Science. 1200 New Yor",
+          "page": 6,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Electron microscopy of electromagnetic waveforms",
+      "year": 2002,
+      "journal": "",
+      "authors": [
+        "J. E. Thomas",
+        "Science 298",
+        "2179–2182 (2002)."
+      ],
+      "doi": "",
+      "paper_id": "f6f1153a23a051eb",
+      "file_hash": "f6f1153a23a051eb1744236901de8380",
+      "num_pages": 5,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 5,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "f6f1153a_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1. Concept and experimental setup. A femto-\nsecond laser produces single-cycle terahertz pulses\n(red) and a beam of femtosecond electron pulses\n(blue).The terahertz radiation compresses the elec-\ntrons in time and also triggers electromagnetic res-\nonance in the sample (yellow). The electron pu",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f6f1153a\\f6f1153a23a051eb_p01_f00.png",
+          "page_num": 1,
+          "width": 2281,
+          "height": 2609,
+          "figure_type": "setup",
+          "description": ""
+        },
+        {
+          "figure_id": "f6f1153a_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2. Waveform microscopy results. (A) Electric\nfield for sample excitation. (B) Electron pulse charac-\nterization (19). (C) Shape of the split-ring resonator.\n(D) Isosurface of the time-dependent shadow images.\n(E) Subset of raw images on the screen (full results\nin movies S1 and S2).",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f6f1153a\\f6f1153a23a051eb_p02_f01.png",
+          "page_num": 2,
+          "width": 2171,
+          "height": 281,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "f6f1153a_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3. Space-time-field results in a split-ring\nresonator. (A) Time-frozen electric field vectors at\nthree delay times (full results in movie S3). Scale\nbar, 100 mm. (B) Time-dependent fields (left) and\npolarizations (right) at locations (1) and (2) in (A).\n(C) Space-time map of the surface carrier",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f6f1153a\\f6f1153a23a051eb_p02_f02.png",
+          "page_num": 2,
+          "width": 2174,
+          "height": 637,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "f6f1153a_fig_003",
+          "label": "Fig. 4",
+          "caption": "Fig. 4. Rectangle and butterfly resonators. (A) Time-frozen electric field vectors at 2.2 ps delay (full results in movie S4). (B) Time-dependent field at the center.\n(C) First four modes revealed through singular value decomposition. (D) Time traces (amplitudes, scaled) of modes 1, 2, and 3. (E) El",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f6f1153a\\f6f1153a23a051eb_p03_f03.png",
+          "page_num": 3,
+          "width": 2211,
+          "height": 933,
+          "figure_type": "plot",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "RESEARCH | REPORTS 30.K.M.O’Hara,S.L.Hemmer,M.E.Gehm,S.R.Granade, 40.Y.Nishida,S.Moroz,D.T.Son,Phys.Rev.Lett.110,235301 NSFCgrantno.11325418.R.Q.issupportedbytheFundamental J.E.Thomas,Science298,2179–2182(2002). (2013). ResearchFundsfortheCentralUniversitiesandtheResearch 31. C.Fortetal.,Phys.Rev.Lett.95,170410(2005). 41. A.G.Volosniev,D.V.Fedorov,A.S.Jensen,N.T.Zinner, FundsofRenminUniversityofChinaundergrantno.15XNLF18and 32.L.Sanchez-Palenciaetal.,Phys.Rev.Lett.98,210401 J.Phys.At.Mol.Opt.Phy",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | REPORTS forasubsetofpump-probedelays(inFig.2E)be- rectlyproportionaltothelocalwaveform,frozen initiallyfollowthesingle-cycleexcitationpulse,but comedistortedinaself-overlappingwaybefore intimeatthechosenprobedelay. after~4ps,whentheexcitationhasdiminished, returningtotheoriginalatlatertimes (movie Onthescreen,electronsfromfarawaylocations theyevolveintosloweroscillationcycleswithde- S1).Anotherexample ofrawdataisshownin canendupatthesamepositions,andinversionis cayingamplitude.Fitting",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | REPORTS Fig.4.Rectangleandbutterflyresonators.(A)Time-frozenelectricfieldvectorsat2.2psdelay(fullresultsinmovieS4).(B)Time-dependentfieldatthecenter. (C)Firstfourmodesrevealedthroughsingularvaluedecomposition.(D)Timetraces(amplitudes,scaled)ofmodes1,2,and3.(E)Electricfieldstrengthsalongaline throughthecenter.(F)Butterflyresonator,electricfieldvectorsat2.8psdelay(fullresultsinmovieS5).Scalebars,100mm. Fig.4A(fullresultsinmovieS4).Thewaveformin chargeisexploitedasalocal,sensitive,direct",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | REPORTS 12. M.Müller,A.Paarmann,R.Ernstorfer,Nat.Commun.5,5292(2014). 21. M.T.Hassan,H.Liu,J.S.Baskin,A.H.Zewail,Proc.Natl.Acad. ACKNOWLEDGMENTS 13. E.Najafi,T.D.Scarborough,J.Tang,A.Zewail,Science347, Sci.U.S.A.112,12944–12949(2015). ThisworkwassupportedbyERCandMunich-CentreforAdvanced 164–167(2015). 22.L.J.Wong,B.Freelon,T.Rohwer,N.Gedik,S.G.Johnson,New Photonics.WethankF.Krauszforawesomesupportanddiscussions 14. A.Yurtsever,R.M.vanderVeen,A.H.Zewail,Science335, J.Phys.17,013051(201",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Electron microscopy of electromagnetic waveforms A. Ryabov and P. Baum Science 353 (6297), . DOI: 10.1126/science.aaf8589 Imaging electromagnetic waveforms Understanding the dynamics of electrons and the spatial and temporal evolution of electromagnetic fields within a material or device is often the key to optimizing performance. Ryabov and Baum show that electron microscopy can be used to measure collective carrier motion and electromagnetic fields with subcycle and subwavelength resolution. A",
+          "page": 5,
+          "type": "body"
+        }
+      ]
+    }
+  ]
+}

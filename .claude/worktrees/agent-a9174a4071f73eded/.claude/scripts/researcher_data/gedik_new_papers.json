@@ -1,0 +1,677 @@
+[
+  {
+    "doi": "10.1038/nnano.2011.214",
+    "title": "Control over topological insulator photocurrents with light polarization",
+    "year": "2011",
+    "cites": 640,
+    "journal": "Nature Nanotechnology",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "James",
+        "lastName": "McIver"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "David",
+        "lastName": "Hsieh"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Hadar",
+        "lastName": "Steinberg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Pablo",
+        "lastName": "Jarillo‐Herrero"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nuh",
+        "lastName": "Gedik"
+      }
+    ]
+  },
+  {
+    "doi": "10.1002/smll.201801483",
+    "title": "Valleytronics: Opportunities, Challenges, and Paths Forward",
+    "year": "2018",
+    "cites": 411,
+    "journal": "Small",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Steven",
+        "lastName": "A. Vitale"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Daniel",
+        "lastName": "Nezich"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Joseph",
+        "lastName": "O. Varghese"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Philip",
+        "lastName": "Kim"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nuh",
+        "lastName": "Gedik"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Pablo",
+        "lastName": "Jarillo‐Herrero"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Di",
+        "lastName": "Xiao"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Rothschild"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/nphys3609",
+    "title": "Selective scattering between Floquet–Bloch and Volkov states in a topological insulator",
+    "year": "2016",
+    "cites": 380,
+    "journal": "Nature Physics",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Fahad",
+        "lastName": "Mahmood"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ching-Kit",
+        "lastName": "Chan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Zhanybek",
+        "lastName": "Alpichshev"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Dillon",
+        "lastName": "Gardner"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Young",
+        "lastName": "Lee"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Patrick",
+        "lastName": "A. Lee"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nuh",
+        "lastName": "Gedik"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevlett.109.127401",
+    "title": "Measurement of Intrinsic Dirac Fermion Cooling on the Surface of the Topological Insulator<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:msub><mml:mi>Bi</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mi>Se</mml:mi><mml:mn>3</mml:mn></mml:msub></mml:math>Using Time-Resolved and Angle-Resolved Photoemission Spectroscopy",
+    "year": "2012",
+    "cites": 266,
+    "journal": "Physical Review Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Yihua",
+        "lastName": "Wang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "David",
+        "lastName": "Hsieh"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Edbert",
+        "lastName": "J. Sie"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Hadar",
+        "lastName": "Steinberg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Dillon",
+        "lastName": "Gardner"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Y.",
+        "lastName": "S. Lee"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Pablo",
+        "lastName": "Jarillo‐Herrero"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nuh",
+        "lastName": "Gedik"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/nature04206",
+    "title": "Observation of spin Coulomb drag in a two-dimensional electron gas",
+    "year": "2005",
+    "cites": 231,
+    "journal": "Nature",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "C.",
+        "lastName": "Weber"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nuh",
+        "lastName": "Gedik"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Joel",
+        "lastName": "E. Moore"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "J.",
+        "lastName": "Orenstein"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "J.",
+        "lastName": "W. W. Stephens"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "D.",
+        "lastName": "D. Awschalom"
+      }
+    ]
+  },
+  {
+    "doi": "10.1126/science.1138834",
+    "title": "Nonequilibrium Phase Transitions in Cuprates Observed by Ultrafast Electron Crystallography",
+    "year": "2007",
+    "cites": 223,
+    "journal": "Science",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Nuh",
+        "lastName": "Gedik"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ding‐Shyue",
+        "lastName": "Yang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Г.",
+        "lastName": "Логвенов"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "I.",
+        "lastName": "Božović"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ahmed",
+        "lastName": "H. Zewail"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevlett.107.207602",
+    "title": "Observation of a Warped Helical Spin Texture in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:msub><mml:mi>Bi</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mi>Se</mml:mi><mml:mn>3</mml:mn></mml:msub></mml:math>from Circular Dichroism Angle-Resolved Photoemission Spectroscopy",
+    "year": "2011",
+    "cites": 215,
+    "journal": "Physical Review Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Yihua",
+        "lastName": "Wang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "David",
+        "lastName": "Hsieh"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Daniel",
+        "lastName": "Pilon"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Liang",
+        "lastName": "Fu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Dillon",
+        "lastName": "Gardner"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Y.",
+        "lastName": "S. Lee"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nuh",
+        "lastName": "Gedik"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/s41567-018-0311-9",
+    "title": "Evidence for topological defects in a photoinduced phase transition",
+    "year": "2018",
+    "cites": 214,
+    "journal": "Nature Physics",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Alfred",
+        "lastName": "Zong"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Anshul",
+        "lastName": "Kogar"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ya‐Qing",
+        "lastName": "Bie"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Timm",
+        "lastName": "Rohwer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Changmin",
+        "lastName": "Lee"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Edoardo",
+        "lastName": "Baldini"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Emre",
+        "lastName": "Ergeçen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mehmet",
+        "lastName": "Yilmaz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Byron",
+        "lastName": "Freelon"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Edbert",
+        "lastName": "J. Sie"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevb.92.125417",
+    "title": "Intervalley biexcitons and many-body effects in monolayer<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:msub><mml:mi>MoS</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:math>",
+    "year": "2015",
+    "cites": 200,
+    "journal": "Physical Review B",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Edbert",
+        "lastName": "J. Sie"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alex",
+        "lastName": "Frenzel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yi‐Hsien",
+        "lastName": "Lee"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jing",
+        "lastName": "Kong"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nuh",
+        "lastName": "Gedik"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevlett.113.056602",
+    "title": "Semiconducting-to-Metallic Photoconductivity Crossover and Temperature-Dependent Drude Weight in Graphene",
+    "year": "2014",
+    "cites": 160,
+    "journal": "Physical Review Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Alex",
+        "lastName": "Frenzel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chun",
+        "lastName": "Hung Lui"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yong",
+        "lastName": "Cheol Shin"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jing",
+        "lastName": "Kong"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nuh",
+        "lastName": "Gedik"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevlett.107.077401",
+    "title": "Selective Probing of Photoinduced Charge and Spin Dynamics in the Bulk and Surface of a Topological Insulator",
+    "year": "2011",
+    "cites": 158,
+    "journal": "Physical Review Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "David",
+        "lastName": "Hsieh"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Fahad",
+        "lastName": "Mahmood"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "James",
+        "lastName": "McIver"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Dillon",
+        "lastName": "Gardner"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Y.",
+        "lastName": "S. Lee"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nuh",
+        "lastName": "Gedik"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/nphys3620",
+    "title": "Tuning ultrafast electron thermalization pathways in a van der Waals heterostructure",
+    "year": "2016",
+    "cites": 153,
+    "journal": "Nature Physics",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Qiong",
+        "lastName": "Ma"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Trond",
+        "lastName": "I. Andersen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nityan",
+        "lastName": "Nair"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nathaniel",
+        "lastName": "M. Gabor"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mathieu",
+        "lastName": "Massicotte"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chun",
+        "lastName": "Hung Lui"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andrea",
+        "lastName": "F. Young"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Wenjing",
+        "lastName": "Fang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kenji",
+        "lastName": "Watanabe"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Takashi",
+        "lastName": "Taniguchi"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevlett.106.057401",
+    "title": "Nonlinear Optical Probe of Tunable Surface Electrons on a Topological Insulator",
+    "year": "2011",
+    "cites": 152,
+    "journal": "Physical Review Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "David",
+        "lastName": "Hsieh"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "James",
+        "lastName": "McIver"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Darius",
+        "lastName": "H. Torchinsky"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Dillon",
+        "lastName": "Gardner"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Y.",
+        "lastName": "S. Lee"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nuh",
+        "lastName": "Gedik"
+      }
+    ]
+  },
+  {
+    "doi": "10.1021/acs.nanolett.7b01034",
+    "title": "Observation of Exciton Redshift–Blueshift Crossover in Monolayer WS<sub>2</sub>",
+    "year": "2017",
+    "cites": 152,
+    "journal": "Nano Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Edbert",
+        "lastName": "J. Sie"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alexander",
+        "lastName": "Steinhoff"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Christopher",
+        "lastName": "Gies"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chun",
+        "lastName": "Hung Lui"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Qing",
+        "lastName": "Ma"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Malte",
+        "lastName": "Rösner"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Gunnar",
+        "lastName": "Schönhoff"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "F.",
+        "lastName": "Jahnke"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tim",
+        "lastName": "O. Wehling"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Y.-H.",
+        "lastName": "Lee"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/s41586-020-2011-8",
+    "title": "Spontaneous gyrotropic electronic order in a transition-metal dichalcogenide",
+    "year": "2020",
+    "cites": 129,
+    "journal": "Nature",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Su-Yang",
+        "lastName": "Xu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Qiong",
+        "lastName": "Ma"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yang",
+        "lastName": "Gao"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Anshul",
+        "lastName": "Kogar"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alfred",
+        "lastName": "Zong"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andrés",
+        "lastName": "M. Mier Valdivia"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Thao",
+        "lastName": "H. Dinh"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Shin-Ming",
+        "lastName": "Huang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Bahadur",
+        "lastName": "Singh"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chuang‐Han",
+        "lastName": "Hsu"
+      }
+    ]
+  }
+]

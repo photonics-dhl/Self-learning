@@ -1,0 +1,150 @@
+{
+  "researcher": "baum",
+  "n_papers": 8,
+  "n_figures": 20,
+  "papers": [
+    {
+      "paper_id": "10ef0f6c",
+      "title": "RESEARCH ARTICLE",
+      "authors": [],
+      "year": 2016,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\baum\\Kealhofer 等 - 2016 - All-optical control and metrology of electron pulses.pdf",
+      "filename": "Kealhofer 等 - 2016 - All-optical control and metrology of electron pulses.pdf",
+      "n_figs": 4,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "7a7a1c7f",
+      "title": "RESEARCH ARTICLE",
+      "authors": [],
+      "year": 2016,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\baum\\Kealhofer 等 - 2016 - All-optical control and metrology of electron pulses.pdf",
+      "filename": "Kealhofer 等 - 2016 - All-optical control and metrology of electron pulses.pdf",
+      "n_figs": 4,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "9e2afc9d",
+      "title": "Nature  |  Vol 619  |  6 July 2023  |  63",
+      "authors": [
+        "David Nabben1",
+        "2",
+        "Joel Kuttruff1",
+        "2",
+        "Levin Stolz1",
+        "Andrey Ryabov1 ✉ & Peter Baum1 ✉"
+      ],
+      "year": 2023,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\baum\\Nabben 等 - 2023 - Attosecond electron microscopy of sub-cycle optical dynamics.pdf",
+      "filename": "Nabben 等 - 2023 - Attosecond electron microscopy of sub-cycle optical dynamics.pdf",
+      "n_figs": 4,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "2aa1e1ed",
+      "title": "Electron microscopy of electromagnetic waveforms",
+      "authors": [
+        "J. E. Thomas",
+        "Science 298",
+        "2179–2182 (2002)."
+      ],
+      "year": 2002,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\baum\\Ryabov和Baum - 2016 - Electron microscopy of electromagnetic waveforms.pdf",
+      "filename": "Ryabov和Baum - 2016 - Electron microscopy of electromagnetic waveforms.pdf",
+      "n_figs": 2,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "a3ba859f",
+      "title": "Nature  |  Vol 602  |  3 February 2022  |  73",
+      "authors": [
+        "S. R. Tauchert1",
+        "2",
+        "M. Volkov1",
+        "2",
+        "D. Ehberger2",
+        "D. Kazenwadel1",
+        "M. Evers1",
+        "H. Lange1",
+        "A. Donges1"
+      ],
+      "year": 2022,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\baum\\Tauchert 等 - 2022 - Polarized phonons carry angular momentum in ultrafast demagnetization.pdf",
+      "filename": "Tauchert 等 - 2022 - Polarized phonons carry angular momentum in ultrafast demagnetization.pdf",
+      "n_figs": 2,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "de13aa2a",
+      "title": "Nature  |  Vol 602  |  3 February 2022  |  73",
+      "authors": [
+        "S. R. Tauchert1",
+        "2",
+        "M. Volkov1",
+        "2",
+        "D. Ehberger2",
+        "D. Kazenwadel1",
+        "M. Evers1",
+        "H. Lange1",
+        "A. Donges1"
+      ],
+      "year": 2022,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\baum\\Tauchert 等 - 2022 - Polarized phonons carry angular momentum in ultrafast demagnetization.pdf",
+      "filename": "Tauchert 等 - 2022 - Polarized phonons carry angular momentum in ultrafast demagnetization.pdf",
+      "n_figs": 2,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "2e5dd637",
+      "title": "4D Visualization of Transitional",
+      "authors": [
+        "Peter Baum",
+        "Ding-Shyue Yang",
+        "Ahmed H. Zewail*"
+      ],
+      "year": 2007,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\baum\\Baum 等 - 2007 - 4D visualization of transitional structures in phase transformations by electron diffraction.pdf",
+      "filename": "Baum 等 - 2007 - 4D visualization of transitional structures in phase transformations by electron diffraction.pdf",
+      "n_figs": 1,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "a966633d",
+      "title": "4D Visualization of Transitional",
+      "authors": [
+        "Peter Baum",
+        "Ding-Shyue Yang",
+        "Ahmed H. Zewail*"
+      ],
+      "year": 2007,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\baum\\Baum 等 - 2007 - 4D visualization of transitional structures in phase transformations by electron diffraction.pdf",
+      "filename": "Baum 等 - 2007 - 4D visualization of transitional structures in phase transformations by electron diffraction.pdf",
+      "n_figs": 1,
+      "n_tables": 0,
+      "tables": []
+    }
+  ]
+}

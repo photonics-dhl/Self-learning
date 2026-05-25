@@ -1,0 +1,176 @@
+{
+  "researcher": "huber",
+  "n_papers": 7,
+  "n_figures": 71,
+  "papers": [
+    {
+      "paper_id": "6b865498",
+      "title": "2D Materials",
+      "authors": [],
+      "year": 2026,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\huber\\Ren 等 - 2026 - The 2D materials roadmap.pdf",
+      "filename": "Ren 等 - 2026 - The 2D materials roadmap.pdf",
+      "n_figs": 31,
+      "n_tables": 2,
+      "tables": [
+        {
+          "table_id": "6b865498_tab_000",
+          "paper_id": "6b865498",
+          "table_label": "Table 1",
+          "table_caption": "Table 1. Key performance benchmark of state-of-the-art silicon and 2D technology with IRDS requirements.",
+          "page_num": 45,
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\6b865498\\6b865498_p45_t00.png",
+          "width": 1485,
+          "height": 227
+        },
+        {
+          "table_id": "6b865498_tab_001",
+          "paper_id": "6b865498",
+          "table_label": "Table 2",
+          "table_caption": "Table 2. Performance metrics of 2D material-based sensors and their 3D counterparts [235, 285–293].",
+          "page_num": 61,
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\6b865498\\6b865498_p61_t01.png",
+          "width": 1397,
+          "height": 227
+        }
+      ]
+    },
+    {
+      "paper_id": "1a7ecab5",
+      "title": "Journal of Physics D:",
+      "authors": [],
+      "year": 2017,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\huber\\Dhillon 等 - 2017 - The 2017 terahertz science and technology roadmap.pdf",
+      "filename": "Dhillon 等 - 2017 - The 2017 terahertz science and technology roadmap.pdf",
+      "n_figs": 26,
+      "n_tables": 3,
+      "tables": [
+        {
+          "table_id": "1a7ecab5_tab_000",
+          "paper_id": "1a7ecab5",
+          "table_label": "Table 1",
+          "table_caption": "Table 1.  Terahertz sources.",
+          "page_num": 16,
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p16_t00.png",
+          "width": 458,
+          "height": 234
+        },
+        {
+          "table_id": "1a7ecab5_tab_001",
+          "paper_id": "1a7ecab5",
+          "table_label": "Table 2",
+          "table_caption": "Table 2.  Terahertz detectors.",
+          "page_num": 17,
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p17_t01.png",
+          "width": 480,
+          "height": 1293
+        },
+        {
+          "table_id": "1a7ecab5_tab_002",
+          "paper_id": "1a7ecab5",
+          "table_label": "Table 3",
+          "table_caption": "Table 3.  Required aperture tolerances for  −42 dB reflection coefficient to 3.3 THz, and reflection coefficient values achieved by the \nexisting IEEE 1785.2a interface [217] to 3.3 THz.",
+          "page_num": 46,
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1a7ecab5\\1a7ecab5_p46_t02.png",
+          "width": 2034,
+          "height": 236
+        }
+      ]
+    },
+    {
+      "paper_id": "18e9e604",
+      "title": "1",
+      "authors": [
+        "V. Eggers1",
+        "G. Inzani1",
+        "M. Meierhofer1",
+        "L. Münster1",
+        "J. Helml1",
+        "R. Wallauer2",
+        "S. Zajusch2",
+        "S. Ito2"
+      ],
+      "year": 0,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\huber\\Eggers 等 - 2026 - Subcycle videography of lightwave-driven landau-zener-majorana transitions in graphene.pdf",
+      "filename": "Eggers 等 - 2026 - Subcycle videography of lightwave-driven landau-zener-majorana transitions in graphene.pdf",
+      "n_figs": 4,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "27d2b197",
+      "title": "Sub-cycle control of terahertz high-harmonic",
+      "authors": [
+        "O. Schubert1",
+        "M. Hohenleutner1",
+        "F. Langer1",
+        "B. Urbanek1",
+        "C. Lange1",
+        "U. Huttner2",
+        "D. Golde2",
+        "T. Meier3"
+      ],
+      "year": 2014,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\huber\\Schubert 等 - 2014 - Sub-cycle control of terahertz high-harmonic generation by dynamical bloch oscillations.pdf",
+      "filename": "Schubert 等 - 2014 - Sub-cycle control of terahertz high-harmonic generation by dynamical bloch oscillations.pdf",
+      "n_figs": 3,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "a5c7b94e",
+      "title": "Letter",
+      "authors": [],
+      "year": 2018,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\huber\\Langer 等 - 2018 - Lightwave valleytronics in a monolayer of tungsten diselenide.pdf",
+      "filename": "Langer 等 - 2018 - Lightwave valleytronics in a monolayer of tungsten diselenide.pdf",
+      "n_figs": 3,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "83af510d",
+      "title": "LETTER",
+      "authors": [
+        "M. Hohenleutner1*",
+        "F. Langer1*",
+        "O. Schubert1*",
+        "M. Knorr1",
+        "U. Huttner2*",
+        "S. W. Koch2",
+        "M. Kira2 & R. Huber1"
+      ],
+      "year": 2051,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\huber\\Hohenleutner 等 - 2015 - Real-time observation of interfering crystal electrons in high-harmonic generation.pdf",
+      "filename": "Hohenleutner 等 - 2015 - Real-time observation of interfering crystal electrons in high-harmonic generation.pdf",
+      "n_figs": 2,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "e9f2ce83",
+      "title": "and S requires a shielding mechanism against ionizing radiation. A",
+      "authors": [],
+      "year": 2001,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\huber\\Huber 等 - 2001 - How many-particle interactions develop after ultrafast excitation of an electron–hole plasma.pdf",
+      "filename": "Huber 等 - 2001 - How many-particle interactions develop after ultrafast excitation of an electron–hole plasma.pdf",
+      "n_figs": 2,
+      "n_tables": 0,
+      "tables": []
+    }
+  ]
+}

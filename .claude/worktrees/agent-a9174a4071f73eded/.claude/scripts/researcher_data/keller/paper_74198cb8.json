@@ -1,0 +1,48 @@
+{
+  "paper_id": "74198cb8",
+  "title": "916",
+  "authors": [],
+  "year": 2016,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\keller\\Lucchini 等 - 2016 - Attosecond dynamical Franz-Keldysh effect in polycrystalline diamond.pdf",
+  "filename": "Lucchini 等 - 2016 - Attosecond dynamical Franz-Keldysh effect in polycrystalline diamond.pdf",
+  "n_figs": 3,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "74198cb8_fig_000",
+      "caption": "Fig. 1. Pulse and sample characterization. (A) Schematic of the experimen-\ntal setup with the double-target for simultaneous detection of photons and\nelectrons. (B) Example of a typical streaking trace used to characterize the\nsingle attosecond pulses (SAPs) and calibrate the pump-probe delay axis i",
+      "label": "Fig. 1",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\74198cb8\\74198cb8_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "74198cb8_fig_001",
+      "caption": "Fig. 2. Results obtained with single attosecond pulses. (A and B) Experimental (A) and calculated (B) IR-induced absorbance DAbs(Eph, t). (C) Upper panel:\nIR electric field EIR(t) extracted from a streaking measurement acquired simultaneously with the trace in (A). Lower panels, from bottom to top: ",
+      "label": "Fig. 2",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\74198cb8\\74198cb8_p02_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "plot"
+    },
+    {
+      "figure_id": "74198cb8_fig_002",
+      "caption": "Fig. 3. Simulation results. (A and B) Diamond band structure and DOS, respectively.The main subbands\ndominating the diamond optical response are labeled with numbers and highlighted by a thicker colored line\nin (A); the same color code is used to mark the DOS of each subband in (B). (C) Cartoon of t",
+      "label": "Fig. 3",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\74198cb8\\74198cb8_p03_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

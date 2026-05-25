@@ -1,0 +1,294 @@
+[
+  {
+    "doi": "10.1103/physrevlett.79.2967",
+    "title": "Generation of Coherent Soft X Rays at 2.7 nm Using High Harmonics",
+    "year": "1997",
+    "cites": 739,
+    "journal": "Physical Review Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Zenghu",
+        "lastName": "Chang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andy",
+        "lastName": "Rundquist"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Haiwen",
+        "lastName": "Wang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Margaret",
+        "lastName": "M. Murnane"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Henry",
+        "lastName": "C. Kapteyn"
+      }
+    ]
+  },
+  {
+    "doi": "10.1063/1.1148795",
+    "title": "High power ultrafast lasers",
+    "year": "1998",
+    "cites": 621,
+    "journal": "Review of Scientific Instruments",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Sterling",
+        "lastName": "Backus"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Charles",
+        "lastName": "G. Durfee"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Margaret",
+        "lastName": "M. Murnane"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Henry",
+        "lastName": "C. Kapteyn"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/nphoton.2010.256",
+    "title": "The attosecond nonlinear optics of bright coherent X-ray generation",
+    "year": "2010",
+    "cites": 620,
+    "journal": "Nature Photonics",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Tenio",
+        "lastName": "Popmintchev"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ming-Chang",
+        "lastName": "Chen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "P.",
+        "lastName": "Arpin"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Margaret",
+        "lastName": "M. Murnane"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Henry",
+        "lastName": "C. Kapteyn"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevlett.78.1251",
+    "title": "High-Harmonic Generation of Attosecond Pulses in the “Single-Cycle” Regime",
+    "year": "1997",
+    "cites": 609,
+    "journal": "Physical Review Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Ivan",
+        "lastName": "P. Christov"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Margaret",
+        "lastName": "M. Murnane"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Henry",
+        "lastName": "C. Kapteyn"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevlett.82.3883",
+    "title": "Short-Pulse Laser Damage in Transparent Materials as a Function of Pulse Duration",
+    "year": "1999",
+    "cites": 539,
+    "journal": "Physical Review Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "An-Chun",
+        "lastName": "Tien"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sterling",
+        "lastName": "Backus"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Henry",
+        "lastName": "C. Kapteyn"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Margaret",
+        "lastName": "M. Murnane"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "G.",
+        "lastName": "Mourou"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/nmat2568",
+    "title": "Quasi-ballistic thermal transport from nanoscale interfaces observed using ultrafast coherent soft X-ray beams",
+    "year": "2009",
+    "cites": 436,
+    "journal": "Nature Materials",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Mark",
+        "lastName": "E. Siemens"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Qing",
+        "lastName": "Li"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ronggui",
+        "lastName": "Yang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Keith",
+        "lastName": "A. Nelson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Erik",
+        "lastName": "H. Anderson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Margaret",
+        "lastName": "M. Murnane"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Henry",
+        "lastName": "C. Kapteyn"
+      }
+    ]
+  },
+  {
+    "doi": "10.1364/ol.18.000977",
+    "title": "Generation of 11-fs pulses from a self-mode-locked Ti:sapphire laser",
+    "year": "1993",
+    "cites": 419,
+    "journal": "Optics Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Melanie",
+        "lastName": "T. Asaki"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chung-Po",
+        "lastName": "Huang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Dennis",
+        "lastName": "W. Garvey"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jianping",
+        "lastName": "Zhou"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Henry",
+        "lastName": "C. Kapteyn"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Margaret",
+        "lastName": "M. Murnane"
+      }
+    ]
+  },
+  {
+    "doi": "10.1364/ol.36.002755",
+    "title": "90 GW peak power few-cycle mid-infrared pulses from an optical parametric amplifier",
+    "year": "2011",
+    "cites": 411,
+    "journal": "Optics Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "G.",
+        "lastName": "Andriukaitis"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tadas",
+        "lastName": "Balčiūnas"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "S.",
+        "lastName": "Ališauskas"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "A.",
+        "lastName": "Pugžlys"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andrius",
+        "lastName": "Baltuška"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tenio",
+        "lastName": "Popmintchev"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ming-Chang",
+        "lastName": "Chen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Margaret",
+        "lastName": "M. Murnane"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Henry",
+        "lastName": "C. Kapteyn"
+      }
+    ]
+  }
+]

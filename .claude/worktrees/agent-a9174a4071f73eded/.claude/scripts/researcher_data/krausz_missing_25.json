@@ -1,0 +1,754 @@
+[
+  {
+    "doi": "10.1103/revmodphys.72.545",
+    "title": "Intense few-cycle laser fields: Frontiers of nonlinear optics",
+    "cites": 2970,
+    "date": "2000-04-01",
+    "journal": {
+      "id": "https://openalex.org/S73260565",
+      "display_name": "Reviews of Modern Physics",
+      "issn_l": "0034-6861",
+      "issn": [
+        "0034-6861",
+        "1538-4527",
+        "1539-0756"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1038/nature01414",
+    "title": "Attosecond control of electronic processes by intense light fields",
+    "cites": 1640,
+    "date": "2003-02-05",
+    "journal": {
+      "id": "https://openalex.org/S137773608",
+      "display_name": "Nature",
+      "issn_l": "0028-0836",
+      "issn": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1038/nature01143",
+    "title": "Time-resolved atomic inner-shell spectroscopy",
+    "cites": 1441,
+    "date": "2002-10-01",
+    "journal": {
+      "id": "https://openalex.org/S137773608",
+      "display_name": "Nature",
+      "issn_l": "0028-0836",
+      "issn": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://mediatum.ub.tum.de/1579402",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1038/nature09212",
+    "title": "Real-time observation of valence electron motion",
+    "cites": 1278,
+    "date": "2010-08-01",
+    "journal": {
+      "id": "https://openalex.org/S137773608",
+      "display_name": "Nature",
+      "issn_l": "0028-0836",
+      "issn": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1103/physrevlett.88.173903",
+    "title": "Attosecond Streak Camera",
+    "cites": 975,
+    "date": "2002-04-16",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://nrc-publications.canada.ca/eng/view/accepted/?id=bc8b5b86-6d18-4ce3-bc22-a04ef044bb3d",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1364/ol.22.000522",
+    "title": "Compression of high-energy laser pulses below 5 fs",
+    "cites": 956,
+    "date": "1997-04-15",
+    "journal": {
+      "id": "https://openalex.org/S134390580",
+      "display_name": "Optics Letters",
+      "issn_l": "0146-9592",
+      "issn": [
+        "0146-9592",
+        "1071-2763",
+        "1539-4794"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315679",
+      "host_organization_name": "Optica Publishing Group",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315679"
+      ],
+      "host_organization_lineage_names": [
+        "Optica Publishing Group"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1038/nature05648",
+    "title": "Attosecond real-time observation of electron tunnelling in atoms",
+    "cites": 908,
+    "date": "2007-04-01",
+    "journal": {
+      "id": "https://openalex.org/S137773608",
+      "display_name": "Nature",
+      "issn_l": "0028-0836",
+      "issn": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1103/physrevlett.80.4076",
+    "title": "Femtosecond Optical Breakdown in Dielectrics",
+    "cites": 869,
+    "date": "1998-05-04",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1103/physrevlett.78.3282",
+    "title": "Nonlinear Optical Pulse Propagation in the Single-Cycle Regime",
+    "cites": 851,
+    "date": "1997-04-28",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1126/science.1058561",
+    "title": "X-ray Pulses Approaching the Attosecond Frontier",
+    "cites": 746,
+    "date": "2001-03-09",
+    "journal": {
+      "id": "https://openalex.org/S3880285",
+      "display_name": "Science",
+      "issn_l": "0036-8075",
+      "issn": [
+        "0036-8075",
+        "1095-9203"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315823",
+      "host_organization_name": "American Association for the Advancement of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315823"
+      ],
+      "host_organization_lineage_names": [
+        "American Association for the Advancement of Science"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1038/nature11567",
+    "title": "Optical-field-induced current in dielectrics",
+    "cites": 746,
+    "date": "2012-12-05",
+    "journal": {
+      "id": "https://openalex.org/S137773608",
+      "display_name": "Nature",
+      "issn_l": "0028-0836",
+      "issn": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1126/science.278.5338.661",
+    "title": "Generation of Coherent X-rays in the Water Window Using 5-Femtosecond Laser Pulses",
+    "cites": 710,
+    "date": "1997-10-24",
+    "journal": {
+      "id": "https://openalex.org/S3880285",
+      "display_name": "Science",
+      "issn_l": "0036-8075",
+      "issn": [
+        "0036-8075",
+        "1095-9203"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315823",
+      "host_organization_name": "American Association for the Advancement of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315823"
+      ],
+      "host_organization_lineage_names": [
+        "American Association for the Advancement of Science"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1126/science.1210268",
+    "title": "Synthesized Light Transients",
+    "cites": 662,
+    "date": "2011-09-09",
+    "journal": {
+      "id": "https://openalex.org/S3880285",
+      "display_name": "Science",
+      "issn_l": "0036-8075",
+      "issn": [
+        "0036-8075",
+        "1095-9203"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315823",
+      "host_organization_name": "American Association for the Advancement of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315823"
+      ],
+      "host_organization_lineage_names": [
+        "American Association for the Advancement of Science"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1038/nature11720",
+    "title": "Controlling dielectrics with the electric field of light",
+    "cites": 599,
+    "date": "2012-12-05",
+    "journal": {
+      "id": "https://openalex.org/S137773608",
+      "display_name": "Nature",
+      "issn_l": "0028-0836",
+      "issn": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://www.nature.com/articles/nature11720.pdf",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1103/physrevlett.91.253004",
+    "title": "Measurement of the Phase of Few-Cycle Laser Pulses",
+    "cites": 499,
+    "date": "2003-12-18",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1038/nphoton.2014.28",
+    "title": "Attosecond metrology: from electron capture to future signal processing",
+    "cites": 498,
+    "date": "2014-02-28",
+    "journal": {
+      "id": "https://openalex.org/S120392215",
+      "display_name": "Nature Photonics",
+      "issn_l": "1749-4885",
+      "issn": [
+        "1749-4885",
+        "1749-4893"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1103/physrevlett.85.740",
+    "title": "Controlling the Phase Evolution of Few-Cycle Light Pulses",
+    "cites": 468,
+    "date": "2000-07-24",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1038/nature16528",
+    "title": "Optical attosecond pulses and tracking the nonlinear response of bound electrons",
+    "cites": 468,
+    "date": "2016-02-02",
+    "journal": {
+      "id": "https://openalex.org/S137773608",
+      "display_name": "Nature",
+      "issn_l": "0028-0836",
+      "issn": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1103/physrevlett.95.040401",
+    "title": "Attosecond Double-Slit Experiment",
+    "cites": 438,
+    "date": "2005-07-19",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://arxiv.org/pdf/quant-ph/0503165",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1103/physrevlett.73.2308",
+    "title": "Tunneling of Optical Pulses through Photonic Band Gaps",
+    "cites": 433,
+    "date": "1994-10-24",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false
+  },
+  {
+    "doi": "10.1126/science.1142855",
+    "title": "Attosecond Control and Measurement: Lightwave Electronics",
+    "cites": 387,
+    "date": "2007-08-09",
+    "journal": {
+      "id": "https://openalex.org/S3880285",
+      "display_name": "Science",
+      "issn_l": "0036-8075",
+      "issn": [
+        "0036-8075",
+        "1095-9203"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315823",
+      "host_organization_name": "American Association for the Advancement of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315823"
+      ],
+      "host_organization_lineage_names": [
+        "American Association for the Advancement of Science"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://mediatum.ub.tum.de/1579397",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1364/optica.1.000045",
+    "title": "Third-generation femtosecond technology",
+    "cites": 387,
+    "date": "2014-07-22",
+    "journal": {
+      "id": "https://openalex.org/S4210197940",
+      "display_name": "Optica",
+      "issn_l": "2334-2536",
+      "issn": [
+        "2334-2536"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315679",
+      "host_organization_name": "Optica Publishing Group",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315679"
+      ],
+      "host_organization_lineage_names": [
+        "Optica Publishing Group"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://doi.org/10.1364/optica.1.000045",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1038/nphys1404",
+    "title": "Laser-driven soft-X-ray undulator source",
+    "cites": 377,
+    "date": "2009-09-27",
+    "journal": {
+      "id": "https://openalex.org/S156274416",
+      "display_name": "Nature Physics",
+      "issn_l": "1745-2473",
+      "issn": [
+        "1745-2473",
+        "1745-2481"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://www.nature.com/articles/nphys1404.pdf",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1126/science.1073866",
+    "title": "Steering Attosecond Electron Wave Packets with Light",
+    "cites": 357,
+    "date": "2002-08-16",
+    "journal": {
+      "id": "https://openalex.org/S3880285",
+      "display_name": "Science",
+      "issn_l": "0036-8075",
+      "issn": [
+        "0036-8075",
+        "1095-9203"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315823",
+      "host_organization_name": "American Association for the Advancement of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315823"
+      ],
+      "host_organization_lineage_names": [
+        "American Association for the Advancement of Science"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://mediatum.ub.tum.de/1579422",
+    "is_oa": true
+  },
+  {
+    "doi": "10.1088/1367-2630/8/1/019",
+    "title": "Route to intense single attosecond pulses",
+    "cites": 341,
+    "date": "2006-01-31",
+    "journal": {
+      "id": "https://openalex.org/S148121101",
+      "display_name": "New Journal of Physics",
+      "issn_l": "1367-2630",
+      "issn": [
+        "1367-2630"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320083",
+      "host_organization_name": "IOP Publishing",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320083",
+        "https://openalex.org/P4310311669"
+      ],
+      "host_organization_lineage_names": [
+        "IOP Publishing",
+        "Institute of Physics"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://iopscience.iop.org/article/10.1088/1367-2630/8/1/019/pdf",
+    "is_oa": true
+  }
+]

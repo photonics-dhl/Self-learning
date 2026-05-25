@@ -1,0 +1,126 @@
+{
+  "researcher": "kling",
+  "n_papers": 6,
+  "n_figures": 49,
+  "papers": [
+    {
+      "paper_id": "fdaf5e56",
+      "title": "2026 Roadmap on Attosecond Science",
+      "authors": [
+        "Journal of Optics",
+        "IOP Publishing"
+      ],
+      "year": 2026,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\kling\\Varillas 等 - 2026 - Roadmap on attosecond science.pdf",
+      "filename": "Varillas 等 - 2026 - Roadmap on attosecond science.pdf",
+      "n_figs": 35,
+      "n_tables": 1,
+      "tables": [
+        {
+          "table_id": "fdaf5e56_tab_000",
+          "paper_id": "fdaf5e56",
+          "table_label": "Table 1",
+          "table_caption": "Table 1. Main parameters of the most recently finished and cutting-edge lasers of the ELI ALPS \nfacility.",
+          "page_num": 52,
+          "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\fdaf5e56\\fdaf5e56_p52_t00.png",
+          "width": 1735,
+          "height": 2252
+        }
+      ]
+    },
+    {
+      "paper_id": "84a37544",
+      "title": "Attosecond real-time observation of electron tunnelling in atoms",
+      "authors": [
+        "N. M. Kabachnik3",
+        "6",
+        "H. Schro¨der2",
+        "M. Lezius2",
+        "K. L. Kompa2",
+        "H.-G. Muller5",
+        "M. J. J. Vrakking5",
+        "S. Hendel3"
+      ],
+      "year": 1960,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\kling\\Uiberacker 等 - 2007 - Attosecond real-time observation of electron tunnelling in atoms.pdf",
+      "filename": "Uiberacker 等 - 2007 - Attosecond real-time observation of electron tunnelling in atoms.pdf",
+      "n_figs": 6,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "bf48afef",
+      "title": "Plasmonic generation of ultrashort",
+      "authors": [
+        "In-Yong Park1†",
+        "Seungchul Kim1†",
+        "Joonhee Choi1†",
+        "Dong-Hyub Lee1",
+        "Young-Jin Kim1",
+        "Matthias F. Kling2"
+      ],
+      "year": 2011,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\kling\\Park 等 - 2011 - Plasmonic generation of ultrashort extreme-ultraviolet light pulses.pdf",
+      "filename": "Park 等 - 2011 - Plasmonic generation of ultrashort extreme-ultraviolet light pulses.pdf",
+      "n_figs": 4,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "b1a9afe0",
+      "title": "Controlled near-ﬁeld enhanced electron acceleration from dielectric nanospheres with intense few-cycle laser ﬁelds",
+      "authors": [],
+      "year": 2011,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\kling\\Zherebtsov 等 - 2011 - Controlled near-field enhanced electron acceleration from dielectric nanospheres with intense few-cy.pdf",
+      "filename": "Zherebtsov 等 - 2011 - Controlled near-field enhanced electron acceleration from dielectric nanospheres with intense few-cy.pdf",
+      "n_figs": 2,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "0ea810a4",
+      "title": "22. A simple calculation indicates that the magnitudes of Vs",
+      "authors": [
+        "volts. In practice",
+        "if we consider the polarization and"
+      ],
+      "year": 2005,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\kling\\Kling 等 - 2006 - Control of Electron Localization in Molecular Dissociation.pdf",
+      "filename": "Kling 等 - 2006 - Control of Electron Localization in Molecular Dissociation.pdf",
+      "n_figs": 1,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "e2006dee",
+      "title": "LETTERS",
+      "authors": [
+        "Eleftherios Goulielmakis1*",
+        "Zhi-Heng Loh2",
+        "3*",
+        "Adrian Wirth1",
+        "Robin Santra4",
+        "5",
+        "Nina Rohringer6"
+      ],
+      "year": 2010,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\kling\\Goulielmakis 等 - 2010 - Real-time observation of valence electron motion.pdf",
+      "filename": "Goulielmakis 等 - 2010 - Real-time observation of valence electron motion.pdf",
+      "n_figs": 1,
+      "n_tables": 0,
+      "tables": []
+    }
+  ]
+}

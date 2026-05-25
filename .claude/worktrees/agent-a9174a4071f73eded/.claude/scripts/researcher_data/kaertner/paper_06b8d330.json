@@ -1,0 +1,36 @@
+{
+  "paper_id": "06b8d330",
+  "title": "LETTERS",
+  "authors": [
+    "Chih-Hao Li1",
+    "2",
+    "Andrew J. Benedick3",
+    "Peter Fendel3",
+    "4",
+    "Alexander G. Glenday1",
+    "2",
+    "Franz X. Ka¨rtner3",
+    "David F. Phillips1"
+  ],
+  "year": 2008,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\kaertner\\Li 等 - 2008 - A laser frequency comb that enables radial velocity measurements with a precision of 1 cm s-1.pdf",
+  "filename": "Li 等 - 2008 - A laser frequency comb that enables radial velocity measurements with a precision of 1 cm s-1.pdf",
+  "n_figs": 1,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "06b8d330_fig_000",
+      "caption": "Figure 1 | Block diagram of the astro-comb. a, A stabilized 1-GHz frequency\ncomb (‘source-comb’) using a mode-locked femtosecond laser passes\nthrough an FP cavity that filters out unwanted comb lines and increases the\nline spacing to at most 40 GHz (,1 A˚ ). For the demonstration spectra shown\nin th",
+      "label": "Figure 1",
+      "page": 1,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\06b8d330\\06b8d330_p01_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    }
+  ],
+  "tables": []
+}

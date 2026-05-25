@@ -1,0 +1,62 @@
+{
+  "paper_id": "464c5e72",
+  "title": "nature photonics | VOL 5 | NOVEMBER 2011 | www.nature.com/naturephotonics",
+  "authors": [
+    "ver the past few decades",
+    "the ability to investigate ultra-"
+  ],
+  "year": 2011,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\nisoli\\Sansone 等 - 2011 - High-energy attosecond light sources.pdf",
+  "filename": "Sansone 等 - 2011 - High-energy attosecond light sources.pdf",
+  "n_figs": 4,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "464c5e72_fig_000",
+      "caption": "Figure 2 | Temporal gating. a,b, A multicycle driving field (blue curves) \ngenerates a train of attosecond pulses, separated by either half an optical \ncycle, T0/2, in the case of single-colour excitation (a), or a full optical \ncycle, T0, in the case of a two-colour excitation (b). Isolated attosec",
+      "label": "Figure 2",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\464c5e72\\464c5e72_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "464c5e72_fig_001",
+      "caption": "Figure 4 | Isolated attosecond pulses by harmonic generation from a \nsolid surface. a–c, Motion of the plasma surface induced by excitation \npulses with linear (a), circular (b) and time-dependent polarization (the \ncorresponding electric field, characterized by a short temporal window \nof linear po",
+      "label": "Figure 4",
+      "page": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\464c5e72\\464c5e72_p04_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "464c5e72_fig_002",
+      "caption": "Figure 5 | Attosecond nonlinear Fourier transform spectroscopy. a, Kinetic energy distribution of D+ ions as a function of the delay between a pair \nof harmonic fields. The horizontal axis was scaled by the optical cycle of the fundamental radiation. b, Potential energy curves of D2. The one-photon ",
+      "label": "Figure 5",
+      "page": 5,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\464c5e72\\464c5e72_p05_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "464c5e72_fig_003",
+      "caption": "Figure 6 | Attosecond pump–probe experiment for investigating electron \nmotion inside an atom. The first pump XUV pulse (central energy of \n23.7 eV) excites the ground state to the superposition 1s + 1snp. The radial \ndistributions in the (r1, r2) plane are shown before (t = 0 fs) and after \n(t = 1.",
+      "label": "Figure 6",
+      "page": 6,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\464c5e72\\464c5e72_p06_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

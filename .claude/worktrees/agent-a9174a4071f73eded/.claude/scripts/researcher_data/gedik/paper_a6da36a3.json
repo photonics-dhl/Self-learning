@@ -1,0 +1,48 @@
+{
+  "paper_id": "a6da36a3",
+  "title": "Nature  |  Vol 602  |  24 February 2022  |  601",
+  "authors": [],
+  "year": 2022,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\gedik\\Song 等 - 2022 - Evidence for a single-layer van der waals multiferroic.pdf",
+  "filename": "Song 等 - 2022 - Evidence for a single-layer van der waals multiferroic.pdf",
+  "n_figs": 3,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "a6da36a3_fig_000",
+      "caption": "Fig. 1 | Crystal structure, magnetic order and optical characterization of \nbulk NiI2. a, The high-temperature R m\n3\n structure of NiI2. b, The helical \nmagnetic structure of bulk NiI2 below TN,2 = 59.5 K (see text). c, Temperature- \ndependent linear dichroism (∆R(T)) measurements on a mono-domain r",
+      "label": "Fig. 1",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a6da36a3\\a6da36a3_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "a6da36a3_fig_001",
+      "caption": "Fig. 2 | Birefringence and SHG in few- and single-layer NiI2. a, Optical image \nof single-layer (1L) and two-layer (2L) NiI2 samples grown on hBN with atomic \nstep height profiles measured by atomic force microscopy (scale bar, 5 µm).  \nb, Temperature-dependent polarized microscopy images on the sam",
+      "label": "Fig. 2",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a6da36a3\\a6da36a3_p03_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "a6da36a3_fig_002",
+      "caption": "Fig. 3 | Layer-dependent magnetic transition temperatures and the ground \nstate of single-layer NiI2. a, Evolution of the reduced temperature t as a \nfunction of the interlayer exchange J\nJ j\n/ (\n)\n⊥\n⊥, where t = T N,2\nbulk/Tc\nsingle-layer  \nis the ratio of the bulk and single-layer transition tempe",
+      "label": "Fig. 3",
+      "page": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a6da36a3\\a6da36a3_p04_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    }
+  ],
+  "tables": []
+}

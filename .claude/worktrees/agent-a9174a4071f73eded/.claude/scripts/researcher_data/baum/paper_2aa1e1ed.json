@@ -1,0 +1,41 @@
+{
+  "paper_id": "2aa1e1ed",
+  "title": "Electron microscopy of electromagnetic waveforms",
+  "authors": [
+    "J. E. Thomas",
+    "Science 298",
+    "2179–2182 (2002)."
+  ],
+  "year": 2002,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\baum\\Ryabov和Baum - 2016 - Electron microscopy of electromagnetic waveforms.pdf",
+  "filename": "Ryabov和Baum - 2016 - Electron microscopy of electromagnetic waveforms.pdf",
+  "n_figs": 2,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "2aa1e1ed_fig_000",
+      "caption": "Fig. 3. Space-time-field results in a split-ring\nresonator. (A) Time-frozen electric field vectors at\nthree delay times (full results in movie S3). Scale\nbar, 100 mm. (B) Time-dependent fields (left) and\npolarizations (right) at locations (1) and (2) in (A).\n(C) Space-time map of the surface carrier",
+      "label": "Fig. 3",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2aa1e1ed\\2aa1e1ed_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "2aa1e1ed_fig_001",
+      "caption": "Fig. 4. Rectangle and butterfly resonators. (A) Time-frozen electric field vectors at 2.2 ps delay (full results in movie S4). (B) Time-dependent field at the center.\n(C) First four modes revealed through singular value decomposition. (D) Time traces (amplitudes, scaled) of modes 1, 2, and 3. (E) El",
+      "label": "Fig. 4",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2aa1e1ed\\2aa1e1ed_p03_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "plot"
+    }
+  ],
+  "tables": []
+}

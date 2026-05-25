@@ -1,0 +1,293 @@
+{
+  "paper_id": "4104fc7d",
+  "title": "Journal of Physics B:",
+  "authors": [
+    "Atomic",
+    "Molecular and"
+  ],
+  "year": 2018,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\lhuillier\\Young 等 - 2018 - Roadmap of ultrafast x-ray atomic and molecular physics.pdf",
+  "filename": "Young 等 - 2018 - Roadmap of ultrafast x-ray atomic and molecular physics.pdf",
+  "n_figs": 25,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "4104fc7d_fig_000",
+      "caption": "Figure 1. Phase space covered by the XFEL and HHG sources\ndiscussed in this roadmap. For XFELs, the pulse duration represents\nthat of a single pulse, whereas for HHG, the range spans both single\npulses and pulse trains spaced by the period of the driver laser. The\nnumbers in each island indicate the",
+      "label": "Figure 1",
+      "page": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p04_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "4104fc7d_fig_001",
+      "caption": "Figure 3. Experimental techniques used in ultrafast x-ray science\nmapped onto photon number per pulse and photon energy typically\nused (blue). The high-ﬂuence regime enables nonlinear x-ray\nspectroscopies and single-shot imaging, potentially with atomistic\nresolution. Low ﬂuences are employed to rem",
+      "label": "Figure 3",
+      "page": 5,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p05_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "4104fc7d_fig_002",
+      "caption": "Figure 4. Upper panel, a schematic view of the radio-sensitizing effect\nof 5-iodouracil (5IU), a nucleobase analog of biological relevance.\nThe work described in [6] illustrates how the molecule breaks apart\nand what ionic fragments are formed via the breakage of the molecular\nediﬁce shortly after t",
+      "label": "Figure 4",
+      "page": 6,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p06_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    },
+    {
+      "figure_id": "4104fc7d_fig_003",
+      "caption": "Figure 5. Transient near-edge absorption spectrum of thymine.\nExcitation of the molecule with ultraviolet light leads to strong\noxygen 1s–n absorption due to the half-full oxygen lone-pair orbital\nn. Reprinted by permission from Macmillan Publishers Ltd: Nature\nCommunications [17], Copyright 2017.",
+      "label": "Figure 5",
+      "page": 8,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p08_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "spectrum"
+    },
+    {
+      "figure_id": "4104fc7d_fig_004",
+      "caption": "Figure 6. Potential energy curves for different steps of the KLL\nAuger cascade following Cl 1s→σ* excitation. Wave-function\ndistributions are shown in different colors for up to 8 fs after x-ray\nphoton absorption with 1 fs increments.",
+      "label": "Figure 6",
+      "page": 10,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p10_f04.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "4104fc7d_fig_005",
+      "caption": "Figure 7. Schematic diagram of the atomic Doppler Auger physical\nphenomenon. Reprinted by permission from Macmillan Publishers\nLtd: Nature Communications [28], Copyright 2014.",
+      "label": "Figure 7",
+      "page": 11,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p11_f05.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    },
+    {
+      "figure_id": "4104fc7d_fig_006",
+      "caption": "Figure 8. Schematic diagram of UV x-ray nonlinear pump–probe\nspectroscopy to observe long-range charge transport in biologically\nrelevant samples. A UV pulse initiates charge migration on a speciﬁc\nsite in the molecule. Two attosecond x-ray pulses that are tuned to\nspeciﬁc inner-shell absorption res",
+      "label": "Figure 8",
+      "page": 14,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p14_f06.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    },
+    {
+      "figure_id": "4104fc7d_fig_007",
+      "caption": "Figure 9. Two different x-ray pulse sequences for coherent\nattosecond x-ray Raman pump–probe spectroscopy. (a) Application\nof two attosecond x-ray pulses of controllable time delay Δt. The\nﬁrst pulse prepares a coherent, localized electronic valence\nwavepacket by an impulsive stimulated Raman proces",
+      "label": "Figure 9",
+      "page": 15,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p15_f07.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "4104fc7d_fig_008",
+      "caption": "Figure 10. Schematic view of coherent control. Phase coherent light\nof one or more colors interacts with a target. The outcome of the\ninteraction is determined by the phase and amplitude of the light. Ion\nyield, direction of emission of ions and electrons, etc can be\ncontrolled.",
+      "label": "Figure 10",
+      "page": 16,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p16_f08.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    },
+    {
+      "figure_id": "4104fc7d_fig_009",
+      "caption": "Figure 11. Range of excitation energies (eV) and wavevectors\n(nm−1) potentially accessible by XUV and soft x-ray FWM\nexperiments.",
+      "label": "Figure 11",
+      "page": 17,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p17_f09.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "4104fc7d_fig_010",
+      "caption": "Figure 12. Example for the sequential ionization process upon core\nexcitation. Reprinted by permission from Macmillan Publishers Ltd:\nNature [1], Copyright 2010.",
+      "label": "Figure 12",
+      "page": 18,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p18_f10.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "4104fc7d_fig_011",
+      "caption": "Figure 13. Experiments at FLASH, LCLS, and SACLA have studied\nx-ray interaction with molecules containing one heavy element such\nas Se or I, contrasting it with the response of an isolated atom with\nsimilar absorption cross section (Kr and Xe, respectively). Under-\nstanding the local molecular respo",
+      "label": "Figure 13",
+      "page": 20,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p20_f11.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "4104fc7d_fig_012",
+      "caption": "Figure 14. Sketch of a multi-coincidence pump–probe experiment\nwith detection of ions and electrons. Ion time-of-ﬂight spectra allow\none to identify the ﬁnal products of a particular reaction channel,\nwhile the kinetic energies and emission angles of ionic fragments\nand of the photo and Auger electr",
+      "label": "Figure 14",
+      "page": 21,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p21_f12.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "4104fc7d_fig_013",
+      "caption": "Figure 15. Examples of single-shot diffractive images from nanometer-\nsized samples. (a) Early diffractive single-shot image of a single van der\nWaals cluster. Reproduced from [92]. © IOP Publishing Ltd. All rights\nreserved, (b) a cluster dimer. Reproduced from [93]. © IOP Publishing\nLtd. CC BY 3.0,",
+      "label": "Figure 15",
+      "page": 22,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p22_f13.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "4104fc7d_fig_014",
+      "caption": "Figure 16. Reconstructed atomic-scale view of the XUV suscept-\nibility of diamond at 60 eV from x-ray down conversion ∼11 keV\nphotons. Reprinted by permission from Macmillan Publishers Ltd:\nNature Physics [103], Copyright 2011.",
+      "label": "Figure 16",
+      "page": 24,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p24_f14.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "4104fc7d_fig_015",
+      "caption": "Figure 17. Phase matching of HHG. Experiment conﬁrms predic-\ntions that, using longer wavelength driving lasers, produces phase-\nmatched emission to shorter wavelengths for fully phase-matched\nHHG in weakly ionized gasses [129]. Further experiment and theory\nmay reveal new regimes of efﬁcient HHG [1",
+      "label": "Figure 17",
+      "page": 28,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p28_f15.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "4104fc7d_fig_016",
+      "caption": "Figure 18. HHG as a unique light source to uncover new science and\ntechnology at the spatio-temporal limits. Coherent diffractive\nimaging with sub-wavelength resolution [141]. The lifetime of\nhighly excited states in solids can be directly measured, conﬁrming\n‘ﬁnal state’ effects in photoemission sp",
+      "label": "Figure 18",
+      "page": 29,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p29_f16.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "4104fc7d_fig_017",
+      "caption": "Figure 19. FOPA for different spectral regimes: NIR, pumped by Ti:Sa lasers, leading to ampliﬁed pulses up to 2.2 μm (blue); MIR, pumped\nby Yb lasers reaching 1.5–4 μm (green) to the IR up to 10 μm when pumped by Ho lasers (red). Possible applications are indicated on the\nright. The crystal between ",
+      "label": "Figure 19",
+      "page": 31,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p31_f17.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "spectrum"
+    },
+    {
+      "figure_id": "4104fc7d_fig_018",
+      "caption": "Figure 20. Evolution of CEP-stable few-cycle lasers, which are the\nmost suitable driver lasers in attosecond experiments, towards higher\npulse energy and higher repetition rates, as illustrated by a series of\nrepresentative laser systems that were recently completed or are\ncurrently under developmen",
+      "label": "Figure 20",
+      "page": 32,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p32_f18.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "4104fc7d_fig_019",
+      "caption": "Figure 21. Time-resolved magnetic circular dichroism dynamics\naround the M2,3 edge of Co (60.8 eV). The nonlinear least-square ﬁt\nreveals a mono-exponential decay with a demagnetization time\nconstant of (92±22) fs, convoluted with a 59 fs instrument\nresponse function. Reprinted ﬁgure with permissi",
+      "label": "Figure 21",
+      "page": 33,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p33_f19.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "4104fc7d_fig_020",
+      "caption": "Figure 23. Phase variation of sideband 16 as a function of the energy\nof harmonic 17, close to the 3s−14p quasibound state. Theoretical\nresults are indicated by green and red solid lines, whereas the\nexperimental results are shown by black symbols. (Adapted by\npermission from Macmillan Publishers Lt",
+      "label": "Figure 23",
+      "page": 35,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p35_f20.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "4104fc7d_fig_021",
+      "caption": "Figure 24. Reconstruction of charge migration in the iodoacetylene\ncation from high-harmonic spectroscopy. Figure adapted from [171]\nwith permission from AAAS.",
+      "label": "Figure 24",
+      "page": 36,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p36_f21.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "4104fc7d_fig_022",
+      "caption": "Figure 25. X-ray absorption spectroscopy with a high-harmonic\nsource. The dissociative strong-ﬁeld ionization of CF4 was studied at\nthe K-edge of carbon. Figure adapted from [151] with permission\nfrom AAAS.",
+      "label": "Figure 25",
+      "page": 37,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p37_f22.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "4104fc7d_fig_023",
+      "caption": "Figure 26. X-ray fs identiﬁcation of the key transition state labeled\n2 A, blue points, for ring opening of cyclohexadiene. From [216]\nwith permission from AAAS.",
+      "label": "Figure 26",
+      "page": 38,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p38_f23.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "4104fc7d_fig_024",
+      "caption": "Figure 27. Background free noncollinear FWM in argon,\nXUV+two 800 nm photons. From [214] with permission\nfrom AAAS.",
+      "label": "Figure 27",
+      "page": 39,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\4104fc7d\\4104fc7d_p39_f24.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    }
+  ],
+  "tables": []
+}

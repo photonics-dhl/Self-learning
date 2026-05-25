@@ -1,0 +1,8 @@
+{
+  "defaultOutputPaths": {
+    "drawio": "diagrams/drawio",
+    "mermaid": "diagrams/mermaid",
+    "excalidraw": "diagrams/excalidraw"
+  },
+  "initialized": true
+}

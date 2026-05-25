@@ -1,0 +1,195 @@
+import { requestUrl } from 'obsidian';
+import { ClaudeRequest, ClaudeResponse } from './types';
+
+const ZAI_BASE_URL = 'https://api.z.ai/api/anthropic';
+const DEFAULT_MODEL = 'glm-5.1';
+
+export interface ZAIClientConfig {
+	apiKey: string;
+	model?: string;
+	maxTokens?: number;
+}
+
+export class ZAIClient {
+	private apiKey: string;
+	private model: string;
+	private maxTokens: number;
+
+	constructor(config: ZAIClientConfig) {
+		this.apiKey = config.apiKey;
+		this.model = config.model || DEFAULT_MODEL;
+		this.maxTokens = config.maxTokens || 4096;
+	}
+
+	setModel(model: string) {
+		this.model = model;
+	}
+
+	getModel(): string {
+		return this.model;
+	}
+
+	private buildSystemPrompt(request: ClaudeRequest): string {
+		const parts: string[] = [];
+
+		parts.push('你是光学研究者的学术助手，运行在 Obsidian 知识管理环境中。');
+		parts.push('用中文回答，物理术语保留英文。输出 Markdown 格式。');
+
+		if (request.context.note_content) {
+			parts.push(`\n当前笔记内容（压缩）:\n${request.context.note_content}`);
+		}
+
+		if (request.options.include_formula) {
+			parts.push('包含 LaTeX 公式（行内 $...$，行间 $$...$$）。');
+		}
+
+		return parts.join('\n');
+	}
+
+	private buildMessages(request: ClaudeRequest): Array<{role: 'user' | 'assistant'; content: string | any[]}> {
+		const messages: Array<{role: 'user' | 'assistant'; content: string | any[]}> = [];
+		const history = request.context.conversation_history || [];
+
+		for (const entry of history) {
+			messages.push({ role: entry.role, content: entry.content });
+		}
+
+		return messages;
+	}
+
+	private makeHeaders(): Record<string, string> {
+		return {
+			'Content-Type': 'application/json',
+			'Authorization': `Bearer ${this.apiKey}`,
+			'anthropic-version': '2023-06-01'
+		};
+	}
+
+	async sendRequest(request: ClaudeRequest): Promise<ClaudeResponse> {
+		const response = await requestUrl({
+			url: `${ZAI_BASE_URL}/v1/messages`,
+			method: 'POST',
+			headers: this.makeHeaders(),
+			body: JSON.stringify({
+				model: this.model,
+				max_tokens: this.maxTokens,
+				system: this.buildSystemPrompt(request),
+				messages: this.buildMessages(request),
+				stream: false
+			})
+		});
+
+		const data = response.json;
+		const text = data.content?.[0]?.text || '';
+		return {
+			response: text,
+			write_actions: []
+		};
+	}
+
+	async sendRequestStream(
+		request: ClaudeRequest,
+		onToken: (text: string) => void,
+		onDone: (fullText: string) => void,
+		onError: (error: Error) => void
+	): Promise<void> {
+		try {
+			const response = await requestUrl({
+				url: `${ZAI_BASE_URL}/v1/messages`,
+				method: 'POST',
+				headers: this.makeHeaders(),
+				body: JSON.stringify({
+					model: this.model,
+					max_tokens: this.maxTokens,
+					system: this.buildSystemPrompt(request),
+					messages: this.buildMessages(request),
+					stream: false
+				})
+			});
+
+			const data = response.json;
+			const fullText = data.content?.[0]?.text || '';
+
+			// Simulate streaming by sending text in chunks
+			const chunkSize = 8;
+			for (let i = 0; i < fullText.length; i += chunkSize) {
+				onToken(fullText.slice(i, i + chunkSize));
+			}
+
+			onDone(fullText);
+		} catch (err) {
+			onError(err instanceof Error ? err : new Error(String(err)));
+		}
+	}
+
+	async sendVisionRequest(
+		textPrompt: string,
+		imageBase64: string,
+		mediaType: 'image/jpeg' | 'image/png' | 'image/gif' | 'image/webp',
+		systemPrompt?: string
+	): Promise<string> {
+		// z.ai vision 用 OpenAI 兼容端点
+		const VISION_BASE_URL = 'https://api.z.ai/api/paas/v4';
+		const dataUrl = `data:${mediaType};base64,${imageBase64}`;
+
+		const response = await requestUrl({
+			url: `${VISION_BASE_URL}/chat/completions`,
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json',
+				'Authorization': `Bearer ${this.apiKey}`
+			},
+			body: JSON.stringify({
+				model: 'glm-4.6v-flash',
+				max_tokens: this.maxTokens,
+				messages: [
+					{
+						role: 'system',
+						content: systemPrompt || '你是光学领域专家，分析图片中的物理内容。用中文回答，物理术语保留英文。' +
+			'公式用 UTF-8 Unicode 符号直接输出，不要用 LaTeX。' +
+			'例如：用 E=mc² 不用 $E=mc^2$；用 λ=hc/E 不用 $\lambda=hc/E$；' +
+			'用 ∫、∑、∂、∇、≈、≤、→ 等 Unicode 数学符号。' +
+			'分数用 a/b 或 a÷b，不用 \frac{a}{b}。'
+					},
+					{
+						role: 'user',
+						content: [
+							{
+								type: 'image_url',
+								image_url: { url: dataUrl }
+							},
+							{
+								type: 'text',
+								text: textPrompt
+							}
+						]
+					}
+				],
+				stream: false
+			})
+		});
+
+		const data = response.json;
+		console.log('[ZAIClient] Vision response:', JSON.stringify(data).substring(0, 500));
+		return data.choices?.[0]?.message?.content || '';
+	}
+
+	async testConnection(): Promise<boolean> {
+		try {
+			const response = await requestUrl({
+				url: `${ZAI_BASE_URL}/v1/messages`,
+				method: 'POST',
+				headers: this.makeHeaders(),
+				body: JSON.stringify({
+					model: this.model,
+					max_tokens: 32,
+					messages: [{ role: 'user', content: 'Hi' }],
+					stream: false
+				})
+			});
+			return response.status >= 200 && response.status < 300;
+		} catch {
+			return false;
+		}
+	}
+}

@@ -1,0 +1,83 @@
+{
+  "researcher": "miao",
+  "n_papers": 4,
+  "n_figures": 15,
+  "papers": [
+    {
+      "paper_id": "f013dfb1",
+      "title": "REVIEW SUMMARY",
+      "authors": [],
+      "year": 2022,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\miao\\Yao 等 - 2022 - High-entropy nanoparticles synthesis-structure-property relationships and data-driven discovery.pdf",
+      "filename": "Yao 等 - 2022 - High-entropy nanoparticles synthesis-structure-property relationships and data-driven discovery.pdf",
+      "n_figs": 5,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "17e85d22",
+      "title": "Nature  |  Vol 649  |  29 January 2026  |  1123",
+      "authors": [
+        "Yuxuan Liao1",
+        "Haozhi Sha1",
+        "Colum M. O’Leary1",
+        "Hanfeng Zhong1",
+        "Yao Yang2 & Jianwei Miao1 ✉"
+      ],
+      "year": 2026,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\miao\\Liao 等 - 2026 - Accurate determination of the 3D atomic structure of amorphous materials.pdf",
+      "filename": "Liao 等 - 2026 - Accurate determination of the 3D atomic structure of amorphous materials.pdf",
+      "n_figs": 4,
+      "n_tables": 1,
+      "tables": [
+        {
+          "table_id": "17e85d22_tab_000",
+          "paper_id": "17e85d22",
+          "table_label": "Table 1",
+          "table_caption": "Table 1 summarizes the AET workflow for preprocessing, tomographic \nreconstruction and postprocessing, alongside the corresponding \nprocedures used in ref. 28 for comparison. Our approach makes only \nminimal previous assumptions—atomicity, minimum interatomic spac-\ning and known chemical species—ens",
+          "page_num": 1,
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\17e85d22\\17e85d22_p01_t00.png",
+          "width": 1113,
+          "height": 2276
+        }
+      ]
+    },
+    {
+      "paper_id": "64931a0f",
+      "title": "REFERENCES AND NOTES",
+      "authors": [
+        "M. Ringbauer et al.",
+        "Nat. Phys. 11",
+        "249–254 (2015)."
+      ],
+      "year": 2015,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\miao\\Miao 等 - 2015 - Beyond crystallography diffractive imaging using coherent x-ray light sources.pdf",
+      "filename": "Miao 等 - 2015 - Beyond crystallography diffractive imaging using coherent x-ray light sources.pdf",
+      "n_figs": 4,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "0fb166d5",
+      "title": "© 1999 Macmillan Magazines Ltd",
+      "authors": [
+        "respectively. Thus on compression",
+        "b-Si3N4 will directly transform"
+      ],
+      "year": 1999,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\miao\\Miao 等 - 1999 - Extending the methodology of X-ray crystallography to allow imaging of micrometre-sized non-crystall.pdf",
+      "filename": "Miao 等 - 1999 - Extending the methodology of X-ray crystallography to allow imaging of micrometre-sized non-crystall.pdf",
+      "n_figs": 2,
+      "n_tables": 0,
+      "tables": []
+    }
+  ]
+}

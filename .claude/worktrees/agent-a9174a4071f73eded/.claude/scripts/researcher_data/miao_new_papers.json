@@ -1,0 +1,657 @@
+[
+  {
+    "doi": "10.1109/msp.2014.2352673",
+    "title": "Phase Retrieval with Application to Optical Imaging: A contemporary overview",
+    "year": "2015",
+    "cites": 1117,
+    "journal": "IEEE Signal Processing Magazine",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Yoav",
+        "lastName": "Shechtman"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yonina",
+        "lastName": "C. Eldar"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Oren",
+        "lastName": "Cohen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Henry",
+        "lastName": "N. Chapman"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jianwei",
+        "lastName": "Miao"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mordechai",
+        "lastName": "Segev"
+      }
+    ]
+  },
+  {
+    "doi": "10.1364/josaa.15.001662",
+    "title": "Phase retrieval from the magnitude of the Fourier transforms of nonperiodic objects",
+    "year": "1998",
+    "cites": 694,
+    "journal": "Journal of the Optical Society of America A",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Jianwei",
+        "lastName": "Miao"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "D.",
+        "lastName": "Sayre"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Henry",
+        "lastName": "N. Chapman"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/nature10934",
+    "title": "Electron tomography at 2.4-ångström resolution",
+    "year": "2012",
+    "cites": 437,
+    "journal": "Nature",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Mary",
+        "lastName": "Scott"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chien‐Chun",
+        "lastName": "Chen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Matthew",
+        "lastName": "Mecklenburg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chun",
+        "lastName": "Zhu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Rui",
+        "lastName": "Xu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Peter",
+        "lastName": "Ercius"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "U.",
+        "lastName": "Dahmen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "B.",
+        "lastName": "C. Regan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jianwei",
+        "lastName": "Miao"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/nature12009",
+    "title": "Three-dimensional imaging of dislocations in a nanoparticle at atomic resolution",
+    "year": "2013",
+    "cites": 424,
+    "journal": "Nature",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Chien‐Chun",
+        "lastName": "Chen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chun",
+        "lastName": "Zhu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Edward",
+        "lastName": "R. White"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chin‐Yi",
+        "lastName": "Chiu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mary",
+        "lastName": "Scott"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "B.",
+        "lastName": "C. Regan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Laurence",
+        "lastName": "D. Marks"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yu",
+        "lastName": "Huang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jianwei",
+        "lastName": "Miao"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/s41586-021-03354-0",
+    "title": "Determining the three-dimensional atomic structure of a metallic glass",
+    "year": "2020",
+    "cites": 406,
+    "journal": "arXiv (Cornell University)",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Yao",
+        "lastName": "Yang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jihan",
+        "lastName": "Zhou"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Fan",
+        "lastName": "Zhu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yakun",
+        "lastName": "Yuan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Dillan",
+        "lastName": "J. Chang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Dennis",
+        "lastName": "Kim"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Minh",
+        "lastName": "Phạm"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Arjun",
+        "lastName": "Rana"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Xuezeng",
+        "lastName": "Tian"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yonggang",
+        "lastName": "Yao"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/s41586-019-1317-x",
+    "title": "Observing crystal nucleation in four dimensions using atomic electron tomography",
+    "year": "2019",
+    "cites": 337,
+    "journal": "Nature",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Jihan",
+        "lastName": "Zhou"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yongsoo",
+        "lastName": "Yang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yao",
+        "lastName": "Yang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Dennis",
+        "lastName": "Kim"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andrew",
+        "lastName": "Yuan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Xuezeng",
+        "lastName": "Tian"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Colin",
+        "lastName": "Ophus"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Fan",
+        "lastName": "Sun"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andreas",
+        "lastName": "K. Schmid"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michael",
+        "lastName": "H. Nathanson"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevlett.89.088303",
+    "title": "High Resolution 3D X-Ray Diffraction Microscopy",
+    "year": "2002",
+    "cites": 326,
+    "journal": "Physical Review Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Jianwei",
+        "lastName": "Miao"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tetsuya",
+        "lastName": "Ishikawa"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Bart",
+        "lastName": "Johnson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Erik",
+        "lastName": "H. Anderson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Barry",
+        "lastName": "Lai"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Keith",
+        "lastName": "O. Hodgson"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevlett.99.098103",
+    "title": "Lensless Diffractive Imaging Using Tabletop Coherent High-Harmonic Soft-X-Ray Beams",
+    "year": "2007",
+    "cites": 319,
+    "journal": "Physical Review Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Richard",
+        "lastName": "L. Sandberg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ariel",
+        "lastName": "Paul"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Daisy",
+        "lastName": "Raymondson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Steffen",
+        "lastName": "Hädrich"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "David",
+        "lastName": "M. Gaudiosi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jim",
+        "lastName": "Holtsnider"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "R.",
+        "lastName": "Tobey"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Oren",
+        "lastName": "Cohen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Margaret",
+        "lastName": "M. Murnane"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Henry",
+        "lastName": "C. Kapteyn"
+      }
+    ]
+  },
+  {
+    "doi": "10.1126/science.aaf2157",
+    "title": "Atomic electron tomography: 3D structures without crystals",
+    "year": "2016",
+    "cites": 308,
+    "journal": "Science",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Jianwei",
+        "lastName": "Miao"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Peter",
+        "lastName": "Ercius"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Simon",
+        "lastName": "J. L. Billinge"
+      }
+    ]
+  },
+  {
+    "doi": "10.1073/pnas.1000156107",
+    "title": "Quantitative 3D imaging of whole, unstained cells by using X-ray diffraction microscopy",
+    "year": "2010",
+    "cites": 279,
+    "journal": "Proceedings of the National Academy of Sciences",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Huaidong",
+        "lastName": "Jiang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Changyong",
+        "lastName": "Song"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chien‐Chun",
+        "lastName": "Chen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Rui",
+        "lastName": "Xu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kevin",
+        "lastName": "S. Raines"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "B",
+        "lastName": "Fahimian"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chien-Hung",
+        "lastName": "Lu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ting-Kuo",
+        "lastName": "Lee"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Akio",
+        "lastName": "Nakashima"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jun",
+        "lastName": "Urano"
+      }
+    ]
+  },
+  {
+    "doi": "10.1073/pnas.232691299",
+    "title": "Imaging whole <i>Escherichia coli</i> bacteria by using single-particle x-ray diffraction",
+    "year": "2002",
+    "cites": 272,
+    "journal": "Proceedings of the National Academy of Sciences",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Jianwei",
+        "lastName": "Miao"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Keith",
+        "lastName": "O. Hodgson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tetsuya",
+        "lastName": "Ishikawa"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Carolyn",
+        "lastName": "A. Larabell"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mark",
+        "lastName": "LeGros"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yoshinori",
+        "lastName": "Nishino"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevb.76.064113",
+    "title": "Application of optimization technique to noncrystalline x-ray diffraction microscopy: Guided hybrid input-output method",
+    "year": "2007",
+    "cites": 247,
+    "journal": "Physical Review B",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Chien‐Chun",
+        "lastName": "Chen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jianwei",
+        "lastName": "Miao"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "C.",
+        "lastName": "W. Wang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ting-Kuo",
+        "lastName": "Lee"
+      }
+    ]
+  },
+  {
+    "doi": "10.1146/annurev.physchem.59.032607.093642",
+    "title": "Extending X-Ray Crystallography to Allow the Imaging of Noncrystalline Materials, Cells, and Single Protein Complexes",
+    "year": "2007",
+    "cites": 244,
+    "journal": "Annual Review of Physical Chemistry",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Jianwei",
+        "lastName": "Miao"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tetsuya",
+        "lastName": "Ishikawa"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Qun",
+        "lastName": "Shen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Thomas",
+        "lastName": "Earnest"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevb.67.174104",
+    "title": "Phase retrieval of diffraction patterns from noncrystalline samples using the oversampling method",
+    "year": "2003",
+    "cites": 199,
+    "journal": "Physical review. B, Condensed matter",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Jianwei",
+        "lastName": "Miao"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tetsuya",
+        "lastName": "Ishikawa"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Erik",
+        "lastName": "H. Anderson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Keith",
+        "lastName": "O. Hodgson"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevlett.101.158101",
+    "title": "Quantitative Imaging of Single, Unstained Viruses with Coherent X Rays",
+    "year": "2008",
+    "cites": 198,
+    "journal": "Physical Review Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Changyong",
+        "lastName": "Song"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Huaidong",
+        "lastName": "Jiang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Adrian",
+        "lastName": "P. Mancuso⋈"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Bagrat",
+        "lastName": "Amirbekian"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Li",
+        "lastName": "Peng"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ren",
+        "lastName": "Sun"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sanket",
+        "lastName": "Shah"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Z.",
+        "lastName": "Hong Zhou"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tetsuya",
+        "lastName": "Ishikawa"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jianwei",
+        "lastName": "Miao"
+      }
+    ]
+  }
+]

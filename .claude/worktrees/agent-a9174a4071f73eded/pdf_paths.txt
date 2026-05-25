@@ -1,0 +1,2 @@
+FEYNMAN=E:\PostGraduate\Science_softwares\Zotero\data\storage\PUW9A63V\量子电动力学讲义 (R.P.费曼) (Z-Library).pdf
+LANDAU_FIELDS=E:\PostGraduate\Science_softwares\Zotero\data\storage\T2HEA76D\场论(The Classical Theory of Fields) Volume 2 -- L_ D_ Landau, E_ M_ Lifshitz; 鲁欣, 任朗, 袁炳南(译); 邹振隆(校) -- 理论物理学教程(Course of Theoretical Physics), 2, 8, -- 9787040351736 -- d084ca00aa6a0d.pdf

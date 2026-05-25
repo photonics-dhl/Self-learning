@@ -1,0 +1,121 @@
+{
+  "researcher": "leone",
+  "n_papers": 5,
+  "n_figures": 10,
+  "papers": [
+    {
+      "paper_id": "51364f49",
+      "title": "1",
+      "authors": [
+        "Vincent Eggers1",
+        "†",
+        "*",
+        "Rafael Quintero-Bermudez1",
+        "2",
+        "‡",
+        "Kevin Gulu Xiong1",
+        "Stephen R. Leone1",
+        "2",
+        "3"
+      ],
+      "year": 0,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\leone\\Eggers 等 - 2026 - Background-free tracking of ultrafast hole and electron dynamics with XUV transient grating spectros.pdf",
+      "filename": "Eggers 等 - 2026 - Background-free tracking of ultrafast hole and electron dynamics with XUV transient grating spectros.pdf",
+      "n_figs": 4,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "a7126460",
+      "title": "Time-​resolved experimental techniques",
+      "authors": [],
+      "year": 1967,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\leone\\Kraus 等 - 2018 - The ultrafast X-ray spectroscopic revolution in chemical dynamics.pdf",
+      "filename": "Kraus 等 - 2018 - The ultrafast X-ray spectroscopic revolution in chemical dynamics.pdf",
+      "n_figs": 2,
+      "n_tables": 1,
+      "tables": [
+        {
+          "table_id": "a7126460_tab_000",
+          "paper_id": "a7126460",
+          "table_label": "Table 1",
+          "table_caption": "Table 1 | Overview of available short-​pulse X-​ray light sources",
+          "page_num": 4,
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a7126460\\a7126460_p04_t00.png",
+          "width": 1001,
+          "height": 2503
+        }
+      ]
+    },
+    {
+      "paper_id": "dff7caac",
+      "title": "ULTRAFAST DYNAMICS",
+      "authors": [
+        "Martin Schultze",
+        "1",
+        "2*† Krupa Ramasesha",
+        "1* C.D. Pemmaraju",
+        "3 S.A. Sato",
+        "4 D. Whitmore",
+        "1"
+      ],
+      "year": 2014,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\leone\\Schultze 等 - 2014 - Attosecond band-gap dynamics in silicon.pdf",
+      "filename": "Schultze 等 - 2014 - Attosecond band-gap dynamics in silicon.pdf",
+      "n_figs": 2,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "44441787",
+      "title": "Attosecond Optical Orientation",
+      "authors": [
+        "Lauren B. Drescher",
+        "1",
+        "2",
+        "3",
+        "* Nicola Mayer",
+        "4",
+        "3 Kylie Gannan",
+        "1 Jonah R. Adelman",
+        "1",
+        "Stephen R. Leone"
+      ],
+      "year": 2025,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\leone\\Drescher 等 - 2025 - Attosecond optical orientation.pdf",
+      "filename": "Drescher 等 - 2025 - Attosecond optical orientation.pdf",
+      "n_figs": 1,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "5d1fc28e",
+      "title": "LETTERS",
+      "authors": [
+        "Eleftherios Goulielmakis1*",
+        "Zhi-Heng Loh2",
+        "3*",
+        "Adrian Wirth1",
+        "Robin Santra4",
+        "5",
+        "Nina Rohringer6"
+      ],
+      "year": 2010,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\leone\\Goulielmakis 等 - 2010 - Real-time observation of valence electron motion.pdf",
+      "filename": "Goulielmakis 等 - 2010 - Real-time observation of valence electron motion.pdf",
+      "n_figs": 1,
+      "n_tables": 0,
+      "tables": []
+    }
+  ]
+}

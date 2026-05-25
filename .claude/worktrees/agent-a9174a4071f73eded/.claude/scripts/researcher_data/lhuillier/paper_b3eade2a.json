@@ -1,0 +1,48 @@
+{
+  "paper_id": "b3eade2a",
+  "title": "VOLUME 74, NUMBER 19",
+  "authors": [],
+  "year": 1995,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\lhuillier\\Salières 等 - 1995 - Coherence control of high-order harmonics.pdf",
+  "filename": "Salières 等 - 1995 - Coherence control of high-order harmonics.pdf",
+  "n_figs": 3,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "b3eade2a_fig_000",
+      "caption": "FIG. 3.\nConversion\nefficien\n(\nh\ns\na\nunction\nof the",
+      "label": "FIG. 3",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\b3eade2a\\b3eade2a_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "b3eade2a_fig_001",
+      "caption": "FIG. 4.\n(a) Near-field,\n(b) far-field,\n(c) temporal,\nand\n(d)\nspectral\nprofiles\nof the 45th harmonic.\nThe solid\nline\nis the\nresult\nobtained\nat z = 3 mm,\nand the dashed\nline the result\nat\nz = —1 mm.\nThe dot-dashed\nline in both (c) and (d) indicates\nthe result obtained\nat z = 0.",
+      "label": "FIG. 4",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\b3eade2a\\b3eade2a_p03_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "b3eade2a_fig_002",
+      "caption": "FIG. 5.\nTheoretical\n(a) and experimental\n(b) evolution\nof the\n39th harmonic\nfar-field\nprofile\nas a function\nof the position\no\ne\nf th\nmedium\nrelative\nto\nthe\nfocus.\nAs\ng\ndecreases,\nthe\npro\ne,\nrs\nqui\nfil,\nfi\nt\nuite\nnarrow\n(long-dashed\nline),\nbroaden",
+      "label": "FIG. 5",
+      "page": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\b3eade2a\\b3eade2a_p04_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

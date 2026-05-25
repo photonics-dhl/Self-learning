@@ -1,0 +1,70 @@
+{
+  "paper_id": "51364f49",
+  "title": "1",
+  "authors": [
+    "Vincent Eggers1",
+    "†",
+    "*",
+    "Rafael Quintero-Bermudez1",
+    "2",
+    "‡",
+    "Kevin Gulu Xiong1",
+    "Stephen R. Leone1",
+    "2",
+    "3"
+  ],
+  "year": 0,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\leone\\Eggers 等 - 2026 - Background-free tracking of ultrafast hole and electron dynamics with XUV transient grating spectros.pdf",
+  "filename": "Eggers 等 - 2026 - Background-free tracking of ultrafast hole and electron dynamics with XUV transient grating spectros.pdf",
+  "n_figs": 4,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "51364f49_fig_000",
+      "caption": "Figure 1. Extreme UV transient grating spectroscopy in germanium. (a) Schematic of the \nexperimental setup. (b) XUV linear absorption spectrum (black line) and projected density of \nstates (DOS, blue line) in the vicinity of the M4,5 edge of germanium (~ 30 eV). Around this \nphoton energy, the XUV l",
+      "label": "Figure 1",
+      "page": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\51364f49\\51364f49_p04_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "51364f49_fig_001",
+      "caption": "Figure 2. Time-resolved transient absorption and transient grating data. (a) The pump-induced \nchanges to the transient absorption spectrum reveal positive and negative components spanning \nthe spectral regions connected to both electrons and holes. The different features overlap partially, \nand the",
+      "label": "Figure 2",
+      "page": 6,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\51364f49\\51364f49_p06_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "spectrum"
+    },
+    {
+      "figure_id": "51364f49_fig_002",
+      "caption": "Figure 3. Electron and hole dynamics revealed by transient grating. (a) Modified transient grating \nsignal accounting for spin-orbit separation. The map is divided into different spectral regions, \nwhich correspond to hot holes (hh) and hot electrons (he) and thermalized holes (h) and \nthermalized e",
+      "label": "Figure 3",
+      "page": 7,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\51364f49\\51364f49_p07_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "spectrum"
+    },
+    {
+      "figure_id": "51364f49_fig_003",
+      "caption": "Figure 4. Pump-induced changes of the refractive index and reflectivity. (a) Absolute change of \nthe real part of the refractive index, n, determined from calibrated TA and TG measurements. \n(b) Change of the imaginary part of the refractive index, k, determined from a calibrated TA \nmeasurement. (c",
+      "label": "Figure 4",
+      "page": 9,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\51364f49\\51364f49_p09_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

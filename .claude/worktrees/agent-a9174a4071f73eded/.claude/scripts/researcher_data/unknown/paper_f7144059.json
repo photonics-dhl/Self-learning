@@ -1,0 +1,62 @@
+{
+  "paper_id": "f7144059",
+  "title": "2678",
+  "authors": [
+    "Vol. 47",
+    "No. 11 / 1 June 2022 / Optics Letters"
+  ],
+  "year": 2022,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "E:\\PostGraduate\\Science_softwares\\Zotero\\data\\storage\\MJQ7AUEH\\Zhang 等 - 2022 - Efficient multicycle terahertz pulse generation based on the tilted pulse-front technique.pdf",
+  "filename": "Zhang 等 - 2022 - Efficient multicycle terahertz pulse generation based on the tilted pulse-front technique.pdf",
+  "n_figs": 4,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "f7144059_fig_000",
+      "caption": "Fig. 1.\nExperimental setup for multicycle THz generation. G,\ngrating; M, mirror; HWP, half-wave plate; cLN, congruent lithium\nniobate; OAP, off-axis parabolic mirror; WP, Wollaston prism; PD,\nphotoelectric diode.",
+      "label": "Fig. 1",
+      "page": 2,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f7144059\\f7144059_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "f7144059_fig_001",
+      "caption": "Fig. 2.\nCharacterization of the radiated single-cycle THz pulses\nbased on TPFT. (a) Extracted THz energy and its corresponding\nenergy conversion efficiency as a function of the pump fluence. (b)\nTHz spot captured by a commercial THz camera at the focus of\nthe second OAP. (c) Single-cycle THz wavefor",
+      "label": "Fig. 2",
+      "page": 2,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f7144059\\f7144059_p02_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "f7144059_fig_002",
+      "caption": "Fig. 3.\nCharacterization of the multicycle THz pulse. (a) Tempo-\nral waveform for the generated multicycle THz pulse. (b) Multicycle\nTHz energy and its corresponding efficiency as a function of the\npump fluence. (c) THz spot of multicycle THz pulse. (d) THz spec-\ntrum obtained from electro-optical s",
+      "label": "Fig. 3",
+      "page": 3,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f7144059\\f7144059_p03_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "f7144059_fig_003",
+      "caption": "Fig. 4.\nLaser spots reflected by (a) a single stair 150 mm away\nfrom the echelon, (b) a single stair at the crystal, and (c) the whole\nechelon at the crystal. (d) Schematic diagram when the echelon is\nrotated by 90°. (e) Multicycle THz waveform when the echelon is\nrotated by 90°, and (f) its corresp",
+      "label": "Fig. 4",
+      "page": 3,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\f7144059\\f7144059_p03_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "diagram"
+    }
+  ],
+  "tables": []
+}

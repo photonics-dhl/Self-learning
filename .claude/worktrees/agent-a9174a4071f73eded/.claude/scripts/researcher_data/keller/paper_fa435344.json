@@ -1,0 +1,125 @@
+{
+  "paper_id": "fa435344",
+  "title": "Physics Reports 547 (2015) 1–24",
+  "authors": [],
+  "year": 2015,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\keller\\Landsman和Keller - 2015 - Attosecond science and the tunnelling time problem.pdf",
+  "filename": "Landsman和Keller - 2015 - Attosecond science and the tunnelling time problem.pdf",
+  "n_figs": 9,
+  "n_tables": 1,
+  "figures": [
+    {
+      "figure_id": "fa435344_fig_000",
+      "caption": "Fig. 1. Strong field ionization, taken from [28]. (a) The combined potential created by the Coulomb field of the atom and the laser field. The electron can\nescape the atom either by tunnelling (horizontal channel) or multi-photon ionization (vertical channel). (b) Electron momenta distributions meas",
+      "label": "Fig. 1",
+      "page": 3,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\fa435344\\fa435344_p03_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "fa435344_fig_001",
+      "caption": "Fig. 3. Barrier widths predicted by different models: PPT, TIPIS, and FDM (field-direction model), taken from [28]. At high field strengths, corresponding\nto γ ≪1, the PPT curve approaches the Ip/F curve.",
+      "label": "Fig. 3",
+      "page": 6,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\fa435344\\fa435344_p06_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "plot"
+    },
+    {
+      "figure_id": "fa435344_fig_002",
+      "caption": "Fig. 4. Experimentally measured electron momenta distributions after strong field ionization for different values of ellipticity, ϵ, of laser light. Peak laser\nintensity: 8 × 1014 W cm−2, pulse duration (FWHM) of 33 fs, central wavelength of 788 nm.\nSource: Taken from [36].",
+      "label": "Fig. 4",
+      "page": 9,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\fa435344\\fa435344_p09_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "fa435344_fig_003",
+      "caption": "Fig. 7. Larmor clock proposed by Baz’ [72] and Rybachenko [73]. Spin polarized electrons, with spin sx, enter a potential barrier where a constant magnetic\nfield points along the z-axis. When the electron exits the potential barrier, it acquires an additional spin component along the y-axis due to L",
+      "label": "Fig. 7",
+      "page": 14,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\fa435344\\fa435344_p14_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "fa435344_fig_004",
+      "caption": "Fig. 8. The propagator corresponds to the sum of the all possible paths between points A and B, each path, xj(t) contributing eiS[xj(t)], where S is defined\nby Eq. (42).",
+      "label": "Fig. 8",
+      "page": 16,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\fa435344\\fa435344_p16_f04.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "fa435344_fig_005",
+      "caption": "Fig. 9. Radially integrated electron momenta distributions. Tunnelling delay time is extracted from the measured angle for electrons located at the peak\nof this distribution. (a) Lower intensity and clockwise polarization; (b) Higher intensity and counter-clockwise polarization.",
+      "label": "Fig. 9",
+      "page": 19,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\fa435344\\fa435344_p19_f05.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "fa435344_fig_006",
+      "caption": "Fig. 10. Set-up of VMIS experiment.",
+      "label": "Fig. 10",
+      "page": 20,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\fa435344\\fa435344_p20_f06.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "fa435344_fig_007",
+      "caption": "Fig. 11. Tomographic reconstruction method. Reconstruction of full 3-D electron momenta distribution using projections in momentum space.",
+      "label": "Fig. 11",
+      "page": 21,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\fa435344\\fa435344_p21_f07.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "graph"
+    },
+    {
+      "figure_id": "fa435344_fig_008",
+      "caption": "Fig. 12. Top: 3D probability distribution of tunnelling times constructed using the FPI approach, taken from [22]. (a) Probability distribution at Intensity\n1.6 × 1014 W/cm2. (b) Intensity 6.5 × 1014 W/cm2.",
+      "label": "Fig. 12",
+      "page": 22,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\fa435344\\fa435344_p22_f08.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "fa435344_tab_000",
+      "paper_id": "fa435344",
+      "table_label": "Table 2\n",
+      "table_caption": "Table 2\nCommonly used definitions of tunnelling times. Each one depends on the transmission amplitude, T, of the\nwave function through the potential barrier.",
+      "page_num": 11,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\fa435344\\fa435344_p11_t00.png",
+      "width": 1402,
+      "height": 1034
+    }
+  ]
+}

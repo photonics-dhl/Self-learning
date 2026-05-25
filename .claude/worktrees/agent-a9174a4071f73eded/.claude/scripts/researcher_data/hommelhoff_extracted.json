@@ -1,0 +1,522 @@
+{
+  "professor_key": "hommelhoff",
+  "paper_count": 4,
+  "total_figures": 51,
+  "total_chunks": 80,
+  "papers": [
+    {
+      "title": "Light-field control of real and virtual charge carriers",
+      "year": 2022,
+      "journal": "",
+      "authors": [
+        "Tobias Boolakee1",
+        "6 ✉",
+        "Christian Heide1",
+        "2",
+        "6",
+        "Antonio Garzón-Ramírez3",
+        "4",
+        "Heiko B. Weber1"
+      ],
+      "doi": "",
+      "paper_id": "8c332a5161576bc4",
+      "file_hash": "8c332a5161576bc4f9220c03a9fa3f57",
+      "num_pages": 19,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 19,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "8c332a51_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1 | Role of real and virtual charge carriers in current generation. a, For \nφCE = ±π/2 and by virtue of the nonlinearity of the interband transition, valence \nband electrons are excited to the conduction band, and the different \nmagnitudes for positive and negative field amplitudes of the vecto",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\8c332a51\\8c332a5161576bc4_p02_f00.png",
+          "page_num": 2,
+          "width": 2110,
+          "height": 604,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "8c332a51_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2 | Measured phase-resolved CEP-dependent current for graphene \nstrip lengths L = 5 μm, L = 2 μm and L = 1 μm. The gold–graphene–gold \nheterostructures shown at the top are illuminated with a Gaussian laser spot \n(1.8 μm 1/e2 intensity radius) placed in the centre of each structure and \nindicat",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\8c332a51\\8c332a5161576bc4_p02_f01.png",
+          "page_num": 2,
+          "width": 2110,
+          "height": 1058,
+          "figure_type": "graph",
+          "description": ""
+        },
+        {
+          "figure_id": "8c332a51_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3 | Charge transfer simulations for gold–graphene–gold \nheterostructures (TD-NEGF). a, b, Charge transfer dynamics for a CEP of \nφCE = π/2 (a) and φCE = 0 (b) in graphene strips of different lengths, as indicated. \nThe laser pulse with E0 = 2.3 V nm−1 is centred at t = 0. Inset in a: extended t",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\8c332a51\\8c332a5161576bc4_p03_f02.png",
+          "page_num": 3,
+          "width": 1102,
+          "height": 1151,
+          "figure_type": "graph",
+          "description": ""
+        },
+        {
+          "figure_id": "8c332a51_fig_003",
+          "label": "Fig. 4",
+          "caption": "Fig. 4 | Petahertz logic gate. a, Two laser pulses induce currents via real  \n(A, bulk graphene) and virtual (B, interface) carriers. Their respective CEPs  \nφA and φΒ are set by a relative phase ΔφCE, controlled by the SiO2 thickness  \nΔd of a wedge pair passed by pulse A; in addition, both CEPs ar",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\8c332a51\\8c332a5161576bc4_p04_f03.png",
+          "page_num": 4,
+          "width": 2222,
+          "height": 1358,
+          "figure_type": "graph",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "Article Light-field control of real and virtual charge carriers https://doi.org/10.1038/s41586-022-04565-9 Tobias Boolakee1,6 ✉, Christian Heide1,2,6, Antonio Garzón-Ramírez3,4, Heiko B. Weber1, Ignacio Franco3,5 ✉ & Peter Hommelhoff1 ✉ Received: 19 May 2021 Accepted: 21 February 2022 Light-driven electronic excitation is a cornerstone for energy and information Published online: 11 May 2022 transfer. In the interaction of intense and ultrafast light fields with solids, electrons Check for updat",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article electrodes, a real-space representation is appropriate. Net polarization a (cid:77)CE = ±π/2 E(t) b (cid:77)CE = 0, π A(t) is maximized when the driving optical field E(t) is maximized for one A(t) E(t) half-cycle, that is, for φ = [0, π] (Fig. 1b, red waveform). For an antisym- CE metric optical field (φ = ±π/2), the charge carriers experience equal CE trajectories towards both electrodes (left and right) and consequently CB the net polarization is zero. Net momentum Real Au Graphene Au",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "To support the dominating role of virtual carriers for small L and its peaking response for φ = [0, π], we perform real-space CE time-dependent non-equilibrium Green’s function (TD-NEGF) simu- lations24 of the laser-induced electronic transport along metal–gra- phene–metal nanostructures (see Methods for details). We used 5.2 nm × L graphene strips of varying lengths L = 21 nm, L = 42 nm and L = 85 nm. The terminal carbon atoms are connected to the metallic con- tacts and permit charge exchange ",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article a contributions. The total current carries the desired logic output Y. If the current is larger than +2 pA, we assign it to Y = 1, else Y = 0. Figure 4b shows the CEP-dependent current as a function of the relative phase Δφ = φ − φ, which is controlled by changing the thick- CE A B ness Δd of silicon dioxide (SiO) passed by pulse A. A peak optical field 2 Δd (μm) strength of 2.3 V nm−1 is employed for both pulses. On the basis of the –100 0 100 excellent agreement between the measured cu",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "13. Garzón-Ramírez, A. J. & Franco, I. Symmetry breaking in the Stark control of electrons at 25. Ma",
+          "text": "13. Garzón-Ramírez, A. J. & Franco, I. Symmetry breaking in the Stark control of electrons at 25. Malic, E., Winzer, T., Bobkin, E. & Knorr, A. Microscopic theory of absorption and ultrafast interfaces (SCELI). J. Chem. Phys. 153, 044704 (2020). many-particle kinetics in graphene. Phys. Rev. B 84, 205406 (2011). 14. Hanus, V. et al. Light-field-driven current control in solids with pJ-level laser pulses at 26. Gierz, I. et al. Snapshots of non-equilibrium Dirac carrier distributions in graphene.",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article Methods two current components originate from different mechanisms, that is, photo-thermoelectric and photovoltaic versus field driven. Sample fabrication and characterization Each data point shown in Fig. 2 is recorded with a 1-s time constant Monolayer graphene is epitaxially grown from a 4H silicon carbide and integrated for 30 s; the data points shown in Fig. 4b are integrated (SiC) substrate. Hall measurements yield a free carrier concentration of for 7 s. Slow phase fluctuations on",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "appear at the same lock-in phase. The real carrier current j is unaffected In the simulations, we take Γ = Γ = 0.1 eV, which compares well to ±π/2 L R whereas, under the influence of the electrode near-field, the virtual carrier the current magnitudes we obtain in the experiment. For L = 1 μm current becomes j = J cos(φ + Δφ ) ≈ −J sin(φ ). Hence, in the lock-in and E = 2.3 V nm−1, we measure an average current of J = 50 pA at an 0,π CE CE CE 0 avg measurement, the two types of carrier would be ",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article interaction as well as scattering at lattice defects that emerge typically Any population imbalance is identified by taking the population on 10 fs to 100 fs (refs. 26,28,45,46). For dephasing in graphene, a lower difference driven by fields of opposite CEP, Δρ(m)=ρ(m)(t,φ )− boundary of 22 fs was obtained from two-colour current injection30. ρ(m)(t,φ +π)(m = CB or m = VB). We then define k 0the n k o0rmal C iz E ed On the basis of these results, we choose T = 20 fs. po k0pulati C o E n ",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "dependence of two data points, namely the minimum and maximum of φ and φ (Extended Data Fig. 5b). We assign the resulting currents A B current (Extended Data Fig. 4a, b, light and dark green data points). to logic output levels of 1 for positive current and 0 for zero or negative The phase of the sine functions is given by their respective θ (Extended current. The gate types AND, OR, NAND and NOR shown in Extended Data Fig. 4a, green squares), whereas their root-mean-square values Data Fig. 5c–f",
+          "page": 9,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Article Extended Data Fig. 1 | Electric field and vector potential of Gaussian laser pulses used for simulations. The maximum field strength is 2.3 V/nm, the pulse duration is 6 fs (intensity FWHM), the centre photon energy is 1.5 eV. a, For a CEP φ = π/2 the electric field is antisymmetric with respect to time CE inversion while the vector potential is symmetric. b, For φ = 0 the electric CE field is symmetric and the vector potential is antisymmetric.",
+          "page": 10,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Dielectric laser accelerators",
+      "year": 2014,
+      "journal": "",
+      "authors": [
+        "R. Joel England",
+        "* Robert J. Noble",
+        "Karl Bane",
+        "David H. Dowell"
+      ],
+      "doi": "",
+      "paper_id": "d85c68a93cd3895f",
+      "file_hash": "d85c68a93cd3895fd295da62e22caf4e",
+      "num_pages": 53,
+      "abstract": "",
+      "n_figures": 40,
+      "n_chunks": 53,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "d85c68a9_fig_000",
+          "label": "FIG. 1",
+          "caption": "FIG. 1.\nFour different configurations of dielectric acceleration\nstructures. (a), (c) The beam is cylindrical, whereas in (b), (d) the\nbeam may be elliptical or flat (high aspect ratio). The character-\nistic parameters are also presented.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d85c68a9\\d85c68a93cd3895f_p08_f00.png",
+          "page_num": 8,
+          "width": 2159,
+          "height": 920,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "d85c68a9_fig_001",
+          "label": "FIG. 2",
+          "caption": "FIG. 2 (color online).\nLaser to electron coupling efficiency vs the\nnumber of electron microbunches per laser pulse. Adapted from\nNa, Siemann, and Byer, 2005.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d85c68a9\\d85c68a93cd3895f_p09_f01.png",
+          "page_num": 9,
+          "width": 1448,
+          "height": 958,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "d85c68a9_fig_002",
+          "label": "FIG. 3",
+          "caption": "FIG. 3 (color online).\n(a) Axial electric field strengths in a 2D\nhexagonal lattice and (b) the optimized photonic 2D quasicrystal\ncavity. From Bauer, Werner, and Cary, 2008.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d85c68a9\\d85c68a93cd3895f_p12_f02.png",
+          "page_num": 12,
+          "width": 2159,
+          "height": 1501,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "d85c68a9_fig_003",
+          "label": "FIG. 4",
+          "caption": "FIG. 4 (color online).\nCross section of a biperiodic dielectric\nlaser accelerator based on photonic confinement and optimized\nfor strong second-order focusing. From Naranjo et al., 2012.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d85c68a9\\d85c68a93cd3895f_p14_f03.png",
+          "page_num": 14,
+          "width": 2159,
+          "height": 852,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "d85c68a9_fig_004",
+          "label": "FIG. 5",
+          "caption": "FIG. 5 (color online).\nLongitudinal phase space showing stable\naccelerating bucket and unbound trajectories.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d85c68a9\\d85c68a93cd3895f_p14_f04.png",
+          "page_num": 14,
+          "width": 1064,
+          "height": 935,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "d85c68a9_fig_005",
+          "label": "FIG. 7",
+          "caption": "FIG. 7 (color online).\nLongitudinal phase space after strong\nacceleration.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d85c68a9\\d85c68a93cd3895f_p15_f05.png",
+          "page_num": 15,
+          "width": 1448,
+          "height": 749,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "d85c68a9_fig_006",
+          "label": "FIG. 8",
+          "caption": "FIG. 8 (color online).\nFundamental mode of the longitudinal\nwakefield (left axis, solid curve) generated by a Gaussian bunch\n(right axis, dashed curve) in the Lin fiber accelerator.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d85c68a9\\d85c68a93cd3895f_p17_f06.png",
+          "page_num": 17,
+          "width": 1063,
+          "height": 653,
+          "figure_type": "plot",
+          "description": ""
+        },
+        {
+          "figure_id": "d85c68a9_fig_007",
+          "label": "FIG. 9",
+          "caption": "FIG. 9 (color online).\nThe laser damage threshold of a variety of optical materials, as well as copper, for comparison. Each of these\nmeasurements were conducted with a 1 ps, 800 nm, 600 Hz Ti:sapphire laser. The data indicate a strong positive correlation between the\ndamage threshold, the material ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d85c68a9\\d85c68a93cd3895f_p18_f07.png",
+          "page_num": 18,
+          "width": 2159,
+          "height": 1030,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "d85c68a9_fig_008",
+          "label": "FIG. 10",
+          "caption": "FIG. 10.\nObserved values of laser damage threshold at 1053 nm\nfor fused silica (circle) and CaF2 (diamond). Solid lines are τ1=2",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d85c68a9\\d85c68a93cd3895f_p18_f08.png",
+          "page_num": 18,
+          "width": 1064,
+          "height": 825,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "d85c68a9_fig_009",
+          "label": "FIG. 12",
+          "caption": "FIG. 12 (color online).\nSnapshots of the longitudinal field (Ex) in\nthe grating structure at five points in time across one period,\nshowing its principle of operation: each grating pillar provides a π\nphase delay such that a correctly phased particle experiences net\nacceleration. From Peralta et al.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d85c68a9\\d85c68a93cd3895f_p19_f09.png",
+          "page_num": 19,
+          "width": 2128,
+          "height": 823,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "d85c68a9_fig_010",
+          "label": "FIG. 11",
+          "caption": "FIG. 11 (color online).\nLaser damage threshold of silicon for\npicosecond laser pulses in the near to short wavelength infrared.\nThe damage model (solid curve) is superimposed on top of the\nexperimental data. From Soong et al., 2011.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d85c68a9\\d85c68a93cd3895f_p19_f10.png",
+          "page_num": 19,
+          "width": 2159,
+          "height": 920,
+          "figure_type": "plot",
+          "description": ""
+        },
+        {
+          "figure_id": "d85c68a9_fig_011",
+          "label": "FIG. 13",
+          "caption": "FIG. 13 (color online).\nFDTD optimization of acceleration gradient (solid curves, left axis) with corresponding net deflection force\n(dashed curves, right axis) as a function of (a) grating pillar height with a fixed gap of 400 nm, (b) grating-to-grating gap with an optimal\npillar height, (c) gratin",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\d85c68a9\\d85c68a93cd3895f_p20_f11.png",
+          "page_num": 20,
+          "width": 2159,
+          "height": 1567,
+          "figure_type": "plot",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "REVIEWS OF MODERN PHYSICS, VOLUME 86, OCTOBER–DECEMBER 2014 Dielectric laser accelerators R. Joel England,* Robert J. Noble, Karl Bane, David H. Dowell, Cho-Kuen Ng, James E. Spencer, Sami Tantawi, and Ziran Wu SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, California 94025, USA Robert L. Byer, Edgar Peralta, and Ken Soong Department of Applied Physics, Stanford University, 450 Serra Mall, Stanford, California 94305, USA Chia-Ming Chang, Behnam Montazeri, and Stephen J. W",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "1338 R.JoelEnglandetal.: Dielectriclaseraccelerators Christopher Sears KLA-Tencor Corporation, 1 Technology Drive, Milpitas, California 95035, USA Gregory R. Werner CenterforIntegratedPlasmaStudies,UniversityofColorado,Boulder,Colorado80309,USA Rodney B. Yoder Goucher College, 1021 Dulaney Valley Road, Baltimore, Maryland 21204, USA (published 23 December 2014) Theuseofinfraredlaserstopoweroptical-scalelithographicallyfabricatedparticleacceleratorsisa developing area of research that has garnere",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "R.JoelEnglandetal.: Dielectriclaseraccelerators 1339 2. Capture efficiency and multicolor bunchers 1375 lengths which corresponds to axial accelerating fields in a 3. Bunching via emittance exchange 1376 dielectricstructureinexcessof109 V=m(Soongetal.,2011). C. Low-velocity injection and preacceleration 1376 These fields are 1 to 2 orders of magnitude above typical 1. Examples 1376 gradient limits in metallic structures. 2. Focusing 1377 Structure-based laser-driven linear accelerators have been",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "1340 R.JoelEnglandetal.: Dielectriclaseraccelerators reasonablegradient for a given laser power and, on the other Eðr;tÞ¼E 0expðik·r−iωtÞ ð2Þ hand, by the necessity to avoid nonlinear effects in the dielectric (Sec. III.G). With the immense progress of recent with the additional constraint that in the far field region E yearsindiodelasers,theefficiencyoflaser-drivensystems,as mustbeperpendiculartonˆ,wherenˆ istheunitvectordefining discussed in Sec. V, is approaching 50%, similar to that of the d",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "R.JoelEnglandetal.: Dielectriclaseraccelerators 1341 2. The acceleration theorem represented by transverse polarized traveling waves as given in Eqs. (3) and (4) that travel at v¼c and cannot remain in TheLawsonaccelerationtheoremcanbeusedtoruleoutthe phasewithaparticleatalowervelocityoratanangletoit.But possibility of particle acceleration in many electromagnetic near a source, the fields are given by Eqs. (5) and (6) which situationswhereafewsimpleassumptionsapply.Iftheparticle travel at veloc",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "1342 R.JoelEnglandetal.: Dielectriclaseraccelerators particle moves at an angle θ to the wave propagation 4. Summary βcosðθÞ¼1=n . The acceleration will now depend on the r Wehaveexaminedtheconditionsunderwhichacceleration relativephaseϕbetween the undulating motionandthe field canandcannotoccur.Withoutexternalstaticfields,first-order E z ¼E0sinðθÞsinðϕÞ, where E0 is the strength of the radi- acceleration far from sources cannot occur. Acceleration can ation perpendicular to its direction of pro",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "R.JoelEnglandetal.: Dielectriclaseraccelerators 1343 propagation, E ⊥ and H ⊥ are the transverse electric and calculated from the transverse fields expressed explicitly in magnetic fields, E ispthffiffieffiffiffiffilffiffioffiffinffigitudinal electric field, ω is Eqs. (14) and (15), while integrating the resultant Poynting z the frequency, Z0 ¼ μ 0=ϵ 0 ¼377 Ω is the free-space vectoroverthecross-sectionalareawithboundariesgoverned impedance, ϵ 0 is the free-space permittivity, μ 0 is the free- b",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "1344 R.JoelEnglandetal.: Dielectriclaseraccelerators of mass require about 14 MW of average beam power assuming 1.7×1014 electrons=s. Calculations of achievable laser-to-electron efficiency in the tens of percent range combined with current state-of-the-art laser wall-plug effi- ciencies now approaching 50% indicate that total wall-plug power for a DLA-based collider design are comparable with conventional accelerators (see Sec. VI.A). Foracompactcollider,itisnecessarytogeneratemaximum gradienta",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "R.JoelEnglandetal.: Dielectriclaseraccelerators 1345 P Here W are weighting functions that satisfy þ∞ W ¼1 n n¼1 n withω representingthediscretespectrumoffrequenciesand n hðuÞ is the step function. The first mode is for acceleration, having a phasevelocity c, group velocity β c, and character- g isticinteractionimpedanceZ .Thesequantitiesarerelatedto c the wake coefficient k and, in particular, it is possible to l establish the projection of the total deceleration on the fundamental mode (wavele",
+          "page": 9,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "1346 R.JoelEnglandetal.: Dielectriclaseraccelerators sufficient to break the structure and form cracks. As an approximatelythespeedoflight(i.e.,withfeaturestoadjustthe example without loss of generality, consider a planar accel- mode frequency and wave number so v ≈c to accelerate ph eration structure guiding laser light and examine the time- high-energyparticles).Fieldconfinementandsynchronismcan averaged forces on this structure. The total transverse force also be achieved through many partial",
+          "page": 10,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Attosecond control of electrons emitted from a nanoscale metal tip",
+      "year": 2011,
+      "journal": "",
+      "authors": [
+        "Michael Kru¨ger1*",
+        "Markus Schenk1* & Peter Hommelhoff1"
+      ],
+      "doi": "",
+      "paper_id": "df210c5d48967dfd",
+      "file_hash": "df210c5d48967dfdf7bcbd516416c7cd",
+      "num_pages": 4,
+      "abstract": "",
+      "n_figures": 3,
+      "n_chunks": 4,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "df210c5d_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1 | Overview of the experiment. Electrons, indicated in blue, are\nemitted (large blue arrow pointing away from surface) from a sharp tungsten\ntip (left) by, and interact with, a few-cycle laser electric field (red waveform).\nControlled by the carrier-envelope phase, the liberated electron may",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\df210c5d\\df210c5d48967dfd_p01_f00.png",
+          "page_num": 1,
+          "width": 1095,
+          "height": 547,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "df210c5d_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2 | Carrier-envelope phase modulation in photoelectron spectra.\na, Carrier-envelope phase-averaged electron count rate as function of energy\n(blue solid curve). About three photon orders, indicated by encircled numbers,\nare visible in the direct part (that is, when the electrons do not re-col",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\df210c5d\\df210c5d48967dfd_p02_f01.png",
+          "page_num": 2,
+          "width": 1788,
+          "height": 1086,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "df210c5d_fig_002",
+          "label": "Figure 3",
+          "caption": "Figure 3 | Theoretical modelling of the experimental data. a, Contour plot\nrepresentation of the count rate as a function of energy and carrier-envelope\nphase, according to the extended SMM. Here only re-scattered electrons are\nconsidered (only those contribute to plateau energies). Regions with qua",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\df210c5d\\df210c5d48967dfd_p03_f02.png",
+          "page_num": 3,
+          "width": 1095,
+          "height": 1110,
+          "figure_type": "plot",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "LETTER doi:10.1038/nature10196 Attosecond control of electrons emitted from a nanoscale metal tip MichaelKru¨ger1*,MarkusSchenk1*&PeterHommelhoff1 Attosecondscienceisbasedonsteeringelectronswiththeelectric responsequitewell;thismarkstheregimeofattosecondscience1.Field fieldofwellcontrolledfemtosecondlaserpulses1.Ithasledtothe enhancementnearnanostructureshasalsofacilitatedthegenerationof generation of extreme-ultraviolet pulses2 with a duration of less high-harmonic radiation from gas atoms with",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "carrier-envelopephaseandan80-MHzrepetitionrate(Fig.1;theset-up determinedbytheory(setto0here,seebelow).Clearly,thespectral isdescribedinmoredetailinref.19andinSupplementaryInforma- featuresarestronglymodulatedwiththecarrier-envelopephase:both tion).Asmallnegativeextractionvoltageisappliedtothetip,resulting maxima and minima show pronounced modulation effects with a inad.c.electricfieldstrengthof,0.4GVm21atthetip’sapex.We periodof2p.InFig.2a(greenpoints)wedisplaythemodulationdepth recordphotoelec",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Weinterpretourexperimentalfindingswiththeaidoftwotheor- yields a significant contribution to the electron count rate in the eticalmodels.ThefirstmodelusedisthesemiclassicalSimpleMan’s high-energy part of the spectrum. In contrast, the region around Model(SMM)22.Inbrief,anelectronisliberatedbyopticallyinduced w <6p,whichcorrespondstoa‘minus-cosine-like’pulse,exhibits CE tunnellingand subsequentlypropagatesinthelaserelectricfieldon thestrongestpeakstructureandthelowestcut-offenergy.Twotra- classic",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "LETTER RESEARCH ,2. We stress that in this parameter range, the emission process 9. Stockman,M.I.Nanofocusingofopticalenergyintaperedplasmonicwaveguides. Phys.Rev.Lett.93,137404(2004). encompassesandcannotbeseparatedfromstrong-fieldeffectsafter 10. Goulielmakis,E.etal.Attosecondcontrolandmeasurement:lightwaveelectronics. the electron has been classically emitted. Third, although the exact Science317,769–775(2007). quantum dynamics of electrons in this new system is complex and 11. Novotny,L.&van",
+          "page": 4,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "................................................................. Bose±Einstein condensation on a microelectronic chip",
+      "year": 2001,
+      "journal": "",
+      "authors": [
+        "emission can be decomposed",
+        "without changing equation (7)",
+        "into parts C1  C2 "
+      ],
+      "doi": "",
+      "paper_id": "0508adcb53a6d172",
+      "file_hash": "0508adcb53a6d172c6dcdbf92cb9fd71",
+      "num_pages": 4,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 4,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "0508adcb_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1 The chip and the magnetic potentials that it creates. a, Layout of the lithographic\ngold wires on the substrate. The inset shows the relevant part of the conductor pattern. I0,\nI1, IM1 and IM2 create the various magnetic potentials for trapping (see b) and transport, as\ndescribed in the mai",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\0508adcb\\0508adcb53a6d172_p02_f00.png",
+          "page_num": 2,
+          "width": 1076,
+          "height": 1231,
+          "figure_type": "graph",
+          "description": ""
+        },
+        {
+          "figure_id": "0508adcb_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2 Vacuum system. Because of the ef®cient evaporation in the chip trap, this very\nsimple set-up is suf®cient to achieve Bose±Einstein condensation (BEC). The substrate is\nmounted facing downwards, so that the atom cloud may be released to expand in free fall\n(time-of-¯ight analysis).",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\0508adcb\\0508adcb53a6d172_p02_f01.png",
+          "page_num": 2,
+          "width": 2008,
+          "height": 1319,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "0508adcb_fig_002",
+          "label": "Figure 3",
+          "caption": "Figure 3 Time-of-¯ight absorption images of the atom cloud after 21 ms of free\nexpansion. (Pro®le height and false colours are used to encode the optical density of the\ncloud.) The images were taken after a ®nal radio-frequency sweep ending at frequencies\nns  n0  66 kHz, 44 kHz and 15 kHz (from to",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\0508adcb\\0508adcb53a6d172_p03_f02.png",
+          "page_num": 3,
+          "width": 1942,
+          "height": 1073,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "0508adcb_fig_003",
+          "label": "Figure 5",
+          "caption": "Figure 5 Transport of a BEC on the `magnetic conveyor belt'. a, Superposed absorption\nimages taken at ®xed time intervals during transport. The distance between the ®rst and\nlast image is 1.6 mm, the transport time is 100 ms. The line of sight is parallel to the y axis\n(see Fig. 1); the dotted line ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\0508adcb\\0508adcb53a6d172_p03_f03.png",
+          "page_num": 3,
+          "width": 1936,
+          "height": 1077,
+          "figure_type": "photo",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "letters to nature denotingtransitionsfromtheuppertotheloweratomicstate.Thistotalspontaneous Acknowledgements epm(cid:129)(cid:129)i(cid:129)s(cid:129)(cid:129)s(cid:129)(cid:129)ioncanbedecpom(cid:129)(cid:129)(cid:129)p(cid:129)(cid:129)(cid:129)o(cid:129)(cid:129)s(cid:129)(cid:129)e(cid:129)(cid:129)d(cid:129)(cid:129),(cid:129)(cid:129)(cid:129)w(cid:129)(cid:129)(cid:129)i(cid:129)thoutchangingequation(7),intopartsC 1 (cid:136)C 2 (cid:136) WethankP.Zoller,D.LeibfriedandG.Morigiforhelpfuldi",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "letters to nature using thin-film hybrid technology, a standard microelectronics range. Thermal rubidium vapour is produced from a rubidium process14. Although a variety of fabrication techniques can be dispenser17. We operate it at low, constant, current, so that the used (several groups have developed custom processes16,25), a rubidium partial pressure remains low and reduces the magnetic standard process has the advantage of being available to non- trap lifetime by less than 20%. During the m",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "letters to nature alsomodifiedtomovethetrapcentretopositionC2,whereamore 0.20 sphericalcondensatearises. We now describe both cases in more detail. In the first case, the initial radio-frequency ramp is immediately followed by a 0.15 second, exponential ramp with 800ms duration. At the end of this ramp, ,73104 atoms are left at a temperature of ,6mK, a densityof531013cm23andaphasespacedensityinthelower10-2 0.10 range. The external bias field is now reduced to (B (cid:136)1:2G, x B (cid:136)40G)w",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "letters to nature condensedatomsistypicallyslightlyhigherthaninconfiguration 11.Dekker,N.H.etal.Guidingneutralatomsonachip.Phys.Rev.Lett.84,1124–1127(2000). C1. A section through a condensed cloud, taken close to the 12.Mu¨ller,D.etal.Waveguideatombeamsplitterforlaser-cooledneutralatoms.Opt.Lett.25,1382–1384 (2000). condensation threshold (Fig. 4), reveals the expected bimodal 13.Cassettari,D.,Hessmo,B.,Folman,R.,Maier,T.&Schmiedmayer,J.Beamsplitterforguidedatoms. structurewithabroadgaussianback",
+          "page": 4,
+          "type": "body"
+        }
+      ]
+    }
+  ]
+}

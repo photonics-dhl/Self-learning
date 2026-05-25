@@ -1,0 +1,76 @@
+{
+  "paper_id": "17e85d22",
+  "title": "Nature  |  Vol 649  |  29 January 2026  |  1123",
+  "authors": [
+    "Yuxuan Liao1",
+    "Haozhi Sha1",
+    "Colum M. O’Leary1",
+    "Hanfeng Zhong1",
+    "Yao Yang2 & Jianwei Miao1 ✉"
+  ],
+  "year": 2026,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\miao\\Liao 等 - 2026 - Accurate determination of the 3D atomic structure of amorphous materials.pdf",
+  "filename": "Liao 等 - 2026 - Accurate determination of the 3D atomic structure of amorphous materials.pdf",
+  "n_figs": 4,
+  "n_tables": 1,
+  "figures": [
+    {
+      "figure_id": "17e85d22_fig_000",
+      "caption": "Fig. 1 | Improved 3D reconstruction and atom tracing of 208-atom and \n19,993-atom amorphous Si nanoparticles using our AET workflow.  \na, Representative projection of the 208-atom nanoparticle at a dose of \n1.6 × 104 e− Å−2. Scale bar, 5 Å. b, Denoised and background-subtracted \nprojection, showing ",
+      "label": "Fig. 1",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\17e85d22\\17e85d22_p03_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "17e85d22_fig_001",
+      "caption": "Fig. 2 | Three-dimensional atomic localization and elemental identification \nof a 13,982-atom amorphous SiGeSn nanoparticle using our AET workflow. \na, Representative projection at a dose of 1.6 × 104 e− Å−2. Scale bar, 2 nm.  \nb, Denoised and background-subtracted projection. c, Corresponding \nproj",
+      "label": "Fig. 2",
+      "page": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\17e85d22\\17e85d22_p04_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "17e85d22_fig_002",
+      "caption": "Fig. 3 | Three-dimensional atomic localization and elemental identification \nof an 18,356-atom amorphous CoPdPt nanoparticle using our AET workflow. \na, Representative projection simulated with the electron probe focused at the \nnanoparticle centre and a dose of 1.7 × 104 e− Å−2, matching experiment",
+      "label": "Fig. 3",
+      "page": 5,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\17e85d22\\17e85d22_p05_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "17e85d22_fig_003",
+      "caption": "Fig. 4 | Three-dimensional atomic structure and medium-range order of a \n7,704-atom amorphous silica nanoparticle reconstructed by pAET (dose \n1.6 × 103 e− Å−2). a,b, Representative projections reconstructed by single-slice (a) \nand multislice (b) ptychography. Scale bar, 2 nm. c, Atom-identificatio",
+      "label": "Fig. 4",
+      "page": 6,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\17e85d22\\17e85d22_p06_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "graph"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "17e85d22_tab_000",
+      "paper_id": "17e85d22",
+      "table_label": "Table 1",
+      "table_caption": "Table 1 summarizes the AET workflow for preprocessing, tomographic \nreconstruction and postprocessing, alongside the corresponding \nprocedures used in ref. 28 for comparison. Our approach makes only \nminimal previous assumptions—atomicity, minimum interatomic spac-\ning and known chemical species—ens",
+      "page_num": 1,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\17e85d22\\17e85d22_p01_t00.png",
+      "width": 1113,
+      "height": 2276
+    }
+  ]
+}

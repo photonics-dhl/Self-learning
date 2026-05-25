@@ -1,0 +1,369 @@
+[
+  {
+    "doi": "10.1038/nphoton.2010.259",
+    "title": "Coherent terahertz control of antiferromagnetic spin waves",
+    "year": "2010",
+    "cites": 1028,
+    "journal": "Nature Photonics",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Tobias",
+        "lastName": "Kampfrath"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alexander",
+        "lastName": "Sell"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "G.",
+        "lastName": "Klatt"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alexej",
+        "lastName": "Pashkin"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "S.",
+        "lastName": "Mährlein"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "T.",
+        "lastName": "Dekorsy"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Martin",
+        "lastName": "Wolf"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Fiebig"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alfred",
+        "lastName": "Leitenstorfer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "R.",
+        "lastName": "Huber"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/nature07838",
+    "title": "Sub-cycle switch-on of ultrastrong light–matter interaction",
+    "year": "2009",
+    "cites": 586,
+    "journal": "Nature",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "G.",
+        "lastName": "Günter"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Aji",
+        "lastName": "A. Anappara"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jakob",
+        "lastName": "Hees"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alexander",
+        "lastName": "Sell"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "G.",
+        "lastName": "Biasiol"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Lucia",
+        "lastName": "Sorba"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Simone",
+        "lastName": "De Liberato"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Cristiano",
+        "lastName": "Ciuti"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alessandro",
+        "lastName": "Tredicucci"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alfred",
+        "lastName": "Leitenstorfer"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/nature19816",
+    "title": "Tracking the ultrafast motion of a single molecule by femtosecond orbital imaging",
+    "year": "2016",
+    "cites": 483,
+    "journal": "Nature",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Tyler",
+        "lastName": "L. Cocker"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Dominik",
+        "lastName": "Peller"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ping",
+        "lastName": "Yu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jascha",
+        "lastName": "Repp"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "R.",
+        "lastName": "Huber"
+      }
+    ]
+  },
+  {
+    "doi": "10.1364/ol.33.002767",
+    "title": "Phase-locked generation and field-resolved detection of widely tunable terahertz pulses with amplitudes exceeding 100 MV/cm",
+    "year": "2008",
+    "cites": 468,
+    "journal": "Optics Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Alexander",
+        "lastName": "Sell"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alfred",
+        "lastName": "Leitenstorfer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "R.",
+        "lastName": "Huber"
+      }
+    ]
+  },
+  {
+    "doi": "10.1088/1361-6463/acbe4c",
+    "title": "The 2023 terahertz science and technology roadmap",
+    "year": "2023",
+    "cites": 441,
+    "journal": "Journal of Physics D Applied Physics",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Alfred",
+        "lastName": "Leitenstorfer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "A.",
+        "lastName": "S. Moskalenko"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tobias",
+        "lastName": "Kampfrath"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Junichiro",
+        "lastName": "Kono"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Enrique",
+        "lastName": "Castro-Camus"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kun",
+        "lastName": "Peng"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Naser",
+        "lastName": "Qureshi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Dmitry",
+        "lastName": "Turchinovich"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kōichiro",
+        "lastName": "Tanaka"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andrea",
+        "lastName": "Markelz"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevlett.99.116401",
+    "title": "Coherent Structural Dynamics and Electronic Correlations during an Ultrafast Insulator-to-Metal Phase Transition in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:msub><mml:mi>VO</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:math>",
+    "year": "2007",
+    "cites": 436,
+    "journal": "Physical Review Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "C.",
+        "lastName": "Kübler"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "H.",
+        "lastName": "Ehrke"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "R.",
+        "lastName": "Huber"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "René",
+        "lastName": "López"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "A.",
+        "lastName": "Halabica"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Richard",
+        "lastName": "F. Haglund"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alfred",
+        "lastName": "Leitenstorfer"
+      }
+    ]
+  },
+  {
+    "doi": "10.1063/1.126625",
+    "title": "Generation and field-resolved detection of femtosecond electromagnetic pulses tunable up to 41 THz",
+    "year": "2000",
+    "cites": 410,
+    "journal": "Applied Physics Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "R.",
+        "lastName": "Huber"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andreas",
+        "lastName": "Brodschelm"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "F.",
+        "lastName": "Tauser"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alfred",
+        "lastName": "Leitenstorfer"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/nmat4356",
+    "title": "Resonant internal quantum transitions and femtosecond radiative decay of excitons in monolayer WSe2",
+    "year": "2015",
+    "cites": 376,
+    "journal": "Nature Materials",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "C.",
+        "lastName": "Poellmann"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Philipp",
+        "lastName": "Steinleitner"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "U.",
+        "lastName": "Leierseder"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Philipp",
+        "lastName": "Nagler"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Gerd",
+        "lastName": "Plechinger"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Porer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Rudolf",
+        "lastName": "Bratschitsch"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Christian",
+        "lastName": "Schüller"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tobias",
+        "lastName": "Korn"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "R.",
+        "lastName": "Huber"
+      }
+    ]
+  }
+]

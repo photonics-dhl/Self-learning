@@ -1,0 +1,40 @@
+{
+  "paper_id": "7d9cafd2",
+  "title": "PROGRESS ARTICLE",
+  "authors": [
+    "P. B. CORKUM1 AND FERENC KRAUSZ2",
+    "3"
+  ],
+  "year": 2007,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\NP-2007-Attosecond science.pdf",
+  "filename": "NP-2007-Attosecond science.pdf",
+  "n_figs": 2,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "7d9cafd2_fig_000",
+      "caption": "Figure 3 Generation of a single or twin attosecond photon pulse. a,c, The \nspectrogram (window Fourier transform) of the atomic high-harmonic emission driven \nby a few-cycle near-infrared laser pulse (τL = 5 fs, λL = 750 nm), as accumulated \ncoherently over a macroscopic propagation distance. b,d, S",
+      "label": "Figure 3",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\7d9cafd2\\7d9cafd2_p03_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "7d9cafd2_fig_001",
+      "caption": "Figure 4 Orbital tomography. a, The basic physics of orbital tomography. The \nrecollision electron is shown as a coloured wave that has low frequency at the \nbottom and high frequency at the top. It emerges from the orbital to be imaged and \nwhen it returns it interferes with the orbital. The sketch",
+      "label": "Figure 4",
+      "page": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\7d9cafd2\\7d9cafd2_p04_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    }
+  ],
+  "tables": []
+}

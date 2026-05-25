@@ -1,0 +1,107 @@
+{
+  "researcher": "chang",
+  "n_papers": 5,
+  "n_figures": 16,
+  "papers": [
+    {
+      "paper_id": "bd610165",
+      "title": "PERSPECTIVE",
+      "authors": [
+        "Jie Li1",
+        "2",
+        "3",
+        "Jian Lu4",
+        "Andrew Chew2",
+        "Seunghwoi Han"
+      ],
+      "year": 2020,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\chang\\Li 等 - 2020 - Attosecond science based on high harmonic generation from gases and solids.pdf",
+      "filename": "Li 等 - 2020 - Attosecond science based on high harmonic generation from gases and solids.pdf",
+      "n_figs": 7,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "2e364b8e",
+      "title": "178",
+      "authors": [
+        "high-order harmonic generation (HHG) in 20011",
+        "the exten­"
+      ],
+      "year": 2014,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\chang\\Chini 等 - 2014 - The generation, characterization and applications of broadband isolated attosecond pulses.pdf",
+      "filename": "Chini 等 - 2014 - The generation, characterization and applications of broadband isolated attosecond pulses.pdf",
+      "n_figs": 3,
+      "n_tables": 1,
+      "tables": [
+        {
+          "table_id": "2e364b8e_tab_000",
+          "paper_id": "2e364b8e",
+          "table_label": "Table 1",
+          "table_caption": "Table 1 | State of the art in ultrabroadband isolated attosecond pulse generation, compression and characterization.",
+          "page_num": 2,
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2e364b8e\\2e364b8e_p02_t00.png",
+          "width": 1862,
+          "height": 244
+        }
+      ]
+    },
+    {
+      "paper_id": "73d4a32d",
+      "title": "162",
+      "authors": [],
+      "year": 2014,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\chang\\Leone 等 - 2014 - What will it take to observe processes in ‘real time’.pdf",
+      "filename": "Leone 等 - 2014 - What will it take to observe processes in ‘real time’.pdf",
+      "n_figs": 3,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "3639a49c",
+      "title": "Laser waveform control of extreme ultraviolet",
+      "authors": [
+        "YONG SING YOU",
+        "1 MENGXI WU",
+        "2 YANCHUN YIN",
+        "3",
+        "4 ANDREW CHEW",
+        "3",
+        "4 XIAOMING REN",
+        "3",
+        "4"
+      ],
+      "year": 2017,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\chang\\You 等 - 2017 - Laser waveform control of extreme ultraviolet high harmonics from solids.pdf",
+      "filename": "You 等 - 2017 - Laser waveform control of extreme ultraviolet high harmonics from solids.pdf",
+      "n_figs": 2,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "0b729b4f",
+      "title": "Phase-Matched Generation of Coherent",
+      "authors": [
+        "Andy Rundquist",
+        "Charles G. Durfee III",
+        "Zenghu Chang"
+      ],
+      "year": 2099,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\chang\\Rundquist 等 - 1998 - Phase-matched generation of coherent soft X-rays.pdf",
+      "filename": "Rundquist 等 - 1998 - Phase-matched generation of coherent soft X-rays.pdf",
+      "n_figs": 1,
+      "n_tables": 0,
+      "tables": []
+    }
+  ]
+}

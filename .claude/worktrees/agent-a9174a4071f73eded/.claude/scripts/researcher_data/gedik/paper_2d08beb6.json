@@ -1,0 +1,58 @@
+{
+  "paper_id": "2d08beb6",
+  "title": "LETTERS",
+  "authors": [
+    "Qiong Ma1†",
+    "Su-Yang Xu1†",
+    "Ching-Kit Chan1",
+    "2",
+    "Cheng-Long Zhang3",
+    "4",
+    "Guoqing Chang5",
+    "6",
+    "Yuxuan Lin7"
+  ],
+  "year": 2017,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\gedik\\Ma 等 - 2017 - Direct optical detection of weyl fermion chirality in a topological semimetal.pdf",
+  "filename": "Ma 等 - 2017 - Direct optical detection of weyl fermion chirality in a topological semimetal.pdf",
+  "n_figs": 3,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "2d08beb6_fig_000",
+      "caption": "Figure 1 | Chirality-dependent optical transition of Weyl fermions in TaAs. a, The blue and green arrows depict the Berry curvatures in momentum space.\nThe grey spheres represent the Fermi surfaces that enclose the Weyl nodes. b, Surface band structures along the closed k loops in the surface Brillo",
+      "label": "Figure 1",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2d08beb6\\2d08beb6_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "2d08beb6_fig_001",
+      "caption": "Figure 2 | Observation of chirality-dependent photocurrent in TaAs. a, Schematic illustration of the mid-IR photocurrent microscope setup. We used a\nlaser power about 10 mW throughout the main text. b, A photograph of the measured TaAs sample. The crystal axes a, b, c are denoted. Scale bar: 300 µm.",
+      "label": "Figure 2",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2d08beb6\\2d08beb6_p03_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "2d08beb6_fig_002",
+      "caption": "Figure 4 | Detection and manipulation of chiral Weyl fermions by\noptical means. a, Our calculations (see Supplementary Information III.4)\nshow ˆJTHY =χW1 ˆklight ×ˆc. b, By measuring the direction of the current ˆJ\nand knowing the polarization and propagation direction of the light, we\nobtain ˆJEXP ",
+      "label": "Figure 4",
+      "page": 5,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2d08beb6\\2d08beb6_p05_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

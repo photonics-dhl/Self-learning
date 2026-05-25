@@ -1,0 +1,758 @@
+{
+  "professor_key": "lhuillier",
+  "paper_count": 6,
+  "total_figures": 48,
+  "total_chunks": 83,
+  "papers": [
+    {
+      "title": "Roadmap of ultrafast x-ray atomic and molecular physics",
+      "year": 2018,
+      "journal": "",
+      "authors": [
+        "Atomic",
+        "Molecular and"
+      ],
+      "doi": "",
+      "paper_id": "7efe621585a57071",
+      "file_hash": "7efe621585a570714a2f7fdc18e30292",
+      "num_pages": 46,
+      "abstract": "",
+      "n_figures": 27,
+      "n_chunks": 46,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "7efe6215_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1. Phase space covered by the XFEL and HHG sources\ndiscussed in this roadmap. For XFELs, the pulse duration represents\nthat of a single pulse, whereas for HHG, the range spans both single\npulses and pulse trains spaced by the period of the driver laser. The\nnumbers in each island indicate the",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\7efe6215\\7efe621585a57071_p04_f00.png",
+          "page_num": 4,
+          "width": 2135,
+          "height": 943,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "7efe6215_fig_001",
+          "label": "Figure 3",
+          "caption": "Figure 3. Experimental techniques used in ultrafast x-ray science\nmapped onto photon number per pulse and photon energy typically\nused (blue). The high-ﬂuence regime enables nonlinear x-ray\nspectroscopies and single-shot imaging, potentially with atomistic\nresolution. Low ﬂuences are employed to rem",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\7efe6215\\7efe621585a57071_p05_f01.png",
+          "page_num": 5,
+          "width": 2135,
+          "height": 864,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "7efe6215_fig_002",
+          "label": "Figure 2",
+          "caption": "Figure 2. Fundamental atomic, molecular and electronic phenomena\nprobed on ultrafast timescales (blue). Fundamental collective phenom-\nena in the condensed phase probed on ultrafast timescales (pink).",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\7efe6215\\7efe621585a57071_p05_f02.png",
+          "page_num": 5,
+          "width": 2135,
+          "height": 898,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "7efe6215_fig_003",
+          "label": "Figure 4",
+          "caption": "Figure 4. Upper panel, a schematic view of the radio-sensitizing effect\nof 5-iodouracil (5IU), a nucleobase analog of biological relevance.\nThe work described in [6] illustrates how the molecule breaks apart\nand what ionic fragments are formed via the breakage of the molecular\nediﬁce shortly after t",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\7efe6215\\7efe621585a57071_p06_f03.png",
+          "page_num": 6,
+          "width": 2135,
+          "height": 1358,
+          "figure_type": "diagram",
+          "description": ""
+        },
+        {
+          "figure_id": "7efe6215_fig_004",
+          "label": "Figure 5",
+          "caption": "Figure 5. Transient near-edge absorption spectrum of thymine.\nExcitation of the molecule with ultraviolet light leads to strong\noxygen 1s–n absorption due to the half-full oxygen lone-pair orbital\nn. Reprinted by permission from Macmillan Publishers Ltd: Nature\nCommunications [17], Copyright 2017.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\7efe6215\\7efe621585a57071_p08_f04.png",
+          "page_num": 8,
+          "width": 2135,
+          "height": 1255,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "7efe6215_fig_005",
+          "label": "Figure 6",
+          "caption": "Figure 6. Potential energy curves for different steps of the KLL\nAuger cascade following Cl 1s→σ* excitation. Wave-function\ndistributions are shown in different colors for up to 8 fs after x-ray\nphoton absorption with 1 fs increments.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\7efe6215\\7efe621585a57071_p10_f05.png",
+          "page_num": 10,
+          "width": 2135,
+          "height": 1578,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "7efe6215_fig_006",
+          "label": "Figure 7",
+          "caption": "Figure 7. Schematic diagram of the atomic Doppler Auger physical\nphenomenon. Reprinted by permission from Macmillan Publishers\nLtd: Nature Communications [28], Copyright 2014.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\7efe6215\\7efe621585a57071_p11_f06.png",
+          "page_num": 11,
+          "width": 2135,
+          "height": 941,
+          "figure_type": "diagram",
+          "description": ""
+        },
+        {
+          "figure_id": "7efe6215_fig_007",
+          "label": "Figure 8",
+          "caption": "Figure 8. Schematic diagram of UV x-ray nonlinear pump–probe\nspectroscopy to observe long-range charge transport in biologically\nrelevant samples. A UV pulse initiates charge migration on a speciﬁc\nsite in the molecule. Two attosecond x-ray pulses that are tuned to\nspeciﬁc inner-shell absorption res",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\7efe6215\\7efe621585a57071_p14_f07.png",
+          "page_num": 14,
+          "width": 2135,
+          "height": 859,
+          "figure_type": "diagram",
+          "description": ""
+        },
+        {
+          "figure_id": "7efe6215_fig_008",
+          "label": "Figure 9",
+          "caption": "Figure 9. Two different x-ray pulse sequences for coherent\nattosecond x-ray Raman pump–probe spectroscopy. (a) Application\nof two attosecond x-ray pulses of controllable time delay Δt. The\nﬁrst pulse prepares a coherent, localized electronic valence\nwavepacket by an impulsive stimulated Raman proces",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\7efe6215\\7efe621585a57071_p15_f08.png",
+          "page_num": 15,
+          "width": 2135,
+          "height": 669,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "7efe6215_fig_009",
+          "label": "Figure 10",
+          "caption": "Figure 10. Schematic view of coherent control. Phase coherent light\nof one or more colors interacts with a target. The outcome of the\ninteraction is determined by the phase and amplitude of the light. Ion\nyield, direction of emission of ions and electrons, etc can be\ncontrolled.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\7efe6215\\7efe621585a57071_p16_f09.png",
+          "page_num": 16,
+          "width": 2135,
+          "height": 615,
+          "figure_type": "diagram",
+          "description": ""
+        },
+        {
+          "figure_id": "7efe6215_fig_010",
+          "label": "Figure 11",
+          "caption": "Figure 11. Range of excitation energies (eV) and wavevectors\n(nm−1) potentially accessible by XUV and soft x-ray FWM\nexperiments.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\7efe6215\\7efe621585a57071_p17_f10.png",
+          "page_num": 17,
+          "width": 2135,
+          "height": 876,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "7efe6215_fig_011",
+          "label": "Figure 12",
+          "caption": "Figure 12. Example for the sequential ionization process upon core\nexcitation. Reprinted by permission from Macmillan Publishers Ltd:\nNature [1], Copyright 2010.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\7efe6215\\7efe621585a57071_p18_f11.png",
+          "page_num": 18,
+          "width": 2135,
+          "height": 984,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "Journal of Physics B: Atomic, Molecular and Optical Physics ROADMAP • OPEN ACCESS You may also like Roadmap of ultrafast x-ray atomic and molecular -Multidimensional resonant nonlinear spectroscopy with coherent broadband x- ray pulses physics Kochise Bennett, Yu Zhang, Markus Kowalewski et al. -Attosecond and x-ray free-electron laser To cite this article: Linda Young et al 2018 J. Phys. B: At. Mol. Opt. Phys. 51 032003 physics R Moshammer and J Ullrich -Time-resolved molecular imaging Junliang",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "JournalofPhysicsB:Atomic,MolecularandOpticalPhysics J.Phys.B:At.Mol.Opt.Phys.51(2018)032003(45pp) https://doi.org/10.1088/1361-6455/aa9735 Roadmap Roadmap of ultrafast x-ray atomic and molecular physics Linda Young1,2,22, Kiyoshi Ueda3, Markus Gühr4,5, Philip H Bucksbaum5,6, Marc Simon7, Shaul Mukamel8, Nina Rohringer9,10, Kevin C Prince11 , Claudio Masciovecchio11, Michael Meyer12, Artem Rudenko13, Daniel Rolles13, Christoph Bostedt1, Matthias Fuchs5,14, David A Reis5, Robin Santra9,10, Henry K",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "J.Phys.B:At.Mol.Opt.Phys.51(2018)032003 Roadmap Abstract X-ray free-electron lasers (XFELs) and table-top sources of x-rays based upon high harmonic generation(HHG)haverevolutionizedthefieldofultrafastx-rayatomicandmolecularphysics, largely due to an explosive growth in capabilities in the past decade. XFELs now provide unprecedented intensity (1020Wcm −2) of x-rays at wavelengths down to ∼1Ångstrom, and HHG provides unprecedented time resolution (∼50attoseconds) and a correspondingly large cohe",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "J.Phys.B:At.Mol.Opt.Phys.51(2018)032003 Roadmap 1. Introduction LindaYoung Argonne National Laboratory and University of Chica- go The roadmap starts with topics generally familiar to the AMO community: femtochemistry viewed with an x-ray probe, multidimensional spectroscopy extended to the x-ray regime, and then winds toward the less commonly encoun- teredareasofhigh-intensityx-rayphenomenaandattosecond science. The first category describes how accelerator-based x-raysourcesareusedtoprobeultraf",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "J.Phys.B:At.Mol.Opt.Phys.51(2018)032003 Roadmap Figure3.Experimental techniques usedin ultrafast x-rayscience Figure2.Fundamentalatomic,molecularandelectronicphenomena mappedontophotonnumberperpulseandphotonenergytypically probedonultrafasttimescales(blue).Fundamentalcollectivephenom- used(blue).Thehigh-fluenceregime enables nonlinear x-ray enainthecondensedphaseprobedonultrafasttimescales(pink). spectroscopies andsingle-shot imaging,potentially with atomistic resolution.Lowfluencesareemployedto",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "J.Phys.B:At.Mol.Opt.Phys.51(2018)032003 Roadmap 2. Ultrafast molecular dynamics 2.1. Probing ultrafast structuraland electronic dynamicswith XFELs KiyoshiUeda Tohoku University Status. Currently, two hard XFELs, LCLS in USA and SACLA in Japan, are in operation for users, and a few more will open for operation this year. The ultrashort and intense x-ray pulses of these XFELs are revolutionizing the field of ultrafast imaging, allowing determination of so far unknown structures of transient specie",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "J.Phys.B:At.Mol.Opt.Phys.51(2018)032003 Roadmap certain edgeof a certain atom. Such time-resolved studies on Advancesinscienceandtechnologytomeetchallenges. The XFEL-induced reactions have just started at XFEL facilities XFEL facilities can provide x-ray pulses with durations down [9] and are in progress. to a few femtoseconds. This is also the case for double-pulse The availability of optical lasers at XFEL facilities operations. Employing these ultrashort double pulses one can opened a route t",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "J.Phys.B:At.Mol.Opt.Phys.51(2018)032003 Roadmap degreesoffreedom.Largeinner-shellbindingenergydifferences make x-ray spectra sensitive to both the type and location of atomsinamolecule.Complementaryinformationfromultrafast scatteringandspectroscopycanelucidatefundamentalprocesses such as charge transfer, light harvesting and photo-induced molecular damage. Many well-developed x-ray spectroscopy and scattering techniques have been extended to measurements inthefemtosecondtimedomain,andthefirstdec",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "J.Phys.B:At.Mol.Opt.Phys.51(2018)032003 Roadmap quality of data in absorption and RIXS experiments. Those rate accelerator will be limited to 5keV in the fundamental; have been hampered by the attenuation of x-ray monochro- the highest photon energy will be derived from the warm matorsinSASEFELs.Withseeding,thoseexperimentscould LINAC at 100Hz repetition rate. utilize the full-spectrum ‘pink’ beam, or have much higher The stability should improve with repetition rate. If throughputwhenusingamono",
+          "page": 9,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "J.Phys.B:At.Mol.Opt.Phys.51(2018)032003 Roadmap community on the results of multiphoton absorption in this x-ray domain obtained at different XFELs: LCLS (US), SACLA (Japan) and soon at European XFEL in Hamburg (Germany). Recent technical developments in high-brilliance third-generation synchrotron radiation facilities, electron or x-ray spectrometers and COLTRIMS (cold target recoil ion momentum spectroscopy) now allow investigations with tremendously higher performance than before. This field ",
+          "page": 10,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Probing Single-Photon Ionization on the Attosecond Time Scale K. Klu¨nder,1 J. M. Dahlstro¨m,1 M. Gisselbrecht,1 T. Fordell,1 M. Swoboda,1 D. Gue´not,1 P. Johnsson,1 J. Caillat,2 J. Mauritsson,1 A. Ma",
+      "year": 2010,
+      "journal": "",
+      "authors": [
+        "K. Klu¨nder",
+        "1 J. M. Dahlstro¨m",
+        "1 M. Gisselbrecht",
+        "1 T. Fordell",
+        "1 M. Swoboda",
+        "1 D. Gue´not",
+        "1 P. Johnsson",
+        "1 J. Caillat",
+        "2"
+      ],
+      "doi": "",
+      "paper_id": "2f4ad93995bfe0f7",
+      "file_hash": "2f4ad93995bfe0f7d1b806e855f7a095",
+      "num_pages": 4,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 4,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "2f4ad939_fig_000",
+          "label": "FIG. 1",
+          "caption": "FIG. 1 (color online).\nPrinciple of the measurement. Two\nEWPs originating from different shells are simultaneously cre-\nated using the same comb of high-order harmonics. The out-\ngoing EWPs are further probed with a weak ir ﬁeld. For\nsimplicity only two harmonics are indicated. Also shown is the\nexp",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2f4ad939\\2f4ad93995bfe0f7_p01_f00.png",
+          "page_num": 1,
+          "width": 1064,
+          "height": 521,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "2f4ad939_fig_001",
+          "label": "FIG. 2",
+          "caption": "FIG. 2 (color).\nEnergy spectra as a function of delay from\nelectrons liberated from the 3s shell (a) and the 3p shell (b),\nrespectively. (c) Retrieved delays corrected for the Cr group\ndelay. Also shown are the 3p delays shifted down in energy for\ncomparison with the 3s delays (dashed line).",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2f4ad939\\2f4ad93995bfe0f7_p02_f01.png",
+          "page_num": 2,
+          "width": 2168,
+          "height": 827,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "2f4ad939_fig_002",
+          "label": "FIG. 3",
+          "caption": "FIG. 3 (color online).\nComputed delays associated with the\nfollowing ionization channels: (a) 3p ! \u0006s, (b) 3p ! \u0006d,\n(c) 3s ! \u0006p in Ar, and (d) 1s ! \u0006p in H. The dashed lines\n(red) are the one-photon Wigner time delays. The dash-dotted\nlines (blue) represent the estimated delays induced by the\nmeasur",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2f4ad939\\2f4ad93995bfe0f7_p03_f02.png",
+          "page_num": 3,
+          "width": 2160,
+          "height": 2627,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "2f4ad939_fig_003",
+          "label": "FIG. 4",
+          "caption": "FIG. 4 (color online).\nComparison between the measured de-\nlay differences for ionization of Ar from the 3s and 3p shells\n(diamonds) with calculations performed according to the ap-\nproximate theory developed in this work (solid black line). Also\nshown is the delay expected for one-photon ionization",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\2f4ad939\\2f4ad93995bfe0f7_p04_f03.png",
+          "page_num": 4,
+          "width": 2160,
+          "height": 845,
+          "figure_type": "photo",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "week ending PRL 106, 143002 (2011) PHYSICAL REVIEW LETTERS 8 APRIL 2011 Probing Single-Photon Ionization on the Attosecond Time Scale K. Klu¨nder,1J.M. Dahlstro¨m,1M. Gisselbrecht,1 T.Fordell,1 M. Swoboda,1 D. Gue´not,1P. Johnsson,1J. Caillat,2 J. Mauritsson,1 A. Maquet,2 R. Ta¨ıeb,2 and A. L’Huillier1,* 1Department ofPhysics, Lund University, P.O. Box 118, 22100 Lund,Sweden 2Laboratoire deChimie Physique-Matie`re et Rayonnement, Universite´ Pierre et Marie Curie, 11, Rue Pierre et Marie Curie, ",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "week ending PRL 106, 143002 (2011) PHYSICAL REVIEW LETTERS 8 APRIL 2011 where (cid:2), (cid:3) are two constants independent of (cid:1). The term (cid:1) A is proportional to the difference in phase between consecutive harmonics and describes the group delay of theattosecondpulses,while(cid:1) I representstheatomicdelay due to the two-photon ionization process [17]. As wewill showbelow(cid:1) I canbeconnectedtotheWignertimedelay (cid:1) W forthesingle-photonionization.Theknowledgeof(cid:1) A asw",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "week ending PRL 106, 143002 (2011) PHYSICAL REVIEW LETTERS 8 APRIL 2011 The index a indicates that we first discuss a two-photon signalisobtainedbyangularintegrationofjM a ð2ÞþM e ð2Þj2. process with absorption of the ir photon. It canbewritten as Eq. (1), with We consider the channels s!p!‘ with ‘¼s, d. (cid:5) ðk Þ(cid:1)(cid:5) ðk Þ ’ccðkÞ(cid:1)’ccðkÞ Usingsphericalcoordinates,separatingradialandangular (cid:1) I ¼ 1 e 2! 1 a þ e 2! a : (8) parts, and expanding the final wave function into p",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "increases. We believe that the work presented here will 200 stimulatefurtherexperiments,aimingatmeasuringphoto- emissiondelaysinavarietyofsystems,andprovidingdata 100 that could be compared to advanced theoretical calculations. 0 We thank StefanHaessler,Franck Le´pine, and Kenneth J. Schafer for stimulating discussions. This research was −100 supported by the Marie Curie programs ATTOCO (IEF) and ATTOFEL (ITN), the European Research Council −200 (ALMA), the Joint Research Programme ALADIN of −30",
+          "page": 4,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Phase of the atomic polarization in high-order harmonic generation",
+      "year": 1995,
+      "journal": "",
+      "authors": [
+        "VOLUME 52",
+        "NUMBER 6"
+      ],
+      "doi": "",
+      "paper_id": "01185768ffe4b4cf",
+      "file_hash": "01185768ffe4b4cf343c66881aeddd3e",
+      "num_pages": 8,
+      "abstract": "",
+      "n_figures": 3,
+      "n_chunks": 8,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "01185768_fig_000",
+          "label": "FIG. 1",
+          "caption": "FIG. 1. Intensity\nand phase of the 45th harmonic\nemitted\nby a\nsingle neon atom as a function of the laser intensity. The dashed line\nrepresents\nthe exact result\nand the solid line is the result\nof the\nsaddle-point\napproximation\naccounting\nfor (a) a single,\nmost re1-\nevant,\nsaddle point and (b) two s",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\01185768\\01185768ffe4b4cf_p04_f00.png",
+          "page_num": 4,
+          "width": 2138,
+          "height": 1611,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "01185768_fig_001",
+          "label": "FIG. 3",
+          "caption": "FIG. 3. Total number\nof photons\nfor the 45th harmonic\nas a\nfunction of the position of the center of the medium\nz (the laser is\nfocused\nat z=0). The dashed\nline represents\nthe exact result,\nthe\nlong-dashed\nline the result of the one-saddle-point\napproximation,\nthe solid line the result of the two-sa",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\01185768\\01185768ffe4b4cf_p05_f01.png",
+          "page_num": 5,
+          "width": 2142,
+          "height": 1053,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "01185768_fig_002",
+          "label": "FIG. 2",
+          "caption": "FIG. 2. Phase of the total polarization\nalong the propagation\naxis\n(the laser is focused at z =0) at several laser intensities,\nfrom 2 to 6\nX 10'\nW/cm . The laser propagates\nfrom the left to the right.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\01185768\\01185768ffe4b4cf_p05_f02.png",
+          "page_num": 5,
+          "width": 2550,
+          "height": 3300,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "PHYSICAL REVIEW A VOLUME 52, NUMBER 6 DECEMBER 1995 Phase of the atomic polarization in high-order harmonic generation Maciej Lewenstein, ' Pascal Salieres, ' and Anne L'Huillier' 'Service des Photons, Atomes, et Molecules, Centre d'Etudes de Saclay, 91191Gifsur-Yve-tte, France Department ofPhysics, Lund 1nstitute ofTechnology, S221-00Lund, Sweden (Received 22 June 1995) A recently formulated theory of high-order harmonic generation by low-frequency laser fields [Anne L'Huillier et al. , Phys. R",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "4748 LEWENSTEIN, SALIERES, AND L'HUILLIER trajectories such that the action is stationary. Particularly im- the probability amplitude for an electron to make the transi- portant is the trajectory that corresponds to a rather short tion to the continuum at time t with the canonical momen- return time (much less than a period). To get an accurate tum p. The electronic wave function is then propagated until quasiclassical approximation of the induced dipole moment, the time t and acquires a phase f",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "52 PHASE OF THE ATOMIC POLARIZATION IN HIGH-ORDER 4749 — eters. This complex saddle-point solution becomes strictly Jo Jo dr d p exp[ iS(p,t,r)+iMt] real (i.e. , the imaginary parts oft2, rz, and pz vanish) as the (8) harmonic reaches the cutoff (i.e. , as 3.17U~ becomes equal to M) and bifurcates then into two real saddle-point solu- In order to apply the saddle-point method to the above ex- tions in the plateau region. The first of them, which we de- pression, we must find the stationary point",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "4750 LEWENSTEIN, SALIERES, AND L'HUILLIER 52 monic intensity, in the cutoff region. Note that the slope for 'I tltJlIIApIlIlI the phase dependence (=— 3.2) is smaller than the 4.08pre- LC3 —50 5.2U P I III It II lIiIlt( II'I II I ItI I IlI I r IltltI 1 II IIt 'IIl I I II l II t t I, Itl I 1 10 \" \" C C ) 3 p d ca o ic u n t I s d e n e e d ro t t h h m b e e y ot p t i t o v h la t e e a te l a r u o a e u c n t g e i r r h o e g n g y i e o c s n c o t , i o n m n ta t a t r h i t i n e b e s ut",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "52 PHASE OF THE ATOMIC POLARIZATION IN HIGH-ORDER ... 4751 60 t/I Cs -C) &0' o h4 —60 CJ C) CL. 30 —120 -4 I 0 I -2 0 2 z position (mm) Medium position z (mm) FIG.2.Phase ofthe total polarization along the propagation axis FIG. 3. Total number of photons for the 45th harmonic as a (the laser is focused at z = 0)at several laser intensities, from 2to 6 function ofthe position ofthe center ofthe medium z (the laser is X10' W/cm . The laser propagates from the left to the right. focused at z=0).The",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "4'752 LEWENSTEIN, SALIERES, AND L'HUILLIER 52 1.0 1.0 (a) mm 0.8 0.8 .= 0.6 0.6 CfJ CD CD ~ 0.4 ~ 0.4 M 0h4 CE3 ECJ o 0.2 o 0.2 0— I I I I 10 20 30 40 10 20 30 40 Near field profiles (pm) Near field profiles (ym) 1.0 1.0— (b) (d) z=3 mr@ I Z= 1 fTll7l 0.8 0.8 iI I 0.6 0.6 I I I ,I I I CD CD I I II ~ 0.4 ~ 0.4 II h4 0o hl EC o J 0.2 E o 0.2 , 'I I I l I I I 0— I I a 10 20 30 40 100 20 30 40 Near fieid profiles (pm) Near field profiles (pm) FIG.4. Spatial profilee ofthe 45th harmonic aattheeeexxii",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "PHASE OF THE ATOMIC POLARIZATION IN HIGH-ORDER 4753 harmonic-generation process in question. have begun to study experimentally harmonic generation by The single-atom results obtained with our theoretical ap- two colors [29].Theoretical calculations of the atomic re- proach [10] can be reproduced with a simplified quasi- sponse to two-color laser fields are very tedious. Numerical classical method. In this theory, the Fourier components of solutions of the time-dependent Schrodinger equations re",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "4754 LEWENSTEIN, SALIERES,AND L'HUILLIER 52 slowly as U„tends to the plateau-cutoff threshold. Above this (1993);(b)S.Watanabe, K.Kondo, Y.Nabekawa, A. Sagisaka, threshold, this derivative very rapidly attains values ofthe or- and Y.Kobayashi, Phys. Rev. Lett.73,2692 (1994);K.Kondo, — — der of 5.7 and 5.8 and then decreases very slowly toward Y. Kobayashi, A. Sagisaka, Y. Nabekawa, and S. Watanabe an asymptotic value of — 2m at U„~~. (unpublished); (c) H. Eichmann, A. Egbert, S. Nolte, C. [28]Th",
+          "page": 8,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Pascal Salieres, ' Anne L'Huillier, '",
+      "year": 1995,
+      "journal": "",
+      "authors": [
+        "Pascal Salieres",
+        "' Anne L'Huillier",
+        "'"
+      ],
+      "doi": "",
+      "paper_id": "8f70db8a5dfc7c79",
+      "file_hash": "8f70db8a5dfc7c79c1a96cb10c8bb840",
+      "num_pages": 4,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 4,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "8f70db8a_fig_000",
+          "label": "FIG. 2",
+          "caption": "FIG. 2.\nPhase\nof the\no\npo\nn\no\no\nh l-.-d-h\nd\n1 ne",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\8f70db8a\\8f70db8a5dfc7c79_p02_f00.png",
+          "page_num": 2,
+          "width": 2550,
+          "height": 2622,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "8f70db8a_fig_001",
+          "label": "FIG. 3",
+          "caption": "FIG. 3.\nConversion\nefficien\n(\nh\ns\na\nunction\nof the",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\8f70db8a\\8f70db8a5dfc7c79_p02_f01.png",
+          "page_num": 2,
+          "width": 2550,
+          "height": 2627,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "8f70db8a_fig_002",
+          "label": "FIG. 4",
+          "caption": "FIG. 4.\n(a) Near-field,\n(b) far-field,\n(c) temporal,\nand\n(d)\nspectral\nprofiles\nof the 45th harmonic.\nThe solid\nline\nis the\nresult\nobtained\nat z = 3 mm,\nand the dashed\nline the result\nat\nz = —1 mm.\nThe dot-dashed\nline in both (c) and (d) indicates\nthe result obtained\nat z = 0.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\8f70db8a\\8f70db8a5dfc7c79_p03_f02.png",
+          "page_num": 3,
+          "width": 2550,
+          "height": 2696,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "8f70db8a_fig_003",
+          "label": "FIG. 5",
+          "caption": "FIG. 5.\nTheoretical\n(a) and experimental\n(b) evolution\nof the\n39th harmonic\nfar-field\nprofile\nas a function\nof the position\no\ne\nf th\nmedium\nrelative\nto\nthe\nfocus.\nAs\ng\ndecreases,\nthe\npro\ne,\nrs\nqui\nfil,\nfi\nt\nuite\nnarrow\n(long-dashed\nline),\nbroaden",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\8f70db8a\\8f70db8a5dfc7c79_p04_f03.png",
+          "page_num": 4,
+          "width": 2550,
+          "height": 2664,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "VOLUME 74, NUMBER 19 PH YSICAL REVIEW LETTERS 8 MAY 1995 Coherence Control ofHigh-Order Harmonics ' Pascal Salieres, ' Anne L'Huillier, and Maciej Lewenstein' 'Service des Photons, Atomes, et MoleculesC, entre d'Etudes de Saclay, 91191Gif-sur Yve-tte, France Department ofPhysics, Lund Institute ofTechnology, P0 I3o.x 18, S-221 00Lund, Sweden 1. \"Ins.tttute for Theoretical Atomic and Molecular Physics, Harvard University, Cambridge, Massachusetts 02138 (Received 15November 1994) We study the cond",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "VELUUMME 74, NUMBER 19 PH YSICAL REVIE% LETTERS 8 MAv 1995 O O CL —5 0 0 — — I II I IIII II II I I I I I ! I 'I I I II I II s I II I I II ~II I I III I I I IIII lI l I i l l I I I l I I Il l It l Il l I l l I l I II I I I II V V I II'I III 'I'II I ( I I IIII I I I t Il e H~ l II I I I II I —1 1 1 0 0 0 -1 ' 1 1 0 C O 3 O —100— I III 10 12 O N I O II I \" C O L. I —10 -150— I I I I I I —120— 2 4 6 Intensity (xIO W/em ) z position (mm) FIG. 1. 45th ssiinngl1e neon atom haarrmmonic intenssiti das FI",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "VOLUME 74, NUMBER 19 PHYSICAL REVIEW LETTERS 8 MAv 1995 intensity, i.e. , at best focus and at the maximum of the — 1) = 5.2 X 10'4 W/cm~ (plateau). Figure 4(a) presents pulse envelope, of 6 X 10' W/cm . The result, shown the spatial profiles at the exit of the medium (i.e. , z + as a solid line, is quite asymmetric, and exhibits two 0.8 mm). When the laser is focused 3 mm before the maxima. To understand their origin, we present three- medium, the harmonic profile (solid line) is very regular d",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "VOLUME 74, NUMBER 19 PH YSICAL REVIEW LETTERS 8 MA& 1995 fvequency chirp is limited. The FWHM is 0.4 A 0 , which presented in more detail elsewhere. The evolution from corresponds to about 4 times the Fourier transform limit. Gaussian beams to increasingly distorted annular profiles = — In contrast when z 1 mm (dashed line), the intensity is remarkably reproduced in our calculations. in the medium corresponds to the plateau region; the I conclusion the intensity dependence ofthe phase of dipole ",
+          "page": 4,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "M. Lewenstein, \"Ph. Balcou,",
+      "year": 1994,
+      "journal": "",
+      "authors": [
+        "VOLUME 49",
+        "NUMBER 3"
+      ],
+      "doi": "",
+      "paper_id": "e42aad820de8e242",
+      "file_hash": "e42aad820de8e242018e9e5572a55a31",
+      "num_pages": 16,
+      "abstract": "",
+      "n_figures": 8,
+      "n_chunks": 16,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "e42aad82_fig_000",
+          "label": "FIG. 1",
+          "caption": "FIG. 1. The\nfunction\n2~C(r)\n~\n(solid\nline)\nand\nthe\nki-\nnetic-energy\ngain EEq;„(r) (dashed line) as a function of the\nreturn\ntime 7'. Note that both functions\nhave the same ex-\ntrema at the same values of r.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\e42aad82\\e42aad820de8e242_p05_f00.png",
+          "page_num": 5,
+          "width": 2511,
+          "height": 2917,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "e42aad82_fig_001",
+          "label": "FIG. 2",
+          "caption": "FIG. 2. Comparison\nof harmonic\nspectra\nobtained\nwith\nGEX (open squares), GSP (stars), and GBR (black squares)\nmethods;\nI~ = 13.6, U„= 20, a = 2I„.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\e42aad82\\e42aad820de8e242_p07_f01.png",
+          "page_num": 7,
+          "width": 2511,
+          "height": 3300,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "e42aad82_fig_002",
+          "label": "FIG. 3",
+          "caption": "FIG. 3. Comparison\nof intensity\ndependences\nof the 35th\nharmonic\nfor the GBR model\nand for a hydroaenlike\natom;\nIp —\n—13.6, n = 2'.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\e42aad82\\e42aad820de8e242_p08_f02.png",
+          "page_num": 8,
+          "width": 2124,
+          "height": 934,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "e42aad82_fig_003",
+          "label": "FIG. 4",
+          "caption": "FIG. 4. (a) Comparison\nof intensity\ndependences\nof the\n35th harmonic ss for the GBR model with (black squares)\nand\nwithout\n(open squares)\ntaking into account effects of electron\nrescattering\n(these effects are included\nby restricting\nthe in-\ntegration\nover return\ntime\n7 to one optical cycle). (b) Sa",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\e42aad82\\e42aad820de8e242_p08_f03.png",
+          "page_num": 8,
+          "width": 2124,
+          "height": 520,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "e42aad82_fig_004",
+          "label": "FIG. 5",
+          "caption": "FIG. 5. Plot of the function F(Ip/Up) that enters the exact\ncutoff law, (2K + 1) „=3.17Up + IpF(Ip/Up)",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\e42aad82\\e42aad820de8e242_p11_f04.png",
+          "page_num": 11,
+          "width": 2511,
+          "height": 2848,
+          "figure_type": "plot",
+          "description": ""
+        },
+        {
+          "figure_id": "e42aad82_fig_005",
+          "label": "FIG. 6",
+          "caption": "FIG. 6. Harmonic spectra for the GBR model with I„=30,\na = I„.The curve with open squares\nis obtained\nfor U„:10\nand the one with black squares\nfor U„= 20. The locations of\nthe phenomenological\nand exact cutoffs are indicated\nby the\narrows.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\e42aad82\\e42aad820de8e242_p11_f05.png",
+          "page_num": 11,
+          "width": 2511,
+          "height": 2853,
+          "figure_type": "plot",
+          "description": ""
+        },
+        {
+          "figure_id": "e42aad82_fig_006",
+          "label": "FIG. 8",
+          "caption": "FIG. 8. Comparison\nof intensity\ndependences\nof the 35th\nharmonic\nwith\n(open squares),\nand without\n(black squares)\ndepletion.\nBoth curves are obtained\nfor the GBR model with\nI„=5, o. = 2I„. The duration\nof the pulse t~ is taken to be\n50 optical cycles.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\e42aad82\\e42aad820de8e242_p13_f06.png",
+          "page_num": 13,
+          "width": 2511,
+          "height": 2887,
+          "figure_type": "plot",
+          "description": ""
+        },
+        {
+          "figure_id": "e42aad82_fig_007",
+          "label": "FIG. 7",
+          "caption": "FIG. 7. Intensity\ndependence\nof the depletion\nrate pR for\nthe GBR model;\nI~ = 5, a = 2I~; (b) Same as (a) for the\nac-Stark shift of the ground-state\nenergy —7I.",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\e42aad82\\e42aad820de8e242_p13_f07.png",
+          "page_num": 13,
+          "width": 2511,
+          "height": 2967,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "PHYSICAL REVIE%' A VOLUME 49,NUMBER 3 MARCH 1994 Theory of high-harmonic generation by low-frequency laser fields \" M. Lewenstein, Ph. Balcou, M. Yu. Ivanov, 't Anne L'Huillier, and P. B.Corkum Joint Institute for Iaboratory Astrophysics, University of Colov'ado, Boulder, Colorado 80809 0$-40 Service des Photons, Atomes et Molecules, Centre d'Etudes de Saclay, 91191Cifsur Yvette, Prance National Research Council of Canada, M 88A-, Ottawa, Ontario, Canada EC1A OR6 Lawrence Livermore National Labo",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "2118 M. LEWENSTEIN et al. 49 ate kinetic energy to produce a given harmonic at the motivation of the present work was to find an interme- time of return. This classical interpretation shows that diate approximate solution to the problem of harmonic in order to control harmonic-generation processes, one generation valid in a low-&equency high-intensity regime should try to control the motion of free electrons in the that would provide a link between the methods of Refs. laser field. Shaping appro",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "THEORY OFHIGH-HARMONIC GENERATION SYI.O%-... z~@(x,t)) = —— 2 V +V(x) —Ecos(t)x ]4(x,t)). (2) w iz i a t t h ion fi . nal K s e ta ld te y s sh de u s s c e r d ibe a d v b e y rsi V on olko o v f t w he ave S- f m un a c t t r i i o x ns th ( e [ o 1 r 0 y ], see also [28]),i.e. , solutions of the Schrodinger equation Initially, the systexn is in the ground state, denoted as describing the motion ofa &ee electron in the laser field. ~0) W , w e h c i o ch nsid in er ge th n e era c l as h e a w",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "2120 M.LEWENSTEIN et al. 49 where A(t) = ( — Esin(t), 0,0) is the vector potential of (8)is to interpret it as a Landau-Dyhne formula for tran- the laser field. sition probabilities applied to the evaluation of the ob- In order to calculate the x component of the time- servable z [33]. Finally, note that Eq. (8) is evidently dependent dipole moment, we have to evaluate z(t) gauge invariant. (@(t)~z~tI)'(t)). Using Eqs. (3) and (5) we obtain The expression (8)can be easily generalized to the case",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "49 THEORY OFHIGH-HARMONIC GENERATION BYLOW-. .. 2121 In writing Eq. (13),we have introduced a new variable IV. However, it is worth mentioning here that Eq. (13) (the return time) r = t t—' and extended integration over shows afurther relation between our quantum theory and it to oo. The stationary value of the xth component of the semiclassical model ofRefs. [8,9). Indeed, in the limit the momentum, p,q(t, r), allows the electron trajectory Ip Up the saddle point of the integral over w in Eq. s",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "2122 M.LEWENSTEIN et al. 49 As we see &om Fig. 1, both functions have several turning to the nucleus is scattered away instead ofbeing maxima. They correspond to trajectories ofthe electron recombined. Section IIIF discusses the efBciency ofhar- that contain one, two, or more returns to the vicinity of monic emission for various laser frequencies. the nucleus (with the last one at t) he first maximum T. appears at r, „z 4.08and 2~C(r,„z) =3.17. The follow- ing maxima are between 2 and 2.4. S~inc",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "49 THEORY OFHIGH-HARMONIC GENERATION BYLOW-. .. 2123 C. Broad Gaussian limit 10 Finally, it isinteresting to note that in the limit oflarge 10 11 a, Eqs. (A5) — (A8) may be even more simplified. To this end, we let formally o, m oo and keep only the leading 10 -12 terms. The result for the harmonic strength again has the form (22) and the functions B(7. ) and C(7) are the same 10 13 as the ones defined in Eqs. (A6) and (A7), respectively. The other functions can be found in Appendix A. The expre",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "2124 M.LEWENSTEIN et al. 49 10 10 10 10 '2 10 10 10 10 \" 10-18 10 1 0-20 0.6 0'8 1.0 1.2 1.4 10 20 0.6 0. I 8 1.0 1 I .2 1.4 1.6 log10 U log10 U FIG. 3. Comparison of intensity dependences of the 35th 10 12 harmonic for the GBR model and for a hydroaenlike atom; Ip ——13.6, n =2'. 0 14 that return back to the nucleus. Such processes have 10 been estimated [9]to be quite efficient. Our theory does not include them since we have completely neglected the 10 part of the C-C matrix elements that is re",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "49 THEORY OFHIGH-HARMONIC GENERATION BYLOW-. .. 2125 that. First, the number ofharmonic we have to produce technique is quite eKcient in calculating the integral over to get 00 is lower for higher laser &equency. Second, for p, we apply the same technique to evaluate the remaining higher laser &equency the laser period is shorter. There- integrals over 7 and t. This method is asymptotically fore, the spreading ofthe wave packet before the moment exact provided Uz, Iz, and K are large enough. The",
+          "page": 9,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "2126 M.LEWENSTEIN et al. 49 hand side expression is equal to zero. is C(T) = 2s(T)a(T). From Eq. (32), we obtain Inserting the solution of Eq. (27), i.e. the expression for p, (t,T), into Eq. (28) it is easy to solve the latter i)/s~ a(s)ks(~)/s (~)+a (~)+ with r (, espect to sin(t — T/2) and cos(t — 7/2). Namely, (\"(-)+-'(-)I ~ ), Eq. (28) reduces to the form cos(t — T/2) = 'E~'s' (T) ( + , a(T)ps(7 )+as(7)+ (36) \", ( ( )I — — — = Ip sin(t T/2)a(T) cos(t T/2)s(T) i 2' ' (32) There exists also a",
+          "page": 10,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Electron localization following attosecond molecular photoionization",
+      "year": 1918,
+      "journal": "",
+      "authors": [
+        "G. Sansone1*",
+        "F. Kelkensberg2*",
+        "J. F. Pe´rez-Torres3*",
+        "F. Morales3*",
+        "M. F. Kling4",
+        "W. Siu2",
+        "O. Ghafur2",
+        "P. Johnsson2",
+        "5"
+      ],
+      "doi": "",
+      "paper_id": "c1b70dc6fb9042c5",
+      "file_hash": "c1b70dc6fb9042c50c266f6a2c6085ae",
+      "num_pages": 5,
+      "abstract": "",
+      "n_figures": 2,
+      "n_chunks": 5,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "c1b70dc6_fig_000",
+          "label": "Figure 3",
+          "caption": "Figure 3 | Mechanisms that lead to asymmetry in EUV–infrared dissociative\nionization. a,Asymmetrycausedbytheinterferenceofawavepacketlaunched\nin the 2psu state by direct EUV ionization or rapid ionization of the Q1\n1Su\n1",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c1b70dc6\\c1b70dc6fb9042c5_p03_f00.png",
+          "page_num": 3,
+          "width": 2202,
+          "height": 1067,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "c1b70dc6_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2 | Asymmetry in EUV–infrared dissociative ionization of hydrogen.\na, Experimentally measured asymmetry parameter (colour scale) for the\nformation of D1 ions in two-colour (EUV–infrared) dissociative ionization\nof D2, as a function of the fragment kinetic energy, Ek, and the EUV–infrared\ndela",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\c1b70dc6\\c1b70dc6fb9042c5_p03_f01.png",
+          "page_num": 3,
+          "width": 2202,
+          "height": 1179,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "Vol465|10June2010|doi:10.1038/nature09084 LETTERS Electron localization following attosecond molecular photoionization G.Sansone1*,F.Kelkensberg2*,J.F.Pe´rez-Torres3*,F.Morales3*,M.F.Kling4,W.Siu2,O.Ghafur2,P.Johnsson2,5, M.Swoboda5,E.Benedetti1,F.Ferrari1,F.Le´pine6,J.L.Sanz-Vicario7,S.Zherebtsov4,I.Znakovskaya4,A.L’Huillier5, M.Yu.Ivanov8,M.Nisoli1,F.Mart´ın3&M.J.J.Vrakking2,9 Forthepastseveraldecades,wehavebeenabletodirectlyprobe andbiomolecularcomplexes11,12.Extremelyfastmoleculardynamics th",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "1011 EUV only 10 40 IR only 5 = 0.5 fs 109 0 = 8 fs 0 2 4 6 8 10 –5 0 2 4 6 8 10 107 2–7 EUV only 10 (×100) IR only 5 1–7 = 0.5 fs 0 = 8 fs –5 0 0 2 4 6 8 10 0 2 4 6 8 10 of ionic fragment observation and laser polarization23. For photon DissociativeionizationofH lendsitselftotheobservationofboth 2 energiesuptohn525eV(wherehisPlanck’sconstantandnisthe laboratory-frameandmolecular-frameasymmetries.Thefirstcorre- photonfrequency),directionizationformsthemolecular2S 1(1ss ) sponds to an asymmetry i",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "40 10 +0.1 9 8 0 –0.1 +1 Q 0 1 –1 Fromequations(1)–(3),weseethat N L (E k ,t){N R (E k ,t)~4Re½c 1 c 4 (cid:2)z c 2 c 3 (cid:2)(cid:1) Q 1S 1(1) state (and, to a lesser extent,direct ionization) leads to 1 u Thus, a laboratory-frame asymmetry is formed by a mixed-parity theformationofadissociativewavepacketinthe1ss g statethatis superpositioninwhichthecontinuumelectronhasthesameangular primarily accompanied by the emission of a p electron (c 2 ?0; see momentum,l orl ,inbothionicstates,withc ,c ?",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "LETTERS NATURE|Vol465|10June2010 Results similar to those in Fig. 3d are obtained from an even 7. Uiberacker,M.etal.Attosecondreal-timeobservationofelectrontunnellingin simpler, semi-classical Landau–Zener model (Methods). In this atoms.Nature446,627–632(2007). 8. Cavalieri,A.L.etal.Attosecondspectroscopyincondensedmatter.Nature449, model, the infrared-laser-induced population transfer during dis- 1029–1032(2007). sociationcanbeunderstoodintermsofso-calledquasistaticstates, 9. Kelkensberg,F.etal",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "doi:10.1038/nature09084 METHODS withafull-widthathalf-maximumof6fs)andI IR 5(A0 IR )2v IR 5331012Wcm22, Experimentalmethods.Togeneratebothbeams,linearlypolarizedfew-cycle whereA0 IR andI IR arerespectivelythevectorpotentialandtheintensityofthe infraredlaserpulseswithacontrolledcarrier-envelopephaseweredividedintoa infraredpulse,andtwasvariedfrom0to12fs.WesolvedtheTDSEbyexpanding centralandanannularpartusingadrilledmirror.Thepolarizationstateofthe thetime-dependentwavefunction,W,inabasisoffullyco",
+          "page": 5,
+          "type": "body"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "paper_id": "bae740ee",
+  "title": "Impact of the Electronic Band Structure in High-Harmonic Generation Spectra of Solids",
+  "authors": [
+    "1Max Planck Institute for the Structure",
+    "Dynamics of Matter",
+    "Luruper Chaussee 149",
+    "22761 Hamburg",
+    "Germany"
+  ],
+  "year": 2016,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\kaertner\\Tancogne-Dejean 等 - 2017 - Impact of the electronic band structure in high-harmonic generation spectra of solids.pdf",
+  "filename": "Tancogne-Dejean 等 - 2017 - Impact of the electronic band structure in high-harmonic generation spectra of solids.pdf",
+  "n_figs": 1,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "bae740ee_fig_000",
+      "caption": "FIG. 3.\nHHG spectra vs center wavelength of the driver pulses,\nat fixed peak intensity and laser pulse duration, for polarization\nalong ΓX. White dashed curves represent the harmonics and the\nred arrow indicates the wavelength-independent harmonic cutoff.",
+      "label": "FIG. 3",
+      "page": 4,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bae740ee\\bae740ee_p04_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "plot"
+    }
+  ],
+  "tables": []
+}

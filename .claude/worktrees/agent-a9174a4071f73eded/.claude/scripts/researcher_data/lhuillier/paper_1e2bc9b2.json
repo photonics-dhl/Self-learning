@@ -1,0 +1,51 @@
+{
+  "paper_id": "1e2bc9b2",
+  "title": "Phase of the atomic polarization in high-order harmonic generation",
+  "authors": [
+    "VOLUME 52",
+    "NUMBER 6"
+  ],
+  "year": 1995,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\lhuillier\\Lewenstein 等 - 1995 - Phase of the atomic polarization in high-order harmonic generation.pdf",
+  "filename": "Lewenstein 等 - 1995 - Phase of the atomic polarization in high-order harmonic generation.pdf",
+  "n_figs": 3,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "1e2bc9b2_fig_000",
+      "caption": "FIG. 1. Intensity\nand phase of the 45th harmonic\nemitted\nby a\nsingle neon atom as a function of the laser intensity. The dashed line\nrepresents\nthe exact result\nand the solid line is the result\nof the\nsaddle-point\napproximation\naccounting\nfor (a) a single,\nmost re1-\nevant,\nsaddle point and (b) two s",
+      "label": "FIG. 1",
+      "page": 4,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1e2bc9b2\\1e2bc9b2_p04_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "1e2bc9b2_fig_001",
+      "caption": "FIG. 3. Total number\nof photons\nfor the 45th harmonic\nas a\nfunction of the position of the center of the medium\nz (the laser is\nfocused\nat z=0). The dashed\nline represents\nthe exact result,\nthe\nlong-dashed\nline the result of the one-saddle-point\napproximation,\nthe solid line the result of the two-sa",
+      "label": "FIG. 3",
+      "page": 5,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1e2bc9b2\\1e2bc9b2_p05_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "1e2bc9b2_fig_002",
+      "caption": "FIG. 2. Phase of the total polarization\nalong the propagation\naxis\n(the laser is focused at z =0) at several laser intensities,\nfrom 2 to 6\nX 10'\nW/cm . The laser propagates\nfrom the left to the right.",
+      "label": "FIG. 2",
+      "page": 5,
+      "image_path": "z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1e2bc9b2\\1e2bc9b2_p05_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

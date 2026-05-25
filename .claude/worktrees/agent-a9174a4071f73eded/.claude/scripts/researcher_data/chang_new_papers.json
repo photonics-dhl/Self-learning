@@ -1,0 +1,324 @@
+[
+  {
+    "doi": "10.1103/physrevlett.79.2967",
+    "title": "Generation of Coherent Soft X Rays at 2.7 nm Using High Harmonics",
+    "year": "1997",
+    "cites": 739,
+    "journal": "Physical Review Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Zenghu",
+        "lastName": "Chang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andy",
+        "lastName": "Rundquist"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Haiwen",
+        "lastName": "Wang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Margaret",
+        "lastName": "M. Murnane"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Henry",
+        "lastName": "C. Kapteyn"
+      }
+    ]
+  },
+  {
+    "doi": "10.1364/ol.37.003891",
+    "title": "Tailoring a 67 attosecond pulse through advantageous phase-mismatch",
+    "year": "2012",
+    "cites": 588,
+    "journal": "Optics Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Kun",
+        "lastName": "Zhao"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Qi",
+        "lastName": "Zhang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michael",
+        "lastName": "Chini"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yi",
+        "lastName": "Wu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Xiaowei",
+        "lastName": "Wang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Zenghu",
+        "lastName": "Chang"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevlett.100.103906",
+    "title": "Double Optical Gating of High-Order Harmonic Generation with Carrier-Envelope Phase Stabilized Lasers",
+    "year": "2008",
+    "cites": 457,
+    "journal": "Physical Review Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Hiroki",
+        "lastName": "Mashiko"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Steve",
+        "lastName": "Gilbertson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chengquan",
+        "lastName": "Li"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sabih",
+        "lastName": "D. Khan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mahendra",
+        "lastName": "Man Shakya"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Eric",
+        "lastName": "Moon"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Zenghu",
+        "lastName": "Chang"
+      }
+    ]
+  },
+  {
+    "doi": "10.1038/s41467-017-00321-0",
+    "title": "53-attosecond X-ray pulses reach the carbon K-edge",
+    "year": "2017",
+    "cites": 449,
+    "journal": "Nature Communications",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Jie",
+        "lastName": "Li"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Xiaoming",
+        "lastName": "Ren"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yanchun",
+        "lastName": "Yin"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kun",
+        "lastName": "Zhao"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andrew",
+        "lastName": "Chew"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yan",
+        "lastName": "Cheng"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Eric",
+        "lastName": "Cunningham"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yang",
+        "lastName": "Wang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Shuyuan",
+        "lastName": "Hu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yi",
+        "lastName": "Wu"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevlett.84.111",
+    "title": "Time-Resolved X-Ray Diffraction from Coherent Phonons during a Laser-Induced Phase Transition",
+    "year": "2000",
+    "cites": 370,
+    "journal": "Physical Review Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "A.",
+        "lastName": "M. Lindenberg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ilnam",
+        "lastName": "Kang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Steven",
+        "lastName": "L. Johnson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "T.",
+        "lastName": "Mißalla"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Philip",
+        "lastName": "A. Heimann"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Zenghu",
+        "lastName": "Chang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jörgen",
+        "lastName": "Larsson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "P.",
+        "lastName": "H. Bucksbaum"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Henry",
+        "lastName": "C. Kapteyn"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "H.",
+        "lastName": "A. Padmore"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physrevlett.103.183901",
+    "title": "Generation of Isolated Attosecond Pulses with 20 to 28 Femtosecond Lasers",
+    "year": "2009",
+    "cites": 326,
+    "journal": "Physical Review Letters",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Ximao",
+        "lastName": "Feng"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Steve",
+        "lastName": "Gilbertson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Hiroki",
+        "lastName": "Mashiko"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "He",
+        "lastName": "Wang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sabih",
+        "lastName": "D. Khan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michael",
+        "lastName": "Chini"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yi",
+        "lastName": "Wu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kun",
+        "lastName": "Zhao"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Zenghu",
+        "lastName": "Chang"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physreva.65.011804",
+    "title": "Dramatic extension of the high-order harmonic cutoff by using a long-wavelength driving field",
+    "year": "2001",
+    "cites": 287,
+    "journal": "Physical Review A",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Bing",
+        "lastName": "Shan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Zenghu",
+        "lastName": "Chang"
+      }
+    ]
+  },
+  {
+    "doi": "10.1103/physreva.70.043802",
+    "title": "Single attosecond pulse and xuv supercontinuum in the high-order harmonic plateau",
+    "year": "2004",
+    "cites": 240,
+    "journal": "Physical Review A",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Zenghu",
+        "lastName": "Chang"
+      }
+    ]
+  }
+]

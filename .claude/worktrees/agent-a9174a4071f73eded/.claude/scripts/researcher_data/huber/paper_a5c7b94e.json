@@ -1,0 +1,48 @@
+{
+  "paper_id": "a5c7b94e",
+  "title": "Letter",
+  "authors": [],
+  "year": 2018,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\huber\\Langer 等 - 2018 - Lightwave valleytronics in a monolayer of tungsten diselenide.pdf",
+  "filename": "Langer 等 - 2018 - Lightwave valleytronics in a monolayer of tungsten diselenide.pdf",
+  "n_figs": 3,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "a5c7b94e_fig_000",
+      "caption": "Fig. 1 | High-odd-order sideband generation in monolayer WSe2. \na, Crystal structure of a WSe2 monolayer. Tungsten atoms are depicted as \ngrey, selenium atoms as brown spheres. b, Hexagonal Brillouin zone with \nthe spin-split valence and conduction band edges at the inequivalent  \nK and K′ points. T",
+      "label": "Fig. 1",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a5c7b94e\\a5c7b94e_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "a5c7b94e_fig_001",
+      "caption": "Fig. 2 | Electronic structure of WSe2 and quantum theory of high-order \nsideband generation. a, b, Band structure of monolayer WSe2 calculated \nby DFT for the zigzag (a) and the armchair (b) directions (dark colours, \nspin-up bands; light colours, spin-down bands). There is no inversion \nsymmetry ab",
+      "label": "Fig. 2",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a5c7b94e\\a5c7b94e_p02_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "a5c7b94e_fig_002",
+      "caption": "Fig. 4 | Intervalley mixing and lightwave valleytronics. a, Measured \npolarization-resolved intensity IHSG of individual sideband orders \n(normalized, coloured data points) for circularly polarized excitation \n(normalized, black data points) of the K valley only. The terahertz-driven \nintraband tran",
+      "label": "Fig. 4",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\a5c7b94e\\a5c7b94e_p03_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

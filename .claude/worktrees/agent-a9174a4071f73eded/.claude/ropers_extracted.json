@@ -1,0 +1,495 @@
+{
+  "professor_key": "ropers",
+  "paper_count": 5,
+  "total_figures": 18,
+  "total_chunks": 31,
+  "papers": [
+    {
+      "title": "Real-time spectral interferometry probes the internal dynamics of femtosecond soliton molecules",
+      "year": 2017,
+      "journal": "",
+      "authors": [
+        "G. Herink",
+        "1",
+        "2* F. Kurtz",
+        "1 B. Jalali",
+        "2 D. R. Solli",
+        "1",
+        "2 C. Ropers1",
+        "3*"
+      ],
+      "doi": "",
+      "paper_id": "41ea6a267757f76c",
+      "file_hash": "41ea6a267757f76c6abe73fc5190188b",
+      "num_pages": 5,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 5,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "41ea6a26_fig_000",
+          "label": "Fig. 1",
+          "caption": "Fig. 1. Spectral interferometry of soliton molecule dynamics. (A) Sketch of the temporal dynamics\nduring soliton molecule formation in a femtosecond oscillator: Starting from two individual solitons, a bound\nstate with fixed separation and locked relative phase evolves. (B) In the frequency domain, ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\41ea6a26\\41ea6a267757f76c_p02_f00.png",
+          "page_num": 2,
+          "width": 2281,
+          "height": 1136,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "41ea6a26_fig_001",
+          "label": "Fig. 2",
+          "caption": "Fig. 2. Formation of a soliton molecule. (A) Experimental real-time interferograms during the formation\nof a soliton bound state with locked relative phases and a separation of 180 fs. The decrease in pulse\nseparation is inversely proportional to the fringe period. Shifts in the fringe pattern denot",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\41ea6a26\\41ea6a267757f76c_p02_f01.png",
+          "page_num": 2,
+          "width": 2281,
+          "height": 1152,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "41ea6a26_fig_002",
+          "label": "Fig. 3",
+          "caption": "Fig. 3. Soliton molecules with stepping phase. (A) Experimental real-time interferograms of the initial\nsoliton bound state with a separation of 170 fs and fixed relative phase. (B, C, and E) Upon reduction of\npump power, the relative phase of the soliton molecule evolves in a highly regular, steppi",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\41ea6a26\\41ea6a267757f76c_p03_f02.png",
+          "page_num": 3,
+          "width": 1469,
+          "height": 1060,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "41ea6a26_fig_003",
+          "label": "Fig. 4",
+          "caption": "Fig. 4. Soliton molecules with\noscillating separation and\nphase. (A to D) Left: Experimen-\ntal real-time interferograms of\ndynamic doublet bound states,\naccessed via the tuning of pump\npower. Center: Soliton doublet\nseparation and relative phase as\na function of round trips along the\nsections marked",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\41ea6a26\\41ea6a267757f76c_p04_f03.png",
+          "page_num": 4,
+          "width": 1193,
+          "height": 1402,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "RESEARCH RESEARCH ARTICLE ◥ stretchdispersiveFouriertransform(TS-DFT) (32):Spectralinformationismappedintothe timedomain—usingchromaticdispersionina longopticalfiber—andisdetectedviaahigh- NONLINEAROPTICS speedphotodetectorandreal-timedigitization. Thismethodisincreasinglyusedformeasure- Real-time spectral interferometry mentsofrapidsignals(33–35)and,inrecentex- perimentswithmode-lockedsources,hasbeen probes the internal dynamics applied to record thebuild-upoffemtosecond modelocking(36)andsolit",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | RESEARCHARTICLE correspondstoafieldautocorrelation,whichdi- rectlyrepresentstheseparationbetweenthetwo solitons.Duringthetransition,solitonsapproach eachotherviastepstowardastablebindingse- parationof180fs,accompaniedbyacharacteristic sequence in the relative phase evolution and a lockedfinalphaserelation(comparetointerfer- encefringesinFig.2A). Thenaturalrepresentationofthebound-state configurationspaceisthepolardiagramor“in- teractionplane,”assigningthepulseseparation totheradiusand",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | RESEARCHARTICLE evolverapidlyonatimescaleofafewhundred roundtrips.Theextractedbindingseparations andrelativephasesareshowninthecenterpanels, withcorrespondinginteractionplanesintheright panels.Inthissetofmeasurements,alltrajecto- riesevolvebetweenseparationsof95fsand115fs in configuration space (dashed radii in Fig. 3, right).Forthehighestpumppower(Fig.4A),the boundstateperiodicallytracesaclosedorbitin theinteractionplane,givenbytwopartialcircles overphasesof3p/2.Incontrasttopreviousm",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH | RESEARCHARTICLE Fig.4.Solitonmoleculeswith oscillatingseparationand phase.(AtoD)Left:Experimen- talreal-timeinterferogramsof dynamicdoubletboundstates, accessedviathetuningofpump power.Center:Solitondoublet separationandrelativephaseas afunctionofroundtripsalongthe sectionsmarkedbythewhite lines(guidetotheeye)intheleft column.Right:Corresponding interactionplanesovermultiple cycles.Theradiusrepresentsthe bound-stateseparation;the anglecorrespondstotherelative phase.Alltrajectoriesevol",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "Real-time spectral interferometry probes the internal dynamics of femtosecond soliton molecules G. Herink, F. Kurtz, B. Jalali, D. R. Solli, and C. Ropers Science 356 (6333), . DOI: 10.1126/science.aal5326 Probing the interaction of solitons As a pulse of light propagates through a medium, scattering and dispersion processes usually result in the pulse diffusing. However, under certain circumstances, the dispersion processes can be balanced by nonlinearities to produce localized structures known",
+          "page": 5,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Ultrafast Carrier Dynamics in Graphite Markus Breusing,1 Claus Ropers,1,2,* and Thomas Elsaesser1",
+      "year": 2008,
+      "journal": "",
+      "authors": [
+        "Markus Breusing",
+        "1 Claus Ropers",
+        "1",
+        "2",
+        "*",
+        "Thomas Elsaesser1"
+      ],
+      "doi": "",
+      "paper_id": "1791ea05e33888ae",
+      "file_hash": "1791ea05e33888ae9e61cc80f688fed1",
+      "num_pages": 4,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 4,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "1791ea05_fig_000",
+          "label": "FIG. 1",
+          "caption": "FIG. 1 (color online).\n(a) Idealized linear band structure of\ngraphene, red arrow indicating pumped and probed direct optical\ntransitions. (b) Schematic of temporally evolving electronic\noccupation probabilities after optical excitation and under the\ninﬂuence of carrier-phonon scattering (indicated ",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1791ea05\\1791ea05e33888ae_p01_f00.png",
+          "page_num": 1,
+          "width": 2160,
+          "height": 2441,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "1791ea05_fig_001",
+          "label": "FIG. 2",
+          "caption": "FIG. 2 (color online).\n(a) Spectrally resolved differential trans-\nmission (DT) plotted as a function of probe photon energy Epr\nand short and long pump-probe delays (excitation density 5 \u0004\n1020 cm\u00013). (b) DT transients at Epr ¼ 1:24 eV (solid), 1.55 eV\n(dash-dotted) and 1.77 eV (dashed) for short a",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1791ea05\\1791ea05e33888ae_p02_f01.png",
+          "page_num": 2,
+          "width": 2160,
+          "height": 2757,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "1791ea05_fig_002",
+          "label": "FIG. 3",
+          "caption": "FIG. 3.\nTop: Optical pump spectrum. Bottom: Experimental\nDT spectra (solid black lines) for ﬁxed time delays of (top to\nbottom) 20, 40, 80, 150, 250, and 1000 fs, together with ﬁts to\nthe model described in the text (gray lines) and best-ﬁt DT\nspectra assuming a zero chemical potential (dashed lines",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1791ea05\\1791ea05e33888ae_p03_f02.png",
+          "page_num": 3,
+          "width": 2160,
+          "height": 986,
+          "figure_type": "spectrum",
+          "description": ""
+        },
+        {
+          "figure_id": "1791ea05_fig_003",
+          "label": "FIG. 4",
+          "caption": "FIG. 4.\n(a) Time-dependent carrier temperature (black circles)\nand chemical potential (gray triangles) derived from the ﬁt to the\ndata of Figs. 2 and 3. (b) Carrier temperature and (c) chemical\npotential calculated with instantaneous (dashed lines) and with-\nout (solid lines) phonon decay; dash-dott",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\1791ea05\\1791ea05e33888ae_p03_f03.png",
+          "page_num": 3,
+          "width": 2160,
+          "height": 1562,
+          "figure_type": "photo",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "week ending PRL 102, 086809 (2009) PHYSICAL REVIEW LETTERS 27 FEBRUARY 2009 UltrafastCarrier Dynamics in Graphite Markus Breusing,1Claus Ropers,1,2,* and Thomas Elsaesser1 1Max-Born-Institut fu¨r Nichtlineare Optik und Kurzzeitspektroskopie, D-12489 Berlin, Germany 2CourantResearchCenter Nano-Spectroscopy and X-Ray Imaging, University of Go¨ttingen, Germany (Received5 September 2008; published 27 February 2009) Optical pump-probe spectroscopy with 7-fs pump pulses and a probe spectrum wider than",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "blesmorecloselythatofametal[Fig.1(b)]orasemicon- logarithmic scale as a function of delay time. The very ductor [Fig. 1(c)]. hightime resolutionof theexperiment allows fordiscern- Carrier-optical phonon (cop) coupling is important for ing an ultrafast initial decay which has not been observed carrier equilibration, cooling, and recombination. Theo- so far and is followed by a slower decrease of DT. A retical studies have predicted cop scattering times of few numerical fit convoluted with the cro",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "week ending PRL 102, 086809 (2009) PHYSICAL REVIEW LETTERS 27 FEBRUARY 2009 Here,\"ðEÞistheimaginarypartofthedielectricfunctionat the photon energy E [17], dE is the shift from band-gap renormalization (left as a free parameter), and the argu- ment in the electron distribution f e corresponds to the singleparticleenergiesinthetwobands.TheDTiscalcu- lated from (cid:1)\" usingFresnel’s equations [18]. In Fig. 3, we present spectra calculated with separate Fermi-Dirac distributions f e;h ðEÞ¼ð1þexp½ð",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "week ending PRL 102, 086809 (2009) PHYSICAL REVIEW LETTERS 27 FEBRUARY 2009 establishesseparatequasiequilibriumdistributionsofelec- inopticallyexcitedgraphitewithin20–30fs,andstrongly trons and holes that cool down on a femtosecond time suggest the evolution of separate electron and hole distri- scale. This is followed by electron-hole recombination in butions. Our results indicate semiconductorlike carrier the picosecond regime, leading to a (single) equilibrium dynamics even for excitation den",
+          "page": 4,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Optical rogue waves",
+      "year": 2007,
+      "journal": "",
+      "authors": [
+        "D. R. Solli1",
+        "C. Ropers1",
+        "2",
+        "P. Koonath1 & B. Jalali1"
+      ],
+      "doi": "",
+      "paper_id": "66096274bc022351",
+      "file_hash": "66096274bc022351d16ef603072345cd",
+      "num_pages": 5,
+      "abstract": "",
+      "n_figures": 3,
+      "n_chunks": 5,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "66096274_fig_000",
+          "label": "Figure 2a",
+          "caption": "Figure 2a shows the time trace and histogram of peak heights for a\ntrial of 1,000 events after red-pass filtering each output pulse at\nthe start of the solitonic shoulder illustrated in Fig. 2b. Clearly, the\nhistogram of heights is sharply peaked but has extended tails, as\nobserved in the experiment",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\66096274\\66096274bc022351_p02_f00.png",
+          "page_num": 2,
+          "width": 2201,
+          "height": 944,
+          "figure_type": "plot",
+          "description": ""
+        },
+        {
+          "figure_id": "66096274_fig_001",
+          "label": "Figure 3",
+          "caption": "Figure 3 | Time–wavelength profile of an optical rogue wave obtained from\na short-time Fourier transform. The optical wave has broad bandwidth and\nhas extremely steep slopes in the time domain compared with the typical\nevents. It appears as a ‘wall of light’ analogous to the ‘wall of water’\ndescript",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\66096274\\66096274bc022351_p03_f01.png",
+          "page_num": 3,
+          "width": 2201,
+          "height": 804,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "66096274_fig_002",
+          "label": "Figure 2",
+          "caption": "Figure 2 | Simulation of optical rogue waves using the generalized\nnonlinear Schro¨dinger equation. a, The time trace and histogram of 1,000\nevents with red-pass filtering from 1,155 nm. The initial (seed) pulses have\nwidth 3 ps, peak power 150 W, fractional noise 0.1%, and noise bandwidth\n50 THz. T",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\66096274\\66096274bc022351_p03_f02.png",
+          "page_num": 3,
+          "width": 2201,
+          "height": 1048,
+          "figure_type": "plot",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "Vol450|13December2007|doi:10.1038/nature06402 LETTERS Optical rogue waves D.R.Solli1,C.Ropers1,2,P.Koonath1&B.Jalali1 Recentobservationsshowthattheprobabilityofencounteringan Althoughthephysicsbehindroguewavesisstillunderinvestiga- extremelylargeroguewaveintheopenoceanismuchlargerthan tion,observationsindicatethattheyhaveunusuallysteep,solitaryor expected from ordinary wave-amplitude statistics1–3. Although tightlygroupedprofiles,whichappearlike‘‘wallsofwater’’10.These considerableefforthasbeen ",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "NATURE|Vol450|13December2007 LETTERS eventshasnotbeenreported.Usingthepresentmethod,asmallbut muchmorefrequentlythanexpectedbasedontherelativelynarrow statistically significant fraction of extreme waves can be discerned distributionoftypicalevents. fromalargenumberofordinaryevents,permittingthefirstobser- Becausethered-passfiltertransmitsonlyaspectralregionthatis vationofopticalroguewaves. nearlydarkinthevastmajorityofevents,therareeventsclearlyhave Thesupercontinuumradiationusedinourexperiments",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "a 800 700 1,000 events 600 er w o P 20 10 Time 0 6 0 500 1,000 1,500 4 1,300 b –2 0 0 c Time (ps) 2 0 900 1,0 W 00 avelen 1 g , t 1 h 0 ( 0 nm) 1,200 er w –40 o Figure3|Time–wavelengthprofileofanopticalroguewaveobtainedfrom P ashort-timeFouriertransform. Theopticalwavehasbroadbandwidthand –60 hasextremelysteepslopesinthetimedomaincomparedwiththetypical events.Itappearsasa‘walloflight’analogoustothe‘wallofwater’ 900 1,000 1,100 1,200 1,300 0 2 4 6 descriptionofoceanicroguewaves.Theroguewavetravel",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "NATURE|Vol450|13December2007 LETTERS 2. Perkins,S.Dashingrogues:freakoceanwavesposethreattoships,deep-seaoil 19. Shukla,P.K.,Kourakis,I.,Eliasson,B.,Marklund,M.&Stenflo,L.Instabilityand platforms.ScienceNews170,328–329(2006). evolutionofnonlinearlyinteractingwaterwaves.Phys.Rev.Lett.97,094501 3. Broad,W.J.Roguegiantsatsea.TheNewYorkTimes(July11,2006). (2006). 4. Herrmann,J.etal.Experimentalevidenceforsupercontinuumgenerationby 20. Janssen,P.A.E.M.Nonlinearfour-waveinteractionsandfreakwaves.J.Phy",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "doi:10.1038/nature06402 METHODS Our simulations are based on the nonlinear Schro¨dinger equation (NLSE), whichgovernsthepropagationofopticalpulsesandhasbeenwidelyusedto modelsupercontinuumgenerationinopticalfibres.Theequationdescribesthe evolutionoftheslowlyvaryingelectricfieldenvelope,A(z,t),inthepresenceof temporal dispersion and nonlinearity. In its generalized form, the NLSE accountsfordispersionaswellasboththeelectronic(instantaneous)andvibra- tional(delayed)nonlinearitiesinsilicaglass.Form",
+          "page": 5,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Field-driven photoemission from nanostructures quenches the quiver motion",
+      "year": 1905,
+      "journal": "",
+      "authors": [
+        "G. Herink1",
+        "D. R. Solli1",
+        "M. Gulde1 & C. Ropers1"
+      ],
+      "doi": "",
+      "paper_id": "9e83cbf2cb4a961d",
+      "file_hash": "9e83cbf2cb4a961de6ede0a39bdbec1f",
+      "num_pages": 4,
+      "abstract": "",
+      "n_figures": 4,
+      "n_chunks": 4,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "9e83cbf2_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1 | Electron emission from nanotips using ultrashort mid-infrared\nfields. Trajectories of photoelectrons generated by intense light fields depend\nstrongly on whether the quiver amplitude is smaller (a, short-wavelength\nexcitation) or larger (b, long-wavelength excitation) than the characteris",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\9e83cbf2\\9e83cbf2cb4a961d_p01_f00.png",
+          "page_num": 1,
+          "width": 1097,
+          "height": 629,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "9e83cbf2_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2 | Experimental photoelectron spectra and autocorrelations at mid-\ninfrared wavelengths. a, Experimental (circles) and simulated (solid lines)\nkinetic energy distributions of photoelectrons for increasing intensities at\nwavelength 3.8 mm. Tip radii are 12 nm (solid circles) and 22 nm (open c",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\9e83cbf2\\9e83cbf2cb4a961d_p02_f01.png",
+          "page_num": 2,
+          "width": 2193,
+          "height": 2690,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "9e83cbf2_fig_002",
+          "label": "Figure 3",
+          "caption": "Figure 3 | Transition from quiver to sub-cycle electron dynamics.\na, Experimental cutoff energies versus wavelength for two values of emitted\ncharge (circles). In the adiabatic limit, constant charge and constant intensity\nare equivalent. The cutoff is defined to include 99% of the electron populati",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\9e83cbf2\\9e83cbf2cb4a961d_p03_f02.png",
+          "page_num": 3,
+          "width": 2193,
+          "height": 1458,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "9e83cbf2_fig_003",
+          "label": "Figure 4",
+          "caption": "Figure 4 | Impact of field localization on electron dynamics. a and\nb, Simulated electron trajectories for four emission phases in localized (a) and\nhomogeneous (b) pulsed fields (wavelength 8 mm, colour shading indicates\nfield; red and blue indicate positive and negative electric force on electron,",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\9e83cbf2\\9e83cbf2cb4a961d_p03_f03.png",
+          "page_num": 3,
+          "width": 2187,
+          "height": 1656,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "LETTER doi:10.1038/nature10878 Field-driven photoemission from nanostructures quenches the quiver motion G.Herink1,D.R.Solli1,M.Gulde1&C.Ropers1 Strong-fieldphysics,anextremelimitoflight–matterinteraction1–3, function, m is the mass of the electron and e is its charge). In the is expanding into the realm of surfaces4,5 and nanostructures6–11 strong-field/low-frequency limit (c=1), the emission is viewed as fromitsorigininatomicandmolecularscience12–15.Theattraction tunnelling that adiabatically ",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "butinterpretationscanbecomplicatedbyinhomogeneousbroaden- interaction of the electrons with a strongly localized tip field and ingsfromsurfaceroughnessandtheinclusionofspacecharge16–19. rescatteringatthesurface(seeMethodsSummary).Goodagreement Here, we study ultrafast strong-field photoemission from single withtheexperimentaldataisobtained.Throughoutthiswork,weuse nanostructuresoverawiderangeofwavelengthsupto8mm,reaching thelocal(thatis,tip-enhanced)fieldsinexpressionsandvaluesofthe deepintothet",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "inthislocalizedfieldsuggeststheintroductionofanewdimensionless The transition from quiver to sub-cycle dynamics (d<1) occurs adiabaticity parameter that relates the (1/e)-decay length l of the withintherangeofwavelengthsusedinourexperiments,asshownin F opticalfieldtotheelectronquiveramplitudel q ~eF=mv2asfollows: Fig.3a,b.Nearthetransition,thecutoffenergybecomeswavelength- l l mv2 independent, in agreement with simulation, because the fastest d~ F~ F electrons escape the tip-enhanced field well ",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "LETTER RESEARCH Inconclusion,anewregimeinstrong-fieldphysicsisreachedby 7. Kru¨ger,M.,Schenk,M.&Hommelhoff,P.Attosecondcontrolofelectronsemitted fromananoscalemetaltip.Nature475,78–81(2011). driving theoptical near-field in nanostructures with few-cycle mid- 8. Schenk,M.,Kru¨ger,M.&Hommelhoff,P.Strong-fieldabove-threshold infraredpulses.Qualitativelydifferentelectrondynamics,forexample, photoemissionfromsharpmetaltips.Phys.Rev.Lett.105,257601(2010). regardingtherolesofponderomotiveaccelerationan",
+          "page": 4,
+          "type": "body"
+        }
+      ]
+    },
+    {
+      "title": "Quantum coherent optical phase modulation in an ultrafast transmission electron microscope",
+      "year": 0,
+      "journal": "",
+      "authors": [
+        "Armin Feist1",
+        "Katharina E. Echternkamp1",
+        "Jakob Schauss1",
+        "Sergey V. Yalunin1",
+        "Sascha Scha¨fer1 & Claus Ropers1"
+      ],
+      "doi": "",
+      "paper_id": "64598d2a0c4e0e36",
+      "file_hash": "64598d2a0c4e0e36f3a1aa8f866a965f",
+      "num_pages": 13,
+      "abstract": "",
+      "n_figures": 3,
+      "n_chunks": 13,
+      "n_tables": 0,
+      "figures": [
+        {
+          "figure_id": "64598d2a_fig_000",
+          "label": "Figure 1",
+          "caption": "Figure 1 | Schematic and principles of coherent inelastic electron scattering\nby optical near-fields. a, Experimental scheme. Ultrashort electron pulses\ngenerated by nanotip photoemission are accelerated and focused to a beam\nthat interacts with the optical near-field of a nanostructure, phase-modul",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\64598d2a\\64598d2a0c4e0e36_p02_f00.png",
+          "page_num": 2,
+          "width": 1094,
+          "height": 1257,
+          "figure_type": "photo",
+          "description": ""
+        },
+        {
+          "figure_id": "64598d2a_fig_001",
+          "label": "Figure 2",
+          "caption": "Figure 2 | Quantum coherent manipulation of electron energy\ndistributions. a, Experimental electron energy distributions as a function of\nthe incident optical field strength (left) and theoretical prediction in terms of\nNth-order Bessel functions (right). b, Occupation probabilities (open circles) o",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\64598d2a\\64598d2a0c4e0e36_p02_f01.png",
+          "page_num": 2,
+          "width": 2192,
+          "height": 624,
+          "figure_type": "unknown",
+          "description": ""
+        },
+        {
+          "figure_id": "64598d2a_fig_002",
+          "label": "Figure 3",
+          "caption": "Figure 3 | Formation of an attosecond electron pulse train. a, Development\nof a periodically modulated electron pulse structure (normalized electron\ndensity is colour coded) as a function of thepropagation distance after the near-\nfield interaction (numerical simulation for |g | 5 5.7). Free propaga",
+          "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\64598d2a\\64598d2a0c4e0e36_p03_f02.png",
+          "page_num": 3,
+          "width": 2193,
+          "height": 2570,
+          "figure_type": "unknown",
+          "description": ""
+        }
+      ],
+      "key_paragraphs": [
+        {
+          "heading": "",
+          "text": "LETTER doi:10.1038/nature14463 Quantum coherent optical phase modulation in an ultrafast transmission electron microscope ArminFeist1,KatharinaE.Echternkamp1,JakobSchauss1,SergeyV.Yalunin1,SaschaScha¨fer1&ClausRopers1 Coherentmanipulationofquantumsystemswithlightisexpected contrast mechanism in electron microscopy24,25. Beyond such to be a cornerstone of future information and communication advanced applications, the underlying interaction should allow for technology,includingquantumcomputationa",
+          "page": 1,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "a c Incident field (V nm–1) Photoemission Electron 0 0.05 0.10 Initial pulse source 0.7 eV electron spectrum 10 Acceleration a c n o d lli mation E 0 = 120 keV Energy 5 d Focusing 0 Optical Electron excitation pulse –5 I II E 0 –10 Sample b Incident field (V nm–1) Phase- To spectrometer modulated electron pulse b e Spectrum after interaction 20 1 μm Cutoff energy (eV) E Energy 0 0 Figure1|Schematicandprinciplesofcoherentinelasticelectronscattering byopticalnear-fields. a,Experimentalscheme.Ultra",
+          "page": 2,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "form of a displacement operator generating coherent states in the anearlytheoreticalschemeforsubfemtosecondopticalpulsegeneration harmonicoscillatormodel.Inavariationofthisscenario,weusea{ reliedonfrequencymodulationandsubsequentreshaping32. andaascommutingraisingandloweringoperators,connectingfree- Thephysicaloriginofthiselectronpulsecompressioncanbeillu- electron states separated by the photon energy, that is, a{jE æ5 stratedusingaphasespacerepresentationofthequantumstateinthe 0 jE 0 1Bvæ and ",
+          "page": 3,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "LETTER RESEARCH onlyaccessiblebyattosecondlightpulses2.Specifically,thetemporal 15. Herink,G.,Solli,D.R.,Gulde,M.&Ropers,C.Field-drivenphotoemissionfrom nanostructuresquenchesthequivermotion.Nature483,190–193(2012). electroncombwillenablethephase-resolvedinvestigationofcoherent 16. Wimmer,L.etal.Terahertzcontrolofnanotipphotoemission.NaturePhys.10, sampleexcitations,thustracingstructuralorelectronicchangescar- 432–436(2014). ryingopticalphaseinformation. 17. Schiffrin,A.etal.Optical-field-induce",
+          "page": 4,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH LETTER METHODS ensured that the laser-induced sample displacement, for example, by thermal expansion, is compensated for. This was achieved by first characterizing the UltrafastTEMandexperimentalsetup.Wehaverecentlyconstructedanultra- fluence-dependentsampleshiftinimagingmode(observedupto150nm)and fast TEM (UTEM) to enable a variety of laser-pump/electron-probe imaging byautomatedelectronbeamrepositioningbetweenexperimentalruns.Inaddi- schemeswithhighspatialresolution.Themicroscopeisbas",
+          "page": 5,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "LETTER RESEARCH momentum.Inthisrepresentation,thematrixelementscanbereadilycomputed, S~ega{{g(cid:2)a ð10Þ forinstance and interestingly, the scattering matrix takes on the form of a displacement L=2 operator33. D Nz1 (cid:4) (cid:4) e pA (cid:4) (cid:4)N E ~ 2BvNg sinðvtÞ, g~ e ð FðzÞexpð{iDkzÞdz ð3Þ Thetransitionprobabilities.UsingtheS-matrix,wecancomputetheprobabilities (cid:4)m (cid:4) L 2Bv {L=2 ofthetransitionsj0æRjNæ,givenbyPN ~jhNjSj0ij2.Forthispurpose,wefirst split the matrix exponent i",
+          "page": 6,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "RESEARCH LETTER direction).Inadifferentcontext,thatis,inthedescriptionoflaser-electroncross- 2.1eV,respectively.Atarangeof0.7eV,theresultingelectrondensitypeakis correlations,similarcomputationswerecarriedoutinrefs5and6. practicallyindistinguishablefromtheidealcaseofapurestatewith0.1eVwidth Inasimplifiedgeometry,thenanotipismodelledasastraightcylinderofa (solidblacklineinExtendedDataFig.6e).Withincreasingspreadoftheinco- radiuscorrespondingtothatofthetipattheprobingposition(r51mm),for herentaver",
+          "page": 7,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "BBO Amplified fslasersystem, 800nm,50fs, 250kHz rettilpsmaeB LETTER RESEARCH Ultrafasttransmission electronmicroscope Wtip Lens Secondharmonic, 400nm,50fs Pulsed electron Harmonic source separator Delaystage Accelerator Condensor Lens /2plate SF6glass 800nm Variable Objectivelens 19cm 3.4ps attenuator withsample Imaging system CCD Electronenergy spectrometer ExtendedDataFigure1|Experimentalsetup. Pulsesfromanamplified femtosecond(fs)lasersystem,atbottomleft,aresplitintotwoopticalbeams. Oneofthem",
+          "page": 8,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "200 0 )mn( y 6 4 2 0 ygrene ffotuC )ωħ/E( 200 0 ytilibaborp noitapuccO a c b )mn( y 1.0 0.8 0.6 200 0.4 0 0.2 0.0 -2000 -1000 0 1000 2000 )mn( y 1 0 1 0 1 0 1 0 -20 -10 0 10 20 ytisned lartceps .leR RESEARCH LETTER l ExtendedDataFigure2|Spatialcharacterizationofnear-fieldscattering. tipsurface.Aslowsampledriftresultsinascanningartefactintheydirection a,Rasterscanoftheoptically-inducedelectronenergygainandlossprob- (jaggededgeofthetip).Fortheresultsreportedinthemaintext,adrift ability,characteriz",
+          "page": 9,
+          "type": "body"
+        },
+        {
+          "heading": "",
+          "text": "LETTER RESEARCH ExtendedDataFigure3|Pulsecharacterizationbyelectron–photoncross- asfunctionoftimedelay(inset,relativeshiftofphotonsidebandswith correlation. a,Differentialelectronenergy-lossspectraasfunctionoftime respecttozerolosspeak).c,Energy-andtime-resolvedstructureoftheelectron delay(zerolosspeakofwidth1.3eVsubtracted;thecolourscaleshows pulse(thecolourscaleshowsthenormalizedelectrondensity). therelativechangeofspectraldensity).b,Relativetotalscatteringamplitude G2015 MacmillanPublishersLi",
+          "page": 10,
+          "type": "body"
+        }
+      ]
+    }
+  ]
+}

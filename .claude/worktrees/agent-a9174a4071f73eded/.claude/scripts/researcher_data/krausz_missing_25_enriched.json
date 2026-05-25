@@ -1,0 +1,1974 @@
+[
+  {
+    "doi": "10.1103/revmodphys.72.545",
+    "title": "Intense few-cycle laser fields: Frontiers of nonlinear optics",
+    "cites": 2970,
+    "date": "2000-04-01",
+    "journal": {
+      "id": "https://openalex.org/S73260565",
+      "display_name": "Reviews of Modern Physics",
+      "issn_l": "0034-6861",
+      "issn": [
+        "0034-6861",
+        "1538-4527",
+        "1539-0756"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Thomas",
+        "lastName": "Brabec"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      }
+    ],
+    "author_count": 2
+  },
+  {
+    "doi": "10.1038/nature01414",
+    "title": "Attosecond control of electronic processes by intense light fields",
+    "cites": 1640,
+    "date": "2003-02-05",
+    "journal": {
+      "id": "https://openalex.org/S137773608",
+      "display_name": "Nature",
+      "issn_l": "0028-0836",
+      "issn": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Andrius",
+        "lastName": "Baltuška"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Th.",
+        "lastName": "Udem"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Uiberacker"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michael",
+        "lastName": "Hentschel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "E.",
+        "lastName": "Goulielmakis"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Christoph",
+        "lastName": "Gohle"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ronald",
+        "lastName": "Holzwarth"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vladislav S.",
+        "lastName": "Yakovlev"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Armin",
+        "lastName": "Scrinzi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Theodor W.",
+        "lastName": "Hänsch"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      }
+    ],
+    "author_count": 11
+  },
+  {
+    "doi": "10.1038/nature01143",
+    "title": "Time-resolved atomic inner-shell spectroscopy",
+    "cites": 1441,
+    "date": "2002-10-01",
+    "journal": {
+      "id": "https://openalex.org/S137773608",
+      "display_name": "Nature",
+      "issn_l": "0028-0836",
+      "issn": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://mediatum.ub.tum.de/1579402",
+    "is_oa": true,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Markus",
+        "lastName": "Drescher"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michael",
+        "lastName": "Hentschel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Reinhard",
+        "lastName": "Kienberger"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Uiberacker"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vladislav S.",
+        "lastName": "Yakovlev"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Armin",
+        "lastName": "Scrinzi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Th.",
+        "lastName": "Westerwalbesloh"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "U.",
+        "lastName": "Kleineberg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "U.",
+        "lastName": "Heinzmann"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      }
+    ],
+    "author_count": 10
+  },
+  {
+    "doi": "10.1038/nature09212",
+    "title": "Real-time observation of valence electron motion",
+    "cites": 1278,
+    "date": "2010-08-01",
+    "journal": {
+      "id": "https://openalex.org/S137773608",
+      "display_name": "Nature",
+      "issn_l": "0028-0836",
+      "issn": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Eleftherios",
+        "lastName": "Goulielmakis"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Zhi-Heng",
+        "lastName": "Loh"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "A.",
+        "lastName": "Wirth"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Robin",
+        "lastName": "Santra"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nina",
+        "lastName": "Rohringer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vladislav S.",
+        "lastName": "Yakovlev"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sergey",
+        "lastName": "Zherebtsov"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Thomas",
+        "lastName": "Pfeifer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Abdallah M.",
+        "lastName": "Azzeer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Matthias F.",
+        "lastName": "Kling"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Stephen R.",
+        "lastName": "Leone"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      }
+    ],
+    "author_count": 12
+  },
+  {
+    "doi": "10.1103/physrevlett.88.173903",
+    "title": "Attosecond Streak Camera",
+    "cites": 975,
+    "date": "2002-04-16",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://nrc-publications.canada.ca/eng/view/accepted/?id=bc8b5b86-6d18-4ce3-bc22-a04ef044bb3d",
+    "is_oa": true,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Jiro",
+        "lastName": "Itatani"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "F.",
+        "lastName": "Quéré"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "G. L.",
+        "lastName": "Yudin"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Misha",
+        "lastName": "Ivanov"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "P. B.",
+        "lastName": "Corkum"
+      }
+    ],
+    "author_count": 6
+  },
+  {
+    "doi": "10.1364/ol.22.000522",
+    "title": "Compression of high-energy laser pulses below 5 fs",
+    "cites": 956,
+    "date": "1997-04-15",
+    "journal": {
+      "id": "https://openalex.org/S134390580",
+      "display_name": "Optics Letters",
+      "issn_l": "0146-9592",
+      "issn": [
+        "0146-9592",
+        "1071-2763",
+        "1539-4794"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315679",
+      "host_organization_name": "Optica Publishing Group",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315679"
+      ],
+      "host_organization_lineage_names": [
+        "Optica Publishing Group"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Nisoli"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "S. De",
+        "lastName": "Silvestri"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "O.",
+        "lastName": "Svelto"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "R.",
+        "lastName": "Szipöcs"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "K.",
+        "lastName": "Ferencz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Christian",
+        "lastName": "Spielmann"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "S.",
+        "lastName": "Sartania"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      }
+    ],
+    "author_count": 8
+  },
+  {
+    "doi": "10.1038/nature05648",
+    "title": "Attosecond real-time observation of electron tunnelling in atoms",
+    "cites": 908,
+    "date": "2007-04-01",
+    "journal": {
+      "id": "https://openalex.org/S137773608",
+      "display_name": "Nature",
+      "issn_l": "0028-0836",
+      "issn": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Uiberacker"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Thorsten",
+        "lastName": "Uphues"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Martin",
+        "lastName": "Schultze"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Aart",
+        "lastName": "Verhoef"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vladislav S.",
+        "lastName": "Yakovlev"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Matthias F.",
+        "lastName": "Kling"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "J.",
+        "lastName": "Rauschenberger"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "N M",
+        "lastName": "Kabachnik"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "H.",
+        "lastName": "Schröder"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Lezius"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "K. L.",
+        "lastName": "Kompa"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "H. G.",
+        "lastName": "Muller"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Marc J. J.",
+        "lastName": "Vrakking"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "S.",
+        "lastName": "Hendel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "U.",
+        "lastName": "Kleineberg"
+      }
+    ],
+    "author_count": 18
+  },
+  {
+    "doi": "10.1103/physrevlett.80.4076",
+    "title": "Femtosecond Optical Breakdown in Dielectrics",
+    "cites": 869,
+    "date": "1998-05-04",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Lenzner"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jörg",
+        "lastName": "Krüger"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "S.",
+        "lastName": "Sartania"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Z.",
+        "lastName": "Cheng"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Christian",
+        "lastName": "Spielmann"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "G.",
+        "lastName": "Mourou"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Wolfgang",
+        "lastName": "Kautek"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      }
+    ],
+    "author_count": 8
+  },
+  {
+    "doi": "10.1103/physrevlett.78.3282",
+    "title": "Nonlinear Optical Pulse Propagation in the Single-Cycle Regime",
+    "cites": 851,
+    "date": "1997-04-28",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Thomas",
+        "lastName": "Brabec"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      }
+    ],
+    "author_count": 2
+  },
+  {
+    "doi": "10.1126/science.1058561",
+    "title": "X-ray Pulses Approaching the Attosecond Frontier",
+    "cites": 746,
+    "date": "2001-03-09",
+    "journal": {
+      "id": "https://openalex.org/S3880285",
+      "display_name": "Science",
+      "issn_l": "0036-8075",
+      "issn": [
+        "0036-8075",
+        "1095-9203"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315823",
+      "host_organization_name": "American Association for the Advancement of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315823"
+      ],
+      "host_organization_lineage_names": [
+        "American Association for the Advancement of Science"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Markus",
+        "lastName": "Drescher"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michael",
+        "lastName": "Hentschel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Reinhard",
+        "lastName": "Kienberger"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "G.",
+        "lastName": "Tempea"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Christian",
+        "lastName": "Spielmann"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Georg A.",
+        "lastName": "Reider"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "P. B.",
+        "lastName": "Corkum"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      }
+    ],
+    "author_count": 8
+  },
+  {
+    "doi": "10.1038/nature11567",
+    "title": "Optical-field-induced current in dielectrics",
+    "cites": 746,
+    "date": "2012-12-05",
+    "journal": {
+      "id": "https://openalex.org/S137773608",
+      "display_name": "Nature",
+      "issn_l": "0028-0836",
+      "issn": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Agustin",
+        "lastName": "Schiffrin"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tim",
+        "lastName": "Paasch‐Colberg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nicholas",
+        "lastName": "Karpowicz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vadym",
+        "lastName": "Apalkov"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Daniel",
+        "lastName": "Gerster"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sascha",
+        "lastName": "Mühlbrandt"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michael",
+        "lastName": "Korbman"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Joachim",
+        "lastName": "Reichert"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Martin",
+        "lastName": "Schultze"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Simon",
+        "lastName": "Holzner"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Johannes V.",
+        "lastName": "Barth"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Reinhard",
+        "lastName": "Kienberger"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ralph",
+        "lastName": "Ernstorfer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vladislav S.",
+        "lastName": "Yakovlev"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mark I.",
+        "lastName": "Stockman"
+      }
+    ],
+    "author_count": 16
+  },
+  {
+    "doi": "10.1126/science.278.5338.661",
+    "title": "Generation of Coherent X-rays in the Water Window Using 5-Femtosecond Laser Pulses",
+    "cites": 710,
+    "date": "1997-10-24",
+    "journal": {
+      "id": "https://openalex.org/S3880285",
+      "display_name": "Science",
+      "issn_l": "0036-8075",
+      "issn": [
+        "0036-8075",
+        "1095-9203"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315823",
+      "host_organization_name": "American Association for the Advancement of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315823"
+      ],
+      "host_organization_lineage_names": [
+        "American Association for the Advancement of Science"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Christian",
+        "lastName": "Spielmann"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "N. H.",
+        "lastName": "Burnett"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "S.",
+        "lastName": "Sartania"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "R.",
+        "lastName": "Koppitsch"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Schnürer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "C.",
+        "lastName": "Kan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Lenzner"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "P.",
+        "lastName": "Wobrauschek"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      }
+    ],
+    "author_count": 9
+  },
+  {
+    "doi": "10.1126/science.1210268",
+    "title": "Synthesized Light Transients",
+    "cites": 662,
+    "date": "2011-09-09",
+    "journal": {
+      "id": "https://openalex.org/S3880285",
+      "display_name": "Science",
+      "issn_l": "0036-8075",
+      "issn": [
+        "0036-8075",
+        "1095-9203"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315823",
+      "host_organization_name": "American Association for the Advancement of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315823"
+      ],
+      "host_organization_lineage_names": [
+        "American Association for the Advancement of Science"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "A.",
+        "lastName": "Wirth"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mohammed Th.",
+        "lastName": "Hassan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "I.",
+        "lastName": "Grguraš"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "J.",
+        "lastName": "Gagnon"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "A.",
+        "lastName": "Moulet"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tran Trung",
+        "lastName": "Luu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Stefan",
+        "lastName": "Pabst"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Robin",
+        "lastName": "Santra"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Z.A.",
+        "lastName": "Alahmed"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Abdallah M.",
+        "lastName": "Azzeer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vladislav S.",
+        "lastName": "Yakovlev"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vladimir",
+        "lastName": "Pervak"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "E.",
+        "lastName": "Goulielmakis"
+      }
+    ],
+    "author_count": 14
+  },
+  {
+    "doi": "10.1038/nature11720",
+    "title": "Controlling dielectrics with the electric field of light",
+    "cites": 599,
+    "date": "2012-12-05",
+    "journal": {
+      "id": "https://openalex.org/S137773608",
+      "display_name": "Nature",
+      "issn_l": "0028-0836",
+      "issn": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://www.nature.com/articles/nature11720.pdf",
+    "is_oa": true,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Martin",
+        "lastName": "Schultze"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "E. M.",
+        "lastName": "Bothschafter"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "A.",
+        "lastName": "Sommer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Simon",
+        "lastName": "Holzner"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Wolfgang",
+        "lastName": "Schweinberger"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Markus",
+        "lastName": "Fiess"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michael",
+        "lastName": "Hofstetter"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Reinhard",
+        "lastName": "Kienberger"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vadym",
+        "lastName": "Apalkov"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vladislav S.",
+        "lastName": "Yakovlev"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mark I.",
+        "lastName": "Stockman"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      }
+    ],
+    "author_count": 12
+  },
+  {
+    "doi": "10.1103/physrevlett.91.253004",
+    "title": "Measurement of the Phase of Few-Cycle Laser Pulses",
+    "cites": 499,
+    "date": "2003-12-18",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "G. G.",
+        "lastName": "Paulus"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "F",
+        "lastName": "Lindner"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "H.",
+        "lastName": "Walther"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andrius",
+        "lastName": "Baltuška"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "E.",
+        "lastName": "Goulielmakis"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Lezius"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      }
+    ],
+    "author_count": 7
+  },
+  {
+    "doi": "10.1038/nphoton.2014.28",
+    "title": "Attosecond metrology: from electron capture to future signal processing",
+    "cites": 498,
+    "date": "2014-02-28",
+    "journal": {
+      "id": "https://openalex.org/S120392215",
+      "display_name": "Nature Photonics",
+      "issn_l": "1749-4885",
+      "issn": [
+        "1749-4885",
+        "1749-4893"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mark I.",
+        "lastName": "Stockman"
+      }
+    ],
+    "author_count": 2
+  },
+  {
+    "doi": "10.1103/physrevlett.85.740",
+    "title": "Controlling the Phase Evolution of Few-Cycle Light Pulses",
+    "cites": 468,
+    "date": "2000-07-24",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "A.",
+        "lastName": "Apolonski"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andreas",
+        "lastName": "Poppe"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "G.",
+        "lastName": "Tempea"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Christian",
+        "lastName": "Spielmann"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Th.",
+        "lastName": "Udem"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ronald",
+        "lastName": "Holzwarth"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "T. W.",
+        "lastName": "Hänsch"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      }
+    ],
+    "author_count": 8
+  },
+  {
+    "doi": "10.1038/nature16528",
+    "title": "Optical attosecond pulses and tracking the nonlinear response of bound electrons",
+    "cites": 468,
+    "date": "2016-02-02",
+    "journal": {
+      "id": "https://openalex.org/S137773608",
+      "display_name": "Nature",
+      "issn_l": "0028-0836",
+      "issn": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Mohammed Th.",
+        "lastName": "Hassan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tran Trung",
+        "lastName": "Luu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "A.",
+        "lastName": "Moulet"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "O.",
+        "lastName": "Raskazovskaya"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "P. A.",
+        "lastName": "Zhokhov"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Manish",
+        "lastName": "Garg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nicholas",
+        "lastName": "Karpowicz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "А. М.",
+        "lastName": "Желтиков"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "V.",
+        "lastName": "Pervak"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "E.",
+        "lastName": "Goulielmakis"
+      }
+    ],
+    "author_count": 11
+  },
+  {
+    "doi": "10.1103/physrevlett.95.040401",
+    "title": "Attosecond Double-Slit Experiment",
+    "cites": 438,
+    "date": "2005-07-19",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://arxiv.org/pdf/quant-ph/0503165",
+    "is_oa": true,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "F.",
+        "lastName": "Lindner"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "M. G.",
+        "lastName": "Schätzel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "H.",
+        "lastName": "Walther"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andrius",
+        "lastName": "Baltuška"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "E.",
+        "lastName": "Goulielmakis"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "D. B.",
+        "lastName": "Milošević"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "D.",
+        "lastName": "Bauer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "W.",
+        "lastName": "Becker"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "G. G.",
+        "lastName": "Paulus"
+      }
+    ],
+    "author_count": 10
+  },
+  {
+    "doi": "10.1103/physrevlett.73.2308",
+    "title": "Tunneling of Optical Pulses through Photonic Band Gaps",
+    "cites": 433,
+    "date": "1994-10-24",
+    "journal": {
+      "id": "https://openalex.org/S24807848",
+      "display_name": "Physical Review Letters",
+      "issn_l": "0031-9007",
+      "issn": [
+        "0031-9007",
+        "1079-7114",
+        "1092-0145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320261",
+      "host_organization_name": "American Physical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320261"
+      ],
+      "host_organization_lineage_names": [
+        "American Physical Society"
+      ],
+      "type": "journal"
+    },
+    "oa_url": null,
+    "is_oa": false,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Christian",
+        "lastName": "Spielmann"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "R.",
+        "lastName": "Szipöcs"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "A.",
+        "lastName": "Stingl"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      }
+    ],
+    "author_count": 4
+  },
+  {
+    "doi": "10.1126/science.1142855",
+    "title": "Attosecond Control and Measurement: Lightwave Electronics",
+    "cites": 387,
+    "date": "2007-08-09",
+    "journal": {
+      "id": "https://openalex.org/S3880285",
+      "display_name": "Science",
+      "issn_l": "0036-8075",
+      "issn": [
+        "0036-8075",
+        "1095-9203"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315823",
+      "host_organization_name": "American Association for the Advancement of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315823"
+      ],
+      "host_organization_lineage_names": [
+        "American Association for the Advancement of Science"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://mediatum.ub.tum.de/1579397",
+    "is_oa": true,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "E.",
+        "lastName": "Goulielmakis"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vladislav S.",
+        "lastName": "Yakovlev"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "A. L.",
+        "lastName": "Cavalieri"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Uiberacker"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "V.",
+        "lastName": "Pervak"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "A.",
+        "lastName": "Apolonski"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Reinhard",
+        "lastName": "Kienberger"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "U.",
+        "lastName": "Kleineberg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      }
+    ],
+    "author_count": 9
+  },
+  {
+    "doi": "10.1364/optica.1.000045",
+    "title": "Third-generation femtosecond technology",
+    "cites": 387,
+    "date": "2014-07-22",
+    "journal": {
+      "id": "https://openalex.org/S4210197940",
+      "display_name": "Optica",
+      "issn_l": "2334-2536",
+      "issn": [
+        "2334-2536"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315679",
+      "host_organization_name": "Optica Publishing Group",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315679"
+      ],
+      "host_organization_lineage_names": [
+        "Optica Publishing Group"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://doi.org/10.1364/optica.1.000045",
+    "is_oa": true,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Hanieh",
+        "lastName": "Fattahi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "H. G.",
+        "lastName": "Barros"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Martin",
+        "lastName": "Gorjan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Thomas",
+        "lastName": "Nubbemeyer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Bidoor",
+        "lastName": "Alsaif"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Catherine Y.",
+        "lastName": "Teisset"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Marcel",
+        "lastName": "Schultze"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Stephan",
+        "lastName": "Prinz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Matthias",
+        "lastName": "Haefner"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Moritz",
+        "lastName": "Ueffing"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ayman",
+        "lastName": "Alismail"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Lénárd",
+        "lastName": "Vámos"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alexander",
+        "lastName": "Schwarz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Oleg",
+        "lastName": "Pronin"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jonathan",
+        "lastName": "Brons"
+      }
+    ],
+    "author_count": 26
+  },
+  {
+    "doi": "10.1038/nphys1404",
+    "title": "Laser-driven soft-X-ray undulator source",
+    "cites": 377,
+    "date": "2009-09-27",
+    "journal": {
+      "id": "https://openalex.org/S156274416",
+      "display_name": "Nature Physics",
+      "issn_l": "1745-2473",
+      "issn": [
+        "1745-2473",
+        "1745-2481"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://www.nature.com/articles/nphys1404.pdf",
+    "is_oa": true,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Fuchs"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "R.",
+        "lastName": "Weingartner"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "A.",
+        "lastName": "Popp"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Zsuzsanna",
+        "lastName": "Major"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Stefan",
+        "lastName": "Becker"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jens",
+        "lastName": "Osterhoff"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Isabella",
+        "lastName": "Cortrie"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Benno",
+        "lastName": "Zeitler"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "R.",
+        "lastName": "Hörlein"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "G. D.",
+        "lastName": "Tsakiris"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "U.",
+        "lastName": "Schramm"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "T. P.",
+        "lastName": "Rowlands-Rees"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "S. M.",
+        "lastName": "Hooker"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "D.",
+        "lastName": "Habs"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      }
+    ],
+    "author_count": 17
+  },
+  {
+    "doi": "10.1126/science.1073866",
+    "title": "Steering Attosecond Electron Wave Packets with Light",
+    "cites": 357,
+    "date": "2002-08-16",
+    "journal": {
+      "id": "https://openalex.org/S3880285",
+      "display_name": "Science",
+      "issn_l": "0036-8075",
+      "issn": [
+        "0036-8075",
+        "1095-9203"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315823",
+      "host_organization_name": "American Association for the Advancement of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315823"
+      ],
+      "host_organization_lineage_names": [
+        "American Association for the Advancement of Science"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://mediatum.ub.tum.de/1579422",
+    "is_oa": true,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Reinhard",
+        "lastName": "Kienberger"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michael",
+        "lastName": "Hentschel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Uiberacker"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Christian",
+        "lastName": "Spielmann"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Markus",
+        "lastName": "Kitzler"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Armin",
+        "lastName": "Scrinzi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Marek",
+        "lastName": "Wieland"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Th.",
+        "lastName": "Westerwalbesloh"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "U.",
+        "lastName": "Kleineberg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "U.",
+        "lastName": "Heinzmann"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "M.",
+        "lastName": "Drescher"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      }
+    ],
+    "author_count": 12
+  },
+  {
+    "doi": "10.1088/1367-2630/8/1/019",
+    "title": "Route to intense single attosecond pulses",
+    "cites": 341,
+    "date": "2006-01-31",
+    "journal": {
+      "id": "https://openalex.org/S148121101",
+      "display_name": "New Journal of Physics",
+      "issn_l": "1367-2630",
+      "issn": [
+        "1367-2630"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320083",
+      "host_organization_name": "IOP Publishing",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320083",
+        "https://openalex.org/P4310311669"
+      ],
+      "host_organization_lineage_names": [
+        "IOP Publishing",
+        "Institute of Physics"
+      ],
+      "type": "journal"
+    },
+    "oa_url": "https://iopscience.iop.org/article/10.1088/1367-2630/8/1/019/pdf",
+    "is_oa": true,
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "G. D.",
+        "lastName": "Tsakiris"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "K.",
+        "lastName": "Eidmann"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "J.",
+        "lastName": "Meyer‐ter‐Vehn"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ferenc",
+        "lastName": "Krausz"
+      }
+    ],
+    "author_count": 4
+  }
+]

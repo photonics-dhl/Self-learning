@@ -1,0 +1,20 @@
+{
+  "figure_id": "Adam_p4_i0",
+  "description": "A schematic diagram of a near-field terahertz (THz) imaging setup showing a curved (S-shaped) waveguide or channel (yellow) connecting a THz source on the left to a detector on the right, with a localized near-field probe or interaction region (blue ellipse) positioned at the center of the structure.",
+  "key_findings": [
+    "Near-field probing is performed at a localized region within a guided THz structure",
+    "The geometry suggests confinement and controlled propagation of THz radiation through a curved path"
+  ],
+  "related_concepts": [
+    "near-field imaging",
+    "terahertz waveguides",
+    "evanescent fields",
+    "subwavelength resolution"
+  ],
+  "suggested_knowledge_points": [
+    "Principles of near-field THz imaging and how it surpasses diffraction limits",
+    "Waveguide-based confinement and manipulation of THz radiation",
+    "Role of localized probes in detecting evanescent fields"
+  ],
+  "figure_type": "diagram"
+}

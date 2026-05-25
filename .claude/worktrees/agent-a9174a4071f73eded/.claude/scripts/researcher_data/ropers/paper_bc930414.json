@@ -1,0 +1,48 @@
+{
+  "paper_id": "bc930414",
+  "title": "RESEARCH ARTICLE",
+  "authors": [],
+  "year": 2017,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\ropers\\Herink 等 - 2017 - Real-time spectral interferometry probes the internal dynamics of femtosecond soliton molecules.pdf",
+  "filename": "Herink 等 - 2017 - Real-time spectral interferometry probes the internal dynamics of femtosecond soliton molecules.pdf",
+  "n_figs": 3,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "bc930414_fig_000",
+      "caption": "Fig. 1. Spectral interferometry of soliton molecule dynamics. (A) Sketch of the temporal dynamics\nduring soliton molecule formation in a femtosecond oscillator: Starting from two individual solitons, a bound\nstate with fixed separation and locked relative phase evolves. (B) In the frequency domain, ",
+      "label": "Fig. 1",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bc930414\\bc930414_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "bc930414_fig_001",
+      "caption": "Fig. 2. Formation of a soliton molecule. (A) Experimental real-time interferograms during the formation\nof a soliton bound state with locked relative phases and a separation of 180 fs. The decrease in pulse\nseparation is inversely proportional to the fringe period. Shifts in the fringe pattern denot",
+      "label": "Fig. 2",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bc930414\\bc930414_p02_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "bc930414_fig_002",
+      "caption": "Fig. 3. Soliton molecules with stepping phase. (A) Experimental real-time interferograms of the initial\nsoliton bound state with a separation of 170 fs and fixed relative phase. (B, C, and E) Upon reduction of\npump power, the relative phase of the soliton molecule evolves in a highly regular, steppi",
+      "label": "Fig. 3",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\bc930414\\bc930414_p03_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}

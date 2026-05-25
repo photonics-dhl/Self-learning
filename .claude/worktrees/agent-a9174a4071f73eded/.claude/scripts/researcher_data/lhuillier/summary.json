@@ -1,0 +1,114 @@
+{
+  "researcher": "lhuillier",
+  "n_papers": 6,
+  "n_figures": 37,
+  "papers": [
+    {
+      "paper_id": "4104fc7d",
+      "title": "Journal of Physics B:",
+      "authors": [
+        "Atomic",
+        "Molecular and"
+      ],
+      "year": 2018,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\lhuillier\\Young 等 - 2018 - Roadmap of ultrafast x-ray atomic and molecular physics.pdf",
+      "filename": "Young 等 - 2018 - Roadmap of ultrafast x-ray atomic and molecular physics.pdf",
+      "n_figs": 25,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "0198c8e8",
+      "title": "PHYSICAL REVIE%' A",
+      "authors": [
+        "VOLUME 49",
+        "NUMBER 3"
+      ],
+      "year": 1994,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\lhuillier\\Lewenstein 等 - 1994 - Theory of high-harmonic generation by low-frequency laser fields.pdf",
+      "filename": "Lewenstein 等 - 1994 - Theory of high-harmonic generation by low-frequency laser fields.pdf",
+      "n_figs": 3,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "1e2bc9b2",
+      "title": "Phase of the atomic polarization in high-order harmonic generation",
+      "authors": [
+        "VOLUME 52",
+        "NUMBER 6"
+      ],
+      "year": 1995,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\lhuillier\\Lewenstein 等 - 1995 - Phase of the atomic polarization in high-order harmonic generation.pdf",
+      "filename": "Lewenstein 等 - 1995 - Phase of the atomic polarization in high-order harmonic generation.pdf",
+      "n_figs": 3,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "b3eade2a",
+      "title": "VOLUME 74, NUMBER 19",
+      "authors": [],
+      "year": 1995,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\lhuillier\\Salières 等 - 1995 - Coherence control of high-order harmonics.pdf",
+      "filename": "Salières 等 - 1995 - Coherence control of high-order harmonics.pdf",
+      "n_figs": 3,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "95f52834",
+      "title": "Probing Single-Photon Ionization on the Attosecond Time Scale",
+      "authors": [
+        "K. Klu¨nder",
+        "1 J. M. Dahlstro¨m",
+        "1 M. Gisselbrecht",
+        "1 T. Fordell",
+        "1 M. Swoboda",
+        "1 D. Gue´not",
+        "1 P. Johnsson",
+        "1 J. Caillat",
+        "2"
+      ],
+      "year": 2010,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\lhuillier\\Klünder 等 - 2011 - Probing single-photon ionization on the attosecond time scale.pdf",
+      "filename": "Klünder 等 - 2011 - Probing single-photon ionization on the attosecond time scale.pdf",
+      "n_figs": 2,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "7508ab5f",
+      "title": "LETTERS",
+      "authors": [
+        "G. Sansone1*",
+        "F. Kelkensberg2*",
+        "J. F. Pe´rez-Torres3*",
+        "F. Morales3*",
+        "M. F. Kling4",
+        "W. Siu2",
+        "O. Ghafur2",
+        "P. Johnsson2",
+        "5"
+      ],
+      "year": 1918,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\lhuillier\\Sansone 等 - 2010 - Electron localization following attosecond molecular photoionization.pdf",
+      "filename": "Sansone 等 - 2010 - Electron localization following attosecond molecular photoionization.pdf",
+      "n_figs": 1,
+      "n_tables": 0,
+      "tables": []
+    }
+  ]
+}

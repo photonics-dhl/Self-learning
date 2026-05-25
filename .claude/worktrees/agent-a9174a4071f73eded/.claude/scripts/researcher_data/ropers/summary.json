@@ -1,0 +1,94 @@
+{
+  "researcher": "ropers",
+  "n_papers": 5,
+  "n_figures": 12,
+  "papers": [
+    {
+      "paper_id": "59c16055",
+      "title": "Ultrafast Carrier Dynamics in Graphite Markus Breusing,1 Claus Ropers,1,2,* and Thomas Elsaesser1",
+      "authors": [
+        "Markus Breusing",
+        "1 Claus Ropers",
+        "1",
+        "2",
+        "*",
+        "Thomas Elsaesser1"
+      ],
+      "year": 2008,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\ropers\\Breusing 等 - 2009 - Ultrafast carrier dynamics in graphite.pdf",
+      "filename": "Breusing 等 - 2009 - Ultrafast carrier dynamics in graphite.pdf",
+      "n_figs": 4,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "bc930414",
+      "title": "RESEARCH ARTICLE",
+      "authors": [],
+      "year": 2017,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\ropers\\Herink 等 - 2017 - Real-time spectral interferometry probes the internal dynamics of femtosecond soliton molecules.pdf",
+      "filename": "Herink 等 - 2017 - Real-time spectral interferometry probes the internal dynamics of femtosecond soliton molecules.pdf",
+      "n_figs": 3,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "44d818de",
+      "title": "LETTERS",
+      "authors": [
+        "D. R. Solli1",
+        "C. Ropers1",
+        "2",
+        "P. Koonath1 & B. Jalali1"
+      ],
+      "year": 2007,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\ropers\\Solli 等 - 2007 - Optical rogue waves.pdf",
+      "filename": "Solli 等 - 2007 - Optical rogue waves.pdf",
+      "n_figs": 2,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "61a11e52",
+      "title": "LETTER",
+      "authors": [
+        "G. Herink1",
+        "D. R. Solli1",
+        "M. Gulde1 & C. Ropers1"
+      ],
+      "year": 1905,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\ropers\\Herink 等 - 2012 - Field-driven photoemission from nanostructures quenches the quiver motion.pdf",
+      "filename": "Herink 等 - 2012 - Field-driven photoemission from nanostructures quenches the quiver motion.pdf",
+      "n_figs": 2,
+      "n_tables": 0,
+      "tables": []
+    },
+    {
+      "paper_id": "8bb1e9cf",
+      "title": "LETTER",
+      "authors": [
+        "Armin Feist1",
+        "Katharina E. Echternkamp1",
+        "Jakob Schauss1",
+        "Sergey V. Yalunin1",
+        "Sascha Scha¨fer1 & Claus Ropers1"
+      ],
+      "year": 0,
+      "journal": "",
+      "doi": "",
+      "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\ropers\\Feist 等 - 2015 - Quantum coherent optical phase modulation in an ultrafast transmission electron microscope.pdf",
+      "filename": "Feist 等 - 2015 - Quantum coherent optical phase modulation in an ultrafast transmission electron microscope.pdf",
+      "n_figs": 1,
+      "n_tables": 0,
+      "tables": []
+    }
+  ]
+}

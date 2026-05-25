@@ -1,0 +1,162 @@
+{
+  "paper_id": "630a25cd",
+  "title": "Nobel Lecture: Sub-atomic motions*",
+  "authors": [
+    "Ludwig-Maximilians-Universit¨at M¨unchen",
+    "Munich",
+    "Germany"
+  ],
+  "year": 2024,
+  "journal": "",
+  "doi": "",
+  "pdf_path": "Z:\\321\\DHL\\Self_Learning\\academic_rag\\papers\\postdoc\\krausz\\Krausz - 2024 - Nobel lecture sub-atomic motions.pdf",
+  "filename": "Krausz - 2024 - Nobel lecture sub-atomic motions.pdf",
+  "n_figs": 13,
+  "n_tables": 0,
+  "figures": [
+    {
+      "figure_id": "630a25cd_fig_000",
+      "caption": "FIG. 1.\nWaves of different wavelength can create a wave packet\nhighly localized in space (as well as in time) when being added to\neach other with proper phase.",
+      "label": "FIG. 1",
+      "page": 2,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\630a25cd\\630a25cd_p02_f00.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "630a25cd_fig_001",
+      "caption": "FIG. 2.\nEnergy levels of the hydrogen atom and modulus square of the wave function of the 1s and 2p states represented by clouds\n(left-hand side). Temporal evolution of the 1s-2p superposition state with time elapsing from the bottom to the top of the figure (right-\nhand side).",
+      "label": "FIG. 2",
+      "page": 3,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\630a25cd\\630a25cd_p03_f01.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "630a25cd_fig_002",
+      "caption": "FIG. 4.\nGroup-delay control in a chirped multilayer mirror.\nNarrowband wave packets carried at different wavelengths penetrate\nto different depths before being reflected, as a consequence of a\nmodulation of the multilayer period across the layer stack. In the\nillustrating example,theincreasingmultil",
+      "label": "FIG. 4",
+      "page": 6,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\630a25cd\\630a25cd_p06_f02.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "630a25cd_fig_003",
+      "caption": "FIG. 5.\nSelf-phase modulation due to the optical Kerr effect in a gas-filled hollow-core fiber broadens the spectrum of a high-energy\nultrashort laser pulse. At the output, the pulse carries a frequency sweep and can be temporally compressed by chirped multilayer\nmirrors. Bottom panel: near-single-c",
+      "label": "FIG. 5",
+      "page": 6,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\630a25cd\\630a25cd_p06_f03.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "630a25cd_fig_004",
+      "caption": "FIG. 7.\nSchematic illustration of the experimental apparatus that permitted the generation and measurement of the first isolated sub-\nfemtosecond pulses in 2001 at the Technical University of Vienna. Photo courtesy of Gabriel Tempea.",
+      "label": "FIG. 7",
+      "page": 8,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\630a25cd\\630a25cd_p08_f04.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "630a25cd_fig_005",
+      "caption": "FIG. 8.\nThe common focus of the single-cycle laser beam and\nthe attosecond XUV pulse defines the interaction region, where\nelectron processes are initiated and probed by analyzing the\nemitted photoelectrons or secondary electrons with a time-of-\nflight spectrometer. Courtesy of Thorsten Naeser and C",
+      "label": "FIG. 8",
+      "page": 8,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\630a25cd\\630a25cd_p08_f05.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "630a25cd_fig_006",
+      "caption": "FIG. 9.\nConcept and implementation of light-field-driven attosecond streaking. (a) Change of the photoelectrons’ momentum (arrows)\nreleased by an attosecond XUV pulse at a fixed delay in the presence of a strong laser field (red line). (b) Variation of the final\nphotoelectron momentum distribution a",
+      "label": "FIG. 9",
+      "page": 9,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\630a25cd\\630a25cd_p09_f06.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "630a25cd_fig_007",
+      "caption": "FIG. 10.\nThe heroes behind the first precision attosecond measurements by use of the controlled electric-field oscillations of visible-\nnear-infrared laser light. From left to right: Eleftherios Goulielmakis, Andrius Baltuska, Reinhard Kienberger, Matthias Üiberacker, and\nVlad Yakovlev at the Techni",
+      "label": "FIG. 10",
+      "page": 10,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\630a25cd\\630a25cd_p10_f07.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "630a25cd_fig_008",
+      "caption": "FIG. 12.\nProbing electron dynamics in atoms, molecules, or solids with attosecond spectroscopy. An attosecond XUV/x-ray pulse\ninitiates the motion by catapulting an electron from (a) an outer or (b) a core shell. The temporal evolution of the emission of a\nphotoelectron or (c) an Auger-Meitner (A-M)",
+      "label": "FIG. 12",
+      "page": 11,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\630a25cd\\630a25cd_p11_f08.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "630a25cd_fig_009",
+      "caption": "FIG. 14.\nValence hole wave packet motion in krypton atoms ionized by a linearly polarized single-cycle near-infrared laser field and\nprobed by a 150-as XUV pulse (near 80 eV). The distributions of photon energies absorbed from the attosecond XUV probe at different\ninstants are shown in false-color r",
+      "label": "FIG. 14",
+      "page": 13,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\630a25cd\\630a25cd_p13_f09.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "630a25cd_fig_010",
+      "caption": "FIG. 17.\n(a) Optical-field-induced electron tunneling from the valence to the conduction band of a wide-gap solid is temporally\nconfined to (b) the central half cycle of a cosine-shaped single-cycle laser field and, hence, (c) can be used for sampling the electric field\nof light (blue line in the ho",
+      "label": "FIG. 17",
+      "page": 16,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\630a25cd\\630a25cd_p16_f10.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "photo"
+    },
+    {
+      "figure_id": "630a25cd_fig_011",
+      "caption": "FIG. 19.\nInfrared electric-field molecular fingerprints of blood plasma samples of 470 patients diagnosed with non-small-cell lung\ncancer (cases) and 470 nonsymptomatic reference individuals (controls). The case and control groups of individuals have been matched\nto each other in terms of their age ",
+      "label": "FIG. 19",
+      "page": 18,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\630a25cd\\630a25cd_p18_f11.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    },
+    {
+      "figure_id": "630a25cd_fig_012",
+      "caption": "FIG. 20.\nRed lines: measured infrared electric-field fingerprint signals of lung cancer reproduced from the upper inset of Fig. 19. Blue\nlines: the same number of simulated reference signals representative for the variation within individuals over time. Referencing cancer\nfingerprints to controls ob",
+      "label": "FIG. 20",
+      "page": 19,
+      "image_path": "Z:\\321\\DHL\\Self_Learning\\Obsidian-Vault\\6️⃣ 工具\\visualizations\\630a25cd\\630a25cd_p19_f12.png",
+      "description": "",
+      "key_findings": [],
+      "related_concepts": [],
+      "figure_type": "unknown"
+    }
+  ],
+  "tables": []
+}
