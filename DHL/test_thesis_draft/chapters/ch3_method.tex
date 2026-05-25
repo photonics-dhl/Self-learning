@@ -1,0 +1,69 @@
+% 第3章 阿秒电子脉冲的产生与表征方法
+\chapter{阿秒电子脉冲的产生与表征方法}
+\label{chap:method}
+
+本章介绍实验系统的搭建与关键参数的表征，包括透射电子显微镜的光学集成方案、连续波激光驱动的阿秒电子脉冲产生、能量滤波器的优化配置、以及时间分辨率的标定方法。
+
+\section{实验系统概述}
+\label{sec:exp-overview}
+
+% 实验系统整体介绍：TEM + CW激光 + 能量滤波器
+
+\begin{figure}[htbp]
+    \centering
+    % TODO: 从素材库提取实验系统示意图
+    \includegraphics[width=0.9\linewidth]{ch3/fig_exp_setup}
+    \caption{\label{fig:ch3-setup} 阿秒电子显微术实验系统示意图。连续波激光（红色光路）同时照射压缩膜和样品。电子束（蓝色箭头）穿越压缩膜获得能量调制，在样品平面处形成阿秒脉冲串。能量滤波器选择特定能量侧带的电子成像。}
+\end{figure}
+
+\section{连续波激光驱动的电子脉冲压缩}
+\label{sec:cw-compression}
+
+% 3.2 CW激光参数选择
+% 3.2.1 压缩膜（Si3N4）的制备与集成
+% 3.2.2 激光-电子对准方案
+% 3.2.3 调制深度|g|的测量与优化
+
+\section{能量滤波器的对比度增强}
+\label{sec:energy-filter}
+
+% 3.3 能量滤波器配置
+% 3.3.1 GIF（Gatan Imaging Filter）的参数设置
+% 3.3.2 能量窗口宽度的选择
+% 3.3.3 背景扣除与信噪比优化
+
+\section{时间扫描与延迟控制}
+\label{sec:delay-control}
+
+% 3.4 时间延迟的精密控制
+% 3.4.1 压电平移台的校准
+% 3.4.2 时间零点的确定
+% 3.4.3 相位锁定与稳定性
+
+\section{时间分辨率的标定}
+\label{sec:resolution-calibration}
+
+% 3.5 时间分辨率的实验标定
+% 3.5.1 从能量谱推算脉冲宽度
+% 3.5.2 空间分辨率的测量（PSF法）
+% 3.5.3 系统误差分析
+
+\begin{table}[htbp]
+    \caption{\label{tab:ch3-params} 实验系统关键参数}
+    \begin{tabularx}{\linewidth}{c|X<{\centering}}
+        \hline
+        参数 & 数值 \\ \hline
+        电子能量 $E_0$ & \SI{183}{keV} \\ \hline
+        激光波长 $\lambda$ & \SI{785(5)}{nm} \\ \hline
+        激光功率 $P$ & \SI{300(10)}{mW} \\ \hline
+        脉冲宽度（FWHM）& \SI{800(50)}{as} \\ \hline
+        空间分辨率 & \SI{50(10)}{nm} \\ \hline
+        时间扫描步长 & $\sim$\SI{3}{as} \\ \hline
+        能量滤波窗口 & $\Delta E > $\SI{1}{eV} \\ \hline
+    \end{tabularx}
+\end{table}
+
+\section{本章小结}
+\label{sec:method-summary}
+
+本章介绍了阿秒电子显微术实验系统的搭建与关键参数表征。系统以连续波激光驱动，在常规TEM中实现了$\sim$\SI{800}{as}的时间分辨率和$\sim$\SI{50}{nm}的空间分辨率，为后续的纳米光子系统亚周期动力学研究提供了可靠的实验基础。

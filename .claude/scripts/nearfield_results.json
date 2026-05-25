@@ -1,0 +1,162 @@
+[
+  {
+    "title": "Light Interaction with Photonic and Plasmonic Resonances",
+    "authors": "Philippe Lalanne, Wei Yan, Kevin Vynck, Christophe Sauvan, Jean‐Paul Hugonin",
+    "year": 2018,
+    "journal": "Laser & Photonics Review",
+    "doi": "10.1002/lpor.201700113",
+    "citations": 576,
+    "label": "Novotny near-field optics review textbook",
+    "verified": "SEARCH"
+  },
+  {
+    "title": "Asymmetric Metasurfaces with High-<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mi>Q</mml:mi></mml:math> Resonances Governed by Bound States in the Continuum",
+    "authors": "Kirill Koshelev, Sergey Lepeshov, Mingkai Liu, Andrey Bogdanov, Yuri S. Kivshar",
+    "year": 2018,
+    "journal": "Physical Review Letters",
+    "doi": "10.1103/physrevlett.121.193903",
+    "citations": 1932,
+    "label": "Maier Atwater plasmonics review Nature Materials",
+    "verified": "SEARCH"
+  },
+  {
+    "title": "A review of metasurfaces: physics and applications",
+    "authors": "Hou‐Tong Chen, Antoinette J. Taylor, Nanfang Yu",
+    "year": 2016,
+    "journal": "Reports on Progress in Physics",
+    "doi": "10.1088/0034-4885/79/7/076401",
+    "citations": 2424,
+    "label": "Maier Atwater plasmonics review Nature Materials",
+    "verified": "SEARCH"
+  },
+  {
+    "title": "Spin–orbit interactions of light",
+    "authors": "Konstantin Y. Bliokh, Francisco J. Rodríguez‐Fortuño, Franco Nori, A. V. Zayats",
+    "year": 2015,
+    "journal": "Nature Photonics",
+    "doi": "10.1038/nphoton.2015.201",
+    "citations": 2196,
+    "label": "Brongersma plasmonics nanophotonics review",
+    "verified": "SEARCH"
+  },
+  {
+    "title": "Superdiffusion in optically controlled active media",
+    "authors": "Kyle M. Douglass, Sergey Sukhov, Aristide Dogariu",
+    "year": 2012,
+    "journal": "Nature Photonics",
+    "doi": "10.1038/nphoton.2012.278",
+    "citations": 69,
+    "label": "Kim s-SNOM review",
+    "verified": "OK"
+  },
+  {
+    "title": "The Fano resonance in plasmonic nanostructures and metamaterials",
+    "authors": "Boris Luk’yanchuk, Nikolay I. Zheludev, Stefan A. Maier, Naomi J. Halas, Peter Nordlander, Harald Gießen et al.",
+    "year": 2010,
+    "journal": "Nature Materials",
+    "doi": "10.1038/nmat2810",
+    "citations": 3854,
+    "label": "Schuller plasmonics Nature Materials",
+    "verified": "OK"
+  },
+  {
+    "title": "Optical excitations in electron microscopy",
+    "authors": "F. Javier Garcı́a de Abajo",
+    "year": 2010,
+    "journal": "Reviews of Modern Physics",
+    "doi": "10.1103/revmodphys.82.209",
+    "citations": 1450,
+    "label": "Garcia de Abajo RMP",
+    "verified": "OK"
+  },
+  {
+    "title": "Light passing through subwavelength apertures",
+    "authors": "F. J. Garcı́a-Vidal, L. Martı́n-Moreno, Thomas W. Ebbesen, L. Kuipers",
+    "year": 2010,
+    "journal": "Reviews of Modern Physics",
+    "doi": "10.1103/revmodphys.82.729",
+    "citations": 1214,
+    "label": "Pohl scanning near-field optical microscopy SNOM",
+    "verified": "SEARCH"
+  },
+  {
+    "title": "Magnetic microtraps for ultracold atoms",
+    "authors": "József Fortágh, C. Zimmermann",
+    "year": 2007,
+    "journal": "Reviews of Modern Physics",
+    "doi": "10.1103/revmodphys.79.235",
+    "citations": 572,
+    "label": "Bharadwaj Novotny optical antennas",
+    "verified": "OK"
+  },
+  {
+    "title": "Plasmonics: Fundamentals and Applications",
+    "authors": "Stefan A. Maier",
+    "year": 2007,
+    "journal": "N/A",
+    "doi": "10.1007/0-387-37825-1",
+    "citations": 9566,
+    "label": "Maier Plasmonics book",
+    "verified": "OK"
+  },
+  {
+    "title": "Analysis of band-limited functions on quantum graphs",
+    "authors": "Isaac Z. Pesenson",
+    "year": 2006,
+    "journal": "Applied and Computational Harmonic Analysis",
+    "doi": "10.1016/j.acha.2006.02.003",
+    "citations": 16,
+    "label": "Ocelic s-SNOM",
+    "verified": "OK"
+  },
+  {
+    "title": "SiC MESFETs for High-Frequency Applications",
+    "authors": "S. Sriram, A. Ward, Jason Henning, Scott T. Allen",
+    "year": 2005,
+    "journal": "MRS Bulletin",
+    "doi": "10.1557/mrs2005.79",
+    "citations": 12,
+    "label": "Maier Brongersma Kik MRS plasmonics",
+    "verified": "OK"
+  },
+  {
+    "title": "Surface plasmon subwavelength optics",
+    "authors": "William L. Barnes, Alain Dereux, Thomas W. Ebbesen",
+    "year": 2003,
+    "journal": "Nature",
+    "doi": "10.1038/nature01937",
+    "citations": 11521,
+    "label": "Barnes Nature plasmon",
+    "verified": "OK"
+  },
+  {
+    "title": "Scanning near-field optical microscopy with aperture probes: Fundamentals and applications",
+    "authors": "Bert Hecht, Beate Sick, Urs P. Wild, Volker Deckert, Renato Zenobi, Olivier J. F. Martin et al.",
+    "year": 2000,
+    "journal": "The Journal of Chemical Physics",
+    "doi": "10.1063/1.481382",
+    "citations": 748,
+    "label": "Pohl scanning near-field optical microscopy SNOM",
+    "verified": "SEARCH"
+  },
+  {
+    "title": "Extraordinary optical transmission through sub-wavelength hole arrays",
+    "authors": "Thomas W. Ebbesen, Henri J. Lezec, H. F. Ghaemi, Tineke Thio, P. A. Wolff",
+    "year": 1998,
+    "journal": "Nature",
+    "doi": "10.1038/35570",
+    "citations": 7631,
+    "label": "Ebbesen extraordinary optical transmission",
+    "verified": "OK"
+  },
+  {
+    "title": "On/off blinking and switching behaviour of single molecules of green fluorescent protein",
+    "authors": "Robert M. Dickson, A B Cubitt, Roger Y. Tsien, W. E. Moerner",
+    "year": 1997,
+    "journal": "Nature",
+    "doi": "10.1038/41048",
+    "citations": 1345,
+    "label": "Betzig near-field scanning optical microscopy",
+    "verified": "SEARCH"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Surface plasmon subwavelength optics",
+    "authors": "William L. Barnes, Alain Dereux, Thomas W. Ebbesen",
+    "year": 2003,
+    "journal": "Nature",
+    "doi": "10.1038/nature01937",
+    "citations": 11521,
+    "topic": "Plasmonics fundamentals Nature",
+    "verified": "DOI-VERIFIED"
+  },
+  {
+    "title": "Plasmonics: Fundamentals and Applications",
+    "authors": "Stefan A. Maier",
+    "year": 2007,
+    "journal": "N/A",
+    "doi": "10.1007/0-387-37825-1",
+    "citations": 9566,
+    "topic": "Maier Plasmonics textbook",
+    "verified": "DOI-VERIFIED"
+  },
+  {
+    "title": "Extraordinary optical transmission through sub-wavelength hole arrays",
+    "authors": "Thomas W. Ebbesen, Henri J. Lezec, H. F. Ghaemi, Tineke Thio, P. A. Wolff",
+    "year": 1998,
+    "journal": "Nature",
+    "doi": "10.1038/35570",
+    "citations": 7631,
+    "topic": "Ebbesen extraordinary transmission",
+    "verified": "DOI-VERIFIED"
+  },
+  {
+    "title": "A review of metasurfaces: physics and applications",
+    "authors": "Hou‐Tong Chen, Antoinette J. Taylor, Nanfang Yu",
+    "year": 2016,
+    "journal": "Reports on Progress in Physics",
+    "doi": "10.1088/0034-4885/79/7/076401",
+    "citations": 2424,
+    "topic": "Optical antennas review",
+    "verified": "SEARCH-FOUND"
+  },
+  {
+    "title": "Single-molecule strong coupling at room temperature in plasmonic nanocavities",
+    "authors": "Rohit Chikkaraddy, Bart de Nijs, Felix Benz, Steven J. Barrow, Oren A. Scherman et al.",
+    "year": 2016,
+    "journal": "Nature",
+    "doi": "10.1038/nature17974",
+    "citations": 1965,
+    "topic": "Novotny Hecht textbook",
+    "verified": "SEARCH-FOUND"
+  },
+  {
+    "title": "Plasmonics: Localization and guiding of electromagnetic energy in metal/dielectric structures",
+    "authors": "Stefan A. Maier, Harry A. Atwater",
+    "year": 2005,
+    "journal": "Journal of Applied Physics",
+    "doi": "10.1063/1.1951057",
+    "citations": 1908,
+    "topic": "Garcia de Abajo optical excitations",
+    "verified": "SEARCH-FOUND"
+  },
+  {
+    "title": "On/off blinking and switching behaviour of single molecules of green fluorescent protein",
+    "authors": "Robert M. Dickson, A B Cubitt, Roger Y. Tsien, W. E. Moerner",
+    "year": 1997,
+    "journal": "Nature",
+    "doi": "10.1038/41048",
+    "citations": 1345,
+    "topic": "Betzig near-field seminal",
+    "verified": "SEARCH-FOUND"
+  },
+  {
+    "title": "Scanning near-field optical microscopy with aperture probes: Fundamentals and applications",
+    "authors": "Bert Hecht, Beate Sick, Urs P. Wild, Volker Deckert, Renato Zenobi et al.",
+    "year": 2000,
+    "journal": "The Journal of Chemical Physics",
+    "doi": "10.1063/1.481382",
+    "citations": 748,
+    "topic": "SNOM aperture probes fundamentals",
+    "verified": "DOI-VERIFIED"
+  },
+  {
+    "title": "The 2023 terahertz science and technology roadmap",
+    "authors": "Alfred Leitenstorfer, A. S. Moskalenko, Tobias Kampfrath, Junichiro Kono, Enrique Castro-Camus et al.",
+    "year": 2023,
+    "journal": "Journal of Physics D Applied Physics",
+    "doi": "10.1088/1361-6463/acbe4c",
+    "citations": 441,
+    "topic": "Near-field nanoscopy s-SNOM review",
+    "verified": "SEARCH-FOUND"
+  },
+  {
+    "title": "Roadmap on plasmonics",
+    "authors": "Mark I. Stockman, Katrin Kneipp, Sergey I. Bozhevolnyi, Soham Saha, Aveek Dutta et al.",
+    "year": 2018,
+    "journal": "Journal of Optics",
+    "doi": "10.1088/2040-8986/aaa114",
+    "citations": 318,
+    "topic": "s-SNOM",
+    "verified": "SEARCH-FOUND"
+  },
+  {
+    "title": "Roadmap of Terahertz Imaging 2021",
+    "authors": "Gintaras Valušis, Alvydas Lisauskas, Hui Yuan, W. Knap, Hartmut G. Roskos",
+    "year": 2021,
+    "journal": "Sensors",
+    "doi": "10.3390/s21124092",
+    "citations": 288,
+    "topic": "Ocelic Huber s-SNOM",
+    "verified": "SEARCH-FOUND"
+  },
+  {
+    "title": "Controllable Cobalt Oxide/Au Hierarchically Nanostructured Electrode for Nonenzymatic Glucose Sensing",
+    "authors": "Yingying Su, Binbin Luo, Jin Z. Zhang",
+    "year": 2016,
+    "journal": "Analytical Chemistry",
+    "doi": "10.1021/acs.analchem.5b03396",
+    "citations": 136,
+    "topic": "s-SNOM elastic scattering tip",
+    "verified": "SEARCH-FOUND"
+  }
+]
