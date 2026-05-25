@@ -285,7 +285,7 @@ export class ClaudePanel {
 		fileUploadBtn.textContent = '📁 文件';
 		const textFileInput = document.createElement('input');
 		textFileInput.type = 'file';
-		textFileInput.accept = '.txt,.md,.csv,.json,.yaml,.yml,.py,.js,.ts,.tsx,.tex,.bib,.c,.cpp,.h,.java,.rs,.go,.xml,.html,.css,.sql,.r,.jl,.lua,.sh,.bat,.log,.cfg,.ini,.toml,.m,.mat,.rst,.env,.gitignore,.dockerfile';
+		textFileInput.accept = '.txt,.md,.csv,.json,.yaml,.yml,.py,.js,.ts,.tsx,.tex,.bib,.c,.cpp,.h,.java,.rs,.go,.xml,.html,.css,.sql,.r,.jl,.lua,.sh,.bat,.log,.cfg,.ini,.toml,.m,.mat,.rst,.env,.gitignore,.dockerfile,.pdf';
 		textFileInput.title = '上传文本文件作为上下文';
 		textFileInput.addEventListener('change', (e: Event) => this.handleFileUpload(e));
 		fileUploadBtn.appendChild(textFileInput);
@@ -829,38 +829,81 @@ export class ClaudePanel {
 	}
 
 
-	private handleFileUpload(e: Event) {
+	private async handleFileUpload(e: Event) {
 		const input = e.target as HTMLInputElement;
 		const file = input.files?.[0];
 		if (!file) return;
 
-		// Validate size (max 2MB for text files)
-		if (file.size > 2 * 1024 * 1024) {
-			this.showError('文件不能超过 2MB');
+		const ext = file.name.split('.').pop()?.toLowerCase() || '';
+		const isPdf = ext === 'pdf';
+
+		// Validate size
+		const maxSize = isPdf ? 10 * 1024 * 1024 : 2 * 1024 * 1024;
+		if (file.size > maxSize) {
+			this.showError(isPdf ? 'PDF 不能超过 10MB' : '文件不能超过 2MB');
 			return;
 		}
 
-		const reader = new FileReader();
-		reader.onload = () => {
-			const text = reader.result as string;
-
-			// Check for binary content
-			if (text.includes(' ') || text.length === 0) {
-				this.showError('仅支持文本文件');
-				return;
+		try {
+			let text: string;
+			if (isPdf) {
+				this.showStatus('正在提取 PDF 文本...');
+				text = await this.extractPdfText(file);
+				this.showStatus('');
+				if (!text || text.trim().length === 0) {
+					this.showError('PDF 文本提取失败，可能是扫描件或图片 PDF');
+					return;
+				}
+			} else {
+				text = await this.readTextFile(file);
 			}
 
-			const ext = file.name.split('.').pop()?.toLowerCase() || '';
 			this.attachedFile = { content: text, name: file.name, extension: ext, size: file.size };
-
-			// Clear any attached image (mutual exclusion)
 			this.removeAttachedImage();
-
 			this.updateFilePreview();
-		};
-		reader.readAsText(file);
+		} catch (err) {
+			this.showError(`文件读取失败: ${err}`);
+		}
 		input.value = '';
 	}
+
+	private readTextFile(file: File): Promise<string> {
+		return new Promise((resolve, reject) => {
+			const reader = new FileReader();
+			reader.onload = () => {
+				const text = reader.result as string;
+				if (text.includes(' ') || text.length === 0) {
+					reject('仅支持文本文件');
+					return;
+				}
+				resolve(text);
+			};
+			reader.onerror = () => reject(reader.error);
+			reader.readAsText(file);
+		});
+	}
+
+	private async extractPdfText(file: File): Promise<string> {
+		const arrayBuffer = await file.arrayBuffer();
+		try {
+			// @ts-ignore - Obsidian bundles pdfjs-dist
+			const pdfjs = require('pdfjs-dist');
+			const pdf = await pdfjs.getDocument({ data: arrayBuffer }).promise;
+			const pages: string[] = [];
+			for (let i = 1; i <= pdf.numPages; i++) {
+				const page = await pdf.getPage(i);
+				const content = await page.getTextContent();
+				const text = content.items.map((item: any) => item.str).join(' ');
+				if (text.trim()) pages.push(text);
+			}
+			return pages.join('\n\n');
+			} catch {
+				// Fallback: read as text (some PDFs have readable text sections)
+				const text = await this.readTextFile(new File([file], file.name, { type: 'text/plain' }));
+				return text;
+			}
+		}
+
 
 	private removeAttachedFile() {
 		this.attachedFile = null;
@@ -908,7 +951,7 @@ export class ClaudePanel {
 			yaml: 'yaml', yml: 'yaml', toml: 'toml', csv: 'csv',
 			md: 'markdown', rst: 'rst', m: 'matlab', mat: 'matlab',
 			env: 'bash', gitignore: 'bash', dockerfile: 'dockerfile',
-			log: 'log', cfg: 'ini', ini: 'ini',
+			log: 'log', cfg: 'ini', ini: 'ini', pdf: '',
 		};
 		return map[ext] || '';
 	}
