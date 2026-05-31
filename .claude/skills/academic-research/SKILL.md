@@ -36,8 +36,18 @@ description: |
 用户: "帮我写一篇关于太赫兹产生的综述"
 
 助手执行:
+0. 🔴 RAG知识库检索（前置步骤 — 必做）:
+   a. python academic_rag/run_rag.py search "太赫兹产生" --top-k 15
+      → 检索已索引文献中与主题相关的内容片段
+   b. python academic_rag/run_rag.py find-figure "terahertz generation" --subfield terahertz
+      → 获取已索引论文中的图表资产
+   c. Zotero MCP search_library(q="terahertz generation")
+      → 查询Zotero文献库中的已有条目和笔记
+   → 输出：已有知识覆盖率报告，标记"已索引"/"需新发现"的论文
+
 1. 调用 review_pipeline.py discover "terahertz generation" --n 30
    → 按 relevance_score 排序，返回 30 篇真实论文元数据
+   → 跳过RAG步骤0中已覆盖的论文，避免重复
 
 2. 自动分组（多字段匹配）:
    - 光电导天线 PCA: title/abstract/concepts 包含 "photoconductive" 等
@@ -164,10 +174,48 @@ python .claude/hooks/openalex_search.py export "<主题>" --bibtex --file refs.b
 ## 协作流程
 
 ```
+Phase 0: RAG检索 (academic_rag + Zotero MCP)
+    ↓ 已有知识覆盖率 + 图表资产
 review_pipeline.py (数据层)
-    ↓ 真实论文数据 + LaTeX
+    ↓ 真实论文数据 + LaTeX（跳过已覆盖论文）
 paper-review skill (审查层)
     ↓ 修改建议
 用户 → 最终论文
+```
+
+---
+
+## RAG/BGE-M3 集成规范
+
+### 为什么必须用RAG？
+
+`academic_rag/` 基于 ChromaDB + BAAI/bge-m3 embedding 模型，已索引用户个人文献库。写综述前必须先检索已有知识，否则：
+- 重复发现用户已拥有的论文（浪费时间）
+- 遗漏用户已做的高亮标注和笔记（丢失上下文）
+- 图表提取重复劳动（已索引的图表直接使用）
+
+### RAG命令参考
+
+```bash
+# 文本检索 — 获取与主题相关的文献段落
+python academic_rag/run_rag.py search "查询关键词" --top-k N
+
+# 图表检索 — 获取已索引论文的图表和语义描述
+python academic_rag/run_rag.py find-figure "主题" --subfield 子领域
+
+# 知识库状态 — 查看已索引论文数量和分布
+python academic_rag/run_rag.py stats
+
+# 索引新论文 — 将新获取的PDF加入知识库
+python academic_rag/run_rag.py index paper.pdf --domain optics --subfield terahertz
+```
+
+### Zotero MCP 协同
+
+```
+Zotero MCP search_library(q="主题")    → 查询已有条目
+Zotero MCP get_content(itemKey=key)     → 获取PDF全文+图片
+Zotero MCP search_fulltext(q="关键词")  → 全文检索已有PDF
+Zotero MCP get_annotations(itemKey=key) → 获取用户高亮和笔记
 ```
 

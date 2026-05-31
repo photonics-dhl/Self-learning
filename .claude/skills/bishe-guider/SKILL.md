@@ -78,10 +78,23 @@ description: |
 ```
 1. 用户提出文献检索需求（主题、时间范围等）
 2. 加载规则 2（查阅参考文献）
-3. 使用 gs-search / gs-advanced-search 检索文献
-4. 按筛选标准评估结果
-5. 导出到 Zotero 或生成 BibTeX，存入 references/from-scholar/
-6. 以表格形式输出检索与评估结果
+3. 🔴 Zotero MCP 前置检索（优先使用已有文献库）:
+   a. zotero search_library(q="主题关键词")
+      → 查询Zotero文献库中已有条目，避免重复发现
+   b. zotero search_fulltext(q="关键词", itemKeys=[相关item])
+      → 在已有PDF中全文检索相关段落
+   c. zotero get_annotations(itemKey=论文key)
+      → 获取用户之前做的高亮和笔记（保留研究上下文）
+   d. 输出：已有文献覆盖报告，标记"Zotero已有"/"需新检索"
+4. 使用 gs-search / gs-advanced-search 检索 Zotero 未覆盖的文献
+5. 按筛选标准评估结果
+6. 导出到 Zotero 或生成 BibTeX，存入 references/from-scholar/
+7. 🔴 RAG 知识库补充（如已索引相关论文）:
+   a. python academic_rag/run_rag.py search "主题" --top-k 10
+      → 获取已索引文献中的相关段落和图表
+   b. python academic_rag/run_rag.py find-figure "主题"
+      → 获取图表资产用于论文撰写
+8. 以表格形式输出检索与评估结果
 ```
 
 ### 工作流 D：全面复盘检查
@@ -198,6 +211,17 @@ description: |
 - `gs-advanced-search` — 高级检索
 - `gs-cited-by` — 引用追踪
 - `gs-export` — 导出到 Zotero
+
+**Zotero MCP 集成（优先于 Google Scholar）：**
+- `zotero search_library` — 查询已有文献库，避免重复发现
+- `zotero search_fulltext` — 在已有PDF中全文检索
+- `zotero get_annotations` — 获取用户高亮和笔记
+- `zotero get_content` — 获取PDF全文和图片
+- `zotero semantic_search` — 语义检索（基于embedding）
+
+**RAG 知识库补充：**
+- `python academic_rag/run_rag.py search "主题" --top-k 10` — 语义检索已索引文献
+- `python academic_rag/run_rag.py find-figure "主题"` — 获取已索引图表
 
 **触发时机：**
 - 用户需要查找某主题文献

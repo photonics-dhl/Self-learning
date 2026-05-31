@@ -83,6 +83,40 @@ Wang (2012) 做了zzz
 
 ## 写作流程
 
+### Phase -1: RAG知识库检索（前置步骤）🔴 写综述前必做
+
+**目标**: 在开始任何外部检索前，先利用本地知识库获取已有知识，避免重复劳动。
+
+```
+1. 文本检索:
+   python academic_rag/run_rag.py search "<综述主题>" --top-k 20
+   → 获取已索引文献中与主题相关的段落和上下文
+
+2. 图表检索:
+   python academic_rag/run_rag.py find-figure "<主题关键词>" --subfield <子领域>
+   → 获取已索引论文中的图表资产（跳过后续Phase 0中这些论文的重复提取）
+
+3. Zotero文献库检索:
+   zotero search_library(q="<主题>")
+   → 获取Zotero中已有条目的元数据
+   zotero search_fulltext(q="<关键词>")
+   → 全文检索已有PDF中的相关段落
+   zotero search_annotations(q="<关键词>")
+   → 获取用户在PDF中做的高亮和笔记标注
+
+4. 输出知识覆盖率报告:
+   - 已有论文: [列表] → 直接用于综述，跳过OpenAlex重新发现
+   - 已有图表: [列表] → 直接分配到主题章节
+   - 已有笔记: [列表] → 用于深度分析（Phase 1）
+   - 需新发现: [Gap] → 仅对这些主题调用OpenAlex API
+```
+
+**为什么必须先RAG？**
+- `academic_rag/` 使用 ChromaDB + BAAI/bge-m3 模型，embedding质量高于关键词匹配
+- 用户已在Zotero中做过高亮/笔记的论文，通常是最重要的文献
+- 跳过已索引论文的外部检索，减少API调用和时间消耗
+- 保留用户个人研究上下文，综述更贴合用户实际研究方向
+
 ### Phase 0: 图表预提取（Image Pre-fetch） 🔴 写综述前必做
 
 **目标**: 在动笔之前，先收集所有关键论文的图表资产。
@@ -248,11 +282,11 @@ Wang (2012) 做了zzz
 
 | MCP | 用途 | 使用时机 |
 |-----|------|---------|
-| `zotero` | 获取 PDF 全文 + **提取图表** + 深度分析 | 🔴 关键论文（引用>50）必须调用；先 `get_content` 提取图片，再分析文字 |
-| `semantic-scholar` | 论文元数据、引用数、摘要 | 批量筛选和排序 |
+| `academic_rag` | 🔴 **前置必做** — BGE-M3语义检索已索引文献+图表 | Phase -1，写综述前第一步 |
+| `zotero` | 获取 PDF 全文 + **提取图表** + 用户高亮/笔记 | Phase -1（检索已有）+ Phase 0（提取图表） |
+| `semantic-scholar` | 论文元数据、引用数、摘要 | Phase 1，批量筛选和排序 |
 | `tavily` | 搜索最新进展、补充信息 | 验证 Gap、分析争议时 |
 | `paper-search` | 预印本搜索 | 找最新但未正式发表的工作 |
-| `academic_rag` | 已索引论文图表获取、AI 语义描述 | 论文已索引时优先使用（比 Zotero 快） |
 
 ### 图表提取工具链
 
