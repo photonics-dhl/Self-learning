@@ -364,6 +364,43 @@ export class ClaudePanel {
 				this.sendMessage();
 			}
 		});
+
+		// 支持从剪贴板粘贴图片 (Ctrl+V)
+		this.inputEl.addEventListener('paste', (e: ClipboardEvent) => {
+			const items = e.clipboardData?.items;
+			if (!items) return;
+
+			for (let i = 0; i < items.length; i++) {
+				const item = items[i];
+				if (item.type.startsWith('image/')) {
+					e.preventDefault();
+					const file = item.getAsFile();
+					if (!file) continue;
+
+					// 校验文件大小
+					if (file.size > 10 * 1024 * 1024) {
+						this.showError('图片不能超过 10MB');
+						return;
+					}
+
+					const reader = new FileReader();
+					reader.onload = () => {
+						const base64Full = reader.result as string;
+						const base64 = base64Full.split(',')[1];
+						const mediaType = item.type;
+						// 剪贴板图片无文件名，用时间戳命名
+						const ext = mediaType.split('/')[1] || 'png';
+						const name = `clipboard_${Date.now()}.${ext}`;
+
+						this.attachedImage = { base64, mediaType, name };
+						this.removeAttachedFile();
+						this.updateImagePreview();
+					};
+					reader.readAsDataURL(file);
+					return; // 只处理第一张图片
+				}
+			}
+		});
 	}
 
 	private async loadCurrentNote() {

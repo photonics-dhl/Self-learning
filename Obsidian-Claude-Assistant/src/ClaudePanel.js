@@ -18913,6 +18913,36 @@ var ClaudePanel = class {
         this.sendMessage();
       }
     });
+    this.inputEl.addEventListener("paste", (e) => {
+      var _a2;
+      const items = (_a2 = e.clipboardData) == null ? void 0 : _a2.items;
+      if (!items) return;
+      for (let i = 0; i < items.length; i++) {
+        const item = items[i];
+        if (item.type.startsWith("image/")) {
+          e.preventDefault();
+          const file = item.getAsFile();
+          if (!file) continue;
+          if (file.size > 10 * 1024 * 1024) {
+            this.showError("\u56FE\u7247\u4E0D\u80FD\u8D85\u8FC7 10MB");
+            return;
+          }
+          const reader = new FileReader();
+          reader.onload = () => {
+            const base64Full = reader.result;
+            const base64 = base64Full.split(",")[1];
+            const mediaType = item.type;
+            const ext = mediaType.split("/")[1] || "png";
+            const name = `clipboard_${Date.now()}.${ext}`;
+            this.attachedImage = { base64, mediaType, name };
+            this.removeAttachedFile();
+            this.updateImagePreview();
+          };
+          reader.readAsDataURL(file);
+          return;
+        }
+      }
+    });
   }
   async loadCurrentNote() {
     this.app.workspace.on("active-leaf-change", () => this.refreshCurrentNote());
