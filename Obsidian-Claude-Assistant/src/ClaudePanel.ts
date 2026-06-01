@@ -1,4 +1,5 @@
 import { App, MarkdownRenderer, setIcon } from 'obsidian';
+import * as pdfjs from 'pdfjs-dist';
 import { ZAIClient } from './zai-client';
 import { ClaudeRequest, ClaudeResponse, ConversationEntry } from './types';
 import {
@@ -86,7 +87,7 @@ const styleContent = `
 .claude-write-mode-btn { padding: 4px 10px; border: 1px solid var(--border-color); border-radius: 4px; background: var(--background-primary); color: var(--text-muted); font-size: 11px; cursor: pointer; white-space: nowrap; }
 .claude-write-mode-btn.active { background: #667eea; color: white; border-color: #667eea; }
 .claude-write-mode-btn:hover:not(.active) { background: var(--background-secondary); }
-.claude-message-content { padding: 10px; font-size: 13px; line-height: 1.5; }
+.claude-message-content { padding: 10px; font-size: 13px; line-height: 1.5; user-select: text; -webkit-user-select: text; cursor: text; }
 .claude-message-content pre { background: var(--background-secondary); padding: 8px; border-radius: 4px; overflow-x: auto; font-size: 12px; }
 .claude-message-content code { background: var(--background-secondary); padding: 2px 4px; border-radius: 3px; font-family: 'Consolas', monospace; }
 .claude-streaming-cursor {
@@ -142,6 +143,10 @@ const styleContent = `
 .claude-status { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--text-muted); margin-top: 8px; }
 .claude-status .spinner { width: 12px; height: 12px; border: 2px solid var(--border-color); border-top-color: #667eea; border-radius: 50%; animation: spin 0.8s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
+.claude-pdf-progress { width: 100%; margin-top: 8px; }
+.claude-pdf-progress-bar-bg { width: 100%; height: 6px; background: var(--background-secondary); border-radius: 3px; overflow: hidden; }
+.claude-pdf-progress-bar-fill { height: 100%; background: linear-gradient(90deg, #667eea, #764ba2); border-radius: 3px; transition: width 0.3s ease; }
+.claude-pdf-progress-text { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--text-muted); margin-top: 4px; }
 .claude-panel.minimized .claude-panel-history,
 .claude-panel.minimized .claude-panel-input { display: none; }
 .claude-panel.minimized { height: auto; }
@@ -630,6 +635,17 @@ export class ClaudePanel {
 		}
 	}
 
+	private showPdfProgress(current: number, total: number) {
+		const pct = total > 0 ? Math.round((current / total) * 100) : 0;
+		this.statusEl.empty();
+		const wrapper = this.statusEl.createDiv({ cls: "claude-pdf-progress" });
+		const barBg = wrapper.createDiv({ cls: "claude-pdf-progress-bar-bg" });
+		barBg.createDiv({ cls: "claude-pdf-progress-bar-fill", attr: { style: "width:" + pct + "%" } });
+		const textRow = wrapper.createDiv({ cls: "claude-pdf-progress-text" });
+		textRow.createDiv({ cls: "spinner" });
+		textRow.createSpan({ text: "PDF \u63d0\u53d6\u4e2d " + current + "/" + total + " \u9875 (" + pct + "%)" });
+	}
+
 	private showError(text: string) {
 		this.statusEl.innerHTML = `<span style="color: #ff6b6b;">⚠️ ${text}</span>`;
 		setTimeout(() => this.showStatus(''), 3000);
@@ -849,7 +865,7 @@ export class ClaudePanel {
 				let text: string;
 
 				if (isPdf) {
-					this.showStatus('正在提取 PDF 文本...');
+					this.showStatus('Loading PDF worker...');
 					text = await this.extractPdfText(file);
 					this.showStatus('');
 					if (!text || text.trim().length === 0) {
@@ -913,48 +929,43 @@ export class ClaudePanel {
 		private async extractPdfText(file: File): Promise<string> {
 			const t0 = Date.now();
 			const arrayBuffer = await file.arrayBuffer();
-			
-			const loadPdfjs = (): any => {
-				// Try multiple sources
-				try { return require('pdfjs-dist'); } catch {}
-				try { return (window as any).pdfjsLib; } catch {}
-				try {
-					const viewer = (this.app as any).plugins?.plugins?.['obsidian-pdf'];
-					if (viewer?.pdfjs) return viewer.pdfjs;
-				} catch {}
-				return null;
-			};
-			
-			const pdfjs = loadPdfjs();
-			console.log('[ClaudePlugin] pdfjs loaded:', !!pdfjs, Date.now() - t0, 'ms');
-			
-			if (!pdfjs) {
-				console.warn('[ClaudePlugin] pdfjs not available, skipping PDF text extraction');
-				return '';
+
+			// Load worker from plugin directory via Blob URL
+			const pdfjsLib = pdfjs as any;
+			const pluginDir = (this.app.vault.adapter as any).basePath + '/.obsidian/plugins/Obsidian-Claude-Assistant';
+			const workerPath = pluginDir + '/pdf.worker.min.js';
+			try {
+				const fs = require('fs') as any;
+				const workerCode = fs.readFileSync(workerPath, 'utf-8');
+				const blob = new Blob([workerCode], { type: 'application/javascript' });
+				pdfjsLib.GlobalWorkerOptions.workerSrc = URL.createObjectURL(blob);
+			} catch (e) {
+				console.warn('[ClaudePlugin] Failed to load local pdf worker:', e);
+				// Fallback to CDN
+				pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 			}
-			
-			// Extract with timeout (10s) and page limit (30)
+
 			const MAX_PAGES = 30;
-			const TIMEOUT_MS = 10000;
-			
+			const TIMEOUT_MS = 15000;
+
 			const extraction = (async () => {
-				const pdf = await pdfjs.getDocument({ data: arrayBuffer }).promise;
+				const pdf = await pdfjs.getDocument({ data: new Uint8Array(arrayBuffer), useSystemFonts: true }).promise;
 				const totalPages = Math.min(pdf.numPages, MAX_PAGES);
 				const pages: string[] = [];
 				for (let i = 1; i <= totalPages; i++) {
-					this.showStatus(`PDF ${i}/${totalPages}...`);
+					this.showPdfProgress(i, totalPages);
 					const page = await pdf.getPage(i);
 					const content = await page.getTextContent();
-					const text = content.items.map((item: any) => item.str).join(' ');
+					const text = (content.items as any[]).map(item => item.str).join(' ');
 					if (text.trim()) pages.push(text);
 				}
 				return pages.join('\n\n');
 			})();
-			
+
 			const timer = new Promise<string>((_, reject) =>
 				setTimeout(() => reject(new Error('PDF extraction timeout')), TIMEOUT_MS)
 			);
-			
+
 			try {
 				const result = await Promise.race([extraction, timer]);
 				console.log('[ClaudePlugin] PDF extracted:', result.length, 'chars,', Date.now() - t0, 'ms');

@@ -44,11 +44,11 @@ export declare const ZAI_MODELS: readonly [{
 }, {
     readonly id: "glm-5";
     readonly name: "GLM-5";
-    readonly desc: "标准模型";
+    readonly desc: "标准模型（支持图片）";
 }, {
     readonly id: "glm-4.7";
     readonly name: "GLM-4.7";
-    readonly desc: "高效模型";
+    readonly desc: "高效模型（支持图片）";
 }, {
     readonly id: "glm-4.6";
     readonly name: "GLM-4.6";

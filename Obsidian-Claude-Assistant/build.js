@@ -24,14 +24,14 @@ async function build() {
 			outfile,
 			format: 'cjs',
 			sourcemap: true,
-			external: ['obsidian']
+			external: ['obsidian', 'canvas', 'fs', 'path']
 		});
 		console.log(`Built ${outfile}`);
 	}
 
 	// 自动复制到 Obsidian vault 插件目录
 	if (fs.existsSync(VAULT_PLUGIN_DIR)) {
-		const filesToCopy = ['main.js', 'main.js.map', 'manifest.json'];
+		const filesToCopy = ['main.js', 'main.js.map', 'manifest.json', 'pdf.worker.min.js'];
 		for (const f of filesToCopy) {
 			const src = path.join(__dirname, f);
 			if (fs.existsSync(src)) {

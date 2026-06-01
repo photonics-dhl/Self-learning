@@ -30,6 +30,8 @@ export declare class ClaudePanel {
     private streamingText;
     private attachedImage;
     private imagePreviewEl;
+    private attachedFile;
+    private filePreviewEl;
     constructor(app: App, plugin: any, selectedText?: string);
     private buildUI;
     private loadCurrentNote;
@@ -55,6 +57,10 @@ export declare class ClaudePanel {
     private formatExplanation;
     private toggleMinimize;
     private setWriteMode;
+    private handleFileUpload;
+    private removeAttachedFile;
+    private updateFilePreview;
+    private getLangForExt;
     private handleImageUpload;
     private removeAttachedImage;
     private updateImagePreview;
