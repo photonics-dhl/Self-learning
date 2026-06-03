@@ -24,6 +24,7 @@ Skills live in `.claude/skills/<name>/SKILL.md`. Key skills:
 | `document-skills` | Document format conversion (MarkItDown + pandoc) |
 | `diagram-generator` | DrawIO / Excalidraw technical diagram generation |
 | `paper-search` | Multi-source academic paper search |
+| `tex2docx` | LaTeX (ctexart) → DOCX 格式保持转换（pandoc + python-docx 三步法） |
 
 ## Agents
 

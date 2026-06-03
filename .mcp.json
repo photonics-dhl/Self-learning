@@ -28,8 +28,12 @@
       "args": ["-y", "@modelcontextprotocol/server-memory"]
     },
     "zotero": {
-      "type": "http",
-      "url": "http://127.0.0.1:23120/mcp"
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "http://127.0.0.1:23120/mcp"],
+      "env": {
+        "NO_PROXY": "127.0.0.1,localhost",
+        "no_proxy": "127.0.0.1,localhost"
+      }
     },
     "context7": {
       "command": "npx",

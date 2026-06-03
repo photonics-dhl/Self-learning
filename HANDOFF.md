@@ -1,62 +1,58 @@
 # HANDOFF — Cross-Session Context Bridge
 
-> Updated: 2026-05-21 (Session 18 — 学科基础笔记全面RAG扩充)
+> Updated: 2026-05-31 (Session 20 — 中期报告图注修复 + tex2docx skill 固化)
 
-## Last Task: 学科基础笔记全面RAG扩充（10个笔记）
+## Last Task: 中期报告 DOCX 输出 + tex2docx Skill 固化
 
 ### 完成内容
 
-对所有学科基础笔记进行推导详细化、物理图像清晰化扩充。总计新增约 3200 行。
+#### 1. 中期报告图注修复（Session 前半段）
 
-| 笔记 | 原始 | 扩充后 | 核心新增 |
-|------|------|--------|---------|
-| 01 电磁场理论基础 | 394 | ~700 | 矢量分析恒等式、标矢势推导、规范自由度、多极展开/Larmor、Green函数/推迟势、Drude色散 |
-| 03 波动光学 | 409 | ~550 | 基尔霍夫衍射积分、FP干涉(Airy函数+细度推导)、薄膜/Newton环、Jones+Stokes、相干性深入 |
-| 04 光学原理 | 344 | **723** | 程函方程(从Helmholtz推导)、ABCD矩阵5种+成像条件、厚透镜、Fresnel公式完整推导 |
-| 05 傅里叶光学 | 349 | **786** | 角谱理论、透镜FT精确推导、4f系统、OTF/MTF、Zernike相衬显微镜 |
-| 06 量子光学 | 808 | **1135** | Quadrature+Homodyne、场量子化逐步推导、Wigner函数/相空间、g^(2)四种态推导、Casimir/Lamb |
-| 07 激光物理 | 411 | ~620 | 四能级速率方程+阈值、高斯光束+ABCD定律、锁模几何级数推导+KLM、Schawlow-Townes线宽 |
-| 07 腔QED | 540 | 540 | 已全面，未改 |
-| 08 半导体物理 | 551 | **907** | Kronig-Penney+Bloch定理、PN结Poisson+Shockley、载流子输运/Einstein、量子阱/QCL |
-| 10 纳米光学 | 388 | **767** | SPP色散推导、LSPR+消光截面+Frohlich条件、光学天线、近场增强+SERS |
-| 11 超表面 | 429 | **717** | 广义Snell定律推导、超原子设计(6种)、metalens设计、12类应用表 |
+文件：`DHL/mid_term/mid_term_report.tex` → `mid_term_report.pdf`
 
-### 工作方式
+- Fig 1 caption 修正：3面板（ICS散射几何/ICS前/ICS后），恢复原始图片 `pra_published_p2_img1.jpeg`
+- Fig 2 caption 修正：panel (a) "蓝宝石棱镜耦合线对" → "CdS 纳米线间隙"
+- Fig 4/5/6 (APR 纳米线)：图片保持原始提取版，caption 上轮已修正
+- 指导教师：童利民 教授、郭欣 教授 — 未改动
 
-- 主线程直接编辑：01, 03, 07_激光, 06_量子光学(第二轮)
-- Agent并行处理：04, 05, 08, 10+11（4个agent同时运行）
-- 已RAG扩充（前一轮）：02_麦克斯韦, 09_近场, 12_微波, 13_无线通信, 14_半导体工艺
+#### 2. tex2docx 转换脚本
 
-### RAG使用情况
+文件：`DHL/mid_term/tex2docx.py`
 
-- 搜索了 electromagnetic field, diffraction, laser cavity, plasmon 等主题
-- 主要RAG来源：Scully1997量子光学教材、THz Roadmap 2017、Dressel2015时空代数
-- 新增引用标记："RAG 库收录" 附在 Scully1997, Dressel2015, Born1999 等
+三步混合流程：
+1. **python-docx 生成 reference.docx** — 匹配 ctexart 样式（A4、2.5cm、宋体/黑体）
+2. **pandoc + reference.docx** — 公式→OMML、图片嵌入、交叉引用
+3. **python-docx 后处理** — 232个run字体修正、9个图注/表注识别、2个表格booktabs线型、7张图片尺寸限制
 
-## Next Task: DFT/TDDFT 学习
+输出：`DHL/mid_term/mid_term_report.docx` (2.1 MB)
 
-用户希望学习 **密度泛函理论 (DFT)** 和 **含时密度泛函理论 (TDDFT)**。
+#### 3. tex2docx Skill 固化
 
-### 预期方向
+文件：`.claude/skills/tex2docx/SKILL.md`
 
-1. 在学科基础中创建新的 DFT/TDDFT 笔记
-2. 内容可能包括：
-   - Hohenberg-Kohn 定理（DFT理论基础）
-   - Kohn-Sham 方程（实际计算框架）
-   - 交换关联泛函（LDA, GGA, hybrid）
-   - TDDFT（Runge-Gross 定理, 线性响应）
-   - 常用软件（VASP, QE, GPAW, Octopus）
-   - 与光学/THz研究的关联（材料光学性质计算）
+独立 skill，与 `mid-term-report`（内容撰写）和 `document-skills`（通用文档处理）互补。
 
-### 相关现有笔记
+#### 4. 文档更新
 
-- [[量子光学]] — 多体量子力学基础
-- [[半导体物理]] — 能带结构是DFT的核心应用
-- [[电磁场理论基础]] — 量子力学前驱知识
+- `.claude/rules/architecture.md` — Skills 表新增 `tex2docx`
+- `memory/learning/tex2docx_skill_20260531.md` — 经验记录
+- `memory/MEMORY.md` — 索引新增条目
+
+### 关键经验（pandoc LaTeX→DOCX 陷阱）
+
+1. pandoc 图注用 `Normal` 样式，不是 `Caption` — 需按内容特征识别
+2. pandoc 图片用 `wp:anchor` 不是 `wp:inline` — 检测需覆盖两种
+3. run 的 rPr 可能没有 `rFonts` 节点 — 需创建而非 set
+4. Windows GBK 不兼容 emoji — 需 `io.TextIOWrapper(encoding="utf-8")`
+5. "图 N 展示了" 是正文引用不是 caption，需排除
+
+### 待确认
+
+- [ ] 用户验证 DOCX 在 Word 中打开格式是否满意（图注、公式、表格）
+- [ ] Fig 4/5/6 (APR 纳米线) caption 因视觉模型格式错误未验证，可能仍需修正
 
 ## Previous Sessions
 
+- **Session 19**: 小孔量子化SM扩充 + Obsidian笔记（pandoc OMML修复、PEC镜像法则）
+- **Session 18**: 学科基础笔记全面RAG扩充（10个笔记，~3200行新增）
 - **Session 17**: 博士毕业论文骨架+关键章节生成测试（zjuthesis, 49页PDF）
-- **Session 16**: academic-craft 写作诊断skill + 草稿修订
-- **Session 15**: paper-writing Stage 0 四层素材准备pipeline
-- **Session 14**: 论文写作skill 4→2+1架构重组
