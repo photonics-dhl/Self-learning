@@ -1,6 +1,48 @@
 # HANDOFF — Cross-Session Context Bridge
 
-> Updated: 2026-05-31 (Session 20 — 中期报告图注修复 + tex2docx skill 固化)
+> Updated: 2026-06-03 (Session 21 — K-Dense Skills 集成 + 审稿 skill 定制)
+
+## Last Task: K-Dense Scientific Agent Skills 集成
+
+### 概述
+从 K-Dense-AI/scientific-agent-skills（142 skills）中筛选并集成适合光学 PhD 的 skills。
+策略：交叉增强 + 选择性新增（不替换现有定制 skills）。
+
+### 完成内容（3 commits）
+
+#### P0: 13 个新 skills 安装 (a310798)
+- **Tier 1**: qutip, sympy, scientific-visualization, venue-templates, latex-posters, **referee-review**
+- **Tier 2**: matplotlib, seaborn, pymatgen, statistical-analysis, scientific-slides, database-lookup, pymc
+- 所有 skills 加中文 tags frontmatter
+- **referee-review** 从 K-Dense peer-review 定制：删除生物医学内容 + 光学实验审稿项 + 中英双语审稿信模板
+
+#### P1: document-skills 增强 (890e6a4)
+- 输入格式: PDF/DOCX → +XLSX/PPTX/HTML/EPUB/CSV/JSON/Images(OCR)/Audio
+- 新增: PDF 操作(合并/拆分/水印)、PPTX 创建、XLSX 创建
+- 保留原有 pandoc + python-docx 工作流
+
+#### P2: 6 个现有 skills 交叉增强 (b9b1108)
+- literature-review: +PRISMA mermaid 流程图 + 4 级去重策略
+- scientific-writing: +IMRAD 20 项 checklist + 期刊格式速查表
+- academic-craft: +统计审稿 checklist（效应量/CI/多重比较）
+- diagram-generator: +出版级规范（Nature 7pt/0.5pt/Okabe-Ito）
+- paper-search: +10 数据库并行搜索策略
+- optics-learning: +qutip/sympy 子模块关联
+
+### 关键决策
+- 策略选 B（交叉增强 + 选择性新增），不替换定制 skills
+- 手动复制安装，不用 npx（避免 Windows 兼容问题）
+- 不引入外部 API 依赖
+- Skills 总数: 22 → 35
+
+### 待办/下一步
+- **审稿任务**: 使用 `/referee-review` skill
+- Tier 3 skills（exa-search, research-grants 等）可后续按需添加
+- 博主踩坑参考: Windows 需 WSL2、uv 冲突风险、写作类 > 分析类可靠性
+
+### 博主文章来源
+- 微信文章: https://mp.weixin.qq.com/s/SLX8PNTXQDjTRqYCmfWBew
+- GitHub: https://github.com/K-Dense-AI/scientific-agent-skills
 
 ## Last Task: 中期报告 DOCX 输出 + tex2docx Skill 固化
 
