@@ -261,6 +261,30 @@ humanizer          → 人类化改写（语言层）
 
 ---
 
+## 统计审稿 Checklist（源自 K-Dense peer-review）
+
+对含实验/数值结果的论文，额外逐项检查：
+
+| 检查项 | 要求 | 常见问题 |
+|--------|------|----------|
+| Effect sizes | 报告 Cohen's d / η² / R²，不能只给 p-value | 只写"显著"不给效应量 |
+| Confidence intervals | 关键参数必须有 95% CI | 只给 mean±SD，缺 CI |
+| Multiple comparisons | ≥3 组比较时必须校正（Bonferroni/FDR） | 多次 t 检验不做校正 |
+| Power analysis | 样本量需用先验 power 计算支撑 | "n=3 生物重复"无统计依据 |
+| Parametric vs non-parametric | 正态性检验（Shapiro-Wilk）→ 选择合适检验 | 全用 t-test，不检查正态假设 |
+| Missing data | 报告缺失比例及处理方式（imputation/listwise deletion） | 缺失数据不交代 |
+| Exploratory vs confirmatory | 区分探索性分析与验证性假设检验 | 事后分析伪装成先验假设 |
+
+**统计报告规范**：
+- 每个统计检验需报告：检验名、统计量值、自由度、精确 p 值、效应量、CI
+- 格式示例：`t(58) = 2.34, p = .022, d = 0.61, 95% CI [0.12, 1.10]`
+- 图表误差棒必须标注类型（SD / SEM / 95% CI）
+
+**红线**（发现即判 C 级）：
+1. p-value 操纵（选择性报告、取消 outlier 后重测）
+2. 样本量事后调整至显著（optional stopping）
+3. 效应量极小但声称"显著"（p < .05 但 d < 0.2）
+
 ## 文件结构
 
 ```

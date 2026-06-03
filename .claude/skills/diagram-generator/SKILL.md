@@ -190,6 +190,45 @@ If diagram generation fails:
 4. Simplify - reduce number of elements
 5. Try different format
 
+## 出版级示意图规范（源自 K-Dense scientific-schematics）
+
+### 字体与排版
+
+| 参数 | Nature/Science 标准 | 普通期刊 |
+|------|---------------------|----------|
+| 最小字号 | 7 pt（final print size） | 8 pt |
+| 字体族 | Arial / Helvetica（sans-serif） | 同左 |
+| 标题字号 | 8-10 pt bold | 10-12 pt |
+| 坐标轴标注 | 7-8 pt，含单位 | 8-9 pt |
+
+### 线条与颜色
+
+| 参数 | 规范 |
+|------|------|
+| 最小线宽 | 0.5 pt（Nature）；0.75 pt（一般期刊） |
+| 常用线宽 | 1-2 pt（主体），0.5 pt（辅助线/网格） |
+| 色彩空间 | RGB（屏幕）→ CMYK（印刷时转换） |
+| 色盲友好 | 使用 Okabe-Ito 色板，避免纯红/绿对比 |
+| 灰度兼容 | 必须在灰度下可区分（冗余编码：形状+颜色） |
+
+### 分辨率与格式
+
+| 用途 | 格式 | DPI |
+|------|------|-----|
+| LaTeX 论文 | PDF / EPS（矢量） | N/A |
+| 网页预印本 | SVG（矢量） | N/A |
+| 光栅备份 | PNG / TIFF | ≥300 DPI |
+| 海报 | PDF（矢量） | 300 DPI |
+
+### 质量自查清单
+
+- [ ] 最终尺寸下字号 ≥ 7 pt（可用 ImageMagick `identify -verbose` 验证）
+- [ ] 线宽 ≥ 0.5 pt，无断裂/锯齿
+- [ ] 色盲模拟通过（Coblis / Color Oracle 工具）
+- [ ] 灰度打印可区分所有元素
+- [ ] 所有标注含单位，缩写与正文一致
+- [ ] 矢量格式优先，避免位图文字
+
 ## Notes
 
 - DrawIO files can be edited in draw.io app or VS Code extension

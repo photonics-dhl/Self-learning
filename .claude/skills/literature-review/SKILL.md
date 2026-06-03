@@ -356,4 +356,56 @@ literature-review/
 
 ---
 
+## PRISMA 流程与去重策略（源自 K-Dense）
+
+### PRISMA 结构化流程图模板
+
+系统性综述必须包含 PRISMA 流程图，用 mermaid 绘制：
+
+```mermaid
+flowchart TD
+    A["数据库检索<br/>OpenAlex + Semantic Scholar + RAG"] --> B["初始结果<br/>n = X"]
+    B --> C{"去重"}
+    C -->|"DOI 匹配<br/>+ 标题相似度 ≥0.9"| D["去重后<br/>n = Y"]
+    D --> E{"标题筛选"}
+    E -->|"排除: 主题不符"| F["标题筛选后<br/>n = Z"]
+    F --> G{"摘要筛选"}
+    G -->|"排除: 不满足纳入标准"| H["摘要筛选后<br/>n = A"]
+    H --> I{"全文筛选"}
+    I -->|"排除: 详细原因"| J["纳入综述<br/>n = B"]
+    style A fill:#4a9eff,color:#fff
+    style J fill:#2d9c2d,color:#fff
+```
+
+### 多数据库去重策略
+
+当从 OpenAlex、Semantic Scholar、RAG 知识库、Zotero 等多个来源检索文献时，必须执行去重：
+
+| 去重层级 | 方法 | 优先级 | 适用场景 |
+|----------|------|--------|---------|
+| L1: DOI 精确匹配 | `doi1 == doi2` | 最高 | 有 DOI 的正式发表文献 |
+| L2: ArXiv ID 匹配 | `arxiv:XXXX.XXXX` | 高 | 预印本与正式发表版本 |
+| L3: 标题相似度 | Levenshtein 或 embedding 余弦 ≥0.9 | 中 | DOI 缺失时的回退方案 |
+| L4: 作者+年份组合 | `first_author + year + venue` | 低 | 以上均无匹配时 |
+
+**去重流程**:
+```
+输入: sources[] = [openalex_results, s2_results, rag_results, zotero_results]
+  ↓
+Step 1: 按 DOI 去重 → 保留引用数最高的版本
+  ↓
+Step 2: 按 ArXiv ID 去重 → 优先保留已发表版本（有 DOI）
+  ↓
+Step 3: 按标题相似度去重 → 人工确认边界情况
+  ↓
+输出: unique_papers[] + duplicates_report.json
+```
+
+**输出格式**: 每次去重记录 `duplicates_report.json`，包含：
+- 总输入数、每层去除数、最终输出数
+- 每条重复记录的来源和保留理由
+- 纳入/排除标准文档化
+
+---
+
 *本技能基于学术规范设计，确保生成的文献综述具有真正的学术价值*

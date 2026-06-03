@@ -164,3 +164,36 @@ SORT status
     ├── 轨道角动量生成
     └── 智能光学表面
 ```
+
+
+## 模拟工具子模块（关联 qutip / sympy skills）
+
+构建知识树后，理论推导和数值仿真是深入学习的关键步骤。以下两个 skill 作为本技能的模拟工具子模块：
+
+### qutip — 量子光学数值模拟
+
+**适用场景**：需要数值求解量子系统动力学时调用。擅长开放量子系统、耗散过程、Wigner 函数可视化。
+
+- 关联 skill：`qutip`（`.claude/skills/qutip/SKILL.md`）
+- 典型用例：
+  1. **腔 QED 模拟**：Jaynes-Cummings 模型，原子-光子耦合动力学（`mesolve` + 期待值演化）
+  2. **退相干分析**：Lindblad 主方程求解耗散过程，计算纠缠度随时间衰减（`concurrence`）
+  3. **量子态可视化**：相干态/压缩态的 Wigner 函数分布图（`wigner` + `contourf`）
+
+### sympy — 符号推导与解析验证
+
+**适用场景**：需要精确符号推导、公式验证、或生成 LaTeX 公式时调用。擅长解析积分、微分方程、矩阵对角化。
+
+- 关联 skill：`sympy`（`.claude/skills/sympy/SKILL.md`）
+- 典型用例：
+  1. **Maxwell 方程推导**：从旋度方程出发，符号推导电磁波方程和边界条件（`diff` + `simplify`）
+  2. **耦合模理论**：符号建立耦合微分方程组，解析求解本征频率分裂（`dsolve` + `eigenvals`）
+  3. **公式→代码流水线**：符号推导得到解析解后，`lambdify` 转为 NumPy 函数供 matplotlib 绑图
+
+### 协同工作流
+
+```
+optics-learning（知识树）
+  → sympy（手推核心公式，确认物理正确性）
+  → qutip（数值验证，参数扫描，可视化动态过程）
+```
