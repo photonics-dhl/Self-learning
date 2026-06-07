@@ -140,7 +140,7 @@ export class ZAIClient {
 				'Authorization': `Bearer ${this.apiKey}`
 			},
 			body: JSON.stringify({
-				model: 'glm-4.6v-flash',
+				model: 'glm-4.5v',
 				max_tokens: this.maxTokens,
 				messages: [
 					{
