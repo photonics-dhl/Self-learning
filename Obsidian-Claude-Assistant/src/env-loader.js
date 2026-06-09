@@ -29,12 +29,17 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // src/env-loader.ts
 var env_loader_exports = {};
 __export(env_loader_exports, {
+  readAllCredentials: () => readAllCredentials,
+  readDeepSeekBaseUrl: () => readDeepSeekBaseUrl,
+  readDeepSeekKey: () => readDeepSeekKey,
+  readMiniMaxBaseUrl: () => readMiniMaxBaseUrl,
+  readMiniMaxKey: () => readMiniMaxKey,
   readZAIKey: () => readZAIKey
 });
 module.exports = __toCommonJS(env_loader_exports);
 var import_fs = require("fs");
 var path = __toESM(require("path"));
-function readZAIKey() {
+function readEnvKey(keyName) {
   const candidates = [
     path.join(process.cwd(), ".env"),
     path.join(__dirname, "..", ".env"),
@@ -45,7 +50,8 @@ function readZAIKey() {
     if (!(0, import_fs.existsSync)(envPath)) continue;
     try {
       const content = (0, import_fs.readFileSync)(envPath, "utf-8");
-      const match = content.match(/^ZAI_API_KEY\s*=\s*["']?([^\s"']+)["']?/m);
+      const regex = new RegExp(`^${keyName}\\s*=\\s*["']?([^\\s"']+)["']?`, "m");
+      const match = content.match(regex);
       if (match) return match[1];
     } catch {
       continue;
@@ -53,8 +59,44 @@ function readZAIKey() {
   }
   return null;
 }
+function readZAIKey() {
+  return readEnvKey("ZAI_API_KEY");
+}
+function readMiniMaxKey() {
+  return readEnvKey("MINIMAX_API_KEY");
+}
+function readMiniMaxBaseUrl() {
+  return readEnvKey("MINIMAX_BASE_URL") || "https://api.minimax.chat/v1";
+}
+function readDeepSeekKey() {
+  return readEnvKey("DEEPSEEK_API_KEY");
+}
+function readDeepSeekBaseUrl() {
+  return readEnvKey("DEEPSEEK_BASE_URL") || "https://api.deepseek.com";
+}
+function readAllCredentials() {
+  return {
+    zai: {
+      apiKey: readZAIKey(),
+      baseUrl: "https://api.z.ai/api/anthropic"
+    },
+    minimax: {
+      apiKey: readMiniMaxKey(),
+      baseUrl: readMiniMaxBaseUrl()
+    },
+    deepseek: {
+      apiKey: readDeepSeekKey(),
+      baseUrl: readDeepSeekBaseUrl()
+    }
+  };
+}
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
+  readAllCredentials,
+  readDeepSeekBaseUrl,
+  readDeepSeekKey,
+  readMiniMaxBaseUrl,
+  readMiniMaxKey,
   readZAIKey
 });
 //# sourceMappingURL=env-loader.js.map

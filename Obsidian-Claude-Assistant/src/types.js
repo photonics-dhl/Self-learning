@@ -31,7 +31,10 @@ var ZAI_MODELS = [
   { id: "glm-4.5", name: "GLM-4.5", desc: "\u8F7B\u91CF\u6A21\u578B" },
   { id: "glm-4.5-air", name: "GLM-4.5-Air", desc: "\u6781\u901F\u6A21\u578B" },
   { id: "glm-4.6v", name: "GLM-4.6V (Vision)", desc: "\u89C6\u89C9\u7406\u89E3\u6A21\u578B" },
-  { id: "glm-4.5v", name: "GLM-4.5V (Vision)", desc: "\u89C6\u89C9\u7406\u89E3\u6A21\u578B" }
+  { id: "glm-4.5v", name: "GLM-4.5V (Vision)", desc: "\u89C6\u89C9\u7406\u89E3\u6A21\u578B" },
+  // Fallback 模型（不在 UI 模型列表显示，仅用于路由降级）
+  { id: "MiniMax-M2.7", name: "MiniMax-M2.7 (Fallback)", desc: "MiniMax \u5907\u7528\u6A21\u578B" },
+  { id: "deepseek-v4-flash", name: "DeepSeek-V4-Flash (Fallback)", desc: "DeepSeek \u515C\u5E95\u6A21\u578B" }
 ];
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {

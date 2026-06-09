@@ -26,6 +26,7 @@ Skills live in `.claude/skills/<name>/SKILL.md`. Key skills:
 | `paper-search` | Multi-source academic paper search |
 | `tex2docx` | LaTeX (ctexart) → DOCX 格式保持转换（pandoc + python-docx 三步法） |
 | `word-form-filler` | 填写 Word 表格表单，格式零破坏（python-docx，保留 rPr/pPr，合并格去重，验证输出） |
+| `academic-craft` | 六条学术写作铁律（问题驱动、不确定度、定量对比、AI痕迹清除） |
 
 ## Agents
 

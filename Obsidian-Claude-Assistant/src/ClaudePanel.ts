@@ -53,6 +53,10 @@ const styleContent = `
   border-radius: 3px;
   font-weight: 400;
 }
+.claude-panel-model-badge.fallback {
+  background: rgba(255, 193, 7, 0.35);
+  color: #ffc107;
+}
 .claude-panel-controls { display: flex; gap: 8px; }
 .claude-panel-controls button {
   background: rgba(255,255,255,0.2);
@@ -200,7 +204,9 @@ export class ClaudePanel {
 		this.client = new ZAIClient({
 			apiKey: settings.apiKey || '',
 			model: settings.model || 'glm-5.1',
-			maxTokens: settings.maxTokens || 4096
+			maxTokens: settings.maxTokens || 4096,
+			minimaxApiKey: settings.minimaxApiKey || '',
+			deepseekApiKey: settings.deepseekApiKey || ''
 		});
 		this.selectedText = selectedText || '';
 
@@ -500,6 +506,26 @@ export class ClaudePanel {
 		}
 	}
 
+	private updateModelBadge() {
+		if (!this.modelBadge) return;
+		const actualModel = this.client.getLastActualModel();
+		const actualProvider = this.client.getLastActualProvider();
+		const primaryModel = this.client.getModel();
+
+		// Show actual model used (may differ from primary if fallback triggered)
+		const displayName = actualProvider === 'zai' ? actualModel : `${actualModel} (${actualProvider})`;
+		this.modelBadge.textContent = displayName;
+
+		// Highlight badge if fallback is active
+		if (actualModel !== primaryModel || actualProvider !== 'zai') {
+			this.modelBadge.classList.add('fallback');
+			this.modelBadge.title = `主模型 ${primaryModel} 不可用，已降级到 ${displayName}`;
+		} else {
+			this.modelBadge.classList.remove('fallback');
+			this.modelBadge.title = `当前模型: ${actualModel}`;
+		}
+	}
+
 	private detectAction(message: string): ClaudeRequest['action'] {
 		if (message.startsWith('/visualize')) return 'visualize';
 		if (message.startsWith('/cite')) return 'cite';
@@ -566,6 +592,7 @@ export class ClaudePanel {
 		this.streamingContentEl = null;
 		this.streamingText = '';
 
+		this.updateModelBadge();
 		this.showStatus('');
 		this.setGenerating(false);
 		this.writeBtn.style.display = 'block';
@@ -580,6 +607,7 @@ export class ClaudePanel {
 		}
 		this.streamingMsgEl = null;
 		this.streamingContentEl = null;
+		this.updateModelBadge();
 		this.setGenerating(false);
 	}
 
@@ -628,6 +656,7 @@ export class ClaudePanel {
 		this.addMessage('assistant', response.response);
 		this.conversation.push({ role: 'assistant', content: response.response, timestamp: Date.now() });
 
+		this.updateModelBadge();
 		this.showStatus('');
 		this.writeBtn.style.display = 'block';
 		this.modeRow.style.display = 'flex';
@@ -1156,6 +1185,7 @@ export class ClaudePanel {
 			this.conversation.push({ role: 'assistant', content: result, timestamp: Date.now() });
 			this.addMessage('assistant', result);
 
+			this.updateModelBadge();
 			this.showStatus('');
 			this.setGenerating(false);
 			this.writeBtn.style.display = 'block';
