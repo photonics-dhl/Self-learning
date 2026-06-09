@@ -21,7 +21,7 @@ Personal digital academic brain for an optics PhD researcher. AI-assisted knowle
 Zotero (PDFs) ──► academic_rag/ (ChromaDB + bge-m3) ──► semantic search
      │                                                          │
      ▼                                                          ▼
-Obsidian-Vault/ (301 notes) ◄── Claude Code (skills + agents + hooks)
+Obsidian-Vault/ ◄── Claude Code (skills + agents + hooks)
      ▲                              │
      │                              ▼
 Obsidian-Claude-Assistant/     MCP servers (9: tavily, semantic-scholar,
@@ -45,7 +45,7 @@ Obsidian-Claude-Assistant/     MCP servers (9: tavily, semantic-scholar,
 | Obsidian plugin | TypeScript + esbuild (`Obsidian-Claude-Assistant/`) |
 | Visualization | matplotlib + numpy + scipy |
 
-No root-level `requirements.txt` or `package.json`. Python 3.9 in `.venv/`, Node deps only in `Obsidian-Claude-Assistant/`.
+No root-level `requirements.txt` or `package.json`. Python 3.9+ (system or `.venv/`), Node deps only in `Obsidian-Claude-Assistant/`.
 
 ## Key Commands
 
@@ -74,10 +74,13 @@ Full command reference in `.claude/rules/commands.md`.
 | `.mcp.json` | 9 MCP server definitions |
 | `.env` | API keys (gitignored) — all keys read via `os.environ` |
 | `Obsidian-Vault/6️⃣ 工具/templates/` | LaTeX templates (zjuthesis + journal) |
-| `DHL/test_paper_draft/` | Paper-writing pipeline outputs |
 | `academic_rag/chroma_db/` | Vector DB — **never delete** (rebuild = hours) |
-| `.claude/skills/<name>/SKILL.md` | Custom skills (28 total) |
+| `.claude/skills/<name>/SKILL.md` | Custom skills (36 total) |
 | `.claude/agents/*.md` | Sub-agent definitions (9 total) |
+| `DHL/` | Active paper drafts (small_hole_qed, thz_nearfield_paper, terahertz_qed, High_power, mid_term) + templates |
+| `Obsidian-Vault/1️⃣ 学科基础/` | Foundation notes organized by topic (01 电磁地基–18 拓扑光学) |
+| `Obsidian-Vault/2️⃣ 研究方向/` | Research-direction notes |
+| `Obsidian-Vault/4️⃣ 文献库/` | Literature notes synced from Zotero |
 
 ## Critical Conventions
 
@@ -91,7 +94,8 @@ Full command reference in `.claude/rules/commands.md`.
 
 ## Session Discipline
 
-- **HANDOFF.md**: Write task state + decisions + next steps before `/clear` or session end. Read at session start.
+- **HANDOFF.md** (repo root): Write task state + decisions + next steps before `/clear` or session end. Read at session start. Always check for prior session context.
+- **Caveman mode**: Default communication style (terse, no filler). Toggle via `/caveman lite|full|ultra`.
 - **Compact triggers**: Task complete, rounds > 20, time > 30min, or context switching → `/compact` immediately.
 - **Verification**: Code → run it. LaTeX → compile. Plugin → `npm run build`. Lit review → output file exists + non-empty.
 - **First principles**: Unclear motivation → stop and discuss. Root cause only, no patches. Every decision answers "why."
